@@ -51,7 +51,10 @@ function show(p) {
     "hidden",
     !playable && p.format !== "spritesheet",
   );
-  $("player").src = playable
+  // A fragment-only navigation does not rerun the reader's initialization.
+  // Replace the iframe to load the new package and release the old runtime.
+  const frame = $("player").cloneNode(false);
+  frame.src = playable
     ? "/play.html#" +
       encodeURIComponent(
         JSON.stringify({
@@ -76,6 +79,7 @@ function show(p) {
           }),
         )
       : "about:blank";
+  $("player").replaceWith(frame);
   $("pieces").replaceChildren();
   for (const piece of p.pieces.length
     ? p.pieces
