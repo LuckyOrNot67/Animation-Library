@@ -1,0 +1,384 @@
+{
+  "id": "animations/vs-shed-e38627ac",
+  "name": "vs-shed",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-b3e5fff8.atlas",
+  "pma": true,
+  "atlases": [
+    "atlas-b3e5fff8.atlas"
+  ],
+  "textures": [
+    "vs-shed.png",
+    "vs-shed_2.png",
+    "vs-shed_3.png",
+    "vs-shed_4.png",
+    "winner_w.png",
+    "winner_gator_v1.png",
+    "winner_squid_v1.png"
+  ],
+  "animations": [
+    {
+      "name": "fight",
+      "duration": 2.7,
+      "timelines": {
+        "bones": 24,
+        "slots": 16,
+        "events": 8
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 3,
+      "timelines": {
+        "bones": 9
+      }
+    },
+    {
+      "name": "land",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 9,
+        "slots": 4,
+        "events": 1
+      }
+    },
+    {
+      "name": "reveal_gator",
+      "duration": 1.25,
+      "timelines": {
+        "bones": 29,
+        "slots": 22,
+        "attachments": 1,
+        "events": 1
+      }
+    },
+    {
+      "name": "reveal_squid",
+      "duration": 1.25,
+      "timelines": {
+        "bones": 32,
+        "slots": 21,
+        "attachments": 1,
+        "events": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "puff_0",
+    "puff_1",
+    "puff_2",
+    "puff_3",
+    "puff_4",
+    "puff_5",
+    "puff_6",
+    "puff_7",
+    "puff_8",
+    "puff_9",
+    "puff_10",
+    "puff_11",
+    "puff_12",
+    "puff_13",
+    "shed",
+    "roof",
+    "wall_left",
+    "wall_right",
+    "door_impact",
+    "gator",
+    "gator_head",
+    "gator_left",
+    "gator_right",
+    "squid",
+    "squid_head",
+    "squid_left",
+    "squid_right",
+    "vs_lettering",
+    "letter_V",
+    "letter_V_tip",
+    "letter_S",
+    "letter_S_tip",
+    "smoke_curl_0",
+    "smoke_curl_1",
+    "smoke_curl_2",
+    "smoke_curl_3",
+    "smoke_curl_4",
+    "smoke_curl_5",
+    "smoke_curl_6",
+    "smoke_curl_7",
+    "smoke_curl_8",
+    "smoke_curl_9",
+    "smoke_curl_10",
+    "smoke_curl_11",
+    "smoke_curl_12",
+    "smoke_curl_13",
+    "gator_portrait_body",
+    "gator_portrait_head",
+    "gator_portrait_hat",
+    "gator_portrait_muzzle",
+    "gator_portrait_brow",
+    "gator_portrait_fist_l",
+    "gator_portrait_fist_r",
+    "gator_portrait_wrist_l",
+    "gator_portrait_wrist_r",
+    "gator_portrait_tie",
+    "gator_portrait_wild_emblem",
+    "squid_portrait_body",
+    "squid_portrait_face",
+    "squid_portrait_mantle",
+    "squid_portrait_brow_l",
+    "squid_portrait_brow_r",
+    "squid_portrait_bowtie",
+    "squid_portrait_curl_l_base",
+    "squid_portrait_curl_l_mid",
+    "squid_portrait_curl_l_tip",
+    "squid_portrait_curl_r_base",
+    "squid_portrait_curl_r_mid",
+    "squid_portrait_curl_r_tip",
+    "squid_portrait_arms"
+  ],
+  "slots": [
+    "interior",
+    "roof_panel",
+    "left_panel",
+    "right_panel",
+    "threshold",
+    "door",
+    "letter_V",
+    "letter_S",
+    "gator",
+    "winner_w",
+    "squid",
+    "puff_0",
+    "puff_0_blend",
+    "puff_1",
+    "puff_1_blend",
+    "puff_2",
+    "puff_2_blend",
+    "puff_3",
+    "puff_3_blend",
+    "puff_4",
+    "puff_4_blend",
+    "puff_5",
+    "puff_5_blend",
+    "puff_6",
+    "puff_6_blend",
+    "puff_7",
+    "puff_7_blend",
+    "puff_8",
+    "puff_8_blend",
+    "puff_9",
+    "puff_9_blend",
+    "puff_10",
+    "puff_10_blend",
+    "puff_11",
+    "puff_11_blend",
+    "puff_12",
+    "puff_12_blend",
+    "puff_13",
+    "puff_13_blend"
+  ],
+  "pieces": [
+    {
+      "region": "interior",
+      "file": "pieces/interior-c46e1ed4.png",
+      "page": "vs-shed.png",
+      "properties": {
+        "bounds": "1,1,128,128"
+      }
+    },
+    {
+      "region": "shed",
+      "file": "pieces/shed-1a4401a3.png",
+      "page": "vs-shed.png",
+      "properties": {
+        "bounds": "1,387,627,627"
+      }
+    },
+    {
+      "region": "smoke_0",
+      "file": "pieces/smoke-0-ebe58752.png",
+      "page": "vs-shed.png",
+      "properties": {
+        "bounds": "1,130,256,256"
+      }
+    },
+    {
+      "region": "smoke_1",
+      "file": "pieces/smoke-1-821273a4.png",
+      "page": "vs-shed.png",
+      "properties": {
+        "bounds": "629,758,256,256"
+      }
+    },
+    {
+      "region": "smoke_2",
+      "file": "pieces/smoke-2-4fd0ef9b.png",
+      "page": "vs-shed.png",
+      "properties": {
+        "bounds": "258,130,256,256"
+      }
+    },
+    {
+      "region": "smoke_3",
+      "file": "pieces/smoke-3-3cd3f2d7.png",
+      "page": "vs-shed.png",
+      "properties": {
+        "bounds": "629,501,256,256"
+      }
+    },
+    {
+      "region": "smoke_4",
+      "file": "pieces/smoke-4-db5e1c0d.png",
+      "page": "vs-shed.png",
+      "properties": {
+        "bounds": "515,130,256,256"
+      }
+    },
+    {
+      "region": "smoke_5",
+      "file": "pieces/smoke-5-8a77868a.png",
+      "page": "vs-shed_2.png",
+      "properties": {
+        "bounds": "1,396,256,256"
+      }
+    },
+    {
+      "region": "smoke_6",
+      "file": "pieces/smoke-6-2b760720.png",
+      "page": "vs-shed_2.png",
+      "properties": {
+        "bounds": "258,396,256,256"
+      }
+    },
+    {
+      "region": "smoke_7",
+      "file": "pieces/smoke-7-3e9ba98f.png",
+      "page": "vs-shed_2.png",
+      "properties": {
+        "bounds": "515,396,256,256"
+      }
+    },
+    {
+      "region": "squid",
+      "file": "pieces/squid-6cd8bc71.png",
+      "page": "vs-shed_2.png",
+      "properties": {
+        "bounds": "1,1,395,700",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "letter_S",
+      "file": "pieces/letter-s-1e4d121c.png",
+      "page": "vs-shed_3.png",
+      "properties": {
+        "bounds": "1,86,405,514",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "letter_V",
+      "file": "pieces/letter-v-9a22a6d2.png",
+      "page": "vs-shed_3.png",
+      "properties": {
+        "bounds": "516,1,490,489"
+      }
+    },
+    {
+      "region": "gator",
+      "file": "pieces/gator-6f876627.png",
+      "page": "vs-shed_4.png",
+      "properties": {
+        "bounds": "1,1,553,678"
+      }
+    },
+    {
+      "region": "winner_w",
+      "file": "pieces/winner-w-b773deb4.png",
+      "page": "winner_w.png",
+      "properties": {
+        "bounds": "0,0,659,659"
+      }
+    },
+    {
+      "region": "winner_gator_v1",
+      "file": "pieces/winner-gator-v1-2b2ed253.png",
+      "page": "winner_gator_v1.png",
+      "properties": {
+        "bounds": "0,0,627,627"
+      }
+    },
+    {
+      "region": "winner_squid_v1",
+      "file": "pieces/winner-squid-v1-65ca6322.png",
+      "page": "winner_squid_v1.png",
+      "properties": {
+        "bounds": "0,0,627,627"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed.json",
+      "sha256": "e38627ac9e4ebefac6bdc90cf828b4a9573ec5134e06034f9e31cd2540857eae",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-b3e5fff8.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed.atlas",
+      "sha256": "b3e5fff86e0bdfad0aa443a43ffaa77554fcac3c9922d48f34b3b252a1783ff8",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "vs-shed.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed.png",
+      "sha256": "eb005dc2512b8abcfd73c751d3f7dcc81ed397201caee0b8fb58121b5955df3b",
+      "kind": "image"
+    },
+    {
+      "file": "vs-shed_2.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed_2.png",
+      "sha256": "06d6bd307a00c8d69459cc93b2d8fbe1e6b04654d2e51d3da47cdcfa0550bccf",
+      "kind": "image"
+    },
+    {
+      "file": "vs-shed_3.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed_3.png",
+      "sha256": "2ff27e1a7662fd490d45ee8bfca08d51dc5f3a0f91308c4852acd87eea848163",
+      "kind": "image"
+    },
+    {
+      "file": "vs-shed_4.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/vs-shed_4.png",
+      "sha256": "8addabf57a6ecb142986c87ec0928a73fb93ed5bc62ca98b0a02a5de626fd0e6",
+      "kind": "image"
+    },
+    {
+      "file": "winner_w.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_w.png",
+      "sha256": "655392729655b7e084d9ea146daadd79d0d7b79139ee7c12f94ff9d27a451e0c",
+      "kind": "image"
+    },
+    {
+      "file": "winner_gator_v1.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_gator_v1.png",
+      "sha256": "8361e077ff28ade191c17cfe76ce70591eb11015a4c90cf06beef02c8f21ec62",
+      "kind": "image"
+    },
+    {
+      "file": "winner_squid_v1.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-shed/winner_squid_v1.png",
+      "sha256": "4dfa711d64ecb37a781525eda681741e98687670aa6283d6dc5cd9ad4135356e",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

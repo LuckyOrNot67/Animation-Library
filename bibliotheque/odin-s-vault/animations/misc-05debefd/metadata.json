@@ -1,0 +1,163 @@
+{
+  "id": "animations/misc-05debefd",
+  "name": "misc",
+  "machine": "odin-s-vault",
+  "format": "spritesheet",
+  "version": null,
+  "skeleton": "spritesheet.json",
+  "previewAtlas": null,
+  "pma": false,
+  "atlases": [],
+  "textures": [
+    "misc.webp"
+  ],
+  "animations": [
+    {
+      "name": "intro"
+    }
+  ],
+  "skins": [],
+  "bones": [],
+  "slots": [],
+  "pieces": [
+    {
+      "region": "intro1.png",
+      "file": "pieces/intro1-png-89f1a62f.png",
+      "properties": {
+        "frame": {
+          "x": 1,
+          "y": 1,
+          "w": 848,
+          "h": 852
+        },
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {
+          "x": 6,
+          "y": 4,
+          "w": 848,
+          "h": 852
+        },
+        "sourceSize": {
+          "w": 860,
+          "h": 856
+        }
+      }
+    },
+    {
+      "region": "intro2.png",
+      "file": "pieces/intro2-png-358589de.png",
+      "properties": {
+        "frame": {
+          "x": 851,
+          "y": 1,
+          "w": 848,
+          "h": 852
+        },
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {
+          "x": 6,
+          "y": 4,
+          "w": 848,
+          "h": 852
+        },
+        "sourceSize": {
+          "w": 860,
+          "h": 856
+        }
+      }
+    },
+    {
+      "region": "loadingbar.png",
+      "file": "pieces/loadingbar-png-0a08ef9e.png",
+      "properties": {
+        "frame": {
+          "x": 908,
+          "y": 949,
+          "w": 576,
+          "h": 48
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 576,
+          "h": 48
+        },
+        "sourceSize": {
+          "w": 576,
+          "h": 48
+        }
+      }
+    },
+    {
+      "region": "loadingbar_bg.png",
+      "file": "pieces/loadingbar-bg-png-b2620837.png",
+      "properties": {
+        "frame": {
+          "x": 908,
+          "y": 855,
+          "w": 620,
+          "h": 92
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 620,
+          "h": 92
+        },
+        "sourceSize": {
+          "w": 620,
+          "h": 92
+        }
+      }
+    },
+    {
+      "region": "press_to_continue.png",
+      "file": "pieces/press-to-continue-png-a178778f.png",
+      "properties": {
+        "frame": {
+          "x": 1,
+          "y": 855,
+          "w": 905,
+          "h": 120
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 905,
+          "h": 120
+        },
+        "sourceSize": {
+          "w": 905,
+          "h": 120
+        }
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "spritesheet.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/sprites/misc/misc.json",
+      "sha256": "05debefd1c824f5b17003fa18c2268a5eb83009f7cb1f0f641ece727c963788b",
+      "kind": "spritesheet"
+    },
+    {
+      "file": "misc.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/sprites/misc/misc.webp",
+      "sha256": "ca94f197c154b9ef22abca8e01f55987b79e50d5807d6c7150789887b88f5a4b",
+      "kind": "image"
+    }
+  ],
+  "warnings": [
+    "Frame logo.png : extract_area: bad extract area",
+    "Frame max_win.png : extract_area: bad extract area"
+  ],
+  "complete": false
+}

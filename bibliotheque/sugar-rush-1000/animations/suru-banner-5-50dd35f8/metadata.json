@@ -1,0 +1,137 @@
+{
+  "id": "animations/suru-banner-5-50dd35f8",
+  "name": "suru_banner_5",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-1d8c06ac.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-1d8c06ac.atlas"
+  ],
+  "textures": [
+    "suru_banner_5.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_banner_in",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 12
+      }
+    },
+    {
+      "name": "suru_banner_in_port",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 12,
+        "slots": 2
+      }
+    },
+    {
+      "name": "suru_banner_loop",
+      "duration": 1.9,
+      "timelines": {
+        "bones": 9
+      }
+    },
+    {
+      "name": "suru_banner_loop_port",
+      "duration": 1.9,
+      "timelines": {
+        "bones": 9,
+        "slots": 2
+      }
+    },
+    {
+      "name": "suru_banner_out",
+      "duration": 0.6,
+      "timelines": {
+        "bones": 12
+      }
+    },
+    {
+      "name": "suru_banner_out_port",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 12,
+        "slots": 2
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "congratulation",
+    "you have win",
+    "123456789",
+    "credit",
+    "rec",
+    "rec1",
+    "ray",
+    "ray2",
+    "star1",
+    "star2",
+    "star01",
+    "star3"
+  ],
+  "slots": [
+    "left_star_1_motion",
+    "left_star_1_motion2",
+    "left_star_1",
+    "left_star_2"
+  ],
+  "pieces": [
+    {
+      "region": "left_star_1",
+      "file": "pieces/left-star-1-841aa054.png",
+      "page": "suru_banner_5.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "333, 135",
+        "size": "115, 106",
+        "orig": "115, 106",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "left_star_1_motion",
+      "file": "pieces/left-star-1-motion-b6b54bd7.png",
+      "page": "suru_banner_5.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "331, 250",
+        "orig": "331, 250",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-028b24d3c15f/suru_banner_5.json",
+      "sha256": "50dd35f83e829903b9001af0987bab50e422592d02557beced617d180395ae5a",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-1d8c06ac.atlas",
+      "source": "raw/_embedded/uht-028b24d3c15f/suru_banner_5.atlas",
+      "sha256": "1d8c06acc6699b8d542d743c660a0098b1f8b34a0d12ce8f077d2ebfb8e6f01a",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_banner_5.png",
+      "source": "raw/_embedded/uht-028b24d3c15f/suru_banner_5.png",
+      "sha256": "929674d393c26bdc3be95f2bd22794fa353f4a1f028d73a4d4bfc7eb8cea47c0",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

@@ -1,0 +1,406 @@
+{
+  "id": "animations/buybutton-0f8c723b",
+  "name": "buybutton",
+  "machine": "spin-reaper-winsafe",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-0138d1d4.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-0138d1d4.atlas"
+  ],
+  "textures": [
+    "buybutton.webp"
+  ],
+  "animations": [
+    {
+      "name": "buy_button_active_click",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 5
+      }
+    },
+    {
+      "name": "buy_button_active_disabled",
+      "duration": 0,
+      "timelines": {
+        "slots": 6
+      }
+    },
+    {
+      "name": "buy_button_active_hover",
+      "duration": 1,
+      "timelines": {
+        "bones": 2,
+        "slots": 8
+      }
+    },
+    {
+      "name": "buy_button_active_idle",
+      "duration": 5.333,
+      "timelines": {
+        "bones": 1,
+        "slots": 11
+      }
+    },
+    {
+      "name": "buy_button_active_intro",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 1,
+        "slots": 14
+      }
+    },
+    {
+      "name": "buy_button_active_outro",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 1,
+        "slots": 14
+      }
+    },
+    {
+      "name": "buy_button_click",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 5
+      }
+    },
+    {
+      "name": "buy_button_disabled",
+      "duration": 0,
+      "timelines": {
+        "slots": 5
+      }
+    },
+    {
+      "name": "buy_button_hover",
+      "duration": 1,
+      "timelines": {
+        "bones": 2,
+        "slots": 8
+      }
+    },
+    {
+      "name": "buy_button_idle",
+      "duration": 5.333,
+      "timelines": {
+        "bones": 2,
+        "slots": 15
+      }
+    },
+    {
+      "name": "buy_button_intro",
+      "duration": 0.6,
+      "timelines": {
+        "bones": 2,
+        "slots": 14
+      }
+    },
+    {
+      "name": "buy_button_play_active_intro",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 1,
+        "slots": 14
+      }
+    },
+    {
+      "name": "buy_button_play_active_outro",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 1,
+        "slots": 14
+      }
+    },
+    {
+      "name": "buy_button_play_click",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 5
+      }
+    },
+    {
+      "name": "buy_button_play_disabled",
+      "duration": 0,
+      "timelines": {
+        "slots": 5
+      }
+    },
+    {
+      "name": "buy_button_play_hover",
+      "duration": 1,
+      "timelines": {
+        "bones": 2,
+        "slots": 8
+      }
+    },
+    {
+      "name": "buy_button_play_idle",
+      "duration": 5.333,
+      "timelines": {
+        "bones": 2,
+        "slots": 15
+      }
+    },
+    {
+      "name": "buy_button_play_intro",
+      "duration": 0.6,
+      "timelines": {
+        "bones": 2,
+        "slots": 14
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "buybutton_master",
+    "button_main",
+    "buttonfront",
+    "bbtn_stars",
+    "text",
+    "fx_ringshine",
+    "fx_baseshine",
+    "base",
+    "bbtn_star1",
+    "bbtn_star2",
+    "bbtn_baseshines",
+    "bbtn_shine_bottom",
+    "bbtn_shine_top",
+    "shadow"
+  ],
+  "slots": [
+    "guide",
+    "shadow",
+    "base",
+    "base2",
+    "front",
+    "front2",
+    "bbtn_shine_top",
+    "bbtn_shine_bottom",
+    "buybonus_text",
+    "buybonus_texthl",
+    "fx_baseshine_1",
+    "fx_baseshine_2",
+    "fx_baseshine_3",
+    "fx_baseshine_4",
+    "fx_baseshine_5",
+    "fx_ringshine_1",
+    "fx_ringshine_2",
+    "fx_ringshine_3",
+    "fx_ringshine_4",
+    "fx_ringshine_5",
+    "bbtn_star2",
+    "bbtn_star1"
+  ],
+  "pieces": [
+    {
+      "region": "DISABLE",
+      "file": "pieces/disable-b6d5e2e5.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "2,1227,354,87"
+      }
+    },
+    {
+      "region": "PLAY BONUS",
+      "file": "pieces/play-bonus-c525c784.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "2,206,328,185"
+      }
+    },
+    {
+      "region": "base",
+      "file": "pieces/base-33bf15df.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "358,774,540,540"
+      }
+    },
+    {
+      "region": "bbtn_shine_bottom",
+      "file": "pieces/bbtn-shine-bottom-5cbefe08.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "2,393,380,386",
+        "offsets": "4,0,384,388",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bbtn_shine_top",
+      "file": "pieces/bbtn-shine-top-169b4a6d.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "760,169,336,254",
+        "offsets": "2,6,346,260"
+      }
+    },
+    {
+      "region": "bbtn_star1",
+      "file": "pieces/bbtn-star1-49c598be.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "1098,80,168,115",
+        "offsets": "8,1,184,116"
+      }
+    },
+    {
+      "region": "bbtn_star2",
+      "file": "pieces/bbtn-star2-627b9824.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "1098,80,168,115",
+        "offsets": "8,1,184,116"
+      }
+    },
+    {
+      "region": "buybonus_base",
+      "file": "pieces/buybonus-base-6ce2087b.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "1863,153,326,179",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "buybonus_pressed",
+      "file": "pieces/buybonus-pressed-e2ed3f38.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "1864,481,326,179",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "front",
+      "file": "pieces/front-ad075864.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "900,808,506,506"
+      }
+    },
+    {
+      "region": "fx_baseshine_1",
+      "file": "pieces/fx-baseshine-1-c070741f.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "1098,197,318,212",
+        "offsets": "0,2,322,214"
+      }
+    },
+    {
+      "region": "fx_baseshine_2",
+      "file": "pieces/fx-baseshine-2-33281adb.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "390,412,368,360",
+        "offsets": "0,1,368,364"
+      }
+    },
+    {
+      "region": "fx_baseshine_3",
+      "file": "pieces/fx-baseshine-3-83266e40.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "2,859,366,281",
+        "offsets": "1,1,367,283",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx_baseshine_4",
+      "file": "pieces/fx-baseshine-4-4e663105.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "1418,215,329,194",
+        "offsets": "4,0,333,197"
+      }
+    },
+    {
+      "region": "fx_baseshine_5",
+      "file": "pieces/fx-baseshine-5-808d014d.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "2,63,281,141",
+        "offsets": "8,0,290,143"
+      }
+    },
+    {
+      "region": "fx_ringshine_1",
+      "file": "pieces/fx-ringshine-1-f0059eb4.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "390,172,321,238",
+        "offsets": "2,5,328,243"
+      }
+    },
+    {
+      "region": "fx_ringshine_2",
+      "file": "pieces/fx-ringshine-2-845f7c09.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "1408,411,454,396",
+        "offsets": "0,4,457,400"
+      }
+    },
+    {
+      "region": "fx_ringshine_3",
+      "file": "pieces/fx-ringshine-3-417c27a4.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "1408,809,505,488",
+        "offsets": "0,2,505,492",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx_ringshine_4",
+      "file": "pieces/fx-ringshine-4-78b973d1.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "900,425,444,381",
+        "offsets": "4,0,448,426"
+      }
+    },
+    {
+      "region": "fx_ringshine_5",
+      "file": "pieces/fx-ringshine-5-46a45664.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "1418,2,274,211",
+        "offsets": "5,0,281,215"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/buyButton/buybutton.json",
+      "sha256": "0f8c723bb09679e5396c993282a4914715c530fa99ce58f07e62b740fab68f47",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-0138d1d4.atlas",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/buyButton/buybutton.atlas",
+      "sha256": "0138d1d442edb990b41b58383c24ceb043ef09e5590ced5680337578a0113b7c",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "buybutton.webp",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/buyButton/buybutton.webp",
+      "sha256": "49edc94799701953b59826cf5c69b00f193991271856a74d74ce16cc68f4dd5e",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

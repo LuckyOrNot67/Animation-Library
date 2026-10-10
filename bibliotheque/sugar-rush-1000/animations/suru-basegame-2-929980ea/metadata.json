@@ -1,0 +1,73 @@
+{
+  "id": "animations/suru-basegame-2-929980ea",
+  "name": "suru_basegame_2",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-e2002cfe.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-e2002cfe.atlas"
+  ],
+  "textures": [
+    "suru_basegame_2.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_basegame",
+      "duration": 6,
+      "timelines": {
+        "bones": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "right_frame",
+    "fan_left2"
+  ],
+  "slots": [
+    "left_frame_2"
+  ],
+  "pieces": [
+    {
+      "region": "left_frame_1",
+      "file": "pieces/left-frame-1-e6364f96.png",
+      "page": "suru_basegame_2.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "154, 528",
+        "orig": "154, 528",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-213ede51e380/suru_basegame_2.json",
+      "sha256": "929980eadb71668ba7d8ddf0b98b065a424266245d588a890def178049fd7515",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-e2002cfe.atlas",
+      "source": "raw/_embedded/uht-213ede51e380/suru_basegame_2.atlas",
+      "sha256": "e2002cfefcd7347a0c6b5bba436de05a3a651d405c718935c4c4b1515e7a6090",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_basegame_2.png",
+      "source": "raw/_embedded/uht-213ede51e380/suru_basegame_2.png",
+      "sha256": "b7c459825815a9d9bef46906c7ebc8bd434e44daaf093f8dd48fb954431b1dc0",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

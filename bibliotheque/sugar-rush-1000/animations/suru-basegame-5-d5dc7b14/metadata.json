@@ -1,0 +1,104 @@
+{
+  "id": "animations/suru-basegame-5-d5dc7b14",
+  "name": "suru_basegame_5",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-44d299e4.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-44d299e4.atlas"
+  ],
+  "textures": [
+    "suru_basegame_5.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_basegame",
+      "duration": 6,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "right_frame",
+    "fan_left2"
+  ],
+  "slots": [
+    "rivets_s6",
+    "windowbutton3",
+    "windowbutton4",
+    "window3",
+    "window4"
+  ],
+  "pieces": [
+    {
+      "region": "rivets_s",
+      "file": "pieces/rivets-s-4d981700.png",
+      "page": "suru_basegame_5.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "59, 0",
+        "size": "16, 16",
+        "orig": "18, 17",
+        "offset": "1, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "window",
+      "file": "pieces/window-6b6b1008.png",
+      "page": "suru_basegame_5.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 12",
+        "size": "57, 34",
+        "orig": "57, 34",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "windowbutton",
+      "file": "pieces/windowbutton-a653312c.png",
+      "page": "suru_basegame_5.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "59, 18",
+        "size": "27, 28",
+        "orig": "27, 28",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-9e0ab7df1ddb/suru_basegame_5.json",
+      "sha256": "d5dc7b1473e55fa091fc004ce8a38a4424f38b669db9cd6764d3bfb06869737b",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-44d299e4.atlas",
+      "source": "raw/_embedded/uht-9e0ab7df1ddb/suru_basegame_5.atlas",
+      "sha256": "44d299e4abce78f5a7a92b640ca8d2fc7625844303423e3381850e79d9915efb",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_basegame_5.png",
+      "source": "raw/_embedded/uht-9e0ab7df1ddb/suru_basegame_5.png",
+      "sha256": "7e7f2d4af364cd8728fc244c54a40a63daab054a8706d12ccdfddacd8222b4d5",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

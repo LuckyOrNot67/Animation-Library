@@ -1,0 +1,151 @@
+{
+  "id": "animations/bet-button-746333cc",
+  "name": "bet-button",
+  "machine": "spin-reaper-winsafe",
+  "format": "spine-json",
+  "version": "4.1.24",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-a5ca148f.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-a5ca148f.atlas"
+  ],
+  "textures": [
+    "bet-button.webp"
+  ],
+  "animations": [
+    {
+      "name": "disabled_spin",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 2,
+        "slots": 3
+      }
+    },
+    {
+      "name": "spin_stop",
+      "duration": 0.767,
+      "timelines": {
+        "bones": 2,
+        "slots": 4
+      }
+    },
+    {
+      "name": "stop_spin",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 2,
+        "slots": 4
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "icon_spin-active",
+    "icon_stop-active",
+    "icon_stop-disabled"
+  ],
+  "slots": [
+    "base_active",
+    "base_disabled",
+    "icon_stop-disabled",
+    "icon_spin-active",
+    "icon_spin-active_blur",
+    "icon_spin-active_blur2",
+    "icon_spin-disabled",
+    "icon_stop-active"
+  ],
+  "pieces": [
+    {
+      "region": "base_active",
+      "file": "pieces/base-active-f2909926.png",
+      "page": "bet-button.webp",
+      "properties": {
+        "bounds": "1,402,401,401"
+      }
+    },
+    {
+      "region": "base_disabled",
+      "file": "pieces/base-disabled-2f92880c.png",
+      "page": "bet-button.webp",
+      "properties": {
+        "bounds": "1,804,401,401"
+      }
+    },
+    {
+      "region": "icon_spin-active",
+      "file": "pieces/icon-spin-active-f523a4ad.png",
+      "page": "bet-button.webp",
+      "properties": {
+        "bounds": "247,156,245,239",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "icon_spin-active_blur",
+      "file": "pieces/icon-spin-active-blur-e21cccc4.png",
+      "page": "bet-button.webp",
+      "properties": {
+        "bounds": "247,156,245,239",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "icon_spin-active_blur2",
+      "file": "pieces/icon-spin-active-blur2-7e504d6b.png",
+      "page": "bet-button.webp",
+      "properties": {
+        "bounds": "157,1,155,154"
+      }
+    },
+    {
+      "region": "icon_stop-active",
+      "file": "pieces/icon-stop-active-94897b16.png",
+      "page": "bet-button.webp",
+      "properties": {
+        "bounds": "157,1,155,154"
+      }
+    },
+    {
+      "region": "icon_spin-disabled",
+      "file": "pieces/icon-spin-disabled-538ca578.png",
+      "page": "bet-button.webp",
+      "properties": {
+        "bounds": "1,162,245,239"
+      }
+    },
+    {
+      "region": "icon_stop-disabled",
+      "file": "pieces/icon-stop-disabled-63037ba1.png",
+      "page": "bet-button.webp",
+      "properties": {
+        "bounds": "1,7,155,154"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/betButton/bet-button.json",
+      "sha256": "746333cc7da61354052dd2447c7fd849aefe3c0ffecff9e19ede1dd65c2c79ee",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-a5ca148f.atlas",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/betButton/bet-button.atlas",
+      "sha256": "a5ca148ffd592432928b640aab06c24a548f7a3c6459129899954c44081f5e3e",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "bet-button.webp",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/shared-asset-package/ui-slots/betButton/bet-button.webp",
+      "sha256": "b2c3bb5031e2cc33f2a3999c74a1683a88e4fe86951d1f0a00d59d8f0cd63871",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

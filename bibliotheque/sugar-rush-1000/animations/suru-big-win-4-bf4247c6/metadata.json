@@ -1,0 +1,536 @@
+{
+  "id": "animations/suru-big-win-4-bf4247c6",
+  "name": "suru_big_win_4",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-d768d2d8.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-d768d2d8.atlas"
+  ],
+  "textures": [
+    "suru_big_win_4.png"
+  ],
+  "animations": [
+    {
+      "name": "mega_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 25
+      }
+    },
+    {
+      "name": "mega_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 25,
+        "deform": 1
+      }
+    },
+    {
+      "name": "mega_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 25,
+        "deform": 1
+      }
+    },
+    {
+      "name": "nice_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 25
+      }
+    },
+    {
+      "name": "nice_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 23,
+        "deform": 1
+      }
+    },
+    {
+      "name": "nice_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 25
+      }
+    },
+    {
+      "name": "sesnational_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 25
+      }
+    },
+    {
+      "name": "sesnational_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 25,
+        "deform": 1
+      }
+    },
+    {
+      "name": "sesnational_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 25
+      }
+    },
+    {
+      "name": "superb_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 25
+      }
+    },
+    {
+      "name": "superb_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 23,
+        "deform": 1
+      }
+    },
+    {
+      "name": "superb_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 25
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "sensational",
+    "numbers",
+    "stars",
+    "big_star"
+  ],
+  "slots": [
+    "superb_glow",
+    "superb_base",
+    "superb_white_part",
+    "superb_depth",
+    "superb_text",
+    "superb_high_light_2",
+    "superb_high_light_1",
+    "mega_glow",
+    "mega_base",
+    "mega_white_part",
+    "mega_text_depth",
+    "mega_text",
+    "mega_high_light_2",
+    "mega_high_light_3",
+    "mega_high_light_1",
+    "nice_glow",
+    "nice_base",
+    "nice_white",
+    "nice_text_depth",
+    "nice_text",
+    "nice_high_light_2",
+    "nice_high_light_1",
+    "sensational_glow",
+    "sensational_base",
+    "sensational_white_part",
+    "sensational_text_depth",
+    "sensational_text",
+    "sensational_high_light_1",
+    "sensational_high_light_3",
+    "sensational_high_light_2"
+  ],
+  "pieces": [
+    {
+      "region": "mega_base",
+      "file": "pieces/mega-base-572afefe.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1192, 1041",
+        "size": "693, 294",
+        "orig": "693, 294",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "mega_glow",
+      "file": "pieces/mega-glow-26124fa6.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1461, 172",
+        "size": "363, 163",
+        "orig": "363, 163",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "mega_high_light_1",
+      "file": "pieces/mega-high-light-1-1402b774.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "773, 40",
+        "size": "91, 77",
+        "orig": "91, 77",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "mega_high_light_2",
+      "file": "pieces/mega-high-light-2-03cda263.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1831, 987",
+        "size": "61, 52",
+        "orig": "61, 52",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "mega_text",
+      "file": "pieces/mega-text-68b500e8.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1233, 1337",
+        "size": "654, 216",
+        "orig": "654, 216",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "mega_text_depth",
+      "file": "pieces/mega-text-depth-2eab3638.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1233, 1555",
+        "size": "655, 243",
+        "orig": "655, 243",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "mega_white_part",
+      "file": "pieces/mega-white-part-421575ec.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "437, 5",
+        "size": "334, 126",
+        "orig": "334, 126",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "nice_base",
+      "file": "pieces/nice-base-681a005e.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1156, 562",
+        "size": "589, 294",
+        "orig": "589, 294",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "nice_glow",
+      "file": "pieces/nice-glow-7d4dd90f.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1330, 7",
+        "size": "311, 163",
+        "orig": "311, 163",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "nice_high_light_1",
+      "file": "pieces/nice-high-light-1-13bda22c.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1750, 80",
+        "size": "90, 73",
+        "orig": "90, 73",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "nice_high_light_2",
+      "file": "pieces/nice-high-light-2-925106df.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1831, 867",
+        "size": "57, 47",
+        "orig": "57, 47",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "nice_text",
+      "file": "pieces/nice-text-ba041372.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1156, 337",
+        "size": "553, 223",
+        "orig": "553, 223",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "nice_text_depth",
+      "file": "pieces/nice-text-depth-7eea4fb6.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "906, 361",
+        "size": "554, 248",
+        "orig": "554, 248",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "nice_white",
+      "file": "pieces/nice-white-4935c563.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1747, 574",
+        "size": "282, 128",
+        "orig": "282, 128",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "sensational_base",
+      "file": "pieces/sensational-base-fcff2a08.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 1467",
+        "size": "1231, 331",
+        "orig": "1231, 331",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "sensational_glow",
+      "file": "pieces/sensational-glow-a0ef4fb0.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1190, 858",
+        "size": "639, 181",
+        "orig": "639, 181",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "sensational_high_light_1",
+      "file": "pieces/sensational-high-light-1-bcfedf06.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1643, 0",
+        "size": "92, 80",
+        "orig": "92, 80",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "sensational_text",
+      "file": "pieces/sensational-text-d5a25a52.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 917",
+        "size": "1188, 262",
+        "orig": "1188, 262",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "sensational_text_depth",
+      "file": "pieces/sensational-text-depth-12cddc4b.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 1181",
+        "size": "1190, 284",
+        "orig": "1190, 284",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "sensational_white_part",
+      "file": "pieces/sensational-white-part-e1a1f779.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "859, 188",
+        "size": "600, 147",
+        "orig": "600, 147",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "superb_base",
+      "file": "pieces/superb-base-9812c107.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 612",
+        "size": "904, 303",
+        "orig": "904, 303",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "superb_depth",
+      "file": "pieces/superb-depth-4b3585b5.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 369",
+        "size": "858, 241",
+        "orig": "858, 241",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "superb_glow",
+      "file": "pieces/superb-glow-8eb0aea0.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "859, 18",
+        "size": "469, 168",
+        "orig": "469, 168",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "superb_high_light_1",
+      "file": "pieces/superb-high-light-1-1ccfa5c8.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1643, 82",
+        "size": "105, 88",
+        "orig": "105, 88",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "superb_high_light_2",
+      "file": "pieces/superb-high-light-2-975a9309.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1831, 916",
+        "size": "69, 60",
+        "orig": "69, 60",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "superb_text",
+      "file": "pieces/superb-text-829418e9.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 133",
+        "size": "857, 234",
+        "orig": "857, 234",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "superb_white_part",
+      "file": "pieces/superb-white-part-33b2bbac.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 4",
+        "size": "435, 127",
+        "orig": "435, 127",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-7bbde495b658/suru_big_win_4.json",
+      "sha256": "bf4247c6d228c650354cdf4aee8dd2b5b86a6138ab063ed8d29b9397cce742d3",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-d768d2d8.atlas",
+      "source": "raw/_embedded/uht-7bbde495b658/suru_big_win_4.atlas",
+      "sha256": "d768d2d88ba7f87c9aa368f999c5ea39f8cb4ae59682e183fdfef73eb021e56a",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_big_win_4.png",
+      "source": "raw/_embedded/uht-7bbde495b658/suru_big_win_4.png",
+      "sha256": "36c88e854a82dd80ee861796cf819fcf7e544d58d84a568756e831e7af9a5942",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

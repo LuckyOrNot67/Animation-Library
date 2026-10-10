@@ -1,0 +1,156 @@
+{
+  "id": "animations/regular-tooth-ev-m-259a97cb",
+  "name": "regular-tooth-ev-m",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-19f2ab31.atlas",
+  "pma": true,
+  "atlases": [
+    "atlas-19f2ab31.atlas"
+  ],
+  "textures": [
+    "regular-tooth-ev-m.png",
+    "evidence-g.png"
+  ],
+  "animations": [
+    {
+      "name": "land",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 7,
+        "events": 1
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1.3,
+      "timelines": {
+        "bones": 16,
+        "slots": 5,
+        "events": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "sway",
+    "bag_top",
+    "bag_left",
+    "bag_right",
+    "bag_bottom",
+    "tooth",
+    "tooth_tip",
+    "zip_back_0",
+    "zip_back_1",
+    "zip_back_2",
+    "zip_back_3",
+    "zip_back_4",
+    "zip_front_0",
+    "zip_front_1",
+    "zip_front_2",
+    "zip_front_3",
+    "zip_front_4"
+  ],
+  "slots": [
+    "bag_mouth",
+    "seal_back",
+    "plastic",
+    "tooth",
+    "reflections",
+    "seal"
+  ],
+  "pieces": [
+    {
+      "region": "bag_mouth",
+      "file": "pieces/bag-mouth-a2e1b873.png",
+      "page": "regular-tooth-ev-m.png",
+      "properties": {
+        "bounds": "881,398,170,120"
+      }
+    },
+    {
+      "region": "plastic",
+      "file": "pieces/plastic-05866350.png",
+      "page": "regular-tooth-ev-m.png",
+      "properties": {
+        "bounds": "2,2,768,695",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "reflections",
+      "file": "pieces/reflections-4ff9390e.png",
+      "page": "regular-tooth-ev-m.png",
+      "properties": {
+        "bounds": "772,772,768,713",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "seal",
+      "file": "pieces/seal-54bc7ca2.png",
+      "page": "regular-tooth-ev-m.png",
+      "properties": {
+        "bounds": "1236,2,768,251",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "seal_back",
+      "file": "pieces/seal-back-4aae5a4d.png",
+      "page": "regular-tooth-ev-m.png",
+      "properties": {
+        "bounds": "2,772,768,768"
+      }
+    },
+    {
+      "region": "tooth",
+      "file": "pieces/tooth-322b676f.png",
+      "page": "regular-tooth-ev-m.png",
+      "properties": {
+        "bounds": "699,147,535,623"
+      }
+    },
+    {
+      "region": "evidence",
+      "file": "pieces/evidence-b84d0b36.png",
+      "page": "evidence-g.png",
+      "properties": {
+        "bounds": "2,2,722,841"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/regular-tooth-ev-m.json",
+      "sha256": "259a97cb9a6baf6e8aee3064f32116d35fc1217237cd7d378d542c31bbc03cf0",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-19f2ab31.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/regular-tooth-ev-m.atlas",
+      "sha256": "19f2ab315d1b010fbc73cf79c912a3caa290e66e0cb035830936680dbe0c0a33",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "regular-tooth-ev-m.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/regular-tooth-ev-m.png",
+      "sha256": "ba2330bae268642ac0c6ee0da880826de93b0cffe41776ad47bb1972c7e53f96",
+      "kind": "image"
+    },
+    {
+      "file": "evidence-g.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-tooth-ev-m/evidence-g.png",
+      "sha256": "147d5f8b85c70b0356f673e9efce8cd3531dbec772c57e1b927f2cbd3768f0a0",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

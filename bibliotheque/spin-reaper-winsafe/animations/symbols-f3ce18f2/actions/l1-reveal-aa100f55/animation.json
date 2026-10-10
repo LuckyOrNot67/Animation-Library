@@ -1,0 +1,59 @@
+{
+  "name": "l1_reveal",
+  "duration": 0.333,
+  "timelines": {
+    "slots": 4
+  },
+  "data": {
+    "slots": {
+      "L1_bg": {
+        "attachment": [
+          {
+            "name": "L1_bg"
+          }
+        ]
+      },
+      "L1_bg2": {
+        "rgba": [
+          {
+            "color": "ffffffcb"
+          },
+          {
+            "time": 0.3333,
+            "color": "ffffff00"
+          }
+        ],
+        "attachment": [
+          {
+            "name": "L1_bg"
+          }
+        ]
+      },
+      "L1_heart": {
+        "attachment": [
+          {
+            "name": "L1_heart"
+          }
+        ]
+      },
+      "L1_heart2": {
+        "rgba": [
+          {
+            "color": "ffffffff"
+          },
+          {
+            "time": 0.3333,
+            "color": "ffffff00"
+          }
+        ],
+        "attachment": [
+          {
+            "name": "L1_heart_glow"
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

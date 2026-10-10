@@ -1,0 +1,87 @@
+{
+  "name": "animation",
+  "duration": 0.5,
+  "timelines": {
+    "bones": 2,
+    "slots": 2,
+    "attachments": 1
+  },
+  "data": {
+    "slots": {
+      "cut-win-monitor-glitch": {
+        "attachment": [
+          {
+            "time": 0.1667
+          }
+        ]
+      },
+      "fx-trail-glitch_04": {
+        "attachment": [
+          {
+            "name": "fx-trail-glitch_"
+          },
+          {
+            "time": 0.5
+          }
+        ]
+      }
+    },
+    "bones": {
+      "fx-trail": {
+        "scale": [
+          {
+            "x": 0.877,
+            "y": 0.708
+          },
+          {
+            "time": 0.1,
+            "x": 1.405,
+            "y": 3.431
+          },
+          {
+            "time": 0.3,
+            "x": 2.215,
+            "y": 4.229
+          }
+        ]
+      },
+      "cut-win-monitor-glitch": {
+        "rotate": [
+          {},
+          {
+            "time": 0.3333,
+            "value": -720
+          }
+        ],
+        "scale": [
+          {
+            "x": 0.833,
+            "y": 0.833
+          },
+          {
+            "time": 0.3333,
+            "x": 1.167,
+            "y": 1.167
+          }
+        ]
+      }
+    },
+    "attachments": {
+      "default": {
+        "fx-trail-glitch_04": {
+          "fx-trail-glitch_": {
+            "sequence": [
+              {
+                "mode": "once",
+                "index": 1,
+                "delay": 0.0333
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

@@ -1,0 +1,100 @@
+{
+  "id": "animations/regular-knife-07519ac8",
+  "name": "regular-knife",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-4e27eda0.atlas",
+  "pma": true,
+  "atlases": [
+    "atlas-4e27eda0.atlas"
+  ],
+  "textures": [
+    "regular-knife.png"
+  ],
+  "animations": [
+    {
+      "name": "land",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 4,
+        "events": 1
+      }
+    },
+    {
+      "name": "win",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 4,
+        "events": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "sway",
+    "grip",
+    "guard",
+    "blade",
+    "blade_tip"
+  ],
+  "slots": [
+    "handle",
+    "blade",
+    "guard"
+  ],
+  "pieces": [
+    {
+      "region": "blade",
+      "file": "pieces/blade-20a8626a.png",
+      "page": "regular-knife.png",
+      "properties": {
+        "bounds": "2,2,686,736",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "guard",
+      "file": "pieces/guard-8a7a6729.png",
+      "page": "regular-knife.png",
+      "properties": {
+        "bounds": "1356,438,236,250"
+      }
+    },
+    {
+      "region": "handle",
+      "file": "pieces/handle-8491866b.png",
+      "page": "regular-knife.png",
+      "properties": {
+        "bounds": "740,49,639,614",
+        "rotate": "90"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-knife/regular-knife.json",
+      "sha256": "07519ac8c23fefb38807a3210fec0ef0ab6a29b09fee1ed16de7ec9a8dc84afe",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-4e27eda0.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-knife/regular-knife.atlas",
+      "sha256": "4e27eda001223dac1fcb93fa686ddc8eecdff9bf756737944a5a995c75be93ea",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "regular-knife.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-knife/regular-knife.png",
+      "sha256": "d4abc5d9c595cb2960d2f90d3b130b93aad528a7660281a4bd50aa2984c87f81",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

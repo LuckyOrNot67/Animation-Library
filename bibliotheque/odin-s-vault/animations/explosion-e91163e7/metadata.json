@@ -1,0 +1,155 @@
+{
+  "id": "animations/explosion-e91163e7",
+  "name": "explosion",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-ad4e3347.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-ad4e3347.atlas"
+  ],
+  "textures": [
+    "explosion.webp"
+  ],
+  "animations": [
+    {
+      "name": "remove",
+      "duration": 0.4,
+      "timelines": {
+        "bones": 1,
+        "slots": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "smoke_01"
+  ],
+  "slots": [
+    "smoke_01"
+  ],
+  "pieces": [
+    {
+      "region": "smoke_01",
+      "file": "pieces/smoke-01-e8ff7958.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "226,2,183,162",
+        "offsets": "1,1,185,164"
+      }
+    },
+    {
+      "region": "smoke_02",
+      "file": "pieces/smoke-02-aa2481df.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "226,166,204,181",
+        "offsets": "1,1,206,183"
+      }
+    },
+    {
+      "region": "smoke_03",
+      "file": "pieces/smoke-03-7dc60d4a.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "260,835,225,201",
+        "offsets": "1,1,227,203",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "smoke_04",
+      "file": "pieces/smoke-04-92cf6ed6.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "250,349,241,213",
+        "offsets": "1,1,243,215",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "smoke_05",
+      "file": "pieces/smoke-05-643a8d0d.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "2,115,247,222",
+        "offsets": "1,1,249,224",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "smoke_06",
+      "file": "pieces/smoke-06-48dfc1b3.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "2,364,246,231",
+        "offsets": "1,1,248,233"
+      }
+    },
+    {
+      "region": "smoke_07",
+      "file": "pieces/smoke-07-33244f10.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "2,826,256,234",
+        "offsets": "1,1,258,236"
+      }
+    },
+    {
+      "region": "smoke_08",
+      "file": "pieces/smoke-08-bf166561.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "2,597,253,227",
+        "offsets": "1,1,255,229"
+      }
+    },
+    {
+      "region": "smoke_09",
+      "file": "pieces/smoke-09-30d39d66.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "260,592,241,169",
+        "offsets": "1,1,243,171",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "smoke_10",
+      "file": "pieces/smoke-10-ee8d8ff8.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "2,10,103,92",
+        "offsets": "1,1,107,94",
+        "rotate": "90"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/explosion.json",
+      "sha256": "e91163e7d8c7e2a9768438c90a9d635702c5d194f6a40d655373e6c52ff62bd9",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-ad4e3347.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/explosion.atlas",
+      "sha256": "ad4e33471aa22a5c23ab2e0e0763171a7c6fd605a1ccd56aa1498dc5c2b783a3",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "explosion.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/explosion.webp",
+      "sha256": "1b0df8386ac1354581ce4ff8e7c1f88d7f67094c886314f2b733a6dc8b9e6cd9",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

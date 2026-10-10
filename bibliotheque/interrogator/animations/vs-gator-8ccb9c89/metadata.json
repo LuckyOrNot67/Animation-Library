@@ -1,0 +1,101 @@
+{
+  "id": "animations/vs-gator-8ccb9c89",
+  "name": "vs-gator",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-2e12c0be.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-2e12c0be.atlas"
+  ],
+  "textures": [
+    "portrait.png"
+  ],
+  "animations": [
+    {
+      "name": "hit",
+      "duration": 1.2,
+      "timelines": {
+        "bones": 10
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 4,
+      "timelines": {
+        "bones": 10
+      }
+    },
+    {
+      "name": "land",
+      "duration": 0.48,
+      "timelines": {
+        "bones": 1
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1.2,
+      "timelines": {
+        "bones": 10
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "body",
+    "head",
+    "hat",
+    "muzzle",
+    "brow",
+    "fist_l",
+    "fist_r",
+    "wrist_l",
+    "wrist_r",
+    "tie",
+    "wild_emblem"
+  ],
+  "slots": [
+    "portrait",
+    "wild_emblem"
+  ],
+  "pieces": [
+    {
+      "region": "portrait",
+      "file": "pieces/portrait-e810c9da.png",
+      "page": "portrait.png",
+      "properties": {
+        "bounds": "0,0,627,627"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/vs-gator.json",
+      "sha256": "8ccb9c892ec2528c609720373b7d73135e4061423f24c6b78cadd9634b7d4592",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-2e12c0be.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-gator/vs-gator.atlas",
+      "sha256": "2e12c0be72f56a95b49f8678b2821c6d9fd5a7c919a4938b798b560c8877cb1d",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "portrait.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-squid/portrait.png",
+      "sha256": "95605396cb2bd01daee047ca4c10437ce338763526f50971d9958f4b61447ec6",
+      "kind": "image"
+    }
+  ],
+  "warnings": [
+    "Texture absente : wild_emblem.png"
+  ],
+  "complete": false
+}

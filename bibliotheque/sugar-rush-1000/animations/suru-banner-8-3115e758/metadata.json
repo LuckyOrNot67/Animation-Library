@@ -1,0 +1,97 @@
+{
+  "id": "animations/suru-banner-8-3115e758",
+  "name": "suru_banner_8",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-66d6d7a4.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-66d6d7a4.atlas"
+  ],
+  "textures": [
+    "suru_banner_8.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_banner_in",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 12
+      }
+    },
+    {
+      "name": "suru_banner_loop",
+      "duration": 1.9,
+      "timelines": {
+        "bones": 9
+      }
+    },
+    {
+      "name": "suru_banner_out",
+      "duration": 0.6,
+      "timelines": {
+        "bones": 12
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "congratulation",
+    "you have win",
+    "123456789",
+    "credit",
+    "rec",
+    "rec1",
+    "ray",
+    "ray2",
+    "star1",
+    "star2",
+    "star01",
+    "star3"
+  ],
+  "slots": [
+    "meter_shadow"
+  ],
+  "pieces": [
+    {
+      "region": "meter_shadow",
+      "file": "pieces/meter-shadow-93805b96.png",
+      "page": "suru_banner_8.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "814, 240",
+        "orig": "814, 240",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-6556fd8696ef/suru_banner_8.json",
+      "sha256": "3115e75801bd3ae2a0f24b9b8a0944c6a475657877dfe3aa6b3268bf0d949a2e",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-66d6d7a4.atlas",
+      "source": "raw/_embedded/uht-6556fd8696ef/suru_banner_8.atlas",
+      "sha256": "66d6d7a4f3b695d8243b0fa5769243bf16b4f1d91e0f38fe6572b5eafe544849",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_banner_8.png",
+      "source": "raw/_embedded/uht-6556fd8696ef/suru_banner_8.png",
+      "sha256": "883f13456be48572594a6a96d8053c98403a502e840f7483f98c7c64ced46c78",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

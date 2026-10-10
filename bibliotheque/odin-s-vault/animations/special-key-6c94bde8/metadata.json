@@ -1,0 +1,131 @@
+{
+  "id": "animations/special-key-6c94bde8",
+  "name": "special_key",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-b4909d48.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-b4909d48.atlas"
+  ],
+  "textures": [
+    "special_key.webp"
+  ],
+  "animations": [
+    {
+      "name": "collect",
+      "duration": 1,
+      "timelines": {
+        "bones": 3,
+        "slots": 3
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1,
+      "timelines": {
+        "bones": 3,
+        "slots": 4,
+        "drawOrder": 2
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "Mine_key",
+    "key",
+    "key_3d",
+    "key_3d2",
+    "key_3d(2)",
+    "key_3d(2)2"
+  ],
+  "slots": [
+    "BG_key",
+    "Shadow_2_key",
+    "Shadow_1_key",
+    "Glow_03_key",
+    "key_1_key",
+    "key_key2",
+    "key_key",
+    "key_key3",
+    "raven_eyes_key"
+  ],
+  "pieces": [
+    {
+      "region": "Glow_03_key",
+      "file": "pieces/glow-03-key-074c9e4b.png",
+      "page": "special_key.webp",
+      "properties": {
+        "bounds": "0,112,128,144"
+      }
+    },
+    {
+      "region": "Shadow_1_key",
+      "file": "pieces/shadow-1-key-a9ea2880.png",
+      "page": "special_key.webp",
+      "properties": {
+        "bounds": "0,0,97,108"
+      }
+    },
+    {
+      "region": "Shadow_2_key",
+      "file": "pieces/shadow-2-key-9c9e18d1.png",
+      "page": "special_key.webp",
+      "properties": {
+        "bounds": "101,6,92,102"
+      }
+    },
+    {
+      "region": "key_1_key",
+      "file": "pieces/key-1-key-b78b9b3f.png",
+      "page": "special_key.webp",
+      "properties": {
+        "bounds": "197,107,36,38",
+        "offsets": "0,0,36,39"
+      }
+    },
+    {
+      "region": "key_key",
+      "file": "pieces/key-key-094406f7.png",
+      "page": "special_key.webp",
+      "properties": {
+        "bounds": "132,149,91,107"
+      }
+    },
+    {
+      "region": "raven_eyes_key",
+      "file": "pieces/raven-eyes-key-a7a35ff4.png",
+      "page": "special_key.webp",
+      "properties": {
+        "bounds": "227,235,24,21"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/special_key.json",
+      "sha256": "6c94bde89fd159a1ed16cbdf4195fb5538f7aa203b8fb9f4a7499c9efe48a8ed",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-b4909d48.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/special_key.atlas",
+      "sha256": "b4909d48a395c8c4167ff1f68d68b43ae2afcd7c01e7e5a979e4b6069e1b0f43",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "special_key.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/special_key.webp",
+      "sha256": "f58b50d23835d5fb827468ebffc10b778677cfbc33f3e9ee50a42b40116db7b2",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

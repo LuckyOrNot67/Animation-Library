@@ -1,0 +1,116 @@
+{
+  "name": "outro",
+  "duration": 0.333,
+  "timelines": {
+    "bones": 3,
+    "slots": 2
+  },
+  "data": {
+    "slots": {
+      "fs-light-bot": {
+        "attachment": [
+          {
+            "name": "fs-light-bot"
+          },
+          {
+            "time": 0.1333
+          },
+          {
+            "time": 0.2,
+            "name": "fs-light-bot"
+          },
+          {
+            "time": 0.2667
+          }
+        ]
+      },
+      "fs-light-up": {
+        "attachment": [
+          {
+            "name": "fs-light-up"
+          },
+          {
+            "time": 0.1333
+          },
+          {
+            "time": 0.2,
+            "name": "fs-light-up"
+          },
+          {
+            "time": 0.2667
+          }
+        ]
+      }
+    },
+    "bones": {
+      "fs-txt": {
+        "scale": [
+          {},
+          {
+            "time": 0.1667,
+            "x": 1.117,
+            "y": 1.117
+          },
+          {
+            "time": 0.3333,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      "fs-fs": {
+        "scale": [
+          {},
+          {
+            "time": 0.1667,
+            "x": 1.117,
+            "y": 1.117
+          },
+          {
+            "time": 0.3333,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      "fs-backer": {
+        "scale": [
+          {
+            "curve": [
+              0.062,
+              1.003,
+              0.117,
+              1.11,
+              0.062,
+              1.003,
+              0.117,
+              1.11
+            ]
+          },
+          {
+            "time": 0.1667,
+            "x": 1.114,
+            "y": 1.114,
+            "curve": [
+              0.229,
+              1.119,
+              0.284,
+              0.008,
+              0.229,
+              1.119,
+              0.284,
+              0.008
+            ]
+          },
+          {
+            "time": 0.3333,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

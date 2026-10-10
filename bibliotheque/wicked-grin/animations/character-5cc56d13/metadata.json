@@ -1,0 +1,665 @@
+{
+  "id": "animations/character-5cc56d13",
+  "name": "character",
+  "machine": "wicked-grin",
+  "format": "spine-json",
+  "version": "4.0.64",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-248d0493.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-248d0493.atlas"
+  ],
+  "textures": [
+    "character.png"
+  ],
+  "animations": [
+    {
+      "name": "animation",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 22
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 36
+      }
+    },
+    {
+      "name": "idle2",
+      "duration": 2.133,
+      "timelines": {
+        "bones": 46
+      }
+    },
+    {
+      "name": "idle3",
+      "duration": 1.667,
+      "timelines": {
+        "bones": 21
+      }
+    },
+    {
+      "name": "reaction",
+      "duration": 1.833,
+      "timelines": {
+        "bones": 43
+      }
+    },
+    {
+      "name": "reaction2",
+      "duration": 1.467,
+      "timelines": {
+        "bones": 33,
+        "events": 1
+      }
+    },
+    {
+      "name": "trigger",
+      "duration": 2.033,
+      "timelines": {
+        "bones": 38
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "scale_all_bone",
+    "hip",
+    "leg_L_1",
+    "leg_L_2",
+    "foot_L_pos",
+    "foot_L_2",
+    "leg_L_IK",
+    "foot_L_1",
+    "leg_R_1",
+    "leg_R_2",
+    "foot_L_3",
+    "foot_R_pos",
+    "foot_R_2",
+    "leg_R_IK",
+    "foot_R_1",
+    "foot_R_3",
+    "body1",
+    "body2",
+    "shoulder",
+    "arm_L_1",
+    "arm_L_2",
+    "hand_L_1",
+    "arm_R_1",
+    "arm_R_2",
+    "hand_R_1",
+    "head",
+    "upper_jaw",
+    "nose",
+    "back_head",
+    "head_tail1",
+    "head_tail2",
+    "head_tail3",
+    "teeth_upper",
+    "jaw",
+    "cheek_L",
+    "cheek_R",
+    "eye_top_L",
+    "eye_top_R",
+    "hand_R_2",
+    "thumb1",
+    "thumb2",
+    "thumb3",
+    "finger_B",
+    "finger_C",
+    "finger_A_1",
+    "finger_A_2",
+    "finger_A_3",
+    "hand_L_2",
+    "shorts_triangle",
+    "shorts_L",
+    "shorts_R",
+    "eye_bottom_L",
+    "eye_bottom_R",
+    "pupil_L",
+    "pupil_R",
+    "leg_L_1_IK",
+    "leg_L_2_IK",
+    "knee_L",
+    "leg_R_1_IK",
+    "knee_R",
+    "leg_R_2_IK",
+    "shoe_L_opening",
+    "shoe_R_opening",
+    "head_top",
+    "face_back",
+    "teeth_upper2",
+    "jaw2"
+  ],
+  "slots": [
+    "head_back_stroke",
+    "head_stroke",
+    "arm_R_stroke",
+    "hand_R_stroke",
+    "finger1_R_stroke",
+    "finger2_R_stroke",
+    "foot_R_stroke",
+    "foot_R_opening_back_stroke",
+    "leg_R_stroke",
+    "foot_R_opening_stroke",
+    "foot_R_toe_stroke",
+    "foot_L_stroke",
+    "foot_L_opening_back_stroke",
+    "leg_L_stroke",
+    "foot_L_opening_stroke",
+    "foot_L_toe_stroke",
+    "body_stroke",
+    "shorts_R_stroke",
+    "shorts_stroke",
+    "arm_L_stroke",
+    "face_stroke",
+    "hand_L_stroke",
+    "hand_L_opening_back_stroke",
+    "hand_L_opening_stroke",
+    "arm_R",
+    "hand_R",
+    "finger1_R",
+    "finger2_R",
+    "hand_L_opening_back",
+    "head_back",
+    "head",
+    "arm_L",
+    "foot_R",
+    "foot_R_opening_back",
+    "leg_R",
+    "foot_R_opening",
+    "foot_R_toe",
+    "foot_L",
+    "foot_L_opening_back",
+    "foot_L_toe",
+    "body",
+    "shorts_R",
+    "leg_L",
+    "foot_L_opening",
+    "shorts",
+    "mouth_inside",
+    "teeth_lower",
+    "teeth_upper",
+    "face_side",
+    "face",
+    "mouth_edge",
+    "hand_L",
+    "hand_L_opening",
+    "pupil_L",
+    "pupil_R"
+  ],
+  "pieces": [
+    {
+      "region": "arm_L",
+      "file": "pieces/arm-l-f3dd01e8.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "620,21,267,265"
+      }
+    },
+    {
+      "region": "arm_L_stroke",
+      "file": "pieces/arm-l-stroke-14394b8f.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "620,288,281,279"
+      }
+    },
+    {
+      "region": "arm_R",
+      "file": "pieces/arm-r-12ec86ef.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1303,1039,318,181"
+      }
+    },
+    {
+      "region": "arm_R_stroke",
+      "file": "pieces/arm-r-stroke-332f69a1.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1303,1849,332,195"
+      }
+    },
+    {
+      "region": "body",
+      "file": "pieces/body-c93026b1.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1628,1575,307,272"
+      }
+    },
+    {
+      "region": "body_stroke",
+      "file": "pieces/body-stroke-f46b6ab5.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1303,1561,323,286"
+      }
+    },
+    {
+      "region": "face",
+      "file": "pieces/face-9d2c1355.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "692,1534,609,510"
+      }
+    },
+    {
+      "region": "face_side",
+      "file": "pieces/face-side-15862abb.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "903,223,378,232"
+      }
+    },
+    {
+      "region": "face_stroke",
+      "file": "pieces/face-stroke-b66209cb.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "2,989,623,524"
+      }
+    },
+    {
+      "region": "finger1_R",
+      "file": "pieces/finger1-r-52e2c14c.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1827,148,104,115"
+      }
+    },
+    {
+      "region": "finger1_R_stroke",
+      "file": "pieces/finger1-r-stroke-e075772f.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1801,399,118,129"
+      }
+    },
+    {
+      "region": "finger2_R",
+      "file": "pieces/finger2-r-0c9d7781.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1915,295,100,102"
+      }
+    },
+    {
+      "region": "finger2_R_stroke",
+      "file": "pieces/finger2-r-stroke-40eebce4.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1886,791,114,116"
+      }
+    },
+    {
+      "region": "foot_L",
+      "file": "pieces/foot-l-9efee0f2.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1165,593,318,403"
+      }
+    },
+    {
+      "region": "foot_L_opening",
+      "file": "pieces/foot-l-opening-0223c7ec.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1879,532,111,137"
+      }
+    },
+    {
+      "region": "foot_L_opening_back",
+      "file": "pieces/foot-l-opening-back-f6f8e947.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "536,128,65,92"
+      }
+    },
+    {
+      "region": "foot_L_opening_back_stroke",
+      "file": "pieces/foot-l-opening-back-stroke-2def1747.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "529,881,79,106"
+      }
+    },
+    {
+      "region": "foot_L_opening_stroke",
+      "file": "pieces/foot-l-opening-stroke-725ec288.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1841,909,125,151"
+      }
+    },
+    {
+      "region": "foot_L_stroke",
+      "file": "pieces/foot-l-stroke-4ee5a66d.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "2,170,332,417"
+      }
+    },
+    {
+      "region": "foot_L_toe",
+      "file": "pieces/foot-l-toe-feb0b080.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1557,251,242,158"
+      }
+    },
+    {
+      "region": "foot_L_toe_stroke",
+      "file": "pieces/foot-l-toe-stroke-dd5730be.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1623,1062,256,172"
+      }
+    },
+    {
+      "region": "foot_R",
+      "file": "pieces/foot-r-8fc7f291.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1287,240,268,351"
+      }
+    },
+    {
+      "region": "foot_R_opening",
+      "file": "pieces/foot-r-opening-b352903f.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1886,671,98,118"
+      }
+    },
+    {
+      "region": "foot_R_opening_back",
+      "file": "pieces/foot-r-opening-back-34310673.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "262,100,50,68"
+      }
+    },
+    {
+      "region": "foot_R_opening_back_stroke",
+      "file": "pieces/foot-r-opening-back-stroke-89710f05.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "536,44,64,82"
+      }
+    },
+    {
+      "region": "foot_R_opening_stroke",
+      "file": "pieces/foot-r-opening-stroke-6151242d.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1801,265,112,132"
+      }
+    },
+    {
+      "region": "foot_R_stroke",
+      "file": "pieces/foot-r-stroke-5d2fc6fe.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "336,222,282,365"
+      }
+    },
+    {
+      "region": "foot_R_toe",
+      "file": "pieces/foot-r-toe-928a23a9.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "410,589,210,158"
+      }
+    },
+    {
+      "region": "foot_R_toe_stroke",
+      "file": "pieces/foot-r-toe-stroke-55385799.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1601,77,224,172"
+      }
+    },
+    {
+      "region": "hand_L",
+      "file": "pieces/hand-l-af0a3371.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1415,35,184,203"
+      }
+    },
+    {
+      "region": "hand_L_opening",
+      "file": "pieces/hand-l-opening-f7361f7a.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1881,1082,103,152"
+      }
+    },
+    {
+      "region": "hand_L_opening_back",
+      "file": "pieces/hand-l-opening-back-0381bb44.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "580,782,35,97"
+      }
+    },
+    {
+      "region": "hand_L_opening_back_stroke",
+      "file": "pieces/hand-l-opening-back-stroke-5cbc67ef.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "529,768,49,111"
+      }
+    },
+    {
+      "region": "hand_L_opening_stroke",
+      "file": "pieces/hand-l-opening-stroke-30198648.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "2,2,117,166"
+      }
+    },
+    {
+      "region": "hand_L_stroke",
+      "file": "pieces/hand-l-stroke-b9e312c0.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "336,3,198,217"
+      }
+    },
+    {
+      "region": "hand_R",
+      "file": "pieces/hand-r-e29aff47.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "903,583,260,413"
+      }
+    },
+    {
+      "region": "hand_R_stroke",
+      "file": "pieces/hand-r-stroke-7af57f0e.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "627,569,274,427"
+      }
+    },
+    {
+      "region": "head",
+      "file": "pieces/head-1cb2ced0.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "627,998,674,515"
+      }
+    },
+    {
+      "region": "head_back",
+      "file": "pieces/head-back-7afb0ae0.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1557,411,193,305"
+      }
+    },
+    {
+      "region": "head_back_stroke",
+      "file": "pieces/head-back-stroke-76bcc142.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1485,718,207,319"
+      }
+    },
+    {
+      "region": "head_stroke",
+      "file": "pieces/head-stroke-3d983ca8.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "2,1515,688,529"
+      }
+    },
+    {
+      "region": "leg_L",
+      "file": "pieces/leg-l-3884d4c7.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1637,1851,201,193",
+        "offsets": "1,1,202,195"
+      }
+    },
+    {
+      "region": "leg_L_stroke",
+      "file": "pieces/leg-l-stroke-8770ed23.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "889,12,216,209"
+      }
+    },
+    {
+      "region": "leg_R",
+      "file": "pieces/leg-r-2476a826.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1283,4,130,234",
+        "offsets": "1,0,131,234"
+      }
+    },
+    {
+      "region": "leg_R_stroke",
+      "file": "pieces/leg-r-stroke-707490f4.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1694,812,145,248"
+      }
+    },
+    {
+      "region": "mouth_edge",
+      "file": "pieces/mouth-edge-ea8ffd99.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1752,671,132,139"
+      }
+    },
+    {
+      "region": "mouth_inside",
+      "file": "pieces/mouth-inside-d89a5f5c.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "2,749,525,238"
+      }
+    },
+    {
+      "region": "pupil_L",
+      "file": "pieces/pupil-l-85e3d203.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1107,24,141,197"
+      }
+    },
+    {
+      "region": "pupil_R",
+      "file": "pieces/pupil-r-d863e9b0.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1840,1863,136,181"
+      }
+    },
+    {
+      "region": "shorts",
+      "file": "pieces/shorts-4143a012.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1615,1236,296,323"
+      }
+    },
+    {
+      "region": "shorts_R",
+      "file": "pieces/shorts-r-2876116b.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1752,530,125,139"
+      }
+    },
+    {
+      "region": "shorts_R_stroke",
+      "file": "pieces/shorts-r-stroke-00c7246d.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "121,15,139,153"
+      }
+    },
+    {
+      "region": "shorts_stroke",
+      "file": "pieces/shorts-stroke-2f4ca173.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "1303,1222,310,337"
+      }
+    },
+    {
+      "region": "teeth_lower",
+      "file": "pieces/teeth-lower-ac8606c2.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "2,589,406,158"
+      }
+    },
+    {
+      "region": "teeth_upper",
+      "file": "pieces/teeth-upper-757c5150.png",
+      "page": "character.png",
+      "properties": {
+        "bounds": "903,457,382,124",
+        "offsets": "380,990,1097,1552"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.json",
+      "sha256": "5cc56d136735b6d4f9a27634ce58e5d675c0a8b475033a7d1c2dafb85947cf29",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-248d0493.atlas",
+      "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.atlas",
+      "sha256": "248d04939701e07e75012631806c9004ccdad0e3bd639916cfd5ea6e35e90680",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "originaux/8e24b3ff-character.ktx2",
+      "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.ktx2",
+      "sha256": "8e24b3ffa02511c0d1453e510627c4d9f12945db42b624c8728a0db05e245928",
+      "kind": "texture"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

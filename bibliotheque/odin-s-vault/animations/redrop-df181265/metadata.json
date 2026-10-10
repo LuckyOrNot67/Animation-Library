@@ -1,0 +1,314 @@
+{
+  "id": "animations/redrop-df181265",
+  "name": "redrop",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-70bbfb96.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-70bbfb96.atlas"
+  ],
+  "textures": [
+    "redrop.webp"
+  ],
+  "animations": [
+    {
+      "name": "collect",
+      "duration": 1,
+      "timelines": {
+        "bones": 21,
+        "slots": 21
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1,
+      "timelines": {
+        "bones": 27,
+        "slots": 29,
+        "attachments": 1,
+        "drawOrder": 3
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "Mine_redrop",
+    "redrop",
+    "redrop_r",
+    "redrop_l",
+    "redrop_r2",
+    "redrop_l2",
+    "redrop_l3",
+    "redrop_r3",
+    "redrop2",
+    "redrop3",
+    "redrop4",
+    "redrop5",
+    "redrop6",
+    "redrop7",
+    "redrop8",
+    "redrop9",
+    "redrop10",
+    "redrop11",
+    "redrop12",
+    "redrop13",
+    "redrop14",
+    "redrop15",
+    "redrop_l4",
+    "redrop_r4",
+    "snake_head",
+    "Head",
+    "head_top",
+    "head_top2",
+    "head_low",
+    "head_low2",
+    "part_l",
+    "part_r"
+  ],
+  "slots": [
+    "BG_redrop",
+    "Shadow_1_redrop",
+    "head_inner",
+    "head_inner_add",
+    "head_top",
+    "head_top_add",
+    "head_low",
+    "head_low_add",
+    "part_l",
+    "part_r",
+    "Flame_glow_redrop",
+    "Flame_redrop",
+    "Glow_redrop",
+    "Sparks_redrop",
+    "Ring_04_redrop",
+    "Collar_2_redrop",
+    "Head_2_redrop",
+    "Eye_2_redrop",
+    "Eye_2_redrop2",
+    "Golden_lip_2_redrop",
+    "Arrow_2_redrop",
+    "Collar_1_redrop",
+    "Head_1_redrop",
+    "Eye_1_redrop",
+    "Eye_1_redrop2",
+    "Golden_lip_1_redrop",
+    "Arrow_1_redrop",
+    "Eye_glow_redrop",
+    "Eye_glow_redrop2"
+  ],
+  "pieces": [
+    {
+      "region": "Arrow_1_redrop",
+      "file": "pieces/arrow-1-redrop-83512c62.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "275,25,28,27",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Arrow_2_redrop",
+      "file": "pieces/arrow-2-redrop-9e61e350.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "304,81,28,27",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Collar_1_redrop",
+      "file": "pieces/collar-1-redrop-003767e6.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "497,358,30,15",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Collar_2_redrop",
+      "file": "pieces/collar-2-redrop-8255606b.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "304,113,30,17",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Eye_1_redrop",
+      "file": "pieces/eye-1-redrop-8ce808d1.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "389,380,8,8"
+      }
+    },
+    {
+      "region": "Eye_2_redrop",
+      "file": "pieces/eye-2-redrop-667abc23.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "401,380,8,8"
+      }
+    },
+    {
+      "region": "Eye_glow_redrop",
+      "file": "pieces/eye-glow-redrop-6ab11d93.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "146,147,13,13"
+      }
+    },
+    {
+      "region": "Flame_glow_redrop",
+      "file": "pieces/flame-glow-redrop-02b756ff.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "0,309,195,194",
+        "offsets": "2,5,200,200"
+      }
+    },
+    {
+      "region": "Flame_redrop",
+      "file": "pieces/flame-redrop-4a52e28d.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "199,256,128,120"
+      }
+    },
+    {
+      "region": "Glow_redrop",
+      "file": "pieces/glow-redrop-274fa300.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "197,147,121,105"
+      }
+    },
+    {
+      "region": "Golden_lip_1_redrop",
+      "file": "pieces/golden-lip-1-redrop-8b42bc82.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "438,272,26,38",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Golden_lip_2_redrop",
+      "file": "pieces/golden-lip-2-redrop-be899650.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "246,15,25,38"
+      }
+    },
+    {
+      "region": "Head_1_redrop",
+      "file": "pieces/head-1-redrop-8f203927.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "146,0,46,45"
+      }
+    },
+    {
+      "region": "Head_2_redrop",
+      "file": "pieces/head-2-redrop-d07f57c0.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "196,0,46,45"
+      }
+    },
+    {
+      "region": "Ring_04_redrop",
+      "file": "pieces/ring-04-redrop-6d2ec834.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "146,49,94,94"
+      }
+    },
+    {
+      "region": "Shadow_1_redrop",
+      "file": "pieces/shadow-1-redrop-609ea3b1.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "331,268,108,103",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Sparks_redrop",
+      "file": "pieces/sparks-redrop-a741a6b1.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "389,392,123,111"
+      }
+    },
+    {
+      "region": "head_inner",
+      "file": "pieces/head-inner-903af559.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "0,5,142,155"
+      }
+    },
+    {
+      "region": "head_low",
+      "file": "pieces/head-low-88106474.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "0,164,193,141"
+      }
+    },
+    {
+      "region": "head_top",
+      "file": "pieces/head-top-20589f86.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "199,380,186,123"
+      }
+    },
+    {
+      "region": "part_l",
+      "file": "pieces/part-l-4ae724c7.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "244,57,56,86",
+        "offsets": "1,1,58,88"
+      }
+    },
+    {
+      "region": "part_r",
+      "file": "pieces/part-r-0691a1f5.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "438,302,55,86",
+        "offsets": "1,2,57,89"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/redrop.json",
+      "sha256": "df1812656922d16f3c3e26861e37dc23fc32d50aee253f3bd7bd7be660bcefbc",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-70bbfb96.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/redrop.atlas",
+      "sha256": "70bbfb963f2433f324d301d2611f0f7d69d107c28fa153f197931336cc28654f",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "redrop.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/redrop.webp",
+      "sha256": "b8950d7c30579a1ab6eed3f17de53771fc5c1b7e2f59ec7c1ee2b2470ce7f485",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

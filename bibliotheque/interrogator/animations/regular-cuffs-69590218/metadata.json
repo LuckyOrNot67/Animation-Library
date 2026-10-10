@@ -1,0 +1,103 @@
+{
+  "id": "animations/regular-cuffs-69590218",
+  "name": "regular-cuffs",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-5e451a7c.atlas",
+  "pma": true,
+  "atlases": [
+    "atlas-5e451a7c.atlas"
+  ],
+  "textures": [
+    "regular-cuffs.png"
+  ],
+  "animations": [
+    {
+      "name": "land",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 7,
+        "events": 1
+      }
+    },
+    {
+      "name": "win",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 7,
+        "events": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "sway",
+    "left_cuff",
+    "chain_0",
+    "chain_1",
+    "chain_2",
+    "chain_3",
+    "right_cuff",
+    "right_ring"
+  ],
+  "slots": [
+    "left_cuff",
+    "chain",
+    "right_cuff"
+  ],
+  "pieces": [
+    {
+      "region": "chain",
+      "file": "pieces/chain-d6a5f76c.png",
+      "page": "regular-cuffs.png",
+      "properties": {
+        "bounds": "1264,14,423,573"
+      }
+    },
+    {
+      "region": "left_cuff",
+      "file": "pieces/left-cuff-05129768.png",
+      "page": "regular-cuffs.png",
+      "properties": {
+        "bounds": "638,2,585,624",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "right_cuff",
+      "file": "pieces/right-cuff-a91c97f9.png",
+      "page": "regular-cuffs.png",
+      "properties": {
+        "bounds": "2,10,577,634",
+        "rotate": "90"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-cuffs/regular-cuffs.json",
+      "sha256": "6959021859f9638dd57188353d780a030645da39db93b2c5bc25a91b732dbc12",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-5e451a7c.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-cuffs/regular-cuffs.atlas",
+      "sha256": "5e451a7cea5599c7401320ab051174364fa760d98cde717845d2d20f72ac331c",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "regular-cuffs.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-cuffs/regular-cuffs.png",
+      "sha256": "69de001360e3449e6fe357f654f8af96e9cd33b398e3f9e6d542a6b146fafb6f",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

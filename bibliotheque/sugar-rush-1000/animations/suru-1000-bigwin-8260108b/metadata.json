@@ -1,0 +1,224 @@
+{
+  "id": "animations/suru-1000-bigwin-8260108b",
+  "name": "suru_1000_bigwin",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-700ba806.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-700ba806.atlas"
+  ],
+  "textures": [
+    "suru_1000_bigwin.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_1000_bigwin_mega_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 19
+      }
+    },
+    {
+      "name": "suru_1000_bigwin_mega_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 10
+      }
+    },
+    {
+      "name": "suru_1000_bigwin_mega_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 21
+      }
+    },
+    {
+      "name": "suru_1000_bigwin_nice_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 16
+      }
+    },
+    {
+      "name": "suru_1000_bigwin_nice_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 7
+      }
+    },
+    {
+      "name": "suru_1000_bigwin_nice_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 18
+      }
+    },
+    {
+      "name": "suru_1000_bigwin_sesnational_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 16
+      }
+    },
+    {
+      "name": "suru_1000_bigwin_sesnational_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 7
+      }
+    },
+    {
+      "name": "suru_1000_bigwin_sesnational_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 18
+      }
+    },
+    {
+      "name": "suru_1000_bigwin_superb_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 16
+      }
+    },
+    {
+      "name": "suru_1000_bigwin_superb_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "slots": 7
+      }
+    },
+    {
+      "name": "suru_1000_bigwin_superb_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 18
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "sensational",
+    "numbers",
+    "stars",
+    "big_star"
+  ],
+  "slots": [
+    "bokeh",
+    "bokeh2",
+    "colour_effects",
+    "rays_2",
+    "stars_left",
+    "stars_right",
+    "glow",
+    "rays_1",
+    "shape_2_r_p_1",
+    "shape_2_r_p_3",
+    "shape_1_p_1",
+    "shape_1_p_3",
+    "left_star_motion",
+    "left_star",
+    "right_star_motion",
+    "right_star",
+    "meter_shadow",
+    "meter",
+    "superb_glow",
+    "superb_base",
+    "superb_white_part",
+    "superb_depth",
+    "superb_text",
+    "superb_high_light_2",
+    "superb_high_light_1",
+    "mega_glow",
+    "mega_base",
+    "mega_white_part",
+    "mega_text_depth",
+    "mega_text",
+    "mega_high_light_2",
+    "mega_high_light_3",
+    "mega_high_light_1",
+    "nice_glow",
+    "nice_base",
+    "nice_white",
+    "nice_text_depth",
+    "nice_text",
+    "nice_high_light_2",
+    "nice_high_light_1",
+    "sensational_glow",
+    "sensational_base",
+    "sensational_white_part",
+    "sensational_text_depth",
+    "sensational_text",
+    "sensational_high_light_1",
+    "sensational_high_light_3",
+    "sensational_high_light_2"
+  ],
+  "pieces": [
+    {
+      "region": "bokeh",
+      "file": "pieces/bokeh-68cc10a6.png",
+      "page": "suru_1000_bigwin.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 2",
+        "size": "411, 223",
+        "orig": "411, 223",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "colour_effects_n",
+      "file": "pieces/colour-effects-n-3874f697.png",
+      "page": "suru_1000_bigwin.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 227",
+        "size": "2500, 999",
+        "orig": "2500, 999",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-05a3f56401f6/suru_1000_bigwin.json",
+      "sha256": "8260108b383bd7d772fafc8595e3c63ef789fd9572d63781588916253302b1e0",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-700ba806.atlas",
+      "source": "raw/_embedded/uht-05a3f56401f6/suru_1000_bigwin.atlas",
+      "sha256": "700ba806a3d4188f4af9c6be2effd70ee355bb9c175b0c03feead6e7488f7aec",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_1000_bigwin.png",
+      "source": "raw/_embedded/uht-05a3f56401f6/suru_1000_bigwin.png",
+      "sha256": "05ee9bef080fe5733d7c71aa2f5660f8359ef05a7f740627a7b46dbee02e3eb1",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

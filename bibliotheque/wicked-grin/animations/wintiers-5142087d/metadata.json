@@ -1,0 +1,720 @@
+{
+  "id": "animations/wintiers-5142087d",
+  "name": "wintiers",
+  "machine": "wicked-grin",
+  "format": "spine-json",
+  "version": "4.0.64",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-c5cb2993.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-c5cb2993.atlas"
+  ],
+  "textures": [
+    "wintiers.png"
+  ],
+  "animations": [
+    {
+      "name": "bw_idle",
+      "duration": 0,
+      "timelines": {
+        "slots": 12
+      }
+    },
+    {
+      "name": "bw_trigger",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 7,
+        "slots": 12
+      }
+    },
+    {
+      "name": "ew_idle",
+      "duration": 0,
+      "timelines": {
+        "bones": 19,
+        "slots": 51
+      }
+    },
+    {
+      "name": "ew_trigger",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 27,
+        "slots": 51
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 25
+      }
+    },
+    {
+      "name": "mw_idle",
+      "duration": 0,
+      "timelines": {
+        "bones": 4,
+        "slots": 20
+      }
+    },
+    {
+      "name": "mw_trigger",
+      "duration": 1.3,
+      "timelines": {
+        "bones": 13,
+        "slots": 20
+      }
+    },
+    {
+      "name": "smw_idle",
+      "duration": 0,
+      "timelines": {
+        "bones": 14,
+        "slots": 37
+      }
+    },
+    {
+      "name": "smw_trigger",
+      "duration": 1.533,
+      "timelines": {
+        "bones": 26,
+        "slots": 37
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "scale_all_bone",
+    "bw",
+    "mw",
+    "smw",
+    "ew",
+    "bw_txt1",
+    "bw_txt2",
+    "bw_txt3",
+    "bw_txt4",
+    "bw_txt5",
+    "bw_txt6",
+    "bw_shadow6",
+    "bw_shadow5",
+    "bw_shadow4",
+    "bw_shadow3",
+    "bw_shadow2",
+    "bw_shadow1",
+    "mw_txt1",
+    "mw_txt2",
+    "mw_txt3",
+    "mw_txt4",
+    "mw_txt5",
+    "mw_txt6",
+    "mw_txt7",
+    "mw_shadow7",
+    "mw_shadow6",
+    "mw_shadow5",
+    "mw_shadow4",
+    "mw_shadow3",
+    "mw_shadow2",
+    "mw_shadow1",
+    "smw_txt1",
+    "smw_txt2",
+    "smw_txt3",
+    "smw_txt4",
+    "smw_txt5",
+    "smw_shadow1",
+    "smw_shadow2",
+    "smw_shadow3",
+    "smw_shadow4",
+    "smw_shadow5",
+    "ew_txt1",
+    "ew_txt2",
+    "ew_txt3",
+    "ew_txt4",
+    "ew_txt5",
+    "ew_txt6",
+    "ew_txt7",
+    "ew_shadow7",
+    "ew_shadow6",
+    "ew_shadow5",
+    "ew_shadow4",
+    "ew_shadow3",
+    "ew_shadow2",
+    "ew_shadow1",
+    "ew_txt1_idle",
+    "ew_glow1",
+    "ew_txt2_idle",
+    "ew_glow2",
+    "ew_txt3_idle",
+    "ew_glow3",
+    "ew_txt4_idle",
+    "ew_glow4",
+    "ew_txt5_idle",
+    "ew_glow5",
+    "ew_txt6_idle",
+    "ew_glow6",
+    "ew_txt7_idle",
+    "ew_glow7",
+    "bw_txt1_idle",
+    "bw_txt2_idle",
+    "bw_txt3_idle",
+    "bw_txt4_idle",
+    "bw_txt5_idle",
+    "bw_txt6_idle",
+    "mw_txt1_idle",
+    "mw_txt2_idle",
+    "mw_txt3_idle",
+    "mw_txt4_idle",
+    "mw_txt5_idle",
+    "mw_txt6_idle",
+    "mw_txt7_idle",
+    "smw_txt1_idle",
+    "smw_txt2_idle",
+    "smw_txt3_idle",
+    "smw_txt4_idle",
+    "smw_txt5_idle"
+  ],
+  "slots": [
+    "bw_shadow1",
+    "bw_shadow2",
+    "bw_shadow3",
+    "bw_shadow4",
+    "bw_shadow5",
+    "bw_shadow6",
+    "bw_txt1",
+    "bw_txt2",
+    "bw_txt3",
+    "bw_txt4",
+    "bw_txt5",
+    "bw_txt6",
+    "mw_shadow1",
+    "mw_shadow2",
+    "mw_shadow3",
+    "mw_shadow4",
+    "mw_shadow5",
+    "mw_shadow6",
+    "mw_shadow7",
+    "mw_txt1",
+    "mw_txt2",
+    "mw_txt3",
+    "mw_txt4",
+    "mw_txt5",
+    "mw_txt6",
+    "mw_txt7",
+    "s_shadow1",
+    "s_shadow2",
+    "s_shadow3",
+    "s_shadow4",
+    "s_shadow5",
+    "s_txt1",
+    "s_txt2",
+    "s_txt3",
+    "s_txt4",
+    "s_txt5",
+    "ew_shadow1",
+    "ew_shadow2",
+    "ew_shadow3",
+    "ew_shadow4",
+    "ew_shadow5",
+    "ew_shadow6",
+    "ew_shadow7",
+    "ew_txt1",
+    "ew_txt2",
+    "ew_txt3",
+    "ew_txt4",
+    "ew_txt5",
+    "ew_txt6",
+    "ew_txt7",
+    "ew_glow1",
+    "ew_glow2",
+    "ew_glow3",
+    "ew_glow4",
+    "ew_glow5",
+    "ew_glow6",
+    "ew_glow7"
+  ],
+  "pieces": [
+    {
+      "region": "bw_shadow1",
+      "file": "pieces/bw-shadow1-aa537c3e.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "2,79,153,202"
+      }
+    },
+    {
+      "region": "bw_shadow2",
+      "file": "pieces/bw-shadow2-635b48b2.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "767,363,75,144"
+      }
+    },
+    {
+      "region": "bw_shadow5",
+      "file": "pieces/bw-shadow5-7695a214.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "767,363,75,144"
+      }
+    },
+    {
+      "region": "mw_shadow6",
+      "file": "pieces/mw-shadow6-4abc16bd.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "767,363,75,144"
+      }
+    },
+    {
+      "region": "bw_shadow3",
+      "file": "pieces/bw-shadow3-34dafbb2.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "544,120,112,167"
+      }
+    },
+    {
+      "region": "mw_shadow3",
+      "file": "pieces/mw-shadow3-2954a712.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "544,120,112,167"
+      }
+    },
+    {
+      "region": "bw_shadow4",
+      "file": "pieces/bw-shadow4-7a2a9701.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "333,584,151,156"
+      }
+    },
+    {
+      "region": "mw_shadow5",
+      "file": "pieces/mw-shadow5-3d6db8eb.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "333,584,151,156"
+      }
+    },
+    {
+      "region": "bw_shadow6",
+      "file": "pieces/bw-shadow6-68151b75.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "500,749,114,111"
+      }
+    },
+    {
+      "region": "bw_txt1",
+      "file": "pieces/bw-txt1-cc634d7c.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "486,447,112,161"
+      }
+    },
+    {
+      "region": "bw_txt2",
+      "file": "pieces/bw-txt2-d79c254b.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "830,778,35,105"
+      }
+    },
+    {
+      "region": "bw_txt3",
+      "file": "pieces/bw-txt3-297e6b14.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "716,509,71,126"
+      }
+    },
+    {
+      "region": "bw_txt4",
+      "file": "pieces/bw-txt4-299d21d6.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "297,95,112,116"
+      }
+    },
+    {
+      "region": "bw_txt5",
+      "file": "pieces/bw-txt5-2b193bde.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "830,671,35,105"
+      }
+    },
+    {
+      "region": "bw_txt6",
+      "file": "pieces/bw-txt6-97d86aa1.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "81,7,74,70"
+      }
+    },
+    {
+      "region": "ew_glow1",
+      "file": "pieces/ew-glow1-8e5e1350.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "2,478,187,238"
+      }
+    },
+    {
+      "region": "ew_glow2",
+      "file": "pieces/ew-glow2-a20fa118.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "191,542,140,179"
+      }
+    },
+    {
+      "region": "ew_glow3",
+      "file": "pieces/ew-glow3-c0d32090.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "658,125,93,186"
+      }
+    },
+    {
+      "region": "ew_glow6",
+      "file": "pieces/ew-glow6-1077e0cd.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "658,125,93,186"
+      }
+    },
+    {
+      "region": "ew_glow4",
+      "file": "pieces/ew-glow4-a238560b.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "447,289,125,150"
+      }
+    },
+    {
+      "region": "ew_glow5",
+      "file": "pieces/ew-glow5-ad7f9a32.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "183,817,196,200"
+      }
+    },
+    {
+      "region": "ew_glow7",
+      "file": "pieces/ew-glow7-d2fb2c59.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "338,441,146,141"
+      }
+    },
+    {
+      "region": "ew_shadow1",
+      "file": "pieces/ew-shadow1-c88e2328.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "2,718,179,299"
+      }
+    },
+    {
+      "region": "ew_shadow2",
+      "file": "pieces/ew-shadow2-a539f76d.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "411,40,131,171"
+      }
+    },
+    {
+      "region": "ew_shadow3",
+      "file": "pieces/ew-shadow3-46c1571e.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "680,318,85,177"
+      }
+    },
+    {
+      "region": "ew_shadow4",
+      "file": "pieces/ew-shadow4-163ed840.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "532,877,117,140"
+      }
+    },
+    {
+      "region": "ew_shadow5",
+      "file": "pieces/ew-shadow5-999accbf.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "2,283,187,193"
+      }
+    },
+    {
+      "region": "ew_shadow6",
+      "file": "pieces/ew-shadow6-c9856bcb.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "753,139,85,177"
+      }
+    },
+    {
+      "region": "ew_shadow7",
+      "file": "pieces/ew-shadow7-557395b8.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "486,610,138,133"
+      }
+    },
+    {
+      "region": "ew_txt1",
+      "file": "pieces/ew-txt1-bf21ff23.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "157,94,138,187"
+      }
+    },
+    {
+      "region": "ew_txt2",
+      "file": "pieces/ew-txt2-1cacd047.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "763,885,89,132"
+      }
+    },
+    {
+      "region": "ew_txt3",
+      "file": "pieces/ew-txt3-b8ec3ca7.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "789,521,44,138"
+      }
+    },
+    {
+      "region": "ew_txt4",
+      "file": "pieces/ew-txt4-79bcb30f.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "736,661,77,100"
+      }
+    },
+    {
+      "region": "ew_txt5",
+      "file": "pieces/ew-txt5-c37b50a7.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "297,213,148,153"
+      }
+    },
+    {
+      "region": "ew_txt6",
+      "file": "pieces/ew-txt6-e1a00f9c.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "840,223,44,138"
+      }
+    },
+    {
+      "region": "ew_txt7",
+      "file": "pieces/ew-txt7-391acbd0.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "183,723,97,92"
+      }
+    },
+    {
+      "region": "mw_shadow1",
+      "file": "pieces/mw-shadow1-82fc3896.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "381,862,149,155"
+      }
+    },
+    {
+      "region": "mw_shadow2",
+      "file": "pieces/mw-shadow2-fcf1852b.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "616,753,105,122"
+      }
+    },
+    {
+      "region": "s_shadow4",
+      "file": "pieces/s-shadow4-8dae66df.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "616,753,105,122"
+      }
+    },
+    {
+      "region": "mw_shadow4",
+      "file": "pieces/mw-shadow4-c9b29d85.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "381,745,117,115"
+      }
+    },
+    {
+      "region": "mw_shadow7",
+      "file": "pieces/mw-shadow7-7c7865d7.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "600,497,114,111"
+      }
+    },
+    {
+      "region": "mw_txt1",
+      "file": "pieces/mw-txt1-928937e0.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "626,637,108,114"
+      }
+    },
+    {
+      "region": "mw_txt2",
+      "file": "pieces/mw-txt2-8c9a55d0.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "157,10,64,82"
+      }
+    },
+    {
+      "region": "mw_txt3",
+      "file": "pieces/mw-txt3-c43eab64.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "758,11,71,126"
+      }
+    },
+    {
+      "region": "mw_txt4",
+      "file": "pieces/mw-txt4-fa391bdb.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "2,2,77,75"
+      }
+    },
+    {
+      "region": "mw_txt5",
+      "file": "pieces/mw-txt5-e2005d5c.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "544,2,112,116"
+      }
+    },
+    {
+      "region": "mw_txt6",
+      "file": "pieces/mw-txt6-c1eba659.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "854,912,35,105"
+      }
+    },
+    {
+      "region": "mw_txt7",
+      "file": "pieces/mw-txt7-03263492.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "289,22,74,70"
+      }
+    },
+    {
+      "region": "s_shadow1",
+      "file": "pieces/s-shadow1-eef538f7.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "191,368,145,172"
+      }
+    },
+    {
+      "region": "s_shadow2",
+      "file": "pieces/s-shadow2-5c93c816.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "723,763,105,112"
+      }
+    },
+    {
+      "region": "s_shadow3",
+      "file": "pieces/s-shadow3-051f2e3a.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "651,877,110,140"
+      }
+    },
+    {
+      "region": "s_shadow5",
+      "file": "pieces/s-shadow5-7850d507.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "658,13,98,110"
+      }
+    },
+    {
+      "region": "s_txt1",
+      "file": "pieces/s-txt1-f051b8a7.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "574,313,104,132"
+      }
+    },
+    {
+      "region": "s_txt2",
+      "file": "pieces/s-txt2-6aca4fc3.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "282,742,64,73"
+      }
+    },
+    {
+      "region": "s_txt3",
+      "file": "pieces/s-txt3-b471bfd9.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "831,37,68,100"
+      }
+    },
+    {
+      "region": "s_txt4",
+      "file": "pieces/s-txt4-c085236b.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "223,10,64,82"
+      }
+    },
+    {
+      "region": "s_txt5",
+      "file": "pieces/s-txt5-5374ec6a.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "191,296,57,70"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.json",
+      "sha256": "5142087d7101a73045f93698f51db0c0e1469d181dba8b4823d3f4e10cb65b71",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-c5cb2993.atlas",
+      "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.atlas",
+      "sha256": "c5cb299323cc9189406c3704a6c92f1905e89f1547602de9881857e0c270c47c",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "originaux/9713f68c-wintiers.ktx2",
+      "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.ktx2",
+      "sha256": "9713f68c13c18870eb16623348b3d6aadbb45e07fa31eb58f03abf7755b75a5d",
+      "kind": "texture"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

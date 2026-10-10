@@ -1,0 +1,126 @@
+{
+  "name": "remove_yellow/1",
+  "duration": 0.333,
+  "timelines": {
+    "bones": 2,
+    "slots": 2
+  },
+  "data": {
+    "slots": {
+      "lights11": {
+        "rgba": [
+          {
+            "color": "ffffffff",
+            "curve": [
+              0.111,
+              1,
+              0.222,
+              1,
+              0.111,
+              1,
+              0.222,
+              1,
+              0.111,
+              1,
+              0.222,
+              1,
+              0.111,
+              1,
+              0.222,
+              0
+            ]
+          },
+          {
+            "time": 0.3333,
+            "color": "ffffff00"
+          }
+        ],
+        "attachment": [
+          {
+            "name": "lights_yellow"
+          }
+        ]
+      },
+      "lights16": {
+        "rgba": [
+          {
+            "color": "ffffffff",
+            "curve": [
+              0.111,
+              1,
+              0.222,
+              1,
+              0.111,
+              1,
+              0.222,
+              1,
+              0.111,
+              1,
+              0.222,
+              1,
+              0.111,
+              1,
+              0.222,
+              0
+            ]
+          },
+          {
+            "time": 0.3333,
+            "color": "ffffff00"
+          }
+        ],
+        "attachment": [
+          {
+            "name": "lights_yellow"
+          }
+        ]
+      }
+    },
+    "bones": {
+      "light11": {
+        "scale": [
+          {
+            "curve": [
+              0.111,
+              1,
+              0.222,
+              0.5,
+              0.111,
+              1,
+              0.222,
+              0.5
+            ]
+          },
+          {
+            "time": 0.3333,
+            "x": 0.5,
+            "y": 0.5
+          }
+        ]
+      },
+      "light16": {
+        "scale": [
+          {
+            "curve": [
+              0.111,
+              1,
+              0.222,
+              0.5,
+              0.111,
+              1,
+              0.222,
+              0.5
+            ]
+          },
+          {
+            "time": 0.3333,
+            "x": 0.5,
+            "y": 0.5
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

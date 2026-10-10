@@ -1,0 +1,546 @@
+{
+  "id": "animations/safe-bet-1fbb06f9",
+  "name": "safe_bet",
+  "machine": "spin-reaper-winsafe",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-7dd15cb0.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-7dd15cb0.atlas"
+  ],
+  "textures": [
+    "safe_bet.webp"
+  ],
+  "animations": [
+    {
+      "name": "activate",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 17,
+        "slots": 21,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "active_idle",
+      "duration": 5.7,
+      "timelines": {
+        "bones": 14,
+        "slots": 8,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 10,
+      "timelines": {
+        "bones": 12,
+        "slots": 4,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "safebet_master",
+    "safebet_base",
+    "safebet_sparkle1",
+    "safebet_shine",
+    "safebet_safebet",
+    "t",
+    "s",
+    "f",
+    "e_2",
+    "e",
+    "b",
+    "a",
+    "safebet_sparkle2",
+    "safebet_sparkle3",
+    "pulse",
+    "_ref",
+    "glow",
+    "sparkles"
+  ],
+  "slots": [
+    "00_master_scale",
+    "00_screen_dimensions",
+    "glow",
+    "coneglow",
+    "pulse",
+    "pulse2",
+    "sparkles",
+    "sparkles2",
+    "sparkles3",
+    "safebet_base",
+    "safebet_base2",
+    "_ref",
+    "_ref2",
+    "diamond_0",
+    "s",
+    "a",
+    "f",
+    "e",
+    "b",
+    "e_2",
+    "t",
+    "safebet_shine",
+    "safebet_sparkle1",
+    "safebet_sparkle2",
+    "safebet_sparkle3"
+  ],
+  "pieces": [
+    {
+      "region": "a",
+      "file": "pieces/a-fbd9cfb4.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "2,2,94,98",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "b",
+      "file": "pieces/b-7328058c.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1664,17,106,119",
+        "offsets": "0,0,110,119",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cone",
+      "file": "pieces/cone-240a5de9.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "142,15,171,174"
+      }
+    },
+    {
+      "region": "diamond_0",
+      "file": "pieces/diamond-0-8d588736.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1397,502,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_1",
+      "file": "pieces/diamond-1-cebeff1d.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1118,502,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_10",
+      "file": "pieces/diamond-10-36228f09.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "839,502,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_11",
+      "file": "pieces/diamond-11-d7f0d18c.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "560,502,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_12",
+      "file": "pieces/diamond-12-4aa16615.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "281,525,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_13",
+      "file": "pieces/diamond-13-b56887e3.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "2,556,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_14",
+      "file": "pieces/diamond-14-e8c36c51.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1821,621,277,197",
+        "offsets": "22,31,320,240",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "diamond_15",
+      "file": "pieces/diamond-15-c194d692.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1542,701,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_16",
+      "file": "pieces/diamond-16-03ba17d5.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1263,701,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_2",
+      "file": "pieces/diamond-2-9de5c13d.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "984,701,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_3",
+      "file": "pieces/diamond-3-d10d22e7.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "705,701,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_4",
+      "file": "pieces/diamond-4-b72b7fb5.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "426,724,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_5",
+      "file": "pieces/diamond-5-a916b521.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1705,900,277,197",
+        "offsets": "22,31,320,240",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "diamond_6",
+      "file": "pieces/diamond-6-a79bf82c.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1506,900,277,197",
+        "offsets": "22,31,320,240",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "diamond_7",
+      "file": "pieces/diamond-7-66ec7cd6.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1307,900,277,197",
+        "offsets": "22,31,320,240",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "diamond_8",
+      "file": "pieces/diamond-8-18f7ab4c.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1108,900,277,197",
+        "offsets": "22,31,320,240",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "diamond_9",
+      "file": "pieces/diamond-9-a530dd52.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "909,900,277,197",
+        "offsets": "22,31,320,240",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "e",
+      "file": "pieces/e-952932c2.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1303,8,82,110",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "e_2",
+      "file": "pieces/e-2-40d7ce5c.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "572,19,98,122",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "f",
+      "file": "pieces/f-fcc9250a.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1904,1056,124,121"
+      }
+    },
+    {
+      "region": "glow",
+      "file": "pieces/glow-a9fd71a6.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "426,923,254,243",
+        "offsets": "1,2,256,246",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pulse",
+      "file": "pieces/pulse-213eb167.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "671,941,236,236",
+        "offsets": "1,3,240,240"
+      }
+    },
+    {
+      "region": "s",
+      "file": "pieces/s-1e20bd5a.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "2,98,146,150"
+      }
+    },
+    {
+      "region": "safebet_base",
+      "file": "pieces/safebet-base-552efdaa.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "2,755,422,422",
+        "offsets": "1,0,424,423"
+      }
+    },
+    {
+      "region": "safebet_shine",
+      "file": "pieces/safebet-shine-d361140c.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1904,912,30,31",
+        "offsets": "2,1,33,33"
+      }
+    },
+    {
+      "region": "safebet_sparkle1",
+      "file": "pieces/safebet-sparkle1-b7467521.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1676,653,36,46"
+      }
+    },
+    {
+      "region": "sparkles_0",
+      "file": "pieces/sparkles-0-41ac54ba.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "981,19,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_1",
+      "file": "pieces/sparkles-1-499d761f.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1342,34,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_10",
+      "file": "pieces/sparkles-10-2607aba0.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "625,60,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_11",
+      "file": "pieces/sparkles-11-f5d974a8.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1726,62,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_12",
+      "file": "pieces/sparkles-12-f090ac3c.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "250,71,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_13",
+      "file": "pieces/sparkles-13-a6a55e9f.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1239,160,200,320",
+        "rotate": "270"
+      }
+    },
+    {
+      "region": "sparkles_14",
+      "file": "pieces/sparkles-14-f6015af8.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "917,160,200,320",
+        "rotate": "270"
+      }
+    },
+    {
+      "region": "sparkles_15",
+      "file": "pieces/sparkles-15-77074204.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1598,179,200,320",
+        "rotate": "270"
+      }
+    },
+    {
+      "region": "sparkles_16",
+      "file": "pieces/sparkles-16-3703a6b2.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "528,189,200,320",
+        "rotate": "270"
+      }
+    },
+    {
+      "region": "sparkles_2",
+      "file": "pieces/sparkles-2-ca541c4e.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "46,206,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_3",
+      "file": "pieces/sparkles-3-d9aa3890.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1726,286,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_4",
+      "file": "pieces/sparkles-4-c0b60c28.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1290,300,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_5",
+      "file": "pieces/sparkles-5-5f7a57e3.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "968,300,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_6",
+      "file": "pieces/sparkles-6-b813c85b.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "646,300,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_7",
+      "file": "pieces/sparkles-7-52360759.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "324,323,200,320",
+        "rotate": "270"
+      }
+    },
+    {
+      "region": "sparkles_8",
+      "file": "pieces/sparkles-8-09ff0e65.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "2,354,200,320",
+        "rotate": "270"
+      }
+    },
+    {
+      "region": "sparkles_9",
+      "file": "pieces/sparkles-9-fc098010.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1676,433,200,320",
+        "rotate": "270"
+      }
+    },
+    {
+      "region": "t",
+      "file": "pieces/t-6a56f3ca.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1904,945,118,109"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/safeBet/safe_bet.json",
+      "sha256": "1fbb06f9dd82a633adba03173f4a081c68ded0a1a3d4fb937c32d863f6e29f2c",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-7dd15cb0.atlas",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/safeBet/safe_bet.atlas",
+      "sha256": "7dd15cb06cd50866dae20d78b3b469f4fb5df0e0bc192affa3360e688dbfe0d2",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "safe_bet.webp",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/safeBet/safe_bet.webp",
+      "sha256": "c89a2348b7cd7ad8c03e66201de973906c09feb6e26c658841c11ae35941266a",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

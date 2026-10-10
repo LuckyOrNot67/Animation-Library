@@ -1,0 +1,99 @@
+{
+  "name": "fx_cycle_backglow_bonus",
+  "duration": 1.8,
+  "timelines": {
+    "slots": 2
+  },
+  "data": {
+    "slots": {
+      "backglow": {
+        "rgba": [
+          {
+            "color": "e3236e00",
+            "curve": [
+              0.078,
+              0.89,
+              0.156,
+              0.76,
+              0.078,
+              0.14,
+              0.156,
+              0.16,
+              0.078,
+              0.43,
+              0.156,
+              0.35,
+              0.061,
+              0.54,
+              0.156,
+              0.74
+            ]
+          },
+          {
+            "time": 0.2333,
+            "color": "c2285abd",
+            "curve": "stepped"
+          },
+          {
+            "time": 1.4667,
+            "color": "c2285abd"
+          },
+          {
+            "time": 1.8,
+            "color": "e3236e00"
+          }
+        ],
+        "attachment": [
+          {
+            "name": "backglow"
+          }
+        ]
+      },
+      "backglow2": {
+        "rgba": [
+          {
+            "color": "e3236e00",
+            "curve": [
+              0.078,
+              0.89,
+              0.156,
+              0.89,
+              0.078,
+              0.14,
+              0.156,
+              0.16,
+              0.078,
+              0.43,
+              0.156,
+              0.35,
+              0.061,
+              0.54,
+              0.156,
+              0.74
+            ]
+          },
+          {
+            "time": 0.2333,
+            "color": "e42959bd",
+            "curve": "stepped"
+          },
+          {
+            "time": 1.4667,
+            "color": "e42959bd"
+          },
+          {
+            "time": 1.8,
+            "color": "e3236e00"
+          }
+        ],
+        "attachment": [
+          {
+            "name": "backglow"
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

@@ -1,0 +1,490 @@
+{
+  "id": "animations/diamond-1d9b4ef8",
+  "name": "diamond",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-ccb30fa7.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-ccb30fa7.atlas"
+  ],
+  "textures": [
+    "symbols_low.webp"
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 2,
+        "slots": 13
+      }
+    },
+    {
+      "name": "land",
+      "duration": 0.467,
+      "timelines": {
+        "bones": 2,
+        "slots": 13
+      }
+    },
+    {
+      "name": "transform",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 7,
+        "slots": 20
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 15
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "diamonds",
+    "diamonds_3d3",
+    "diamonds_3d4",
+    "diamonds_back_glow2",
+    "diamonds_symbol2",
+    "main_transform",
+    "Red_Glow_2_1_1",
+    "Red_Glow_2_2_1",
+    "Red_Glow_2_3",
+    "Sparks_Red_1",
+    "Red_Glow_2_4",
+    "Red_Glow_2_5"
+  ],
+  "slots": [
+    "diamonds/multiplier_back_glow5",
+    "diamonds/shadow_diamonds",
+    "diamonds/wood_diamonds",
+    "diamonds/frame_shadow_diamonds",
+    "diamonds/frame_thickness_diamonds",
+    "diamonds/frame_diamonds",
+    "diamonds/wood_diamonds_symbol",
+    "diamonds/wood_diamonds_symbol_add",
+    "diamonds_red",
+    "Red_Glow_2_2_1",
+    "Red_Glow_2_2_2",
+    "Red_Glow_2_1_1",
+    "Red_Glow_2_1_2",
+    "Red_Glow_2_3",
+    "Sparks_Red_1",
+    "Sparks_Red_2",
+    "Sparks_Red_3_2",
+    "Sparks_Red_4_2",
+    "Sparks_Red_6",
+    "Sparks_Red_7",
+    "Red_Glow_3_4",
+    "Red_Glow_4_4"
+  ],
+  "pieces": [
+    {
+      "region": "Red_Glow_2_1_1",
+      "file": "pieces/red-glow-2-1-1-4ea2bb0f.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "304,39,83,83"
+      }
+    },
+    {
+      "region": "Red_Glow_2_2_1",
+      "file": "pieces/red-glow-2-2-1-6cf2a882.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "430,255,114,114"
+      }
+    },
+    {
+      "region": "Red_Glow_2_3",
+      "file": "pieces/red-glow-2-3-658022cb.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "549,436,169,192"
+      }
+    },
+    {
+      "region": "Red_Glow_3_3",
+      "file": "pieces/red-glow-3-3-db9cb726.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "293,373,252,255"
+      }
+    },
+    {
+      "region": "Red_Glow_4_3",
+      "file": "pieces/red-glow-4-3-e9a276c6.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "0,358,289,270"
+      }
+    },
+    {
+      "region": "Sparks_Red_1",
+      "file": "pieces/sparks-red-1-434b1f3d.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "638,35,77,79",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Sparks_Red_2",
+      "file": "pieces/sparks-red-2-3a37f9a4.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "886,332,143,133",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Sparks_Red_3_2",
+      "file": "pieces/sparks-red-3-2-b845f7c9.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "722,468,160,154",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Sparks_Red_4_2",
+      "file": "pieces/sparks-red-4-2-e54b09b5.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "549,294,148,138"
+      }
+    },
+    {
+      "region": "Sparks_Red_6",
+      "file": "pieces/sparks-red-6-c475258f.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "880,479,149,135",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Sparks_Red_7",
+      "file": "pieces/sparks-red-7-3ed23774.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "722,313,160,151"
+      }
+    },
+    {
+      "region": "cubs_red",
+      "file": "pieces/cubs-red-2024d0e0.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "810,132,93,104",
+        "offsets": "1,1,95,106",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "diamonds_red",
+      "file": "pieces/diamonds-red-73e66dd6.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "329,126,90,107",
+        "offsets": "1,1,92,109"
+      }
+    },
+    {
+      "region": "frame_cubs",
+      "file": "pieces/frame-cubs-45586bee.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "430,156,95,103",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_diamonds",
+      "file": "pieces/frame-diamonds-14a2f013.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "918,133,92,105",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_hearts",
+      "file": "pieces/frame-hearts-6e98cdf6.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "423,58,98,94"
+      }
+    },
+    {
+      "region": "frame_shadow_cubs",
+      "file": "pieces/frame-shadow-cubs-efe4e546.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "109,55,90,96",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_shadow_diamonds",
+      "file": "pieces/frame-shadow-diamonds-183c86ec.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "391,0,85,54"
+      }
+    },
+    {
+      "region": "frame_shadow_hearts",
+      "file": "pieces/frame-shadow-hearts-1fc20bbe.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "855,32,96,52",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_shadow_spades",
+      "file": "pieces/frame-shadow-spades-83fdbc70.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "200,253,88,101"
+      }
+    },
+    {
+      "region": "frame_spades",
+      "file": "pieces/frame-spades-df8a1eaa.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "0,148,93,105",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_thickness_cubs",
+      "file": "pieces/frame-thickness-cubs-f04ffc61.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "548,195,95,103",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_thickness_diamonds",
+      "file": "pieces/frame-thickness-diamonds-66838a22.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "219,141,92,106",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_thickness_hearts",
+      "file": "pieces/frame-thickness-hearts-92b9751e.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "655,116,99,95"
+      }
+    },
+    {
+      "region": "frame_thickness_spades",
+      "file": "pieces/frame-thickness-spades-5e96bbaa.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "701,215,94,105",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "hearts_red",
+      "file": "pieces/hearts-red-55861daf.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "537,95,97,96",
+        "offsets": "1,1,99,98"
+      }
+    },
+    {
+      "region": "multiplier_back_glow3",
+      "file": "pieces/multiplier-back-glow3-d598481f.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "293,237,132,133",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "shadow_cubs",
+      "file": "pieces/shadow-cubs-a21d4308.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "0,246,97,108"
+      }
+    },
+    {
+      "region": "shadow_diamonds",
+      "file": "pieces/shadow-diamonds-ff934955.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "525,29,94,62"
+      }
+    },
+    {
+      "region": "shadow_hearts",
+      "file": "pieces/shadow-hearts-8b62f0e1.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "886,229,100,99"
+      }
+    },
+    {
+      "region": "shadow_spades",
+      "file": "pieces/shadow-spades-6b11e67c.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "101,245,95,109"
+      }
+    },
+    {
+      "region": "spades_red",
+      "file": "pieces/spades-red-c31b62e3.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "109,149,92,106",
+        "offsets": "1,1,94,108",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wood_cubs",
+      "file": "pieces/wood-cubs-d49350dc.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "0,55,89,96",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wood_cubs_symbol",
+      "file": "pieces/wood-cubs-symbol-3b8591bf.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "758,135,20,38"
+      }
+    },
+    {
+      "region": "wood_cubs_symbol_add",
+      "file": "pieces/wood-cubs-symbol-add-f8eb389f.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "990,280,32,48"
+      }
+    },
+    {
+      "region": "wood_diamonds",
+      "file": "pieces/wood-diamonds-66f82e70.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "758,46,82,93",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wood_diamonds_symbol",
+      "file": "pieces/wood-diamonds-symbol-6f44394d.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "701,394,14,38"
+      }
+    },
+    {
+      "region": "wood_diamonds_symbol_add",
+      "file": "pieces/wood-diamonds-symbol-add-2bb91b6b.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "850,261,26,48"
+      }
+    },
+    {
+      "region": "wood_hearts",
+      "file": "pieces/wood-hearts-e939a0e9.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "209,51,91,86"
+      }
+    },
+    {
+      "region": "wood_hearts_symbol",
+      "file": "pieces/wood-hearts-symbol-9a03c521.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "758,177,24,34"
+      }
+    },
+    {
+      "region": "wood_hearts_symbol_add",
+      "file": "pieces/wood-hearts-symbol-add-6259cd77.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "655,246,34,44"
+      }
+    },
+    {
+      "region": "wood_spades",
+      "file": "pieces/wood-spades-1693fd88.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "918,45,84,91",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wood_spades_symbol",
+      "file": "pieces/wood-spades-symbol-8318888b.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "990,238,26,38"
+      }
+    },
+    {
+      "region": "wood_spades_symbol_add",
+      "file": "pieces/wood-spades-symbol-add-42b0b8b4.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "810,262,36,47"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/lows/diamond.json",
+      "sha256": "1d9b4ef85b9f6bfb3da5521d70cf7b4607d4b0f959eda83bb11f396534302c13",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-ccb30fa7.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/lows/symbols_low.atlas",
+      "sha256": "ccb30fa79bdb7f7953dc88e4ef684f3624fcd7106dd1fa7e3d556f5887b4bba5",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "symbols_low.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/lows/symbols_low.webp",
+      "sha256": "f8e748ad53e35da998e6f45d312b0b93a56b972033ba1edf6affc956031a5b55",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

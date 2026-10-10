@@ -1,0 +1,92 @@
+{
+  "name": "multi_9x_cycle",
+  "duration": 1.833,
+  "timelines": {
+    "bones": 1,
+    "slots": 2
+  },
+  "data": {
+    "slots": {
+      "multi_9x": {
+        "attachment": [
+          {
+            "name": "9x"
+          }
+        ]
+      },
+      "multi_9x_glow": {
+        "rgba": [
+          {
+            "color": "ffffff00"
+          },
+          {
+            "time": 0.2333,
+            "color": "ffffff82"
+          },
+          {
+            "time": 1.5667,
+            "color": "ffffff00"
+          }
+        ],
+        "attachment": [
+          {
+            "name": "9x"
+          }
+        ]
+      }
+    },
+    "bones": {
+      "multi": {
+        "scale": [
+          {
+            "curve": [
+              0.045,
+              1.035,
+              0.156,
+              1.148,
+              0.041,
+              1.034,
+              0.156,
+              1.148
+            ]
+          },
+          {
+            "time": 0.2333,
+            "x": 1.148,
+            "y": 1.148,
+            "curve": [
+              0.667,
+              1.148,
+              1.1,
+              1.164,
+              0.667,
+              1.148,
+              1.1,
+              1.164
+            ]
+          },
+          {
+            "time": 1.5333,
+            "x": 1.164,
+            "y": 1.164,
+            "curve": [
+              1.633,
+              1.164,
+              1.733,
+              1,
+              1.633,
+              1.164,
+              1.733,
+              1
+            ]
+          },
+          {
+            "time": 1.8333
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

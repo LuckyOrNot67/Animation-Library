@@ -1,0 +1,178 @@
+{
+  "name": "suru_basegame",
+  "duration": 6,
+  "timelines": {
+    "bones": 1,
+    "slots": 2
+  },
+  "data": {
+    "slots": {
+      "window4": {
+        "color": [
+          {
+            "time": 0.7667,
+            "color": "ffffff00",
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "color": "ffffffff",
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 1.3,
+            "color": "ffffff00",
+            "curve": "stepped"
+          },
+          {
+            "time": 3.7667,
+            "color": "ffffff00",
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 4,
+            "color": "ffffffff",
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 4.3,
+            "color": "ffffff00"
+          }
+        ]
+      },
+      "windowbutton4": {
+        "color": [
+          {
+            "time": 0,
+            "color": "ffffff00",
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "color": "ffffffff",
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 2,
+            "color": "ffffff00",
+            "curve": "stepped"
+          },
+          {
+            "time": 3,
+            "color": "ffffff00",
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 4,
+            "color": "ffffffff",
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 5,
+            "color": "ffffff00"
+          }
+        ]
+      }
+    },
+    "bones": {
+      "fan_left2": {
+        "rotate": [
+          {
+            "time": 0,
+            "angle": 60
+          },
+          {
+            "time": 0.5,
+            "angle": 0
+          },
+          {
+            "time": 1,
+            "angle": -60
+          },
+          {
+            "time": 1.5,
+            "angle": -120
+          },
+          {
+            "time": 2,
+            "angle": 180
+          },
+          {
+            "time": 2.5,
+            "angle": 120
+          },
+          {
+            "time": 3,
+            "angle": 60
+          },
+          {
+            "time": 3.5,
+            "angle": 0
+          },
+          {
+            "time": 4,
+            "angle": -60
+          },
+          {
+            "time": 4.5,
+            "angle": -120
+          },
+          {
+            "time": 5,
+            "angle": 180
+          },
+          {
+            "time": 5.5,
+            "angle": 120
+          },
+          {
+            "time": 6,
+            "angle": 60
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

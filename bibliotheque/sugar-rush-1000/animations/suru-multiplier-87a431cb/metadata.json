@@ -1,0 +1,78 @@
+{
+  "id": "animations/suru-multiplier-87a431cb",
+  "name": "suru_multiplier",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-373e8866.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-373e8866.atlas"
+  ],
+  "textures": [
+    "suru_multiplier.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_multiplier_in",
+      "duration": 0.4,
+      "timelines": {
+        "deform": 1
+      }
+    },
+    {
+      "name": "suru_multiplier_in2",
+      "duration": 0,
+      "timelines": {
+        "slots": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root"
+  ],
+  "slots": [
+    "wraper"
+  ],
+  "pieces": [
+    {
+      "region": "wraper",
+      "file": "pieces/wraper-e5f6a33b.png",
+      "page": "suru_multiplier.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "348, 325",
+        "orig": "375, 350",
+        "offset": "14, 20",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-a688756d987f/suru_multiplier.json",
+      "sha256": "87a431cb84d0f07f3dcd4cd05b1f53d00f135af84d1bc8bf060be60c4c355c92",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-373e8866.atlas",
+      "source": "raw/_embedded/uht-a688756d987f/suru_multiplier.atlas",
+      "sha256": "373e8866f9f0c9959cf841328b7ea22f9b9add81b84fdaa09b76e7a70ce308a4",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_multiplier.png",
+      "source": "raw/_embedded/uht-a688756d987f/suru_multiplier.png",
+      "sha256": "09045df2172e124a2b187bf2ce5b3ba4a3ccf98132666a360e50e04a1de01068",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

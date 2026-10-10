@@ -1,0 +1,188 @@
+{
+  "id": "animations/bg-682d3e3d",
+  "name": "bg",
+  "machine": "wicked-grin",
+  "format": "spine-json",
+  "version": "4.0.64",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-0f8e4c2d.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-0f8e4c2d.atlas"
+  ],
+  "textures": [
+    "bg.png"
+  ],
+  "animations": [
+    {
+      "name": "hide_black",
+      "duration": 0,
+      "timelines": {
+        "slots": 4
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 13.333,
+      "timelines": {
+        "bones": 14,
+        "slots": 13
+      }
+    },
+    {
+      "name": "noise",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 11
+      }
+    },
+    {
+      "name": "show_black",
+      "duration": 0,
+      "timelines": {}
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "scale_all_bone",
+    "rings",
+    "ring2",
+    "ring3",
+    "ring4",
+    "ring5",
+    "ring6",
+    "ring7",
+    "ring8",
+    "ring9",
+    "ring10",
+    "ring11",
+    "ring12",
+    "ring13",
+    "ring14",
+    "ring15",
+    "noise",
+    "noise1",
+    "noise2",
+    "noise3",
+    "noise4",
+    "noise5",
+    "ring_black",
+    "noise6",
+    "noise7",
+    "noise8",
+    "noise9",
+    "noise10"
+  ],
+  "slots": [
+    "black",
+    "ring_4",
+    "ring_13",
+    "ring_3",
+    "ring_14",
+    "ring_2",
+    "ring_15",
+    "ring_5",
+    "ring_6",
+    "ring_7",
+    "ring_8",
+    "bounds",
+    "ring_12",
+    "ring_11",
+    "ring_10",
+    "ring_9",
+    "noise",
+    "noise6",
+    "noise4",
+    "noise9",
+    "noise5",
+    "noise10",
+    "noise2",
+    "noise7",
+    "noise3",
+    "noise8",
+    "ring_19",
+    "ring_18",
+    "ring_17",
+    "ring_16"
+  ],
+  "pieces": [
+    {
+      "region": "black",
+      "file": "pieces/black-44f2139f.png",
+      "page": "bg.png",
+      "properties": {
+        "bounds": "2,2,478,472",
+        "offsets": "741,787,1953,2026"
+      }
+    },
+    {
+      "region": "noise",
+      "file": "pieces/noise-0a5d107e.png",
+      "page": "bg.png",
+      "properties": {
+        "bounds": "2,1449,1741,435"
+      }
+    },
+    {
+      "region": "ring_1",
+      "file": "pieces/ring-1-3db7f27b.png",
+      "page": "bg.png",
+      "properties": {
+        "bounds": "482,11,476,463",
+        "offsets": "730,782,1953,2026"
+      }
+    },
+    {
+      "region": "ring_2",
+      "file": "pieces/ring-2-503c25f2.png",
+      "page": "bg.png",
+      "properties": {
+        "bounds": "1014,79,620,590",
+        "offsets": "651,718,1953,2026"
+      }
+    },
+    {
+      "region": "ring_3",
+      "file": "pieces/ring-3-849d4505.png",
+      "page": "bg.png",
+      "properties": {
+        "bounds": "1014,671,789,776",
+        "offsets": "586,623,1953,2026"
+      }
+    },
+    {
+      "region": "ring_4",
+      "file": "pieces/ring-4-d277391f.png",
+      "page": "bg.png",
+      "properties": {
+        "bounds": "2,476,1010,971",
+        "offsets": "459,526,1953,2026"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.json",
+      "sha256": "682d3e3d0c55fc1de34da035a76d7274902705a6d974fde8570336212ab2b98a",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-0f8e4c2d.atlas",
+      "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.atlas",
+      "sha256": "0f8e4c2d20244b8e181767f98cedb9751311dab9c25c403b4aace4065e380554",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "originaux/ae8c2840-bg.ktx2",
+      "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.ktx2",
+      "sha256": "ae8c284092c6371df9578298ec99bf69321eacde4e8781505f40476fceb465cb",
+      "kind": "texture"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

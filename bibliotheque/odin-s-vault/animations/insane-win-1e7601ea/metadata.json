@@ -1,0 +1,809 @@
+{
+  "id": "animations/insane-win-1e7601ea",
+  "name": "insane_win",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-972d43f8.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-972d43f8.atlas"
+  ],
+  "textures": [
+    "insane_win.webp",
+    "insane_win_2.webp"
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 38,
+        "slots": 32,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "in",
+      "duration": 1.133,
+      "timelines": {
+        "bones": 52,
+        "slots": 73,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "out",
+      "duration": 0.467,
+      "timelines": {
+        "bones": 48,
+        "slots": 71,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "PopUp",
+    "numbers",
+    "Arrow",
+    "Ship",
+    "PopUp_Pivot",
+    "Rays",
+    "Glow",
+    "Ship2",
+    "Ship3",
+    "Titles",
+    "Ship4",
+    "Ship5",
+    "Ship9",
+    "Waves",
+    "WavesR8",
+    "WavesL",
+    "VFX_Base",
+    "WavesR7",
+    "WavesR6",
+    "WavesR5",
+    "WavesL2",
+    "WavesL3",
+    "Shield",
+    "WavesL4",
+    "Shield3",
+    "numbers2",
+    "DropsL",
+    "DropsL3",
+    "DropsL4",
+    "DropsR",
+    "WavesR4",
+    "WavesR3",
+    "Stars1",
+    "Count_Bone",
+    "Ship6",
+    "bone",
+    "Rays2",
+    "ShieldM",
+    "PopUp_Pivot15",
+    "WavesR2",
+    "WavesR",
+    "Stars1_0",
+    "DropsL5",
+    "DropsL6",
+    "DropsL7",
+    "PopUp_Pivot21",
+    "PopUp_Pivot22",
+    "Rays3",
+    "Rays4",
+    "Stars1_1",
+    "Stars1_2",
+    "Stars1_3",
+    "Stars1_4",
+    "Stars2",
+    "Stars1_5",
+    "Stars1_6",
+    "Stars1_7",
+    "Stars1_8",
+    "Stars1_9",
+    "WavesL11",
+    "WavesR9",
+    "splash"
+  ],
+  "slots": [
+    "insane_win_glow_2",
+    "insane_win_glow_3",
+    "insane_win_glow_1",
+    "insane_win_glow_4",
+    "insane_win_particles_2",
+    "insane_win_particles_7",
+    "insane_win_particles_3",
+    "insane_win_particles_8",
+    "insane_win_particles_4",
+    "insane_win_particles_9",
+    "insane_win_particles_5",
+    "insane_win_particles_10",
+    "insane_win_particles_1",
+    "insane_win_particles_6",
+    "glow_ship_insane_win",
+    "base",
+    "frame_top_l",
+    "base_runes_glowL",
+    "base_runes_glowL2",
+    "frame_l_shadow",
+    "frame_top_l_shadow",
+    "frame_top_r_shadow",
+    "frame_top_l_top_shadow",
+    "frame_top_r_top_shadow",
+    "frame_r_shadow",
+    "frame_top_r",
+    "frame_l",
+    "frame_r",
+    "frame_top_shadow_r",
+    "frame_top_shadow_l",
+    "corner_r",
+    "corner_r2",
+    "wolf",
+    "symbol_shadow",
+    "win_shadow",
+    "insane_shadow",
+    "symbol_frame_base",
+    "symbol_2",
+    "symbol_frame",
+    "circle",
+    "symbol_1",
+    "symbol_2_glow",
+    "circle_glow",
+    "symbol_1_glow",
+    "insane",
+    "win",
+    "Ship",
+    "ShieldL2",
+    "ShieldL3",
+    "ShieldL1",
+    "ShieldM",
+    "ShieldR1",
+    "ShieldR2",
+    "frame_letters_r",
+    "frame_letters_l",
+    "waves",
+    "drop_l_5",
+    "drop_l_4",
+    "drop_l_3",
+    "drop_l_2",
+    "drop_l_1",
+    "drop_r_5",
+    "drop_r_4",
+    "drop_r_3",
+    "drop_r_2",
+    "drop_r_1",
+    "Color1",
+    "Color2",
+    "glow_arrow_under_numbers",
+    "spot_alpha3",
+    "numbers",
+    "arrow_under_numbers",
+    "splash"
+  ],
+  "pieces": [
+    {
+      "region": "Color1",
+      "file": "pieces/color1-159e3164.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1277,1067,607,173"
+      }
+    },
+    {
+      "region": "Color2",
+      "file": "pieces/color2-ab0caca6.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "374,1365,607,104"
+      }
+    },
+    {
+      "region": "ShieldL1",
+      "file": "pieces/shieldl1-d190a98c.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "983,1318,135,139",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ShieldL2",
+      "file": "pieces/shieldl2-3d4452f2.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1265,1307,146,151",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ShieldM",
+      "file": "pieces/shieldm-2e830742.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "685,1182,181,183",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ShieldR2",
+      "file": "pieces/shieldr2-f715f269.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1124,1318,135,139",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "arrow_under_numbers",
+      "file": "pieces/arrow-under-numbers-7120bc2b.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1301,1640,540,53"
+      }
+    },
+    {
+      "region": "base",
+      "file": "pieces/base-708c6e3d.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "2,618,438,298"
+      }
+    },
+    {
+      "region": "base_runes_glowL",
+      "file": "pieces/base-runes-glowl-be8bad33.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1085,1455,105,380",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "circle",
+      "file": "pieces/circle-a2c2ce90.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1418,1296,148,148"
+      }
+    },
+    {
+      "region": "circle_glow",
+      "file": "pieces/circle-glow-74b86d82.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1836,1242,160,160"
+      }
+    },
+    {
+      "region": "corner_r",
+      "file": "pieces/corner-r-b3b4aff4.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "2,1223,164,160"
+      }
+    },
+    {
+      "region": "drop_l_1",
+      "file": "pieces/drop-l-1-3182dcc8.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "128,1673,20,33",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_l_2",
+      "file": "pieces/drop-l-2-762f2a01.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "38,1675,18,19",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_l_3",
+      "file": "pieces/drop-l-3-96ce5acf.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "163,1673,21,20"
+      }
+    },
+    {
+      "region": "drop_l_4",
+      "file": "pieces/drop-l-4-df6910f5.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "2,1678,16,15"
+      }
+    },
+    {
+      "region": "drop_l_5",
+      "file": "pieces/drop-l-5-8989aeca.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "80,1674,19,22",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_r_1",
+      "file": "pieces/drop-r-1-110d9aa6.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "186,1673,20,33",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_r_2",
+      "file": "pieces/drop-r-2-0c26f9b3.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "59,1675,18,19",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_r_3",
+      "file": "pieces/drop-r-3-fbcd4329.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "221,1673,21,20"
+      }
+    },
+    {
+      "region": "drop_r_4",
+      "file": "pieces/drop-r-4-1d6a82a5.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "20,1678,16,15"
+      }
+    },
+    {
+      "region": "drop_r_5",
+      "file": "pieces/drop-r-5-b0260149.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "104,1674,19,22",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_l",
+      "file": "pieces/frame-l-cd471a8d.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "801,1576,76,376",
+        "offsets": "1,1,78,378",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_l_shadow",
+      "file": "pieces/frame-l-shadow-0b34ab21.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "529,1654,39,384",
+        "offsets": "1,1,41,386",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_letters_l",
+      "file": "pieces/frame-letters-l-0cbe5494.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "244,1666,27,140",
+        "offsets": "2,2,31,144",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_letters_r",
+      "file": "pieces/frame-letters-r-8ac27e8c.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "386,1662,31,141",
+        "offsets": "2,2,34,145",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_r",
+      "file": "pieces/frame-r-b6d75413.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "2,1507,79,378",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_r_shadow",
+      "file": "pieces/frame-r-shadow-377cd10b.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "915,1654,39,384",
+        "offsets": "1,1,41,386",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_top_l",
+      "file": "pieces/frame-top-l-f9485d67.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "289,1588,169,72",
+        "offsets": "1,1,171,74"
+      }
+    },
+    {
+      "region": "frame_top_l_shadow",
+      "file": "pieces/frame-top-l-shadow-10991025.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "460,1580,169,72",
+        "offsets": "1,1,171,74"
+      }
+    },
+    {
+      "region": "frame_top_l_top_shadow",
+      "file": "pieces/frame-top-l-top-shadow-bdd534ce.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "2,1600,115,72",
+        "offsets": "1,1,117,74"
+      }
+    },
+    {
+      "region": "frame_top_r",
+      "file": "pieces/frame-top-r-8cc583b7.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "119,1593,168,71",
+        "offsets": "1,1,170,73"
+      }
+    },
+    {
+      "region": "frame_top_r_shadow",
+      "file": "pieces/frame-top-r-shadow-ea97aafe.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "631,1580,168,72",
+        "offsets": "1,1,170,74"
+      }
+    },
+    {
+      "region": "frame_top_r_top_shadow",
+      "file": "pieces/frame-top-r-top-shadow-bbc06d37.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1920,1622,115,71",
+        "offsets": "1,1,117,73"
+      }
+    },
+    {
+      "region": "frame_top_shadow_l",
+      "file": "pieces/frame-top-shadow-l-d7a738c3.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1268,1562,76,349",
+        "offsets": "1,1,78,352",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_top_shadow_r",
+      "file": "pieces/frame-top-shadow-r-c938e303.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1619,1543,77,349",
+        "offsets": "1,1,79,352",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "glow_arrow_under_numbers",
+      "file": "pieces/glow-arrow-under-numbers-f240d944.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "493,1471,590,103"
+      }
+    },
+    {
+      "region": "glow_ship_insane_win",
+      "file": "pieces/glow-ship-insane-win-b79be050.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1455,461,465,358",
+        "offsets": "0,0,466,362"
+      }
+    },
+    {
+      "region": "insane",
+      "file": "pieces/insane-3428ff34.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "168,1204,515,159"
+      }
+    },
+    {
+      "region": "insane_shadow",
+      "file": "pieces/insane-shadow-ad126063.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "2,1385,370,120"
+      }
+    },
+    {
+      "region": "insane_win_particles_2",
+      "file": "pieces/insane-win-particles-2-3ca0cffc.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1076,481,338,377",
+        "offsets": "338,82,676,459",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "splash_seq/splash_00",
+      "file": "pieces/splash-seq-splash-00-540aeba6.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1062,1092,213,213",
+        "offsets": "267,271,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_01",
+      "file": "pieces/splash-seq-splash-01-e8a1d1bb.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "2,963,242,239",
+        "offsets": "251,258,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_02",
+      "file": "pieces/splash-seq-splash-02-2c44cc87.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "744,502,330,317",
+        "offsets": "209,211,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_03",
+      "file": "pieces/splash-seq-splash-03-5a70ff18.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "2,241,401,375",
+        "offsets": "167,184,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_04",
+      "file": "pieces/splash-seq-splash-04-94040af3.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "405,76,467,424",
+        "offsets": "125,163,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_05",
+      "file": "pieces/splash-seq-splash-05-cef2d33e.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "874,38,490,441",
+        "offsets": "111,156,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_06",
+      "file": "pieces/splash-seq-splash-06-8b155375.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1366,2,514,457",
+        "offsets": "97,151,750,750"
+      }
+    },
+    {
+      "region": "spot_alpha",
+      "file": "pieces/spot-alpha-424739e3.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "442,616,300,300"
+      }
+    },
+    {
+      "region": "symbol_1",
+      "file": "pieces/symbol-1-335c3201.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "382,1477,109,101",
+        "offsets": "0,29,109,130"
+      }
+    },
+    {
+      "region": "symbol_1_glow",
+      "file": "pieces/symbol-1-glow-688c9faf.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1467,1446,119,114",
+        "offsets": "0,27,119,141"
+      }
+    },
+    {
+      "region": "symbol_2",
+      "file": "pieces/symbol-2-7f45c242.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1588,1422,125,119"
+      }
+    },
+    {
+      "region": "symbol_2_glow",
+      "file": "pieces/symbol-2-glow-b0fac8d6.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1911,1404,137,129",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_frame",
+      "file": "pieces/symbol-frame-0224ee87.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "870,1128,188,190",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_frame_base",
+      "file": "pieces/symbol-frame-base-288f96af.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1179,1566,87,86"
+      }
+    },
+    {
+      "region": "symbol_shadow",
+      "file": "pieces/symbol-shadow-c94f1268.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1843,1638,75,55",
+        "offsets": "0,0,75,76"
+      }
+    },
+    {
+      "region": "waves",
+      "file": "pieces/waves-0b177445.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "816,821,1070,244"
+      }
+    },
+    {
+      "region": "win",
+      "file": "pieces/win-79a26e69.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1568,1262,266,157"
+      }
+    },
+    {
+      "region": "win_shadow",
+      "file": "pieces/win-shadow-806b973b.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1715,1421,194,120"
+      }
+    },
+    {
+      "region": "wolf",
+      "file": "pieces/wolf-e29c680e.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "246,918,568,262"
+      }
+    },
+    {
+      "region": "Ship",
+      "file": "pieces/ship-cdc5b349.png",
+      "page": "insane_win_2.webp",
+      "properties": {
+        "bounds": "2,552,961,538",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "insane_win_glow_1",
+      "file": "pieces/insane-win-glow-1-35278809.png",
+      "page": "insane_win_2.webp",
+      "properties": {
+        "bounds": "542,809,637,704"
+      }
+    },
+    {
+      "region": "insane_win_glow_2",
+      "file": "pieces/insane-win-glow-2-50c7df26.png",
+      "page": "insane_win_2.webp",
+      "properties": {
+        "bounds": "604,111,696,554",
+        "offsets": "0,1,696,565",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "splash_seq/splash_07",
+      "file": "pieces/splash-seq-splash-07-8c0c635e.png",
+      "page": "insane_win_2.webp",
+      "properties": {
+        "bounds": "1160,9,528,476",
+        "offsets": "90,141,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_08",
+      "file": "pieces/splash-seq-splash-08-d2e891ae.png",
+      "page": "insane_win_2.webp",
+      "properties": {
+        "bounds": "1181,487,547,501",
+        "offsets": "81,128,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_09",
+      "file": "pieces/splash-seq-splash-09-7863203f.png",
+      "page": "insane_win_2.webp",
+      "properties": {
+        "bounds": "1181,990,571,523",
+        "offsets": "69,116,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_10",
+      "file": "pieces/splash-seq-splash-10-0e493613.png",
+      "page": "insane_win_2.webp",
+      "properties": {
+        "bounds": "2,2,600,548",
+        "offsets": "53,102,750,750"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/insane_win.json",
+      "sha256": "1e7601eae5c05962b02ef2945c69e8a509d34bb9d5657444de20b12ee32d367b",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-972d43f8.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/insane_win.atlas",
+      "sha256": "972d43f833650ed2f034daf3c5ccd9b53e1653dd1e91d0094ba42a914a281809",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "insane_win.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/insane_win.webp",
+      "sha256": "74bee140d300e87cdac3eb482c28443594ba245a7d34fda9d9064d8b20f431bb",
+      "kind": "image"
+    },
+    {
+      "file": "insane_win_2.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/insane_win_2.webp",
+      "sha256": "e7ffde335156f0ba53534a4ac22a5ae0bb9f92f6ebbce78645b595bef389fbff",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

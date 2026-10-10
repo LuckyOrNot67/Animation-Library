@@ -1,0 +1,553 @@
+{
+  "name": "intro",
+  "duration": 0.567,
+  "timelines": {
+    "bones": 16,
+    "slots": 6
+  },
+  "data": {
+    "slots": {
+      "fx-glow-hollow": {
+        "attachment": [
+          {
+            "time": 0.1667,
+            "name": "fx-glow-hollow"
+          }
+        ]
+      },
+      "fx-glow-hollow3": {
+        "attachment": [
+          {
+            "time": 0.3333,
+            "name": "fx-glow-hollow"
+          }
+        ]
+      },
+      "fx-lgt-str_001": {
+        "rgba": [
+          {
+            "time": 0.1333,
+            "color": "ffffffff"
+          },
+          {
+            "time": 0.3333,
+            "color": "ffffff00"
+          }
+        ],
+        "attachment": [
+          {
+            "name": "fx-lgt-str_001"
+          }
+        ]
+      },
+      "wheel_backerB": {
+        "rgba": [
+          {
+            "time": 0.2333,
+            "color": "ffffffff"
+          },
+          {
+            "time": 0.3667,
+            "color": "ffffff00",
+            "curve": "stepped"
+          },
+          {
+            "time": 0.4333,
+            "color": "ffffffff"
+          }
+        ]
+      },
+      "wheel_backerB2": {
+        "rgba": [
+          {
+            "time": 0.2333,
+            "color": "ffffffff"
+          },
+          {
+            "time": 0.3667,
+            "color": "ffffff00",
+            "curve": "stepped"
+          },
+          {
+            "time": 0.4333,
+            "color": "ffffffff"
+          }
+        ]
+      },
+      "wheel_content": {
+        "attachment": [
+          {},
+          {
+            "time": 0.0333
+          }
+        ]
+      }
+    },
+    "bones": {
+      "CENTRE": {
+        "scale": [
+          {
+            "x": 0.3,
+            "y": 0.3,
+            "curve": [
+              0.029,
+              0.407,
+              0.067,
+              1.2,
+              0.029,
+              0.407,
+              0.067,
+              1.2
+            ]
+          },
+          {
+            "time": 0.1,
+            "x": 1.2,
+            "y": 1.2,
+            "curve": [
+              0.156,
+              1.2,
+              0.211,
+              1,
+              0.156,
+              1.2,
+              0.211,
+              1
+            ]
+          },
+          {
+            "time": 0.2667
+          }
+        ]
+      },
+      "wheel_backerA": {
+        "scale": [
+          {
+            "y": 0,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.1667,
+            "x": 0.1,
+            "y": 0.1,
+            "curve": [
+              0.211,
+              0.453,
+              0.189,
+              -0.085,
+              0.211,
+              0.354,
+              0.189,
+              0.977
+            ]
+          },
+          {
+            "time": 0.2333,
+            "x": 0.018,
+            "y": 1.116,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.3333,
+            "x": 0.018,
+            "y": 1.116,
+            "curve": [
+              0.381,
+              0.129,
+              0.444,
+              1.066,
+              0.389,
+              1.29,
+              0.444,
+              0.942
+            ]
+          },
+          {
+            "time": 0.5
+          }
+        ]
+      },
+      "wheel_backerB": {
+        "translate": [
+          {
+            "time": 0.1667,
+            "x": 62.25,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.2333,
+            "x": 62.25
+          },
+          {
+            "time": 0.3333,
+            "x": 216.47,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.4333
+          }
+        ],
+        "scalex": [
+          {
+            "time": 0.1667,
+            "value": 0.1,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.2333,
+            "value": 0.1
+          },
+          {
+            "time": 0.3667,
+            "value": 0.5,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.4333,
+            "value": 0.5
+          },
+          {
+            "time": 0.5667
+          }
+        ],
+        "scaley": [
+          {
+            "value": 0,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.1667,
+            "value": 0.1
+          },
+          {
+            "time": 0.2667,
+            "value": 3
+          },
+          {
+            "time": 0.3667,
+            "value": 1.6,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.4333,
+            "value": 1.007
+          },
+          {
+            "time": 0.5667
+          }
+        ]
+      },
+      "fx-lgt-str_001": {
+        "scalex": [
+          {
+            "time": 0.1333
+          },
+          {
+            "time": 0.3333,
+            "value": 76.989
+          }
+        ],
+        "scaley": [
+          {
+            "value": -0.085
+          },
+          {
+            "time": 0.1667,
+            "value": 4.341
+          },
+          {
+            "time": 0.3333,
+            "value": 0.674
+          }
+        ]
+      },
+      "fx-glow-hollow": {
+        "scale": [
+          {
+            "time": 0.1667,
+            "x": 3,
+            "y": 3
+          },
+          {
+            "time": 0.3667,
+            "x": 0.2,
+            "y": 0.2
+          }
+        ]
+      },
+      "fx-glow-hollow3": {
+        "scale": [
+          {
+            "time": 0.3333,
+            "x": 1.4,
+            "y": 1.4
+          },
+          {
+            "time": 0.5333,
+            "x": 0.08,
+            "y": 0.08
+          }
+        ]
+      },
+      "wheel_fan": {
+        "translate": [
+          {
+            "x": 115.89,
+            "y": 143.87
+          },
+          {
+            "time": 0.1,
+            "x": -104.81,
+            "y": -102.71
+          },
+          {
+            "time": 0.2667
+          }
+        ]
+      },
+      "wheel_sideA": {
+        "translate": [
+          {
+            "x": 82.11,
+            "y": -84.29,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.0333,
+            "x": 82.11,
+            "y": -84.29
+          },
+          {
+            "time": 0.1333,
+            "x": -74.65,
+            "y": 76.63
+          },
+          {
+            "time": 0.3
+          }
+        ]
+      },
+      "wheel_sideB": {
+        "translate": [
+          {
+            "x": 144.7,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.0667,
+            "x": 144.7
+          },
+          {
+            "time": 0.1667,
+            "x": -79.62
+          },
+          {
+            "time": 0.3333
+          }
+        ]
+      },
+      "top": {
+        "translate": [
+          {
+            "y": -161.75
+          },
+          {
+            "time": 0.1333,
+            "y": 35.68
+          },
+          {
+            "time": 0.3
+          }
+        ]
+      },
+      "wheel_pointer": {
+        "translate": [
+          {},
+          {
+            "time": 0.1,
+            "y": 183.53
+          },
+          {
+            "time": 0.2333
+          }
+        ]
+      },
+      "wheel_sideB2": {
+        "translate": [
+          {
+            "x": 144.7,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.0667,
+            "x": 144.7
+          },
+          {
+            "time": 0.1667,
+            "x": -79.62
+          },
+          {
+            "time": 0.3333
+          }
+        ]
+      },
+      "wheel_sideA2": {
+        "translate": [
+          {
+            "x": 82.11,
+            "y": -84.29,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.0333,
+            "x": 82.11,
+            "y": -84.29
+          },
+          {
+            "time": 0.1333,
+            "x": -74.65,
+            "y": 76.63
+          },
+          {
+            "time": 0.3
+          }
+        ]
+      },
+      "wheel_fan2": {
+        "translate": [
+          {
+            "x": 115.89,
+            "y": 143.87
+          },
+          {
+            "time": 0.1,
+            "x": -104.81,
+            "y": -102.71
+          },
+          {
+            "time": 0.2667
+          }
+        ]
+      },
+      "wheel_backerA2": {
+        "scale": [
+          {
+            "y": 0,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.1667,
+            "x": 0.1,
+            "y": 0.1,
+            "curve": [
+              0.211,
+              0.453,
+              0.189,
+              -0.085,
+              0.211,
+              0.354,
+              0.189,
+              0.977
+            ]
+          },
+          {
+            "time": 0.2333,
+            "x": 0.018,
+            "y": 1.116,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.3333,
+            "x": 0.018,
+            "y": 1.116,
+            "curve": [
+              0.381,
+              0.129,
+              0.444,
+              1.066,
+              0.389,
+              1.29,
+              0.444,
+              0.942
+            ]
+          },
+          {
+            "time": 0.5
+          }
+        ]
+      },
+      "wheel_backerB2": {
+        "translate": [
+          {
+            "time": 0.1667,
+            "x": 62.25,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.2333,
+            "x": 62.25
+          },
+          {
+            "time": 0.3333,
+            "x": 216.47,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.4333
+          }
+        ],
+        "scalex": [
+          {
+            "time": 0.1667,
+            "value": 0.1,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.2333,
+            "value": 0.1
+          },
+          {
+            "time": 0.3667,
+            "value": 0.5,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.4333,
+            "value": 0.5
+          },
+          {
+            "time": 0.5667
+          }
+        ],
+        "scaley": [
+          {
+            "value": 0,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.1667,
+            "value": 0.1
+          },
+          {
+            "time": 0.2667,
+            "value": 3
+          },
+          {
+            "time": 0.3667,
+            "value": 1.6,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.4333,
+            "value": 1.007
+          },
+          {
+            "time": 0.5667
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

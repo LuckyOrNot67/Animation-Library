@@ -1,0 +1,520 @@
+{
+  "id": "animations/odins-eye-85b100ee",
+  "name": "odins_eye",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-5b1fcf3f.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-5b1fcf3f.atlas"
+  ],
+  "textures": [
+    "odins_eye.webp"
+  ],
+  "animations": [
+    {
+      "name": "disappear",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 16,
+        "slots": 41,
+        "attachments": 1,
+        "drawOrder": 2
+      }
+    },
+    {
+      "name": "land",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 16,
+        "slots": 19,
+        "attachments": 1,
+        "drawOrder": 1
+      }
+    },
+    {
+      "name": "multi_unlock",
+      "duration": 1.933,
+      "timelines": {
+        "bones": 19,
+        "slots": 23,
+        "attachments": 1,
+        "drawOrder": 5
+      }
+    },
+    {
+      "name": "selecting_symbols",
+      "duration": 2.333,
+      "timelines": {
+        "bones": 17,
+        "slots": 19,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1.167,
+      "timelines": {
+        "bones": 17,
+        "slots": 19,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "main",
+    "background",
+    "frame_03",
+    "frame_04",
+    "frame_02",
+    "frame_01",
+    "base",
+    "pupil",
+    "decor_01",
+    "decor_02",
+    "decor_04",
+    "decor_03",
+    "eyelid_top",
+    "eyelid_bottom",
+    "eyelid_closed",
+    "eye_vfx",
+    "star_glow_back",
+    "star_glow_pupil",
+    "Symbol_placeholder",
+    "pupil_open"
+  ],
+  "slots": [
+    "BG",
+    "star_glow",
+    "star_glow2",
+    "eye_shadow",
+    "root",
+    "background",
+    "background2",
+    "frame_shadow1",
+    "frame_shadow2",
+    "frame_shadow3",
+    "frame_shadow4",
+    "frame_04",
+    "frame_08",
+    "frame_03",
+    "frame_07",
+    "frame_02",
+    "frame_05",
+    "frame_01",
+    "frame_06",
+    "decor_04",
+    "decor_08",
+    "decor_03",
+    "decor_07",
+    "decor_02",
+    "decor_06",
+    "decor_01",
+    "decor_05",
+    "base",
+    "root_eye",
+    "pupil_shadow_01",
+    "pupil",
+    "pupil2",
+    "pupil_open",
+    "pupil_open_add",
+    "eye_vfx",
+    "pupil_open_mask",
+    "pupil_shadow_02",
+    "metal_arc_bottom_01",
+    "metal_arc_bottom_03",
+    "metal_arc_bottom_02",
+    "metal_arc_top",
+    "metal_arc_top2",
+    "eyelid_bottom",
+    "eyelid_top",
+    "eyelid_closed",
+    "runes",
+    "Symbol_placeholder"
+  ],
+  "pieces": [
+    {
+      "region": "background",
+      "file": "pieces/background-d93d70cb.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "149,121,132,128"
+      }
+    },
+    {
+      "region": "base",
+      "file": "pieces/base-8a72979b.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "413,150,100,99"
+      }
+    },
+    {
+      "region": "decor_01",
+      "file": "pieces/decor-01-9ae41f21.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "2,2,50,27"
+      }
+    },
+    {
+      "region": "decor_02",
+      "file": "pieces/decor-02-4c7aa0b2.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "764,107,27,49"
+      }
+    },
+    {
+      "region": "decor_03",
+      "file": "pieces/decor-03-bb5c3b74.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "54,2,50,27"
+      }
+    },
+    {
+      "region": "decor_04",
+      "file": "pieces/decor-04-c0d495b0.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "850,157,28,49"
+      }
+    },
+    {
+      "region": "eye_shadow",
+      "file": "pieces/eye-shadow-76d1c2e7.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "2,106,145,143"
+      }
+    },
+    {
+      "region": "eye_vfx",
+      "file": "pieces/eye-vfx-b9cbc98a.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "568,96,48,48"
+      }
+    },
+    {
+      "region": "eyelid_bottom",
+      "file": "pieces/eyelid-bottom-ad30e7e3.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "770,208,117,41"
+      }
+    },
+    {
+      "region": "eyelid_closed",
+      "file": "pieces/eyelid-closed-e4495f3b.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "2,31,133,73"
+      }
+    },
+    {
+      "region": "eyelid_top",
+      "file": "pieces/eyelid-top-b4bb8924.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "634,208,134,41"
+      }
+    },
+    {
+      "region": "frame_01",
+      "file": "pieces/frame-01-57a8af24.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "514,96,52,48"
+      }
+    },
+    {
+      "region": "frame_02",
+      "file": "pieces/frame-02-a89c8679.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "634,158,52,48"
+      }
+    },
+    {
+      "region": "frame_03",
+      "file": "pieces/frame-03-352ee1c3.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "688,158,52,48"
+      }
+    },
+    {
+      "region": "frame_04",
+      "file": "pieces/frame-04-965c2d97.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "742,158,52,48"
+      }
+    },
+    {
+      "region": "frame_shadow1",
+      "file": "pieces/frame-shadow1-ad718b20.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "716,111,46,45"
+      }
+    },
+    {
+      "region": "frame_shadow2",
+      "file": "pieces/frame-shadow2-58a69ad5.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "983,156,44,39",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_shadow3",
+      "file": "pieces/frame-shadow3-93a8f365.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "880,158,50,42"
+      }
+    },
+    {
+      "region": "frame_shadow4",
+      "file": "pieces/frame-shadow4-f1542346.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "796,159,52,47"
+      }
+    },
+    {
+      "region": "metal_arc_bottom_01",
+      "file": "pieces/metal-arc-bottom-01-1761c085.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "515,182,117,67"
+      }
+    },
+    {
+      "region": "metal_arc_bottom_02",
+      "file": "pieces/metal-arc-bottom-02-1bd9aa09.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "413,92,99,56"
+      }
+    },
+    {
+      "region": "metal_arc_top",
+      "file": "pieces/metal-arc-top-b0181f9e.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "889,202,113,47"
+      }
+    },
+    {
+      "region": "pupil",
+      "file": "pieces/pupil-2e06ee94.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "618,108,48,48"
+      }
+    },
+    {
+      "region": "pupil_open_00",
+      "file": "pieces/pupil-open-00-246be993.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "983,114,39,40",
+        "offsets": "1,0,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_01",
+      "file": "pieces/pupil-open-01-79b8684e.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "149,79,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_02",
+      "file": "pieces/pupil-open-02-4f46d4d1.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "191,79,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_03",
+      "file": "pieces/pupil-open-03-9e28bb87.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "233,79,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_04",
+      "file": "pieces/pupil-open-04-103e4938.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "275,79,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_05",
+      "file": "pieces/pupil-open-05-3a81f332.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "317,79,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_06",
+      "file": "pieces/pupil-open-06-9c14a10f.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "359,79,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_07",
+      "file": "pieces/pupil-open-07-26e06523.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "137,37,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_08",
+      "file": "pieces/pupil-open-08-c635d927.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "179,37,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_09",
+      "file": "pieces/pupil-open-09-f9e069ed.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "221,37,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_10",
+      "file": "pieces/pupil-open-10-ab6cec6e.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "263,37,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_11",
+      "file": "pieces/pupil-open-11-4abe7edf.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "305,37,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_12",
+      "file": "pieces/pupil-open-12-3a1dcd57.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "347,37,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_13",
+      "file": "pieces/pupil-open-13-25e76f91.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "618,66,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_14",
+      "file": "pieces/pupil-open-14-d3230471.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "389,37,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_15",
+      "file": "pieces/pupil-open-15-06e9294f.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "441,51,40,39",
+        "offsets": "0,0,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_mask",
+      "file": "pieces/pupil-open-mask-be4a1989.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "668,110,46,46"
+      }
+    },
+    {
+      "region": "pupil_shadow_01",
+      "file": "pieces/pupil-shadow-01-a8f435fc.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "932,151,49,49"
+      }
+    },
+    {
+      "region": "pupil_shadow_02",
+      "file": "pieces/pupil-shadow-02-7c4d210b.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "401,79,38,11"
+      }
+    },
+    {
+      "region": "runes",
+      "file": "pieces/runes-da15d08c.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "515,146,100,34"
+      }
+    },
+    {
+      "region": "star_glow",
+      "file": "pieces/star-glow-0eb47d98.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "283,121,128,128"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/odins_eye.json",
+      "sha256": "85b100ee9c1b5b6da7af6f95a1954593741b2bb7cf0e37787f08ba4f9a82fa7f",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-5b1fcf3f.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/odins_eye.atlas",
+      "sha256": "5b1fcf3f9cbce4935cbe36f2a1fe69d2be4bf98264ca631c2aa59bad7f87be9f",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "odins_eye.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/odins_eye.webp",
+      "sha256": "46993ea2a5c8ae855607043eb4767f86ba2654657999b40ad4dee5f4e6de5d8f",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

@@ -1,0 +1,101 @@
+{
+  "id": "animations/suru-banner-2-42098b2c",
+  "name": "suru_banner_2",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-35ba444b.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-35ba444b.atlas"
+  ],
+  "textures": [
+    "suru_banner_2.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_banner_in",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 12,
+        "slots": 2
+      }
+    },
+    {
+      "name": "suru_banner_loop",
+      "duration": 1.9,
+      "timelines": {
+        "bones": 9,
+        "slots": 2
+      }
+    },
+    {
+      "name": "suru_banner_out",
+      "duration": 0.6,
+      "timelines": {
+        "bones": 12,
+        "slots": 2
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "congratulation",
+    "you have win",
+    "123456789",
+    "credit",
+    "rec",
+    "rec1",
+    "ray",
+    "ray2",
+    "star1",
+    "star2",
+    "star01",
+    "star3"
+  ],
+  "slots": [
+    "stars_1",
+    "stars_3"
+  ],
+  "pieces": [
+    {
+      "region": "stars_1",
+      "file": "pieces/stars-1-f5bd399f.png",
+      "page": "suru_banner_2.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "567, 684",
+        "orig": "622, 724",
+        "offset": "30, 36",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-266857bcbe81/suru_banner_2.json",
+      "sha256": "42098b2cdb5e9e938547c937ee534bd2a751cd6af92e3c16bf90b573d85ea502",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-35ba444b.atlas",
+      "source": "raw/_embedded/uht-266857bcbe81/suru_banner_2.atlas",
+      "sha256": "35ba444bfaa5478cba3a705265dff3945141747bb571165adb2bbce675a15f7c",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_banner_2.png",
+      "source": "raw/_embedded/uht-266857bcbe81/suru_banner_2.png",
+      "sha256": "8686698dd08dfe590090dee495fe045a74642dc9974096848c093db0eb41a5a8",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

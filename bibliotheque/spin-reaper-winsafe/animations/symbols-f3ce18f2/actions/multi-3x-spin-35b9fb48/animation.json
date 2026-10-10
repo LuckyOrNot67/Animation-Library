@@ -1,0 +1,32 @@
+{
+  "name": "multi_3x_spin",
+  "duration": 0,
+  "timelines": {
+    "slots": 2
+  },
+  "data": {
+    "slots": {
+      "multi_3x": {
+        "attachment": [
+          {
+            "name": "3x_blur"
+          }
+        ]
+      },
+      "multi_3x_glow": {
+        "rgba": [
+          {
+            "color": "ffffff00"
+          }
+        ],
+        "attachment": [
+          {
+            "name": "3x"
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

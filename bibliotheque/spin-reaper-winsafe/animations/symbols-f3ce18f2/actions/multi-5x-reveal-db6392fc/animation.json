@@ -1,0 +1,119 @@
+{
+  "name": "multi_5x_reveal",
+  "duration": 0.7,
+  "timelines": {
+    "bones": 1,
+    "slots": 2
+  },
+  "data": {
+    "slots": {
+      "multi_5x": {
+        "attachment": [
+          {
+            "name": "5x"
+          }
+        ]
+      },
+      "multi_5_white": {
+        "rgba": [
+          {
+            "time": 0.2667,
+            "color": "ffffffff"
+          },
+          {
+            "time": 0.4333,
+            "color": "ffffff00"
+          }
+        ],
+        "attachment": [
+          {
+            "name": "5x_white"
+          }
+        ]
+      }
+    },
+    "bones": {
+      "multi": {
+        "scale": [
+          {
+            "x": 0.02,
+            "y": 0.02,
+            "curve": [
+              0.046,
+              0.094,
+              0.11,
+              0.747,
+              0.046,
+              0.094,
+              0.109,
+              0.736
+            ]
+          },
+          {
+            "time": 0.1333,
+            "x": 1.161,
+            "y": 1.161,
+            "curve": [
+              0.146,
+              1.382,
+              0.187,
+              1.196,
+              0.145,
+              1.375,
+              0.187,
+              1.196
+            ]
+          },
+          {
+            "time": 0.2,
+            "x": 1.12,
+            "y": 1.12,
+            "curve": [
+              0.241,
+              0.877,
+              0.302,
+              0.933,
+              0.241,
+              0.877,
+              0.302,
+              0.933
+            ]
+          },
+          {
+            "time": 0.3667,
+            "x": 0.933,
+            "y": 0.933,
+            "curve": [
+              0.399,
+              0.933,
+              0.468,
+              0.978,
+              0.399,
+              0.933,
+              0.468,
+              0.978
+            ]
+          },
+          {
+            "time": 0.5,
+            "curve": [
+              0.567,
+              1.046,
+              0.633,
+              1,
+              0.567,
+              1.046,
+              0.633,
+              1
+            ]
+          },
+          {
+            "time": 0.7
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

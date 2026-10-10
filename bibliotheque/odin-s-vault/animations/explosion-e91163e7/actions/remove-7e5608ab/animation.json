@@ -1,0 +1,107 @@
+{
+  "name": "remove",
+  "duration": 0.4,
+  "timelines": {
+    "bones": 1,
+    "slots": 1
+  },
+  "data": {
+    "slots": {
+      "smoke_01": {
+        "rgba": [
+          {
+            "color": "ffffff00",
+            "curve": [
+              0.022,
+              1,
+              0.044,
+              1,
+              0.022,
+              1,
+              0.044,
+              1,
+              0.022,
+              1,
+              0.044,
+              1,
+              0.022,
+              0,
+              0.044,
+              1
+            ]
+          },
+          {
+            "time": 0.0667,
+            "color": "ffffffff"
+          }
+        ],
+        "attachment": [
+          {
+            "time": 0.1,
+            "name": "smoke_02"
+          },
+          {
+            "time": 0.1333,
+            "name": "smoke_03"
+          },
+          {
+            "time": 0.1667,
+            "name": "smoke_04"
+          },
+          {
+            "time": 0.2,
+            "name": "smoke_05"
+          },
+          {
+            "time": 0.2333,
+            "name": "smoke_06"
+          },
+          {
+            "time": 0.2667,
+            "name": "smoke_07"
+          },
+          {
+            "time": 0.3,
+            "name": "smoke_08"
+          },
+          {
+            "time": 0.3333,
+            "name": "smoke_09"
+          },
+          {
+            "time": 0.3667,
+            "name": "smoke_10"
+          },
+          {
+            "time": 0.4
+          }
+        ]
+      }
+    },
+    "bones": {
+      "smoke_01": {
+        "scale": [
+          {
+            "x": 0.677,
+            "y": 0.677,
+            "curve": [
+              0.044,
+              0.677,
+              0.089,
+              1,
+              0.044,
+              0.677,
+              0.089,
+              1
+            ]
+          },
+          {
+            "time": 0.1333
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

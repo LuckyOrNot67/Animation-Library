@@ -1,0 +1,214 @@
+{
+  "name": "bolt",
+  "duration": 0.667,
+  "timelines": {
+    "bones": 3,
+    "slots": 4
+  },
+  "data": {
+    "slots": {
+      "bolt": {
+        "attachment": [
+          {},
+          {
+            "time": 0.0667,
+            "name": "fx/lighting_07"
+          },
+          {
+            "time": 0.1333,
+            "name": "fx/lighting_09"
+          },
+          {
+            "time": 0.2,
+            "name": "fx/lighting_10"
+          },
+          {
+            "time": 0.2667,
+            "name": "fx/lighting_12"
+          },
+          {
+            "time": 0.3333,
+            "name": "fx/lighting_14"
+          },
+          {
+            "time": 0.4,
+            "name": "fx/lighting_15"
+          },
+          {
+            "time": 0.4667,
+            "name": "fx/lighting_16"
+          },
+          {
+            "time": 0.5333
+          }
+        ]
+      },
+      "bolt2": {
+        "attachment": [
+          {},
+          {
+            "time": 0.2333,
+            "name": "fx/lighting_07"
+          },
+          {
+            "time": 0.3,
+            "name": "fx/lighting_09"
+          },
+          {
+            "time": 0.3667,
+            "name": "fx/lighting_10"
+          },
+          {
+            "time": 0.4333,
+            "name": "fx/lighting_12"
+          },
+          {
+            "time": 0.5,
+            "name": "fx/lighting_14"
+          },
+          {
+            "time": 0.5667,
+            "name": "fx/lighting_15"
+          },
+          {
+            "time": 0.6333,
+            "name": "fx/lighting_16"
+          },
+          {
+            "time": 0.6667
+          }
+        ]
+      },
+      "bolt3": {
+        "attachment": [
+          {},
+          {
+            "time": 0.2333,
+            "name": "fx/bolt"
+          },
+          {
+            "time": 0.3
+          },
+          {
+            "time": 0.3333,
+            "name": "fx/bolt2"
+          },
+          {
+            "time": 0.4,
+            "name": "fx/bolt"
+          },
+          {
+            "time": 0.4667,
+            "name": "fx/bolt2"
+          },
+          {
+            "time": 0.5333
+          }
+        ]
+      },
+      "bolt_glw": {
+        "rgba": [
+          {
+            "color": "ffffff00",
+            "curve": "stepped"
+          },
+          {
+            "time": 0.2,
+            "color": "ffffff00",
+            "curve": [
+              0.244,
+              1,
+              0.289,
+              1,
+              0.244,
+              1,
+              0.289,
+              1,
+              0.244,
+              1,
+              0.289,
+              1,
+              0.244,
+              0,
+              0.289,
+              1
+            ]
+          },
+          {
+            "time": 0.3333,
+            "color": "ffffffff",
+            "curve": "stepped"
+          },
+          {
+            "time": 0.5333,
+            "color": "ffffffff",
+            "curve": [
+              0.578,
+              1,
+              0.622,
+              1,
+              0.578,
+              1,
+              0.622,
+              1,
+              0.578,
+              1,
+              0.622,
+              1,
+              0.578,
+              1,
+              0.622,
+              0
+            ]
+          },
+          {
+            "time": 0.6667,
+            "color": "ffffff00"
+          }
+        ]
+      }
+    },
+    "bones": {
+      "bolt": {
+        "rotate": [
+          {
+            "value": -112.14
+          }
+        ],
+        "translate": [
+          {
+            "x": 18.31,
+            "y": 487.07
+          }
+        ]
+      },
+      "bolt2": {
+        "rotate": [
+          {
+            "value": -247.34
+          }
+        ],
+        "translate": [
+          {
+            "x": 17.64,
+            "y": 232.16
+          }
+        ]
+      },
+      "fx_bolt": {
+        "rotate": [
+          {
+            "value": -0.77
+          }
+        ],
+        "translate": [
+          {
+            "x": 303.52
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

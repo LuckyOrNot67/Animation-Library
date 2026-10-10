@@ -1,0 +1,96 @@
+{
+  "id": "animations/regular-folder-5a5249c1",
+  "name": "regular-folder",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-baad1304.atlas",
+  "pma": true,
+  "atlases": [
+    "atlas-baad1304.atlas"
+  ],
+  "textures": [
+    "regular-folder.png"
+  ],
+  "animations": [
+    {
+      "name": "land",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 6,
+        "events": 1
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1.3,
+      "timelines": {
+        "bones": 4,
+        "slots": 1,
+        "events": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "sway",
+    "paper_left",
+    "paper_left_tip",
+    "paper",
+    "paper_tip_left",
+    "paper_tip_right",
+    "cover",
+    "lip_left",
+    "lip_right",
+    "cover_hinge",
+    "cover_fold_edge"
+  ],
+  "slots": [
+    "interior",
+    "front_cover"
+  ],
+  "pieces": [
+    {
+      "region": "front_cover",
+      "file": "pieces/front-cover-29c86f50.png",
+      "page": "regular-folder.png",
+      "properties": {
+        "bounds": "766,2,760,768"
+      }
+    },
+    {
+      "region": "interior",
+      "file": "pieces/interior-9d3a35cd.png",
+      "page": "regular-folder.png",
+      "properties": {
+        "bounds": "2,2,762,768"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-folder/regular-folder.json",
+      "sha256": "5a5249c1a1da55b38ddcd69377c30f5ca93c1a121e3321e7645d7706ced77be6",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-baad1304.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-folder/regular-folder.atlas",
+      "sha256": "baad1304c006043799804abb1244132798f5cd032aa4147ab3a256bc89570bd6",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "regular-folder.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-folder/regular-folder.png",
+      "sha256": "e25acbba77b7f2b856a571b0f1e9d60aac523d4b91fe8ddbf66854a9df84775c",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

@@ -1,0 +1,194 @@
+{
+  "id": "animations/tv-0d6d19df",
+  "name": "tv",
+  "machine": "wicked-grin",
+  "format": "spine-json",
+  "version": "4.0.64",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-8d6f85ba.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-8d6f85ba.atlas"
+  ],
+  "textures": [
+    "tv.png"
+  ],
+  "animations": [
+    {
+      "name": "noise",
+      "duration": 0.9,
+      "timelines": {
+        "slots": 1
+      }
+    },
+    {
+      "name": "setup",
+      "duration": 0,
+      "timelines": {}
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "scale_all_bone"
+  ],
+  "slots": [
+    "tv_bg",
+    "noise_00",
+    "tv_frame"
+  ],
+  "pieces": [
+    {
+      "region": "noise_00",
+      "file": "pieces/noise-00-e3d2fdef.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "2,542,187,154"
+      }
+    },
+    {
+      "region": "noise_01",
+      "file": "pieces/noise-01-84032312.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "191,542,187,154"
+      }
+    },
+    {
+      "region": "noise_02",
+      "file": "pieces/noise-02-acc6135a.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "216,782,187,154"
+      }
+    },
+    {
+      "region": "noise_03",
+      "file": "pieces/noise-03-d7f950dc.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "380,626,187,154"
+      }
+    },
+    {
+      "region": "noise_04",
+      "file": "pieces/noise-04-a4104823.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "405,782,187,154"
+      }
+    },
+    {
+      "region": "noise_05",
+      "file": "pieces/noise-05-c37ea82f.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "380,470,187,154"
+      }
+    },
+    {
+      "region": "noise_06",
+      "file": "pieces/noise-06-1e462946.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "2,386,187,154"
+      }
+    },
+    {
+      "region": "noise_07",
+      "file": "pieces/noise-07-b2e066b5.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "191,386,187,154"
+      }
+    },
+    {
+      "region": "noise_08",
+      "file": "pieces/noise-08-d0ef9b77.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "380,314,187,154"
+      }
+    },
+    {
+      "region": "noise_09",
+      "file": "pieces/noise-09-b8b86a19.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "2,230,187,154"
+      }
+    },
+    {
+      "region": "noise_10",
+      "file": "pieces/noise-10-4eb2b529.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "191,230,187,154"
+      }
+    },
+    {
+      "region": "noise_11",
+      "file": "pieces/noise-11-5f20a3d3.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "380,158,187,154"
+      }
+    },
+    {
+      "region": "noise_12",
+      "file": "pieces/noise-12-d7732f49.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "2,74,187,154"
+      }
+    },
+    {
+      "region": "noise_13",
+      "file": "pieces/noise-13-806bd241.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "191,74,187,154"
+      }
+    },
+    {
+      "region": "tv_bg",
+      "file": "pieces/tv-bg-b88e067f.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "380,2,187,154"
+      }
+    },
+    {
+      "region": "tv_frame",
+      "file": "pieces/tv-frame-090b17b4.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "2,698,212,238"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.json",
+      "sha256": "0d6d19df46bdc3a82e910fcbd863e1fae2a8ed58c07ea696a17ccf2f3dd8eb8b",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-8d6f85ba.atlas",
+      "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.atlas",
+      "sha256": "8d6f85bac4721a4726462c243b172c3aba5dbc08cfa774d9539e0f02fcd2e6d3",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "originaux/385648ad-tv.ktx2",
+      "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.ktx2",
+      "sha256": "385648ad2d8a5264afc77540d109f128228d5342464b64fd4675479b468548e1",
+      "kind": "texture"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="fr">
+  <meta charset="utf-8" /><meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+  /><title>Animation Library</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #11151b;
+      --panel: #1b222c;
+      --line: #303b49;
+      --text: #eef3f9;
+      --muted: #a6b4c6;
+      --accent: #8ee3c8;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 15px/1.6 system-ui;
+    }
+    header {
+      padding: 28px 5vw;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    h1 {
+      font-size: 25px;
+      margin: 0;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      color: var(--muted);
+    }
+    a {
+      color: var(--accent);
+    }
+    button,
+    input,
+    select {
+      font: inherit;
+      background: var(--panel);
+      color: var(--text);
+      border: 1px solid var(--line);
+      padding: 9px 14px;
+      border-radius: 8px;
+    }
+    button {
+      cursor: pointer;
+    }
+    button.active {
+      border-color: var(--accent);
+    }
+    main {
+      padding: 28px 5vw;
+    }
+    .intro {
+      max-width: 900px;
+    }
+    .steps,
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+    }
+    .step,
+    .card {
+      padding: 20px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+    }
+    .step b {
+      color: var(--accent);
+    }
+    .toolbar {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 25px 0;
+    }
+    .card {
+      text-align: left;
+    }
+    .card small {
+      display: block;
+      color: var(--muted);
+    }
+    .hidden {
+      display: none;
+    }
+    iframe {
+      width: 100%;
+      height: 580px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+    }
+    .pieces {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+      gap: 12px;
+    }
+    .pieces figure {
+      margin: 0;
+      padding: 12px;
+      background: var(--panel);
+      overflow-wrap: anywhere;
+    }
+    .pieces img {
+      width: 100%;
+      height: 120px;
+      object-fit: contain;
+      background: repeating-conic-gradient(#303b49 0% 25%, #222a35 0% 50%)
+        50%/16px 16px;
+    }
+    .pieces figcaption {
+      font-size: 12px;
+    }
+    pre {
+      white-space: pre-wrap;
+      background: var(--panel);
+      padding: 16px;
+      overflow-wrap: anywhere;
+    }
+    .warning {
+      color: #ffd28b;
+    }
+    footer {
+      padding: 24px 5vw;
+      color: var(--muted);
+    }
+    @media (max-width: 600px) {
+      header {
+        display: block;
+      }
+      iframe {
+        height: 420px;
+      }
+    }
+  </style>
+  <header>
+    <h1>Animation Library <span style="color: var(--accent)">/</span></h1>
+    <nav>
+      <button id="home">Mode d’emploi</button>
+      <button id="gallery">Bibliothèque</button>
+    </nav>
+  </header>
+  <main>
+    <section id="guide">
+      <div class="intro">
+        <p>CAPTURER · CLASSER · COMPRENDRE</p>
+        <h2>Des captures brutes aux animations lisibles.</h2>
+        <p>
+          Une bibliothèque de références pour explorer les rigs, les actions et
+          les images qui composent chaque personnage ou effet.
+        </p>
+      </div>
+      <div class="steps">
+        <article class="step">
+          <b>01 / Déposer</b>
+          <p>
+            Crée un dossier par machine dans <code>reception/</code> : Sugar
+            Rush, Le Bandit… Dépose les fichiers décompressés en gardant leurs
+            sous-dossiers.
+          </p>
+        </article>
+        <article class="step">
+          <b>02 / Construire</b>
+          <p>
+            Lance <code>npm run build</code>. Les fichiers visuels reconnus sont
+            regroupés dans <code>bibliotheque/</code>. Tes sources restent
+            intactes.
+          </p>
+        </article>
+        <article class="step">
+          <b>03 / Étudier</b>
+          <p>
+            Choisis une machine, un personnage ou un effet, puis une action.
+            Explore les textures, les pièces et les timelines JSON.
+          </p>
+        </article>
+      </div>
+      <h2>Ce que contient un package</h2>
+      <p>
+        Le skeleton définit les os, les slots, les skins et les mouvements.
+        L’atlas indique où se trouvent les pièces dans les textures. Les PNG
+        extraits rendent ces pièces faciles à examiner. Les actions partagent le
+        même rig et ses textures.
+      </p>
+      <h2>Tri et nettoyage</h2>
+      <p>
+        Les scripts, textes et fichiers non visuels ne sont pas copiés dans la
+        bibliothèque. Le manifest liste ce qui a été écarté. Les visuels sans
+        association restent dans autres/. Les versions Spine, textures absentes
+        et associations incertaines sont signalées.
+      </p>
+      <p>
+        Le lecteur Spine charge son runtime depuis Internet. Un atlas et ses
+        textures sont nécessaires pour l’aperçu. Les autres formats restent
+        consultables comme sources.
+      </p>
+    </section>
+    <section id="library" class="hidden">
+      <h2>Explorer la bibliothèque</h2>
+      <div class="toolbar">
+        <label
+          >Machine
+          <select id="machine">
+            <option value="">Toutes les machines</option>
+          </select></label
+        ><input
+          id="search"
+          type="search"
+          aria-label="Rechercher"
+          placeholder="Personnage, idle, win…"
+        /><button id="reload">Actualiser</button>
+      </div>
+      <p id="count"></p>
+      <div id="cards" class="cards"></div>
+      <section id="detail" class="hidden">
+        <h2 id="title"></h2>
+        <p id="status"></p>
+        <iframe id="player" title="Animation en direct"></iframe>
+        <h2>Images et pièces du rig</h2>
+        <p>
+          Pièces de tous les skins et actions du package ; elles ne sont pas
+          filtrées par action.
+        </p>
+        <div id="pieces" class="pieces"></div>
+        <h2>Actions et fichiers sources</h2>
+        <div id="links"></div>
+        <h2>Métadonnées pour l’étude</h2>
+        <pre id="metadata"></pre>
+      </section>
+    </section>
+  </main>
+  <footer>
+    Sources conservées · Bibliothèque reconstruisible · Métadonnées lisibles par
+    une IA
+  </footer>
+  <script type="module" src="/app.js"></script>
+</html>

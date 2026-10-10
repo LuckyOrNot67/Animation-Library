@@ -1,0 +1,818 @@
+{
+  "id": "animations/totalwin-3b8b0738",
+  "name": "totalwin",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-2c610028.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-2c610028.atlas"
+  ],
+  "textures": [
+    "totalwin.webp"
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 26,
+        "slots": 32,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "in",
+      "duration": 1,
+      "timelines": {
+        "bones": 29,
+        "slots": 87,
+        "attachments": 1,
+        "drawOrder": 3
+      }
+    },
+    {
+      "name": "out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 26,
+        "slots": 85,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "TotalWin",
+    "TW_Anim",
+    "LeftPart",
+    "frame_r",
+    "Counter",
+    "BoneFire",
+    "Eye",
+    "Eye2",
+    "Eye4",
+    "Eye3",
+    "Eye5",
+    "Bgg",
+    "Base",
+    "Text",
+    "Eye6",
+    "Eye7",
+    "Eye8",
+    "Eye9",
+    "Base2",
+    "Base3",
+    "Text2",
+    "WingL",
+    "WingsL2",
+    "WingsL",
+    "Counter_Pivot",
+    "Wolf",
+    "frame_r4",
+    "RightPart",
+    "frame_r2",
+    "Wolf2",
+    "frame_r5",
+    "WingL2",
+    "WingsL3",
+    "WingsL4",
+    "BoneFire2",
+    "prt1",
+    "prt2",
+    "Star1",
+    "PRT",
+    "prt3",
+    "prt4",
+    "Spot",
+    "lensFlare1",
+    "lensFlare2"
+  ],
+  "slots": [
+    "bg",
+    "bg_shading_2",
+    "bg_shading_1",
+    "back",
+    "particles_4",
+    "particles_5",
+    "back2",
+    "glow_back",
+    "glow_back2",
+    "particles_2",
+    "particles_3",
+    "frame_wooden",
+    "Wood1",
+    "frame_stone",
+    "wings_r",
+    "wings_r5",
+    "wings_r3",
+    "glow_frame_stone_1",
+    "glow_frame_stone_2",
+    "wings_r2",
+    "wings_r6",
+    "wings_r4",
+    "PL3",
+    "PL4",
+    "wolf_r2",
+    "wolf_r3",
+    "crystal_big_r",
+    "crystal_big_r3",
+    "crystal_big_r2",
+    "crystal_big_r4",
+    "PL2",
+    "PL5",
+    "P2",
+    "P4",
+    "ear_r2",
+    "ear_r3",
+    "vase",
+    "vase2",
+    "FireTotalWin_01",
+    "FireTotalWin_03",
+    "P3",
+    "P5",
+    "FireTotalWin_02",
+    "FireTotalWin_04",
+    "vase_leg",
+    "vase_leg2",
+    "coin_l_2",
+    "coin_l_3",
+    "coin_r_5",
+    "coin_r_2",
+    "coin_l_15",
+    "coin_r_4",
+    "coin_r_3",
+    "coin_l_1",
+    "coin_r_1",
+    "golden_corner_four",
+    "golden_corner_two",
+    "golden_corner_one",
+    "eye",
+    "pupil",
+    "eyepart1",
+    "coin_l_16",
+    "coin_r_6",
+    "coin_l_4",
+    "pupil2",
+    "pupil3",
+    "solid_blur",
+    "Z2",
+    "Z1",
+    "shadow_text_win_for_total2",
+    "Color Fill 27",
+    "Color Fill 27 copy",
+    "frame_collect8",
+    "frame_collect10",
+    "frame_collect9",
+    "frame_collect11",
+    "text_win_for_total2",
+    "shadow_text_total",
+    "text_total",
+    "text_total2",
+    "spot_alpha",
+    "spot_alpha2",
+    "spot_alpha3",
+    "numbers",
+    "Total__00000",
+    "Win__00000",
+    "cross",
+    "lensFlare1",
+    "lensFlare2"
+  ],
+  "pieces": [
+    {
+      "region": "Color Fill 27",
+      "file": "pieces/color-fill-27-1123e669.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "945,1134,599,160",
+        "offsets": "8,6,607,173"
+      }
+    },
+    {
+      "region": "Color Fill 27 copy",
+      "file": "pieces/color-fill-27-copy-df329bb8.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "921,1050,575,82",
+        "offsets": "16,11,607,104"
+      }
+    },
+    {
+      "region": "FireTotalWin_01",
+      "file": "pieces/firetotalwin-01-d5c057e7.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "966,127,142,257",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "FireTotalWin_02",
+      "file": "pieces/firetotalwin-02-59a3e759.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1603,1169,142,257",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "FireTotalWin_03",
+      "file": "pieces/firetotalwin-03-b16d756c.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1862,1054,142,257"
+      }
+    },
+    {
+      "region": "FireTotalWin_04",
+      "file": "pieces/firetotalwin-04-9816d752.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1605,910,142,257"
+      }
+    },
+    {
+      "region": "FireTotalWin_05",
+      "file": "pieces/firetotalwin-05-fe7593cb.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1672,651,142,257"
+      }
+    },
+    {
+      "region": "FireTotalWin_06",
+      "file": "pieces/firetotalwin-06-7d3e4a6e.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1749,910,142,257",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "FireTotalWin_07",
+      "file": "pieces/firetotalwin-07-ceebfcec.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1816,651,142,257"
+      }
+    },
+    {
+      "region": "FireTotalWin_08",
+      "file": "pieces/firetotalwin-08-63260aed.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1672,507,142,257",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "P2",
+      "file": "pieces/p2-8587c2c8.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "2,9,428,131"
+      }
+    },
+    {
+      "region": "PL2",
+      "file": "pieces/pl2-f94d6caf.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1185,901,147,418",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "PL3",
+      "file": "pieces/pl3-16177755.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "767,894,154,416",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Total__00000",
+      "file": "pieces/total-00000-1e384d5d.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "647,115,195,72"
+      }
+    },
+    {
+      "region": "Total__00001",
+      "file": "pieces/total-00001-ac586f40.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "966,53,195,72"
+      }
+    },
+    {
+      "region": "Total__00002",
+      "file": "pieces/total-00002-720c0b9b.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1449,61,195,72"
+      }
+    },
+    {
+      "region": "Total__00003",
+      "file": "pieces/total-00003-d6a37b17.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1163,50,195,72"
+      }
+    },
+    {
+      "region": "Total__00004",
+      "file": "pieces/total-00004-276e6906.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1593,433,195,72"
+      }
+    },
+    {
+      "region": "Total__00005",
+      "file": "pieces/total-00005-98b31454.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1593,359,195,72"
+      }
+    },
+    {
+      "region": "Total__00006",
+      "file": "pieces/total-00006-85bc62d5.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1644,162,195,72",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Total__00007",
+      "file": "pieces/total-00007-dae67d24.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1718,162,195,72",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Total__00008",
+      "file": "pieces/total-00008-459ab23d.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1792,198,195,72",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Total__00009",
+      "file": "pieces/total-00009-44f0cbf1.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1866,198,195,72",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Win__00000",
+      "file": "pieces/win-00000-3e2f1333.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1646,88,126,72"
+      }
+    },
+    {
+      "region": "Win__00001",
+      "file": "pieces/win-00001-40330e67.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1593,507,126,72",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Win__00002",
+      "file": "pieces/win-00002-5d777c44.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1792,124,126,72"
+      }
+    },
+    {
+      "region": "Win__00003",
+      "file": "pieces/win-00003-17feef52.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1931,523,126,72",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Win__00004",
+      "file": "pieces/win-00004-5db92a22.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1646,14,126,72"
+      }
+    },
+    {
+      "region": "Win__00005",
+      "file": "pieces/win-00005-6fb6b9ea.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1774,50,126,72"
+      }
+    },
+    {
+      "region": "Win__00006",
+      "file": "pieces/win-00006-fd2be74a.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1940,284,126,72",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Win__00007",
+      "file": "pieces/win-00007-de6268c7.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1940,156,126,72",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Wood1",
+      "file": "pieces/wood1-871a6877.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "2,1093,917,126",
+        "offsets": "0,1,917,127"
+      }
+    },
+    {
+      "region": "Z1",
+      "file": "pieces/z1-21700df2.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1217,530,259,77"
+      }
+    },
+    {
+      "region": "Z2",
+      "file": "pieces/z2-33f3f476.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "432,2,229,79"
+      }
+    },
+    {
+      "region": "back",
+      "file": "pieces/back-bdd08c4b.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "2,142,485,357"
+      }
+    },
+    {
+      "region": "coin_l_1",
+      "file": "pieces/coin-l-1-93c5b79a.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1360,10,112,78",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coin_l_15",
+      "file": "pieces/coin-l-15-ce4a4aff.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "767,1056,90,35"
+      }
+    },
+    {
+      "region": "coin_l_2",
+      "file": "pieces/coin-l-2-83ce8c5b.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "829,2,84,71",
+        "offsets": "1,1,86,73",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coin_l_3",
+      "file": "pieces/coin-l-3-79aa230e.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "902,13,73,35",
+        "offsets": "1,1,75,37",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coin_r_1",
+      "file": "pieces/coin-r-1-c3c3fd16.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1749,1090,111,77"
+      }
+    },
+    {
+      "region": "coin_r_2",
+      "file": "pieces/coin-r-2-c0136898.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1498,1053,79,36",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coin_r_3",
+      "file": "pieces/coin-r-3-d2d57353.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "432,84,56,23",
+        "offsets": "1,1,58,25",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coin_r_4",
+      "file": "pieces/coin-r-4-030faa89.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "921,1175,44,21",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coin_r_5",
+      "file": "pieces/coin-r-5-d6bc3f97.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1749,1062,59,26"
+      }
+    },
+    {
+      "region": "cross",
+      "file": "pieces/cross-4417fae2.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1790,395,106,110",
+        "offsets": "77,79,256,256"
+      }
+    },
+    {
+      "region": "crystal_big_r",
+      "file": "pieces/crystal-big-r-49141737.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1225,124,222,181"
+      }
+    },
+    {
+      "region": "ear_r",
+      "file": "pieces/ear-r-c3049859.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1898,412,69,93"
+      }
+    },
+    {
+      "region": "eye",
+      "file": "pieces/eye-3e73bbc0.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1449,135,193,194"
+      }
+    },
+    {
+      "region": "eyepart1",
+      "file": "pieces/eyepart1-03dfcf41.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1196,307,232,221"
+      }
+    },
+    {
+      "region": "frame_collect",
+      "file": "pieces/frame-collect-81e1820e.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1774,2,46,33",
+        "offsets": "457,53,529,139",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_stone",
+      "file": "pieces/frame-stone-9d2b8ac1.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "2,1221,941,191"
+      }
+    },
+    {
+      "region": "frame_wooden",
+      "file": "pieces/frame-wooden-9de30884.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "2,501,545,391"
+      }
+    },
+    {
+      "region": "glow_back",
+      "file": "pieces/glow-back-7433a1a8.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "966,271,257,228",
+        "offsets": "55,21,367,260",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "glow_frame_stone_1",
+      "file": "pieces/glow-frame-stone-1-8d0d107a.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "2,894,763,197"
+      }
+    },
+    {
+      "region": "glow_frame_stone_2",
+      "file": "pieces/glow-frame-stone-2-0ff83efc.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "945,1296,656,116"
+      }
+    },
+    {
+      "region": "golden_corner_four",
+      "file": "pieces/golden-corner-four-09d8da03.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1546,1197,54,97"
+      }
+    },
+    {
+      "region": "golden_corner_one",
+      "file": "pieces/golden-corner-one-a7e38816.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1440,3,99,56"
+      }
+    },
+    {
+      "region": "golden_corner_two",
+      "file": "pieces/golden-corner-two-dbec20c3.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1541,5,54,97",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "lensFlare1",
+      "file": "pieces/lensflare1-824fa575.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1603,1313,408,99"
+      }
+    },
+    {
+      "region": "particles_2",
+      "file": "pieces/particles-2-796f3838.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "549,504,388,388"
+      }
+    },
+    {
+      "region": "pupil",
+      "file": "pieces/pupil-ae58a1c4.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1920,63,92,91"
+      }
+    },
+    {
+      "region": "shadow_text_total",
+      "file": "pieces/shadow-text-total-f1130c68.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "850,204,298,114",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "shadow_text_win_for_total",
+      "file": "pieces/shadow-text-win-for-total-abf5b545.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "663,15,164,98"
+      }
+    },
+    {
+      "region": "solid_blur",
+      "file": "pieces/solid-blur-ef626f34.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "850,88,114,114",
+        "offsets": "43,43,200,200"
+      }
+    },
+    {
+      "region": "spot_alpha",
+      "file": "pieces/spot-alpha-88868edd.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1217,609,295,290",
+        "offsets": "3,7,300,300"
+      }
+    },
+    {
+      "region": "text_total",
+      "file": "pieces/text-total-0abeaa5a.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "489,83,416,156",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "text_win_for_total",
+      "file": "pieces/text-win-for-total-4a34ece3.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1514,635,264,156",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "vase",
+      "file": "pieces/vase-926d59d8.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1430,331,197,161",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "vase_leg",
+      "file": "pieces/vase-leg-c620d7e5.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "1960,735,39,173"
+      }
+    },
+    {
+      "region": "wings_r",
+      "file": "pieces/wings-r-a2772b7b.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "939,530,362,276",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wolf_r",
+      "file": "pieces/wolf-r-be16206a.png",
+      "page": "totalwin.webp",
+      "properties": {
+        "bounds": "647,189,201,313"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/totalwin.json",
+      "sha256": "3b8b0738dcde67b4e76857083a7b54a9a5cf43d31d82f61c1e37642409f8aa5b",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-2c610028.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/totalwin.atlas",
+      "sha256": "2c6100285b78fa3967719c539bc4b100d65d1405c2db299368a126eab59fba53",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "totalwin.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/totalwin.webp",
+      "sha256": "e257c57f4b8f31776ac4ce5d1e3ea6000a9bfc44168d35e988b9891801be10f5",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

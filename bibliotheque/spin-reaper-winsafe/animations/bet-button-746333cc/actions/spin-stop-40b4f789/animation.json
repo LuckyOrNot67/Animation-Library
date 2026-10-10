@@ -1,0 +1,211 @@
+{
+  "name": "spin_stop",
+  "duration": 0.767,
+  "timelines": {
+    "bones": 2,
+    "slots": 4
+  },
+  "data": {
+    "slots": {
+      "icon_spin-active": {
+        "rgba": [
+          {
+            "time": 0.3333,
+            "color": "ffffffff"
+          },
+          {
+            "time": 0.3667,
+            "color": "ffffff00"
+          }
+        ]
+      },
+      "icon_spin-active_blur": {
+        "rgba": [
+          {
+            "time": 0.3333,
+            "color": "ffffff00"
+          },
+          {
+            "time": 0.3667,
+            "color": "ffffffff",
+            "curve": "stepped"
+          },
+          {
+            "time": 0.4,
+            "color": "ffffffff"
+          },
+          {
+            "time": 0.4333,
+            "color": "ffffff00"
+          }
+        ],
+        "attachment": [
+          {
+            "time": 0.3333,
+            "name": "icon_spin-active_blur"
+          }
+        ]
+      },
+      "icon_spin-active_blur2": {
+        "rgba": [
+          {
+            "time": 0.3667,
+            "color": "ffffff00",
+            "curve": "stepped"
+          },
+          {
+            "time": 0.4,
+            "color": "ffffff00"
+          },
+          {
+            "time": 0.4333,
+            "color": "ffffffff"
+          }
+        ],
+        "attachment": [
+          {
+            "time": 0.4,
+            "name": "icon_spin-active_blur2"
+          }
+        ]
+      },
+      "icon_stop-active": {
+        "rgba": [
+          {
+            "time": 0.4667,
+            "color": "ffffff00"
+          },
+          {
+            "time": 0.5333,
+            "color": "ffffffff"
+          }
+        ],
+        "attachment": [
+          {
+            "time": 0.4667,
+            "name": "icon_stop-active"
+          }
+        ]
+      }
+    },
+    "bones": {
+      "icon_spin-active": {
+        "rotate": [
+          {
+            "value": 8.66,
+            "curve": [
+              0.055,
+              12.6,
+              0.01,
+              -17.59
+            ]
+          },
+          {
+            "time": 0.2,
+            "value": -16.27,
+            "curve": "stepped"
+          },
+          {
+            "time": 0.2333,
+            "value": -16.27
+          },
+          {
+            "time": 0.4667,
+            "value": 531.96
+          },
+          {
+            "time": 0.5,
+            "value": 539.7
+          }
+        ],
+        "scale": [
+          {
+            "time": 0.0333,
+            "curve": [
+              0.104,
+              1.027,
+              0.106,
+              1.05,
+              0.104,
+              1.027,
+              0.106,
+              1.05
+            ]
+          },
+          {
+            "time": 0.2333,
+            "x": 1.05,
+            "y": 1.05,
+            "curve": [
+              0.278,
+              1.05,
+              0.322,
+              1.033,
+              0.278,
+              1.05,
+              0.322,
+              1.033
+            ]
+          },
+          {
+            "time": 0.3667,
+            "curve": [
+              0.444,
+              0.942,
+              0.43,
+              0.532,
+              0.444,
+              0.942,
+              0.43,
+              0.532
+            ]
+          },
+          {
+            "time": 0.6,
+            "x": 0.4,
+            "y": 0.4
+          }
+        ]
+      },
+      "icon_stop-active": {
+        "scale": [
+          {
+            "time": 0.4667,
+            "x": 0.6,
+            "y": 0.6,
+            "curve": [
+              0.518,
+              0.659,
+              0.507,
+              1.032,
+              0.518,
+              0.659,
+              0.507,
+              1.032
+            ]
+          },
+          {
+            "time": 0.6333,
+            "x": 1.05,
+            "y": 1.05,
+            "curve": [
+              0.678,
+              1.056,
+              0.722,
+              1,
+              0.678,
+              1.056,
+              0.722,
+              1
+            ]
+          },
+          {
+            "time": 0.7667
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

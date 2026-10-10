@@ -1,0 +1,852 @@
+{
+  "id": "animations/mega-win-019c3fe6",
+  "name": "mega_win",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-dbec9616.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-dbec9616.atlas"
+  ],
+  "textures": [
+    "mega_win.webp",
+    "mega_win_2.webp"
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 40,
+        "slots": 46,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "in",
+      "duration": 1.133,
+      "timelines": {
+        "bones": 56,
+        "slots": 82,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 54,
+        "slots": 80,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "PopUp",
+    "numbers",
+    "Arrow",
+    "Ship",
+    "PopUp_Pivot",
+    "Rays",
+    "Glow",
+    "Glow2",
+    "Ship2",
+    "Ship3",
+    "Titles",
+    "Ship4",
+    "Ship5",
+    "Ship9",
+    "PopUp_Pivot2",
+    "PopUp_Pivot3",
+    "VFX_Base",
+    "PopUp_Pivot4",
+    "PopUp_Pivot5",
+    "PopUp_Pivot6",
+    "PopUp_Pivot7",
+    "PopUp_Pivot8",
+    "Shield",
+    "PopUp_Pivot9",
+    "Shield3",
+    "numbers2",
+    "Drops",
+    "DropsR",
+    "PopUp_Pivot10",
+    "PopUp_Pivot11",
+    "PopUp_Pivot12",
+    "DropsL",
+    "PopUp_Pivot13",
+    "PopUp_Pivot14",
+    "Stars1",
+    "Count_Bone",
+    "Ship6",
+    "bone",
+    "Rays2",
+    "Rays3",
+    "Rays4",
+    "Ship7",
+    "PopUp_Pivot15",
+    "PopUp_Pivot16",
+    "PopUp_Pivot17",
+    "Stars1_0",
+    "PopUp_Pivot18",
+    "PopUp_Pivot19",
+    "PopUp_Pivot20",
+    "Stars1_1",
+    "Stars1_2",
+    "Stars1_3",
+    "Stars1_4",
+    "Stars1_5",
+    "Stars1_6",
+    "Stars2",
+    "Stars1_7",
+    "Stars1_8",
+    "Stars1_9",
+    "Stars1_10",
+    "Stars1_11",
+    "Stars1_12",
+    "Stars1_13",
+    "splash"
+  ],
+  "slots": [
+    "Color1",
+    "Color2",
+    "numbers",
+    "glow_arrow_under_numbers",
+    "arrow_under_numbers",
+    "mega_effect_violet",
+    "mega_effect_violet2",
+    "mega_effect_violet3",
+    "mega_effect_violet4",
+    "mega_particles_1",
+    "mega_particles_8",
+    "mega_particles_3",
+    "mega_particles_10",
+    "mega_particles_4",
+    "mega_particles_11",
+    "mega_particles_5",
+    "mega_particles_12",
+    "mega_particles_6",
+    "mega_particles_13",
+    "mega_particles_7",
+    "mega_particles_14",
+    "mega_particles_2",
+    "mega_particles_9",
+    "glow_ship_mega_win",
+    "base",
+    "Frame",
+    "Frame2",
+    "MultShadow",
+    "MultShadow2",
+    "corner_r_shadow_top",
+    "corner_l_shadow_top",
+    "win_shadow",
+    "mega_shadow",
+    "win",
+    "Ship",
+    "DragonSymbolL",
+    "DragonSymbolR",
+    "ShieldR",
+    "ShieldR2",
+    "ShieldM",
+    "Crow",
+    "Crow3",
+    "symbol_shadow_2",
+    "symbol_base",
+    "symbol_circle_glow_2",
+    "symbol_circle",
+    "symbol",
+    "symbol_dots",
+    "symbol_frame",
+    "L56",
+    "L13",
+    "frame_letters_r_5",
+    "frame_letters_r_4",
+    "LettersT",
+    "wave",
+    "drop_l_6",
+    "drop_l_5",
+    "drop_l_4",
+    "drop_l_3",
+    "drop_l_2",
+    "drop_l_1",
+    "drop_r_4",
+    "drop_r_3",
+    "drop_r_2",
+    "drop_r_1",
+    "symbol_circle_glow_1",
+    "symbol_glow_2",
+    "symbol_glow_1",
+    "symbol_dots_glow_2",
+    "symbol_dots_glow_1",
+    "mega",
+    "L56Glow",
+    "L13Glow",
+    "frame_letter_l_2_glow",
+    "frame_letters_r_5_glow",
+    "frame_letters_r_4_glow",
+    "frame_letters_r_2_glow",
+    "frame_letters_r_3_glow",
+    "frame_letters_r_1_glow",
+    "spot_alpha3",
+    "base_glow",
+    "splash"
+  ],
+  "pieces": [
+    {
+      "region": "Color1",
+      "file": "pieces/color1-9b461666.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1382,1249,607,173"
+      }
+    },
+    {
+      "region": "Color2",
+      "file": "pieces/color2-568eb14d.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "873,1565,607,104"
+      }
+    },
+    {
+      "region": "Crow",
+      "file": "pieces/crow-078b47ec.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1813,1424,204,196",
+        "offsets": "208,0,412,196"
+      }
+    },
+    {
+      "region": "DragonSymbolL",
+      "file": "pieces/dragonsymboll-e3917dab.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "191,1823,16,25",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "DragonSymbolR",
+      "file": "pieces/dragonsymbolr-edec331d.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "293,1816,23,32",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Frame",
+      "file": "pieces/frame-d47e279c.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "272,1124,279,421",
+        "offsets": "0,0,807,421",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "L13",
+      "file": "pieces/l13-6dd9ae95.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "410,1815,50,24",
+        "offsets": "1,1,52,26"
+      }
+    },
+    {
+      "region": "L13Glow",
+      "file": "pieces/l13glow-cf0c4b62.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "978,1804,62,35",
+        "offsets": "1,2,65,39"
+      }
+    },
+    {
+      "region": "L56",
+      "file": "pieces/l56-960c7826.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "34,1824,15,124",
+        "offsets": "1,1,17,126",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "L56Glow",
+      "file": "pieces/l56glow-b3699961.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "673,1813,26,135",
+        "offsets": "1,2,29,139",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "LettersT",
+      "file": "pieces/letterst-fae19093.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "852,1812,50,27",
+        "offsets": "1,1,52,29"
+      }
+    },
+    {
+      "region": "MultShadow",
+      "file": "pieces/multshadow-aaf3f5bd.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "147,1730,631,81"
+      }
+    },
+    {
+      "region": "ShieldM",
+      "file": "pieces/shieldm-7890c43f.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1634,1474,177,170"
+      }
+    },
+    {
+      "region": "ShieldR",
+      "file": "pieces/shieldr-ede749c1.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "730,1580,136,141",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "arrow_under_numbers",
+      "file": "pieces/arrow-under-numbers-b51fc218.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1155,1786,540,53"
+      }
+    },
+    {
+      "region": "base",
+      "file": "pieces/base-46f0dcdf.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "2,824,466,298"
+      }
+    },
+    {
+      "region": "base_glow",
+      "file": "pieces/base-glow-1263c46a.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "271,1453,272,170"
+      }
+    },
+    {
+      "region": "corner_l_shadow_top",
+      "file": "pieces/corner-l-shadow-top-e279e68c.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1576,1659,114,125"
+      }
+    },
+    {
+      "region": "corner_r_shadow_top",
+      "file": "pieces/corner-r-shadow-top-1d8d0442.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1692,1646,115,125",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_l_1",
+      "file": "pieces/drop-l-1-c8babaf2.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "218,1819,20,24",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_l_2",
+      "file": "pieces/drop-l-2-2e240709.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1042,1797,42,54",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_l_3",
+      "file": "pieces/drop-l-3-25ff134f.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "904,1812,35,27"
+      }
+    },
+    {
+      "region": "drop_l_4",
+      "file": "pieces/drop-l-4-bfda5796.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "462,1815,33,24"
+      }
+    },
+    {
+      "region": "drop_l_5",
+      "file": "pieces/drop-l-5-2ed88a5c.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "497,1815,24,25",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_l_6",
+      "file": "pieces/drop-l-6-d32cd038.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "244,1818,21,21"
+      }
+    },
+    {
+      "region": "drop_r_1",
+      "file": "pieces/drop-r-1-2f498217.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "267,1818,21,24",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_r_2",
+      "file": "pieces/drop-r-2-71578d32.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1098,1797,42,55",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_r_3",
+      "file": "pieces/drop-r-3-ada2ea2d.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "941,1812,35,27"
+      }
+    },
+    {
+      "region": "drop_r_4",
+      "file": "pieces/drop-r-4-e913d6b9.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "524,1815,33,24"
+      }
+    },
+    {
+      "region": "frame_letter_l_2_glow",
+      "file": "pieces/frame-letter-l-2-glow-320b4993.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "597,1814,25,35",
+        "offsets": "1,2,28,39",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_letters_r_1_glow",
+      "file": "pieces/frame-letters-r-1-glow-093d4f3d.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "327,1816,23,39",
+        "offsets": "2,2,27,43",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_letters_r_2_glow",
+      "file": "pieces/frame-letters-r-2-glow-b8d23e77.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "634,1814,25,37",
+        "offsets": "2,2,29,41",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_letters_r_3_glow",
+      "file": "pieces/frame-letters-r-3-glow-d2f6e81f.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "559,1815,24,36",
+        "offsets": "2,2,28,39",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_letters_r_4",
+      "file": "pieces/frame-letters-r-4-aacc9e4c.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "2,1827,12,30",
+        "offsets": "1,1,14,32",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_letters_r_4_glow",
+      "file": "pieces/frame-letters-r-4-glow-4978ac9b.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "368,1816,23,40",
+        "offsets": "2,2,27,44",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_letters_r_5",
+      "file": "pieces/frame-letters-r-5-54f74e22.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "160,1824,15,29",
+        "offsets": "1,1,17,31",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_letters_r_5_glow",
+      "file": "pieces/frame-letters-r-5-glow-a002498b.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "810,1813,26,40",
+        "offsets": "2,2,30,44",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "glow_arrow_under_numbers",
+      "file": "pieces/glow-arrow-under-numbers-75363eb4.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "2,1625,590,103"
+      }
+    },
+    {
+      "region": "glow_ship_mega_win",
+      "file": "pieces/glow-ship-mega-win-5e7acac1.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "470,704,466,333"
+      }
+    },
+    {
+      "region": "mega",
+      "file": "pieces/mega-c8364ae8.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "545,1405,376,158"
+      }
+    },
+    {
+      "region": "mega_particles_1",
+      "file": "pieces/mega-particles-1-69d46cd1.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "2,1209,268,242",
+        "offsets": "32,0,616,418"
+      }
+    },
+    {
+      "region": "mega_shadow",
+      "file": "pieces/mega-shadow-ee8e6458.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "882,1707,197,88"
+      }
+    },
+    {
+      "region": "splash_seq/splash_00",
+      "file": "pieces/splash-seq-splash-00-9a713c11.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "923,1350,213,213",
+        "offsets": "267,271,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_01",
+      "file": "pieces/splash-seq-splash-01-c20dd504.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1138,1324,242,239",
+        "offsets": "251,258,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_02",
+      "file": "pieces/splash-seq-splash-02-920a1095.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1702,930,330,317",
+        "offsets": "209,211,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_03",
+      "file": "pieces/splash-seq-splash-03-9f001cfb.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "938,662,401,375",
+        "offsets": "167,184,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_04",
+      "file": "pieces/splash-seq-splash-04-6f808938.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1341,504,467,424",
+        "offsets": "125,163,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_05",
+      "file": "pieces/splash-seq-splash-05-723123b1.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "2,332,490,441",
+        "offsets": "111,156,750,750",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "splash_seq/splash_06",
+      "file": "pieces/splash-seq-splash-06-0bd334dd.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "445,203,514,457",
+        "offsets": "97,151,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_07",
+      "file": "pieces/splash-seq-splash-07-4fc9363a.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "961,26,528,476",
+        "offsets": "90,141,750,750"
+      }
+    },
+    {
+      "region": "spot_alpha",
+      "file": "pieces/spot-alpha-be5e3bc9.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1491,2,500,500"
+      }
+    },
+    {
+      "region": "symbol",
+      "file": "pieces/symbol-b770fe3d.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1957,1753,88,86"
+      }
+    },
+    {
+      "region": "symbol_base",
+      "file": "pieces/symbol-base-7548f484.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "594,1595,134,133"
+      }
+    },
+    {
+      "region": "symbol_circle",
+      "file": "pieces/symbol-circle-cc2c3502.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1346,1671,113,113"
+      }
+    },
+    {
+      "region": "symbol_circle_glow_1",
+      "file": "pieces/symbol-circle-glow-1-bb549188.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1461,1671,113,113"
+      }
+    },
+    {
+      "region": "symbol_circle_glow_2",
+      "file": "pieces/symbol-circle-glow-2-e8bb0c4f.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1819,1622,130,130",
+        "offsets": "0,1,130,131"
+      }
+    },
+    {
+      "region": "symbol_dots",
+      "file": "pieces/symbol-dots-a1f12dea.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1697,1763,76,83",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_dots_glow_1",
+      "file": "pieces/symbol-dots-glow-1-c464bc88.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1782,1763,76,83",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_dots_glow_2",
+      "file": "pieces/symbol-dots-glow-2-e41061ed.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "780,1718,92,100",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_frame",
+      "file": "pieces/symbol-frame-310f58ef.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1482,1507,150,150"
+      }
+    },
+    {
+      "region": "symbol_glow_1",
+      "file": "pieces/symbol-glow-1-e2fa3fe9.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1867,1754,88,85"
+      }
+    },
+    {
+      "region": "symbol_glow_2",
+      "file": "pieces/symbol-glow-2-7e225dfc.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1081,1682,105,102"
+      }
+    },
+    {
+      "region": "symbol_shadow_2",
+      "file": "pieces/symbol-shadow-2-bdfea328.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "1188,1672,156,112",
+        "offsets": "0,0,156,152"
+      }
+    },
+    {
+      "region": "wave",
+      "file": "pieces/wave-f74bddc6.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "695,1039,1005,208"
+      }
+    },
+    {
+      "region": "win",
+      "file": "pieces/win-8d2a9398.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "2,1466,267,157"
+      }
+    },
+    {
+      "region": "win_shadow",
+      "file": "pieces/win-shadow-9ba37df8.png",
+      "page": "mega_win.webp",
+      "properties": {
+        "bounds": "2,1734,143,88"
+      }
+    },
+    {
+      "region": "Ship",
+      "file": "pieces/ship-6151e2fd.png",
+      "page": "mega_win_2.webp",
+      "properties": {
+        "bounds": "2,184,977,540"
+      }
+    },
+    {
+      "region": "mega_effect_violet",
+      "file": "pieces/mega-effect-violet-20cb043f.png",
+      "page": "mega_win_2.webp",
+      "properties": {
+        "bounds": "981,2,867,697",
+        "offsets": "0,0,870,706"
+      }
+    },
+    {
+      "region": "splash_seq/splash_08",
+      "file": "pieces/splash-seq-splash-08-c03f875f.png",
+      "page": "mega_win_2.webp",
+      "properties": {
+        "bounds": "2,748,547,501",
+        "offsets": "81,128,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_09",
+      "file": "pieces/splash-seq-splash-09-97fb108e.png",
+      "page": "mega_win_2.webp",
+      "properties": {
+        "bounds": "551,726,571,523",
+        "offsets": "69,116,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_10",
+      "file": "pieces/splash-seq-splash-10-a1746d1b.png",
+      "page": "mega_win_2.webp",
+      "properties": {
+        "bounds": "1124,701,600,548",
+        "offsets": "53,102,750,750"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/mega_win.json",
+      "sha256": "019c3fe65e2c44183bbef05cb8557169e9ded4a3a75e9ddcc8f44955dabbd80d",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-dbec9616.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/mega_win.atlas",
+      "sha256": "dbec9616eae407944efc7fad03366bffa7cc7fca52a8af81431d7d00884c8777",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "mega_win.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/mega_win.webp",
+      "sha256": "4fde9e9d23666df1762c74beae2935d9d0e887232b57a9a754b7d27fedda5e79",
+      "kind": "image"
+    },
+    {
+      "file": "mega_win_2.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/mega_win_2.webp",
+      "sha256": "125699ce251a5a69fe9715e62ef942d5c6f399d4a5ca9f13ecc094c6d17c21cc",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

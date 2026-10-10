@@ -1,0 +1,594 @@
+{
+  "id": "animations/nice-win-2926931e",
+  "name": "nice_win",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-eeb2a42b.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-eeb2a42b.atlas"
+  ],
+  "textures": [
+    "nice_win.webp",
+    "nice_win_2.webp"
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 25,
+        "slots": 17,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "in",
+      "duration": 1.133,
+      "timelines": {
+        "bones": 27,
+        "slots": 38,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "out",
+      "duration": 0.467,
+      "timelines": {
+        "bones": 24,
+        "slots": 37,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "Bgg",
+    "PopUp",
+    "numbers",
+    "Arrow",
+    "PopUp_Pivot",
+    "Rays",
+    "Rays1",
+    "Rays2",
+    "Glow",
+    "Glow2",
+    "Rays3",
+    "Rays4",
+    "Rays5",
+    "Rays6",
+    "Rays7",
+    "Rays8",
+    "Ship",
+    "Ship2",
+    "Ship3",
+    "Ship7",
+    "Ship4",
+    "Ship5",
+    "Ship9",
+    "Ship6",
+    "Ship10",
+    "PopUp_Pivot2",
+    "PopUp_Pivot3",
+    "Ship11",
+    "VFX_Base",
+    "PopUp_Pivot4",
+    "PopUp_Pivot5",
+    "PopUp_Pivot6",
+    "PopUp_Pivot7",
+    "PopUp_Pivot8",
+    "Ship8",
+    "Count_Bone",
+    "numbers2",
+    "splash"
+  ],
+  "slots": [
+    "bg",
+    "bg_shading_2",
+    "bg_shading_1",
+    "effect_green",
+    "effect_green3",
+    "effect_green2",
+    "effect_green4",
+    "glow_ship_nice_win",
+    "frame",
+    "base",
+    "ship",
+    "ship_head_shadow",
+    "ship_head",
+    "ship_tail",
+    "symbol_top_r_shadow1",
+    "symbol_top_l_shadow2",
+    "symbol_top_r",
+    "symbol_top_l1",
+    "symbol_l_shadow4",
+    "symbol_r_shadow3",
+    "symbol_r",
+    "symbol_top_r_glow4",
+    "symbol_top_l_glow3",
+    "symbol_r_glow2",
+    "symbol_l_glow1",
+    "symbol_l2",
+    "shield",
+    "wave_r",
+    "wave_l",
+    "win_shadow5",
+    "nice_shadow6",
+    "win",
+    "nice",
+    "arrow_under_numbers",
+    "glow_arrow_under_numbers",
+    "spot_alpha3",
+    "Nice_00000",
+    "Nice_00001",
+    "Nice_00002",
+    "Win__00000",
+    "Win__00001",
+    "Win__00002",
+    "Color1",
+    "Color2",
+    "numbers",
+    "splash"
+  ],
+  "pieces": [
+    {
+      "region": "Color1",
+      "file": "pieces/color1-532f6fb7.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "2,1426,607,173"
+      }
+    },
+    {
+      "region": "Color2",
+      "file": "pieces/color2-d2faf179.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "594,1748,607,104"
+      }
+    },
+    {
+      "region": "Nice_00000",
+      "file": "pieces/nice-00000-cb7b508f.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1710,1643,283,145"
+      }
+    },
+    {
+      "region": "Nice_00001",
+      "file": "pieces/nice-00001-393914b3.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "2,1609,283,145"
+      }
+    },
+    {
+      "region": "Nice_00002",
+      "file": "pieces/nice-00002-ca3e54b4.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "287,1609,283,145"
+      }
+    },
+    {
+      "region": "Win__00000",
+      "file": "pieces/win-00000-cdd9a7d1.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "572,1601,247,145"
+      }
+    },
+    {
+      "region": "Win__00001",
+      "file": "pieces/win-00001-9f19baa1.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "821,1601,247,145"
+      }
+    },
+    {
+      "region": "Win__00002",
+      "file": "pieces/win-00002-8b9a27b5.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1070,1567,247,145"
+      }
+    },
+    {
+      "region": "arrow_under_numbers",
+      "file": "pieces/arrow-under-numbers-7378c40a.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "793,1854,540,53"
+      }
+    },
+    {
+      "region": "base",
+      "file": "pieces/base-5d723b62.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "737,949,531,354"
+      }
+    },
+    {
+      "region": "frame",
+      "file": "pieces/frame-0611a549.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1270,784,673,384",
+        "offsets": "0,0,674,384"
+      }
+    },
+    {
+      "region": "glow_arrow_under_numbers",
+      "file": "pieces/glow-arrow-under-numbers-cfa8d2ef.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "2,1756,590,103"
+      }
+    },
+    {
+      "region": "glow_ship_nice_win",
+      "file": "pieces/glow-ship-nice-win-633778fc.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1430,1170,356,264"
+      }
+    },
+    {
+      "region": "nice",
+      "file": "pieces/nice-3f49d203.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1319,1521,284,146"
+      }
+    },
+    {
+      "region": "nice_shadow6",
+      "file": "pieces/nice-shadow6-2ade1eb8.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1070,1305,358,214",
+        "offsets": "3,3,361,220"
+      }
+    },
+    {
+      "region": "shield",
+      "file": "pieces/shield-32469bbf.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1903,1790,117,133",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ship",
+      "file": "pieces/ship-d049f087.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "2,650,807,297"
+      }
+    },
+    {
+      "region": "ship_head",
+      "file": "pieces/ship-head-33ce1434.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1687,1815,92,214",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ship_head_shadow",
+      "file": "pieces/ship-head-shadow-c29c0d94.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "127,1875,32,135",
+        "offsets": "0,0,37,135",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ship_tail",
+      "file": "pieces/ship-tail-d96c51a5.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1335,1834,73,158",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "splash_seq/splash_00",
+      "file": "pieces/splash-seq-splash-00-e6b4ad20.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "611,1386,213,213",
+        "offsets": "267,271,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_01",
+      "file": "pieces/splash-seq-splash-01-d67a23a5.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "826,1360,242,239",
+        "offsets": "251,258,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_02",
+      "file": "pieces/splash-seq-splash-02-e6925248.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "2,1107,330,317",
+        "offsets": "209,211,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_03",
+      "file": "pieces/splash-seq-splash-03-ccddf8d0.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "334,1009,401,375",
+        "offsets": "167,184,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_04",
+      "file": "pieces/splash-seq-splash-04-bfb208fb.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "811,480,467,424",
+        "offsets": "125,163,750,750",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "splash_seq/splash_05",
+      "file": "pieces/splash-seq-splash-05-1706c3ac.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1237,341,490,441",
+        "offsets": "111,156,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_06",
+      "file": "pieces/splash-seq-splash-06-04e27a14.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "2,191,514,457",
+        "offsets": "97,151,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_07",
+      "file": "pieces/splash-seq-splash-07-77e0aa02.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "518,2,528,476",
+        "offsets": "90,141,750,750"
+      }
+    },
+    {
+      "region": "symbol_l2",
+      "file": "pieces/symbol-l2-d3eaafa8.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "331,1868,39,66",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_l_glow1",
+      "file": "pieces/symbol-l-glow1-44a039f7.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "651,1859,48,69",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_l_shadow4",
+      "file": "pieces/symbol-l-shadow4-12221f80.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "722,1859,48,69",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_r",
+      "file": "pieces/symbol-r-b7b002c9.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "264,1869,38,65",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_r_glow2",
+      "file": "pieces/symbol-r-glow2-f4e8fe50.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "509,1861,46,69",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_r_shadow3",
+      "file": "pieces/symbol-r-shadow3-f5cd7de0.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "580,1861,46,69",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_top_l1",
+      "file": "pieces/symbol-top-l1-651bff5a.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "33,1886,21,29",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_top_l_glow3",
+      "file": "pieces/symbol-top-l-glow3-328e2f27.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "399,1865,42,60",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_top_l_shadow2",
+      "file": "pieces/symbol-top-l-shadow2-c0ba82f5.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "95,1885,22,30",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_top_r",
+      "file": "pieces/symbol-top-r-1d394978.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "2,1887,20,29",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_top_r_glow4",
+      "file": "pieces/symbol-top-r-glow4-161fe0dc.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "461,1863,44,46",
+        "offsets": "1,6,51,61",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_top_r_shadow1",
+      "file": "pieces/symbol-top-r-shadow1-c1f2694d.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "64,1886,21,29",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wave_l",
+      "file": "pieces/wave-l-fd02272b.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1495,1820,190,87"
+      }
+    },
+    {
+      "region": "wave_r",
+      "file": "pieces/wave-r-6f87210b.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1203,1714,257,118",
+        "offsets": "2,0,259,118"
+      }
+    },
+    {
+      "region": "win",
+      "file": "pieces/win-84dabfe2.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1462,1669,246,144"
+      }
+    },
+    {
+      "region": "win_shadow5",
+      "file": "pieces/win-shadow5-97f36d53.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1605,1436,320,205",
+        "offsets": "0,10,320,220"
+      }
+    },
+    {
+      "region": "effect_green",
+      "file": "pieces/effect-green-b8f35801.png",
+      "page": "nice_win_2.webp",
+      "properties": {
+        "bounds": "2,44,578,528"
+      }
+    },
+    {
+      "region": "splash_seq/splash_08",
+      "file": "pieces/splash-seq-splash-08-dece638e.png",
+      "page": "nice_win_2.webp",
+      "properties": {
+        "bounds": "504,574,547,501",
+        "offsets": "81,128,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_09",
+      "file": "pieces/splash-seq-splash-09-1fdcc189.png",
+      "page": "nice_win_2.webp",
+      "properties": {
+        "bounds": "1053,552,571,523",
+        "offsets": "69,116,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_10",
+      "file": "pieces/splash-seq-splash-10-5fe1b075.png",
+      "page": "nice_win_2.webp",
+      "properties": {
+        "bounds": "582,2,600,548",
+        "offsets": "53,102,750,750"
+      }
+    },
+    {
+      "region": "spot_alpha",
+      "file": "pieces/spot-alpha-f13a1c11.png",
+      "page": "nice_win_2.webp",
+      "properties": {
+        "bounds": "2,575,500,500"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/nice_win.json",
+      "sha256": "2926931ebd6dcd9969ff45f81bf00b414ff42f6bd6d129efb0507c999bac8ab2",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-eeb2a42b.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/nice_win.atlas",
+      "sha256": "eeb2a42b6b620fb084b91d24dfc38671c7e73a62ac866758054764ce72766532",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "nice_win.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/nice_win.webp",
+      "sha256": "7b0828412d2fd8ed8650940b4980573ec89494d65bce4b259a339e9eb54e9040",
+      "kind": "image"
+    },
+    {
+      "file": "nice_win_2.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/nice_win_2.webp",
+      "sha256": "01fe32095cc8e3237a2d9e09da4136217b5ee7e2b452a1a8d47d10c0cb2e5d49",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

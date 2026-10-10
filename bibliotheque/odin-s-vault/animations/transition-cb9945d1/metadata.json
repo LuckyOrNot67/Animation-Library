@@ -1,0 +1,216 @@
+{
+  "id": "animations/transition-cb9945d1",
+  "name": "transition",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-22fc42bf.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-22fc42bf.atlas"
+  ],
+  "textures": [
+    "transition.webp"
+  ],
+  "animations": [
+    {
+      "name": "transition",
+      "duration": 1,
+      "timelines": {
+        "bones": 12,
+        "slots": 11,
+        "attachments": 1,
+        "drawOrder": 2,
+        "events": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "Main",
+    "Raven",
+    "clouds_main",
+    "Clouds_4",
+    "Clouds_2",
+    "Clouds_fog",
+    "Clouds_0",
+    "Clouds_3",
+    "Clouds_1",
+    "mask",
+    "Raven2",
+    "Raven3",
+    "Raven4",
+    "Raven5"
+  ],
+  "slots": [
+    "bg_preview",
+    "background",
+    "mask",
+    "Clouds_0",
+    "Clouds_1",
+    "Clouds_2",
+    "Clouds_3",
+    "Clouds_4",
+    "Raven3",
+    "Raven5",
+    "Raven4",
+    "Raven2",
+    "Raven",
+    "safezone_01"
+  ],
+  "pieces": [
+    {
+      "region": "Clouds_0",
+      "file": "pieces/clouds-0-f1bfeffe.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "1422,203,110,95"
+      }
+    },
+    {
+      "region": "Clouds_1",
+      "file": "pieces/clouds-1-4060241c.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "1422,125,95,76"
+      }
+    },
+    {
+      "region": "Clouds_2",
+      "file": "pieces/clouds-2-f3d06992.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "1590,494,391,146"
+      }
+    },
+    {
+      "region": "Clouds_3",
+      "file": "pieces/clouds-3-db3443b6.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "1168,703,455,180",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Clouds_4",
+      "file": "pieces/clouds-4-131d55b7.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "1422,642,564,192"
+      }
+    },
+    {
+      "region": "Raven_1",
+      "file": "pieces/raven-1-a7f95f4c.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "352,258,900,212",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Raven_10",
+      "file": "pieces/raven-10-e6987afd.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "854,282,876,312",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Raven_2",
+      "file": "pieces/raven-2-ebc4febe.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "2,18,750,220"
+      }
+    },
+    {
+      "region": "Raven_3",
+      "file": "pieces/raven-3-815e863d.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "754,12,666,264"
+      }
+    },
+    {
+      "region": "Raven_4",
+      "file": "pieces/raven-4-268605e9.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "1422,836,576,322"
+      }
+    },
+    {
+      "region": "Raven_5",
+      "file": "pieces/raven-5-10a84de9.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "1168,300,420,340"
+      }
+    },
+    {
+      "region": "Raven_6",
+      "file": "pieces/raven-6-d94c5a8a.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "1590,2,490,388",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Raven_7",
+      "file": "pieces/raven-7-0a7c984f.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "566,278,880,286",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Raven_8",
+      "file": "pieces/raven-8-131f500b.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "2,240,918,154",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Raven_9",
+      "file": "pieces/raven-9-b8cee663.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "158,256,902,192",
+        "rotate": "90"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/transition/transition.json",
+      "sha256": "cb9945d1a8374fe0c062064f44319f026d5bdb2b8b4ceffc84281ff901753fa7",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-22fc42bf.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/transition/transition.atlas",
+      "sha256": "22fc42bf8b16d5c68f6c5fd3dff6743240b44c2ca7fd5f8a97395899dca953d0",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "transition.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/transition/transition.webp",
+      "sha256": "9426ac9ea83d93cc2103be8b768c9cf629ddd22495fadc0d43dc229f4fe0b8bf",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

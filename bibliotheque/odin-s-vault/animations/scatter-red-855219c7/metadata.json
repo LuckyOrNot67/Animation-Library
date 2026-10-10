@@ -1,0 +1,540 @@
+{
+  "id": "animations/scatter-red-855219c7",
+  "name": "scatter_red",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-03b69f3f.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-03b69f3f.atlas"
+  ],
+  "textures": [
+    "scatter_red.webp"
+  ],
+  "animations": [
+    {
+      "name": "appear",
+      "duration": 1,
+      "timelines": {
+        "bones": 28,
+        "slots": 52
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 63,
+        "slots": 16,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "main",
+    "Frame_Gold",
+    "Body",
+    "Body2",
+    "Body3",
+    "Body4",
+    "Body5",
+    "scatter",
+    "Body6",
+    "Body7",
+    "Body8",
+    "Body9",
+    "eye",
+    "Tail_2",
+    "Tail_3",
+    "Tail_4",
+    "Tail_5",
+    "Tail_6",
+    "Tail_7",
+    "Tail_8",
+    "Tail_9",
+    "Tail_1",
+    "Tail_10",
+    "Tail_11",
+    "Tail_12",
+    "Tail_13",
+    "Tail_14",
+    "Tail_15",
+    "Tongue",
+    "Tongue2",
+    "Tongue3",
+    "Tongue4",
+    "Tongue5",
+    "Tongue6",
+    "Body10",
+    "Body11",
+    "a",
+    "c",
+    "s",
+    "t1",
+    "t2",
+    "e",
+    "r",
+    "scatter_back_glow",
+    "star",
+    "Glow_1",
+    "Glow_2",
+    "Glow_3",
+    "Glow_4",
+    "Glow_5",
+    "Glow_6",
+    "Glow_7",
+    "Glow_2_1",
+    "Glow_2_2",
+    "Glow_2_3",
+    "Glow_2_4",
+    "Glow_2_5",
+    "Glow_2_6",
+    "Glow_3_1",
+    "Glow_3_2",
+    "Glow_3_3",
+    "Glow_3_4",
+    "Glow_3_5",
+    "Glow_3_6",
+    "Frame_Gold2",
+    "BG2"
+  ],
+  "slots": [
+    "BG",
+    "BG2",
+    "Tail_1_sh",
+    "Tail_2_sh",
+    "Tongue_sh",
+    "Body_sh",
+    "Frame_Gold",
+    "Frame_Gold2",
+    "Frame_sh2",
+    "Frame_sh1",
+    "Tail_1",
+    "Tail_2",
+    "Tongue",
+    "max_effects_04_glow_01",
+    "max_effects_06_glow_01",
+    "Body",
+    "Tail_3",
+    "max_effects_05_glow_01",
+    "Glow_1",
+    "Glow_2",
+    "Glow_3",
+    "Glow_0",
+    "eye",
+    "scatter_shadow_r",
+    "scatter_shadow_e",
+    "scatter_shadow_t2",
+    "scatter_shadow_t1",
+    "scatter_shadow_a",
+    "scatter_shadow_c",
+    "scatter_shadow_s",
+    "scatter_thickness_r",
+    "scatter_thickness_e",
+    "scatter_thickness_t2",
+    "scatter_thickness_t1",
+    "scatter_thickness_a",
+    "scatter_thickness_c",
+    "scatter_thickness_s",
+    "scatter_r",
+    "scatter_r2",
+    "scatter_e",
+    "scatter_e2",
+    "scatter_t2",
+    "scatter_t4",
+    "scatter_t1",
+    "scatter_t3",
+    "scatter_a",
+    "scatter_a2",
+    "scatter_c",
+    "scatter_c2",
+    "scatter_s",
+    "scatter_s2",
+    "star"
+  ],
+  "pieces": [
+    {
+      "region": "Frame_sh1",
+      "file": "pieces/frame-sh1-d519e036.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "417,180,8,14"
+      }
+    },
+    {
+      "region": "Frame_sh2",
+      "file": "pieces/frame-sh2-36edcb47.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "414,428,15,11",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Glow_0",
+      "file": "pieces/glow-0-a66d8de4.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "376,293,14,12"
+      }
+    },
+    {
+      "region": "Glow_1",
+      "file": "pieces/glow-1-d2d69102.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "384,397,46,28",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Glow_2",
+      "file": "pieces/glow-2-61056476.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "298,169,37,28"
+      }
+    },
+    {
+      "region": "Glow_3",
+      "file": "pieces/glow-3-644a7749.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "256,165,40,32"
+      }
+    },
+    {
+      "region": "eye",
+      "file": "pieces/eye-9699c7a5.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "417,169,9,8",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "max_effects_04_glow_01",
+      "file": "pieces/max-effects-04-glow-01-702b843d.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "118,163,136,102"
+      }
+    },
+    {
+      "region": "max_effects_05_glow_01",
+      "file": "pieces/max-effects-05-glow-01-64023268.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "2,125,114,140",
+        "offsets": "1,1,116,142"
+      }
+    },
+    {
+      "region": "max_effects_06_glow_01",
+      "file": "pieces/max-effects-06-glow-01-da8fbf33.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "118,56,105,116",
+        "offsets": "1,1,107,118",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_a",
+      "file": "pieces/scatter-a-814d3582.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "285,27,20,22"
+      }
+    },
+    {
+      "region": "scatter_c",
+      "file": "pieces/scatter-c-80b43712.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "267,2,17,23"
+      }
+    },
+    {
+      "region": "scatter_e",
+      "file": "pieces/scatter-e-160c8beb.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "376,307,18,18"
+      }
+    },
+    {
+      "region": "scatter_r",
+      "file": "pieces/scatter-r-1f013822.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "286,3,16,22"
+      }
+    },
+    {
+      "region": "scatter_red/BG",
+      "file": "pieces/scatter-red-bg-dc9513ae.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "258,278,116,116"
+      }
+    },
+    {
+      "region": "scatter_red/Body",
+      "file": "pieces/scatter-red-body-a3667bd7.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "2,8,115,110",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_red/Body_Shadow",
+      "file": "pieces/scatter-red-body-shadow-5fcbf32f.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "236,51,110,100",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_red/Frame_Gold",
+      "file": "pieces/scatter-red-frame-gold-3d9ba111.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "258,396,124,125"
+      }
+    },
+    {
+      "region": "scatter_red/Tail_1",
+      "file": "pieces/scatter-red-tail-1-7554a3cc.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "258,199,77,98",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_red/Tail_1_Shadow",
+      "file": "pieces/scatter-red-tail-1-shadow-921bfe5a.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "338,96,77,98"
+      }
+    },
+    {
+      "region": "scatter_red/Tail_2",
+      "file": "pieces/scatter-red-tail-2-49273e9f.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "358,196,67,80"
+      }
+    },
+    {
+      "region": "scatter_red/Tail_2_Shadow",
+      "file": "pieces/scatter-red-tail-2-shadow-2916ea6a.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "338,27,67,80",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_red/Tongue",
+      "file": "pieces/scatter-red-tongue-0b12c8c0.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "384,484,37,41",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_red/Tongue_Shadow",
+      "file": "pieces/scatter-red-tongue-shadow-955f4924.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "384,445,37,41",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_s",
+      "file": "pieces/scatter-s-9a1d4998.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "114,2,15,26",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_shadow_a",
+      "file": "pieces/scatter-shadow-a-3e46b9de.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "162,24,21,30"
+      }
+    },
+    {
+      "region": "scatter_shadow_c",
+      "file": "pieces/scatter-shadow-c-bafc3bd9.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "139,23,21,31"
+      }
+    },
+    {
+      "region": "scatter_shadow_e",
+      "file": "pieces/scatter-shadow-e-3f3f12ac.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "258,27,22,25",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_shadow_r",
+      "file": "pieces/scatter-shadow-r-1f0df5d3.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "185,25,22,29"
+      }
+    },
+    {
+      "region": "scatter_shadow_s",
+      "file": "pieces/scatter-shadow-s-533454df.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "114,19,23,35"
+      }
+    },
+    {
+      "region": "scatter_shadow_t1",
+      "file": "pieces/scatter-shadow-t1-6d41065b.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "168,2,20,29",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_shadow_t2",
+      "file": "pieces/scatter-shadow-t2-a57489e4.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "229,27,22,27",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_t1",
+      "file": "pieces/scatter-t1-fba24ca0.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "246,2,19,23"
+      }
+    },
+    {
+      "region": "scatter_t2",
+      "file": "pieces/scatter-t2-08840c2e.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "376,348,19,19"
+      }
+    },
+    {
+      "region": "scatter_thickness_a",
+      "file": "pieces/scatter-thickness-a-093bc9e1.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "199,2,21,24",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_thickness_c",
+      "file": "pieces/scatter-thickness-c-45d77f26.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "307,31,18,25",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_thickness_e",
+      "file": "pieces/scatter-thickness-e-ad3c9f97.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "376,327,19,19"
+      }
+    },
+    {
+      "region": "scatter_thickness_r",
+      "file": "pieces/scatter-thickness-r-e92cf964.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "376,369,17,25"
+      }
+    },
+    {
+      "region": "scatter_thickness_s",
+      "file": "pieces/scatter-thickness-s-f2c1f7df.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "209,25,18,29"
+      }
+    },
+    {
+      "region": "scatter_thickness_t1",
+      "file": "pieces/scatter-thickness-t1-0613568b.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "142,2,19,24",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_thickness_t2",
+      "file": "pieces/scatter-thickness-t2-18668d46.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "225,2,19,21"
+      }
+    },
+    {
+      "region": "star",
+      "file": "pieces/star-cb1dabec.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "2,267,254,254"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/scatter_red.json",
+      "sha256": "855219c77bf492e56f4fcf348dcc38409915e013af8944db53fbf37ba7dff015",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-03b69f3f.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/scatter_red.atlas",
+      "sha256": "03b69f3f749383fbdcdd94b41c5b3359aafbf473ae1675f259c3febda536d892",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "scatter_red.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/scatter_red.webp",
+      "sha256": "369411c5e24df003f0f15d03da585d293a0204b0682674d8c86baa75849d878e",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

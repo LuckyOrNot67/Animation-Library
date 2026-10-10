@@ -1,0 +1,239 @@
+{
+  "id": "animations/frog-5f3cb1bb",
+  "name": "frog",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-af69e7f5.atlas",
+  "pma": true,
+  "atlases": [
+    "atlas-af69e7f5.atlas"
+  ],
+  "textures": [
+    "frog.png"
+  ],
+  "animations": [
+    {
+      "name": "eat",
+      "duration": 1.75,
+      "timelines": {
+        "bones": 14,
+        "slots": 9,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "gulp",
+      "duration": 0.6,
+      "timelines": {
+        "bones": 5,
+        "slots": 7,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 3.2,
+      "timelines": {
+        "bones": 6,
+        "slots": 7,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "leave",
+      "duration": 0.55,
+      "timelines": {
+        "bones": 6,
+        "slots": 3
+      }
+    },
+    {
+      "name": "snoop_enter",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 6,
+        "slots": 3
+      }
+    },
+    {
+      "name": "snoop_hold",
+      "duration": 3.2,
+      "timelines": {
+        "bones": 6,
+        "slots": 7,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "tongue",
+      "duration": 1,
+      "timelines": {
+        "bones": 1,
+        "slots": 16
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "body",
+    "throat",
+    "head",
+    "hat",
+    "hands",
+    "hand_l",
+    "hand_r",
+    "eye_l",
+    "eye_l_pupil",
+    "eye_r",
+    "eye_r_pupil",
+    "tongue_0",
+    "tongue_1",
+    "tongue_2",
+    "tongue_3",
+    "tongue_4",
+    "tongue_5",
+    "tongue_6",
+    "tongue_7",
+    "tongue_8"
+  ],
+  "slots": [
+    "body",
+    "hat_back",
+    "head",
+    "open_mouth",
+    "eye_l_clip",
+    "eye_l_pupil",
+    "eye_l_upper",
+    "eye_l_lower",
+    "eye_r_clip",
+    "eye_r_pupil",
+    "eye_r_upper",
+    "eye_r_lower",
+    "hat_front",
+    "hand_l",
+    "hand_r",
+    "tongue"
+  ],
+  "pieces": [
+    {
+      "region": "body",
+      "file": "pieces/body-84e10a7d.png",
+      "page": "frog.png",
+      "properties": {
+        "bounds": "2,675,382,347"
+      }
+    },
+    {
+      "region": "hand_l",
+      "file": "pieces/hand-l-81c0d61d.png",
+      "page": "frog.png",
+      "properties": {
+        "bounds": "315,101,290,284"
+      }
+    },
+    {
+      "region": "hand_r",
+      "file": "pieces/hand-r-c9edde0e.png",
+      "page": "frog.png",
+      "properties": {
+        "bounds": "2,2,289,286"
+      }
+    },
+    {
+      "region": "hat",
+      "file": "pieces/hat-8a5530d9.png",
+      "page": "frog.png",
+      "properties": {
+        "bounds": "315,387,412,217"
+      }
+    },
+    {
+      "region": "head",
+      "file": "pieces/head-fe75e213.png",
+      "page": "frog.png",
+      "properties": {
+        "bounds": "2,290,383,311",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "head_open",
+      "file": "pieces/head-open-71a85d48.png",
+      "page": "frog.png",
+      "properties": {
+        "bounds": "386,704,372,318"
+      }
+    },
+    {
+      "region": "lid_l",
+      "file": "pieces/lid-l-30e58431.png",
+      "page": "frog.png",
+      "properties": {
+        "bounds": "607,34,173,163",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "lid_r",
+      "file": "pieces/lid-r-d2468539.png",
+      "page": "frog.png",
+      "properties": {
+        "bounds": "607,209,176,163",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pupil_l",
+      "file": "pieces/pupil-l-cbc6957b.png",
+      "page": "frog.png",
+      "properties": {
+        "bounds": "398,39,60,103",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pupil_r",
+      "file": "pieces/pupil-r-cd8ee64c.png",
+      "page": "frog.png",
+      "properties": {
+        "bounds": "293,38,61,103",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "tongue",
+      "file": "pieces/tongue-38f1ff14.png",
+      "page": "frog.png",
+      "properties": {
+        "bounds": "386,606,385,96"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.json",
+      "sha256": "5f3cb1bb75cabd175b89c42c944ae5f2c728f981853e620e6d6326fe45e720dc",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-af69e7f5.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.atlas",
+      "sha256": "af69e7f58275f18b8ed5919620c9f0519d6c16a280d2db4b6b15c201b0012f70",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "frog.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/frog/frog.png",
+      "sha256": "b84c8a27bc3a43c57408e94e07eb8a1818d757ce16f513c42f11f91381ca2057",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

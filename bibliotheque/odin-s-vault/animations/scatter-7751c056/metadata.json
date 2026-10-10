@@ -1,0 +1,539 @@
+{
+  "id": "animations/scatter-7751c056",
+  "name": "scatter",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-dea02981.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-dea02981.atlas"
+  ],
+  "textures": [
+    "scatter.webp"
+  ],
+  "animations": [
+    {
+      "name": "appear",
+      "duration": 1,
+      "timelines": {
+        "bones": 28,
+        "slots": 52
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 63,
+        "slots": 16,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "main",
+    "Frame_Gold",
+    "Body",
+    "Body2",
+    "Body3",
+    "Body4",
+    "Body5",
+    "scatter",
+    "Body6",
+    "Body7",
+    "Body8",
+    "Body9",
+    "eye",
+    "Tail_2",
+    "Tail_3",
+    "Tail_4",
+    "Tail_5",
+    "Tail_6",
+    "Tail_7",
+    "Tail_8",
+    "Tail_9",
+    "Tail_1",
+    "Tail_10",
+    "Tail_11",
+    "Tail_12",
+    "Tail_13",
+    "Tail_14",
+    "Tail_15",
+    "Tongue",
+    "Tongue2",
+    "Tongue3",
+    "Tongue4",
+    "Tongue5",
+    "Tongue6",
+    "Body10",
+    "Body11",
+    "a",
+    "c",
+    "s",
+    "t1",
+    "t2",
+    "e",
+    "r",
+    "scatter_back_glow",
+    "star",
+    "Glow_1",
+    "Glow_2",
+    "Glow_3",
+    "Glow_4",
+    "Glow_5",
+    "Glow_6",
+    "Glow_7",
+    "Glow_2_1",
+    "Glow_2_2",
+    "Glow_2_3",
+    "Glow_2_4",
+    "Glow_2_5",
+    "Glow_2_6",
+    "Glow_3_1",
+    "Glow_3_2",
+    "Glow_3_3",
+    "Glow_3_4",
+    "Glow_3_5",
+    "Glow_3_6",
+    "Frame_Gold2",
+    "BG2"
+  ],
+  "slots": [
+    "BG",
+    "BG2",
+    "Tail_1_sh",
+    "Tail_2_sh",
+    "Tongue_sh",
+    "Body_sh",
+    "Frame_Gold",
+    "Frame_Gold2",
+    "Frame_sh2",
+    "Frame_sh1",
+    "Tail_1",
+    "Tail_2",
+    "Tongue",
+    "max_effects_04_glow_01",
+    "max_effects_06_glow_01",
+    "Body",
+    "Tail_3",
+    "max_effects_05_glow_01",
+    "Glow_1",
+    "Glow_2",
+    "Glow_3",
+    "Glow_0",
+    "eye",
+    "scatter_shadow_r",
+    "scatter_shadow_e",
+    "scatter_shadow_t2",
+    "scatter_shadow_t1",
+    "scatter_shadow_a",
+    "scatter_shadow_c",
+    "scatter_shadow_s",
+    "scatter_thickness_r",
+    "scatter_thickness_e",
+    "scatter_thickness_t2",
+    "scatter_thickness_t1",
+    "scatter_thickness_a",
+    "scatter_thickness_c",
+    "scatter_thickness_s",
+    "scatter_r",
+    "scatter_r2",
+    "scatter_e",
+    "scatter_e2",
+    "scatter_t2",
+    "scatter_t4",
+    "scatter_t1",
+    "scatter_t3",
+    "scatter_a",
+    "scatter_a2",
+    "scatter_c",
+    "scatter_c2",
+    "scatter_s",
+    "scatter_s2",
+    "star"
+  ],
+  "pieces": [
+    {
+      "region": "BG",
+      "file": "pieces/bg-b9617643.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "258,264,118,118"
+      }
+    },
+    {
+      "region": "Body",
+      "file": "pieces/body-5bdc4225.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "258,148,117,112"
+      }
+    },
+    {
+      "region": "Body_sh",
+      "file": "pieces/body-sh-9a1f5f7e.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "389,398,121,114"
+      }
+    },
+    {
+      "region": "Frame_Gold",
+      "file": "pieces/frame-gold-3f6b6231.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "258,386,127,126"
+      }
+    },
+    {
+      "region": "Frame_sh1",
+      "file": "pieces/frame-sh1-8eae369a.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "351,0,8,14"
+      }
+    },
+    {
+      "region": "Frame_sh2",
+      "file": "pieces/frame-sh2-afb5e9b6.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "363,3,15,11"
+      }
+    },
+    {
+      "region": "Glow_0",
+      "file": "pieces/glow-0-bf7ee5e7.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "500,339,14,12",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Glow_1",
+      "file": "pieces/glow-1-bb70c0ee.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "129,11,46,28"
+      }
+    },
+    {
+      "region": "Glow_2",
+      "file": "pieces/glow-2-2220d2e6.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "474,357,37,28",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Glow_3",
+      "file": "pieces/glow-3-d35555c0.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "82,70,40,32",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Tail_1",
+      "file": "pieces/tail-1-4eeb768d.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "327,44,79,100"
+      }
+    },
+    {
+      "region": "Tail_1_sh",
+      "file": "pieces/tail-1-sh-518735d9.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "0,0,78,110"
+      }
+    },
+    {
+      "region": "Tail_2",
+      "file": "pieces/tail-2-2f98e424.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "389,324,70,81",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Tail_2_sh",
+      "file": "pieces/tail-2-sh-642d351c.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "238,47,85,97"
+      }
+    },
+    {
+      "region": "Tongue",
+      "file": "pieces/tongue-4054df82.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "82,0,39,43",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Tongue_sh",
+      "file": "pieces/tongue-sh-312a6c96.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "380,266,49,54"
+      }
+    },
+    {
+      "region": "eye",
+      "file": "pieces/eye-13992f92.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "105,58,9,8"
+      }
+    },
+    {
+      "region": "max_effects_04_glow_01",
+      "file": "pieces/max-effects-04-glow-01-d70ecd7c.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "118,152,136,102"
+      }
+    },
+    {
+      "region": "max_effects_05_glow_01",
+      "file": "pieces/max-effects-05-glow-01-fa75bed3.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "0,114,114,140",
+        "offsets": "1,1,116,142"
+      }
+    },
+    {
+      "region": "max_effects_06_glow_01",
+      "file": "pieces/max-effects-06-glow-01-e242c5b5.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "118,43,105,116",
+        "offsets": "1,1,107,118",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_a",
+      "file": "pieces/scatter-a-3d79a5c6.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "214,17,20,22"
+      }
+    },
+    {
+      "region": "scatter_c",
+      "file": "pieces/scatter-c-d073d424.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "385,17,17,23"
+      }
+    },
+    {
+      "region": "scatter_e",
+      "file": "pieces/scatter-e-e7b81c7a.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "304,25,18,18"
+      }
+    },
+    {
+      "region": "scatter_r",
+      "file": "pieces/scatter-r-61129cc9.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "462,264,16,22"
+      }
+    },
+    {
+      "region": "scatter_s",
+      "file": "pieces/scatter-s-29e1defe.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "326,25,15,26",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_shadow_a",
+      "file": "pieces/scatter-shadow-a-124a08b6.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "460,290,21,30"
+      }
+    },
+    {
+      "region": "scatter_shadow_c",
+      "file": "pieces/scatter-shadow-c-cafc5cfd.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "179,18,21,31",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_shadow_e",
+      "file": "pieces/scatter-shadow-e-7eb13fb6.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "356,18,22,25",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_shadow_r",
+      "file": "pieces/scatter-shadow-r-5dc9ebb3.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "474,324,22,29"
+      }
+    },
+    {
+      "region": "scatter_shadow_s",
+      "file": "pieces/scatter-shadow-s-d8ac15f8.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "433,285,23,35"
+      }
+    },
+    {
+      "region": "scatter_shadow_t1",
+      "file": "pieces/scatter-shadow-t1-761ad63c.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "238,23,20,29",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_shadow_t2",
+      "file": "pieces/scatter-shadow-t2-ff0fd386.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "485,298,22,27",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_t1",
+      "file": "pieces/scatter-t1-ce13123c.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "82,43,19,23"
+      }
+    },
+    {
+      "region": "scatter_t2",
+      "file": "pieces/scatter-t2-7530ab6a.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "485,275,19,19"
+      }
+    },
+    {
+      "region": "scatter_thickness_a",
+      "file": "pieces/scatter-thickness-a-5d952e2c.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "271,0,21,24",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_thickness_c",
+      "file": "pieces/scatter-thickness-c-0367e368.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "322,3,18,25",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_thickness_e",
+      "file": "pieces/scatter-thickness-e-2c3bf866.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "482,252,19,19"
+      }
+    },
+    {
+      "region": "scatter_thickness_r",
+      "file": "pieces/scatter-thickness-r-b3b86555.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "433,264,17,25",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_thickness_s",
+      "file": "pieces/scatter-thickness-s-e69bbf3c.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "271,25,18,29",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_thickness_t1",
+      "file": "pieces/scatter-thickness-t1-94ede4fb.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "238,0,19,24",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_thickness_t2",
+      "file": "pieces/scatter-thickness-t2-e541c7e9.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "299,0,19,21"
+      }
+    },
+    {
+      "region": "star",
+      "file": "pieces/star-0d9a49a9.png",
+      "page": "scatter.webp",
+      "properties": {
+        "bounds": "0,258,254,254"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/scatter.json",
+      "sha256": "7751c05638590ad61c24df28760ccb97534b3726a3cbf566074609089b135f71",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-dea02981.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/scatter.atlas",
+      "sha256": "dea02981e94043fd9ec7d37934c7b06a97fab193df98b0c4624dce0cb1733c46",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "scatter.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/scatter.webp",
+      "sha256": "f7eb91cb2a8ef64e7e5e2fbf58d6270f2b95808302534602215c0adbb7eaf2bf",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

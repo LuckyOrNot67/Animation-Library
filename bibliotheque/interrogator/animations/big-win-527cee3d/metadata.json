@@ -1,0 +1,262 @@
+{
+  "id": "animations/big-win-527cee3d",
+  "name": "big_win",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-ee02d33c.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-ee02d33c.atlas"
+  ],
+  "textures": [
+    "big_win.png"
+  ],
+  "animations": [
+    {
+      "name": "in",
+      "duration": 2,
+      "timelines": {
+        "bones": 16,
+        "slots": 13,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "loop",
+      "duration": 2,
+      "timelines": {
+        "bones": 17,
+        "slots": 13
+      }
+    },
+    {
+      "name": "out",
+      "duration": 1,
+      "timelines": {
+        "bones": 16,
+        "slots": 14
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "big_win",
+    "elements",
+    "text",
+    "slime_2",
+    "slime_5",
+    "slime_1",
+    "slime_4",
+    "slime_3",
+    "b",
+    "g",
+    "i_1",
+    "i_2",
+    "n",
+    "w",
+    "magnifying_glass",
+    "folder",
+    "folder2",
+    "glow_add"
+  ],
+  "slots": [
+    "back",
+    "glow_add",
+    "frame",
+    "frame_add",
+    "slime_1",
+    "folder",
+    "folder2",
+    "glass",
+    "glass_add",
+    "magnifying_glass",
+    "slime_2",
+    "slime_3",
+    "slime_4",
+    "slime_5",
+    "g",
+    "i_2",
+    "b",
+    "n",
+    "n_add",
+    "w",
+    "w_add",
+    "i_1",
+    "i_1_add"
+  ],
+  "pieces": [
+    {
+      "region": "b",
+      "file": "pieces/b-031b32ba.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "734,881,110,143",
+        "offsets": "2,2,114,146"
+      }
+    },
+    {
+      "region": "folder",
+      "file": "pieces/folder-a565a883.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "0,339,200,227",
+        "offsets": "1,1,202,229"
+      }
+    },
+    {
+      "region": "frame",
+      "file": "pieces/frame-0cca43b8.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "0,568,424,456",
+        "offsets": "1,1,426,458"
+      }
+    },
+    {
+      "region": "g",
+      "file": "pieces/g-7399607f.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "846,881,107,143",
+        "offsets": "2,1,110,145"
+      }
+    },
+    {
+      "region": "glass",
+      "file": "pieces/glass-955ed46e.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "282,226,101,102",
+        "offsets": "2,1,104,106"
+      }
+    },
+    {
+      "region": "glow_add",
+      "file": "pieces/glow-add-3697bec3.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "168,216,112,112",
+        "offsets": "7,7,126,126"
+      }
+    },
+    {
+      "region": "i_1",
+      "file": "pieces/i-1-b5aa5bbb.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "955,887,62,137",
+        "offsets": "2,2,66,140"
+      }
+    },
+    {
+      "region": "i_2",
+      "file": "pieces/i-2-f28ab6cf.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "202,330,60,159",
+        "offsets": "1,1,63,161",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "magnifying_glass",
+      "file": "pieces/magnifying-glass-ce09d8d5.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "426,790,170,234",
+        "offsets": "1,1,172,236"
+      }
+    },
+    {
+      "region": "n",
+      "file": "pieces/n-2a621f31.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "0,44,102,152",
+        "offsets": "1,2,105,155",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "slime_1",
+      "file": "pieces/slime-1-d437eb19.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "426,609,179,142",
+        "offsets": "1,1,181,144",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "slime_2",
+      "file": "pieces/slime-2-16a5f164.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "0,148,166,189"
+      }
+    },
+    {
+      "region": "slime_3",
+      "file": "pieces/slime-3-17b30238.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "426,576,19,31",
+        "offsets": "1,1,21,33"
+      }
+    },
+    {
+      "region": "slime_4",
+      "file": "pieces/slime-4-912cd744.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "0,0,28,42",
+        "offsets": "1,1,30,44"
+      }
+    },
+    {
+      "region": "slime_5",
+      "file": "pieces/slime-5-24e0a0a1.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "202,392,174,174",
+        "offsets": "1,1,176,176"
+      }
+    },
+    {
+      "region": "w",
+      "file": "pieces/w-c38992cb.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "598,861,134,163",
+        "offsets": "2,1,137,165"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/big_win/big_win.json",
+      "sha256": "527cee3dab51fe6c80ff28dc9daee546f6352b487622e4bfbc73992d059a3b12",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-ee02d33c.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/big_win/big_win.atlas",
+      "sha256": "ee02d33cd82a913e362c71a9f2eeb332eec0e2dcfff23ada3a7344ee84f98110",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "big_win.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/big_win/big_win.png",
+      "sha256": "3cc3a024aff389e0ddace715f60b98f39ebba6f4aace6012ed6a7c777ef35039",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

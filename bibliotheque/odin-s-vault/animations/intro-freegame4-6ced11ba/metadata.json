@@ -1,0 +1,466 @@
+{
+  "id": "animations/intro-freegame4-6ced11ba",
+  "name": "intro_freegame4",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-79b3a714.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-79b3a714.atlas"
+  ],
+  "textures": [
+    "intro_freegame4.webp"
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 36,
+        "slots": 19
+      }
+    },
+    {
+      "name": "in",
+      "duration": 1,
+      "timelines": {
+        "bones": 42,
+        "slots": 52,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "in_upgrade",
+      "duration": 1,
+      "timelines": {
+        "bones": 42,
+        "slots": 48
+      }
+    },
+    {
+      "name": "out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 34,
+        "slots": 47
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "FreeSpins_chest2",
+    "Chest",
+    "Cap",
+    "Cap2",
+    "Cap3",
+    "SpearsL",
+    "bone",
+    "bone2",
+    "Text",
+    "Spins",
+    "Free",
+    "Numbers",
+    "SpearsL2",
+    "bone3",
+    "bone4",
+    "Prt",
+    "Prt2",
+    "Prt3",
+    "Prt4",
+    "Prt5",
+    "Prt6",
+    "Glow1",
+    "Glow2",
+    "ray",
+    "BlikRound",
+    "BlikRound2",
+    "Cross",
+    "Cross2",
+    "FreeSpins2",
+    "Numbers2",
+    "Numbers3",
+    "Numbers4",
+    "ray2",
+    "bone5",
+    "mythic",
+    "ribbon_l",
+    "ribbon_l2",
+    "ribbon_l3",
+    "ribbon_l4",
+    "ribbon_l5",
+    "ribbon_l6",
+    "bone7",
+    "ribbon_l7",
+    "ribbon_l8",
+    "ribbon_l9",
+    "ribbon_l10",
+    "ribbon_l11",
+    "ribbon_l12"
+  ],
+  "slots": [
+    "glow_1",
+    "glow_4",
+    "particles",
+    "particles3",
+    "particles2",
+    "particles4",
+    "ray_2",
+    "glow_2",
+    "glow_3",
+    "ray_1",
+    "spear_bottom_right",
+    "spear_bottom_right2",
+    "spear_top_right",
+    "spear_top_right2",
+    "spear_top_right3",
+    "spear_top_right5",
+    "ribbon_l",
+    "ribbon_l2",
+    "Cap",
+    "back_gold_l",
+    "back_gold_r",
+    "chest",
+    "chest2",
+    "free_shadow",
+    "mythic_shadow",
+    "spins_shadow",
+    "free_thick",
+    "free",
+    "mythic",
+    "spins_thick",
+    "spins",
+    "free_add",
+    "mythic_add",
+    "spins_add",
+    "glow_5",
+    "glow_6",
+    "cross",
+    "cross2",
+    "chest3",
+    "spin_1",
+    "spin_3",
+    "spin_5",
+    "spin_4",
+    "Numbers",
+    "Numbers2",
+    "Numbers4",
+    "Numbers3",
+    "Numbers_Glow",
+    "Numbers_Glow2",
+    "Numbers_Glow4",
+    "Numbers_Glow3",
+    "front_gold"
+  ],
+  "pieces": [
+    {
+      "region": "back_gold_1",
+      "file": "pieces/back-gold-1-67d1725c.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "705,5,162,140",
+        "offsets": "1,1,164,142"
+      }
+    },
+    {
+      "region": "back_gold_2",
+      "file": "pieces/back-gold-2-4628be62.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1452,82,189,162",
+        "offsets": "1,1,191,164"
+      }
+    },
+    {
+      "region": "cap",
+      "file": "pieces/cap-d2b2c907.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "782,1176,728,491"
+      }
+    },
+    {
+      "region": "chest",
+      "file": "pieces/chest-7a3c2fa9.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "2,1077,778,590"
+      }
+    },
+    {
+      "region": "cross",
+      "file": "pieces/cross-19bc8136.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1643,16,256,256"
+      }
+    },
+    {
+      "region": "free",
+      "file": "pieces/free-33e74c2c.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1887,1361,306,144",
+        "offsets": "1,1,308,146",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "free_shadow",
+      "file": "pieces/free-shadow-534b57b2.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1495,646,338,175",
+        "offsets": "3,3,344,181"
+      }
+    },
+    {
+      "region": "free_thick",
+      "file": "pieces/free-thick-2c5a62b8.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1887,1052,307,135",
+        "offsets": "1,1,309,137",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "front_gold",
+      "file": "pieces/front-gold-8994a7be.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "552,136,939,151",
+        "offsets": "1,1,941,153",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "glow_1",
+      "file": "pieces/glow-1-db5d62ad.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1512,1108,373,559",
+        "offsets": "0,0,745,559"
+      }
+    },
+    {
+      "region": "glow_2",
+      "file": "pieces/glow-2-67146593.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1010,123,268,479",
+        "offsets": "0,0,536,479"
+      }
+    },
+    {
+      "region": "mythic",
+      "file": "pieces/mythic-28997458.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "2,2,438,139",
+        "offsets": "1,1,440,141"
+      }
+    },
+    {
+      "region": "mythic_shadow",
+      "file": "pieces/mythic-shadow-c41e7b3c.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1280,133,469,170",
+        "offsets": "3,3,475,176",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "particles",
+      "file": "pieces/particles-1ef57be6.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "782,604,644,570",
+        "offsets": "264,0,908,570"
+      }
+    },
+    {
+      "region": "ray_1",
+      "file": "pieces/ray-1-a0a4751d.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "2,143,932,336",
+        "offsets": "0,140,932,590",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ray_2",
+      "file": "pieces/ray-2-68339c92.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "340,143,932,210",
+        "offsets": "0,61,932,304",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ribbon_l",
+      "file": "pieces/ribbon-l-47468674.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1428,670,65,504"
+      }
+    },
+    {
+      "region": "spear_bottom_right",
+      "file": "pieces/spear-bottom-right-369c2cbd.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1627,274,370,178",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spear_top_left_1",
+      "file": "pieces/spear-top-left-1-0541088f.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "705,147,303,455",
+        "offsets": "1,1,305,457"
+      }
+    },
+    {
+      "region": "spear_top_right",
+      "file": "pieces/spear-top-right-df25c846.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1495,823,301,283"
+      }
+    },
+    {
+      "region": "spin_1",
+      "file": "pieces/spin-1-24fd8345.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "869,32,114,113"
+      }
+    },
+    {
+      "region": "spin_2",
+      "file": "pieces/spin-2-6c4cc0bb.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "985,8,114,113",
+        "offsets": "0,0,114,126"
+      }
+    },
+    {
+      "region": "spin_3",
+      "file": "pieces/spin-3-3fabeee1.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1101,8,114,113",
+        "offsets": "0,0,114,126"
+      }
+    },
+    {
+      "region": "spin_4",
+      "file": "pieces/spin-4-e3350754.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1217,8,114,113",
+        "offsets": "0,0,114,126"
+      }
+    },
+    {
+      "region": "spin_5",
+      "file": "pieces/spin-5-3beac03d.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1333,18,114,113",
+        "offsets": "0,0,114,126"
+      }
+    },
+    {
+      "region": "spin_6",
+      "file": "pieces/spin-6-ec126195.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1901,162,114,113",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spin_7",
+      "file": "pieces/spin-7-f1393a12.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1901,46,114,113",
+        "offsets": "0,0,114,114",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spin_8",
+      "file": "pieces/spin-8-7ba88600.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "442,21,114,113",
+        "offsets": "0,0,114,126"
+      }
+    },
+    {
+      "region": "spins",
+      "file": "pieces/spins-e79c2bfc.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1807,278,366,145",
+        "offsets": "1,1,368,147",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spins_shadow",
+      "file": "pieces/spins-shadow-d39d3d0f.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1452,246,398,173",
+        "offsets": "3,4,404,181",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spins_thick",
+      "file": "pieces/spins-thick-56bb393a.png",
+      "page": "intro_freegame4.webp",
+      "properties": {
+        "bounds": "1835,684,366,135",
+        "offsets": "1,1,368,137",
+        "rotate": "90"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro_freegame4.json",
+      "sha256": "6ced11ba66d907aa2d984746724157325460b74f696dc94b8f2e70ec3c79c782",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-79b3a714.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro_freegame4.atlas",
+      "sha256": "79b3a7147cdda47eaa7ed337a8b879d8814f2a9b2bab34a12d907865913eb208",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "intro_freegame4.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro_freegame4.webp",
+      "sha256": "120d59b7beb918fa1125dcdb8c39c40dd03bbdc5ee9e58689a4abb3dc8c2cd8d",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

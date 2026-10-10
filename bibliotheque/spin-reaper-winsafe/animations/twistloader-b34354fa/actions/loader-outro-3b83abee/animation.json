@@ -1,0 +1,136 @@
+{
+  "name": "loader_outro",
+  "duration": 1.5,
+  "timelines": {
+    "slots": 5,
+    "attachments": 1
+  },
+  "data": {
+    "slots": {
+      "loader_animated": {
+        "rgba": [
+          {
+            "time": 1.3333,
+            "color": "ffffffff",
+            "curve": [
+              1.389,
+              1,
+              1.444,
+              1,
+              1.389,
+              1,
+              1.444,
+              1,
+              1.389,
+              1,
+              1.444,
+              1,
+              1.411,
+              1.01,
+              1.422,
+              0
+            ]
+          },
+          {
+            "time": 1.5,
+            "color": "ffffff00"
+          }
+        ],
+        "attachment": [
+          {
+            "name": "logo"
+          }
+        ]
+      },
+      "loader_mask": {
+        "attachment": [
+          {
+            "name": "loader_mask"
+          }
+        ]
+      },
+      "logo_empty": {
+        "attachment": [
+          {
+            "time": 1
+          }
+        ]
+      },
+      "logo_full": {
+        "attachment": [
+          {}
+        ]
+      },
+      "slot_percent": {
+        "rgba": [
+          {
+            "time": 1.3333,
+            "color": "ffffffff",
+            "curve": [
+              1.389,
+              1,
+              1.444,
+              1,
+              1.389,
+              1,
+              1.444,
+              1,
+              1.389,
+              1,
+              1.444,
+              1,
+              1.411,
+              1.01,
+              1.422,
+              0
+            ]
+          },
+          {
+            "time": 1.5,
+            "color": "ffffff00"
+          }
+        ],
+        "attachment": [
+          {
+            "name": "empty"
+          }
+        ]
+      }
+    },
+    "attachments": {
+      "default": {
+        "loader_animated": {
+          "logo": {
+            "sequence": [
+              {
+                "mode": "once",
+                "delay": 0.0417
+              },
+              {
+                "time": 1,
+                "index": 24
+              }
+            ]
+          }
+        },
+        "loader_mask": {
+          "loader_mask": {
+            "deform": [
+              {
+                "offset": 4,
+                "vertices": [
+                  1069.6912,
+                  6.30164,
+                  1069.6912,
+                  6.30164
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

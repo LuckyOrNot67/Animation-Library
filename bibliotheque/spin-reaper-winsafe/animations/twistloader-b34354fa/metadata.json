@@ -1,0 +1,389 @@
+{
+  "id": "animations/twistloader-b34354fa",
+  "name": "twistloader",
+  "machine": "spin-reaper-winsafe",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-ea44b8dc.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-ea44b8dc.atlas"
+  ],
+  "textures": [
+    "twistLoader.webp"
+  ],
+  "animations": [
+    {
+      "name": "loader_full",
+      "duration": 0,
+      "timelines": {
+        "attachments": 1
+      }
+    },
+    {
+      "name": "loader_idle",
+      "duration": 0,
+      "timelines": {
+        "slots": 5,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "loader_outro",
+      "duration": 1.5,
+      "timelines": {
+        "slots": 5,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "loader_master",
+    "slot_percent"
+  ],
+  "slots": [
+    "00_master_scale",
+    "00_screen_dimensions_guide",
+    "slot_percent",
+    "logo_empty",
+    "loader_animated_empty",
+    "loader_mask",
+    "logo_full",
+    "loader_animated"
+  ],
+  "pieces": [
+    {
+      "region": "empty",
+      "file": "pieces/empty-14aa2db7.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "2033,807,1,1"
+      }
+    },
+    {
+      "region": "logo0",
+      "file": "pieces/logo0-e87669cc.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "971,2,321,115",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo29",
+      "file": "pieces/logo29-26b7643d.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "971,2,321,115",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo30",
+      "file": "pieces/logo30-675386fa.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "971,2,321,115",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo31",
+      "file": "pieces/logo31-10dc9e70.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "971,2,321,115",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo1",
+      "file": "pieces/logo1-382221fd.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "648,2,321,115",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo10",
+      "file": "pieces/logo10-e7f14de9.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "325,6,321,115",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo11",
+      "file": "pieces/logo11-245a4279.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "1617,119,321,115",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo12",
+      "file": "pieces/logo12-e7aff8c9.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "1294,119,321,115",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo13",
+      "file": "pieces/logo13-292657ce.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "971,119,321,115",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo14",
+      "file": "pieces/logo14-ef62b3f0.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "812,487,321,149",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo15",
+      "file": "pieces/logo15-29ced715.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "1458,646,321,162",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo16",
+      "file": "pieces/logo16-92037e26.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "812,638,321,170",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo17",
+      "file": "pieces/logo17-5e1a0583.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "489,632,321,176",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo18",
+      "file": "pieces/logo18-4290b0b3.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "1135,645,321,163",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo19",
+      "file": "pieces/logo19-65c7a1ab.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "1458,491,321,153",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo2",
+      "file": "pieces/logo2-30e76193.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "2,119,321,115",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo20",
+      "file": "pieces/logo20-f9180627.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "2,465,321,140",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo21",
+      "file": "pieces/logo21-e1bde188.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "1781,487,321,133",
+        "offsets": "39,48,400,250",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "logo22",
+      "file": "pieces/logo22-9a3bf687.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "325,471,321,134",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo23",
+      "file": "pieces/logo23-b0290fec.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "1458,353,321,132",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo24",
+      "file": "pieces/logo24-2ba3d6f2.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "1458,353,321,132",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo25",
+      "file": "pieces/logo25-271e327c.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "1458,353,321,132",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo26",
+      "file": "pieces/logo26-eb6abd2f.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "1458,353,321,132",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo27",
+      "file": "pieces/logo27-15847c9e.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "648,353,321,132",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo28",
+      "file": "pieces/logo28-f6d08cff.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "1135,357,321,132",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo3",
+      "file": "pieces/logo3-ac82af9a.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "648,123,321,115",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo4",
+      "file": "pieces/logo4-5257b338.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "1617,236,321,115",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo5",
+      "file": "pieces/logo5-d9ca16f2.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "1294,236,321,115",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo6",
+      "file": "pieces/logo6-690fe9b7.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "325,236,321,115",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo7",
+      "file": "pieces/logo7-96224d00.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "971,240,321,115",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo8",
+      "file": "pieces/logo8-2c378d36.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "1916,487,321,115",
+        "offsets": "39,48,400,250",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "logo9",
+      "file": "pieces/logo9-12bdd4aa.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "2,348,321,115",
+        "offsets": "39,48,400,250"
+      }
+    },
+    {
+      "region": "logo_full",
+      "file": "pieces/logo-full-af3d8160.png",
+      "page": "twistLoader.webp",
+      "properties": {
+        "bounds": "2,607,485,201"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/twistLoader/twistLoader.json",
+      "sha256": "b34354fa633012df9e8c490662d3aadd92243fd6bd5de0ad9758d59cfcb788e1",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-ea44b8dc.atlas",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/twistLoader/twistLoader.atlas",
+      "sha256": "ea44b8dcf1e27b99319813f562c605a14ab7dc6c8a6e3c70211c24a604f2ee69",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "twistLoader.webp",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/components-pixi-package/twistLoader/twistLoader.webp",
+      "sha256": "a1b025ab6af57378a8f40a815dd0be0afac015f439c15d14bf7668acb305dc07",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

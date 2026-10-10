@@ -1,0 +1,101 @@
+{
+  "id": "animations/suru-banner-6-f16c9bfb",
+  "name": "suru_banner_6",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-d9cb84bd.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-d9cb84bd.atlas"
+  ],
+  "textures": [
+    "suru_banner_6.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_banner_in",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 12,
+        "slots": 1
+      }
+    },
+    {
+      "name": "suru_banner_loop",
+      "duration": 1.9,
+      "timelines": {
+        "bones": 9,
+        "slots": 1
+      }
+    },
+    {
+      "name": "suru_banner_out",
+      "duration": 0.6,
+      "timelines": {
+        "bones": 12,
+        "slots": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "congratulation",
+    "you have win",
+    "123456789",
+    "credit",
+    "rec",
+    "rec1",
+    "ray",
+    "ray2",
+    "star1",
+    "star2",
+    "star01",
+    "star3"
+  ],
+  "slots": [
+    "meter_glow_1",
+    "meter_glow_2"
+  ],
+  "pieces": [
+    {
+      "region": "meter_glow_1",
+      "file": "pieces/meter-glow-1-9081477a.png",
+      "page": "suru_banner_6.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "1646, 885",
+        "orig": "1646, 885",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-17e90b24c490/suru_banner_6.json",
+      "sha256": "f16c9bfbceadf391f89cff998a687f5c1b4c85c9a9f209fdcedb75a3bf040aef",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-d9cb84bd.atlas",
+      "source": "raw/_embedded/uht-17e90b24c490/suru_banner_6.atlas",
+      "sha256": "d9cb84bd7e502aa87715131e624b88fd692d86601f90db3a6be6a7699bb89fb4",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_banner_6.png",
+      "source": "raw/_embedded/uht-17e90b24c490/suru_banner_6.png",
+      "sha256": "fdda89aa76045a52bbaa905b1f3756d6e7073f9ee442f043979c40d7b19266ea",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

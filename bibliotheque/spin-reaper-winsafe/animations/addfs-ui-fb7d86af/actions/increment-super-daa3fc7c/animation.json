@@ -1,0 +1,137 @@
+{
+  "name": "increment_super",
+  "duration": 0.567,
+  "timelines": {
+    "bones": 2,
+    "slots": 3,
+    "events": 1
+  },
+  "data": {
+    "slots": {
+      "addfs_ui": {
+        "attachment": [
+          {
+            "name": "addfs_ui_super"
+          }
+        ]
+      },
+      "slot_fscount": {
+        "rgba": [
+          {
+            "time": 0.2,
+            "color": "ffffffff"
+          }
+        ],
+        "attachment": [
+          {
+            "name": "mockup_num1"
+          }
+        ]
+      },
+      "slot_fscount_white": {
+        "rgba": [
+          {
+            "color": "ffffff00",
+            "curve": "stepped"
+          },
+          {
+            "time": 0.2,
+            "color": "ffffff00"
+          },
+          {
+            "time": 0.3,
+            "color": "ffffffff"
+          },
+          {
+            "time": 0.4,
+            "color": "ffffff00"
+          }
+        ],
+        "attachment": [
+          {
+            "name": "mockup_num1"
+          }
+        ]
+      }
+    },
+    "bones": {
+      "mockup_num1": {
+        "scale": [
+          {
+            "time": 0.2,
+            "curve": [
+              0.233,
+              1.075,
+              0.267,
+              1.3,
+              0.233,
+              1.075,
+              0.267,
+              1.3
+            ]
+          },
+          {
+            "time": 0.3,
+            "x": 1.3,
+            "y": 1.3,
+            "curve": [
+              0.333,
+              1.3,
+              0.367,
+              1,
+              0.333,
+              1.3,
+              0.367,
+              1
+            ]
+          },
+          {
+            "time": 0.4
+          }
+        ]
+      },
+      "addfs_ui": {
+        "scale": [
+          {
+            "curve": [
+              0.1,
+              1,
+              0.2,
+              1.05,
+              0.1,
+              1,
+              0.2,
+              1.05
+            ]
+          },
+          {
+            "time": 0.3,
+            "x": 1.05,
+            "y": 1.05,
+            "curve": [
+              0.389,
+              1.05,
+              0.478,
+              1,
+              0.389,
+              1.05,
+              0.478,
+              1
+            ]
+          },
+          {
+            "time": 0.5667
+          }
+        ]
+      }
+    },
+    "events": [
+      {
+        "time": 0.3,
+        "name": "update"
+      }
+    ]
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

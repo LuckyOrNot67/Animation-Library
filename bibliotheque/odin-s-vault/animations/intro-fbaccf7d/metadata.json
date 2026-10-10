@@ -1,0 +1,379 @@
+{
+  "id": "animations/intro-fbaccf7d",
+  "name": "intro",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-50e89f42.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-50e89f42.atlas"
+  ],
+  "textures": [
+    "intro.webp"
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 23,
+        "slots": 14
+      }
+    },
+    {
+      "name": "in",
+      "duration": 1,
+      "timelines": {
+        "bones": 26,
+        "slots": 38,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 23,
+        "slots": 33
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "FreeSpins",
+    "Chest",
+    "Cap",
+    "Cap2",
+    "Cap3",
+    "SpearsL",
+    "bone",
+    "bone2",
+    "Text",
+    "Spins",
+    "Free",
+    "Numbers",
+    "SpearsL2",
+    "bone3",
+    "bone4",
+    "Prt",
+    "Prt2",
+    "Prt3",
+    "Prt4",
+    "Prt5",
+    "Prt6",
+    "Glow1",
+    "Glow2",
+    "ray",
+    "BlikRound",
+    "BlikRound2",
+    "Cross",
+    "Cross2",
+    "FreeSpins2",
+    "ray2"
+  ],
+  "slots": [
+    "glow_1",
+    "glow_4",
+    "particles",
+    "particles3",
+    "particles2",
+    "particles4",
+    "ray_2",
+    "glow_2",
+    "glow_3",
+    "ray_1",
+    "spear_bottom_right",
+    "spear_bottom_right2",
+    "spear_top_right",
+    "spear_top_right2",
+    "Cap",
+    "chest",
+    "l",
+    "r",
+    "chest2",
+    "free_shadow",
+    "spins_shadow",
+    "free_thick",
+    "free",
+    "spins_thick",
+    "spins",
+    "free2",
+    "spins2",
+    "glow_5",
+    "glow_6",
+    "cross",
+    "cross2",
+    "reference",
+    "chest3",
+    "spin_1",
+    "spin_3",
+    "spin_5",
+    "spin_4",
+    "Numbers",
+    "Numbers_Glow"
+  ],
+  "pieces": [
+    {
+      "region": "Cap",
+      "file": "pieces/cap-2f6fb6e1.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "574,153,732,493"
+      }
+    },
+    {
+      "region": "chest",
+      "file": "pieces/chest-bb0adcef.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "2,648,782,593",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cross",
+      "file": "pieces/cross-a82588dc.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "882,799,256,256"
+      }
+    },
+    {
+      "region": "free",
+      "file": "pieces/free-0547ae93.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "1646,759,309,132",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "free_shadow",
+      "file": "pieces/free-shadow-cb05f785.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "1890,300,196,100",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "free_thick",
+      "file": "pieces/free-thick-8a975d3b.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "1688,89,309,137"
+      }
+    },
+    {
+      "region": "glow_1",
+      "file": "pieces/glow-1-55b31480.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "597,1057,373,559",
+        "offsets": "0,0,745,559",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "glow_2",
+      "file": "pieces/glow-2-9844bc3e.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "1308,228,268,479",
+        "offsets": "0,0,536,479",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "l",
+      "file": "pieces/l-d3773644.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "1646,1070,360,120",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "particles",
+      "file": "pieces/particles-ddbbe724.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "2,2,644,570",
+        "offsets": "264,0,908,570",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r",
+      "file": "pieces/r-6e5faab8.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "1158,1151,279,101",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ray_1",
+      "file": "pieces/ray-1-9721174a.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "1308,498,932,336",
+        "offsets": "0,140,932,590",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ray_2",
+      "file": "pieces/ray-2-7526c09a.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "1789,498,932,210",
+        "offsets": "0,61,932,304",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spear_bottom_right",
+      "file": "pieces/spear-bottom-right-1e814a1d.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "1314,46,372,180"
+      }
+    },
+    {
+      "region": "spear_top_right",
+      "file": "pieces/spear-top-right-1c3d5450.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "597,754,301,283",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spin_1",
+      "file": "pieces/spin-1-736657c0.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "1646,644,114,113"
+      }
+    },
+    {
+      "region": "spin_2",
+      "file": "pieces/spin-2-248d3cf4.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "1646,529,114,113",
+        "offsets": "0,0,114,126"
+      }
+    },
+    {
+      "region": "spin_3",
+      "file": "pieces/spin-3-aae86967.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "1158,1036,114,113",
+        "offsets": "0,0,114,126"
+      }
+    },
+    {
+      "region": "spin_4",
+      "file": "pieces/spin-4-3c2f2396.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "882,683,114,113",
+        "offsets": "0,0,114,126",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spin_5",
+      "file": "pieces/spin-5-363ae58e.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "997,683,114,113",
+        "offsets": "0,0,114,126",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spin_6",
+      "file": "pieces/spin-6-f30798ee.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "1112,683,114,113",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spin_7",
+      "file": "pieces/spin-7-fd12080d.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "1140,921,114,113",
+        "offsets": "0,0,114,114"
+      }
+    },
+    {
+      "region": "spin_8",
+      "file": "pieces/spin-8-775208c4.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "1140,805,114,113",
+        "offsets": "0,0,114,126",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spins",
+      "file": "pieces/spins-799cc510.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "944,18,368,133"
+      }
+    },
+    {
+      "region": "spins_shadow",
+      "file": "pieces/spins-shadow-87884213.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "1789,264,232,99",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spins_thick",
+      "file": "pieces/spins-thick-e2bec94c.png",
+      "page": "intro.webp",
+      "properties": {
+        "bounds": "574,14,368,137"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro.json",
+      "sha256": "fbaccf7d76d9b61d36507f8a2d38ffe65a7aad89ab8637b16282e1fd5cf1229e",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-50e89f42.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro.atlas",
+      "sha256": "50e89f427e4644b6770eb8a3f1b014ffab544226ac7350ba3ef7cad52c535aca",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "intro.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/intro_outro/intro.webp",
+      "sha256": "c7115b3c93cfca52ab32071f96a8575e1aea81a0bf4681a3f0407123ecaeded8",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

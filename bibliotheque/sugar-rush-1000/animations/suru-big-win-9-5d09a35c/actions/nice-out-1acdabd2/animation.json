@@ -1,0 +1,179 @@
+{
+  "name": "nice_out",
+  "duration": 0.5,
+  "timelines": {
+    "bones": 4,
+    "slots": 1,
+    "deform": 1
+  },
+  "data": {
+    "slots": {
+      "rays_1": {
+        "color": [
+          {
+            "time": 0,
+            "color": "ffffffff"
+          },
+          {
+            "time": 0.5,
+            "color": "ffffff00"
+          }
+        ]
+      }
+    },
+    "bones": {
+      "numbers": {
+        "scale": [
+          {
+            "time": 0,
+            "x": 1,
+            "y": 1,
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 0.0667,
+            "x": 1.02,
+            "y": 1.02,
+            "curve": [
+              0.699,
+              0.01,
+              1,
+              0.99
+            ]
+          },
+          {
+            "time": 0.2333,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      "sensational": {
+        "translate": [
+          {
+            "time": 0.0667,
+            "x": 0,
+            "y": 0,
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 0.2,
+            "x": 0,
+            "y": 16.64
+          },
+          {
+            "time": 0.4333,
+            "x": -2.92,
+            "y": -285.62
+          }
+        ],
+        "scale": [
+          {
+            "time": 0.0667,
+            "x": 1,
+            "y": 1,
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 0.2,
+            "x": 1.12,
+            "y": 1.12,
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 0.4333,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      "stars": {
+        "translate": [
+          {
+            "time": 0,
+            "x": 0,
+            "y": 60.6
+          }
+        ],
+        "scale": [
+          {
+            "time": 0,
+            "x": 3.245,
+            "y": 3.245
+          }
+        ]
+      },
+      "big_star": {
+        "scale": [
+          {
+            "time": 0,
+            "x": 1,
+            "y": 1
+          },
+          {
+            "time": 0.1333,
+            "x": 1.04,
+            "y": 1.04
+          },
+          {
+            "time": 0.4,
+            "x": 0.205,
+            "y": 0.205
+          }
+        ]
+      }
+    },
+    "deform": {
+      "default": {
+        "rays_1": {
+          "rays_1": [
+            {
+              "time": 0,
+              "curve": [
+                0.217,
+                0,
+                0.564,
+                1
+              ]
+            },
+            {
+              "time": 0.5,
+              "vertices": [
+                -888.5,
+                499.5,
+                888.5,
+                499.5,
+                888.5,
+                -499.5,
+                -888.5,
+                -499.5
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

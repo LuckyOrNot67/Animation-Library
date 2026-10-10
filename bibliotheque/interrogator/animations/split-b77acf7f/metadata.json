@@ -1,0 +1,225 @@
+{
+  "id": "animations/split-b77acf7f",
+  "name": "split",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-bb3fe700.atlas",
+  "pma": true,
+  "atlases": [
+    "atlas-bb3fe700.atlas"
+  ],
+  "textures": [
+    "split.png",
+    "split_2.png",
+    "split_3.png"
+  ],
+  "animations": [
+    {
+      "name": "capped",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 10,
+        "slots": 13,
+        "attachments": 1,
+        "events": 2
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 3,
+      "timelines": {
+        "bones": 23
+      }
+    },
+    {
+      "name": "land",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 13,
+        "events": 1
+      }
+    },
+    {
+      "name": "split",
+      "duration": 1.8,
+      "timelines": {
+        "bones": 25,
+        "slots": 13,
+        "attachments": 1,
+        "events": 4
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "impact",
+    "board_open",
+    "split_left",
+    "left_top",
+    "left_bottom",
+    "left_arrow",
+    "split_right",
+    "right_top",
+    "right_bottom",
+    "right_arrow",
+    "lightning",
+    "lightning_tip",
+    "arrow_left",
+    "arrow_left_tip",
+    "arrow_right",
+    "arrow_right_tip",
+    "letter_S",
+    "letter_S_tip",
+    "letter_P",
+    "letter_P_tip",
+    "letter_L",
+    "letter_L_tip",
+    "letter_I",
+    "letter_I_tip",
+    "letter_T",
+    "letter_T_tip",
+    "column_strike_root",
+    "column_strike_shape",
+    "column_strike_0",
+    "column_strike_1",
+    "column_strike_2",
+    "column_strike_3",
+    "column_strike_4",
+    "column_strike_5"
+  ],
+  "slots": [
+    "panel_left",
+    "panel_right",
+    "lightning",
+    "arrow_left",
+    "arrow_right",
+    "letter_S",
+    "letter_P",
+    "letter_L",
+    "letter_I",
+    "letter_T",
+    "column_strike_clip",
+    "column_strike_glow",
+    "column_strike_edge",
+    "column_strike_core"
+  ],
+  "pieces": [
+    {
+      "region": "arrow_right",
+      "file": "pieces/arrow-right-9d261c25.png",
+      "page": "split.png",
+      "properties": {
+        "bounds": "410,1,552,397"
+      }
+    },
+    {
+      "region": "letter_I",
+      "file": "pieces/letter-i-556927ae.png",
+      "page": "split.png",
+      "properties": {
+        "bounds": "1,506,263,478",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "letter_L",
+      "file": "pieces/letter-l-52c5ab46.png",
+      "page": "split.png",
+      "properties": {
+        "bounds": "480,399,370,531",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "letter_P",
+      "file": "pieces/letter-p-7986d0cb.png",
+      "page": "split.png",
+      "properties": {
+        "bounds": "1,18,408,487"
+      }
+    },
+    {
+      "region": "lightning",
+      "file": "pieces/lightning-d481eb58.png",
+      "page": "split.png",
+      "properties": {
+        "bounds": "1,770,103,694",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "split",
+      "file": "pieces/split-63d7c4ad.png",
+      "page": "split_2.png",
+      "properties": {
+        "bounds": "1,1,627,627"
+      }
+    },
+    {
+      "region": "arrow_left",
+      "file": "pieces/arrow-left-b0fe2665.png",
+      "page": "split_3.png",
+      "properties": {
+        "bounds": "1,212,643,474",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "letter_S",
+      "file": "pieces/letter-s-3457ab8f.png",
+      "page": "split_3.png",
+      "properties": {
+        "bounds": "476,1,404,514",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "letter_T",
+      "file": "pieces/letter-t-edf5025a.png",
+      "page": "split_3.png",
+      "properties": {
+        "bounds": "476,406,448,496",
+        "rotate": "90"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split.json",
+      "sha256": "b77acf7fc3bfed2e483a106b1aa53bbe07ed22632aca0d599e37bccb856bc868",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-bb3fe700.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split.atlas",
+      "sha256": "bb3fe700d3c925cdb177702323649aa111855348e4549487072031f6860e26bd",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "split.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split.png",
+      "sha256": "d7df715d5c1e5a2247101e57050c87d8f403b2de4121d70211743f3da9e9a34b",
+      "kind": "image"
+    },
+    {
+      "file": "split_2.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split_2.png",
+      "sha256": "9e6cc06043c8d54145ec99a443d2a9eb04b44bf0ae28ea777ad277032c3fb2c7",
+      "kind": "image"
+    },
+    {
+      "file": "split_3.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/split/split_3.png",
+      "sha256": "c02eaa2350e001da3bb679fc118b9b0cb7a8d469a11e9fe066c7048aedbcb748",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

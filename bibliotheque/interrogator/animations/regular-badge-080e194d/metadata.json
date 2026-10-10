@@ -1,0 +1,94 @@
+{
+  "id": "animations/regular-badge-080e194d",
+  "name": "regular-badge",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-52a8350d.atlas",
+  "pma": true,
+  "atlases": [
+    "atlas-52a8350d.atlas"
+  ],
+  "textures": [
+    "regular-badge.png"
+  ],
+  "animations": [
+    {
+      "name": "land",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 5,
+        "events": 1
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1.3,
+      "timelines": {
+        "bones": 6,
+        "slots": 1,
+        "events": 2
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "sway",
+    "plate_top",
+    "plate_bottom",
+    "star",
+    "star_tip",
+    "star_shadow"
+  ],
+  "slots": [
+    "shield",
+    "star_shadow",
+    "star"
+  ],
+  "pieces": [
+    {
+      "region": "shield",
+      "file": "pieces/shield-f27449de.png",
+      "page": "regular-badge.png",
+      "properties": {
+        "bounds": "2,2,654,768",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "star",
+      "file": "pieces/star-97fadb5f.png",
+      "page": "regular-badge.png",
+      "properties": {
+        "bounds": "772,43,613,600",
+        "rotate": "90"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-badge/regular-badge.json",
+      "sha256": "080e194d4b5cf3a4569ba86ac88ccc5ef2e1fbffe5be70af1c0e38ee56006521",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-52a8350d.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-badge/regular-badge.atlas",
+      "sha256": "52a8350db79b09c8428729f85d0ecd3b88656763d3779a7fef840de057441c61",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "regular-badge.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-badge/regular-badge.png",
+      "sha256": "84a1ba40f51dda5ef35eeaa7daa3fc36ee999bb3ed2806b91495d059dd65887b",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

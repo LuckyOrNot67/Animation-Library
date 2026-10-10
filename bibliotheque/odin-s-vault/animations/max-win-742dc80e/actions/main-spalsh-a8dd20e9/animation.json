@@ -1,0 +1,130 @@
+{
+  "name": "main/spalsh",
+  "duration": 0.667,
+  "timelines": {
+    "bones": 1,
+    "slots": 1
+  },
+  "data": {
+    "slots": {
+      "splash": {
+        "rgba": [
+          {
+            "color": "ffffff00",
+            "curve": [
+              0.074,
+              1,
+              0.159,
+              1,
+              0.074,
+              1,
+              0.159,
+              1,
+              0.074,
+              1,
+              0.159,
+              1,
+              0.074,
+              0,
+              0.159,
+              1
+            ]
+          },
+          {
+            "time": 0.2333,
+            "color": "ffffffff",
+            "curve": "stepped"
+          },
+          {
+            "time": 0.4333,
+            "color": "ffffffff",
+            "curve": [
+              0.507,
+              1,
+              0.593,
+              1,
+              0.507,
+              1,
+              0.593,
+              1,
+              0.507,
+              1,
+              0.593,
+              1,
+              0.507,
+              1,
+              0.593,
+              0
+            ]
+          },
+          {
+            "time": 0.6667,
+            "color": "ffffff00"
+          }
+        ],
+        "attachment": [
+          {
+            "time": 0.1333,
+            "name": "splash_seq/splash_00"
+          },
+          {
+            "time": 0.2,
+            "name": "splash_seq/splash_01"
+          },
+          {
+            "time": 0.2333,
+            "name": "splash_seq/splash_02"
+          },
+          {
+            "time": 0.2667,
+            "name": "splash_seq/splash_03"
+          },
+          {
+            "time": 0.3,
+            "name": "splash_seq/splash_04"
+          },
+          {
+            "time": 0.3333,
+            "name": "splash_seq/splash_05"
+          },
+          {
+            "time": 0.3667,
+            "name": "splash_seq/splash_06"
+          },
+          {
+            "time": 0.4,
+            "name": "splash_seq/splash_07"
+          },
+          {
+            "time": 0.4333,
+            "name": "splash_seq/splash_08"
+          },
+          {
+            "time": 0.4667,
+            "name": "splash_seq/splash_09"
+          },
+          {
+            "time": 0.5333,
+            "name": "splash_seq/splash_10"
+          }
+        ]
+      }
+    },
+    "bones": {
+      "splash": {
+        "scale": [
+          {
+            "time": 0.1333
+          },
+          {
+            "time": 0.5667,
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

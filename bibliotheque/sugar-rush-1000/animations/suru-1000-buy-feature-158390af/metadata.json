@@ -1,0 +1,306 @@
+{
+  "id": "animations/suru-1000-buy-feature-158390af",
+  "name": "suru_1000_buy_feature",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-b7e753ff.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-b7e753ff.atlas"
+  ],
+  "textures": [
+    "suru_1000_buy_feature.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_1000_buy_feature_big_in",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 1,
+        "slots": 16
+      }
+    },
+    {
+      "name": "suru_1000_buy_feature_big_loop",
+      "duration": 2,
+      "timelines": {
+        "bones": 1,
+        "slots": 6
+      }
+    },
+    {
+      "name": "suru_1000_buy_feature_big_right_click_out",
+      "duration": 0.633,
+      "timelines": {
+        "bones": 2,
+        "slots": 11
+      }
+    },
+    {
+      "name": "suru_1000_buy_feature_big_wrong_click_out",
+      "duration": 0.633,
+      "timelines": {
+        "bones": 2,
+        "slots": 11
+      }
+    },
+    {
+      "name": "suru_1000_buy_feature_small_click",
+      "duration": 0.367,
+      "timelines": {
+        "bones": 2,
+        "slots": 3
+      }
+    },
+    {
+      "name": "suru_1000_buy_feature_small_loop",
+      "duration": 1,
+      "timelines": {
+        "bones": 2,
+        "slots": 12
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "small_super_buy_click",
+    "bone2",
+    "big_super_buy_free_spins",
+    "doller",
+    "click_right",
+    "bone3"
+  ],
+  "slots": [
+    "base_glow_2",
+    "base_glow_3",
+    "multipliers_text",
+    "buy_text_big",
+    "free_text_big",
+    "spins_text_big",
+    "super_text_big",
+    "sugar",
+    "green_base_small",
+    "buy_text_small_2",
+    "super_text_small",
+    "spins_text_small_2",
+    "red_base_small",
+    "red_base_small2",
+    "spins_text_small",
+    "buy_text_small",
+    "base_glow_5",
+    "base_glow_6",
+    "base_glow",
+    "base_glow2",
+    "base_2",
+    "doller_button_light",
+    "buy_text",
+    "free_text",
+    "spins_text",
+    "red_button_big",
+    "red_button_big2",
+    "cross_sing_defth_shadow",
+    "cross_sing",
+    "green_button_big",
+    "green_button_big2",
+    "right_defth_shadow",
+    "right_sing"
+  ],
+  "pieces": [
+    {
+      "region": "base_2",
+      "file": "pieces/base-2-a737d491.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1778, 45",
+        "size": "985, 598",
+        "orig": "985, 598",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "base_glow",
+      "file": "pieces/base-glow-56a6d357.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1158, 30",
+        "size": "1000, 618",
+        "orig": "1000, 618",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "base_glow_2",
+      "file": "pieces/base-glow-2-658284b5.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 257",
+        "size": "1154, 773",
+        "orig": "1154, 773",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cross_sing",
+      "file": "pieces/cross-sing-1e17902e.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "987, 106",
+        "size": "72, 69",
+        "orig": "72, 69",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cross_sing_defth_shadow",
+      "file": "pieces/cross-sing-defth-shadow-b79cb7b3.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "966, 180",
+        "size": "75, 73",
+        "orig": "75, 73",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "doller_button_light",
+      "file": "pieces/doller-button-light-71a30cb8.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "331, 127",
+        "size": "289, 128",
+        "orig": "289, 128",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "green_base_small",
+      "file": "pieces/green-base-small-7c14bb62.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "797, 10",
+        "size": "188, 137",
+        "orig": "188, 137",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "green_button_big",
+      "file": "pieces/green-button-big-23718bd0.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "331, 5",
+        "size": "231, 120",
+        "orig": "231, 120",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "red_base_small",
+      "file": "pieces/red-base-small-91975182.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "622, 149",
+        "size": "188, 106",
+        "orig": "188, 106",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "red_button_big",
+      "file": "pieces/red-button-big-73d72243.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "564, 5",
+        "size": "231, 120",
+        "orig": "231, 120",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "right_defth_shadow",
+      "file": "pieces/right-defth-shadow-e68e3b1a.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "812, 154",
+        "size": "101, 77",
+        "orig": "101, 77",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "right_sing",
+      "file": "pieces/right-sing-92c45ce0.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "891, 158",
+        "size": "97, 73",
+        "orig": "97, 73",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "sugar",
+      "file": "pieces/sugar-7e904ce2.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2, 2",
+        "size": "253, 327",
+        "orig": "253, 327",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-c4912a61afe9/suru_1000_buy_feature.json",
+      "sha256": "158390af69a3b78d7c63a8ffcc16dcf5bf999a6cd74a89a5ee008f3b77f6569e",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-b7e753ff.atlas",
+      "source": "raw/_embedded/uht-c4912a61afe9/suru_1000_buy_feature.atlas",
+      "sha256": "b7e753ffcd9ef0e52ba8406fcd677e5f76dd829f88c4bdff76611787bf508008",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_1000_buy_feature.png",
+      "source": "raw/_embedded/uht-c4912a61afe9/suru_1000_buy_feature.png",
+      "sha256": "7e2bdc3e7e851afa2293bf7caa6a36fd38a6346d573d24a81c6d9da2b5ada406",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

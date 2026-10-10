@@ -1,0 +1,176 @@
+{
+  "name": "volatility_high_paytable",
+  "duration": 1.333,
+  "timelines": {
+    "bones": 4,
+    "slots": 8
+  },
+  "data": {
+    "slots": {
+      "container": {
+        "attachment": [
+          {
+            "name": null,
+            "time": 0
+          }
+        ]
+      },
+      "container_holder": {
+        "attachment": [
+          {
+            "name": null,
+            "time": 0
+          }
+        ]
+      },
+      "icon_highvolatility": {
+        "color": [
+          {
+            "time": 0.5,
+            "color": "ffffff00"
+          },
+          {
+            "time": 0.6,
+            "color": "ffffffff"
+          }
+        ]
+      },
+      "icon_highvolatility_glow": {
+        "color": [
+          {
+            "time": 0.5,
+            "color": "ffffff00"
+          },
+          {
+            "time": 0.6,
+            "color": "ffffffff",
+            "curve": "stepped"
+          },
+          {
+            "time": 0.6667,
+            "color": "ffffffff"
+          },
+          {
+            "time": 0.8333,
+            "color": "ffffff00"
+          }
+        ]
+      },
+      "icon_highvolatility_off": {
+        "color": [
+          {
+            "time": 0.5,
+            "color": "ffffffff"
+          },
+          {
+            "time": 0.6,
+            "color": "ffffff00"
+          }
+        ]
+      },
+      "icon_highvolatility_off2": {
+        "color": [
+          {
+            "time": 0.5,
+            "color": "ffffffff"
+          },
+          {
+            "time": 0.6,
+            "color": "ffffff00"
+          }
+        ]
+      },
+      "icon_lowvolatility_off": {
+        "color": [
+          {
+            "time": 0.4333,
+            "color": "ffffffff"
+          },
+          {
+            "time": 0.8667,
+            "color": "ffffff00"
+          }
+        ]
+      },
+      "icon_midvolatility_off": {
+        "color": [
+          {
+            "time": 0.4667,
+            "color": "ffffffff"
+          },
+          {
+            "time": 0.9,
+            "color": "ffffff00"
+          }
+        ]
+      }
+    },
+    "bones": {
+      "bone_right": {
+        "translate": [
+          {
+            "time": 0.8
+          },
+          {
+            "time": 1.3333,
+            "x": 387.12
+          }
+        ]
+      },
+      "bone_left": {
+        "translate": [
+          {
+            "time": 0.8
+          },
+          {
+            "time": 1.3333,
+            "x": -389.33
+          }
+        ]
+      },
+      "high": {
+        "translate": [
+          {
+            "time": 0.8
+          },
+          {
+            "time": 0.9667,
+            "x": -232.45
+          }
+        ],
+        "scale": [
+          {
+            "time": 0.5,
+            "x": 1,
+            "y": 1
+          },
+          {
+            "time": 0.5667,
+            "x": 0.8,
+            "y": 0.8
+          },
+          {
+            "time": 0.6667,
+            "x": 1.03,
+            "y": 1.03
+          },
+          {
+            "time": 0.8333,
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      "text_holder": {
+        "translate": [
+          {
+            "x": -21.73,
+            "time": 0
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

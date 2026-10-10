@@ -1,0 +1,1534 @@
+{
+  "id": "animations/suru-1000-super-freegame-388f65e9",
+  "name": "suru_1000_super_freegame",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-613a10f9.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-613a10f9.atlas"
+  ],
+  "textures": [
+    "suru_1000_super_freegame.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_1000_super_freegame_ol",
+      "duration": 6,
+      "timelines": {
+        "bones": 2,
+        "slots": 23,
+        "deform": 1
+      }
+    },
+    {
+      "name": "suru_1000_super_freegame_ul",
+      "duration": 6,
+      "timelines": {
+        "bones": 2,
+        "slots": 42,
+        "deform": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "left_frame",
+    "fan_left",
+    "right_frame",
+    "fan_left2"
+  ],
+  "slots": [
+    "background_new",
+    "cloud_6_new",
+    "cloud_4",
+    "cloud_3",
+    "cloud_2_new",
+    "cloud_1",
+    "background_candy_2",
+    "chocolate_shadow",
+    "chocolate",
+    "choco_drop",
+    "background_candy_1",
+    "forground_new",
+    "forground_new2",
+    "left_frame_2",
+    "candy_17",
+    "candy_18",
+    "candy_19",
+    "candy_20",
+    "candy_21",
+    "candy_22",
+    "candy_23",
+    "candy_24",
+    "candy_25",
+    "candy_26",
+    "candy_27",
+    "candy_28",
+    "candy_29",
+    "candy_30",
+    "candy_31",
+    "candy_32",
+    "right_frame",
+    "jar_glass3",
+    "jar_glass4",
+    "rivets_s6",
+    "windowbutton",
+    "windowbutton3",
+    "windowbutton2",
+    "windowbutton4",
+    "window",
+    "window3",
+    "window2",
+    "window4",
+    "fan_fame_q",
+    "fan_fame_q2",
+    "fan_wings",
+    "fan_wings2",
+    "fan_fame",
+    "fan_fame2",
+    "jar_top_candy2",
+    "jar_top_sugar",
+    "jar_top_sugar2",
+    "cloud_10",
+    "cloud_11",
+    "fx_1_00010",
+    "fx_1_10",
+    "fx_4_00002",
+    "fx_4_2",
+    "fx_5_00010"
+  ],
+  "pieces": [
+    {
+      "region": "background_candy_1",
+      "file": "pieces/background-candy-1-8cd26670.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1409, 71",
+        "size": "120, 115",
+        "orig": "120, 118",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "background_candy_2",
+      "file": "pieces/background-candy-2-43d248bb.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2280, 0",
+        "size": "21, 30",
+        "orig": "21, 30",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "background_new",
+      "file": "pieces/background-new-05aaa1b4.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 597",
+        "size": "2500, 999",
+        "orig": "2500, 999",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_1",
+      "file": "pieces/candy-1-a75a41d0.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2502, 359",
+        "size": "46, 46",
+        "orig": "46, 46",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_10",
+      "file": "pieces/candy-10-db9e27a9.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2387, 189",
+        "size": "46, 42",
+        "orig": "46, 42",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_11",
+      "file": "pieces/candy-11-72564c24.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2502, 1094",
+        "size": "49, 40",
+        "orig": "49, 40",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_12",
+      "file": "pieces/candy-12-fc426974.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "652, 0",
+        "size": "36, 35",
+        "orig": "36, 35",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_13",
+      "file": "pieces/candy-13-1ecc8dbf.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "943, 6",
+        "size": "30, 29",
+        "orig": "30, 29",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_14",
+      "file": "pieces/candy-14-98efa199.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "764, 0",
+        "size": "34, 35",
+        "orig": "34, 35",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_15",
+      "file": "pieces/candy-15-220169f6.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2411, 147",
+        "size": "38, 38",
+        "orig": "38, 38",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_16",
+      "file": "pieces/candy-16-0f7de2b3.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2501, 189",
+        "size": "45, 25",
+        "orig": "45, 25",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_2",
+      "file": "pieces/candy-2-719f87fc.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2322, 97",
+        "size": "39, 40",
+        "orig": "39, 40",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_3",
+      "file": "pieces/candy-3-8cdb1c86.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2369, 138",
+        "size": "40, 39",
+        "orig": "40, 39",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_4",
+      "file": "pieces/candy-4-0ea70d7d.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2451, 147",
+        "size": "37, 38",
+        "orig": "37, 38",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_5",
+      "file": "pieces/candy-5-d408371d.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "910, 4",
+        "size": "31, 31",
+        "orig": "31, 31",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_6",
+      "file": "pieces/candy-6-be5a951b.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "842, 3",
+        "size": "32, 32",
+        "orig": "32, 32",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_7",
+      "file": "pieces/candy-7-ac12c7a1.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1369, 29",
+        "size": "38, 38",
+        "orig": "38, 38",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_8",
+      "file": "pieces/candy-8-0f0cf508.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "728, 0",
+        "size": "34, 35",
+        "orig": "34, 35",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_9",
+      "file": "pieces/candy-9-d12d9043.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "876, 3",
+        "size": "32, 32",
+        "orig": "32, 32",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "choco_drop",
+      "file": "pieces/choco-drop-76615e81.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "651, 58",
+        "size": "15, 54",
+        "orig": "15, 54",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "chocolate",
+      "file": "pieces/chocolate-21d54817.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1653, 93",
+        "size": "122, 93",
+        "orig": "122, 93",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "chocolate_shadow",
+      "file": "pieces/chocolate-shadow-73fb2dea.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1531, 86",
+        "size": "120, 100",
+        "orig": "121, 101",
+        "offset": "0, 1",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_1",
+      "file": "pieces/cloud-1-d8c769a5.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "207, 35",
+        "size": "183, 77",
+        "orig": "183, 77",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_10",
+      "file": "pieces/cloud-10-5473a2b7.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "668, 37",
+        "size": "337, 154",
+        "orig": "337, 154",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_11",
+      "file": "pieces/cloud-11-94b959c3.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1007, 74",
+        "size": "275, 117",
+        "orig": "275, 117",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_2_new",
+      "file": "pieces/cloud-2-new-dd0691e6.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "668, 193",
+        "size": "637, 149",
+        "orig": "637, 149",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_3",
+      "file": "pieces/cloud-3-494c5efa.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 114",
+        "size": "666, 228",
+        "orig": "679, 253",
+        "offset": "9, 19",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_4",
+      "file": "pieces/cloud-4-425e8a30.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "392, 53",
+        "size": "133, 59",
+        "orig": "144, 64",
+        "offset": "5, 4",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_6_new",
+      "file": "pieces/cloud-6-new-16a6ff2c.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1837, 220",
+        "size": "434, 122",
+        "orig": "434, 122",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fan_fame",
+      "file": "pieces/fan-fame-2dbf9e69.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2435, 187",
+        "size": "44, 44",
+        "orig": "44, 44",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fan_fame_q",
+      "file": "pieces/fan-fame-q-63ec821b.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2270, 164",
+        "size": "50, 52",
+        "orig": "50, 52",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fan_wings",
+      "file": "pieces/fan-wings-0d958cb1.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2364, 96",
+        "size": "40, 40",
+        "orig": "41, 40",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "forground_new",
+      "file": "pieces/forground-new-3e734e88.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 344",
+        "size": "2500, 251",
+        "orig": "2500, 261",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00010",
+      "file": "pieces/fx-1-00010-3fa17fe9.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2533, 345",
+        "size": "12, 18",
+        "orig": "212, 192",
+        "offset": "149, 139",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00012",
+      "file": "pieces/fx-1-00012-b4da93fa.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2312, 0",
+        "size": "21, 28",
+        "orig": "212, 192",
+        "offset": "138, 126",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00014",
+      "file": "pieces/fx-1-00014-407ecc3f.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "800, 3",
+        "size": "32, 40",
+        "orig": "212, 192",
+        "offset": "127, 113",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00016",
+      "file": "pieces/fx-1-00016-ec36d208.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "456, 7",
+        "size": "44, 68",
+        "orig": "212, 192",
+        "offset": "115, 85",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00018",
+      "file": "pieces/fx-1-00018-e8722917.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1202, 15",
+        "size": "57, 79",
+        "orig": "212, 192",
+        "offset": "102, 74",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00020",
+      "file": "pieces/fx-1-00020-1f7de36e.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1933, 13",
+        "size": "68, 81",
+        "orig": "212, 192",
+        "offset": "56, 47",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00022",
+      "file": "pieces/fx-1-00022-0de6b89a.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1849, 17",
+        "size": "82, 77",
+        "orig": "212, 192",
+        "offset": "56, 61",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00023",
+      "file": "pieces/fx-1-00023-a4cf15c9.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1777, 96",
+        "size": "90, 75",
+        "orig": "212, 192",
+        "offset": "66, 50",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00025",
+      "file": "pieces/fx-1-00025-da5d7109.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1854, 148",
+        "size": "107, 70",
+        "orig": "212, 192",
+        "offset": "56, 80",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00027",
+      "file": "pieces/fx-1-00027-2d46ed56.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1085, 9",
+        "size": "115, 63",
+        "orig": "212, 192",
+        "offset": "65, 92",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00029",
+      "file": "pieces/fx-1-00029-547dea26.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "527, 55",
+        "size": "122, 57",
+        "orig": "212, 192",
+        "offset": "75, 102",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00031",
+      "file": "pieces/fx-1-00031-6a07f444.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2501, 216",
+        "size": "126, 50",
+        "orig": "212, 192",
+        "offset": "0, 31",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00033",
+      "file": "pieces/fx-1-00033-6696ad54.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 1413",
+        "size": "114, 45",
+        "orig": "212, 192",
+        "offset": "0, 30",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00035",
+      "file": "pieces/fx-1-00035-e35bd7e1.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 1310",
+        "size": "101, 44",
+        "orig": "212, 192",
+        "offset": "0, 30",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00037",
+      "file": "pieces/fx-1-00037-58054de7.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 1221",
+        "size": "87, 44",
+        "orig": "212, 192",
+        "offset": "0, 30",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00038",
+      "file": "pieces/fx-1-00038-4264f86e.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 1012",
+        "size": "80, 45",
+        "orig": "212, 192",
+        "offset": "0, 30",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00040",
+      "file": "pieces/fx-1-00040-846cda6d.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 709",
+        "size": "65, 44",
+        "orig": "212, 192",
+        "offset": "0, 31",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00042",
+      "file": "pieces/fx-1-00042-5e2b7f97.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2298, 115",
+        "size": "47, 22",
+        "orig": "212, 192",
+        "offset": "4, 32",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00044",
+      "file": "pieces/fx-1-00044-3e96607f.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "32, 19",
+        "orig": "212, 192",
+        "offset": "176, 138",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00046",
+      "file": "pieces/fx-1-00046-6c07d669.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1849, 0",
+        "size": "19, 15",
+        "orig": "212, 192",
+        "offset": "189, 139",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00002",
+      "file": "pieces/fx-4-00002-551097a0.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "975, 7",
+        "size": "22, 28",
+        "orig": "123, 89",
+        "offset": "50, 30",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00004",
+      "file": "pieces/fx-4-00004-fd9306ef.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "690, 0",
+        "size": "36, 35",
+        "orig": "123, 89",
+        "offset": "49, 31",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00006",
+      "file": "pieces/fx-4-00006-8b3321b0.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2324, 138",
+        "size": "43, 39",
+        "orig": "123, 89",
+        "offset": "50, 27",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00008",
+      "file": "pieces/fx-4-00008-1dace826.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 407",
+        "size": "47, 42",
+        "orig": "123, 89",
+        "offset": "28, 23",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00010",
+      "file": "pieces/fx-4-00010-d211c215.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 515",
+        "size": "63, 41",
+        "orig": "123, 89",
+        "offset": "28, 24",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00012",
+      "file": "pieces/fx-4-00012-670c7535.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 645",
+        "size": "62, 44",
+        "orig": "123, 89",
+        "offset": "29, 22",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00014",
+      "file": "pieces/fx-4-00014-9db5acdd.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "392, 0",
+        "size": "62, 51",
+        "orig": "123, 89",
+        "offset": "32, 22",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00015",
+      "file": "pieces/fx-4-00015-b829f96f.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2324, 179",
+        "size": "61, 52",
+        "orig": "123, 89",
+        "offset": "32, 23",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00017",
+      "file": "pieces/fx-4-00017-e315a1bb.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "527, 0",
+        "size": "61, 53",
+        "orig": "123, 89",
+        "offset": "31, 24",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00019",
+      "file": "pieces/fx-4-00019-76849311.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2034, 96",
+        "size": "57, 52",
+        "orig": "123, 89",
+        "offset": "35, 12",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00021",
+      "file": "pieces/fx-4-00021-4033997b.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "590, 0",
+        "size": "60, 53",
+        "orig": "123, 89",
+        "offset": "31, 24",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00023",
+      "file": "pieces/fx-4-00023-6f56ddba.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 1529",
+        "size": "67, 49",
+        "orig": "123, 89",
+        "offset": "24, 11",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00025",
+      "file": "pieces/fx-4-00025-a848eed1.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 776",
+        "size": "73, 46",
+        "orig": "123, 89",
+        "offset": "18, 11",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00027",
+      "file": "pieces/fx-4-00027-db85d114.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 851",
+        "size": "76, 43",
+        "orig": "123, 89",
+        "offset": "13, 11",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00029",
+      "file": "pieces/fx-4-00029-dd7cd3f4.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2242, 88",
+        "size": "74, 54",
+        "orig": "123, 89",
+        "offset": "12, 11",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00030",
+      "file": "pieces/fx-4-00030-d817e80b.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1963, 96",
+        "size": "69, 57",
+        "orig": "123, 89",
+        "offset": "41, 21",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00032",
+      "file": "pieces/fx-4-00032-685309eb.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2280, 23",
+        "size": "57, 63",
+        "orig": "123, 89",
+        "offset": "54, 14",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00034",
+      "file": "pieces/fx-4-00034-9da91c94.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2502, 580",
+        "size": "43, 63",
+        "orig": "123, 89",
+        "offset": "68, 12",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00036",
+      "file": "pieces/fx-4-00036-63a4185f.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2064, 161",
+        "size": "100, 57",
+        "orig": "123, 89",
+        "offset": "11, 12",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00038",
+      "file": "pieces/fx-4-00038-08c5f31d.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1854, 96",
+        "size": "102, 50",
+        "orig": "123, 89",
+        "offset": "9, 12",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00040",
+      "file": "pieces/fx-4-00040-f08f1d20.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2166, 164",
+        "size": "102, 54",
+        "orig": "123, 89",
+        "offset": "9, 13",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00042",
+      "file": "pieces/fx-4-00042-005998ee.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1963, 155",
+        "size": "99, 63",
+        "orig": "123, 89",
+        "offset": "10, 13",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00044",
+      "file": "pieces/fx-4-00044-eadb67c6.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1779, 4",
+        "size": "90, 68",
+        "orig": "123, 89",
+        "offset": "20, 8",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00045",
+      "file": "pieces/fx-4-00045-92689796.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2003, 12",
+        "size": "82, 71",
+        "orig": "123, 89",
+        "offset": "26, 6",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00047",
+      "file": "pieces/fx-4-00047-08c20861.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2339, 68",
+        "size": "27, 21",
+        "orig": "123, 89",
+        "offset": "77, 4",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00049",
+      "file": "pieces/fx-4-00049-ad88585f.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1837, 197",
+        "size": "21, 15",
+        "orig": "123, 89",
+        "offset": "77, 4",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00051",
+      "file": "pieces/fx-4-00051-6c4751da.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2502, 344",
+        "size": "14, 13",
+        "orig": "123, 89",
+        "offset": "32, 72",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00010",
+      "file": "pieces/fx-5-00010-51479f80.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1521, 57",
+        "size": "8, 12",
+        "orig": "110, 96",
+        "offset": "0, 16",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00012",
+      "file": "pieces/fx-5-00012-f54cd9f9.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2481, 187",
+        "size": "18, 44",
+        "orig": "110, 96",
+        "offset": "0, 17",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00014",
+      "file": "pieces/fx-5-00014-1447185c.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "277, 5",
+        "size": "28, 67",
+        "orig": "110, 96",
+        "offset": "82, 11",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00015",
+      "file": "pieces/fx-5-00015-59614acf.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "207, 0",
+        "size": "33, 68",
+        "orig": "110, 96",
+        "offset": "77, 10",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00017",
+      "file": "pieces/fx-5-00017-71b9ca34.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1475, 0",
+        "size": "44, 69",
+        "orig": "110, 96",
+        "offset": "0, 18",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00019",
+      "file": "pieces/fx-5-00019-ca4d657a.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2154, 11",
+        "size": "54, 71",
+        "orig": "110, 96",
+        "offset": "0, 18",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00021",
+      "file": "pieces/fx-5-00021-732d586e.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1409, 0",
+        "size": "64, 69",
+        "orig": "110, 96",
+        "offset": "0, 20",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00023",
+      "file": "pieces/fx-5-00023-54973f83.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2210, 16",
+        "size": "68, 70",
+        "orig": "110, 96",
+        "offset": "7, 20",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00025",
+      "file": "pieces/fx-5-00025-f618666e.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2170, 89",
+        "size": "70, 73",
+        "orig": "110, 96",
+        "offset": "14, 18",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00027",
+      "file": "pieces/fx-5-00027-7c63bf1c.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1007, 0",
+        "size": "72, 76",
+        "orig": "110, 96",
+        "offset": "16, 5",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00029",
+      "file": "pieces/fx-5-00029-bbe7519d.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2088, 84",
+        "size": "75, 80",
+        "orig": "110, 96",
+        "offset": "6, 4",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00030",
+      "file": "pieces/fx-5-00030-02b20bba.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2076, 0",
+        "size": "76, 82",
+        "orig": "110, 96",
+        "offset": "33, 10",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00032",
+      "file": "pieces/fx-5-00032-81d17089.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1531, 0",
+        "size": "70, 84",
+        "orig": "110, 96",
+        "offset": "40, 7",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00034",
+      "file": "pieces/fx-5-00034-e734e9aa.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1603, 0",
+        "size": "63, 84",
+        "orig": "110, 96",
+        "offset": "47, 7",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00036",
+      "file": "pieces/fx-5-00036-8a2262cf.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1283, 12",
+        "size": "55, 84",
+        "orig": "110, 96",
+        "offset": "0, 6",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00038",
+      "file": "pieces/fx-5-00038-4c163480.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2502, 1136",
+        "size": "48, 83",
+        "orig": "110, 96",
+        "offset": "62, 6",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00040",
+      "file": "pieces/fx-5-00040-8b90a4eb.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2502, 929",
+        "size": "41, 81",
+        "orig": "110, 96",
+        "offset": "69, 6",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00042",
+      "file": "pieces/fx-5-00042-5fb16d0e.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "346, 3",
+        "size": "30, 44",
+        "orig": "110, 96",
+        "offset": "5, 10",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00044",
+      "file": "pieces/fx-5-00044-b789d3f6.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2518, 344",
+        "size": "13, 13",
+        "orig": "110, 96",
+        "offset": "81, 71",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00045",
+      "file": "pieces/fx-5-00045-c23ba41e.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2273, 220",
+        "size": "11, 12",
+        "orig": "110, 96",
+        "offset": "15, 13",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "jar_glass",
+      "file": "pieces/jar-glass-e74ea8e8.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "0, 21",
+        "size": "91, 205",
+        "orig": "91, 205",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "jar_top_candy",
+      "file": "pieces/jar-top-candy-0612db09.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1284, 69",
+        "size": "117, 123",
+        "orig": "119, 123",
+        "offset": "2, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "jar_top_sugar",
+      "file": "pieces/jar-top-sugar-b361fb24.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1668, 1",
+        "size": "109, 90",
+        "orig": "109, 90",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "left_frame",
+      "file": "pieces/left-frame-30fdb8c4.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2273, 233",
+        "size": "109, 226",
+        "orig": "116, 415",
+        "offset": "7, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "left_frame_1",
+      "file": "pieces/left-frame-1-717a238e.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1307, 188",
+        "size": "154, 528",
+        "orig": "154, 528",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "rivets_s",
+      "file": "pieces/rivets-s-1d76f6dd.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "34, 3",
+        "size": "16, 16",
+        "orig": "18, 17",
+        "offset": "1, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "window",
+      "file": "pieces/window-e40a7b67.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 456",
+        "size": "57, 34",
+        "orig": "57, 34",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "windowbutton",
+      "file": "pieces/windowbutton-b0042d8c.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1369, 0",
+        "size": "27, 28",
+        "orig": "27, 28",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-eda042d1f0b1/suru_1000_super_freegame.json",
+      "sha256": "388f65e94950b69152c4cc920315b010ee4dab3d02329af39b5253c575fb9687",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-613a10f9.atlas",
+      "source": "raw/_embedded/uht-eda042d1f0b1/suru_1000_super_freegame.atlas",
+      "sha256": "613a10f9f49ecee582f3bef1d99599e8ed1564cb60f33e09666919e674e81c9f",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_1000_super_freegame.png",
+      "source": "raw/_embedded/uht-eda042d1f0b1/suru_1000_super_freegame.png",
+      "sha256": "daf36fa315cd10514b0fba215c87173d7a1ccb071e86902b5775de76d61e4c08",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

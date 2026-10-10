@@ -1,0 +1,132 @@
+{
+  "id": "animations/dragonfly-79573afd",
+  "name": "dragonfly",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-6509db00.atlas",
+  "pma": true,
+  "atlases": [
+    "atlas-6509db00.atlas"
+  ],
+  "textures": [
+    "dragonfly.png"
+  ],
+  "animations": [
+    {
+      "name": "caught",
+      "duration": 0.28,
+      "timelines": {
+        "bones": 13
+      }
+    },
+    {
+      "name": "fly",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 13
+      }
+    },
+    {
+      "name": "land",
+      "duration": 0.46,
+      "timelines": {
+        "bones": 13
+      }
+    },
+    {
+      "name": "perch",
+      "duration": 2.4,
+      "timelines": {
+        "bones": 13
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "thorax",
+    "head",
+    "abdomen_base",
+    "abdomen_mid",
+    "abdomen_tip",
+    "legs",
+    "wing_lower_back",
+    "wing_lower_back_tip",
+    "wing_lower_front",
+    "wing_lower_front_tip",
+    "wing_upper_back",
+    "wing_upper_back_tip",
+    "wing_upper_front",
+    "wing_upper_front_tip"
+  ],
+  "slots": [
+    "legs",
+    "wing_lower_back",
+    "wing_lower_front",
+    "wing_upper_back",
+    "wing_upper_front",
+    "body"
+  ],
+  "pieces": [
+    {
+      "region": "body",
+      "file": "pieces/body-5851f3fd.png",
+      "page": "dragonfly.png",
+      "properties": {
+        "bounds": "619,17,588,169",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "legs",
+      "file": "pieces/legs-eb457365.png",
+      "page": "dragonfly.png",
+      "properties": {
+        "bounds": "2,159,417,446"
+      }
+    },
+    {
+      "region": "wing_back",
+      "file": "pieces/wing-back-21615cf1.png",
+      "page": "dragonfly.png",
+      "properties": {
+        "bounds": "2,2,341,155"
+      }
+    },
+    {
+      "region": "wing_front",
+      "file": "pieces/wing-front-2a7980ab.png",
+      "page": "dragonfly.png",
+      "properties": {
+        "bounds": "421,117,488,196",
+        "rotate": "90"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/dragonfly/dragonfly.json",
+      "sha256": "79573afd5e0b99cc526358e6906b62a4c841d9cbf519ffd43f6d2c5291e4cd33",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-6509db00.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/dragonfly/dragonfly.atlas",
+      "sha256": "6509db001c5319502427e58ba05be49744b5c6b80b6351cb03305a2af9c8255e",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "dragonfly.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/dragonfly/dragonfly.png",
+      "sha256": "be5dfd04472a3166086453b2c1823469c6df65bcfc46dfd9561c6f711015cbfe",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

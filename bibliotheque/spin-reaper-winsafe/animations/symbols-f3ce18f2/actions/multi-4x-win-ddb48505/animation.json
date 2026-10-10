@@ -1,0 +1,92 @@
+{
+  "name": "multi_4x_win",
+  "duration": 1.333,
+  "timelines": {
+    "bones": 1,
+    "slots": 2
+  },
+  "data": {
+    "slots": {
+      "multi_4x": {
+        "attachment": [
+          {
+            "name": "4x"
+          }
+        ]
+      },
+      "multi_4x_glow": {
+        "rgba": [
+          {
+            "color": "ffffff00"
+          },
+          {
+            "time": 0.2333,
+            "color": "ffffff82"
+          },
+          {
+            "time": 1.1667,
+            "color": "ffffff00"
+          }
+        ],
+        "attachment": [
+          {
+            "name": "4x"
+          }
+        ]
+      }
+    },
+    "bones": {
+      "multi": {
+        "scale": [
+          {
+            "curve": [
+              0.045,
+              1.035,
+              0.156,
+              1.148,
+              0.041,
+              1.034,
+              0.156,
+              1.148
+            ]
+          },
+          {
+            "time": 0.2333,
+            "x": 1.148,
+            "y": 1.148,
+            "curve": [
+              0.444,
+              1.148,
+              0.656,
+              1.164,
+              0.444,
+              1.148,
+              0.656,
+              1.164
+            ]
+          },
+          {
+            "time": 0.8667,
+            "x": 1.164,
+            "y": 1.164,
+            "curve": [
+              1.022,
+              1.164,
+              1.178,
+              1,
+              1.022,
+              1.164,
+              1.178,
+              1
+            ]
+          },
+          {
+            "time": 1.3333
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

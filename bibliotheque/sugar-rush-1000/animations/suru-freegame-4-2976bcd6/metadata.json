@@ -1,0 +1,87 @@
+{
+  "id": "animations/suru-freegame-4-2976bcd6",
+  "name": "suru_freegame_4",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-912d9b3f.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-912d9b3f.atlas"
+  ],
+  "textures": [
+    "suru_freegame_4.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_freegame",
+      "duration": 3,
+      "timelines": {
+        "bones": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "left_frame2",
+    "fan_left2"
+  ],
+  "slots": [
+    "left_frame2",
+    "jar_glass2"
+  ],
+  "pieces": [
+    {
+      "region": "frame_left_free",
+      "file": "pieces/frame-left-free-51b945f2.png",
+      "page": "suru_freegame_4.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "0, 57",
+        "size": "148, 520",
+        "orig": "148, 527",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "jar_glass_free",
+      "file": "pieces/jar-glass-free-eae17409.png",
+      "page": "suru_freegame_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "522, 0",
+        "size": "91, 205",
+        "orig": "91, 205",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-56850f72d64e/suru_freegame_4.json",
+      "sha256": "2976bcd6083f7f22344910fbbf0eb2b8461c9e55f308ca781df5e47eb0d3df2c",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-912d9b3f.atlas",
+      "source": "raw/_embedded/uht-56850f72d64e/suru_freegame_4.atlas",
+      "sha256": "912d9b3f72e81ae97ff53b0809c54f8db8015499de62691bfd64a6605ce95253",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_freegame_4.png",
+      "source": "raw/_embedded/uht-56850f72d64e/suru_freegame_4.png",
+      "sha256": "427530f8a85647ccc8b369af24b726607d10a320821be9fc3025c8a97578e056",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

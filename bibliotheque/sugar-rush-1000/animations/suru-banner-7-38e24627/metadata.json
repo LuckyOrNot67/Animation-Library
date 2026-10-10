@@ -1,0 +1,84 @@
+{
+  "id": "animations/suru-banner-7-38e24627",
+  "name": "suru_banner_7",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-08eae173.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-08eae173.atlas"
+  ],
+  "textures": [],
+  "animations": [
+    {
+      "name": "suru_banner_in",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 12,
+        "deform": 1
+      }
+    },
+    {
+      "name": "suru_banner_loop",
+      "duration": 1.9,
+      "timelines": {
+        "bones": 9,
+        "deform": 1
+      }
+    },
+    {
+      "name": "suru_banner_out",
+      "duration": 0.6,
+      "timelines": {
+        "bones": 12,
+        "deform": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "congratulation",
+    "you have win",
+    "123456789",
+    "credit",
+    "rec",
+    "rec1",
+    "ray",
+    "ray2",
+    "star1",
+    "star2",
+    "star01",
+    "star3"
+  ],
+  "slots": [
+    "high_light_2",
+    "high_light_3",
+    "high_light_4",
+    "high_light_5",
+    "high_light_6"
+  ],
+  "pieces": [],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-cebc363e853f/suru_banner_7.json",
+      "sha256": "38e24627d2c4023e53690814cdf80df545285f0b54c2a966bef2dbd923fafde6",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-08eae173.atlas",
+      "source": "raw/_embedded/uht-cebc363e853f/suru_banner_7.atlas",
+      "sha256": "08eae173075db771ac42e40659c8c73f6499343516537a214b665179b83a9043",
+      "kind": "spine-atlas"
+    }
+  ],
+  "warnings": [
+    "Texture absente : suru_banner_7.png"
+  ],
+  "complete": false
+}

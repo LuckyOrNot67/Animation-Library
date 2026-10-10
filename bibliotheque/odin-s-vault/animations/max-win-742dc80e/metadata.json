@@ -1,0 +1,1074 @@
+{
+  "id": "animations/max-win-742dc80e",
+  "name": "max_win",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-ba2d5d19.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-ba2d5d19.atlas"
+  ],
+  "textures": [
+    "max_win.webp",
+    "max_win_2.webp",
+    "max_win_3.webp"
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 54,
+        "slots": 35,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "in",
+      "duration": 1.1,
+      "timelines": {
+        "bones": 86,
+        "slots": 93,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "out",
+      "duration": 0.467,
+      "timelines": {
+        "bones": 72,
+        "slots": 84,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "main/spalsh",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 1,
+        "slots": 1
+      }
+    },
+    {
+      "name": "main/[OLD]in",
+      "duration": 1,
+      "timelines": {
+        "bones": 72,
+        "slots": 84,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "PopUp",
+    "numbers",
+    "Arrow",
+    "Ship",
+    "PopUp_Pivot",
+    "Rays",
+    "Glow",
+    "Ship2",
+    "Ship3",
+    "Titles",
+    "Ship4",
+    "Ship5",
+    "Ship9",
+    "Waves",
+    "VFX_Base",
+    "Shield",
+    "Shield3",
+    "numbers2",
+    "DropsL",
+    "DropsL3",
+    "DropsL4",
+    "DropsR",
+    "WavesR4",
+    "WavesR3",
+    "Stars_1",
+    "Count_Bone",
+    "Ship6",
+    "Rays2",
+    "ShieldM",
+    "WavesR2",
+    "WavesR",
+    "Stars1_base_0",
+    "DropsL5",
+    "DropsL6",
+    "DropsL7",
+    "PopUp_Pivot21",
+    "PopUp_Pivot22",
+    "Stars_2",
+    "Stars2",
+    "WavesR9",
+    "bone2",
+    "Shield4",
+    "Shield5",
+    "Shield6",
+    "Shield7",
+    "Shield8",
+    "Crist",
+    "Ship8",
+    "Ship10",
+    "Ship11",
+    "Rays5",
+    "Rays6",
+    "Rays7",
+    "Stars1_base_1",
+    "Stars3",
+    "Crist2",
+    "Waves2",
+    "Waves3",
+    "Waves4",
+    "Waves5",
+    "Waves6",
+    "Waves7",
+    "Waves8",
+    "WavesSymm",
+    "Waves10",
+    "Waves11",
+    "Waves12",
+    "Waves13",
+    "Waves14",
+    "Waves15",
+    "Waves16",
+    "Waves9",
+    "Waves17",
+    "Waves18",
+    "Waves19",
+    "Waves20",
+    "Waves21",
+    "DropsL8",
+    "DropsL9",
+    "WavesR10",
+    "WavesR11",
+    "WavesR12",
+    "splash",
+    "Lightning_all",
+    "Lightning1",
+    "Start",
+    "End",
+    "Middle",
+    "Lightning2",
+    "Start2",
+    "End2",
+    "Middle2",
+    "Lightning3",
+    "Start3",
+    "End3",
+    "Middle3",
+    "Lightning4",
+    "Start4",
+    "End4",
+    "Middle4"
+  ],
+  "slots": [
+    "bg",
+    "bg_mask",
+    "max_win_effect_orange_2",
+    "max_win_effect_orange_4",
+    "max_win_effect_orange_1",
+    "max_win_effect_orange_5",
+    "max_win_effect_orange_3",
+    "max_win_particles_4",
+    "max_win_particles_6",
+    "max_win_particles_2",
+    "max_win_particles_5",
+    "glow_ship_max_win",
+    "base",
+    "text_win_shadow",
+    "text_max_shadow",
+    "WingL",
+    "WingL2",
+    "CristR",
+    "CristR2",
+    "text_on_wings_r_glow copy",
+    "text_on_wings_l_glow copy",
+    "CristR3",
+    "CristR4",
+    "frame",
+    "head",
+    "ship",
+    "ship_letters_l_glow",
+    "ship_letters_r_glow",
+    "crystals_background_r",
+    "crystals_background_r2",
+    "head_r",
+    "head_r2",
+    "ShipPR1",
+    "ShipPR2",
+    "shield_center_decor",
+    "drop_l_7",
+    "drop_l_6",
+    "drop_l_5",
+    "drop_l_4",
+    "drop_l_3",
+    "drop_l_2",
+    "drop_l_1",
+    "drop_r_8",
+    "drop_r_7",
+    "drop_r_6",
+    "drop_r_5",
+    "drop_r_4",
+    "drop_r_3",
+    "drop_r_2",
+    "drop_r_1",
+    "ShieldL2",
+    "ShieldL1",
+    "ShieldR2",
+    "ShieldR1",
+    "ShieldM",
+    "text_win",
+    "shield_center_arrow_4",
+    "shield_center_arrow_3",
+    "shield_center_arrow_2",
+    "shield_center_arrow_1",
+    "text_max",
+    "waves-1",
+    "waves-6",
+    "waves-2",
+    "waves-7",
+    "waves-3",
+    "waves-5",
+    "waves-4",
+    "shield_l_2_arrow_2",
+    "shield_l_2_arrow_1",
+    "shield_l_1_arrow_2",
+    "shield_l_1_arrow_1",
+    "shield_r_2_arrow_2",
+    "shield_r_2_arrow_1",
+    "shield_r_1_arrow_2",
+    "shield_r_1_arrow_1",
+    "red_crystal_r copy",
+    "red_crystal_l",
+    "Color1",
+    "Color2",
+    "glow_arrow_under_numbers",
+    "spot_alpha3",
+    "numbers",
+    "arrow_under_numbers",
+    "Fire_01",
+    "Fire_02",
+    "splash",
+    "Lightning__00000",
+    "spot_alpha",
+    "Lightning__00001",
+    "spot_alpha2",
+    "Lightning__00002",
+    "spot_alpha4",
+    "Lightning__00003",
+    "spot_alpha5"
+  ],
+  "pieces": [
+    {
+      "region": "Color1",
+      "file": "pieces/color1-691a6122.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1349,1330,607,173"
+      }
+    },
+    {
+      "region": "Color2",
+      "file": "pieces/color2-50d608ff.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1432,1505,607,104"
+      }
+    },
+    {
+      "region": "CristR",
+      "file": "pieces/cristr-e38689bf.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "2,306,438,312",
+        "offsets": "0,3,438,315"
+      }
+    },
+    {
+      "region": "Fire_01",
+      "file": "pieces/fire-01-8800f9b2.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1545,1615,122,134",
+        "offsets": "171,206,500,500",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Fire_02",
+      "file": "pieces/fire-02-ca8bc637.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1681,1612,122,134",
+        "offsets": "171,206,500,500",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Fire_03",
+      "file": "pieces/fire-03-853d2f07.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1817,1611,122,134",
+        "offsets": "171,206,500,500",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Fire_04",
+      "file": "pieces/fire-04-26940c0b.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "2,1589,122,134",
+        "offsets": "171,206,500,500",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Fire_05",
+      "file": "pieces/fire-05-ed76192a.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "138,1587,122,134",
+        "offsets": "171,206,500,500",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Lightning__00000",
+      "file": "pieces/lightning-00000-550b6292.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "2,1234,432,174"
+      }
+    },
+    {
+      "region": "Lightning__00001",
+      "file": "pieces/lightning-00001-1f58e0a3.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "436,1204,432,174"
+      }
+    },
+    {
+      "region": "Lightning__00002",
+      "file": "pieces/lightning-00002-d8364346.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "2,1058,432,174"
+      }
+    },
+    {
+      "region": "Lightning__00003",
+      "file": "pieces/lightning-00003-6a3599fd.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "436,1028,432,174"
+      }
+    },
+    {
+      "region": "Lightning__00004",
+      "file": "pieces/lightning-00004-aab5b59c.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "870,994,432,174"
+      }
+    },
+    {
+      "region": "Lightning__00005",
+      "file": "pieces/lightning-00005-ea4b8e19.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1304,994,432,174"
+      }
+    },
+    {
+      "region": "Lightning__00006",
+      "file": "pieces/lightning-00006-abf2b8fc.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "2,882,432,174"
+      }
+    },
+    {
+      "region": "Lightning__00007",
+      "file": "pieces/lightning-00007-1ced10ca.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "436,852,432,174"
+      }
+    },
+    {
+      "region": "Lightning__00008",
+      "file": "pieces/lightning-00008-fc4c4d2e.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "870,818,432,174"
+      }
+    },
+    {
+      "region": "ShieldM",
+      "file": "pieces/shieldm-f5eb7fe3.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1152,1344,183,195",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ShieldR1",
+      "file": "pieces/shieldr1-df8aa33c.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1068,1530,131,137",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ShieldR2",
+      "file": "pieces/shieldr2-3510a5b0.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "2,1448,137,143",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ShipPR1",
+      "file": "pieces/shippr1-16898bfd.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1222,1654,97,208",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "WingL",
+      "file": "pieces/wingl-d6394e22.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1304,789,362,203"
+      }
+    },
+    {
+      "region": "arrow_under_numbers",
+      "file": "pieces/arrow-under-numbers-4438a408.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "372,1756,540,53"
+      }
+    },
+    {
+      "region": "base",
+      "file": "pieces/base-bd8ca093.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "627,525,468,291"
+      }
+    },
+    {
+      "region": "crystals_background_r",
+      "file": "pieces/crystals-background-r-ac456cf5.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "476,1679,75,125",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_l_1",
+      "file": "pieces/drop-l-1-0d50e9e5.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "169,1789,20,31",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_l_2",
+      "file": "pieces/drop-l-2-3b7aa988.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "202,1789,21,20"
+      }
+    },
+    {
+      "region": "drop_l_3",
+      "file": "pieces/drop-l-3-3a8d1005.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "248,1788,22,21"
+      }
+    },
+    {
+      "region": "drop_l_4",
+      "file": "pieces/drop-l-4-b70f3cc9.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "68,1791,18,18"
+      }
+    },
+    {
+      "region": "drop_l_5",
+      "file": "pieces/drop-l-5-5e4d826a.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "272,1788,21,22",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_l_6",
+      "file": "pieces/drop-l-6-a06e7373.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "25,1794,21,15"
+      }
+    },
+    {
+      "region": "drop_l_7",
+      "file": "pieces/drop-l-7-019ca354.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "88,1791,18,22",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_r_1",
+      "file": "pieces/drop-r-1-fac76a3f.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "136,1790,19,31",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_r_2",
+      "file": "pieces/drop-r-2-809ce892.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "225,1789,20,21",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_r_3",
+      "file": "pieces/drop-r-3-118a4c6b.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "296,1788,23,21"
+      }
+    },
+    {
+      "region": "drop_r_4",
+      "file": "pieces/drop-r-4-f9efec48.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "48,1792,18,17"
+      }
+    },
+    {
+      "region": "drop_r_5",
+      "file": "pieces/drop-r-5-f3ad7a8d.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "321,1788,21,23",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_r_6",
+      "file": "pieces/drop-r-6-afd4711e.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "2,1796,21,13"
+      }
+    },
+    {
+      "region": "drop_r_7",
+      "file": "pieces/drop-r-7-e8d2cc67.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "112,1791,18,22",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_r_8",
+      "file": "pieces/drop-r-8-6ded975c.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "346,1787,24,22"
+      }
+    },
+    {
+      "region": "glow_arrow_under_numbers",
+      "file": "pieces/glow-arrow-under-numbers-4dba5e75.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "274,1569,590,103"
+      }
+    },
+    {
+      "region": "glow_ship_max_win",
+      "file": "pieces/glow-ship-max-win-e230edfc.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "442,157,423,366",
+        "offsets": "1,0,425,366"
+      }
+    },
+    {
+      "region": "head",
+      "file": "pieces/head-2c293bc4.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1668,725,205,343",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "head_r",
+      "file": "pieces/head-r-6b3501af.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1738,932,181,298",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "max_win_particles_2",
+      "file": "pieces/max-win-particles-2-23445457.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "867,70,514,415",
+        "offsets": "0,399,514,814"
+      }
+    },
+    {
+      "region": "max_win_particles_4",
+      "file": "pieces/max-win-particles-4-3438274e.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1383,2,542,410",
+        "offsets": "0,317,542,727"
+      }
+    },
+    {
+      "region": "red_crystal_l",
+      "file": "pieces/red-crystal-l-82f70bde.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1466,1744,65,68",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "red_crystal_r copy",
+      "file": "pieces/red-crystal-r-copy-f4257b12.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1536,1744,65,68",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "shield_center_arrow_1",
+      "file": "pieces/shield-center-arrow-1-cf0bda94.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1691,1738,71,81",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "shield_center_arrow_2",
+      "file": "pieces/shield-center-arrow-2-e1170470.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1029,1669,82,88",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "shield_center_arrow_3",
+      "file": "pieces/shield-center-arrow-3-08f3a456.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "248,1711,75,88",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "shield_center_arrow_4",
+      "file": "pieces/shield-center-arrow-4-270826d2.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1774,1736,73,88",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "shield_center_decor",
+      "file": "pieces/shield-center-decor-53ce7a05.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "716,1380,241,163"
+      }
+    },
+    {
+      "region": "shield_l_1_arrow_1",
+      "file": "pieces/shield-l-1-arrow-1-a9525e4f.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "84,1713,75,80",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "shield_l_1_arrow_2",
+      "file": "pieces/shield-l-1-arrow-2-25e39982.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "843,1674,91,77"
+      }
+    },
+    {
+      "region": "shield_l_2_arrow_1",
+      "file": "pieces/shield-l-2-arrow-1-a7e0b777.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "603,1679,118,75"
+      }
+    },
+    {
+      "region": "shield_l_2_arrow_2",
+      "file": "pieces/shield-l-2-arrow-2-a119a87a.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1864,1735,137,74"
+      }
+    },
+    {
+      "region": "shield_r_1_arrow_1",
+      "file": "pieces/shield-r-1-arrow-1-ae12a213.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "166,1712,75,80",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "shield_r_1_arrow_2",
+      "file": "pieces/shield-r-1-arrow-2-d64d39d4.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "936,1674,91,77"
+      }
+    },
+    {
+      "region": "shield_r_2_arrow_1",
+      "file": "pieces/shield-r-2-arrow-1-85259451.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "723,1679,118,75"
+      }
+    },
+    {
+      "region": "shield_r_2_arrow_2",
+      "file": "pieces/shield-r-2-arrow-2-357cb0be.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "338,1680,136,74"
+      }
+    },
+    {
+      "region": "ship",
+      "file": "pieces/ship-86161c40.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "2,620,623,230"
+      }
+    },
+    {
+      "region": "ship_letters_l_glow",
+      "file": "pieces/ship-letters-l-glow-1674d808.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1606,1739,83,70"
+      }
+    },
+    {
+      "region": "ship_letters_r_glow",
+      "file": "pieces/ship-letters-r-glow-b5742c35.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "2,1715,80,74"
+      }
+    },
+    {
+      "region": "splash_seq/splash_00",
+      "file": "pieces/splash-seq-splash-00-b9797b55.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1788,1115,213,213",
+        "offsets": "267,271,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_01",
+      "file": "pieces/splash-seq-splash-01-49ef6723.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1399,414,312,309",
+        "offsets": "216,225,750,750"
+      }
+    },
+    {
+      "region": "spot_alpha",
+      "file": "pieces/spot-alpha-70d38502.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1097,487,300,300"
+      }
+    },
+    {
+      "region": "text_max",
+      "file": "pieces/text-max-32c8c4db.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "415,1410,299,157"
+      }
+    },
+    {
+      "region": "text_max_shadow",
+      "file": "pieces/text-max-shadow-914d3a4e.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1207,1529,223,123"
+      }
+    },
+    {
+      "region": "text_on_wings_l_glow copy",
+      "file": "pieces/text-on-wings-l-glow-copy-f2e9d4a4.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "914,1753,274,56"
+      }
+    },
+    {
+      "region": "text_on_wings_r_glow copy",
+      "file": "pieces/text-on-wings-r-glow-copy-0b70138f.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1190,1753,274,56"
+      }
+    },
+    {
+      "region": "text_win",
+      "file": "pieces/text-win-659b9891.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "147,1412,266,155"
+      }
+    },
+    {
+      "region": "text_win_shadow",
+      "file": "pieces/text-win-shadow-a24a0316.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "866,1545,200,122"
+      }
+    },
+    {
+      "region": "waves-1",
+      "file": "pieces/waves-1-6e296ecb.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1432,1637,105,111",
+        "offsets": "922,57,1027,209",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "waves-2",
+      "file": "pieces/waves-2-7f99ccc3.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "1119,1663,101,88",
+        "offsets": "741,68,1027,209"
+      }
+    },
+    {
+      "region": "waves-3",
+      "file": "pieces/waves-3-a1856e22.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "959,1365,191,163",
+        "offsets": "772,46,1027,209"
+      }
+    },
+    {
+      "region": "waves-4",
+      "file": "pieces/waves-4-4e4d4f92.png",
+      "page": "max_win.webp",
+      "properties": {
+        "bounds": "870,1170,916,158",
+        "offsets": "55,0,1027,209"
+      }
+    },
+    {
+      "region": "frame",
+      "file": "pieces/frame-973ed382.png",
+      "page": "max_win_2.webp",
+      "properties": {
+        "bounds": "932,1207,828,481"
+      }
+    },
+    {
+      "region": "max_win_effect_orange_1",
+      "file": "pieces/max-win-effect-orange-1-7b55cc8b.png",
+      "page": "max_win_2.webp",
+      "properties": {
+        "bounds": "2,696,928,992",
+        "offsets": "0,0,935,992"
+      }
+    },
+    {
+      "region": "splash_seq/splash_04",
+      "file": "pieces/splash-seq-splash-04-ba862c67.png",
+      "page": "max_win_2.webp",
+      "properties": {
+        "bounds": "2,2,707,692",
+        "offsets": "17,30,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_05",
+      "file": "pieces/splash-seq-splash-05-242c538b.png",
+      "page": "max_win_2.webp",
+      "properties": {
+        "bounds": "711,2,705,692",
+        "offsets": "19,30,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_08",
+      "file": "pieces/splash-seq-splash-08-ae658cf5.png",
+      "page": "max_win_2.webp",
+      "properties": {
+        "bounds": "932,704,547,501",
+        "offsets": "81,128,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_10",
+      "file": "pieces/splash-seq-splash-10-a565611d.png",
+      "page": "max_win_2.webp",
+      "properties": {
+        "bounds": "1418,102,600,548",
+        "offsets": "53,102,750,750",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "max_win_effect_orange_2",
+      "file": "pieces/max-win-effect-orange-2-84852b17.png",
+      "page": "max_win_3.webp",
+      "properties": {
+        "bounds": "693,527,813,656",
+        "offsets": "0,0,814,661",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "splash_seq/splash_02",
+      "file": "pieces/splash-seq-splash-02-f2dae6ae.png",
+      "page": "max_win_3.webp",
+      "properties": {
+        "bounds": "1351,160,535,524",
+        "offsets": "101,115,750,750",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "splash_seq/splash_03",
+      "file": "pieces/splash-seq-splash-03-fb772a10.png",
+      "page": "max_win_3.webp",
+      "properties": {
+        "bounds": "2,8,653,639",
+        "offsets": "43,57,750,750",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "splash_seq/splash_06",
+      "file": "pieces/splash-seq-splash-06-4b0681d2.png",
+      "page": "max_win_3.webp",
+      "properties": {
+        "bounds": "2,663,689,677",
+        "offsets": "27,38,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_07",
+      "file": "pieces/splash-seq-splash-07-c9be2ad5.png",
+      "page": "max_win_3.webp",
+      "properties": {
+        "bounds": "1351,697,643,634",
+        "offsets": "50,59,750,750",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "splash_seq/splash_09",
+      "file": "pieces/splash-seq-splash-09-9cfce0b0.png",
+      "page": "max_win_3.webp",
+      "properties": {
+        "bounds": "643,2,571,523",
+        "offsets": "69,116,750,750"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/max_win.json",
+      "sha256": "742dc80e0f260e2f518853b2f3e722ce956038d9c146bcc8f9d962840dc021bb",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-ba2d5d19.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/max_win.atlas",
+      "sha256": "ba2d5d1987a667de1f1a756f9c434b553a9f8b835a660d97d84cc131cdcadaad",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "max_win.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/max_win.webp",
+      "sha256": "efee27a40bf88c84faaca5c18264c3a808b3ecbad334d0c9e7ce79a0c9fe9902",
+      "kind": "image"
+    },
+    {
+      "file": "max_win_2.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/max_win_2.webp",
+      "sha256": "8982a2817b3fe9c4b33975008bb4ab10dfede32ae6b905efaa50c8cfbc7246ba",
+      "kind": "image"
+    },
+    {
+      "file": "max_win_3.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/max_win_3.webp",
+      "sha256": "b32ce4600d704a31711342f4208291e6bd20561b869850794946d1267807c7d7",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

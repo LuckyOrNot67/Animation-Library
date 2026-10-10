@@ -1,0 +1,725 @@
+{
+  "id": "animations/squid-d1eeb085",
+  "name": "squid",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-9aedab54.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-9aedab54.atlas"
+  ],
+  "textures": [
+    "squid.png"
+  ],
+  "animations": [
+    {
+      "name": "anticipation",
+      "duration": 2.333,
+      "timelines": {
+        "bones": 36,
+        "slots": 4
+      }
+    },
+    {
+      "name": "anticipation_idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 36,
+        "slots": 4
+      }
+    },
+    {
+      "name": "attack_1",
+      "duration": 1.233,
+      "timelines": {
+        "bones": 39,
+        "slots": 8
+      }
+    },
+    {
+      "name": "attack_2",
+      "duration": 1.233,
+      "timelines": {
+        "bones": 39,
+        "slots": 7
+      }
+    },
+    {
+      "name": "hit",
+      "duration": 2.5,
+      "timelines": {
+        "bones": 41,
+        "slots": 21,
+        "drawOrder": 6
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 17
+      }
+    },
+    {
+      "name": "idle_eyes",
+      "duration": 12,
+      "timelines": {
+        "bones": 2,
+        "slots": 0
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "main_squid",
+    "squid_base",
+    "squid_base2",
+    "squid_base3",
+    "squid_base4",
+    "squid_base5",
+    "squid_base6",
+    "squid_base7",
+    "squid_base8",
+    "squid_base9",
+    "squid_base10",
+    "squid_base11",
+    "squid_base12",
+    "squid_base13",
+    "squid_head",
+    "squid_base15",
+    "squid_base16",
+    "squid_base17",
+    "squid_base18",
+    "squid_bone",
+    "squid_bone2",
+    "squid_base19",
+    "squid_base20",
+    "squid_base21",
+    "squid_base22",
+    "squid_base23",
+    "squid_base24",
+    "squid_base25",
+    "squid_base26",
+    "squid_base27",
+    "squid_base28",
+    "squid_base29",
+    "squid_base30",
+    "pupil_r",
+    "pupil_l",
+    "squid_bone3",
+    "bone4",
+    "squid_bone5",
+    "bone6",
+    "pupil_l2",
+    "pupil_r2",
+    "squid_head2",
+    "squid_head3",
+    "squid_base31",
+    "squid_base32",
+    "Explosion",
+    "kolo",
+    "kolo_main",
+    "cartoon_star",
+    "cartoon_star2",
+    "cartoon_star3",
+    "cartoon_star4",
+    "cartoon_star5",
+    "cartoon_star6",
+    "cartoon_star7",
+    "cartoon_star8",
+    "cartoon_star9",
+    "cartoon_star10",
+    "cartoon_star11",
+    "cartoon_star12",
+    "kolo2",
+    "kolo_main2",
+    "cartoon_star13",
+    "cartoon_star14",
+    "cartoon_star15",
+    "cartoon_star16",
+    "cartoon_star17",
+    "cartoon_star18",
+    "cartoon_star19",
+    "cartoon_star20",
+    "cartoon_star21",
+    "cartoon_star22",
+    "cartoon_star23",
+    "cartoon_star24",
+    "fx",
+    "fx2",
+    "fx3"
+  ],
+  "slots": [
+    "room_background",
+    "photo_2026-09-20_00-57-45",
+    "board_empty",
+    "circle2_pma",
+    "circle2_pma3",
+    "chair",
+    "squid",
+    "pupil_l",
+    "pupil_r",
+    "fx3",
+    "squid1",
+    "squid3",
+    "squid2",
+    "squideye_r_d",
+    "squideye_r_u",
+    "squideye_l_d",
+    "squideye_l_u",
+    "Explosion",
+    "circle2_pma2",
+    "circle2_pma4",
+    "cartoon_star",
+    "cartoon_star7",
+    "cartoon_star2",
+    "cartoon_star8",
+    "cartoon_star3",
+    "cartoon_star9",
+    "cartoon_star6",
+    "cartoon_star12",
+    "cartoon_star4",
+    "cartoon_star10",
+    "cartoon_star5",
+    "cartoon_star11",
+    "fx",
+    "fx2"
+  ],
+  "pieces": [
+    {
+      "region": "Explosion",
+      "file": "pieces/explosion-d4c5a1c1.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "783,1605,450,437"
+      }
+    },
+    {
+      "region": "cartoon_star",
+      "file": "pieces/cartoon-star-f8cb040e.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1056,565,43,41"
+      }
+    },
+    {
+      "region": "chair",
+      "file": "pieces/chair-835eca5f.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "389,1521,392,521",
+        "offsets": "2,2,396,524"
+      }
+    },
+    {
+      "region": "circle2_pma",
+      "file": "pieces/circle2-pma-192f16dd.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1004,126,96,96"
+      }
+    },
+    {
+      "region": "fx/fx_0000",
+      "file": "pieces/fx-fx-0000-4ad61320.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "93,555,702,119",
+        "offsets": "13,84,803,278",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx/fx_0001",
+      "file": "pieces/fx-fx-0001-15b87d36.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1235,1642,729,88",
+        "offsets": "12,92,803,278"
+      }
+    },
+    {
+      "region": "fx/fx_0002",
+      "file": "pieces/fx-fx-0002-77acc372.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "0,493,764,91",
+        "offsets": "10,92,803,278",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx/fx_0003",
+      "file": "pieces/fx-fx-0003-3195923a.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1235,1535,676,105",
+        "offsets": "14,75,803,278"
+      }
+    },
+    {
+      "region": "fx/fx_0004",
+      "file": "pieces/fx-fx-0004-22b9bbdb.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "420,851,668,99",
+        "offsets": "16,79,803,278",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx/fx_0005",
+      "file": "pieces/fx-fx-0005-26f24c72.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "321,561,696,97",
+        "offsets": "11,83,803,278",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx/fx_0006",
+      "file": "pieces/fx-fx-0006-a5fa35c2.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1235,1944,725,98",
+        "offsets": "12,87,803,278"
+      }
+    },
+    {
+      "region": "fx/fx_0007",
+      "file": "pieces/fx-fx-0007-f4985b2e.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "214,562,695,105",
+        "offsets": "13,95,803,278",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx/fx_0008",
+      "file": "pieces/fx-fx-0008-589f83cb.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1235,1732,712,105",
+        "offsets": "13,92,803,278"
+      }
+    },
+    {
+      "region": "fx/fx_0009",
+      "file": "pieces/fx-fx-0009-f2009b43.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1235,1839,716,103",
+        "offsets": "15,92,803,278"
+      }
+    },
+    {
+      "region": "fx2/fx2_0000",
+      "file": "pieces/fx2-fx2-0000-5f9d3516.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "0,2,182,221",
+        "offsets": "69,104,525,375",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx2/fx2_0001",
+      "file": "pieces/fx2-fx2-0001-4fbba121.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1796,338,251,252",
+        "offsets": "55,87,525,375",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx2/fx2_0002",
+      "file": "pieces/fx2-fx2-0002-ee4890a3.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1190,8,295,288",
+        "offsets": "52,54,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0003",
+      "file": "pieces/fx2-fx2-0003-557cef7b.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "747,526,322,307",
+        "offsets": "51,40,525,375",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx2/fx2_0004",
+      "file": "pieces/fx2-fx2-0004-3c57defb.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "868,945,337,312",
+        "offsets": "52,37,525,375",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx2/fx2_0005",
+      "file": "pieces/fx2-fx2-0005-fb047b27.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "521,850,345,316",
+        "offsets": "52,35,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0006",
+      "file": "pieces/fx2-fx2-0006-34a8437e.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1546,1218,349,315",
+        "offsets": "51,36,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0007",
+      "file": "pieces/fx2-fx2-0007-f6a17c3c.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1194,1218,350,315",
+        "offsets": "51,36,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0008",
+      "file": "pieces/fx2-fx2-0008-9638f84e.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "842,1284,350,319",
+        "offsets": "51,33,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0009",
+      "file": "pieces/fx2-fx2-0009-47de4ad7.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "521,1168,351,319",
+        "offsets": "51,33,525,375",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx2/fx2_0010",
+      "file": "pieces/fx2-fx2-0010-675e1276.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "420,528,325,320",
+        "offsets": "77,33,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0011",
+      "file": "pieces/fx2-fx2-0011-9167394d.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1511,896,326,320",
+        "offsets": "77,33,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0012",
+      "file": "pieces/fx2-fx2-0012-9ab35e6d.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1182,914,327,302",
+        "offsets": "76,48,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0013",
+      "file": "pieces/fx2-fx2-0013-8e812497.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1667,591,303,303",
+        "offsets": "76,48,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0014",
+      "file": "pieces/fx2-fx2-0014-16d0aab9.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1361,597,304,297",
+        "offsets": "75,47,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0015",
+      "file": "pieces/fx2-fx2-0015-37dde173.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1190,298,297,297",
+        "offsets": "75,47,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0016",
+      "file": "pieces/fx2-fx2-0016-6d914558.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "890,224,298,300",
+        "offsets": "74,45,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0017",
+      "file": "pieces/fx2-fx2-0017-e10a8297.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "587,224,301,300",
+        "offsets": "74,45,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0018",
+      "file": "pieces/fx2-fx2-0018-78e9ade6.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "283,222,302,304",
+        "offsets": "73,43,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0019",
+      "file": "pieces/fx2-fx2-0019-7bde5541.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1056,608,303,304",
+        "offsets": "73,43,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0020",
+      "file": "pieces/fx2-fx2-0020-c1f6d656.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "0,186,281,305",
+        "offsets": "95,42,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0021",
+      "file": "pieces/fx2-fx2-0021-a337af2f.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1489,307,282,305",
+        "offsets": "94,42,525,375",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx2/fx2_0022",
+      "file": "pieces/fx2-fx2-0022-5795a3db.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "283,9,282,211",
+        "offsets": "94,98,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0023",
+      "file": "pieces/fx2-fx2-0023-79bd2ab9.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1796,125,235,211",
+        "offsets": "97,98,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0024",
+      "file": "pieces/fx2-fx2-0024-b15f3e2d.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "567,8,216,212",
+        "offsets": "116,97,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0025",
+      "file": "pieces/fx2-fx2-0025-e1dfe58f.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "785,10,217,212",
+        "offsets": "116,97,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0026",
+      "file": "pieces/fx2-fx2-0026-e1854a6d.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1487,0,217,150",
+        "offsets": "116,116,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0027",
+      "file": "pieces/fx2-fx2-0027-57ce8945.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1232,1602,1,1"
+      }
+    },
+    {
+      "region": "fx2/fx2_0028",
+      "file": "pieces/fx2-fx2-0028-cde2730f.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1232,1602,1,1"
+      }
+    },
+    {
+      "region": "fx2/fx2_0029",
+      "file": "pieces/fx2-fx2-0029-e02293d3.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1232,1602,1,1"
+      }
+    },
+    {
+      "region": "fx2/fx2_0030",
+      "file": "pieces/fx2-fx2-0030-b99c9457.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1232,1602,1,1"
+      }
+    },
+    {
+      "region": "fx2/fx2_0031",
+      "file": "pieces/fx2-fx2-0031-54b8cc58.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1232,1602,1,1"
+      }
+    },
+    {
+      "region": "pupil_l",
+      "file": "pieces/pupil-l-27aea5c5.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1194,1535,18,37",
+        "offsets": "0,0,19,38",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pupil_r",
+      "file": "pieces/pupil-r-fbcff642.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1194,1535,18,37",
+        "offsets": "0,0,19,38",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "squid",
+      "file": "pieces/squid-9270393e.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "0,1259,387,783",
+        "offsets": "56,0,443,783"
+      }
+    },
+    {
+      "region": "squid1",
+      "file": "pieces/squid1-2633d279.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1839,985,153,231",
+        "offsets": "0,2,153,233"
+      }
+    },
+    {
+      "region": "squid12",
+      "file": "pieces/squid12-47a0ca69.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1489,152,153,231",
+        "offsets": "0,2,153,233",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "squid2",
+      "file": "pieces/squid2-d578d2ca.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1962,1990,70,52",
+        "offsets": "0,0,72,53"
+      }
+    },
+    {
+      "region": "squideye_l_d",
+      "file": "pieces/squideye-l-d-e4b431a2.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "868,902,64,41"
+      }
+    },
+    {
+      "region": "squideye_l_u",
+      "file": "pieces/squideye-l-u-fea97944.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "783,1540,63,57",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "squideye_r_d",
+      "file": "pieces/squideye-r-d-f0fa225f.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1194,1555,48,36",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "squideye_r_u",
+      "file": "pieces/squideye-r-u-1c602de9.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "93,498,48,55"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/squid/squid.json",
+      "sha256": "d1eeb0854443537d78e8bc9a10d086b85c6a6910c43df0c07e553a1094d6f869",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-9aedab54.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/squid/squid.atlas",
+      "sha256": "9aedab5472683353cf2adb157f387ddb5321ba3e0e8d6f902853f36e88672575",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "squid.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/squid/squid.png",
+      "sha256": "47067909bca1d7bb04404662a4c2ab1fe30a3d2b1a3511db49d46ff17dd73e98",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

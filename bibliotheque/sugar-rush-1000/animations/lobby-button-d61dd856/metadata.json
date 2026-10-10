@@ -1,0 +1,562 @@
+{
+  "id": "animations/lobby-button-d61dd856",
+  "name": "lobby_button",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.9.1",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-87fd0709.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-87fd0709.atlas"
+  ],
+  "textures": [
+    "lobby_button_desktop_v3.png"
+  ],
+  "animations": [
+    {
+      "name": "btn_maximize_desktop",
+      "duration": 0.633,
+      "timelines": {
+        "bones": 2,
+        "slots": 1
+      }
+    },
+    {
+      "name": "btn_minimize_desktop",
+      "duration": 0.633,
+      "timelines": {
+        "bones": 2,
+        "slots": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "frame_holder"
+  ],
+  "slots": [
+    "frame_holder"
+  ],
+  "pieces": [
+    {
+      "region": "expand_01",
+      "file": "pieces/expand-01-a7f16531.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1266, 534",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_03",
+      "file": "pieces/expand-03-ae10776a.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1582, 667",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_05",
+      "file": "pieces/expand-05-349e3ebc.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "318, 2",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_07",
+      "file": "pieces/expand-07-20cd3ce2.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "634, 135",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_09",
+      "file": "pieces/expand-09-c708f194.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "950, 268",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_11",
+      "file": "pieces/expand-11-8118148b.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1266, 401",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_13",
+      "file": "pieces/expand-13-e2061c6a.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1565, 534",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_15",
+      "file": "pieces/expand-15-511df16c.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "617, 2",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_17",
+      "file": "pieces/expand-17-0a76d553.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "933, 135",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_19",
+      "file": "pieces/expand-19-75fd5aa8.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1249, 268",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_21",
+      "file": "pieces/expand-21-328e718d.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1565, 401",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_23",
+      "file": "pieces/expand-23-4ce7a1d4.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "916, 2",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_25",
+      "file": "pieces/expand-25-d868a254.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1232, 135",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_27",
+      "file": "pieces/expand-27-3cceea01.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1548, 268",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_29",
+      "file": "pieces/expand-29-9076c7d4.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1215, 2",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_31",
+      "file": "pieces/expand-31-5d108f97.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1531, 135",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_33",
+      "file": "pieces/expand-33-d0d9d36b.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1514, 2",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_35",
+      "file": "pieces/expand-35-fafbac3d.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1864, 368",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_39",
+      "file": "pieces/expand-39-b6a8390a.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1847, 69",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_00",
+      "file": "pieces/reverse-00-1d2e739d.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 667",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_01",
+      "file": "pieces/reverse-01-91da6c01.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 534",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_02",
+      "file": "pieces/reverse-02-232b2c5b.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "318, 667",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_03",
+      "file": "pieces/reverse-03-16870c64.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 401",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_04",
+      "file": "pieces/reverse-04-34000385.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "318, 534",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_05",
+      "file": "pieces/reverse-05-f50c8551.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "634, 667",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_06",
+      "file": "pieces/reverse-06-2458b819.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 268",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_07",
+      "file": "pieces/reverse-07-0f311f5a.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "318, 401",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_09",
+      "file": "pieces/reverse-09-531fb8f2.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "634, 534",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_11",
+      "file": "pieces/reverse-11-b8982082.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "950, 667",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_13",
+      "file": "pieces/reverse-13-81600aa4.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 135",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_15",
+      "file": "pieces/reverse-15-eace8a6f.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "318, 268",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_17",
+      "file": "pieces/reverse-17-4a225a25.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "634, 401",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_19",
+      "file": "pieces/reverse-19-6eec57b3.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "950, 534",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_21",
+      "file": "pieces/reverse-21-5030f024.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1266, 667",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_23",
+      "file": "pieces/reverse-23-0aa542ad.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 2",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_25",
+      "file": "pieces/reverse-25-fb2f477b.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "318, 135",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_27",
+      "file": "pieces/reverse-27-d7f84e6e.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "634, 268",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_29",
+      "file": "pieces/reverse-29-904f3a86.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "950, 401",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-7f13f4679528/lobby_button_desktop.json",
+      "sha256": "d61dd8567a5d9c298e96d30eedd062f4d84490919ff564a4aeef7c337f272180",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-87fd0709.atlas",
+      "source": "raw/_embedded/uht-7f13f4679528/lobby_button_desktop.atlas",
+      "sha256": "87fd07094d8d60d7b6ca112281876e9a2722b645f60a29075d141e188c28b691",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "lobby_button_desktop_v3.png",
+      "source": "raw/_embedded/uht-7f13f4679528/lobby_button_desktop_v3.png",
+      "sha256": "10afb66712b7a57304d285853746fd3e328026902776650b7bec13b502263682",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

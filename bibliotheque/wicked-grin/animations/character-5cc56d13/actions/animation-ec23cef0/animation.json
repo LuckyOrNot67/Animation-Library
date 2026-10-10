@@ -1,0 +1,280 @@
+{
+  "name": "animation",
+  "duration": 0.667,
+  "timelines": {
+    "bones": 22
+  },
+  "data": {
+    "bones": {
+      "jaw": {
+        "translate": [
+          {},
+          {
+            "time": 0.3333,
+            "x": -47.61,
+            "y": -8.94
+          }
+        ]
+      },
+      "upper_jaw": {
+        "translate": [
+          {},
+          {
+            "time": 0.3333,
+            "x": 71.13,
+            "y": -2.22
+          }
+        ]
+      },
+      "head_top": {
+        "translate": [
+          {},
+          {
+            "time": 0.3667,
+            "x": 78.5,
+            "y": -6.04
+          }
+        ]
+      },
+      "eye_top_L": {
+        "translate": [
+          {},
+          {
+            "time": 0.3333,
+            "x": 77.63,
+            "y": 9.51
+          }
+        ]
+      },
+      "eye_top_R": {
+        "translate": [
+          {},
+          {
+            "time": 0.3333,
+            "x": 105.87,
+            "y": 15.83
+          }
+        ]
+      },
+      "knee_L": {
+        "translate": [
+          {},
+          {
+            "time": 0.3333,
+            "x": 6.67,
+            "y": 218.48
+          }
+        ]
+      },
+      "head_tail1": {
+        "rotate": [
+          {},
+          {
+            "time": 0.3333,
+            "value": 11.67
+          }
+        ]
+      },
+      "head_tail2": {
+        "rotate": [
+          {},
+          {
+            "time": 0.3333,
+            "value": 11.67
+          }
+        ]
+      },
+      "head_tail3": {
+        "rotate": [
+          {},
+          {
+            "time": 0.3333,
+            "value": 11.67
+          }
+        ]
+      },
+      "arm_R_2": {
+        "rotate": [
+          {},
+          {
+            "time": 0.3333,
+            "value": 19.97
+          }
+        ],
+        "translate": [
+          {},
+          {
+            "time": 0.3333,
+            "x": 163.83,
+            "y": 95.75
+          }
+        ]
+      },
+      "hand_R_1": {
+        "translate": [
+          {},
+          {
+            "time": 0.3333,
+            "x": 65.84,
+            "y": 67.04
+          }
+        ]
+      },
+      "arm_R_1": {
+        "rotate": [
+          {},
+          {
+            "time": 0.3333,
+            "value": 11.51
+          }
+        ]
+      },
+      "arm_L_2": {
+        "rotate": [
+          {
+            "curve": [
+              0.111,
+              0,
+              0.489,
+              2.23
+            ]
+          },
+          {
+            "time": 0.5667,
+            "value": 13.67
+          }
+        ],
+        "translate": [
+          {
+            "curve": [
+              0.189,
+              0,
+              0.378,
+              106.24,
+              0.189,
+              0,
+              0.378,
+              69.77
+            ]
+          },
+          {
+            "time": 0.5667,
+            "x": 106.24,
+            "y": 69.77
+          }
+        ]
+      },
+      "hand_L_1": {
+        "translate": [
+          {
+            "curve": [
+              0.111,
+              0,
+              0.222,
+              128.74,
+              0.111,
+              0,
+              0.222,
+              -23.71
+            ]
+          },
+          {
+            "time": 0.3333,
+            "x": 128.74,
+            "y": -23.71
+          }
+        ]
+      },
+      "hand_L_2": {
+        "translate": [
+          {},
+          {
+            "time": 0.3333,
+            "x": -37.24,
+            "y": -1.22
+          }
+        ]
+      },
+      "cheek_L": {
+        "translate": [
+          {},
+          {
+            "time": 0.3,
+            "x": 86.78,
+            "y": 86.78
+          }
+        ]
+      },
+      "cheek_R": {
+        "translate": [
+          {},
+          {
+            "time": 0.3333,
+            "x": 119.65,
+            "y": -74.45
+          }
+        ]
+      },
+      "eye_bottom_L": {
+        "translate": [
+          {
+            "time": 0.4
+          },
+          {
+            "time": 0.6667,
+            "x": 79.54,
+            "y": 20.62
+          }
+        ]
+      },
+      "eye_bottom_R": {
+        "translate": [
+          {
+            "time": 0.4
+          },
+          {
+            "time": 0.6667,
+            "x": 79.54,
+            "y": 20.62
+          }
+        ]
+      },
+      "arm_L_1": {
+        "rotate": [
+          {},
+          {
+            "time": 0.4333,
+            "value": -18.55
+          }
+        ],
+        "translate": [
+          {},
+          {
+            "time": 0.4333,
+            "x": -23.97,
+            "y": 23.82
+          }
+        ]
+      },
+      "body2": {
+        "translate": [
+          {
+            "time": 0.3333,
+            "x": 99.32,
+            "y": -28.96
+          }
+        ]
+      },
+      "body1": {
+        "rotate": [
+          {
+            "time": 0.3333,
+            "value": -22.39
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

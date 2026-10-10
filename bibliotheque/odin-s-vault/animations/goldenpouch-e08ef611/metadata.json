@@ -1,0 +1,444 @@
+{
+  "id": "animations/goldenpouch-e08ef611",
+  "name": "goldenpouch",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-0cf580a4.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-0cf580a4.atlas"
+  ],
+  "textures": [
+    "goldenpouch.webp"
+  ],
+  "animations": [
+    {
+      "name": "collect",
+      "duration": 1,
+      "timelines": {
+        "bones": 47,
+        "slots": 51
+      }
+    },
+    {
+      "name": "landing",
+      "duration": 0.467,
+      "timelines": {
+        "bones": 11
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1,
+      "timelines": {
+        "bones": 39,
+        "slots": 47,
+        "drawOrder": 2
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "Mine_golden_pouch",
+    "golden_pouch",
+    "golden_pouch2",
+    "golden_pouch_3d",
+    "golden_pouch_3d2",
+    "Coins",
+    "Coin2",
+    "Coin3",
+    "Coin4",
+    "Coin5",
+    "Coin6",
+    "Coin7",
+    "decor",
+    "laces_l4",
+    "laces_l5",
+    "laces_l6",
+    "laces_r7",
+    "laces_r8",
+    "laces_r9",
+    "Handles3",
+    "Handles4",
+    "golden_pouch3",
+    "Coins2",
+    "Coin8",
+    "Coin9",
+    "Coin10",
+    "Coin11",
+    "Coin12",
+    "Coin13",
+    "golden_sparkss",
+    "golden_sparks",
+    "golden_sparks2",
+    "golden_sparks3",
+    "golden_sparks4",
+    "golden_sparks9",
+    "golden_sparks10",
+    "golden_sparks11",
+    "golden_sparks5",
+    "golden_sparks6",
+    "golden_sparks12",
+    "golden_sparks13",
+    "golden_sparkss2",
+    "golden_sparks7",
+    "golden_sparks8",
+    "golden_sparks14",
+    "golden_sparks15",
+    "golden_sparks16",
+    "golden_sparks17",
+    "golden_sparks18",
+    "golden_sparks19",
+    "golden_sparks20",
+    "golden_sparks21",
+    "golden_sparks22"
+  ],
+  "slots": [
+    "BG_golden_pouch",
+    "Shadow_1_golden_pouch",
+    "pouch_effects_02_glow_01",
+    "base_glowgolden_pouch",
+    "Handles_golden_down_pouch",
+    "base_golden_pouch",
+    "decor_shadow_golden_pouch",
+    "Golden_coins_Shadow_golden_pouch",
+    "Coin_6_golden_pouch",
+    "Shadow_coin_6_golden_pouch",
+    "Coin_5_golden_pouch",
+    "Shadow_coin_5_golden_pouch",
+    "Coin_4_golden_pouch",
+    "Shadow_coin_4_golden_pouch",
+    "Coin_3_golden_pouch",
+    "Shadow_coin_3_golden_pouch",
+    "Coin_2_golden_pouch",
+    "Shadow_coin_2_golden_pouch",
+    "Coin_1_golden_pouch",
+    "Coin_6_golden_pouch3",
+    "Coin_5_golden_pouch3",
+    "Coin_4_golden_pouch3",
+    "Coin_3_golden_pouch3",
+    "Coin_2_golden_pouch3",
+    "Coin_1_golden_pouch3",
+    "Coin_6_golden_pouch2",
+    "Coin_5_golden_pouch2",
+    "Coin_4_golden_pouch2",
+    "Coin_3_golden_pouch2",
+    "Coin_2_golden_pouch2",
+    "Coin_1_golden_pouch2",
+    "Shadow_coin_1_golden_pouch",
+    "base_mask_golden_pouch",
+    "laces_l_golden_pouch",
+    "laces_l_golden_pouch2",
+    "laces_r_golden_pouch",
+    "laces_r_golden_pouch2",
+    "decor_02_golden_pouch",
+    "decor_01_golden_pouch",
+    "decor_01_golden_pouch2",
+    "laces_top_golden_pouch",
+    "Handles_golden_pouch",
+    "pouch_coins_glow",
+    "Sparks_coin1",
+    "Sparks_coin4",
+    "Sparks_coin3",
+    "Sparks_coin6",
+    "Sparks_coin2",
+    "Sparks_coin5",
+    "Sparks_coins2",
+    "Sparks_coins5",
+    "Sparks_coins4",
+    "Sparks_coins7",
+    "Sparks_coins3",
+    "Sparks_coins6",
+    "Sparks_coins8",
+    "Sparks_coins13",
+    "Sparks_coins12",
+    "Sparks_coins17",
+    "Sparks_coins9",
+    "Sparks_coins14",
+    "Sparks_coins11",
+    "Sparks_coins16",
+    "Sparks_coins10",
+    "Sparks_coins15"
+  ],
+  "pieces": [
+    {
+      "region": "Coin_1_golden_pouch",
+      "file": "pieces/coin-1-golden-pouch-ea50d0a0.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "134,322,26,24"
+      }
+    },
+    {
+      "region": "Coin_2_golden_pouch",
+      "file": "pieces/coin-2-golden-pouch-b3d967b6.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "102,44,28,25"
+      }
+    },
+    {
+      "region": "Coin_3_golden_pouch",
+      "file": "pieces/coin-3-golden-pouch-ccd36a93.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "244,349,28,27",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Coin_4_golden_pouch",
+      "file": "pieces/coin-4-golden-pouch-404de71d.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "134,251,27,27"
+      }
+    },
+    {
+      "region": "Coin_5_golden_pouch",
+      "file": "pieces/coin-5-golden-pouch-e332910b.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "102,16,25,24"
+      }
+    },
+    {
+      "region": "Coin_6_golden_pouch",
+      "file": "pieces/coin-6-golden-pouch-782705d3.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "273,322,24,22"
+      }
+    },
+    {
+      "region": "Golden_coins_Shadow_golden_pouch",
+      "file": "pieces/golden-coins-shadow-golden-pouch-48d11dde.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "111,125,62,36",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Handles_golden_down_pouch",
+      "file": "pieces/handles-golden-down-pouch-ac4de4f3.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "111,73,48,48"
+      }
+    },
+    {
+      "region": "Handles_golden_pouch",
+      "file": "pieces/handles-golden-pouch-4bff672f.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "377,464,125,48"
+      }
+    },
+    {
+      "region": "Shadow_1_golden_pouch",
+      "file": "pieces/shadow-1-golden-pouch-d6193880.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "0,84,107,103"
+      }
+    },
+    {
+      "region": "Shadow_coin_1_golden_pouch",
+      "file": "pieces/shadow-coin-1-golden-pouch-74710a43.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "477,391,26,21",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_coin_2_golden_pouch",
+      "file": "pieces/shadow-coin-2-golden-pouch-672393bb.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "301,329,28,15"
+      }
+    },
+    {
+      "region": "Shadow_coin_3_golden_pouch",
+      "file": "pieces/shadow-coin-3-golden-pouch-20a22e54.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "477,359,28,18",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_coin_4_golden_pouch",
+      "file": "pieces/shadow-coin-4-golden-pouch-cfe8788e.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "134,45,24,24"
+      }
+    },
+    {
+      "region": "Shadow_coin_5_golden_pouch",
+      "file": "pieces/shadow-coin-5-golden-pouch-4e085885.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "244,325,25,20"
+      }
+    },
+    {
+      "region": "Shadow_coin_6_golden_pouch",
+      "file": "pieces/shadow-coin-6-golden-pouch-25d56e66.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "134,191,24,13"
+      }
+    },
+    {
+      "region": "Sparks_coin1",
+      "file": "pieces/sparks-coin1-57996dcd.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "275,433,98,79",
+        "offsets": "0,21,100,100"
+      }
+    },
+    {
+      "region": "Sparks_coins2",
+      "file": "pieces/sparks-coins2-79622df8.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "367,341,73,68",
+        "offsets": "24,32,100,100"
+      }
+    },
+    {
+      "region": "Sparks_coins4",
+      "file": "pieces/sparks-coins4-66c57420.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "275,348,81,88",
+        "offsets": "4,10,100,100",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "base_glowgolden_pouch",
+      "file": "pieces/base-glowgolden-pouch-a7002dae.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "0,191,130,155"
+      }
+    },
+    {
+      "region": "base_golden_pouch",
+      "file": "pieces/base-golden-pouch-4867d917.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "164,381,107,131"
+      }
+    },
+    {
+      "region": "base_mask_golden_pouch",
+      "file": "pieces/base-mask-golden-pouch-e3f1309f.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "377,413,89,47"
+      }
+    },
+    {
+      "region": "decor_01_golden_pouch",
+      "file": "pieces/decor-01-golden-pouch-5f76b7d5.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "134,282,36,34",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "decor_02_golden_pouch",
+      "file": "pieces/decor-02-golden-pouch-1527a972.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "102,0,18,12"
+      }
+    },
+    {
+      "region": "decor_shadow_golden_pouch",
+      "file": "pieces/decor-shadow-golden-pouch-791942b9.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "164,333,44,76",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "laces_l_golden_pouch",
+      "file": "pieces/laces-l-golden-pouch-d6e4a683.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "470,421,39,30",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "laces_r_golden_pouch",
+      "file": "pieces/laces-r-golden-pouch-2afe01cd.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "134,208,15,39"
+      }
+    },
+    {
+      "region": "laces_top_golden_pouch",
+      "file": "pieces/laces-top-golden-pouch-4b019870.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "444,342,67,29",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pouch_coins_glow",
+      "file": "pieces/pouch-coins-glow-bad326b3.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "0,12,98,68"
+      }
+    },
+    {
+      "region": "pouch_effects_02_glow_01",
+      "file": "pieces/pouch-effects-02-glow-01-480784c0.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "0,350,160,162"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/goldenpouch.json",
+      "sha256": "e08ef611d40e2f45daa366f401c90a3d880ee10f3299a940aebc13b87065c7da",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-0cf580a4.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/goldenpouch.atlas",
+      "sha256": "0cf580a4cabf40d2f32099fd437eeaa34edc6a25bd0f9df8b421b07e4dc3df74",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "goldenpouch.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/goldenpouch.webp",
+      "sha256": "5f5f1e8620732edb3f895706b878a6b39b4c3ab398d948faba9623f24f2eacdb",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

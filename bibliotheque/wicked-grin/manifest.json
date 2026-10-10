@@ -1,0 +1,3706 @@
+{
+  "name": "wicked-grin",
+  "packages": [
+    {
+      "id": "animations/bg-682d3e3d",
+      "name": "bg",
+      "machine": "wicked-grin",
+      "format": "spine-json",
+      "version": "4.0.64",
+      "skeleton": "skeleton.json",
+      "previewAtlas": "atlas-0f8e4c2d.atlas",
+      "pma": false,
+      "atlases": [
+        "atlas-0f8e4c2d.atlas"
+      ],
+      "textures": [
+        "bg.png"
+      ],
+      "animations": [
+        {
+          "name": "hide_black",
+          "duration": 0,
+          "timelines": {
+            "slots": 4
+          }
+        },
+        {
+          "name": "idle",
+          "duration": 13.333,
+          "timelines": {
+            "bones": 14,
+            "slots": 13
+          }
+        },
+        {
+          "name": "noise",
+          "duration": 1.333,
+          "timelines": {
+            "bones": 11
+          }
+        },
+        {
+          "name": "show_black",
+          "duration": 0,
+          "timelines": {}
+        }
+      ],
+      "skins": [
+        "default"
+      ],
+      "bones": [
+        "root",
+        "scale_all_bone",
+        "rings",
+        "ring2",
+        "ring3",
+        "ring4",
+        "ring5",
+        "ring6",
+        "ring7",
+        "ring8",
+        "ring9",
+        "ring10",
+        "ring11",
+        "ring12",
+        "ring13",
+        "ring14",
+        "ring15",
+        "noise",
+        "noise1",
+        "noise2",
+        "noise3",
+        "noise4",
+        "noise5",
+        "ring_black",
+        "noise6",
+        "noise7",
+        "noise8",
+        "noise9",
+        "noise10"
+      ],
+      "slots": [
+        "black",
+        "ring_4",
+        "ring_13",
+        "ring_3",
+        "ring_14",
+        "ring_2",
+        "ring_15",
+        "ring_5",
+        "ring_6",
+        "ring_7",
+        "ring_8",
+        "bounds",
+        "ring_12",
+        "ring_11",
+        "ring_10",
+        "ring_9",
+        "noise",
+        "noise6",
+        "noise4",
+        "noise9",
+        "noise5",
+        "noise10",
+        "noise2",
+        "noise7",
+        "noise3",
+        "noise8",
+        "ring_19",
+        "ring_18",
+        "ring_17",
+        "ring_16"
+      ],
+      "pieces": [
+        {
+          "region": "black",
+          "file": "pieces/black-44f2139f.png",
+          "page": "bg.png",
+          "properties": {
+            "bounds": "2,2,478,472",
+            "offsets": "741,787,1953,2026"
+          }
+        },
+        {
+          "region": "noise",
+          "file": "pieces/noise-0a5d107e.png",
+          "page": "bg.png",
+          "properties": {
+            "bounds": "2,1449,1741,435"
+          }
+        },
+        {
+          "region": "ring_1",
+          "file": "pieces/ring-1-3db7f27b.png",
+          "page": "bg.png",
+          "properties": {
+            "bounds": "482,11,476,463",
+            "offsets": "730,782,1953,2026"
+          }
+        },
+        {
+          "region": "ring_2",
+          "file": "pieces/ring-2-503c25f2.png",
+          "page": "bg.png",
+          "properties": {
+            "bounds": "1014,79,620,590",
+            "offsets": "651,718,1953,2026"
+          }
+        },
+        {
+          "region": "ring_3",
+          "file": "pieces/ring-3-849d4505.png",
+          "page": "bg.png",
+          "properties": {
+            "bounds": "1014,671,789,776",
+            "offsets": "586,623,1953,2026"
+          }
+        },
+        {
+          "region": "ring_4",
+          "file": "pieces/ring-4-d277391f.png",
+          "page": "bg.png",
+          "properties": {
+            "bounds": "2,476,1010,971",
+            "offsets": "459,526,1953,2026"
+          }
+        }
+      ],
+      "files": [
+        {
+          "file": "skeleton.json",
+          "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.json",
+          "sha256": "682d3e3d0c55fc1de34da035a76d7274902705a6d974fde8570336212ab2b98a",
+          "kind": "spine-json"
+        },
+        {
+          "file": "atlas-0f8e4c2d.atlas",
+          "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.atlas",
+          "sha256": "0f8e4c2d20244b8e181767f98cedb9751311dab9c25c403b4aace4065e380554",
+          "kind": "spine-atlas"
+        },
+        {
+          "file": "originaux/ae8c2840-bg.ktx2",
+          "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/bg.ktx2",
+          "sha256": "ae8c284092c6371df9578298ec99bf69321eacde4e8781505f40476fceb465cb",
+          "kind": "texture"
+        }
+      ],
+      "warnings": [],
+      "complete": true
+    },
+    {
+      "id": "animations/character-5cc56d13",
+      "name": "character",
+      "machine": "wicked-grin",
+      "format": "spine-json",
+      "version": "4.0.64",
+      "skeleton": "skeleton.json",
+      "previewAtlas": "atlas-248d0493.atlas",
+      "pma": false,
+      "atlases": [
+        "atlas-248d0493.atlas"
+      ],
+      "textures": [
+        "character.png"
+      ],
+      "animations": [
+        {
+          "name": "animation",
+          "duration": 0.667,
+          "timelines": {
+            "bones": 22
+          }
+        },
+        {
+          "name": "idle",
+          "duration": 2,
+          "timelines": {
+            "bones": 36
+          }
+        },
+        {
+          "name": "idle2",
+          "duration": 2.133,
+          "timelines": {
+            "bones": 46
+          }
+        },
+        {
+          "name": "idle3",
+          "duration": 1.667,
+          "timelines": {
+            "bones": 21
+          }
+        },
+        {
+          "name": "reaction",
+          "duration": 1.833,
+          "timelines": {
+            "bones": 43
+          }
+        },
+        {
+          "name": "reaction2",
+          "duration": 1.467,
+          "timelines": {
+            "bones": 33,
+            "events": 1
+          }
+        },
+        {
+          "name": "trigger",
+          "duration": 2.033,
+          "timelines": {
+            "bones": 38
+          }
+        }
+      ],
+      "skins": [
+        "default"
+      ],
+      "bones": [
+        "root",
+        "scale_all_bone",
+        "hip",
+        "leg_L_1",
+        "leg_L_2",
+        "foot_L_pos",
+        "foot_L_2",
+        "leg_L_IK",
+        "foot_L_1",
+        "leg_R_1",
+        "leg_R_2",
+        "foot_L_3",
+        "foot_R_pos",
+        "foot_R_2",
+        "leg_R_IK",
+        "foot_R_1",
+        "foot_R_3",
+        "body1",
+        "body2",
+        "shoulder",
+        "arm_L_1",
+        "arm_L_2",
+        "hand_L_1",
+        "arm_R_1",
+        "arm_R_2",
+        "hand_R_1",
+        "head",
+        "upper_jaw",
+        "nose",
+        "back_head",
+        "head_tail1",
+        "head_tail2",
+        "head_tail3",
+        "teeth_upper",
+        "jaw",
+        "cheek_L",
+        "cheek_R",
+        "eye_top_L",
+        "eye_top_R",
+        "hand_R_2",
+        "thumb1",
+        "thumb2",
+        "thumb3",
+        "finger_B",
+        "finger_C",
+        "finger_A_1",
+        "finger_A_2",
+        "finger_A_3",
+        "hand_L_2",
+        "shorts_triangle",
+        "shorts_L",
+        "shorts_R",
+        "eye_bottom_L",
+        "eye_bottom_R",
+        "pupil_L",
+        "pupil_R",
+        "leg_L_1_IK",
+        "leg_L_2_IK",
+        "knee_L",
+        "leg_R_1_IK",
+        "knee_R",
+        "leg_R_2_IK",
+        "shoe_L_opening",
+        "shoe_R_opening",
+        "head_top",
+        "face_back",
+        "teeth_upper2",
+        "jaw2"
+      ],
+      "slots": [
+        "head_back_stroke",
+        "head_stroke",
+        "arm_R_stroke",
+        "hand_R_stroke",
+        "finger1_R_stroke",
+        "finger2_R_stroke",
+        "foot_R_stroke",
+        "foot_R_opening_back_stroke",
+        "leg_R_stroke",
+        "foot_R_opening_stroke",
+        "foot_R_toe_stroke",
+        "foot_L_stroke",
+        "foot_L_opening_back_stroke",
+        "leg_L_stroke",
+        "foot_L_opening_stroke",
+        "foot_L_toe_stroke",
+        "body_stroke",
+        "shorts_R_stroke",
+        "shorts_stroke",
+        "arm_L_stroke",
+        "face_stroke",
+        "hand_L_stroke",
+        "hand_L_opening_back_stroke",
+        "hand_L_opening_stroke",
+        "arm_R",
+        "hand_R",
+        "finger1_R",
+        "finger2_R",
+        "hand_L_opening_back",
+        "head_back",
+        "head",
+        "arm_L",
+        "foot_R",
+        "foot_R_opening_back",
+        "leg_R",
+        "foot_R_opening",
+        "foot_R_toe",
+        "foot_L",
+        "foot_L_opening_back",
+        "foot_L_toe",
+        "body",
+        "shorts_R",
+        "leg_L",
+        "foot_L_opening",
+        "shorts",
+        "mouth_inside",
+        "teeth_lower",
+        "teeth_upper",
+        "face_side",
+        "face",
+        "mouth_edge",
+        "hand_L",
+        "hand_L_opening",
+        "pupil_L",
+        "pupil_R"
+      ],
+      "pieces": [
+        {
+          "region": "arm_L",
+          "file": "pieces/arm-l-f3dd01e8.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "620,21,267,265"
+          }
+        },
+        {
+          "region": "arm_L_stroke",
+          "file": "pieces/arm-l-stroke-14394b8f.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "620,288,281,279"
+          }
+        },
+        {
+          "region": "arm_R",
+          "file": "pieces/arm-r-12ec86ef.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1303,1039,318,181"
+          }
+        },
+        {
+          "region": "arm_R_stroke",
+          "file": "pieces/arm-r-stroke-332f69a1.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1303,1849,332,195"
+          }
+        },
+        {
+          "region": "body",
+          "file": "pieces/body-c93026b1.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1628,1575,307,272"
+          }
+        },
+        {
+          "region": "body_stroke",
+          "file": "pieces/body-stroke-f46b6ab5.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1303,1561,323,286"
+          }
+        },
+        {
+          "region": "face",
+          "file": "pieces/face-9d2c1355.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "692,1534,609,510"
+          }
+        },
+        {
+          "region": "face_side",
+          "file": "pieces/face-side-15862abb.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "903,223,378,232"
+          }
+        },
+        {
+          "region": "face_stroke",
+          "file": "pieces/face-stroke-b66209cb.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "2,989,623,524"
+          }
+        },
+        {
+          "region": "finger1_R",
+          "file": "pieces/finger1-r-52e2c14c.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1827,148,104,115"
+          }
+        },
+        {
+          "region": "finger1_R_stroke",
+          "file": "pieces/finger1-r-stroke-e075772f.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1801,399,118,129"
+          }
+        },
+        {
+          "region": "finger2_R",
+          "file": "pieces/finger2-r-0c9d7781.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1915,295,100,102"
+          }
+        },
+        {
+          "region": "finger2_R_stroke",
+          "file": "pieces/finger2-r-stroke-40eebce4.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1886,791,114,116"
+          }
+        },
+        {
+          "region": "foot_L",
+          "file": "pieces/foot-l-9efee0f2.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1165,593,318,403"
+          }
+        },
+        {
+          "region": "foot_L_opening",
+          "file": "pieces/foot-l-opening-0223c7ec.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1879,532,111,137"
+          }
+        },
+        {
+          "region": "foot_L_opening_back",
+          "file": "pieces/foot-l-opening-back-f6f8e947.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "536,128,65,92"
+          }
+        },
+        {
+          "region": "foot_L_opening_back_stroke",
+          "file": "pieces/foot-l-opening-back-stroke-2def1747.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "529,881,79,106"
+          }
+        },
+        {
+          "region": "foot_L_opening_stroke",
+          "file": "pieces/foot-l-opening-stroke-725ec288.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1841,909,125,151"
+          }
+        },
+        {
+          "region": "foot_L_stroke",
+          "file": "pieces/foot-l-stroke-4ee5a66d.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "2,170,332,417"
+          }
+        },
+        {
+          "region": "foot_L_toe",
+          "file": "pieces/foot-l-toe-feb0b080.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1557,251,242,158"
+          }
+        },
+        {
+          "region": "foot_L_toe_stroke",
+          "file": "pieces/foot-l-toe-stroke-dd5730be.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1623,1062,256,172"
+          }
+        },
+        {
+          "region": "foot_R",
+          "file": "pieces/foot-r-8fc7f291.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1287,240,268,351"
+          }
+        },
+        {
+          "region": "foot_R_opening",
+          "file": "pieces/foot-r-opening-b352903f.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1886,671,98,118"
+          }
+        },
+        {
+          "region": "foot_R_opening_back",
+          "file": "pieces/foot-r-opening-back-34310673.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "262,100,50,68"
+          }
+        },
+        {
+          "region": "foot_R_opening_back_stroke",
+          "file": "pieces/foot-r-opening-back-stroke-89710f05.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "536,44,64,82"
+          }
+        },
+        {
+          "region": "foot_R_opening_stroke",
+          "file": "pieces/foot-r-opening-stroke-6151242d.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1801,265,112,132"
+          }
+        },
+        {
+          "region": "foot_R_stroke",
+          "file": "pieces/foot-r-stroke-5d2fc6fe.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "336,222,282,365"
+          }
+        },
+        {
+          "region": "foot_R_toe",
+          "file": "pieces/foot-r-toe-928a23a9.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "410,589,210,158"
+          }
+        },
+        {
+          "region": "foot_R_toe_stroke",
+          "file": "pieces/foot-r-toe-stroke-55385799.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1601,77,224,172"
+          }
+        },
+        {
+          "region": "hand_L",
+          "file": "pieces/hand-l-af0a3371.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1415,35,184,203"
+          }
+        },
+        {
+          "region": "hand_L_opening",
+          "file": "pieces/hand-l-opening-f7361f7a.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1881,1082,103,152"
+          }
+        },
+        {
+          "region": "hand_L_opening_back",
+          "file": "pieces/hand-l-opening-back-0381bb44.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "580,782,35,97"
+          }
+        },
+        {
+          "region": "hand_L_opening_back_stroke",
+          "file": "pieces/hand-l-opening-back-stroke-5cbc67ef.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "529,768,49,111"
+          }
+        },
+        {
+          "region": "hand_L_opening_stroke",
+          "file": "pieces/hand-l-opening-stroke-30198648.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "2,2,117,166"
+          }
+        },
+        {
+          "region": "hand_L_stroke",
+          "file": "pieces/hand-l-stroke-b9e312c0.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "336,3,198,217"
+          }
+        },
+        {
+          "region": "hand_R",
+          "file": "pieces/hand-r-e29aff47.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "903,583,260,413"
+          }
+        },
+        {
+          "region": "hand_R_stroke",
+          "file": "pieces/hand-r-stroke-7af57f0e.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "627,569,274,427"
+          }
+        },
+        {
+          "region": "head",
+          "file": "pieces/head-1cb2ced0.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "627,998,674,515"
+          }
+        },
+        {
+          "region": "head_back",
+          "file": "pieces/head-back-7afb0ae0.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1557,411,193,305"
+          }
+        },
+        {
+          "region": "head_back_stroke",
+          "file": "pieces/head-back-stroke-76bcc142.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1485,718,207,319"
+          }
+        },
+        {
+          "region": "head_stroke",
+          "file": "pieces/head-stroke-3d983ca8.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "2,1515,688,529"
+          }
+        },
+        {
+          "region": "leg_L",
+          "file": "pieces/leg-l-3884d4c7.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1637,1851,201,193",
+            "offsets": "1,1,202,195"
+          }
+        },
+        {
+          "region": "leg_L_stroke",
+          "file": "pieces/leg-l-stroke-8770ed23.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "889,12,216,209"
+          }
+        },
+        {
+          "region": "leg_R",
+          "file": "pieces/leg-r-2476a826.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1283,4,130,234",
+            "offsets": "1,0,131,234"
+          }
+        },
+        {
+          "region": "leg_R_stroke",
+          "file": "pieces/leg-r-stroke-707490f4.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1694,812,145,248"
+          }
+        },
+        {
+          "region": "mouth_edge",
+          "file": "pieces/mouth-edge-ea8ffd99.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1752,671,132,139"
+          }
+        },
+        {
+          "region": "mouth_inside",
+          "file": "pieces/mouth-inside-d89a5f5c.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "2,749,525,238"
+          }
+        },
+        {
+          "region": "pupil_L",
+          "file": "pieces/pupil-l-85e3d203.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1107,24,141,197"
+          }
+        },
+        {
+          "region": "pupil_R",
+          "file": "pieces/pupil-r-d863e9b0.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1840,1863,136,181"
+          }
+        },
+        {
+          "region": "shorts",
+          "file": "pieces/shorts-4143a012.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1615,1236,296,323"
+          }
+        },
+        {
+          "region": "shorts_R",
+          "file": "pieces/shorts-r-2876116b.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1752,530,125,139"
+          }
+        },
+        {
+          "region": "shorts_R_stroke",
+          "file": "pieces/shorts-r-stroke-00c7246d.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "121,15,139,153"
+          }
+        },
+        {
+          "region": "shorts_stroke",
+          "file": "pieces/shorts-stroke-2f4ca173.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "1303,1222,310,337"
+          }
+        },
+        {
+          "region": "teeth_lower",
+          "file": "pieces/teeth-lower-ac8606c2.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "2,589,406,158"
+          }
+        },
+        {
+          "region": "teeth_upper",
+          "file": "pieces/teeth-upper-757c5150.png",
+          "page": "character.png",
+          "properties": {
+            "bounds": "903,457,382,124",
+            "offsets": "380,990,1097,1552"
+          }
+        }
+      ],
+      "files": [
+        {
+          "file": "skeleton.json",
+          "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.json",
+          "sha256": "5cc56d136735b6d4f9a27634ce58e5d675c0a8b475033a7d1c2dafb85947cf29",
+          "kind": "spine-json"
+        },
+        {
+          "file": "atlas-248d0493.atlas",
+          "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.atlas",
+          "sha256": "248d04939701e07e75012631806c9004ccdad0e3bd639916cfd5ea6e35e90680",
+          "kind": "spine-atlas"
+        },
+        {
+          "file": "originaux/8e24b3ff-character.ktx2",
+          "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/character.ktx2",
+          "sha256": "8e24b3ffa02511c0d1453e510627c4d9f12945db42b624c8728a0db05e245928",
+          "kind": "texture"
+        }
+      ],
+      "warnings": [],
+      "complete": true
+    },
+    {
+      "id": "animations/reel-d1f88e96",
+      "name": "reel",
+      "machine": "wicked-grin",
+      "format": "spine-json",
+      "version": "4.0.64",
+      "skeleton": "skeleton.json",
+      "previewAtlas": "atlas-b3b8816b.atlas",
+      "pma": false,
+      "atlases": [
+        "atlas-b3b8816b.atlas"
+      ],
+      "textures": [
+        "reel.png"
+      ],
+      "animations": [
+        {
+          "name": "trigger_yellow/0_1",
+          "duration": 0.367,
+          "timelines": {
+            "bones": 2,
+            "slots": 2
+          }
+        },
+        {
+          "name": "trigger_red/0_1",
+          "duration": 0.367,
+          "timelines": {
+            "bones": 2,
+            "slots": 2
+          }
+        },
+        {
+          "name": "trigger_yellow/0_2",
+          "duration": 0.433,
+          "timelines": {
+            "bones": 4,
+            "slots": 4
+          }
+        },
+        {
+          "name": "trigger_red/0_2",
+          "duration": 0.433,
+          "timelines": {
+            "bones": 4,
+            "slots": 4
+          }
+        },
+        {
+          "name": "trigger_yellow/0_3",
+          "duration": 0.5,
+          "timelines": {
+            "bones": 6,
+            "slots": 6
+          }
+        },
+        {
+          "name": "trigger_red/0_3",
+          "duration": 0.5,
+          "timelines": {
+            "bones": 6,
+            "slots": 6
+          }
+        },
+        {
+          "name": "trigger_yellow/0_4",
+          "duration": 0.567,
+          "timelines": {
+            "bones": 8,
+            "slots": 8
+          }
+        },
+        {
+          "name": "trigger_red/0_4",
+          "duration": 0.567,
+          "timelines": {
+            "bones": 8,
+            "slots": 8
+          }
+        },
+        {
+          "name": "trigger_yellow/0_5",
+          "duration": 0.633,
+          "timelines": {
+            "bones": 10,
+            "slots": 10
+          }
+        },
+        {
+          "name": "trigger_red/0_5",
+          "duration": 0.633,
+          "timelines": {
+            "bones": 10,
+            "slots": 10
+          }
+        },
+        {
+          "name": "setup_red/1",
+          "duration": 0,
+          "timelines": {
+            "slots": 2
+          }
+        },
+        {
+          "name": "remove_red/1",
+          "duration": 0.333,
+          "timelines": {
+            "bones": 2,
+            "slots": 10
+          }
+        },
+        {
+          "name": "remove_yellow/1",
+          "duration": 0.333,
+          "timelines": {
+            "bones": 2,
+            "slots": 2
+          }
+        },
+        {
+          "name": "setup_yellow/1",
+          "duration": 0,
+          "timelines": {
+            "slots": 2
+          }
+        },
+        {
+          "name": "trigger_yellow/1_2",
+          "duration": 0.367,
+          "timelines": {
+            "bones": 2,
+            "slots": 4
+          }
+        },
+        {
+          "name": "trigger_red/1_2",
+          "duration": 0.367,
+          "timelines": {
+            "bones": 2,
+            "slots": 4
+          }
+        },
+        {
+          "name": "trigger_yellow/1_3",
+          "duration": 0.433,
+          "timelines": {
+            "bones": 4,
+            "slots": 6
+          }
+        },
+        {
+          "name": "trigger_red/1_3",
+          "duration": 0.433,
+          "timelines": {
+            "bones": 4,
+            "slots": 6
+          }
+        },
+        {
+          "name": "trigger_yellow/1_4",
+          "duration": 0.5,
+          "timelines": {
+            "bones": 6,
+            "slots": 8
+          }
+        },
+        {
+          "name": "trigger_red/1_4",
+          "duration": 0.5,
+          "timelines": {
+            "bones": 6,
+            "slots": 8
+          }
+        },
+        {
+          "name": "trigger_yellow/1_5",
+          "duration": 0.567,
+          "timelines": {
+            "bones": 8,
+            "slots": 10
+          }
+        },
+        {
+          "name": "trigger_red/1_5",
+          "duration": 0.567,
+          "timelines": {
+            "bones": 8,
+            "slots": 10
+          }
+        },
+        {
+          "name": "setup_red/2",
+          "duration": 0,
+          "timelines": {
+            "slots": 4
+          }
+        },
+        {
+          "name": "remove_red/2",
+          "duration": 0.4,
+          "timelines": {
+            "bones": 4,
+            "slots": 10
+          }
+        },
+        {
+          "name": "remove_yellow/2",
+          "duration": 0.4,
+          "timelines": {
+            "bones": 4,
+            "slots": 4
+          }
+        },
+        {
+          "name": "setup_yellow/2",
+          "duration": 0,
+          "timelines": {
+            "slots": 4
+          }
+        },
+        {
+          "name": "trigger_yellow/2_3",
+          "duration": 0.367,
+          "timelines": {
+            "bones": 2,
+            "slots": 6
+          }
+        },
+        {
+          "name": "trigger_red/2_3",
+          "duration": 0.367,
+          "timelines": {
+            "bones": 2,
+            "slots": 6
+          }
+        },
+        {
+          "name": "trigger_yellow/2_4",
+          "duration": 0.433,
+          "timelines": {
+            "bones": 4,
+            "slots": 8
+          }
+        },
+        {
+          "name": "trigger_red/2_4",
+          "duration": 0.433,
+          "timelines": {
+            "bones": 4,
+            "slots": 8
+          }
+        },
+        {
+          "name": "trigger_yellow/2_5",
+          "duration": 0.5,
+          "timelines": {
+            "bones": 6,
+            "slots": 10
+          }
+        },
+        {
+          "name": "trigger_red/2_5",
+          "duration": 0.5,
+          "timelines": {
+            "bones": 6,
+            "slots": 10
+          }
+        },
+        {
+          "name": "setup_yellow/3",
+          "duration": 0,
+          "timelines": {
+            "slots": 6
+          }
+        },
+        {
+          "name": "setup_red/3",
+          "duration": 0,
+          "timelines": {
+            "slots": 6
+          }
+        },
+        {
+          "name": "remove_red/3",
+          "duration": 0.467,
+          "timelines": {
+            "bones": 6,
+            "slots": 10
+          }
+        },
+        {
+          "name": "remove_yellow/3",
+          "duration": 0.467,
+          "timelines": {
+            "bones": 6,
+            "slots": 6
+          }
+        },
+        {
+          "name": "trigger_yellow/3_4",
+          "duration": 0.367,
+          "timelines": {
+            "bones": 2,
+            "slots": 8
+          }
+        },
+        {
+          "name": "trigger_red/3_4",
+          "duration": 0.367,
+          "timelines": {
+            "bones": 2,
+            "slots": 8
+          }
+        },
+        {
+          "name": "trigger_yellow/3_5",
+          "duration": 0.433,
+          "timelines": {
+            "bones": 4,
+            "slots": 10
+          }
+        },
+        {
+          "name": "trigger_red/3_5",
+          "duration": 0.433,
+          "timelines": {
+            "bones": 4,
+            "slots": 10
+          }
+        },
+        {
+          "name": "setup_red/4",
+          "duration": 0,
+          "timelines": {
+            "slots": 8
+          }
+        },
+        {
+          "name": "remove_red/4",
+          "duration": 0.533,
+          "timelines": {
+            "bones": 8,
+            "slots": 10
+          }
+        },
+        {
+          "name": "remove_yellow/4",
+          "duration": 0.533,
+          "timelines": {
+            "bones": 8,
+            "slots": 8
+          }
+        },
+        {
+          "name": "setup_yellow/4",
+          "duration": 0,
+          "timelines": {
+            "slots": 8
+          }
+        },
+        {
+          "name": "trigger_yellow/4_5",
+          "duration": 0.367,
+          "timelines": {
+            "bones": 2,
+            "slots": 10
+          }
+        },
+        {
+          "name": "trigger_red/4_5",
+          "duration": 0.367,
+          "timelines": {
+            "bones": 2,
+            "slots": 10
+          }
+        },
+        {
+          "name": "setup_red/5",
+          "duration": 0,
+          "timelines": {
+            "slots": 10
+          }
+        },
+        {
+          "name": "remove_yellow/5",
+          "duration": 0.6,
+          "timelines": {
+            "bones": 10,
+            "slots": 10
+          }
+        },
+        {
+          "name": "remove_red/5",
+          "duration": 0.6,
+          "timelines": {
+            "bones": 10,
+            "slots": 10
+          }
+        },
+        {
+          "name": "setup_yellow/5",
+          "duration": 0,
+          "timelines": {
+            "slots": 10
+          }
+        },
+        {
+          "name": "idle",
+          "duration": 0,
+          "timelines": {}
+        }
+      ],
+      "skins": [
+        "default"
+      ],
+      "bones": [
+        "root",
+        "scale_all_bone",
+        "lights_L",
+        "light1",
+        "light2",
+        "light4",
+        "light3",
+        "light5",
+        "lights_R",
+        "light6",
+        "light7",
+        "light8",
+        "light9",
+        "light10",
+        "lights_L_yellow",
+        "light11",
+        "light12",
+        "light13",
+        "light14",
+        "light15",
+        "lights_R_yellow",
+        "light16",
+        "light17",
+        "light18",
+        "light19",
+        "light20"
+      ],
+      "slots": [
+        "reel",
+        "lights",
+        "lights11",
+        "lights6",
+        "lights16",
+        "lights4",
+        "lights14",
+        "lights9",
+        "lights19",
+        "lights2",
+        "lights12",
+        "lights7",
+        "lights17",
+        "lights3",
+        "lights13",
+        "lights8",
+        "lights18",
+        "lights5",
+        "lights15",
+        "lights10",
+        "lights20"
+      ],
+      "pieces": [
+        {
+          "region": "lights_red",
+          "file": "pieces/lights-red-7e0c32c1.png",
+          "page": "reel.png",
+          "properties": {
+            "bounds": "1127,1103,48,72"
+          }
+        },
+        {
+          "region": "lights_yellow",
+          "file": "pieces/lights-yellow-275d7d9b.png",
+          "page": "reel.png",
+          "properties": {
+            "bounds": "1127,1031,46,70"
+          }
+        },
+        {
+          "region": "reel",
+          "file": "pieces/reel-b42b8cdc.png",
+          "page": "reel.png",
+          "properties": {
+            "bounds": "2,102,1123,1073",
+            "offsets": "2,1,1127,1075"
+          }
+        }
+      ],
+      "files": [
+        {
+          "file": "skeleton.json",
+          "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/reel.json",
+          "sha256": "d1f88e9671cacdf3b7219a86372aca135d9e493edde71a9181bc7e3508920464",
+          "kind": "spine-json"
+        },
+        {
+          "file": "atlas-b3b8816b.atlas",
+          "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/reel.atlas",
+          "sha256": "b3b8816b03a6c37dc97a630f1099083e510537319b700def722f9cd517cae77d",
+          "kind": "spine-atlas"
+        },
+        {
+          "file": "originaux/27bf0de9-reel.ktx2",
+          "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/reel.ktx2",
+          "sha256": "27bf0de96539ef64f296b268cc745681c23ea6b6f5c38e7e9ae9ec920fff4948",
+          "kind": "texture"
+        }
+      ],
+      "warnings": [],
+      "complete": true
+    },
+    {
+      "id": "animations/symbols-9a2b98ad",
+      "name": "symbols",
+      "machine": "wicked-grin",
+      "format": "spine-json",
+      "version": "4.0.64",
+      "skeleton": "skeleton.json",
+      "previewAtlas": "atlas-22f605e3.atlas",
+      "pma": false,
+      "atlases": [
+        "atlas-22f605e3.atlas"
+      ],
+      "textures": [
+        "symbols.png"
+      ],
+      "animations": [
+        {
+          "name": "coin_glimmer",
+          "duration": 2,
+          "timelines": {
+            "bones": 4,
+            "slots": 4
+          }
+        },
+        {
+          "name": "coin_shine",
+          "duration": 1.167,
+          "timelines": {
+            "bones": 110,
+            "slots": 27,
+            "deform": 3
+          }
+        },
+        {
+          "name": "diamond_glimmer",
+          "duration": 2,
+          "timelines": {
+            "bones": 4,
+            "slots": 4
+          }
+        },
+        {
+          "name": "fs_reveal",
+          "duration": 1.167,
+          "timelines": {
+            "bones": 110,
+            "slots": 27,
+            "deform": 3
+          }
+        },
+        {
+          "name": "glimmer_end",
+          "duration": 0.333,
+          "timelines": {
+            "slots": 4
+          }
+        },
+        {
+          "name": "glimmer_start",
+          "duration": 0.333,
+          "timelines": {
+            "slots": 4
+          }
+        },
+        {
+          "name": "idle",
+          "duration": 1,
+          "timelines": {
+            "bones": 14,
+            "slots": 5,
+            "drawOrder": 1
+          }
+        },
+        {
+          "name": "land",
+          "duration": 0.5,
+          "timelines": {
+            "bones": 28,
+            "slots": 3,
+            "deform": 1
+          }
+        },
+        {
+          "name": "remove",
+          "duration": 0.333,
+          "timelines": {
+            "bones": 5,
+            "slots": 32
+          }
+        },
+        {
+          "name": "setup",
+          "duration": 0,
+          "timelines": {
+            "slots": 36
+          }
+        },
+        {
+          "name": "spread",
+          "duration": 1,
+          "timelines": {
+            "bones": 12
+          }
+        },
+        {
+          "name": "spread_epic",
+          "duration": 0.333,
+          "timelines": {
+            "slots": 10
+          }
+        },
+        {
+          "name": "spread_normal",
+          "duration": 0,
+          "timelines": {}
+        },
+        {
+          "name": "turbo",
+          "duration": 1.167,
+          "timelines": {
+            "bones": 12,
+            "slots": 10
+          }
+        },
+        {
+          "name": "win",
+          "duration": 1.167,
+          "timelines": {
+            "bones": 111,
+            "slots": 27,
+            "deform": 3
+          }
+        }
+      ],
+      "skins": [
+        "default",
+        "bronze",
+        "diamond",
+        "epic_spread",
+        "fs",
+        "gold",
+        "high_1",
+        "high_2",
+        "high_3",
+        "high_4",
+        "high_5",
+        "low_1",
+        "low_2",
+        "low_3",
+        "low_4",
+        "mult",
+        "silver",
+        "spread",
+        "super_fs"
+      ],
+      "bones": [
+        "root",
+        "all_symbols_scale_bone",
+        "all_highs_scale_bone",
+        "high_1_scale_bone",
+        "all_lows_scale_bone",
+        "all_lows_bottom_bone",
+        "all_lows_rotation_bone",
+        "low_1_scale_bone",
+        "low_2_scale_bone",
+        "low_3_scale_bone",
+        "low_4_scale_bone",
+        "high_2_scale_bone",
+        "high_3_scale_bone",
+        "high_4_scale_bone",
+        "all_specials_scale_bone",
+        "spread_scale_bone",
+        "fs_scale_bone",
+        "high_5_scale_bone",
+        "multi_scale_bone",
+        "coin_scale_bone",
+        "silver_scale_bone",
+        "gold_scale_bone",
+        "diamond_scale_bone",
+        "fs",
+        "h4_cherry",
+        "h1",
+        "h1_stem1",
+        "h1_stem2",
+        "h1_stem3",
+        "h1_leaf1",
+        "h1_leaf2",
+        "h1_leaf3",
+        "h1_leaf4",
+        "h1_grape1",
+        "h1_grape2",
+        "h1_grape3",
+        "h1_grape4",
+        "h1_grape5",
+        "h1_grape6",
+        "h1_grape7",
+        "h1_grape8",
+        "h1_grape9",
+        "h1_grape10",
+        "h1_grape11",
+        "h1_grape12",
+        "h1_grape13",
+        "h1_grape14",
+        "h1_grape15",
+        "h1_grape16",
+        "h1_grape17",
+        "h2_3D",
+        "h2_-3D",
+        "h3_bell",
+        "h3_swing",
+        "h4_steam_R_1",
+        "h4_steam_R_2",
+        "h4_steam_R_3",
+        "h4_steam_R_4",
+        "h4_steam_R_5",
+        "h4_steam_R_6",
+        "h4_steam_R_7",
+        "h4_steam_L_1",
+        "h4_steam_L_2",
+        "h4_steam_L_3",
+        "h4_steam_L_4",
+        "h4_steam_L_5",
+        "h4_steam_L_6",
+        "h4_steam_R_8",
+        "h4_steam_R_9",
+        "h4_leaf1",
+        "h4_leaf2",
+        "h4_leaf3",
+        "h4_leaf4",
+        "multi_bp",
+        "multi_1",
+        "multi_2",
+        "multi_3",
+        "multi_x_1",
+        "multi_x_2",
+        "multi_x_3",
+        "spread_head",
+        "spread_eye_L",
+        "spread_eye_R",
+        "spread_pupil_L",
+        "spread_pupil_R",
+        "spread_cheek_L",
+        "spread_cheek_R",
+        "spread_mouth_R",
+        "spread_mouth_L",
+        "spread_bp",
+        "spread_1",
+        "spread_2",
+        "h5_seven0",
+        "h5_seven1",
+        "h5_seven2",
+        "h5_seven4",
+        "h5_seven6",
+        "h5_seven8",
+        "h5_seven9",
+        "h5_seven10",
+        "h5_seven12",
+        "h5_seven15",
+        "h5_seven18",
+        "h5_seven19",
+        "h1_melon0",
+        "h1_melon",
+        "h1_melon2",
+        "h1_melon3",
+        "h1_melon4",
+        "h1_melon5",
+        "h1_melon6",
+        "h1_melon7",
+        "h1_melon8",
+        "h1_melon9",
+        "h1_melon10",
+        "spread_mouth_C",
+        "spread_3",
+        "spread_4",
+        "spread_5",
+        "spread_6",
+        "spread_7",
+        "h1_grape18",
+        "spread_sides",
+        "fs_F",
+        "fs_S",
+        "fs_F_shine",
+        "fs_S_shine",
+        "fs_bp1",
+        "fs_bp2",
+        "fs_bp3",
+        "multi_1_idle",
+        "multi_2_idle",
+        "multi_3_idle",
+        "fs_bp1_idle",
+        "fs_bp2_idle",
+        "fs_bp3_idle",
+        "spread_shine",
+        "fs_F_mask",
+        "fs_S_mask",
+        "diamond_scale_bone2",
+        "coin_scale_animation_bone",
+        "coin_rotation_bone",
+        "coin_shine",
+        "coin_scale_animation_bone2",
+        "coin_rotation_bone2",
+        "coin_shine2",
+        "diamond_mask_bone",
+        "spark",
+        "spark2",
+        "spark3",
+        "spark4"
+      ],
+      "slots": [
+        "fs_bp_bg",
+        "fs_bp_circle",
+        "fs_bp_center",
+        "fs_bp_outer",
+        "fs_s_stroke",
+        "fs_f_stroke",
+        "fs_s",
+        "fs_S_mask",
+        "fs_s2",
+        "fs_S_maskEnd",
+        "fs_f",
+        "fs_F_mask",
+        "fs_f2",
+        "fs_F_maskEnd",
+        "fs_setup",
+        "fs_shine1",
+        "fs_shine2",
+        "h1_leaf",
+        "h1_leaf2",
+        "h1_stem",
+        "h1_grapes",
+        "h1_grape1",
+        "h1_grape2",
+        "h1_grape3",
+        "h1_grape4",
+        "h1_grape5",
+        "h1_grape6",
+        "h1_grape7",
+        "h1_grape18",
+        "h1_grape8",
+        "h1_grape9",
+        "h1_grape10",
+        "h1_grape11",
+        "h1_grape12",
+        "h1_grape13",
+        "h1_grape14",
+        "h1_grape15",
+        "h1_grape16",
+        "h1_grape17",
+        "h4_cherry_L",
+        "h4_cherry_L2",
+        "h4_highlight_L",
+        "h4_stem_R",
+        "h4_cherry_L_line",
+        "h4_leaf",
+        "h4_leaf2",
+        "h4_cherry_R",
+        "h4_cherry_R2",
+        "h4_highlight_R",
+        "h4_stem_L",
+        "h4_cherry_R_line",
+        "h3_bell_inside",
+        "h3_bell_inside2",
+        "h3_ball",
+        "h3_ball2",
+        "h3_bell_front",
+        "h3_bell_front2",
+        "h3_setup",
+        "spreada_bp_bg",
+        "spreada_bp_bg_transition",
+        "spreada_bp_ring",
+        "spreada_bp_ring6",
+        "spreada_bp_ring_inside2",
+        "spreada_bp_ring_inside7",
+        "spreada_bp_ring2",
+        "spreada_bp_ring__transition",
+        "spreada_bp_ring_inside3",
+        "spreada_bp_ring_inside_transition",
+        "spreada_bp_ring3",
+        "spreada_bp_ring_transition",
+        "spreada_bp_ring_inside4",
+        "spreada_bp_ring_inside_transition2",
+        "spread_bp_outerRing",
+        "spread_bp_outerRing_transition",
+        "spread_face_side",
+        "spread_face",
+        "spread_nose",
+        "spread_eye_L",
+        "spread_eye_R",
+        "spread_pupil_L",
+        "spread_pupil_L_transition",
+        "spread_pupil_R",
+        "spread_pupil_R_transition",
+        "spread_shine",
+        "spread_pupil_L2",
+        "spread_pupil_R2",
+        "spread_shine_end",
+        "multi_bp_bg",
+        "multi_bp_circle",
+        "multi_bp_center",
+        "multi_bp_outer",
+        "x",
+        "x2",
+        "x3",
+        "multi_setup",
+        "frame_guide_200x200px_(NOT EXPORTED)",
+        "low_1",
+        "low_2",
+        "low_3",
+        "low_4",
+        "high_1",
+        "high_2",
+        "high_7",
+        "high_3",
+        "high_4",
+        "high_5",
+        "high_6",
+        "fs",
+        "multi",
+        "spread_scale_bone",
+        "gold",
+        "coin3",
+        "coin",
+        "coin_shine",
+        "coin2",
+        "coin_shine_end",
+        "coin_shine_end2",
+        "diamond",
+        "diamond_mask",
+        "diamond2",
+        "diamond_maskEnd",
+        "silver",
+        "fs_bp_circle2",
+        "spark_1",
+        "spark_4",
+        "spark_2",
+        "spark_3"
+      ],
+      "pieces": [
+        {
+          "region": "bronze",
+          "file": "pieces/bronze-7a6048f2.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "2,1609,172,172",
+            "offsets": "11,13,194,198"
+          }
+        },
+        {
+          "region": "diamond",
+          "file": "pieces/diamond-1ee728bb.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1396,1709,194,156",
+            "offsets": "0,22,194,198"
+          }
+        },
+        {
+          "region": "fs",
+          "file": "pieces/fs-ee674d46.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1413,1500,185,186",
+            "offsets": "4,6,194,198"
+          }
+        },
+        {
+          "region": "fs_bp_bg",
+          "file": "pieces/fs-bp-bg-5a0dcf11.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "874,1549,174,175",
+            "offsets": "26,25,226,226"
+          }
+        },
+        {
+          "region": "fs_bp_bg_epic",
+          "file": "pieces/fs-bp-bg-epic-b2b8094a.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1050,1547,174,175",
+            "offsets": "26,25,226,226"
+          }
+        },
+        {
+          "region": "fs_bp_center",
+          "file": "pieces/fs-bp-center-783c7db8.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "757,1892,103,103",
+            "offsets": "62,57,226,226"
+          }
+        },
+        {
+          "region": "fs_bp_center_epic",
+          "file": "pieces/fs-bp-center-epic-afd368a1.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "862,1891,103,103",
+            "offsets": "62,57,226,226"
+          }
+        },
+        {
+          "region": "fs_bp_circle",
+          "file": "pieces/fs-bp-circle-267b2e63.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1445,1228,226,226"
+          }
+        },
+        {
+          "region": "fs_bp_circle_epic",
+          "file": "pieces/fs-bp-circle-epic-1b78252c.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1673,1228,226,226"
+          }
+        },
+        {
+          "region": "fs_bp_outer",
+          "file": "pieces/fs-bp-outer-1901c662.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "2,1157,226,226"
+          }
+        },
+        {
+          "region": "fs_bp_outer_epic",
+          "file": "pieces/fs-bp-outer-epic-38ed0abe.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "230,1148,226,226"
+          }
+        },
+        {
+          "region": "fs_epic",
+          "file": "pieces/fs-epic-914e3b4e.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1600,1456,194,198"
+          }
+        },
+        {
+          "region": "fs_epic_setup",
+          "file": "pieces/fs-epic-setup-00ceaa66.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "458,1141,226,226"
+          }
+        },
+        {
+          "region": "fs_f",
+          "file": "pieces/fs-f-c813e448.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1074,1877,90,111",
+            "offsets": "37,62,226,226"
+          }
+        },
+        {
+          "region": "fs_f_epic",
+          "file": "pieces/fs-f-epic-acb9459d.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1166,1875,90,111",
+            "offsets": "37,62,226,226"
+          }
+        },
+        {
+          "region": "fs_f_stroke",
+          "file": "pieces/fs-f-stroke-547e34ce.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1817,1846,102,121",
+            "offsets": "29,57,226,226"
+          }
+        },
+        {
+          "region": "fs_s",
+          "file": "pieces/fs-s-2332e988.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "686,1114,226,226"
+          }
+        },
+        {
+          "region": "fs_s_epic",
+          "file": "pieces/fs-s-epic-7ef86ca3.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "914,1093,226,226"
+          }
+        },
+        {
+          "region": "fs_s_stroke",
+          "file": "pieces/fs-s-stroke-4d8f0809.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1596,1865,99,117",
+            "offsets": "95,57,226,226"
+          }
+        },
+        {
+          "region": "fs_setup",
+          "file": "pieces/fs-setup-71034bf6.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1142,1046,226,226"
+          }
+        },
+        {
+          "region": "fs_shine1",
+          "file": "pieces/fs-shine1-703b8605.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1238,1988,60,58",
+            "offsets": "58,101,226,226"
+          }
+        },
+        {
+          "region": "fs_shine2",
+          "file": "pieces/fs-shine2-88f7e70b.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "52,1928,84,84",
+            "offsets": "104,126,226,226"
+          }
+        },
+        {
+          "region": "gold",
+          "file": "pieces/gold-4010b7ee.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "176,1600,172,172",
+            "offsets": "11,13,194,198"
+          }
+        },
+        {
+          "region": "h1_grape1",
+          "file": "pieces/h1-grape1-6169a769.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "119,2014,37,32",
+            "offsets": "72,49,226,226"
+          }
+        },
+        {
+          "region": "h1_grape10",
+          "file": "pieces/h1-grape10-55bbdca5.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1023,1994,53,52",
+            "offsets": "64,62,226,226"
+          }
+        },
+        {
+          "region": "h1_grape11",
+          "file": "pieces/h1-grape11-3542c235.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "617,1998,53,48",
+            "offsets": "48,95,226,226"
+          }
+        },
+        {
+          "region": "h1_grape12",
+          "file": "pieces/h1-grape12-f577d8d6.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "514,1999,52,47",
+            "offsets": "117,120,226,226"
+          }
+        },
+        {
+          "region": "h1_grape13",
+          "file": "pieces/h1-grape13-3a276be5.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "808,1997,51,49",
+            "offsets": "65,115,226,226"
+          }
+        },
+        {
+          "region": "h1_grape14",
+          "file": "pieces/h1-grape14-8264830d.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1102,1992,53,54",
+            "offsets": "63,84,226,226"
+          }
+        },
+        {
+          "region": "h1_grape15",
+          "file": "pieces/h1-grape15-eeb6c20a.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "914,1996,52,50",
+            "offsets": "117,87,226,226"
+          }
+        },
+        {
+          "region": "h1_grape16",
+          "file": "pieces/h1-grape16-6b180f08.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "568,1999,47,47",
+            "offsets": "94,61,226,226"
+          }
+        },
+        {
+          "region": "h1_grape17",
+          "file": "pieces/h1-grape17-cf87c503.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "968,1995,53,51",
+            "offsets": "92,112,226,226"
+          }
+        },
+        {
+          "region": "h1_grape2",
+          "file": "pieces/h1-grape2-c41ce1b4.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "329,2000,48,46",
+            "offsets": "93,14,226,226"
+          }
+        },
+        {
+          "region": "h1_grape3",
+          "file": "pieces/h1-grape3-84192fae.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "195,2009,41,37",
+            "offsets": "124,49,226,226"
+          }
+        },
+        {
+          "region": "h1_grape4",
+          "file": "pieces/h1-grape4-3b5d5509.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "278,2003,49,43",
+            "offsets": "105,36,226,226"
+          }
+        },
+        {
+          "region": "h1_grape5",
+          "file": "pieces/h1-grape5-0da460a8.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "238,2009,38,37",
+            "offsets": "141,123,226,226"
+          }
+        },
+        {
+          "region": "h1_grape6",
+          "file": "pieces/h1-grape6-41e069af.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "158,2014,35,32",
+            "offsets": "57,83,226,226"
+          }
+        },
+        {
+          "region": "h1_grape7",
+          "file": "pieces/h1-grape7-459d8215.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "672,1998,53,48",
+            "offsets": "115,63,226,226"
+          }
+        },
+        {
+          "region": "h1_grape8",
+          "file": "pieces/h1-grape8-078d20ca.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "861,1997,51,49",
+            "offsets": "135,98,226,226"
+          }
+        },
+        {
+          "region": "h1_grape9",
+          "file": "pieces/h1-grape9-4a93bbe8.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "379,2000,51,46",
+            "offsets": "81,33,226,226"
+          }
+        },
+        {
+          "region": "h1_grapes",
+          "file": "pieces/h1-grapes-ed601d3f.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1258,1870,100,115",
+            "offsets": "62,41,226,226"
+          }
+        },
+        {
+          "region": "h1_leaf",
+          "file": "pieces/h1-leaf-d36ca387.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "432,2000,80,46",
+            "offsets": "42,158,226,226"
+          }
+        },
+        {
+          "region": "h1_stem",
+          "file": "pieces/h1-stem-c5d306a7.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1564,1985,39,61",
+            "offsets": "109,148,226,226"
+          }
+        },
+        {
+          "region": "h3_ball",
+          "file": "pieces/h3-ball-4d2854f1.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1880,1969,59,77",
+            "offsets": "84,22,226,226"
+          }
+        },
+        {
+          "region": "h3_bell_front",
+          "file": "pieces/h3-bell-front-855529fd.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1592,1688,169,160",
+            "offsets": "29,46,226,226"
+          }
+        },
+        {
+          "region": "h3_bell_inside",
+          "file": "pieces/h3-bell-inside-872e83a8.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1400,1986,162,60",
+            "offsets": "32,31,226,226"
+          }
+        },
+        {
+          "region": "h3_setup",
+          "file": "pieces/h3-setup-4cbe64ec.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1370,1000,226,226"
+          }
+        },
+        {
+          "region": "h4_cherry_L",
+          "file": "pieces/h4-cherry-l-57dbcdc4.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1697,1850,118,118",
+            "offsets": "13,30,226,226"
+          }
+        },
+        {
+          "region": "h4_cherry_L_line",
+          "file": "pieces/h4-cherry-l-line-fd22b9c2.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "46,2016,38,30",
+            "offsets": "61,94,226,226"
+          }
+        },
+        {
+          "region": "h4_cherry_R",
+          "file": "pieces/h4-cherry-r-1bfdcde4.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "138,1922,100,85",
+            "offsets": "85,26,226,226"
+          }
+        },
+        {
+          "region": "h4_cherry_R_line",
+          "file": "pieces/h4-cherry-r-line-3b4c12db.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "2,2028,42,18",
+            "offsets": "116,87,226,226"
+          }
+        },
+        {
+          "region": "h4_highlight_L",
+          "file": "pieces/h4-highlight-l-eff977e1.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "86,2015,31,31",
+            "offsets": "32,96,226,226"
+          }
+        },
+        {
+          "region": "h4_highlight_R",
+          "file": "pieces/h4-highlight-r-95699c3f.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1078,1993,22,53",
+            "offsets": "99,47,226,226"
+          }
+        },
+        {
+          "region": "h4_leaf",
+          "file": "pieces/h4-leaf-debaa354.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "727,1998,79,48",
+            "offsets": "115,154,226,226"
+          }
+        },
+        {
+          "region": "h4_stem_L",
+          "file": "pieces/h4-stem-l-e5d5b4e7.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "695,1894,60,102",
+            "offsets": "87,95,226,226"
+          }
+        },
+        {
+          "region": "h4_stem_R",
+          "file": "pieces/h4-stem-r-12dd4b3b.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "2,1931,48,83",
+            "offsets": "75,103,226,226"
+          }
+        },
+        {
+          "region": "high_1",
+          "file": "pieces/high-1-00c6c58d.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1796,1456,194,198"
+          }
+        },
+        {
+          "region": "high_2",
+          "file": "pieces/high-2-9d805fdc.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "2,1400,194,198"
+          }
+        },
+        {
+          "region": "high_3",
+          "file": "pieces/high-3-c068444b.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "198,1385,194,198"
+          }
+        },
+        {
+          "region": "high_4",
+          "file": "pieces/high-4-5882c167.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "394,1376,194,198"
+          }
+        },
+        {
+          "region": "high_5",
+          "file": "pieces/high-5-62c30fd6.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "590,1369,194,198"
+          }
+        },
+        {
+          "region": "low_1",
+          "file": "pieces/low-1-19b2b2a7.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1921,1828,125,134",
+            "offsets": "66,61,257,257"
+          }
+        },
+        {
+          "region": "low_2",
+          "file": "pieces/low-2-7dd371e0.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "822,1744,119,145",
+            "offsets": "68,58,257,257"
+          }
+        },
+        {
+          "region": "low_3",
+          "file": "pieces/low-3-d53460fc.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "418,1759,136,136",
+            "offsets": "61,61,257,257"
+          }
+        },
+        {
+          "region": "low_4",
+          "file": "pieces/low-4-a3490062.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "694,1751,126,139",
+            "offsets": "64,58,257,257"
+          }
+        },
+        {
+          "region": "multi",
+          "file": "pieces/multi-ba4f6b30.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "786,1342,205,205",
+            "offsets": "1,1,207,207"
+          }
+        },
+        {
+          "region": "multi_bp_bg",
+          "file": "pieces/multi-bp-bg-a7464d04.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1763,1656,170,170"
+          }
+        },
+        {
+          "region": "multi_bp_center",
+          "file": "pieces/multi-bp-center-0b491d6c.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "592,1895,101,101"
+          }
+        },
+        {
+          "region": "multi_bp_circle",
+          "file": "pieces/multi-bp-circle-afd21ea6.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "943,1726,149,149"
+          }
+        },
+        {
+          "region": "multi_bp_outer",
+          "file": "pieces/multi-bp-outer-fb14d945.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "993,1321,224,224"
+          }
+        },
+        {
+          "region": "multi_setup",
+          "file": "pieces/multi-setup-823d99a0.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1219,1274,224,224"
+          }
+        },
+        {
+          "region": "silver",
+          "file": "pieces/silver-67ed61ec.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "350,1585,172,172",
+            "offsets": "11,13,194,198"
+          }
+        },
+        {
+          "region": "spark_1",
+          "file": "pieces/spark-1-9b568f04.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "2,1798,128,128"
+          }
+        },
+        {
+          "region": "spark_2",
+          "file": "pieces/spark-2-81b5daf9.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1724,1970,76,76"
+          }
+        },
+        {
+          "region": "spark_diamond_1",
+          "file": "pieces/spark-diamond-1-dddc5434.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "132,1783,128,128"
+          }
+        },
+        {
+          "region": "spark_diamond_2",
+          "file": "pieces/spark-diamond-2-e39d0bda.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1802,1970,76,76"
+          }
+        },
+        {
+          "region": "spread",
+          "file": "pieces/spread-3ae83a15.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1226,1522,185,185",
+            "offsets": "4,7,194,198"
+          }
+        },
+        {
+          "region": "spread_bp_outerRing",
+          "file": "pieces/spread-bp-outerring-ea3e7f9f.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1598,1000,226,226"
+          }
+        },
+        {
+          "region": "spread_bp_outerRing_epic",
+          "file": "pieces/spread-bp-outerring-epic-01a7d364.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "2,929,226,226"
+          }
+        },
+        {
+          "region": "spread_bp_ring_epic",
+          "file": "pieces/spread-bp-ring-epic-bf6acab4.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "556,1757,136,136"
+          }
+        },
+        {
+          "region": "spread_bp_ring_inside_epic",
+          "file": "pieces/spread-bp-ring-inside-epic-c8952783.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "967,1887,105,105"
+          }
+        },
+        {
+          "region": "spread_epic",
+          "file": "pieces/spread-epic-47148f8a.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "458,817,295,295",
+            "offsets": "6,6,307,307"
+          }
+        },
+        {
+          "region": "spread_eye_L",
+          "file": "pieces/spread-eye-l-9a106397.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1157,1990,35,56",
+            "offsets": "69,106,226,226"
+          }
+        },
+        {
+          "region": "spread_eye_R",
+          "file": "pieces/spread-eye-r-2e199e4e.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1194,1989,42,57",
+            "offsets": "116,104,226,226"
+          }
+        },
+        {
+          "region": "spread_face",
+          "file": "pieces/spread-face-4b0bf967.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "262,1774,154,129",
+            "offsets": "36,49,226,226"
+          }
+        },
+        {
+          "region": "spread_face_side",
+          "file": "pieces/spread-face-side-7b59878d.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "240,1913,148,85",
+            "offsets": "38,70,224,224"
+          }
+        },
+        {
+          "region": "spread_nose",
+          "file": "pieces/spread-nose-cc73b355.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "230,920,226,226"
+          }
+        },
+        {
+          "region": "spread_pupil_L",
+          "file": "pieces/spread-pupil-l-b8e365d8.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1664,1984,58,62",
+            "offsets": "60,98,226,226"
+          }
+        },
+        {
+          "region": "spread_pupil_L_epic",
+          "file": "pieces/spread-pupil-l-epic-ca5617f3.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1605,1985,57,61",
+            "offsets": "60,98,224,224"
+          }
+        },
+        {
+          "region": "spread_pupil_R",
+          "file": "pieces/spread-pupil-r-370d56bf.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1300,1987,48,59",
+            "offsets": "114,98,226,226"
+          }
+        },
+        {
+          "region": "spread_pupil_R_epic",
+          "file": "pieces/spread-pupil-r-epic-39b3b827.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1350,1987,48,59",
+            "offsets": "113,97,224,224"
+          }
+        },
+        {
+          "region": "spreada_bp_bg",
+          "file": "pieces/spreada-bp-bg-bdc6fde8.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "524,1576,173,173"
+          }
+        },
+        {
+          "region": "spreada_bp_bg_epic",
+          "file": "pieces/spreada-bp-bg-epic-b35281dd.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "699,1569,173,173"
+          }
+        },
+        {
+          "region": "spreada_bp_ring",
+          "file": "pieces/spreada-bp-ring-3d9faab3.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1094,1724,149,149"
+          }
+        },
+        {
+          "region": "spreada_bp_ring_epic",
+          "file": "pieces/spreada-bp-ring-epic-8ee5ce37.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1245,1717,149,149"
+          }
+        },
+        {
+          "region": "spreada_bp_ring_inside",
+          "file": "pieces/spreada-bp-ring-inside-72a37ae6.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1360,1868,116,116"
+          }
+        },
+        {
+          "region": "spreada_bp_ring_inside_epic",
+          "file": "pieces/spreada-bp-ring-inside-epic-49b55d52.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1478,1867,116,116"
+          }
+        },
+        {
+          "region": "x",
+          "file": "pieces/x-9a39e2b4.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "487,1897,103,100"
+          }
+        },
+        {
+          "region": "x2",
+          "file": "pieces/x2-8e60afb1.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "390,1905,95,93"
+          }
+        },
+        {
+          "region": "x3",
+          "file": "pieces/x3-f2c02b9b.png",
+          "page": "symbols.png",
+          "properties": {
+            "bounds": "1941,1964,85,82"
+          }
+        }
+      ],
+      "files": [
+        {
+          "file": "skeleton.json",
+          "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/symbols.json",
+          "sha256": "9a2b98ad9df385a63427da1303dd53e0f8d4fa85fea7666b66d4f59dfe336212",
+          "kind": "spine-json"
+        },
+        {
+          "file": "atlas-22f605e3.atlas",
+          "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/symbols.atlas",
+          "sha256": "22f605e3cdd18eb71469d8b1e11dd80be04fda438c408673e2f2613b8806bb84",
+          "kind": "spine-atlas"
+        },
+        {
+          "file": "originaux/56248014-symbols.ktx2",
+          "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/symbols.ktx2",
+          "sha256": "56248014e14e7e33b46277c9115864cd89ea38e91e82dfabd52f97136ccc2935",
+          "kind": "texture"
+        }
+      ],
+      "warnings": [],
+      "complete": true
+    },
+    {
+      "id": "animations/tv-0d6d19df",
+      "name": "tv",
+      "machine": "wicked-grin",
+      "format": "spine-json",
+      "version": "4.0.64",
+      "skeleton": "skeleton.json",
+      "previewAtlas": "atlas-8d6f85ba.atlas",
+      "pma": false,
+      "atlases": [
+        "atlas-8d6f85ba.atlas"
+      ],
+      "textures": [
+        "tv.png"
+      ],
+      "animations": [
+        {
+          "name": "noise",
+          "duration": 0.9,
+          "timelines": {
+            "slots": 1
+          }
+        },
+        {
+          "name": "setup",
+          "duration": 0,
+          "timelines": {}
+        }
+      ],
+      "skins": [
+        "default"
+      ],
+      "bones": [
+        "root",
+        "scale_all_bone"
+      ],
+      "slots": [
+        "tv_bg",
+        "noise_00",
+        "tv_frame"
+      ],
+      "pieces": [
+        {
+          "region": "noise_00",
+          "file": "pieces/noise-00-e3d2fdef.png",
+          "page": "tv.png",
+          "properties": {
+            "bounds": "2,542,187,154"
+          }
+        },
+        {
+          "region": "noise_01",
+          "file": "pieces/noise-01-84032312.png",
+          "page": "tv.png",
+          "properties": {
+            "bounds": "191,542,187,154"
+          }
+        },
+        {
+          "region": "noise_02",
+          "file": "pieces/noise-02-acc6135a.png",
+          "page": "tv.png",
+          "properties": {
+            "bounds": "216,782,187,154"
+          }
+        },
+        {
+          "region": "noise_03",
+          "file": "pieces/noise-03-d7f950dc.png",
+          "page": "tv.png",
+          "properties": {
+            "bounds": "380,626,187,154"
+          }
+        },
+        {
+          "region": "noise_04",
+          "file": "pieces/noise-04-a4104823.png",
+          "page": "tv.png",
+          "properties": {
+            "bounds": "405,782,187,154"
+          }
+        },
+        {
+          "region": "noise_05",
+          "file": "pieces/noise-05-c37ea82f.png",
+          "page": "tv.png",
+          "properties": {
+            "bounds": "380,470,187,154"
+          }
+        },
+        {
+          "region": "noise_06",
+          "file": "pieces/noise-06-1e462946.png",
+          "page": "tv.png",
+          "properties": {
+            "bounds": "2,386,187,154"
+          }
+        },
+        {
+          "region": "noise_07",
+          "file": "pieces/noise-07-b2e066b5.png",
+          "page": "tv.png",
+          "properties": {
+            "bounds": "191,386,187,154"
+          }
+        },
+        {
+          "region": "noise_08",
+          "file": "pieces/noise-08-d0ef9b77.png",
+          "page": "tv.png",
+          "properties": {
+            "bounds": "380,314,187,154"
+          }
+        },
+        {
+          "region": "noise_09",
+          "file": "pieces/noise-09-b8b86a19.png",
+          "page": "tv.png",
+          "properties": {
+            "bounds": "2,230,187,154"
+          }
+        },
+        {
+          "region": "noise_10",
+          "file": "pieces/noise-10-4eb2b529.png",
+          "page": "tv.png",
+          "properties": {
+            "bounds": "191,230,187,154"
+          }
+        },
+        {
+          "region": "noise_11",
+          "file": "pieces/noise-11-5f20a3d3.png",
+          "page": "tv.png",
+          "properties": {
+            "bounds": "380,158,187,154"
+          }
+        },
+        {
+          "region": "noise_12",
+          "file": "pieces/noise-12-d7732f49.png",
+          "page": "tv.png",
+          "properties": {
+            "bounds": "2,74,187,154"
+          }
+        },
+        {
+          "region": "noise_13",
+          "file": "pieces/noise-13-806bd241.png",
+          "page": "tv.png",
+          "properties": {
+            "bounds": "191,74,187,154"
+          }
+        },
+        {
+          "region": "tv_bg",
+          "file": "pieces/tv-bg-b88e067f.png",
+          "page": "tv.png",
+          "properties": {
+            "bounds": "380,2,187,154"
+          }
+        },
+        {
+          "region": "tv_frame",
+          "file": "pieces/tv-frame-090b17b4.png",
+          "page": "tv.png",
+          "properties": {
+            "bounds": "2,698,212,238"
+          }
+        }
+      ],
+      "files": [
+        {
+          "file": "skeleton.json",
+          "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.json",
+          "sha256": "0d6d19df46bdc3a82e910fcbd863e1fae2a8ed58c07ea696a17ccf2f3dd8eb8b",
+          "kind": "spine-json"
+        },
+        {
+          "file": "atlas-8d6f85ba.atlas",
+          "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.atlas",
+          "sha256": "8d6f85bac4721a4726462c243b172c3aba5dbc08cfa774d9539e0f02fcd2e6d3",
+          "kind": "spine-atlas"
+        },
+        {
+          "file": "originaux/385648ad-tv.ktx2",
+          "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/tv.ktx2",
+          "sha256": "385648ad2d8a5264afc77540d109f128228d5342464b64fd4675479b468548e1",
+          "kind": "texture"
+        }
+      ],
+      "warnings": [],
+      "complete": true
+    },
+    {
+      "id": "animations/wintiers-5142087d",
+      "name": "wintiers",
+      "machine": "wicked-grin",
+      "format": "spine-json",
+      "version": "4.0.64",
+      "skeleton": "skeleton.json",
+      "previewAtlas": "atlas-c5cb2993.atlas",
+      "pma": false,
+      "atlases": [
+        "atlas-c5cb2993.atlas"
+      ],
+      "textures": [
+        "wintiers.png"
+      ],
+      "animations": [
+        {
+          "name": "bw_idle",
+          "duration": 0,
+          "timelines": {
+            "slots": 12
+          }
+        },
+        {
+          "name": "bw_trigger",
+          "duration": 1.333,
+          "timelines": {
+            "bones": 7,
+            "slots": 12
+          }
+        },
+        {
+          "name": "ew_idle",
+          "duration": 0,
+          "timelines": {
+            "bones": 19,
+            "slots": 51
+          }
+        },
+        {
+          "name": "ew_trigger",
+          "duration": 1.5,
+          "timelines": {
+            "bones": 27,
+            "slots": 51
+          }
+        },
+        {
+          "name": "idle",
+          "duration": 1.333,
+          "timelines": {
+            "bones": 25
+          }
+        },
+        {
+          "name": "mw_idle",
+          "duration": 0,
+          "timelines": {
+            "bones": 4,
+            "slots": 20
+          }
+        },
+        {
+          "name": "mw_trigger",
+          "duration": 1.3,
+          "timelines": {
+            "bones": 13,
+            "slots": 20
+          }
+        },
+        {
+          "name": "smw_idle",
+          "duration": 0,
+          "timelines": {
+            "bones": 14,
+            "slots": 37
+          }
+        },
+        {
+          "name": "smw_trigger",
+          "duration": 1.533,
+          "timelines": {
+            "bones": 26,
+            "slots": 37
+          }
+        }
+      ],
+      "skins": [
+        "default"
+      ],
+      "bones": [
+        "root",
+        "scale_all_bone",
+        "bw",
+        "mw",
+        "smw",
+        "ew",
+        "bw_txt1",
+        "bw_txt2",
+        "bw_txt3",
+        "bw_txt4",
+        "bw_txt5",
+        "bw_txt6",
+        "bw_shadow6",
+        "bw_shadow5",
+        "bw_shadow4",
+        "bw_shadow3",
+        "bw_shadow2",
+        "bw_shadow1",
+        "mw_txt1",
+        "mw_txt2",
+        "mw_txt3",
+        "mw_txt4",
+        "mw_txt5",
+        "mw_txt6",
+        "mw_txt7",
+        "mw_shadow7",
+        "mw_shadow6",
+        "mw_shadow5",
+        "mw_shadow4",
+        "mw_shadow3",
+        "mw_shadow2",
+        "mw_shadow1",
+        "smw_txt1",
+        "smw_txt2",
+        "smw_txt3",
+        "smw_txt4",
+        "smw_txt5",
+        "smw_shadow1",
+        "smw_shadow2",
+        "smw_shadow3",
+        "smw_shadow4",
+        "smw_shadow5",
+        "ew_txt1",
+        "ew_txt2",
+        "ew_txt3",
+        "ew_txt4",
+        "ew_txt5",
+        "ew_txt6",
+        "ew_txt7",
+        "ew_shadow7",
+        "ew_shadow6",
+        "ew_shadow5",
+        "ew_shadow4",
+        "ew_shadow3",
+        "ew_shadow2",
+        "ew_shadow1",
+        "ew_txt1_idle",
+        "ew_glow1",
+        "ew_txt2_idle",
+        "ew_glow2",
+        "ew_txt3_idle",
+        "ew_glow3",
+        "ew_txt4_idle",
+        "ew_glow4",
+        "ew_txt5_idle",
+        "ew_glow5",
+        "ew_txt6_idle",
+        "ew_glow6",
+        "ew_txt7_idle",
+        "ew_glow7",
+        "bw_txt1_idle",
+        "bw_txt2_idle",
+        "bw_txt3_idle",
+        "bw_txt4_idle",
+        "bw_txt5_idle",
+        "bw_txt6_idle",
+        "mw_txt1_idle",
+        "mw_txt2_idle",
+        "mw_txt3_idle",
+        "mw_txt4_idle",
+        "mw_txt5_idle",
+        "mw_txt6_idle",
+        "mw_txt7_idle",
+        "smw_txt1_idle",
+        "smw_txt2_idle",
+        "smw_txt3_idle",
+        "smw_txt4_idle",
+        "smw_txt5_idle"
+      ],
+      "slots": [
+        "bw_shadow1",
+        "bw_shadow2",
+        "bw_shadow3",
+        "bw_shadow4",
+        "bw_shadow5",
+        "bw_shadow6",
+        "bw_txt1",
+        "bw_txt2",
+        "bw_txt3",
+        "bw_txt4",
+        "bw_txt5",
+        "bw_txt6",
+        "mw_shadow1",
+        "mw_shadow2",
+        "mw_shadow3",
+        "mw_shadow4",
+        "mw_shadow5",
+        "mw_shadow6",
+        "mw_shadow7",
+        "mw_txt1",
+        "mw_txt2",
+        "mw_txt3",
+        "mw_txt4",
+        "mw_txt5",
+        "mw_txt6",
+        "mw_txt7",
+        "s_shadow1",
+        "s_shadow2",
+        "s_shadow3",
+        "s_shadow4",
+        "s_shadow5",
+        "s_txt1",
+        "s_txt2",
+        "s_txt3",
+        "s_txt4",
+        "s_txt5",
+        "ew_shadow1",
+        "ew_shadow2",
+        "ew_shadow3",
+        "ew_shadow4",
+        "ew_shadow5",
+        "ew_shadow6",
+        "ew_shadow7",
+        "ew_txt1",
+        "ew_txt2",
+        "ew_txt3",
+        "ew_txt4",
+        "ew_txt5",
+        "ew_txt6",
+        "ew_txt7",
+        "ew_glow1",
+        "ew_glow2",
+        "ew_glow3",
+        "ew_glow4",
+        "ew_glow5",
+        "ew_glow6",
+        "ew_glow7"
+      ],
+      "pieces": [
+        {
+          "region": "bw_shadow1",
+          "file": "pieces/bw-shadow1-aa537c3e.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "2,79,153,202"
+          }
+        },
+        {
+          "region": "bw_shadow2",
+          "file": "pieces/bw-shadow2-635b48b2.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "767,363,75,144"
+          }
+        },
+        {
+          "region": "bw_shadow5",
+          "file": "pieces/bw-shadow5-7695a214.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "767,363,75,144"
+          }
+        },
+        {
+          "region": "mw_shadow6",
+          "file": "pieces/mw-shadow6-4abc16bd.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "767,363,75,144"
+          }
+        },
+        {
+          "region": "bw_shadow3",
+          "file": "pieces/bw-shadow3-34dafbb2.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "544,120,112,167"
+          }
+        },
+        {
+          "region": "mw_shadow3",
+          "file": "pieces/mw-shadow3-2954a712.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "544,120,112,167"
+          }
+        },
+        {
+          "region": "bw_shadow4",
+          "file": "pieces/bw-shadow4-7a2a9701.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "333,584,151,156"
+          }
+        },
+        {
+          "region": "mw_shadow5",
+          "file": "pieces/mw-shadow5-3d6db8eb.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "333,584,151,156"
+          }
+        },
+        {
+          "region": "bw_shadow6",
+          "file": "pieces/bw-shadow6-68151b75.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "500,749,114,111"
+          }
+        },
+        {
+          "region": "bw_txt1",
+          "file": "pieces/bw-txt1-cc634d7c.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "486,447,112,161"
+          }
+        },
+        {
+          "region": "bw_txt2",
+          "file": "pieces/bw-txt2-d79c254b.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "830,778,35,105"
+          }
+        },
+        {
+          "region": "bw_txt3",
+          "file": "pieces/bw-txt3-297e6b14.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "716,509,71,126"
+          }
+        },
+        {
+          "region": "bw_txt4",
+          "file": "pieces/bw-txt4-299d21d6.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "297,95,112,116"
+          }
+        },
+        {
+          "region": "bw_txt5",
+          "file": "pieces/bw-txt5-2b193bde.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "830,671,35,105"
+          }
+        },
+        {
+          "region": "bw_txt6",
+          "file": "pieces/bw-txt6-97d86aa1.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "81,7,74,70"
+          }
+        },
+        {
+          "region": "ew_glow1",
+          "file": "pieces/ew-glow1-8e5e1350.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "2,478,187,238"
+          }
+        },
+        {
+          "region": "ew_glow2",
+          "file": "pieces/ew-glow2-a20fa118.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "191,542,140,179"
+          }
+        },
+        {
+          "region": "ew_glow3",
+          "file": "pieces/ew-glow3-c0d32090.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "658,125,93,186"
+          }
+        },
+        {
+          "region": "ew_glow6",
+          "file": "pieces/ew-glow6-1077e0cd.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "658,125,93,186"
+          }
+        },
+        {
+          "region": "ew_glow4",
+          "file": "pieces/ew-glow4-a238560b.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "447,289,125,150"
+          }
+        },
+        {
+          "region": "ew_glow5",
+          "file": "pieces/ew-glow5-ad7f9a32.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "183,817,196,200"
+          }
+        },
+        {
+          "region": "ew_glow7",
+          "file": "pieces/ew-glow7-d2fb2c59.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "338,441,146,141"
+          }
+        },
+        {
+          "region": "ew_shadow1",
+          "file": "pieces/ew-shadow1-c88e2328.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "2,718,179,299"
+          }
+        },
+        {
+          "region": "ew_shadow2",
+          "file": "pieces/ew-shadow2-a539f76d.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "411,40,131,171"
+          }
+        },
+        {
+          "region": "ew_shadow3",
+          "file": "pieces/ew-shadow3-46c1571e.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "680,318,85,177"
+          }
+        },
+        {
+          "region": "ew_shadow4",
+          "file": "pieces/ew-shadow4-163ed840.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "532,877,117,140"
+          }
+        },
+        {
+          "region": "ew_shadow5",
+          "file": "pieces/ew-shadow5-999accbf.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "2,283,187,193"
+          }
+        },
+        {
+          "region": "ew_shadow6",
+          "file": "pieces/ew-shadow6-c9856bcb.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "753,139,85,177"
+          }
+        },
+        {
+          "region": "ew_shadow7",
+          "file": "pieces/ew-shadow7-557395b8.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "486,610,138,133"
+          }
+        },
+        {
+          "region": "ew_txt1",
+          "file": "pieces/ew-txt1-bf21ff23.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "157,94,138,187"
+          }
+        },
+        {
+          "region": "ew_txt2",
+          "file": "pieces/ew-txt2-1cacd047.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "763,885,89,132"
+          }
+        },
+        {
+          "region": "ew_txt3",
+          "file": "pieces/ew-txt3-b8ec3ca7.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "789,521,44,138"
+          }
+        },
+        {
+          "region": "ew_txt4",
+          "file": "pieces/ew-txt4-79bcb30f.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "736,661,77,100"
+          }
+        },
+        {
+          "region": "ew_txt5",
+          "file": "pieces/ew-txt5-c37b50a7.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "297,213,148,153"
+          }
+        },
+        {
+          "region": "ew_txt6",
+          "file": "pieces/ew-txt6-e1a00f9c.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "840,223,44,138"
+          }
+        },
+        {
+          "region": "ew_txt7",
+          "file": "pieces/ew-txt7-391acbd0.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "183,723,97,92"
+          }
+        },
+        {
+          "region": "mw_shadow1",
+          "file": "pieces/mw-shadow1-82fc3896.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "381,862,149,155"
+          }
+        },
+        {
+          "region": "mw_shadow2",
+          "file": "pieces/mw-shadow2-fcf1852b.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "616,753,105,122"
+          }
+        },
+        {
+          "region": "s_shadow4",
+          "file": "pieces/s-shadow4-8dae66df.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "616,753,105,122"
+          }
+        },
+        {
+          "region": "mw_shadow4",
+          "file": "pieces/mw-shadow4-c9b29d85.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "381,745,117,115"
+          }
+        },
+        {
+          "region": "mw_shadow7",
+          "file": "pieces/mw-shadow7-7c7865d7.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "600,497,114,111"
+          }
+        },
+        {
+          "region": "mw_txt1",
+          "file": "pieces/mw-txt1-928937e0.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "626,637,108,114"
+          }
+        },
+        {
+          "region": "mw_txt2",
+          "file": "pieces/mw-txt2-8c9a55d0.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "157,10,64,82"
+          }
+        },
+        {
+          "region": "mw_txt3",
+          "file": "pieces/mw-txt3-c43eab64.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "758,11,71,126"
+          }
+        },
+        {
+          "region": "mw_txt4",
+          "file": "pieces/mw-txt4-fa391bdb.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "2,2,77,75"
+          }
+        },
+        {
+          "region": "mw_txt5",
+          "file": "pieces/mw-txt5-e2005d5c.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "544,2,112,116"
+          }
+        },
+        {
+          "region": "mw_txt6",
+          "file": "pieces/mw-txt6-c1eba659.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "854,912,35,105"
+          }
+        },
+        {
+          "region": "mw_txt7",
+          "file": "pieces/mw-txt7-03263492.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "289,22,74,70"
+          }
+        },
+        {
+          "region": "s_shadow1",
+          "file": "pieces/s-shadow1-eef538f7.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "191,368,145,172"
+          }
+        },
+        {
+          "region": "s_shadow2",
+          "file": "pieces/s-shadow2-5c93c816.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "723,763,105,112"
+          }
+        },
+        {
+          "region": "s_shadow3",
+          "file": "pieces/s-shadow3-051f2e3a.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "651,877,110,140"
+          }
+        },
+        {
+          "region": "s_shadow5",
+          "file": "pieces/s-shadow5-7850d507.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "658,13,98,110"
+          }
+        },
+        {
+          "region": "s_txt1",
+          "file": "pieces/s-txt1-f051b8a7.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "574,313,104,132"
+          }
+        },
+        {
+          "region": "s_txt2",
+          "file": "pieces/s-txt2-6aca4fc3.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "282,742,64,73"
+          }
+        },
+        {
+          "region": "s_txt3",
+          "file": "pieces/s-txt3-b471bfd9.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "831,37,68,100"
+          }
+        },
+        {
+          "region": "s_txt4",
+          "file": "pieces/s-txt4-c085236b.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "223,10,64,82"
+          }
+        },
+        {
+          "region": "s_txt5",
+          "file": "pieces/s-txt5-5374ec6a.png",
+          "page": "wintiers.png",
+          "properties": {
+            "bounds": "191,296,57,70"
+          }
+        }
+      ],
+      "files": [
+        {
+          "file": "skeleton.json",
+          "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.json",
+          "sha256": "5142087d7101a73045f93698f51db0c0e1469d181dba8b4823d3f4e10cb65b71",
+          "kind": "spine-json"
+        },
+        {
+          "file": "atlas-c5cb2993.atlas",
+          "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.atlas",
+          "sha256": "c5cb299323cc9189406c3704a6c92f1905e89f1547602de9881857e0c270c47c",
+          "kind": "spine-atlas"
+        },
+        {
+          "file": "originaux/9713f68c-wintiers.ktx2",
+          "source": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/hd/spine/wintiers.ktx2",
+          "sha256": "9713f68c13c18870eb16623348b3d6aadbb45e07fa31eb58f03abf7755b75a5d",
+          "kind": "texture"
+        }
+      ],
+      "warnings": [],
+      "complete": true
+    }
+  ],
+  "ignored": [
+    {
+      "file": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/default/common/font/localized/fr-fr/wicked_mouse.json",
+      "kind": "json",
+      "reason": "Pas de contenu visuel reconnu"
+    },
+    {
+      "file": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/assets/desc.json",
+      "kind": "json",
+      "reason": "Pas de contenu visuel reconnu"
+    },
+    {
+      "file": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/casino/desc-locale.json",
+      "kind": "json",
+      "reason": "Pas de contenu visuel reconnu"
+    },
+    {
+      "file": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/casino/locale/fr-fr/fr-fr.json",
+      "kind": "json",
+      "reason": "Pas de contenu visuel reconnu"
+    },
+    {
+      "file": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/dependencies.json",
+      "kind": "json",
+      "reason": "Pas de contenu visuel reconnu"
+    },
+    {
+      "file": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/locale/fr-fr/fr-fr.json",
+      "kind": "json",
+      "reason": "Pas de contenu visuel reconnu"
+    },
+    {
+      "file": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/1.43.1/meta.json",
+      "kind": "json",
+      "reason": "Pas de contenu visuel reconnu"
+    },
+    {
+      "file": "raw/d1oa92ndvzdrfz.cloudfront.net/2347/version.json",
+      "kind": "json",
+      "reason": "Pas de contenu visuel reconnu"
+    },
+    {
+      "file": "raw/d1oa92ndvzdrfz.cloudfront.net/api/meta/gameInfo",
+      "kind": "json",
+      "reason": "Pas de contenu visuel reconnu"
+    },
+    {
+      "file": "raw/d1oa92ndvzdrfz.cloudfront.net/integrations/currency/currencies.json",
+      "kind": "json",
+      "reason": "Pas de contenu visuel reconnu"
+    },
+    {
+      "file": "raw/d1oa92ndvzdrfz.cloudfront.net/launcher/configs/stake.json",
+      "kind": "json",
+      "reason": "Pas de contenu visuel reconnu"
+    },
+    {
+      "file": "raw/inference.api.useinsider.com/predict",
+      "kind": "json",
+      "reason": "Pas de contenu visuel reconnu"
+    },
+    {
+      "file": "raw/tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production",
+      "kind": "json",
+      "reason": "Pas de contenu visuel reconnu"
+    },
+    {
+      "file": "raw/tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production__2948f290",
+      "kind": "json",
+      "reason": "Pas de contenu visuel reconnu"
+    },
+    {
+      "file": "raw/tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production__6be46135",
+      "kind": "json",
+      "reason": "Pas de contenu visuel reconnu"
+    },
+    {
+      "file": "raw/tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production__6d6e729e",
+      "kind": "json",
+      "reason": "Pas de contenu visuel reconnu"
+    },
+    {
+      "file": "raw/tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production__ba58964c",
+      "kind": "json",
+      "reason": "Pas de contenu visuel reconnu"
+    },
+    {
+      "file": "raw/tdrhge4k.apicdn.sanity.io/v2023-03-26/data/query/stake-com-production__e2f9214e",
+      "kind": "json",
+      "reason": "Pas de contenu visuel reconnu"
+    }
+  ],
+  "issues": [],
+  "sourceFiles": 121
+}

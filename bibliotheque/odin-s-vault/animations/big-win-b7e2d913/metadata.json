@@ -1,0 +1,648 @@
+{
+  "id": "animations/big-win-b7e2d913",
+  "name": "big_win",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-c637c89f.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-c637c89f.atlas"
+  ],
+  "textures": [
+    "big_win.webp",
+    "big_win_2.webp"
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 40,
+        "slots": 40
+      }
+    },
+    {
+      "name": "in",
+      "duration": 1.133,
+      "timelines": {
+        "bones": 49,
+        "slots": 65
+      }
+    },
+    {
+      "name": "out",
+      "duration": 0.467,
+      "timelines": {
+        "bones": 44,
+        "slots": 64
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "PopUp",
+    "numbers",
+    "Arrow",
+    "Ship",
+    "PopUp_Pivot",
+    "Rays",
+    "Glow",
+    "Glow2",
+    "Ship2",
+    "Ship3",
+    "Titles",
+    "Ship4",
+    "Ship5",
+    "Ship9",
+    "PopUp_Pivot2",
+    "PopUp_Pivot3",
+    "PopUp_Pivot4",
+    "PopUp_Pivot5",
+    "PopUp_Pivot6",
+    "PopUp_Pivot7",
+    "PopUp_Pivot8",
+    "Shield",
+    "PopUp_Pivot9",
+    "Shield3",
+    "numbers2",
+    "Drops",
+    "DropsR",
+    "PopUp_Pivot10",
+    "PopUp_Pivot11",
+    "PopUp_Pivot12",
+    "DropsL",
+    "PopUp_Pivot13",
+    "PopUp_Pivot14",
+    "Stars1",
+    "Rays2",
+    "Rays3",
+    "Rays4",
+    "Count_Bone",
+    "Stars1_1",
+    "Stars1_2",
+    "Stars1_3",
+    "Stars1_4",
+    "Stars1_5",
+    "Stars1_6",
+    "Stars1_7",
+    "Stars1_8",
+    "Stars2",
+    "Stars1_9",
+    "Stars1_10",
+    "Stars1_11",
+    "Stars1_12",
+    "Stars1_13",
+    "Stars1_14",
+    "Stars1_15",
+    "Stars1_16",
+    "Ship6",
+    "splash"
+  ],
+  "slots": [
+    "big_effect_blue",
+    "big_effect_blue4",
+    "big_effect_blue2",
+    "big_effect_blue3",
+    "glow_ship_big_win_main",
+    "big_particles_1",
+    "big_particles_9",
+    "big_particles_2",
+    "big_particles_10",
+    "big_particles_3",
+    "big_particles_11",
+    "big_particles_4",
+    "big_particles_12",
+    "big_particles_5",
+    "big_particles_13",
+    "big_particles_6",
+    "big_particles_14",
+    "big_particles_7",
+    "big_particles_15",
+    "big_particles_8",
+    "big_particles_16",
+    "base",
+    "FrameR",
+    "FrameL",
+    "SheildTop",
+    "SymbolT",
+    "SymbolGlowT",
+    "letter_corner_l",
+    "letter_corner_r",
+    "letter_corner_l_glow",
+    "letter_corner_r_glow",
+    "big_shadow",
+    "Ship",
+    "Sheild",
+    "Sheild3",
+    "letters_r",
+    "letters_r3",
+    "GlowSheildRound1",
+    "GlowSheildRound5",
+    "GlowSheildRound2",
+    "GlowSheildRound6",
+    "frame_letter_r_2",
+    "frame_letter_r_1",
+    "frame_letter_l_2",
+    "frame_letter_l_1",
+    "frame_letter_r_1_glow",
+    "frame_letter_l_2_glow",
+    "frame_letter_l_1_glow",
+    "frame_letter_r_2_glow",
+    "wave_r",
+    "drop_r_2",
+    "drop_r_1",
+    "drop_l_3",
+    "wave_l",
+    "drop_l_2",
+    "drop_l_1",
+    "big",
+    "win_shadow",
+    "win",
+    "Color1",
+    "Color2",
+    "arrow_under_numbers",
+    "numbers",
+    "glow_arrow_under_numbers",
+    "splash"
+  ],
+  "pieces": [
+    {
+      "region": "Color1",
+      "file": "pieces/color1-1a4800d7.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "1151,1410,607,173"
+      }
+    },
+    {
+      "region": "Color2",
+      "file": "pieces/color2-466217e6.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "2,1713,607,104"
+      }
+    },
+    {
+      "region": "FrameL",
+      "file": "pieces/framel-bd90578f.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "1678,931,352,477"
+      }
+    },
+    {
+      "region": "FrameR",
+      "file": "pieces/framer-f3a4f5c5.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "405,750,356,477",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "GlowSheildRound1",
+      "file": "pieces/glowsheildround1-19f36618.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "881,1670,137,136"
+      }
+    },
+    {
+      "region": "GlowSheildRound2",
+      "file": "pieces/glowsheildround2-de8ef18f.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "1680,1585,168,168"
+      }
+    },
+    {
+      "region": "Sheild",
+      "file": "pieces/sheild-28cd0421.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "745,1672,134,134"
+      }
+    },
+    {
+      "region": "SheildTop",
+      "file": "pieces/sheildtop-7a107fc7.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "597,1507,270,163"
+      }
+    },
+    {
+      "region": "SymbolGlowT",
+      "file": "pieces/symbolglowt-9da87479.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "611,1675,131,132",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "SymbolT",
+      "file": "pieces/symbolt-37bad642.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "1865,1744,117,118",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "arrow_under_numbers",
+      "file": "pieces/arrow-under-numbers-11ba57b5.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "622,1808,540,53"
+      }
+    },
+    {
+      "region": "base",
+      "file": "pieces/base-4c687bcf.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "884,673,650,424"
+      }
+    },
+    {
+      "region": "big",
+      "file": "pieces/big-be81ce71.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "1850,1510,232,172",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "big_particles_1",
+      "file": "pieces/big-particles-1-2b24d7a7.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "1205,1099,471,309",
+        "offsets": "65,0,1135,748"
+      }
+    },
+    {
+      "region": "big_shadow",
+      "file": "pieces/big-shadow-b3cfd233.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "869,1436,280,171"
+      }
+    },
+    {
+      "region": "drop_l_1",
+      "file": "pieces/drop-l-1-bdfabe14.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "301,1832,34,29"
+      }
+    },
+    {
+      "region": "drop_l_2",
+      "file": "pieces/drop-l-2-27df81ca.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "136,1838,23,23"
+      }
+    },
+    {
+      "region": "drop_l_3",
+      "file": "pieces/drop-l-3-7942ffc3.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "269,1833,28,30",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_r_1",
+      "file": "pieces/drop-r-1-12984d95.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "161,1838,24,23"
+      }
+    },
+    {
+      "region": "drop_r_2",
+      "file": "pieces/drop-r-2-c1e8ec4e.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "241,1836,26,25"
+      }
+    },
+    {
+      "region": "frame_letter_l_1",
+      "file": "pieces/frame-letter-l-1-bfab5ab7.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "34,1843,18,32",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_letter_l_1_glow",
+      "file": "pieces/frame-letter-l-1-glow-204b908f.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "459,1822,39,53",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_letter_l_2",
+      "file": "pieces/frame-letter-l-2-de4753f8.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "2,1847,14,30",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_letter_l_2_glow",
+      "file": "pieces/frame-letter-l-2-glow-013aeaef.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "406,1827,34,51",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_letter_r_1",
+      "file": "pieces/frame-letter-r-1-55bda786.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "68,1841,20,35",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_letter_r_1_glow",
+      "file": "pieces/frame-letter-r-1-glow-bce44f00.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "514,1820,41,54",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_letter_r_2",
+      "file": "pieces/frame-letter-r-2-7933d505.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "105,1839,22,29",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_letter_r_2_glow",
+      "file": "pieces/frame-letter-r-2-glow-e837bbc3.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "570,1819,42,50",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "glow_arrow_under_numbers",
+      "file": "pieces/glow-arrow-under-numbers-1360ca89.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "1164,1758,590,103"
+      }
+    },
+    {
+      "region": "glow_ship_big_win_main",
+      "file": "pieces/glow-ship-big-win-main-e682dde2.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "793,1108,410,300"
+      }
+    },
+    {
+      "region": "letter_corner_l",
+      "file": "pieces/letter-corner-l-1964e6f7.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "187,1838,25,23"
+      }
+    },
+    {
+      "region": "letter_corner_l_glow",
+      "file": "pieces/letter-corner-l-glow-3f74ce05.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "337,1830,32,31"
+      }
+    },
+    {
+      "region": "letter_corner_r",
+      "file": "pieces/letter-corner-r-3ce3dc3a.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "214,1838,25,23"
+      }
+    },
+    {
+      "region": "letter_corner_r_glow",
+      "file": "pieces/letter-corner-r-glow-19ef5b3d.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "371,1830,33,31"
+      }
+    },
+    {
+      "region": "letters_r",
+      "file": "pieces/letters-r-ae586963.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "1756,1755,107,106"
+      }
+    },
+    {
+      "region": "splash_seq/splash_00",
+      "file": "pieces/splash-seq-splash-00-d4f67ac9.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "2,1337,213,213",
+        "offsets": "267,271,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_01",
+      "file": "pieces/splash-seq-splash-01-f1af9cae.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "217,1311,242,239",
+        "offsets": "251,258,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_02",
+      "file": "pieces/splash-seq-splash-02-25134c6b.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "461,1188,330,317",
+        "offsets": "209,211,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_03",
+      "file": "pieces/splash-seq-splash-03-097315a1.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "2,934,401,375",
+        "offsets": "167,184,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_04",
+      "file": "pieces/splash-seq-splash-04-d5ed74e4.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "1536,505,467,424",
+        "offsets": "125,163,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_05",
+      "file": "pieces/splash-seq-splash-05-d8035634.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "2,307,490,441",
+        "offsets": "111,156,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_06",
+      "file": "pieces/splash-seq-splash-06-595220a4.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "494,214,514,457",
+        "offsets": "97,151,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_07",
+      "file": "pieces/splash-seq-splash-07-d69aa64d.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "1010,143,528,476",
+        "offsets": "90,141,750,750",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "splash_seq/splash_08",
+      "file": "pieces/splash-seq-splash-08-c921438a.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "1488,2,547,501",
+        "offsets": "81,128,750,750"
+      }
+    },
+    {
+      "region": "wave_l",
+      "file": "pieces/wave-l-f9cbfed2.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "1020,1609,391,147"
+      }
+    },
+    {
+      "region": "wave_r",
+      "file": "pieces/wave-r-831e9cea.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "2,1552,373,159"
+      }
+    },
+    {
+      "region": "win",
+      "file": "pieces/win-89583be3.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "1413,1598,265,158"
+      }
+    },
+    {
+      "region": "win_shadow",
+      "file": "pieces/win-shadow-a8317115.png",
+      "page": "big_win.webp",
+      "properties": {
+        "bounds": "377,1552,218,159"
+      }
+    },
+    {
+      "region": "Ship",
+      "file": "pieces/ship-663075b7.png",
+      "page": "big_win_2.webp",
+      "properties": {
+        "bounds": "2,647,936,524",
+        "offsets": "0,0,936,533"
+      }
+    },
+    {
+      "region": "big_effect_blue",
+      "file": "pieces/big-effect-blue-18f7785a.png",
+      "page": "big_win_2.webp",
+      "properties": {
+        "bounds": "2,2,707,643",
+        "offsets": "0,3,707,646"
+      }
+    },
+    {
+      "region": "splash_seq/splash_09",
+      "file": "pieces/splash-seq-splash-09-3e99a62d.png",
+      "page": "big_win_2.webp",
+      "properties": {
+        "bounds": "940,600,571,523",
+        "offsets": "69,116,750,750",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "splash_seq/splash_10",
+      "file": "pieces/splash-seq-splash-10-d6abcbbc.png",
+      "page": "big_win_2.webp",
+      "properties": {
+        "bounds": "711,50,600,548",
+        "offsets": "53,102,750,750"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/big_win.json",
+      "sha256": "b7e2d9131b866e901d776b30cb98faae40de33a4ec317dfdff008aaca4cb7580",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-c637c89f.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/big_win.atlas",
+      "sha256": "c637c89f7bc587af18b619bd24420330daacdc745b193628d03aaed19667d42b",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "big_win.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/big_win.webp",
+      "sha256": "329e339d0682d76ff7f4c813c941b374ad6babe4aaf2c3e0158fed03ba6ede1b",
+      "kind": "image"
+    },
+    {
+      "file": "big_win_2.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/win_popups/big_win_2.webp",
+      "sha256": "c7feea22b4fc40254c365e237a9c9e9ff06408f493290f3720f422a6196feb49",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

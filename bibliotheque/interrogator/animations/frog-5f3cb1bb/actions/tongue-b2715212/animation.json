@@ -1,0 +1,143 @@
+{
+  "name": "tongue",
+  "duration": 1,
+  "timelines": {
+    "bones": 1,
+    "slots": 16
+  },
+  "data": {
+    "slots": {
+      "body": {
+        "alpha": [
+          {
+            "value": 0
+          }
+        ]
+      },
+      "eye_l_clip": {
+        "alpha": [
+          {
+            "value": 0
+          }
+        ]
+      },
+      "eye_l_lower": {
+        "alpha": [
+          {
+            "value": 0
+          }
+        ]
+      },
+      "eye_l_pupil": {
+        "alpha": [
+          {
+            "value": 0
+          }
+        ]
+      },
+      "eye_l_upper": {
+        "alpha": [
+          {
+            "value": 0
+          }
+        ]
+      },
+      "eye_r_clip": {
+        "alpha": [
+          {
+            "value": 0
+          }
+        ]
+      },
+      "eye_r_lower": {
+        "alpha": [
+          {
+            "value": 0
+          }
+        ]
+      },
+      "eye_r_pupil": {
+        "alpha": [
+          {
+            "value": 0
+          }
+        ]
+      },
+      "eye_r_upper": {
+        "alpha": [
+          {
+            "value": 0
+          }
+        ]
+      },
+      "hand_l": {
+        "alpha": [
+          {
+            "value": 0
+          }
+        ]
+      },
+      "hand_r": {
+        "alpha": [
+          {
+            "value": 0
+          }
+        ]
+      },
+      "hat_back": {
+        "alpha": [
+          {
+            "value": 0
+          }
+        ]
+      },
+      "hat_front": {
+        "alpha": [
+          {
+            "value": 0
+          }
+        ]
+      },
+      "head": {
+        "alpha": [
+          {
+            "value": 0
+          }
+        ]
+      },
+      "open_mouth": {
+        "alpha": [
+          {
+            "value": 0
+          }
+        ]
+      },
+      "tongue": {
+        "alpha": [
+          {
+            "value": 1,
+            "curve": "stepped"
+          },
+          {
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "bones": {
+      "root": {
+        "translate": [
+          {
+            "curve": "stepped"
+          },
+          {
+            "time": 1
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

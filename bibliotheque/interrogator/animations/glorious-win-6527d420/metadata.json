@@ -1,0 +1,454 @@
+{
+  "id": "animations/glorious-win-6527d420",
+  "name": "glorious_win",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-d2b5cb6c.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-d2b5cb6c.atlas"
+  ],
+  "textures": [
+    "glorious_win.png"
+  ],
+  "animations": [
+    {
+      "name": "in",
+      "duration": 2,
+      "timelines": {
+        "bones": 34,
+        "slots": 16,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "loop",
+      "duration": 2,
+      "timelines": {
+        "bones": 32,
+        "slots": 11
+      }
+    },
+    {
+      "name": "out",
+      "duration": 1,
+      "timelines": {
+        "bones": 34,
+        "slots": 17,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "glorious_win",
+    "elements",
+    "text",
+    "g",
+    "i_1",
+    "i_2",
+    "l",
+    "n",
+    "o_1",
+    "o_2",
+    "r",
+    "s",
+    "u",
+    "w",
+    "magnifying_glass",
+    "handcuffs",
+    "badge",
+    "folder",
+    "doc_1",
+    "doc_2",
+    "doc_3",
+    "slime_1",
+    "slime_2",
+    "slime_3",
+    "slime_4",
+    "slime_5",
+    "bottle",
+    "frame",
+    "chain",
+    "handcuffs2",
+    "handcuffs3",
+    "bubble_1",
+    "bubble_2",
+    "bubble_3",
+    "bubble_4",
+    "bubble_5",
+    "glow_add"
+  ],
+  "slots": [
+    "back",
+    "glow_add",
+    "doc_1",
+    "doc_1_add",
+    "doc_2",
+    "doc_2_add",
+    "folder",
+    "folder_add",
+    "chain",
+    "bottle",
+    "doc_3",
+    "doc_3_add",
+    "magnifying_glass",
+    "magnifying_glass_add",
+    "frame",
+    "frame_add",
+    "badge",
+    "badge_add",
+    "handcuffs",
+    "handcuffs_add",
+    "slime_5",
+    "slime_1",
+    "slime_3",
+    "slime_2",
+    "slime_4",
+    "n",
+    "n_add",
+    "i_2",
+    "i_2_add",
+    "w",
+    "w_add",
+    "s",
+    "u",
+    "o_2",
+    "i_1",
+    "r",
+    "o_1",
+    "l",
+    "g",
+    "bubble_1",
+    "bubble_2",
+    "bubble_3",
+    "bubble_4",
+    "bubble_5"
+  ],
+  "pieces": [
+    {
+      "region": "badge",
+      "file": "pieces/badge-388b7193.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "416,171,165,163",
+        "offsets": "1,1,167,165"
+      }
+    },
+    {
+      "region": "bottle",
+      "file": "pieces/bottle-ddd89bb9.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "1827,727,205,181",
+        "offsets": "0,1,206,183"
+      }
+    },
+    {
+      "region": "bubble_1",
+      "file": "pieces/bubble-1-fd236a35.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "416,592,26,24",
+        "offsets": "1,1,28,26"
+      }
+    },
+    {
+      "region": "bubble_2",
+      "file": "pieces/bubble-2-87160535.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "1107,698,12,12",
+        "offsets": "1,1,14,14"
+      }
+    },
+    {
+      "region": "bubble_3",
+      "file": "pieces/bubble-3-1b47792e.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "2034,897,14,11",
+        "offsets": "1,1,16,14"
+      }
+    },
+    {
+      "region": "bubble_4",
+      "file": "pieces/bubble-4-c613eb26.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "0,25,25,23",
+        "offsets": "1,1,27,25"
+      }
+    },
+    {
+      "region": "bubble_5",
+      "file": "pieces/bubble-5-7f6e29b9.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "767,137,20,18",
+        "offsets": "1,1,22,20"
+      }
+    },
+    {
+      "region": "chain",
+      "file": "pieces/chain-d529b47e.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "326,34,76,179",
+        "offsets": "1,1,78,181"
+      }
+    },
+    {
+      "region": "doc_1",
+      "file": "pieces/doc-1-530d5455.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "1527,758,298,266",
+        "offsets": "1,1,301,268"
+      }
+    },
+    {
+      "region": "doc_2",
+      "file": "pieces/doc-2-26fef500.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "484,724,354,300",
+        "offsets": "1,1,356,302"
+      }
+    },
+    {
+      "region": "doc_3",
+      "file": "pieces/doc-3-e845cb1a.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "840,712,312,337",
+        "offsets": "1,1,314,339",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "folder",
+      "file": "pieces/folder-5a999403.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "0,215,414,401",
+        "offsets": "1,1,416,403"
+      }
+    },
+    {
+      "region": "frame",
+      "file": "pieces/frame-4da13e62.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "0,618,482,406",
+        "offsets": "1,1,484,408"
+      }
+    },
+    {
+      "region": "g",
+      "file": "pieces/g-cc53de88.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "583,157,128,223",
+        "offsets": "2,2,132,226"
+      }
+    },
+    {
+      "region": "glow_add",
+      "file": "pieces/glow-add-f0e464d6.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "760,487,112,112",
+        "offsets": "7,7,126,126"
+      }
+    },
+    {
+      "region": "handcuffs",
+      "file": "pieces/handcuffs-51804fe8.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "1179,779,346,245",
+        "offsets": "0,2,346,247"
+      }
+    },
+    {
+      "region": "i_1",
+      "file": "pieces/i-1-176be635.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "404,107,62,173",
+        "offsets": "1,2,65,176",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "i_2",
+      "file": "pieces/i-2-093f4d15.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "1179,650,64,197",
+        "offsets": "2,1,67,199",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "l",
+      "file": "pieces/l-81274eae.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "404,14,91,179",
+        "offsets": "2,2,94,182",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "magnifying_glass",
+      "file": "pieces/magnifying-glass-9936ba48.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "416,336,164,248",
+        "offsets": "1,1,166,250"
+      }
+    },
+    {
+      "region": "n",
+      "file": "pieces/n-083025b9.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "484,586,136,253",
+        "offsets": "1,2,138,256",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "o_1",
+      "file": "pieces/o-1-ce2c96e3.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "713,157,113,223",
+        "offsets": "1,1,115,225"
+      }
+    },
+    {
+      "region": "o_2",
+      "file": "pieces/o-2-2ca230b6.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "585,39,116,180",
+        "offsets": "1,1,118,182",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r",
+      "file": "pieces/r-ffb4ddd2.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "739,601,109,185",
+        "offsets": "2,1,112,187",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "s",
+      "file": "pieces/s-d56a67bc.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "926,604,106,179",
+        "offsets": "1,1,108,181",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "slime_1",
+      "file": "pieces/slime-1-504bca15.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "1467,739,40,38",
+        "offsets": "1,1,42,40"
+      }
+    },
+    {
+      "region": "slime_2",
+      "file": "pieces/slime-2-3e7ab834.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "1378,695,19,19",
+        "offsets": "1,1,21,21"
+      }
+    },
+    {
+      "region": "slime_3",
+      "file": "pieces/slime-3-3cf29f18.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "585,0,37,25",
+        "offsets": "1,1,39,27",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "slime_4",
+      "file": "pieces/slime-4-eeab83bc.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "0,50,324,163"
+      }
+    },
+    {
+      "region": "slime_5",
+      "file": "pieces/slime-5-86d78527.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "1179,716,61,286",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "u",
+      "file": "pieces/u-c8018f29.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "1827,910,114,221",
+        "offsets": "2,1,117,223",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "w",
+      "file": "pieces/w-94703663.png",
+      "page": "glorious_win.png",
+      "properties": {
+        "bounds": "582,382,176,202",
+        "offsets": "2,2,180,205"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/glorious_win/glorious_win.json",
+      "sha256": "6527d4207cdd4e20e2e6c75999b7e40941450c2dfc0622139518c5584fbfc4dd",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-d2b5cb6c.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/glorious_win/glorious_win.atlas",
+      "sha256": "d2b5cb6ca9726cdbd0314f44393c34686690d981aff16ad1514391d8d50fbf4f",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "glorious_win.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/popups/glorious_win/glorious_win.png",
+      "sha256": "11d6ae6600d4a5a4d66b26b7be13eb58d35c62949b941c937cfefc182f93b07d",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

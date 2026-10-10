@@ -1,0 +1,356 @@
+{
+  "id": "animations/anticipation-c983ae59",
+  "name": "anticipation",
+  "machine": "spin-reaper-winsafe",
+  "format": "spine-json",
+  "version": "4.1.23",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-f621c3cd.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-f621c3cd.atlas"
+  ],
+  "textures": [
+    "anticipation.webp"
+  ],
+  "animations": [
+    {
+      "name": "end",
+      "duration": 1,
+      "timelines": {
+        "bones": 5,
+        "slots": 12,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "intro",
+      "duration": 1.067,
+      "timelines": {
+        "bones": 7,
+        "slots": 12,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "loop",
+      "duration": 2,
+      "timelines": {
+        "bones": 5,
+        "slots": 6,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "anticipation_radial",
+    "frame_glow",
+    "frame_glow2",
+    "frame_glow3",
+    "anticipation_radial2",
+    "fx_1",
+    "anticipation_radial3",
+    "anticipation_radial4"
+  ],
+  "slots": [
+    "frame_glow2",
+    "frame_glow3",
+    "frame_glow4",
+    "frame_glow1",
+    "frame",
+    "fx_1",
+    "inner_mask",
+    "anticipation_radial",
+    "anticipation_radial2",
+    "anticipation_radial3",
+    "anticipation_radial5",
+    "anticipation_radial4",
+    "anticipation_radial6"
+  ],
+  "pieces": [
+    {
+      "region": "anticipation_radial",
+      "file": "pieces/anticipation-radial-5651f823.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1,1,297,296",
+        "offsets": "2,2,300,300"
+      }
+    },
+    {
+      "region": "frame",
+      "file": "pieces/frame-ee123cbe.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1,298,296,1794",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_glow1",
+      "file": "pieces/frame-glow1-31c26fd3.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1,595,312,1811",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_glow2",
+      "file": "pieces/frame-glow2-70c40501.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1,908,329,1827",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx_1",
+      "file": "pieces/fx-1-7ce5dae7.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "299,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_10",
+      "file": "pieces/fx-10-19f6b0a7.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "366,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_11",
+      "file": "pieces/fx-11-ab50d53d.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "433,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_12",
+      "file": "pieces/fx-12-10c2d63e.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "299,44,66,186",
+        "offsets": "63,3,192,192",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx_13",
+      "file": "pieces/fx-13-e2970da4.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "500,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_14",
+      "file": "pieces/fx-14-743b75aa.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "567,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_15",
+      "file": "pieces/fx-15-f992c4ee.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "634,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_16",
+      "file": "pieces/fx-16-0d4c04ac.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "486,44,66,186",
+        "offsets": "63,3,192,192",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx_17",
+      "file": "pieces/fx-17-77e6645f.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "701,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_18",
+      "file": "pieces/fx-18-612d2ed8.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "768,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_19",
+      "file": "pieces/fx-19-e5ff8b9e.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "835,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_2",
+      "file": "pieces/fx-2-12a0d00d.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "673,44,66,186",
+        "offsets": "63,3,192,192",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx_20",
+      "file": "pieces/fx-20-559ba81b.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "902,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_21",
+      "file": "pieces/fx-21-1329cc50.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "969,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_22",
+      "file": "pieces/fx-22-f79fd1bf.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1036,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_23",
+      "file": "pieces/fx-23-67a53966.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "860,44,66,186",
+        "offsets": "63,3,192,192",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx_24",
+      "file": "pieces/fx-24-151def44.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1103,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_3",
+      "file": "pieces/fx-3-d9099853.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1170,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_4",
+      "file": "pieces/fx-4-cba7cc32.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1047,44,66,186",
+        "offsets": "63,3,192,192",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx_5",
+      "file": "pieces/fx-5-0faf0040.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1237,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_6",
+      "file": "pieces/fx-6-bd82435a.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1304,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_7",
+      "file": "pieces/fx-7-8e7e2ee9.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1371,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_8",
+      "file": "pieces/fx-8-738ae97d.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1234,44,66,186",
+        "offsets": "63,3,192,192",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx_9",
+      "file": "pieces/fx-9-48587523.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1438,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/anticipation/anticipation.json",
+      "sha256": "c983ae59c25e86141d232dcdd2b7f530261e85ae63430fed6614e998ed58d45a",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-f621c3cd.atlas",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/anticipation/anticipation.atlas",
+      "sha256": "f621c3cd7ba938df1d42895c1684ca84c259fbdc167fe732ab09ad878284043b",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "anticipation.webp",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/anticipation/anticipation.webp",
+      "sha256": "1dfa167aa43de92c402a1825b8a2ec7535844b081549f5f109129ef678994a82",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

@@ -1,0 +1,163 @@
+{
+  "id": "animations/suru-1000-banner-2245d2a2",
+  "name": "suru_1000_banner",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-c907d51a.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-c907d51a.atlas"
+  ],
+  "textures": [
+    "suru_1000_banner.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_1000_banner_in",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 12,
+        "slots": 15
+      }
+    },
+    {
+      "name": "suru_1000_banner_loop",
+      "duration": 1.9,
+      "timelines": {
+        "bones": 9,
+        "slots": 9
+      }
+    },
+    {
+      "name": "suru_1000_banner_out",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 12,
+        "slots": 15
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "congratulation",
+    "you have win",
+    "123456789",
+    "credit",
+    "rec",
+    "rec1",
+    "ray",
+    "ray2",
+    "star1",
+    "star2",
+    "star01",
+    "star3"
+  ],
+  "slots": [
+    "colour_effect_3",
+    "colour_effect_2",
+    "rays_2",
+    "shape_2_p_11",
+    "shape_2_p_12",
+    "shape_1_p_2",
+    "shape_1_p_3",
+    "stars_1",
+    "stars_3",
+    "rays_4",
+    "particals",
+    "particals4",
+    "particals2",
+    "particals3",
+    "left_star_1_motion",
+    "left_star_1_motion2",
+    "left_star_1",
+    "left_star_2",
+    "meter_glow_1",
+    "meter_glow_2",
+    "meter_shadow",
+    "meter",
+    "glow",
+    "congratulations_base",
+    "white",
+    "congratulations_depth",
+    "congratulations_depth2",
+    "congratulations",
+    "congratulations2",
+    "high_light_2",
+    "high_light_3",
+    "high_light_4",
+    "high_light_5",
+    "high_light_6",
+    "you_have_won_depth",
+    "you_have_won",
+    "credits_text_shadow",
+    "credits_text"
+  ],
+  "pieces": [
+    {
+      "region": "colour_effect_2_n",
+      "file": "pieces/colour-effect-2-n-508ce11d.png",
+      "page": "suru_1000_banner.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 1003",
+        "size": "2500, 999",
+        "orig": "2500, 999",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "colour_effect_3_n",
+      "file": "pieces/colour-effect-3-n-bf8bcfc5.png",
+      "page": "suru_1000_banner.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 2",
+        "size": "2123, 999",
+        "orig": "2123, 999",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "particals",
+      "file": "pieces/particals-2c22cf52.png",
+      "page": "suru_1000_banner.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2127, 623",
+        "size": "322, 378",
+        "orig": "322, 378",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-f9de451c19fc/suru_1000_banner.json",
+      "sha256": "2245d2a2e974f8d33a872183ee87ccb9f90e39aea4a7818f5c7beacf450a269e",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-c907d51a.atlas",
+      "source": "raw/_embedded/uht-f9de451c19fc/suru_1000_banner.atlas",
+      "sha256": "c907d51ae8b043a621d2e3ff6e939902d995086f66874e9a863e09c63ecc30d7",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_1000_banner.png",
+      "source": "raw/_embedded/uht-f9de451c19fc/suru_1000_banner.png",
+      "sha256": "069d2a7befb117f45c8e623738a1228fba5db5cf65d9112844a086f2cee3aaaa",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

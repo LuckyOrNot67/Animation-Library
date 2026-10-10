@@ -1,0 +1,3166 @@
+{
+  "id": "animations/sr-bigwin-381338e3",
+  "name": "sr_bigwin",
+  "machine": "spin-reaper-winsafe",
+  "format": "spine-json",
+  "version": "4.1.24",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-4541a32a.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-4541a32a.atlas"
+  ],
+  "textures": [
+    "sr_bigwin.webp"
+  ],
+  "animations": [
+    {
+      "name": "big_win_exit",
+      "duration": 1.1,
+      "timelines": {
+        "bones": 113,
+        "slots": 89,
+        "attachments": 1,
+        "events": 1
+      }
+    },
+    {
+      "name": "big_win_idle",
+      "duration": 7.5,
+      "timelines": {
+        "bones": 111,
+        "slots": 89
+      }
+    },
+    {
+      "name": "big_win_idle_coins",
+      "duration": 1.1,
+      "timelines": {
+        "bones": 8,
+        "slots": 8,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "big_win_intro",
+      "duration": 1.667,
+      "timelines": {
+        "bones": 95,
+        "slots": 95,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "epic_win_exit",
+      "duration": 1,
+      "timelines": {
+        "bones": 113,
+        "slots": 88,
+        "attachments": 1,
+        "events": 1
+      }
+    },
+    {
+      "name": "epic_win_idle",
+      "duration": 7.5,
+      "timelines": {
+        "bones": 111,
+        "slots": 89
+      }
+    },
+    {
+      "name": "epic_win_idle_coins",
+      "duration": 1.367,
+      "timelines": {
+        "bones": 25,
+        "slots": 25,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "epic_win_intro",
+      "duration": 1.667,
+      "timelines": {
+        "bones": 111,
+        "slots": 112,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "max_win_exit",
+      "duration": 1.033,
+      "timelines": {
+        "bones": 249,
+        "slots": 167
+      }
+    },
+    {
+      "name": "max_win_idle",
+      "duration": 10.7,
+      "timelines": {
+        "bones": 233,
+        "slots": 166
+      }
+    },
+    {
+      "name": "max_win_intro",
+      "duration": 9.667,
+      "timelines": {
+        "bones": 251,
+        "slots": 168
+      }
+    },
+    {
+      "name": "mega_win_exit",
+      "duration": 1.1,
+      "timelines": {
+        "bones": 113,
+        "slots": 88,
+        "attachments": 1,
+        "events": 1
+      }
+    },
+    {
+      "name": "mega_win_idle",
+      "duration": 7.5,
+      "timelines": {
+        "bones": 111,
+        "slots": 89
+      }
+    },
+    {
+      "name": "mega_win_idle_coins",
+      "duration": 1.367,
+      "timelines": {
+        "bones": 17,
+        "slots": 17,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "mega_win_intro",
+      "duration": 1.667,
+      "timelines": {
+        "bones": 103,
+        "slots": 103,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "super_win_exit",
+      "duration": 1.1,
+      "timelines": {
+        "bones": 113,
+        "slots": 88,
+        "attachments": 1,
+        "events": 1
+      }
+    },
+    {
+      "name": "super_win_idle",
+      "duration": 7.5,
+      "timelines": {
+        "bones": 111,
+        "slots": 89
+      }
+    },
+    {
+      "name": "super_win_idle_coins",
+      "duration": 1.367,
+      "timelines": {
+        "bones": 14,
+        "slots": 14,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "super_win_intro",
+      "duration": 1.667,
+      "timelines": {
+        "bones": 100,
+        "slots": 101,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "ghost",
+    "text",
+    "sr_bigwin",
+    "sr_bigwin_num",
+    "ghost_hood",
+    "ghost_hood2",
+    "ghost_hood3",
+    "ghost_hood4",
+    "ghost_hood5",
+    "ghost_skull",
+    "ghost_skull2",
+    "skull_eyes",
+    "ghost_eyes",
+    "weapon",
+    "ghost_scythe",
+    "ghost_hand",
+    "fx",
+    "radial",
+    "radial2",
+    "rays1",
+    "rays2",
+    "radial3",
+    "particles",
+    "particle3",
+    "particle2",
+    "particle1",
+    "particle4",
+    "particle5",
+    "particle6",
+    "particle7",
+    "particle8",
+    "particle9",
+    "particle10",
+    "particle11",
+    "particle12",
+    "particle13",
+    "particle14",
+    "particle15",
+    "particle16",
+    "particle17",
+    "particle18",
+    "particle19",
+    "particle20",
+    "particle21",
+    "particle22",
+    "particle23",
+    "particle24",
+    "particle25",
+    "particle26",
+    "particle27",
+    "particle28",
+    "particle29",
+    "particle30",
+    "particle31",
+    "particle32",
+    "particle33",
+    "particle34",
+    "particle35",
+    "particle36",
+    "particle37",
+    "particle38",
+    "pop_particles",
+    "particle39",
+    "particle40",
+    "particle41",
+    "particle42",
+    "particle43",
+    "particle44",
+    "particle45",
+    "particle46",
+    "particle47",
+    "particle48",
+    "particle49",
+    "particles_idle",
+    "particle_small_cont",
+    "particle_small",
+    "particle_small6",
+    "particle_small7",
+    "particle_medium_cont",
+    "particle_medium",
+    "particle_large_cont",
+    "particle_large",
+    "particle_small_cont2",
+    "particle_small2",
+    "particle_small_cont3",
+    "particle_small3",
+    "particle_small_cont4",
+    "particle_small4",
+    "particle_small_cont5",
+    "particle_small5",
+    "particle_medium_cont2",
+    "particle_medium2",
+    "particle_medium_cont3",
+    "particle_medium3",
+    "particle_large_cont2",
+    "particle_large2",
+    "particle_large_cont3",
+    "particle_large3",
+    "particle_small8",
+    "particle_small9",
+    "particle_small10",
+    "particle_small_cont6",
+    "particle_small11",
+    "particle_small12",
+    "particle_small13",
+    "particle_small14",
+    "particle_large_cont4",
+    "particle_large4",
+    "particle_medium_cont4",
+    "particle_medium4",
+    "particle_medium_cont5",
+    "particle_medium5",
+    "bats",
+    "bat",
+    "bat_head",
+    "bat2",
+    "bat3",
+    "bat4",
+    "bat5",
+    "bat6",
+    "bat7",
+    "bat8",
+    "bat_head2",
+    "bat9",
+    "bat10",
+    "bat11",
+    "bat12",
+    "bat13",
+    "bat14",
+    "bat15",
+    "bat_head3",
+    "bat16",
+    "bat17",
+    "bat18",
+    "bat19",
+    "bat20",
+    "bat21",
+    "radial4",
+    "coins",
+    "bigwin",
+    "coin1",
+    "coin2",
+    "coin3",
+    "coin4",
+    "coin5",
+    "coin6",
+    "coin7",
+    "coin8",
+    "superwin",
+    "coinsgreen_01",
+    "coinsgreen_02",
+    "coinsgreen_03",
+    "coinsgreen_04",
+    "coinsgreen_05",
+    "coinsgreen_06",
+    "coinsgreen_07",
+    "coinsgreen_08",
+    "coinsgreen_09",
+    "coinsgreen_010",
+    "coinsgreen_011",
+    "coinsgreen_012",
+    "coinsgreen_013",
+    "coinsgreen_014",
+    "megawin",
+    "coinsred_01",
+    "coinsred_02",
+    "coinsred_03",
+    "coinsred_04",
+    "coinsred_05",
+    "coinsred_06",
+    "coinsred_07",
+    "coinsred_08",
+    "coinsred_09",
+    "coinsred_010",
+    "coinsred_011",
+    "coinsred_012",
+    "coinsred_013",
+    "coinsred_014",
+    "coinsred_015",
+    "coinsred_016",
+    "coinsred_017",
+    "epicwin",
+    "coinspurple_01",
+    "coinspurple_02",
+    "coinspurple_03",
+    "coinspurple_04",
+    "coinspurple_05",
+    "coinspurple_06",
+    "coinspurple_07",
+    "coinspurple_08",
+    "coinspurple_09",
+    "coinspurple_010",
+    "coinspurple_011",
+    "coinspurple_012",
+    "coinspurple_013",
+    "coinspurple_014",
+    "coinspurple_015",
+    "coinspurple_016",
+    "coinspurple_017",
+    "coinspurple_018",
+    "coinspurple_019",
+    "coinspurple_020",
+    "coinspurple_021",
+    "coinspurple_022",
+    "coinspurple_023",
+    "coinspurple_024",
+    "coinspurple_025",
+    "maxwin",
+    "container",
+    "bg",
+    "sky",
+    "sky2",
+    "moon",
+    "moon2",
+    "spikes",
+    "spikes_fg",
+    "gargoyle",
+    "grave1",
+    "grave11",
+    "grave12",
+    "grave2",
+    "grave9",
+    "grave10",
+    "grave3",
+    "grave4",
+    "ground",
+    "ground_pan",
+    "ground_pan2",
+    "fg_grave_left",
+    "fg_grave_left2",
+    "fg_grave_left3",
+    "fg_grave_right",
+    "fg_grave_right2",
+    "fg_grave_right3",
+    "mausoleum",
+    "mausoleum2",
+    "mausoleum3",
+    "mausoleum4",
+    "mausoleum5",
+    "mausoleum6",
+    "mausoleum7",
+    "trees",
+    "bgtree_left",
+    "bgtree_left2",
+    "bgtree_left3",
+    "bgtree_left4",
+    "bgtree_left5",
+    "bgtree_left6",
+    "bgtree_left7",
+    "bgtree_left8",
+    "bgtree_right",
+    "bgtree_right2",
+    "bgtree_right3",
+    "bgtree_right4",
+    "bgtree_right5",
+    "bgtree_right6",
+    "bgtree_right7",
+    "bgtree_right8",
+    "bgtree_right9",
+    "bgtree_right10",
+    "bgtree_right11",
+    "bgtree_right12",
+    "bgtree_right13",
+    "bgtree_right14",
+    "farbgtree",
+    "midtree_left",
+    "midtree_left2",
+    "midtree_left3",
+    "midtree_left4",
+    "midtree_left5",
+    "midtree_left6",
+    "midtree_left7",
+    "midtree_left8",
+    "midtree_left9",
+    "batt_hanging",
+    "batt_hanging2",
+    "batt_hanging3",
+    "midtree_left10",
+    "midtree_left11",
+    "midtree_left12",
+    "midtree_left13",
+    "midtree_left14",
+    "midtree_right",
+    "midtree_right2",
+    "midtree_right3",
+    "midtree_right4",
+    "midtree_right5",
+    "midtree_right6",
+    "midtree_right7",
+    "midtree_right8",
+    "midtree_right9",
+    "midtree_right10",
+    "batt_hanging4",
+    "batt_hanging5",
+    "batt_hanging6",
+    "midtree_right11",
+    "midtree_right12",
+    "midtree_right13",
+    "midtree_right14",
+    "midtree_right15",
+    "fgtree_left",
+    "fgtree_right",
+    "spikes2",
+    "spikes3",
+    "spikes4",
+    "stick",
+    "stick3",
+    "spikes_fg2",
+    "mist",
+    "mist1",
+    "mistbox",
+    "mist2",
+    "mistbox2",
+    "grave5",
+    "grave6",
+    "grave7",
+    "grave8",
+    "stick2",
+    "stick4",
+    "spikes_fg3",
+    "stick5",
+    "stick6",
+    "grave13",
+    "grave14",
+    "grave15",
+    "stick7",
+    "stick8",
+    "spikes_fg4",
+    "stick9",
+    "stick10",
+    "grave16",
+    "grave17",
+    "mist3",
+    "mistbox3",
+    "mist4",
+    "mist5",
+    "mist6",
+    "mist7",
+    "fx2",
+    "p_small",
+    "p_medium",
+    "p_large",
+    "p_small2",
+    "p_medium2",
+    "p_large2",
+    "p_small3",
+    "p_small4",
+    "p_small5",
+    "p_small6",
+    "blowoutmist",
+    "idle_particals",
+    "partical_small_cont5",
+    "partical_small5",
+    "partical_small_cont4",
+    "partical_small4",
+    "partical_small_cont3",
+    "partical_small3",
+    "partical_small_cont2",
+    "partical_small2",
+    "partical_small_cont",
+    "partical_small",
+    "partical_small6",
+    "partical_small7",
+    "partical_medium_cont3",
+    "partical_medium3",
+    "partical_medium_cont2",
+    "partical_medium2",
+    "partical_medium_cont",
+    "partical_medium",
+    "partical_large_cont3",
+    "partical_large3",
+    "partical_large_cont2",
+    "partical_large2",
+    "partical_large_cont",
+    "partical_large",
+    "partical_small_cont6",
+    "partical_small8",
+    "partical_small_cont7",
+    "partical_small9",
+    "batts",
+    "batt",
+    "batt_head",
+    "batt2",
+    "batt3",
+    "batt4",
+    "batt5",
+    "batt6",
+    "batt7",
+    "batt8",
+    "batt_head2",
+    "batt9",
+    "batt10",
+    "batt11",
+    "batt12",
+    "batt13",
+    "batt14",
+    "batt15",
+    "batt_head3",
+    "batt16",
+    "batt17",
+    "batt18",
+    "batt19",
+    "batt20",
+    "batt21",
+    "batt22",
+    "batt_head4",
+    "batt23",
+    "batt24",
+    "batt25",
+    "batt26",
+    "batt27",
+    "batt28",
+    "batt29",
+    "batt_head5",
+    "batt30",
+    "batt31",
+    "batt32",
+    "batt33",
+    "batt34",
+    "batt35",
+    "batt36",
+    "batt_head6",
+    "batt37",
+    "batt38",
+    "batt39",
+    "batt40",
+    "batt41",
+    "batt42",
+    "batt43",
+    "batt_head7",
+    "batt44",
+    "batt45",
+    "batt46",
+    "batt47",
+    "batt48",
+    "batt49",
+    "reaper",
+    "robe",
+    "amuletgold",
+    "amuletgold2",
+    "amuletshadow",
+    "robe2",
+    "robe2b",
+    "hand2",
+    "weapon2",
+    "finger23",
+    "finger24",
+    "finger25",
+    "finger26",
+    "finger27",
+    "finger28",
+    "finger29",
+    "finger30",
+    "finger31",
+    "finger32",
+    "finger33",
+    "finger34",
+    "finger35",
+    "finger36",
+    "finger37",
+    "finger38",
+    "finger39",
+    "finger40",
+    "finger41",
+    "finger42",
+    "finger43",
+    "finger44",
+    "robe3",
+    "robe3b",
+    "hand",
+    "finger5",
+    "finger6",
+    "finger7",
+    "finger8",
+    "finger9",
+    "finger4",
+    "finger10",
+    "finger11",
+    "finger12",
+    "finger13",
+    "finger3",
+    "finger14",
+    "finger15",
+    "finger16",
+    "finger17",
+    "finger2",
+    "finger18",
+    "finger19",
+    "finger20",
+    "finger1",
+    "finger21",
+    "finger22",
+    "robe4",
+    "robe5",
+    "robe6",
+    "robe7",
+    "robe8",
+    "robe9",
+    "robe10",
+    "robe11",
+    "robe12",
+    "robe13",
+    "robe14",
+    "robe15",
+    "robe16",
+    "robe17",
+    "robe18",
+    "skull",
+    "skull2",
+    "eyes",
+    "backhood",
+    "backhood2",
+    "backhood3",
+    "backhood4",
+    "backhood5",
+    "backhood6",
+    "hood",
+    "hood2",
+    "hood3",
+    "hood4",
+    "hood5",
+    "hood6",
+    "hood7",
+    "hood8",
+    "hood9",
+    "hood10",
+    "hood11",
+    "hood12",
+    "hood13",
+    "hood14",
+    "mist8",
+    "mist9",
+    "mockup_pressanywhere",
+    "win",
+    "text_glow",
+    "blackbars",
+    "fade2",
+    "fade4",
+    "fade5",
+    "fade6"
+  ],
+  "slots": [
+    "bat",
+    "bat3",
+    "bat2",
+    "ghost_eyes",
+    "ghost_hand",
+    "ghost_hood",
+    "ghost_scythe",
+    "ghost_skull",
+    "ghost_underhood",
+    "particle1",
+    "particle24",
+    "particle25",
+    "particle12",
+    "particle13",
+    "particle4",
+    "particle21",
+    "particle28",
+    "particle37",
+    "particle38",
+    "particle9",
+    "particle16",
+    "particle2",
+    "particle23",
+    "particle26",
+    "particle11",
+    "particle14",
+    "particle5",
+    "particle20",
+    "particle29",
+    "particle36",
+    "particle8",
+    "particle17",
+    "particle32",
+    "particle33",
+    "particle3",
+    "particle22",
+    "particle27",
+    "particle10",
+    "particle15",
+    "particle6",
+    "particle19",
+    "particle30",
+    "particle35",
+    "particle7",
+    "particle18",
+    "particle31",
+    "particle34",
+    "particle39",
+    "particle42",
+    "particle47",
+    "particle45",
+    "particle40",
+    "particle43",
+    "particle41",
+    "particle46",
+    "particle48",
+    "particle49",
+    "particle44",
+    "particle_large",
+    "particle_large2",
+    "particle_large3",
+    "particle_large4",
+    "particle_medium",
+    "particle_medium5",
+    "particle_medium4",
+    "particle_medium2",
+    "particle_medium3",
+    "particle_small",
+    "particle_small11",
+    "particle_small8",
+    "particle_small14",
+    "particle_small6",
+    "particle_small12",
+    "particle_small7",
+    "particle_small13",
+    "particle_small2",
+    "particle_small3",
+    "particle_small4",
+    "particle_small9",
+    "particle_small5",
+    "particle_small10",
+    "slash-1",
+    "radial",
+    "coin1",
+    "coin6",
+    "coin5",
+    "coin8",
+    "coin4",
+    "coin3",
+    "coin2",
+    "coin7",
+    "coinsgreen_01",
+    "coinsgreen_012",
+    "coinsgreen_013",
+    "coinsgreen_014",
+    "coinsgreen_02",
+    "coinsgreen_03",
+    "coinsgreen_04",
+    "coinsgreen_05",
+    "coinsgreen_06",
+    "coinsgreen_07",
+    "coinsgreen_08",
+    "coinsgreen_09",
+    "coinsgreen_010",
+    "coinsgreen_011",
+    "coinsred_01",
+    "coinsred_02",
+    "coinsred_03",
+    "coinsred_04",
+    "coinsred_05",
+    "coinsred_06",
+    "coinsred_07",
+    "coinsred_08",
+    "coinsred_09",
+    "coinsred_010",
+    "coinsred_011",
+    "coinsred_012",
+    "coinsred_013",
+    "coinsred_014",
+    "coinsred_015",
+    "coinsred_016",
+    "coinsred_017",
+    "coinspurple_01",
+    "coinspurple_02",
+    "coinspurple_03",
+    "coinspurple_04",
+    "coinspurple_05",
+    "coinspurple_06",
+    "coinspurple_07",
+    "coinspurple_08",
+    "coinspurple_09",
+    "coinspurple_010",
+    "coinspurple_011",
+    "coinspurple_012",
+    "coinspurple_013",
+    "coinspurple_014",
+    "coinspurple_015",
+    "coinspurple_016",
+    "coinspurple_017",
+    "coinspurple_018",
+    "coinspurple_019",
+    "coinspurple_020",
+    "coinspurple_021",
+    "coinspurple_022",
+    "coinspurple_023",
+    "coinspurple_024",
+    "coinspurple_025",
+    "radial2",
+    "radial4",
+    "radial3",
+    "rays1",
+    "rays2",
+    "bg",
+    "sky",
+    "moonshine",
+    "moonshine2",
+    "moon",
+    "moon2",
+    "ground",
+    "bats",
+    "bats2",
+    "bats3",
+    "bats4",
+    "bgtree_left",
+    "farbgtree",
+    "bgtree_right2",
+    "bgtree_right",
+    "midtree_right",
+    "bats_hanging",
+    "bats_hanging4",
+    "bats_hanging5",
+    "bats_hanging6",
+    "bats_hanging2",
+    "bats_hanging3",
+    "midtree_left",
+    "grave11",
+    "stick4",
+    "fgtree_right",
+    "fgtree_right2",
+    "fgtree_left",
+    "fgtree_left2",
+    "mist3",
+    "spikes",
+    "spikes2",
+    "spikes3",
+    "spikes4",
+    "mist4",
+    "mist12",
+    "mausoleum",
+    "mausoleum2",
+    "mist5",
+    "stick5",
+    "gargoyle",
+    "grave4",
+    "grave12",
+    "grave1",
+    "grave8",
+    "spikes_fg7",
+    "spikes_fg8",
+    "grave2",
+    "grave13",
+    "grave3",
+    "grave7",
+    "spikes_fg",
+    "spikes_fg3",
+    "grave9",
+    "grave10",
+    "mist2",
+    "grave5",
+    "grave6",
+    "p_small3",
+    "spikes_fg5",
+    "mist11",
+    "spikes_fg6",
+    "stick",
+    "stick6",
+    "stick7",
+    "p_medium",
+    "p_small2",
+    "stick2",
+    "mist1",
+    "stick3",
+    "p_large",
+    "p_large2",
+    "spikes_fg2",
+    "spikes_fg4",
+    "p_medium2",
+    "p_small",
+    "p_small4",
+    "p_small6",
+    "p_small5",
+    "mist",
+    "fg_grave_left",
+    "fg_grave_right",
+    "mist6",
+    "mist7",
+    "backglow",
+    "robe",
+    "robe2",
+    "amuletshadow",
+    "amuletshadow2",
+    "amuletgold",
+    "amuletgold2",
+    "eyesback",
+    "eyesback3",
+    "eyesback2",
+    "eyesback4",
+    "backhood",
+    "backhood2",
+    "eyes",
+    "eyes2",
+    "skull",
+    "skull2",
+    "hood",
+    "hood2",
+    "andglow",
+    "andglow3",
+    "andglow2",
+    "andglow4",
+    "palm",
+    "palm3",
+    "palm2",
+    "palm4",
+    "finger1",
+    "finger11",
+    "finger10",
+    "finger12",
+    "finger2",
+    "finger13",
+    "scytheglow",
+    "scytheglow2",
+    "scythe",
+    "scythe2",
+    "finger9",
+    "finger14",
+    "finger3",
+    "finger15",
+    "finger8",
+    "finger16",
+    "finger4",
+    "finger17",
+    "finger7",
+    "finger18",
+    "finger5",
+    "finger19",
+    "finger6",
+    "finger20",
+    "mist8",
+    "mist9",
+    "mist10",
+    "text_glow",
+    "text_glow2",
+    "maxwin_text",
+    "slot_pressanywhere",
+    "slot_win",
+    "partical_large",
+    "partical_large2",
+    "partical_large3",
+    "partical_medium",
+    "partical_medium2",
+    "partical_medium3",
+    "partical_small",
+    "partical_small6",
+    "partical_small7",
+    "partical_small2",
+    "partical_small3",
+    "partical_small4",
+    "partical_small5",
+    "partical_small8",
+    "partical_small9",
+    "bats5",
+    "bats6",
+    "bats7",
+    "sr_bigwin",
+    "slot_num",
+    "slot_num_white",
+    "fade",
+    "fade2",
+    "fade4",
+    "fade5",
+    "fade6"
+  ],
+  "pieces": [
+    {
+      "region": "amuletgold",
+      "file": "pieces/amuletgold-df57d49f.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2668,881,155,112"
+      }
+    },
+    {
+      "region": "amuletshadow",
+      "file": "pieces/amuletshadow-ce9b884c.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3486,1222,155,117"
+      }
+    },
+    {
+      "region": "andglow",
+      "file": "pieces/andglow-c1da8345.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3538,272,76,48",
+        "offsets": "0,0,76,49",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "backglow",
+      "file": "pieces/backglow-1c93094a.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3258,1473,227,275",
+        "offsets": "75,0,325,280"
+      }
+    },
+    {
+      "region": "backhood",
+      "file": "pieces/backhood-46153b1c.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3167,106,233,132"
+      }
+    },
+    {
+      "region": "bat",
+      "file": "pieces/bat-3331b3d7.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2057,98,120,37",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bat2",
+      "file": "pieces/bat2-352dc597.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3402,118,120,37",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bat_hanging",
+      "file": "pieces/bat-hanging-a16b7491.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2848,579,24,54"
+      }
+    },
+    {
+      "region": "bg",
+      "file": "pieces/bg-bbd56575.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1841,2020,980,368"
+      }
+    },
+    {
+      "region": "bgtree_left",
+      "file": "pieces/bgtree-left-d3157637.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3885,1395,192,338"
+      }
+    },
+    {
+      "region": "bgtree_right",
+      "file": "pieces/bgtree-right-e276628b.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3125,704,175,237"
+      }
+    },
+    {
+      "region": "bgtree_right2",
+      "file": "pieces/bgtree-right2-72897244.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2859,1484,264,397",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsblue_01",
+      "file": "pieces/coinsblue-01-193a4501.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "701,156,84,84",
+        "offsets": "3,3,90,90"
+      }
+    },
+    {
+      "region": "coinsblue_02",
+      "file": "pieces/coinsblue-02-b3e71c49.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3441,105,83,84",
+        "offsets": "3,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsblue_03",
+      "file": "pieces/coinsblue-03-a54d2620.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3715,1214,80,85",
+        "offsets": "5,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsblue_04",
+      "file": "pieces/coinsblue-04-0bd52d4e.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3715,1138,74,85",
+        "offsets": "8,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsblue_05",
+      "file": "pieces/coinsblue-05-f12b4b4b.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3682,984,66,85",
+        "offsets": "12,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsblue_06",
+      "file": "pieces/coinsblue-06-feaacee0.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3761,496,54,85",
+        "offsets": "18,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsblue_07",
+      "file": "pieces/coinsblue-07-a165f2f1.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1045,130,40,84",
+        "offsets": "25,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsblue_08",
+      "file": "pieces/coinsblue-08-d079c714.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2843,136,30,84",
+        "offsets": "30,3,90,90"
+      }
+    },
+    {
+      "region": "coinsblue_09",
+      "file": "pieces/coinsblue-09-9090a519.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3061,2,44,85",
+        "offsets": "23,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsblue_10",
+      "file": "pieces/coinsblue-10-6d6f13a6.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3147,48,56,85",
+        "offsets": "17,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsblue_11",
+      "file": "pieces/coinsblue-11-28e99117.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3802,1209,67,85",
+        "offsets": "11,3,90,90"
+      }
+    },
+    {
+      "region": "coinsblue_12",
+      "file": "pieces/coinsblue-12-ff6b4b47.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3802,1122,74,85",
+        "offsets": "8,3,90,90"
+      }
+    },
+    {
+      "region": "coinsblue_13",
+      "file": "pieces/coinsblue-13-30d09862.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3321,19,80,85",
+        "offsets": "5,3,90,90"
+      }
+    },
+    {
+      "region": "coinsblue_14",
+      "file": "pieces/coinsblue-14-88976431.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3527,99,82,84",
+        "offsets": "4,3,90,90"
+      }
+    },
+    {
+      "region": "coinsblue_15",
+      "file": "pieces/coinsblue-15-60c4cab0.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3061,48,84,84",
+        "offsets": "3,3,90,90"
+      }
+    },
+    {
+      "region": "coinsblue_16",
+      "file": "pieces/coinsblue-16-5a3dd0cb.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3441,190,84,84",
+        "offsets": "3,3,90,90"
+      }
+    },
+    {
+      "region": "coinsblue_17",
+      "file": "pieces/coinsblue-17-472f526e.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3527,13,82,84",
+        "offsets": "4,3,90,90"
+      }
+    },
+    {
+      "region": "coinsblue_18",
+      "file": "pieces/coinsblue-18-35640669.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3527,185,80,85",
+        "offsets": "5,3,90,90"
+      }
+    },
+    {
+      "region": "coinsblue_19",
+      "file": "pieces/coinsblue-19-fd803fb3.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3769,975,76,85",
+        "offsets": "7,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsblue_20",
+      "file": "pieces/coinsblue-20-f09361ee.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3643,1254,70,85",
+        "offsets": "10,3,90,90"
+      }
+    },
+    {
+      "region": "coinsblue_21",
+      "file": "pieces/coinsblue-21-d3a90890.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2096,85,60,85",
+        "offsets": "15,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsblue_22",
+      "file": "pieces/coinsblue-22-7a0ef327.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1730,7,50,85",
+        "offsets": "20,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsblue_23",
+      "file": "pieces/coinsblue-23-774109a7.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3489,19,36,84",
+        "offsets": "27,3,90,90"
+      }
+    },
+    {
+      "region": "coinsblue_24",
+      "file": "pieces/coinsblue-24-3e800406.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3487,1735,34,84",
+        "offsets": "28,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsblue_25",
+      "file": "pieces/coinsblue-25-35854f11.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1817,7,50,85",
+        "offsets": "20,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsblue_26",
+      "file": "pieces/coinsblue-26-ecf96161.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1243,350,62,85",
+        "offsets": "14,3,90,90"
+      }
+    },
+    {
+      "region": "coinsblue_27",
+      "file": "pieces/coinsblue-27-3a9213da.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3792,724,72,85",
+        "offsets": "9,3,90,90"
+      }
+    },
+    {
+      "region": "coinsblue_28",
+      "file": "pieces/coinsblue-28-9f96fa5e.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3769,893,80,85",
+        "offsets": "5,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsblue_29",
+      "file": "pieces/coinsblue-29-c937f363.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3848,468,82,84",
+        "offsets": "4,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsblue_30",
+      "file": "pieces/coinsblue-30-a8114652.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1164,225,85,84",
+        "offsets": "2,3,90,90"
+      }
+    },
+    {
+      "region": "coinsgreen_01",
+      "file": "pieces/coinsgreen-01-a82892cf.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3878,1139,84,84",
+        "offsets": "3,3,90,90"
+      }
+    },
+    {
+      "region": "coinsgreen_02",
+      "file": "pieces/coinsgreen-02-43ee7730.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3847,552,83,84",
+        "offsets": "3,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsgreen_03",
+      "file": "pieces/coinsgreen-03-cdc4a5f5.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3769,811,80,85",
+        "offsets": "5,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsgreen_04",
+      "file": "pieces/coinsgreen-04-76d442f7.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2183,71,74,85",
+        "offsets": "8,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsgreen_05",
+      "file": "pieces/coinsgreen-05-5a51a7f9.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2164,3,66,85",
+        "offsets": "12,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsgreen_06",
+      "file": "pieces/coinsgreen-06-74d421be.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1904,3,54,85",
+        "offsets": "18,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsgreen_07",
+      "file": "pieces/coinsgreen-07-fb9c28b5.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "4028,969,40,84",
+        "offsets": "25,3,90,90"
+      }
+    },
+    {
+      "region": "coinsgreen_08",
+      "file": "pieces/coinsgreen-08-5bf5d65c.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "701,124,30,84",
+        "offsets": "30,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsgreen_09",
+      "file": "pieces/coinsgreen-09-0a6dd4eb.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3148,2,44,85",
+        "offsets": "23,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsgreen_10",
+      "file": "pieces/coinsgreen-10-7c521edb.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3234,48,56,85",
+        "offsets": "17,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsgreen_11",
+      "file": "pieces/coinsgreen-11-9e90f22e.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3768,1053,67,85",
+        "offsets": "11,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsgreen_12",
+      "file": "pieces/coinsgreen-12-54cac76e.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2270,71,74,85",
+        "offsets": "8,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsgreen_13",
+      "file": "pieces/coinsgreen-13-f7898d98.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2357,65,80,85",
+        "offsets": "5,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsgreen_14",
+      "file": "pieces/coinsgreen-14-5d1feb37.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3965,1055,82,84",
+        "offsets": "4,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsgreen_15",
+      "file": "pieces/coinsgreen-15-3ac82391.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3964,1139,84,84",
+        "offsets": "3,3,90,90"
+      }
+    },
+    {
+      "region": "coinsgreen_16",
+      "file": "pieces/coinsgreen-16-eea06468.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3403,19,84,84",
+        "offsets": "3,3,90,90"
+      }
+    },
+    {
+      "region": "coinsgreen_17",
+      "file": "pieces/coinsgreen-17-8301be41.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3866,725,82,84",
+        "offsets": "4,3,90,90"
+      }
+    },
+    {
+      "region": "coinsgreen_18",
+      "file": "pieces/coinsgreen-18-e790c505.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2444,65,80,85",
+        "offsets": "5,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsgreen_19",
+      "file": "pieces/coinsgreen-19-40b4faed.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3705,733,76,85",
+        "offsets": "7,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsgreen_20",
+      "file": "pieces/coinsgreen-20-d671389f.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3643,1167,70,85",
+        "offsets": "10,3,90,90"
+      }
+    },
+    {
+      "region": "coinsgreen_21",
+      "file": "pieces/coinsgreen-21-cde7959f.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2337,3,60,85",
+        "offsets": "15,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsgreen_22",
+      "file": "pieces/coinsgreen-22-f9d52baf.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2531,60,50,85",
+        "offsets": "20,3,90,90"
+      }
+    },
+    {
+      "region": "coinsgreen_23",
+      "file": "pieces/coinsgreen-23-22b2ba19.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "4034,726,36,84",
+        "offsets": "27,3,90,90"
+      }
+    },
+    {
+      "region": "coinsgreen_24",
+      "file": "pieces/coinsgreen-24-91c1b776.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3354,240,34,84",
+        "offsets": "28,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsgreen_25",
+      "file": "pieces/coinsgreen-25-7cb4da20.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3847,637,50,85",
+        "offsets": "20,3,90,90"
+      }
+    },
+    {
+      "region": "coinsgreen_26",
+      "file": "pieces/coinsgreen-26-2af62b59.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3705,897,62,85",
+        "offsets": "14,3,90,90"
+      }
+    },
+    {
+      "region": "coinsgreen_27",
+      "file": "pieces/coinsgreen-27-09902f19.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3878,1065,72,85",
+        "offsets": "9,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsgreen_28",
+      "file": "pieces/coinsgreen-28-3b095ff1.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2077,3,80,85",
+        "offsets": "5,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsgreen_29",
+      "file": "pieces/coinsgreen-29-8c7be9f3.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3950,725,82,84",
+        "offsets": "4,3,90,90"
+      }
+    },
+    {
+      "region": "coinsgreen_30",
+      "file": "pieces/coinsgreen-30-7fb1a009.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1164,139,85,84",
+        "offsets": "2,3,90,90"
+      }
+    },
+    {
+      "region": "coinspurple_01",
+      "file": "pieces/coinspurple-01-1827a519.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3596,1081,84,84",
+        "offsets": "3,3,90,90"
+      }
+    },
+    {
+      "region": "coinspurple_02",
+      "file": "pieces/coinspurple-02-caca9708.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3942,883,83,84",
+        "offsets": "3,3,90,90"
+      }
+    },
+    {
+      "region": "coinspurple_03",
+      "file": "pieces/coinspurple-03-a31daaf9.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3856,811,80,84",
+        "offsets": "5,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinspurple_04",
+      "file": "pieces/coinspurple-04-ee8f750e.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3984,639,74,84",
+        "offsets": "8,3,90,90"
+      }
+    },
+    {
+      "region": "coinspurple_05",
+      "file": "pieces/coinspurple-05-a5bf5bab.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2251,3,66,84",
+        "offsets": "12,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinspurple_06",
+      "file": "pieces/coinspurple-06-27ac322f.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1991,3,54,84",
+        "offsets": "18,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinspurple_07",
+      "file": "pieces/coinspurple-07-29ddce8d.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "4027,883,40,84",
+        "offsets": "25,3,90,90"
+      }
+    },
+    {
+      "region": "coinspurple_08",
+      "file": "pieces/coinspurple-08-81dd4863.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3594,472,30,84",
+        "offsets": "30,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinspurple_09",
+      "file": "pieces/coinspurple-09-447f279d.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3235,2,44,84",
+        "offsets": "23,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinspurple_10",
+      "file": "pieces/coinspurple-10-00507f26.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "4020,467,57,84",
+        "offsets": "16,3,90,90"
+      }
+    },
+    {
+      "region": "coinspurple_11",
+      "file": "pieces/coinspurple-11-b5fba594.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3609,214,66,84",
+        "offsets": "12,3,90,90"
+      }
+    },
+    {
+      "region": "coinspurple_12",
+      "file": "pieces/coinspurple-12-130be096.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3611,128,74,84",
+        "offsets": "8,3,90,90"
+      }
+    },
+    {
+      "region": "coinspurple_13",
+      "file": "pieces/coinspurple-13-ed517bbd.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3611,42,80,84",
+        "offsets": "5,3,90,90"
+      }
+    },
+    {
+      "region": "coinspurple_14",
+      "file": "pieces/coinspurple-14-6cbeb50c.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3933,553,82,84",
+        "offsets": "4,3,90,90"
+      }
+    },
+    {
+      "region": "coinspurple_15",
+      "file": "pieces/coinspurple-15-8d54c7a7.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3596,995,84,84",
+        "offsets": "3,3,90,90"
+      }
+    },
+    {
+      "region": "coinspurple_16",
+      "file": "pieces/coinspurple-16-207907a3.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3682,1052,84,84",
+        "offsets": "3,3,90,90"
+      }
+    },
+    {
+      "region": "coinspurple_17",
+      "file": "pieces/coinspurple-17-2d53594c.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3934,469,82,84",
+        "offsets": "4,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinspurple_18",
+      "file": "pieces/coinspurple-18-099b5a63.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3760,414,80,84",
+        "offsets": "5,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinspurple_19",
+      "file": "pieces/coinspurple-19-076d3281.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3846,390,76,84",
+        "offsets": "7,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinspurple_20",
+      "file": "pieces/coinspurple-20-a2a01265.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3942,811,70,84",
+        "offsets": "10,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinspurple_21",
+      "file": "pieces/coinspurple-21-0a6a095f.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2424,3,60,84",
+        "offsets": "15,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinspurple_22",
+      "file": "pieces/coinspurple-22-af758d25.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1841,1970,48,84",
+        "offsets": "21,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinspurple_23",
+      "file": "pieces/coinspurple-23-6f2b5106.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3693,36,36,84",
+        "offsets": "27,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinspurple_24",
+      "file": "pieces/coinspurple-24-34f9ec4f.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2822,1664,34,84",
+        "offsets": "28,3,90,90"
+      }
+    },
+    {
+      "region": "coinspurple_25",
+      "file": "pieces/coinspurple-25-d4d3766a.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "787,122,48,84",
+        "offsets": "21,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinspurple_26",
+      "file": "pieces/coinspurple-26-e29fe908.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3705,811,62,84",
+        "offsets": "14,3,90,90"
+      }
+    },
+    {
+      "region": "coinspurple_27",
+      "file": "pieces/coinspurple-27-0a48050e.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3842,316,72,84",
+        "offsets": "9,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinspurple_28",
+      "file": "pieces/coinspurple-28-2690590f.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3680,418,78,84",
+        "offsets": "6,3,90,90"
+      }
+    },
+    {
+      "region": "coinspurple_29",
+      "file": "pieces/coinspurple-29-dc33ac6d.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3588,386,82,84",
+        "offsets": "4,3,90,90"
+      }
+    },
+    {
+      "region": "coinspurple_30",
+      "file": "pieces/coinspurple-30-ce2bcaa8.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3761,638,84,84",
+        "offsets": "3,3,90,90"
+      }
+    },
+    {
+      "region": "coinsred_01",
+      "file": "pieces/coinsred-01-47046133.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3761,552,84,84",
+        "offsets": "3,3,90,90"
+      }
+    },
+    {
+      "region": "coinsred_02",
+      "file": "pieces/coinsred-02-949968e0.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3899,639,83,84",
+        "offsets": "3,3,90,90"
+      }
+    },
+    {
+      "region": "coinsred_03",
+      "file": "pieces/coinsred-03-740d312e.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3756,332,80,84",
+        "offsets": "5,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsred_04",
+      "file": "pieces/coinsred-04-d80eb55d.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3841,240,74,84",
+        "offsets": "8,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsred_05",
+      "file": "pieces/coinsred-05-d95ad43d.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3771,74,66,84",
+        "offsets": "12,3,90,90"
+      }
+    },
+    {
+      "region": "coinsred_06",
+      "file": "pieces/coinsred-06-4cf52dee.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3779,18,54,84",
+        "offsets": "18,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsred_07",
+      "file": "pieces/coinsred-07-59d6cad4.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3934,427,40,84",
+        "offsets": "25,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsred_08",
+      "file": "pieces/coinsred-08-25e95916.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3674,4,30,84",
+        "offsets": "30,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsred_09",
+      "file": "pieces/coinsred-09-2a1f86cd.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3596,949,44,84",
+        "offsets": "23,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsred_10",
+      "file": "pieces/coinsred-10-2f7fd78c.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3932,368,57,84",
+        "offsets": "16,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsred_11",
+      "file": "pieces/coinsred-11-1d95bd36.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3865,14,66,84",
+        "offsets": "12,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsred_12",
+      "file": "pieces/coinsred-12-ba29ffb5.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3839,82,74,84",
+        "offsets": "8,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsred_13",
+      "file": "pieces/coinsred-13-e6538f5d.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3687,160,80,84",
+        "offsets": "5,3,90,90"
+      }
+    },
+    {
+      "region": "coinsred_14",
+      "file": "pieces/coinsred-14-ec5a876c.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3588,300,82,84",
+        "offsets": "4,3,90,90"
+      }
+    },
+    {
+      "region": "coinsred_15",
+      "file": "pieces/coinsred-15-2ee0223a.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3856,979,84,84",
+        "offsets": "3,3,90,90"
+      }
+    },
+    {
+      "region": "coinsred_16",
+      "file": "pieces/coinsred-16-2285bbc9.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3856,893,84,84",
+        "offsets": "3,3,90,90"
+      }
+    },
+    {
+      "region": "coinsred_17",
+      "file": "pieces/coinsred-17-5148bd13.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3672,332,82,84",
+        "offsets": "4,3,90,90"
+      }
+    },
+    {
+      "region": "coinsred_18",
+      "file": "pieces/coinsred-18-89fa9dfe.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3841,158,80,84",
+        "offsets": "5,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsred_19",
+      "file": "pieces/coinsred-19-f89f5ce5.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3693,74,76,84",
+        "offsets": "7,3,90,90"
+      }
+    },
+    {
+      "region": "coinsred_20",
+      "file": "pieces/coinsred-20-b092a0a4.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3769,160,70,84",
+        "offsets": "10,3,90,90"
+      }
+    },
+    {
+      "region": "coinsred_21",
+      "file": "pieces/coinsred-21-db3cbeb8.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3928,306,60,84",
+        "offsets": "15,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsred_22",
+      "file": "pieces/coinsred-22-008e205f.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "873,122,48,84",
+        "offsets": "21,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsred_23",
+      "file": "pieces/coinsred-23-b06fe4a7.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "4001,220,36,84",
+        "offsets": "27,3,90,90"
+      }
+    },
+    {
+      "region": "coinsred_24",
+      "file": "pieces/coinsred-24-6dd54696.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "4020,381,34,84",
+        "offsets": "28,3,90,90"
+      }
+    },
+    {
+      "region": "coinsred_25",
+      "file": "pieces/coinsred-25-7b4e6a02.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "959,122,48,84",
+        "offsets": "21,3,90,90",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coinsred_26",
+      "file": "pieces/coinsred-26-b9346564.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "4017,553,62,84",
+        "offsets": "14,3,90,90"
+      }
+    },
+    {
+      "region": "coinsred_27",
+      "file": "pieces/coinsred-27-54637828.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3927,220,72,84",
+        "offsets": "9,3,90,90"
+      }
+    },
+    {
+      "region": "coinsred_28",
+      "file": "pieces/coinsred-28-caae9029.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3761,246,78,84",
+        "offsets": "6,3,90,90"
+      }
+    },
+    {
+      "region": "coinsred_29",
+      "file": "pieces/coinsred-29-a788605c.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3677,246,82,84",
+        "offsets": "4,3,90,90"
+      }
+    },
+    {
+      "region": "coinsred_30",
+      "file": "pieces/coinsred-30-8320e304.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3942,969,84,84",
+        "offsets": "3,3,90,90"
+      }
+    },
+    {
+      "region": "eyes",
+      "file": "pieces/eyes-c83e2ad0.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2843,19,216,113"
+      }
+    },
+    {
+      "region": "eyesback",
+      "file": "pieces/eyesback-62772dd3.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3927,160,62,58"
+      }
+    },
+    {
+      "region": "fade",
+      "file": "pieces/fade-cefe0401.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3991,158,60,60"
+      }
+    },
+    {
+      "region": "farbgtree",
+      "file": "pieces/farbgtree-0ba81811.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3354,276,72,182",
+        "offsets": "0,1,73,183",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fg_grave_left",
+      "file": "pieces/fg-grave-left-5a6791cc.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2877,134,199,288",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fg_grave_right",
+      "file": "pieces/fg-grave-right-d040c97f.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2668,995,171,453"
+      }
+    },
+    {
+      "region": "fgtree_left",
+      "file": "pieces/fgtree-left-435a8f8a.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2593,550,253,325"
+      }
+    },
+    {
+      "region": "fgtree_right",
+      "file": "pieces/fgtree-right-8efa10e9.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2848,635,275,306",
+        "offsets": "0,1,275,307"
+      }
+    },
+    {
+      "region": "finger1",
+      "file": "pieces/finger1-daa84473.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2057,67,29,18",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "finger2",
+      "file": "pieces/finger2-a2f401e8.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1602,2,39,28"
+      }
+    },
+    {
+      "region": "finger3",
+      "file": "pieces/finger3-34a1e03e.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "806,318,20,41"
+      }
+    },
+    {
+      "region": "finger4",
+      "file": "pieces/finger4-89df2c10.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3321,2,15,40",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "finger5",
+      "file": "pieces/finger5-8f9d66aa.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3302,704,17,35",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "gargoyle",
+      "file": "pieces/gargoyle-49aa5247.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1307,308,307,428",
+        "offsets": "0,1,307,429",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ghost_eyes",
+      "file": "pieces/ghost-eyes-114f15e0.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "835,311,406,124"
+      }
+    },
+    {
+      "region": "ghost_hand",
+      "file": "pieces/ghost-hand-4ddcb7e6.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3478,1771,124,119"
+      }
+    },
+    {
+      "region": "ghost_hood",
+      "file": "pieces/ghost-hood-bf8d952e.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1251,29,349,277"
+      }
+    },
+    {
+      "region": "ghost_scythe",
+      "file": "pieces/ghost-scythe-647d49d9.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2823,1892,496,797",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ghost_skull",
+      "file": "pieces/ghost-skull-cdc27d98.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3405,947,252,189",
+        "offsets": "0,0,252,226",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ghost_underhood",
+      "file": "pieces/ghost-underhood-041a2a0a.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2877,335,298,283",
+        "offsets": "1,10,301,293",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "grave1",
+      "file": "pieces/grave1-e9e34153.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1602,32,126,274",
+        "offsets": "0,0,127,274"
+      }
+    },
+    {
+      "region": "grave2",
+      "file": "pieces/grave2-a994bc83.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2543,1450,175,314",
+        "offsets": "26,0,201,314",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "grave3",
+      "file": "pieces/grave3-2a1173a5.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3167,240,185,223"
+      }
+    },
+    {
+      "region": "ground",
+      "file": "pieces/ground-32efac9c.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2,1970,1837,418"
+      }
+    },
+    {
+      "region": "hood",
+      "file": "pieces/hood-2c68aeb3.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2584,27,257,193",
+        "offsets": "0,2,257,195"
+      }
+    },
+    {
+      "region": "mausoleum",
+      "file": "pieces/mausoleum-68b6269c.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2,361,831,920"
+      }
+    },
+    {
+      "region": "maxwin_text",
+      "file": "pieces/maxwin-text-b95d8811.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2822,1750,654,140",
+        "offsets": "1,1,655,142"
+      }
+    },
+    {
+      "region": "midtree_left",
+      "file": "pieces/midtree-left-edabd208.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "835,437,470,844"
+      }
+    },
+    {
+      "region": "midtree_right",
+      "file": "pieces/midtree-right-89a8971e.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1933,1450,608,568"
+      }
+    },
+    {
+      "region": "mist",
+      "file": "pieces/mist-8e7ade8d.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3594,504,227,165",
+        "offsets": "6,8,240,181",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "mist1",
+      "file": "pieces/mist1-218be954.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3537,733,212,166",
+        "offsets": "0,1,213,167",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "mist2",
+      "file": "pieces/mist2-564b5a5a.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3487,1341,227,157",
+        "offsets": "0,1,228,158"
+      }
+    },
+    {
+      "region": "mockup_pressanywhere",
+      "file": "pieces/mockup-pressanywhere-533d30bc.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "701,121,1,1"
+      }
+    },
+    {
+      "region": "output_0",
+      "file": "pieces/output-0-37a7611f.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "701,121,1,1"
+      }
+    },
+    {
+      "region": "win_placeholder",
+      "file": "pieces/win-placeholder-225ab391.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "701,121,1,1"
+      }
+    },
+    {
+      "region": "moon",
+      "file": "pieces/moon-2aed6348.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2121,877,571,545",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "moonshine",
+      "file": "pieces/moonshine-d7896be6.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3202,1201,282,270",
+        "offsets": "192,79,680,425"
+      }
+    },
+    {
+      "region": "palm",
+      "file": "pieces/palm-a75a9f33.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3682,1141,31,24",
+        "offsets": "1,0,32,24"
+      }
+    },
+    {
+      "region": "particle1_big",
+      "file": "pieces/particle1-big-f78d1daf.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2841,1431,16,17"
+      }
+    },
+    {
+      "region": "particle1_epic",
+      "file": "pieces/particle1-epic-2f535ed8.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3152,943,16,17",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "particle1_mega",
+      "file": "pieces/particle1-mega-d2243abc.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3604,1873,16,17"
+      }
+    },
+    {
+      "region": "particle1_super",
+      "file": "pieces/particle1-super-64851f6a.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2841,1412,16,17"
+      }
+    },
+    {
+      "region": "particle2_big",
+      "file": "pieces/particle2-big-3028b18b.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3363,2,15,16",
+        "offsets": "1,0,17,17",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "particle2_epic",
+      "file": "pieces/particle2-epic-af51bfea.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3381,2,15,16",
+        "offsets": "1,0,17,17",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "particle2_mega",
+      "file": "pieces/particle2-mega-e3bfb2f3.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3399,2,15,16",
+        "offsets": "1,0,17,17",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "particle2_super",
+      "file": "pieces/particle2-super-47174ef9.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3417,2,15,16",
+        "offsets": "1,0,17,17",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "particle3_big",
+      "file": "pieces/particle3-big-842dc9ab.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3872,1488,11,10"
+      }
+    },
+    {
+      "region": "particle3_epic",
+      "file": "pieces/particle3-epic-b0562632.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2077,85,11,10",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "particle3_mega",
+      "file": "pieces/particle3-mega-3439551c.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3872,1476,11,10"
+      }
+    },
+    {
+      "region": "particle3_super",
+      "file": "pieces/particle3-super-8f82b6e0.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3872,1464,11,10"
+      }
+    },
+    {
+      "region": "particle_large",
+      "file": "pieces/particle-large-8f6b06b7.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3537,723,8,12",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "particle_large_big",
+      "file": "pieces/particle-large-big-44c6a87a.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3942,1055,8,12",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "particle_large_epic",
+      "file": "pieces/particle-large-epic-1f5416da.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3677,232,8,12"
+      }
+    },
+    {
+      "region": "particle_large_mega",
+      "file": "pieces/particle-large-mega-24fe3389.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3551,723,8,12",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "particle_large_super",
+      "file": "pieces/particle-large-super-970ec0e1.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3677,218,8,12"
+      }
+    },
+    {
+      "region": "particle_medium",
+      "file": "pieces/particle-medium-25558394.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3402,106,10,10",
+        "offsets": "0,0,10,11"
+      }
+    },
+    {
+      "region": "particle_medium_big",
+      "file": "pieces/particle-medium-big-112c8149.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "4069,957,10,10",
+        "offsets": "0,0,10,11"
+      }
+    },
+    {
+      "region": "particle_medium_epic",
+      "file": "pieces/particle-medium-epic-fa472b4a.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "4069,945,10,10",
+        "offsets": "0,0,10,11"
+      }
+    },
+    {
+      "region": "particle_medium_mega",
+      "file": "pieces/particle-medium-mega-e4b85d75.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "4069,933,10,10",
+        "offsets": "0,0,10,11"
+      }
+    },
+    {
+      "region": "particle_medium_super",
+      "file": "pieces/particle-medium-super-6ab8cc21.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "4069,921,10,10",
+        "offsets": "0,0,10,11"
+      }
+    },
+    {
+      "region": "particle_small",
+      "file": "pieces/particle-small-9887e6b0.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1730,300,5,6",
+        "offsets": "1,0,6,6"
+      }
+    },
+    {
+      "region": "particle_small_big",
+      "file": "pieces/particle-small-big-5d3de7dd.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2114,1442,5,6",
+        "offsets": "1,0,6,6"
+      }
+    },
+    {
+      "region": "particle_small_epic",
+      "file": "pieces/particle-small-epic-9fe44118.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "806,311,5,6",
+        "offsets": "1,0,6,6",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "particle_small_mega",
+      "file": "pieces/particle-small-mega-1bd3d016.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "828,353,5,6",
+        "offsets": "1,0,6,6"
+      }
+    },
+    {
+      "region": "particle_small_super",
+      "file": "pieces/particle-small-super-46e9090a.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2089,90,5,6",
+        "offsets": "1,0,6,6"
+      }
+    },
+    {
+      "region": "radial",
+      "file": "pieces/radial-9b544a32.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2584,222,326,291",
+        "offsets": "14,17,360,323",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "rays1",
+      "file": "pieces/rays1-9f3b66ca.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3152,961,251,238",
+        "offsets": "51,62,360,360"
+      }
+    },
+    {
+      "region": "rays2",
+      "file": "pieces/rays2-c62ad6b3.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3378,491,214,230",
+        "offsets": "87,58,360,360"
+      }
+    },
+    {
+      "region": "robe",
+      "file": "pieces/robe-28266265.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2543,1627,391,277",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scythe",
+      "file": "pieces/scythe-03162344.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2859,1241,241,341",
+        "offsets": "0,1,241,342",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scytheglow",
+      "file": "pieces/scytheglow-37106ca7.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1933,1319,129,179",
+        "offsets": "0,101,325,280",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "skull",
+      "file": "pieces/skull-d568324d.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3716,1296,202,154",
+        "offsets": "0,0,202,160",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sky",
+      "file": "pieces/sky-1edd19db.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2,1283,1481,685",
+        "offsets": "0,0,1481,835"
+      }
+    },
+    {
+      "region": "slash-1",
+      "file": "pieces/slash-1-05b22518.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3872,1225,193,168",
+        "offsets": "307,279,765,563"
+      }
+    },
+    {
+      "region": "slash-10",
+      "file": "pieces/slash-10-d77312b9.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3302,723,233,222",
+        "offsets": "81,147,765,563"
+      }
+    },
+    {
+      "region": "slash-11",
+      "file": "pieces/slash-11-23ad12e6.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3378,350,208,139",
+        "offsets": "106,231,765,563"
+      }
+    },
+    {
+      "region": "slash-12",
+      "file": "pieces/slash-12-ab00f7b2.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "4028,812,69,42",
+        "offsets": "245,327,765,563",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "slash-13",
+      "file": "pieces/slash-13-793f3bdb.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3611,2,61,38",
+        "offsets": "252,330,765,563"
+      }
+    },
+    {
+      "region": "slash-2",
+      "file": "pieces/slash-2-96d40729.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3487,1500,396,233",
+        "offsets": "309,242,765,563"
+      }
+    },
+    {
+      "region": "slash-3",
+      "file": "pieces/slash-3-18e503ea.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2120,147,417,462",
+        "offsets": "307,21,765,563",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "slash-4",
+      "file": "pieces/slash-4-085780e3.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3622,1735,653,451",
+        "offsets": "74,32,765,563",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "slash-5",
+      "file": "pieces/slash-5-058328eb.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1485,1304,664,446",
+        "offsets": "66,25,765,563",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "slash-6",
+      "file": "pieces/slash-6-83994894.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1307,617,664,426",
+        "offsets": "66,25,765,563",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "slash-7",
+      "file": "pieces/slash-7-c372c410.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1735,656,646,384",
+        "offsets": "72,28,765,563",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "slash-8",
+      "file": "pieces/slash-8-d41bf34a.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1737,220,434,381",
+        "offsets": "77,31,765,563",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "slash-9",
+      "file": "pieces/slash-9-e071e37c.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "3162,465,237,214",
+        "offsets": "77,155,765,563",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spikes",
+      "file": "pieces/spikes-80f136c2.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2841,943,309,296",
+        "offsets": "0,1,309,297"
+      }
+    },
+    {
+      "region": "spikes_fg",
+      "file": "pieces/spikes-fg-de09337c.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2121,566,309,470",
+        "offsets": "1,0,310,470",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sr_bigwin",
+      "file": "pieces/sr-bigwin-c7898971.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "663,2,586,117",
+        "offsets": "2,1,589,119"
+      }
+    },
+    {
+      "region": "sr_epicwin",
+      "file": "pieces/sr-epicwin-8501853b.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2,2,659,117",
+        "offsets": "2,1,662,119"
+      }
+    },
+    {
+      "region": "sr_megawin",
+      "file": "pieces/sr-megawin-561967ce.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2,121,697,119",
+        "offsets": "2,1,700,121"
+      }
+    },
+    {
+      "region": "sr_superwin",
+      "file": "pieces/sr-superwin-b938e45f.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "2,242,802,117",
+        "offsets": "2,1,805,119"
+      }
+    },
+    {
+      "region": "stick",
+      "file": "pieces/stick-75fded4b.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "806,172,137,356",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "text_glow",
+      "file": "pieces/text-glow-a7c703ee.png",
+      "page": "sr_bigwin.webp",
+      "properties": {
+        "bounds": "1730,59,325,159",
+        "offsets": "7,6,340,170"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/bigWin/sr_bigwin.json",
+      "sha256": "381338e3753f447c74677f08d443f913051eef11e1c6637e5c0898991b099f6e",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-4541a32a.atlas",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/bigWin/sr_bigwin.atlas",
+      "sha256": "4541a32ae2a2f82ee389e561d0aa1dd9eb45299ba3ebfdbdf8fc8111cfe0048d",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "sr_bigwin.webp",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/bigWin/sr_bigwin.webp",
+      "sha256": "6ebe2399ceabab33b8df805f5502ec248f005026ddf0949c705cd771d80e3b5c",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

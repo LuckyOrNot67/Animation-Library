@@ -1,0 +1,76 @@
+{
+  "name": "loader_idle",
+  "duration": 0,
+  "timelines": {
+    "slots": 5,
+    "attachments": 1
+  },
+  "data": {
+    "slots": {
+      "loader_animated": {
+        "attachment": [
+          {
+            "name": "logo"
+          }
+        ]
+      },
+      "loader_animated_empty": {
+        "attachment": [
+          {}
+        ]
+      },
+      "loader_mask": {
+        "attachment": [
+          {
+            "name": "loader_mask"
+          }
+        ]
+      },
+      "logo_empty": {
+        "attachment": [
+          {
+            "name": "logo_full"
+          }
+        ]
+      },
+      "slot_percent": {
+        "attachment": [
+          {
+            "name": "empty"
+          }
+        ]
+      }
+    },
+    "attachments": {
+      "default": {
+        "loader_animated": {
+          "logo": {
+            "sequence": [
+              {
+                "delay": 0.0417
+              }
+            ]
+          }
+        },
+        "loader_animated_empty": {
+          "logo": {
+            "sequence": [
+              {
+                "delay": 0.0417
+              }
+            ]
+          }
+        },
+        "loader_mask": {
+          "loader_mask": {
+            "deform": [
+              {}
+            ]
+          }
+        }
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

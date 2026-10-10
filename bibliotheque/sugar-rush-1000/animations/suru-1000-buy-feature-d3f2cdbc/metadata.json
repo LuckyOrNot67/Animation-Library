@@ -1,0 +1,120 @@
+{
+  "id": "animations/suru-1000-buy-feature-d3f2cdbc",
+  "name": "suru_1000_buy_feature",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-70b79d6d.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-70b79d6d.atlas"
+  ],
+  "textures": [
+    "suru_1000_buy_feature.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_1000_buy_feature_big_in",
+      "duration": 0,
+      "timelines": {
+        "slots": 2
+      }
+    },
+    {
+      "name": "suru_1000_buy_feature_big_loop",
+      "duration": 2,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "suru_1000_buy_feature_big_right_click_out",
+      "duration": 1,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "suru_1000_buy_feature_big_wrong_click_out",
+      "duration": 1,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "suru_1000_buy_feature_small_click",
+      "duration": 0.367,
+      "timelines": {
+        "bones": 1,
+        "slots": 1
+      }
+    },
+    {
+      "name": "suru_1000_buy_feature_small_loop",
+      "duration": 1,
+      "timelines": {
+        "bones": 1,
+        "slots": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "small_super_buy_click"
+  ],
+  "slots": [
+    "sugar",
+    "green_base_small",
+    "buy_text_small_2",
+    "super_text_small",
+    "spins_text_small_2",
+    "red_base_small",
+    "red_base_small2",
+    "spins_text_small",
+    "buy_text_small"
+  ],
+  "pieces": [
+    {
+      "region": "red_base_small",
+      "file": "pieces/red-base-small-62fde966.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 2",
+        "size": "188, 106",
+        "orig": "188, 106",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-7d78edf4719e/suru_1000_buy_feature.json",
+      "sha256": "d3f2cdbc4688147de2a60cc106531ffe2ddb09421bf49486a2c41acf9926e19a",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-70b79d6d.atlas",
+      "source": "raw/_embedded/uht-7d78edf4719e/suru_1000_buy_feature.atlas",
+      "sha256": "70b79d6ddbbff058bd787d2d40a0441fe3d44117111ce78937fc274fda746db0",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_1000_buy_feature.png",
+      "source": "raw/_embedded/uht-7d78edf4719e/suru_1000_buy_feature.png",
+      "sha256": "fc6224920a62f5b78bcf6738ab376335ed8f9fa73ec7b1b8b7398e796e3341a1",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

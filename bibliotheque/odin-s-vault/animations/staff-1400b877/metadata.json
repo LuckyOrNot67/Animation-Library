@@ -1,0 +1,637 @@
+{
+  "id": "animations/staff-1400b877",
+  "name": "staff",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-137eb23f.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-137eb23f.atlas"
+  ],
+  "textures": [
+    "staff.webp"
+  ],
+  "animations": [
+    {
+      "name": "collect",
+      "duration": 1,
+      "timelines": {
+        "bones": 12,
+        "slots": 14
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1,
+      "timelines": {
+        "bones": 18,
+        "slots": 22,
+        "drawOrder": 2
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "Mine_staff",
+    "staff",
+    "Feather_staff",
+    "Feather_staff2",
+    "glow",
+    "glow_2_staff",
+    "glow_2_staff2",
+    "glow_2_staff3",
+    "staff_3d",
+    "staff_3d2",
+    "glow_2_staff4",
+    "glow_2_staff5",
+    "glow_2_staff6",
+    "glow_2_staff7",
+    "staff_effects_02_glow_02",
+    "staff_effects_02_glow_010",
+    "staff2",
+    "r1_VFX",
+    "r1_finisher_scratch_red_01_01",
+    "glow2",
+    "r1_finisher_scratch_red_02_01",
+    "r1_finisher_kick_2_01",
+    "glow3"
+  ],
+  "slots": [
+    "BG_staff",
+    "Shadow_2_staff",
+    "Shadow_1_staff",
+    "staff_effects_02",
+    "Feather_glow_staff",
+    "glow_base_staff",
+    "staff_effects_03",
+    "glow_5_staff",
+    "glow_2_staff",
+    "glow_1_staff",
+    "glow_1_staff2",
+    "glow_1_staff3",
+    "glow_1_staff4",
+    "glow_1_staff5",
+    "Crystal_staff",
+    "Feather_staff",
+    "Bead_1_staff",
+    "Gold_3_staff",
+    "frame_mask_staff",
+    "staff_effects_02_glow_01",
+    "staff_effects_02_glow_02",
+    "r1_finisher_scratch_red_02_01",
+    "r1_finisher_scratch_red_02_light_01",
+    "r1_finisher_kick_2_01",
+    "r1_finisher_kick_2_red_light_01",
+    "staff",
+    "staff3",
+    "staff2",
+    "r1_finisher_scratch_red_01_01",
+    "r1_finisher_scratch_red_01_light_01",
+    "glow2",
+    "glow"
+  ],
+  "pieces": [
+    {
+      "region": "Bead_1_staff",
+      "file": "pieces/bead-1-staff-74a9781d.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "604,1525,8,6",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Crystal_staff",
+      "file": "pieces/crystal-staff-e0c0531b.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "216,70,30,32"
+      }
+    },
+    {
+      "region": "Feather_glow_staff",
+      "file": "pieces/feather-glow-staff-4822749b.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "959,1228,53,39"
+      }
+    },
+    {
+      "region": "Feather_staff",
+      "file": "pieces/feather-staff-03453451.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "681,777,38,24"
+      }
+    },
+    {
+      "region": "Gold_3_staff",
+      "file": "pieces/gold-3-staff-dcff51cc.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "696,487,110,127",
+        "offsets": "0,6,110,133",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_1_staff",
+      "file": "pieces/shadow-1-staff-db122d19.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "852,653,120,93",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_2_staff",
+      "file": "pieces/shadow-2-staff-e21e9faa.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "110,0,102,102"
+      }
+    },
+    {
+      "region": "glow",
+      "file": "pieces/glow-4ab957b8.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1467,756,146,160"
+      }
+    },
+    {
+      "region": "glow_1_staff",
+      "file": "pieces/glow-1-staff-6ec9d662.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1389,673,80,79"
+      }
+    },
+    {
+      "region": "glow_2_staff",
+      "file": "pieces/glow-2-staff-09bbf708.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1201,670,102,87",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "glow_5_staff",
+      "file": "pieces/glow-5-staff-b0ca2a23.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1292,659,93,93"
+      }
+    },
+    {
+      "region": "glow_base_staff",
+      "file": "pieces/glow-base-staff-6230b28a.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "949,646,126,141",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "mist_2_empty",
+      "file": "pieces/mist-2-empty-ce9a747b.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "0,0,106,102"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_01",
+      "file": "pieces/r1-finisher-kick-2-01-79552166.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1492,1657,70,64",
+        "offsets": "1,1,72,66"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_02",
+      "file": "pieces/r1-finisher-kick-2-02-2df29851.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "308,828,167,220",
+        "offsets": "1,1,169,222",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_03",
+      "file": "pieces/r1-finisher-kick-2-03-a6a5a150.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1018,1204,171,309",
+        "offsets": "1,1,173,311"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_04",
+      "file": "pieces/r1-finisher-kick-2-04-0a0c0bc6.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1570,1611,213,440",
+        "offsets": "1,1,215,442",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_05",
+      "file": "pieces/r1-finisher-kick-2-05-94727dd1.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "604,1537,222,511",
+        "offsets": "1,1,224,513"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_06",
+      "file": "pieces/r1-finisher-kick-2-06-2e6b65fc.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "0,1500,304,548",
+        "offsets": "1,1,306,550"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_07",
+      "file": "pieces/r1-finisher-kick-2-07-c65fb995.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "308,1525,292,523",
+        "offsets": "1,1,294,525"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_red_light_01",
+      "file": "pieces/r1-finisher-kick-2-red-light-01-23e663d9.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1473,677,80,75",
+        "offsets": "1,1,82,77"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_red_light_02",
+      "file": "pieces/r1-finisher-kick-2-red-light-02-3bc6bb97.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "296,592,178,232",
+        "offsets": "1,1,180,234"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_red_light_03",
+      "file": "pieces/r1-finisher-kick-2-red-light-03-5519c807.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "536,1198,181,323",
+        "offsets": "1,1,183,325"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_red_light_04",
+      "file": "pieces/r1-finisher-kick-2-red-light-04-acdcc1fc.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1570,1828,220,453",
+        "offsets": "1,1,222,455",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_red_light_05",
+      "file": "pieces/r1-finisher-kick-2-red-light-05-aaa93cbb.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "308,999,224,522",
+        "offsets": "1,1,226,524"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_red_light_06",
+      "file": "pieces/r1-finisher-kick-2-red-light-06-cb2e0f33.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "0,948,304,548",
+        "offsets": "1,1,306,550"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_red_light_07",
+      "file": "pieces/r1-finisher-kick-2-red-light-07-9744b468.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "0,433,292,511",
+        "offsets": "1,1,294,513"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_01",
+      "file": "pieces/r1-finisher-scratch-red-01-01-97ebd197.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1372,920,175,128",
+        "offsets": "1,1,177,130"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_02",
+      "file": "pieces/r1-finisher-scratch-red-01-02-a1e30d0a.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1221,1053,155,263",
+        "offsets": "1,1,157,265"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_03",
+      "file": "pieces/r1-finisher-scratch-red-01-03-258e4c7c.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "536,897,220,297",
+        "offsets": "1,1,222,299"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_04",
+      "file": "pieces/r1-finisher-scratch-red-01-04-54281df0.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "296,436,192,152",
+        "offsets": "1,1,194,154"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_05",
+      "file": "pieces/r1-finisher-scratch-red-01-05-163dc40d.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "492,472,200,122",
+        "offsets": "1,1,202,124"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_06",
+      "file": "pieces/r1-finisher-scratch-red-01-06-905990bb.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1221,939,147,110",
+        "offsets": "1,1,149,112"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_light_01",
+      "file": "pieces/r1-finisher-scratch-red-01-light-01-db7be312.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "545,267,201,191",
+        "offsets": "1,1,203,193",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_light_02",
+      "file": "pieces/r1-finisher-scratch-red-01-light-02-b91205d4.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "0,106,246,323",
+        "offsets": "1,1,248,325"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_light_03",
+      "file": "pieces/r1-finisher-scratch-red-01-light-03-a68a1f47.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "830,1701,373,347",
+        "offsets": "1,1,375,349"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_light_04",
+      "file": "pieces/r1-finisher-scratch-red-01-light-04-8166eb3a.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1193,1320,243,211",
+        "offsets": "1,1,245,213"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_light_05",
+      "file": "pieces/r1-finisher-scratch-red-01-light-05-baf57ac2.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1207,1535,281,186",
+        "offsets": "1,1,283,188"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_light_06",
+      "file": "pieces/r1-finisher-scratch-red-01-light-06-6630c174.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "365,216,216,176",
+        "offsets": "1,1,218,178",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_01",
+      "file": "pieces/r1-finisher-scratch-red-02-01-d013ed8a.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1094,669,103,103",
+        "offsets": "1,1,105,105"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_02",
+      "file": "pieces/r1-finisher-scratch-red-02-02-e2b2edc2.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "250,0,179,142",
+        "offsets": "1,1,181,144"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_03",
+      "file": "pieces/r1-finisher-scratch-red-02-03-2da2d3bf.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "250,146,283,111",
+        "offsets": "1,1,285,113",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_04",
+      "file": "pieces/r1-finisher-scratch-red-02-04-b5e7e4f2.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "760,960,307,195",
+        "offsets": "1,1,309,197",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_05",
+      "file": "pieces/r1-finisher-scratch-red-02-05-8dd4a4d7.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "478,598,199,203",
+        "offsets": "1,1,201,205"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_06",
+      "file": "pieces/r1-finisher-scratch-red-02-06-1e93e04c.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "760,777,179,190",
+        "offsets": "1,1,181,192",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_07",
+      "file": "pieces/r1-finisher-scratch-red-02-07-235dc3d6.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1193,1217,99,24",
+        "offsets": "1,1,101,26",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_light_01",
+      "file": "pieces/r1-finisher-scratch-red-02-light-01-21e6b7c8.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "954,776,177,164",
+        "offsets": "1,1,179,166"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_light_02",
+      "file": "pieces/r1-finisher-scratch-red-02-light-02-1280b629.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1380,1052,264,153",
+        "offsets": "1,1,266,155",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_light_03",
+      "file": "pieces/r1-finisher-scratch-red-02-light-03-bde235fb.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "830,1517,355,180",
+        "offsets": "1,1,357,182"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_light_04",
+      "file": "pieces/r1-finisher-scratch-red-02-light-04-0644a3e6.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1207,1725,359,323",
+        "offsets": "1,1,361,325"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_light_05",
+      "file": "pieces/r1-finisher-scratch-red-02-light-05-714742e9.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "721,1271,293,242",
+        "offsets": "1,1,295,244"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_light_06",
+      "file": "pieces/r1-finisher-scratch-red-02-light-06-8a6dcbe6.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "959,944,258,256",
+        "offsets": "1,1,260,258"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_light_07",
+      "file": "pieces/r1-finisher-scratch-red-02-light-07-b5905627.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "532,805,204,88",
+        "offsets": "1,1,206,90"
+      }
+    },
+    {
+      "region": "staff_effects_02",
+      "file": "pieces/staff-effects-02-075bff8b.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1135,776,159,162",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "staff_effects_02_glow_01",
+      "file": "pieces/staff-effects-02-glow-01-1f64d1f7.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1301,756,160,162",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "staff_effects_02_glow_02",
+      "file": "pieces/staff-effects-02-glow-02-c4a4780b.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "740,336,147,138",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "staff_effects_03",
+      "file": "pieces/staff-effects-03-efe55006.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "681,601,167,172"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/staff.json",
+      "sha256": "1400b87790283814a427bf3fe569e972c2c65e0900d5a4ab41f094b35eedf64a",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-137eb23f.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/staff.atlas",
+      "sha256": "137eb23f042a8a3d643901ec3c6deae0bc2370a341f0fa24ae379a3e14299b1b",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "staff.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/special/staff.webp",
+      "sha256": "46299743e88a91bd51f8041552b044e59a4e7e545bd2191895ed138a541a4a52",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

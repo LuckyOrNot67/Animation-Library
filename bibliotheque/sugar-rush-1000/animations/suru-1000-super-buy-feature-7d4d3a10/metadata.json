@@ -1,0 +1,501 @@
+{
+  "id": "animations/suru-1000-super-buy-feature-7d4d3a10",
+  "name": "suru_1000_super_buy_feature",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-e5b4e952.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-e5b4e952.atlas"
+  ],
+  "textures": [
+    "suru_1000_super_buy_feature.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_1000_super_buy_feature_big_in",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 2,
+        "slots": 14,
+        "deform": 1
+      }
+    },
+    {
+      "name": "suru_1000_super_buy_feature_big_loop",
+      "duration": 2,
+      "timelines": {
+        "bones": 1,
+        "slots": 6
+      }
+    },
+    {
+      "name": "suru_1000_super_buy_feature_big_right_click_out",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 2,
+        "slots": 10,
+        "deform": 1
+      }
+    },
+    {
+      "name": "suru_1000_super_buy_feature_big_wrong_click_out",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 2,
+        "slots": 10,
+        "deform": 1
+      }
+    },
+    {
+      "name": "suru_1000_super_buy_feature_small_click",
+      "duration": 0.367,
+      "timelines": {
+        "bones": 2,
+        "slots": 5,
+        "deform": 1
+      }
+    },
+    {
+      "name": "suru_1000_super_buy_feature_small_loop",
+      "duration": 1,
+      "timelines": {
+        "bones": 2,
+        "slots": 10
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "small_super_buy_click",
+    "bone2",
+    "big_super_buy_free_spins",
+    "doller",
+    "click_right",
+    "bone3"
+  ],
+  "slots": [
+    "base_glow_2",
+    "base_glow_3",
+    "base_glow_1",
+    "base_glow_4",
+    "base",
+    "spot_10",
+    "spot_9",
+    "spot_8",
+    "spot_7",
+    "spot_6",
+    "spot_5",
+    "spot_4",
+    "spot_3",
+    "spot_2",
+    "spot_1",
+    "frame",
+    "perticle_sweet",
+    "multipliers_text",
+    "buy_text_big",
+    "free_text_big",
+    "spins_text_big",
+    "yellow_button_shadow",
+    "doller_button_frame_shadow",
+    "doller_button",
+    "super_text_big",
+    "red_button_big",
+    "red_button_big2",
+    "cross_sing_defth_shadow",
+    "cross_sing",
+    "green_button_big",
+    "green_button_big2",
+    "right_defth_shadow",
+    "right_sing",
+    "sugar",
+    "green_base_small",
+    "green_base_small2",
+    "buy_text_small_2",
+    "super_text_small",
+    "spins_text_small_2",
+    "red_base_small",
+    "spins_text_small",
+    "buy_text_small"
+  ],
+  "pieces": [
+    {
+      "region": "base",
+      "file": "pieces/base-afc95f75.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "945, 712",
+        "orig": "945, 712",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "base_glow_1",
+      "file": "pieces/base-glow-1-30bb1c54.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1137, 852",
+        "size": "998, 790",
+        "orig": "1000, 792",
+        "offset": "2, 2",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "base_glow_2",
+      "file": "pieces/base-glow-2-798836c1.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 714",
+        "size": "1135, 928",
+        "orig": "1150, 942",
+        "offset": "8, 7",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cross_sing",
+      "file": "pieces/cross-sing-b3806cae.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2116, 58",
+        "size": "72, 69",
+        "orig": "72, 69",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cross_sing_defth_shadow",
+      "file": "pieces/cross-sing-defth-shadow-a336a360.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2251, 725",
+        "size": "75, 73",
+        "orig": "75, 73",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "doller_button",
+      "file": "pieces/doller-button-5370dbb0.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2251, 1064",
+        "size": "287, 115",
+        "orig": "287, 115",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "doller_button_frame_shadow",
+      "file": "pieces/doller-button-frame-shadow-49c71f89.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "947, 286",
+        "size": "287, 119",
+        "orig": "287, 119",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "frame",
+      "file": "pieces/frame-9bd39dd3.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1137, 106",
+        "size": "977, 744",
+        "orig": "979, 747",
+        "offset": "1, 2",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "green_base_small",
+      "file": "pieces/green-base-small-1b442786.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "947, 575",
+        "size": "188, 137",
+        "orig": "188, 137",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "green_button_big",
+      "file": "pieces/green-button-big-23877508.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2116, 208",
+        "size": "231, 120",
+        "orig": "231, 120",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "perticle_sweet",
+      "file": "pieces/perticle-sweet-c87b95fb.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2137, 659",
+        "size": "983, 112",
+        "orig": "984, 113",
+        "offset": "1, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "red_base_small",
+      "file": "pieces/red-base-small-c448a756.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2251, 874",
+        "size": "188, 106",
+        "orig": "188, 106",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "red_button_big",
+      "file": "pieces/red-button-big-32dadc48.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "947, 53",
+        "size": "231, 120",
+        "orig": "231, 120",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "right_defth_shadow",
+      "file": "pieces/right-defth-shadow-7433294e.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2116, 129",
+        "size": "101, 77",
+        "orig": "101, 77",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "right_sing",
+      "file": "pieces/right-sing-011215ae.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2219, 133",
+        "size": "97, 73",
+        "orig": "97, 73",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spot_1",
+      "file": "pieces/spot-1-357e00aa.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2116, 827",
+        "size": "23, 19",
+        "orig": "23, 19",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spot_10",
+      "file": "pieces/spot-10-c7af21d8.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "947, 5",
+        "size": "60, 46",
+        "orig": "60, 46",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spot_2",
+      "file": "pieces/spot-2-348c7d0a.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2116, 827",
+        "size": "23, 19",
+        "orig": "23, 19",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spot_3",
+      "file": "pieces/spot-3-3e3e3db1.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2251, 800",
+        "size": "99, 72",
+        "orig": "99, 72",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spot_4",
+      "file": "pieces/spot-4-4fcd8b04.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1068, 427",
+        "size": "81, 62",
+        "orig": "81, 62",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spot_5",
+      "file": "pieces/spot-5-b7f94ce8.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1068, 510",
+        "size": "67, 63",
+        "orig": "81, 63",
+        "offset": "14, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spot_6",
+      "file": "pieces/spot-6-b0973dce.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1068, 344",
+        "size": "81, 62",
+        "orig": "81, 62",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spot_7",
+      "file": "pieces/spot-7-9a9a8a62.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2251, 682",
+        "size": "53, 41",
+        "orig": "53, 41",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spot_8",
+      "file": "pieces/spot-8-a13fd367.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2318, 171",
+        "size": "35, 27",
+        "orig": "35, 27",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spot_9",
+      "file": "pieces/spot-9-86bc9a84.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1068, 315",
+        "size": "35, 27",
+        "orig": "35, 27",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "sugar",
+      "file": "pieces/sugar-d1d9fa0e.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2116, 330",
+        "size": "253, 327",
+        "orig": "253, 327",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "yellow_button_shadow",
+      "file": "pieces/yellow-button-shadow-bb75d68a.png",
+      "page": "suru_1000_super_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2251, 1353",
+        "size": "289, 116",
+        "orig": "289, 119",
+        "offset": "0, 3",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-df7fc65bc094/suru_1000_super_buy_feature.json",
+      "sha256": "7d4d3a105313c43ddc46213f9250295e4dfbb9d83d7c2370938413df0be1f107",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-e5b4e952.atlas",
+      "source": "raw/_embedded/uht-df7fc65bc094/suru_1000_super_buy_feature.atlas",
+      "sha256": "e5b4e9521f1da00e7e0c131b6b12022585f46e56a36ed97d9081af26b01cde53",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_1000_super_buy_feature.png",
+      "source": "raw/_embedded/uht-df7fc65bc094/suru_1000_super_buy_feature.png",
+      "sha256": "ffc80d4552f4afcaa8e725f6fad4f73d4d6ba83e6316d5253953c2544775a7e1",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

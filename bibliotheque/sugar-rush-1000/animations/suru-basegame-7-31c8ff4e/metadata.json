@@ -1,0 +1,87 @@
+{
+  "id": "animations/suru-basegame-7-31c8ff4e",
+  "name": "suru_basegame_7",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-80204568.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-80204568.atlas"
+  ],
+  "textures": [
+    "suru_basegame_7.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_basegame",
+      "duration": 6,
+      "timelines": {
+        "bones": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "right_frame",
+    "fan_left2"
+  ],
+  "slots": [
+    "jar_top_candy2",
+    "jar_top_sugar2"
+  ],
+  "pieces": [
+    {
+      "region": "jar_top_candy",
+      "file": "pieces/jar-top-candy-c8006a84.png",
+      "page": "suru_basegame_7.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "0, 0",
+        "size": "119, 123",
+        "orig": "119, 123",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "jar_top_sugar",
+      "file": "pieces/jar-top-sugar-3241736c.png",
+      "page": "suru_basegame_7.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 121",
+        "size": "109, 90",
+        "orig": "109, 90",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-c876e5177663/suru_basegame_7.json",
+      "sha256": "31c8ff4e31dee704466d4359da51e04b80c3b4a97bca3a24259a07bc536e4bb3",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-80204568.atlas",
+      "source": "raw/_embedded/uht-c876e5177663/suru_basegame_7.atlas",
+      "sha256": "8020456846a6a729dc5db2359a845e71cfbd70846a261b2e20c95a9e437eb7eb",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_basegame_7.png",
+      "source": "raw/_embedded/uht-c876e5177663/suru_basegame_7.png",
+      "sha256": "edd31c35575cfd810838433780dfe6c96ab5d764ec8d82e8e8ebbe28d5e2d5f5",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

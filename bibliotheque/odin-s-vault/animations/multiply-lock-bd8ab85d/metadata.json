@@ -1,0 +1,289 @@
+{
+  "id": "animations/multiply-lock-bd8ab85d",
+  "name": "multiply_lock",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-acc3ceae.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-acc3ceae.atlas"
+  ],
+  "textures": [
+    "multiply_lock.webp"
+  ],
+  "animations": [
+    {
+      "name": "open",
+      "duration": 1.167,
+      "timelines": {
+        "bones": 12,
+        "slots": 23
+      }
+    },
+    {
+      "name": "static",
+      "duration": 0,
+      "timelines": {}
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "Lock_all",
+    "key",
+    "lock",
+    "lock_ark",
+    "chain_2",
+    "chain_4",
+    "chain_1",
+    "chain_3",
+    "chain_3_back",
+    "chain_1_back",
+    "chain_4_back",
+    "chain_2_back",
+    "chain_2_mid",
+    "chain_4_mid",
+    "chain_1_mid",
+    "chain_3_mid",
+    "Lock_3d_front",
+    "Lock_3d_back"
+  ],
+  "slots": [
+    "lock_ark_shadow",
+    "chain_3_shadow",
+    "chain_2_shadow",
+    "chain_1_shadow",
+    "lock_shadow",
+    "chain_4_shadow",
+    "stroke_lock_ark",
+    "stroke_chain_3",
+    "stroke_chain_2",
+    "stroke_chain_1",
+    "stroke_lock",
+    "stroke_chain_4",
+    "lock_ark",
+    "chain_3",
+    "chain_2",
+    "chain_1",
+    "lock",
+    "lock_add",
+    "chain_4",
+    "key_glow",
+    "key",
+    "lock_mask",
+    "lock_mask_add"
+  ],
+  "pieces": [
+    {
+      "region": "chain_1",
+      "file": "pieces/chain-1-5cff7fa6.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "2,314,35,67",
+        "offsets": "0,0,35,68",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "chain_1_shadow",
+      "file": "pieces/chain-1-shadow-00ec2fc8.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "2,389,39,72",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "chain_2",
+      "file": "pieces/chain-2-3b30990b.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "64,151,45,58",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "chain_2_shadow",
+      "file": "pieces/chain-2-shadow-8372c80c.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "72,298,49,62"
+      }
+    },
+    {
+      "region": "chain_3",
+      "file": "pieces/chain-3-95ba312f.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "66,198,47,55",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "chain_3_shadow",
+      "file": "pieces/chain-3-shadow-a8babb2b.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "2,122,51,59",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "chain_4",
+      "file": "pieces/chain-4-530c07b1.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "2,224,42,62",
+        "offsets": "19,0,61,62",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "chain_4_shadow",
+      "file": "pieces/chain-4-shadow-fecbb49c.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "76,362,46,66"
+      }
+    },
+    {
+      "region": "key",
+      "file": "pieces/key-4faff236.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "2,87,33,47",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "key_glow",
+      "file": "pieces/key-glow-9618d694.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "63,111,38,51",
+        "offsets": "1,2,40,54",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "lock",
+      "file": "pieces/lock-de0468da.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "2,46,39,41",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "lock_ark",
+      "file": "pieces/lock-ark-3129ac5f.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "97,78,31,25",
+        "offsets": "1,1,33,27",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "lock_ark_shadow",
+      "file": "pieces/lock-ark-shadow-5d52f7de.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "88,2,35,30",
+        "offsets": "1,1,37,32",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "lock_shadow",
+      "file": "pieces/lock-shadow-b9d90bec.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "51,68,41,44",
+        "offsets": "1,1,43,46",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "stroke_chain_1",
+      "file": "pieces/stroke-chain-1-e55dd669.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "2,351,36,68",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "stroke_chain_2",
+      "file": "pieces/stroke-chain-2-653ada66.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "2,175,47,60",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "stroke_chain_3",
+      "file": "pieces/stroke-chain-3-9dbe408d.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "67,247,49,55",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "stroke_chain_4",
+      "file": "pieces/stroke-chain-4-8daf920b.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "2,268,44,63",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "stroke_lock",
+      "file": "pieces/stroke-lock-c7e63480.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "45,27,39,41",
+        "offsets": "1,1,41,43",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "stroke_lock_ark",
+      "file": "pieces/stroke-lock-ark-c752a680.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "88,39,32,27",
+        "offsets": "1,1,34,29"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/multiplier/multiply_lock.json",
+      "sha256": "bd8ab85d82f98fb5eb55327b81ac4c9f9da31121a0df886400e217312d3647c9",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-acc3ceae.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/multiplier/multiply_lock.atlas",
+      "sha256": "acc3ceaeb6e3fb67c1001109faaa3673a9db265d1775d10db3d31df6e90cb9b0",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "multiply_lock.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/multiplier/multiply_lock.webp",
+      "sha256": "84fbb14f30072b072613a1a28332fb01634d8db8cbb793e757ccf2dfaa6ee02d",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

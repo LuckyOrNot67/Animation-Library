@@ -1,0 +1,271 @@
+{
+  "name": "buy_button_click",
+  "duration": 0.5,
+  "timelines": {
+    "bones": 3,
+    "slots": 5
+  },
+  "data": {
+    "slots": {
+      "base": {
+        "attachment": [
+          {
+            "name": "base"
+          }
+        ]
+      },
+      "base2": {
+        "rgba": [
+          {
+            "color": "ffffff00"
+          },
+          {
+            "time": 0.1,
+            "color": "ffffff61",
+            "curve": [
+              0.233,
+              1,
+              0.367,
+              1,
+              0.233,
+              1,
+              0.367,
+              1,
+              0.233,
+              1,
+              0.367,
+              1,
+              0.258,
+              0.38,
+              0.398,
+              0
+            ]
+          },
+          {
+            "time": 0.5,
+            "color": "ffffff00"
+          }
+        ]
+      },
+      "buybonus_text": {
+        "rgba": [
+          {
+            "color": "ffffffff"
+          },
+          {
+            "time": 0.1,
+            "color": "e0e0e0ff",
+            "curve": [
+              0.191,
+              0.88,
+              0.416,
+              0.93,
+              0.191,
+              0.88,
+              0.416,
+              0.93,
+              0.191,
+              0.88,
+              0.416,
+              0.93,
+              0.233,
+              1,
+              0.367,
+              1
+            ]
+          },
+          {
+            "time": 0.5,
+            "color": "ffffffff"
+          }
+        ],
+        "attachment": [
+          {
+            "name": "buybonus_base"
+          }
+        ]
+      },
+      "buybonus_texthl": {
+        "attachment": [
+          {
+            "name": "buybonus_base"
+          }
+        ]
+      },
+      "front2": {
+        "rgba": [
+          {
+            "color": "ffffff00"
+          },
+          {
+            "time": 0.1,
+            "color": "ffffff61",
+            "curve": [
+              0.233,
+              1,
+              0.367,
+              1,
+              0.233,
+              1,
+              0.367,
+              1,
+              0.233,
+              1,
+              0.367,
+              1,
+              0.258,
+              0.38,
+              0.398,
+              0
+            ]
+          },
+          {
+            "time": 0.5,
+            "color": "ffffff00"
+          }
+        ],
+        "attachment": [
+          {
+            "name": "front"
+          }
+        ]
+      }
+    },
+    "bones": {
+      "text": {
+        "translate": [
+          {},
+          {
+            "time": 0.1,
+            "y": -15.86,
+            "curve": [
+              0.178,
+              0,
+              0.256,
+              0,
+              0.192,
+              -15.87,
+              0.274,
+              19.75
+            ]
+          },
+          {
+            "time": 0.3333,
+            "y": 19.75,
+            "curve": [
+              0.389,
+              0,
+              0.444,
+              0,
+              0.436,
+              19.75,
+              0.5,
+              10.63
+            ]
+          },
+          {
+            "time": 0.5
+          }
+        ],
+        "scale": [
+          {},
+          {
+            "time": 0.1,
+            "x": 0.712,
+            "y": 0.712,
+            "curve": [
+              0.192,
+              0.712,
+              0.274,
+              1.07,
+              0.192,
+              0.712,
+              0.274,
+              1.07
+            ]
+          },
+          {
+            "time": 0.3333,
+            "x": 1.07,
+            "y": 1.07,
+            "curve": [
+              0.366,
+              1.07,
+              0.462,
+              1.038,
+              0.366,
+              1.07,
+              0.462,
+              1.038
+            ]
+          },
+          {
+            "time": 0.5
+          }
+        ]
+      },
+      "button_main": {
+        "translate": [
+          {},
+          {
+            "time": 0.1,
+            "y": -32.91,
+            "curve": [
+              0.178,
+              0,
+              0.256,
+              0,
+              0.192,
+              -32.93,
+              0.274,
+              6.58
+            ]
+          },
+          {
+            "time": 0.3333,
+            "y": 6.58,
+            "curve": [
+              0.389,
+              0,
+              0.444,
+              0,
+              0.436,
+              6.58,
+              0.5,
+              3.54
+            ]
+          },
+          {
+            "time": 0.5
+          }
+        ]
+      },
+      "buttonfront": {
+        "translate": [
+          {},
+          {
+            "time": 0.1,
+            "x": 5.02,
+            "y": -15.07
+          },
+          {
+            "time": 0.5
+          }
+        ],
+        "scale": [
+          {},
+          {
+            "time": 0.1,
+            "x": 1.017,
+            "y": 1.017
+          },
+          {
+            "time": 0.5
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

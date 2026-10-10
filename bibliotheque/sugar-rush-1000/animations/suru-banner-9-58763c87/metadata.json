@@ -1,0 +1,97 @@
+{
+  "id": "animations/suru-banner-9-58763c87",
+  "name": "suru_banner_9",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-7a186376.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-7a186376.atlas"
+  ],
+  "textures": [
+    "suru_banner_9.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_banner_in",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 12
+      }
+    },
+    {
+      "name": "suru_banner_loop",
+      "duration": 1.9,
+      "timelines": {
+        "bones": 9
+      }
+    },
+    {
+      "name": "suru_banner_out",
+      "duration": 0.6,
+      "timelines": {
+        "bones": 12
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "congratulation",
+    "you have win",
+    "123456789",
+    "credit",
+    "rec",
+    "rec1",
+    "ray",
+    "ray2",
+    "star1",
+    "star2",
+    "star01",
+    "star3"
+  ],
+  "slots": [
+    "meter"
+  ],
+  "pieces": [
+    {
+      "region": "meter",
+      "file": "pieces/meter-0de30474.png",
+      "page": "suru_banner_9.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "809, 228",
+        "orig": "809, 228",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-ae28c8b83b7f/suru_banner_9.json",
+      "sha256": "58763c876494ef6ba4f5aeb128695dd4db31d7460f40270850ddb43a36379f62",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-7a186376.atlas",
+      "source": "raw/_embedded/uht-ae28c8b83b7f/suru_banner_9.atlas",
+      "sha256": "7a1863768246eece93a5f8e0c3713746bdd49e10c9c1d7bd0786f447f775d34a",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_banner_9.png",
+      "source": "raw/_embedded/uht-ae28c8b83b7f/suru_banner_9.png",
+      "sha256": "9c42509d1eabd76f8bcc44bf378d01b21bd3bb5f3f5e5dd47f6d65a255340643",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

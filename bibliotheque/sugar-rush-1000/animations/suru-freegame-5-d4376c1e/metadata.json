@@ -1,0 +1,90 @@
+{
+  "id": "animations/suru-freegame-5-d4376c1e",
+  "name": "suru_freegame_5",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-8522fa59.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-8522fa59.atlas"
+  ],
+  "textures": [
+    "suru_freegame_5.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_freegame",
+      "duration": 3,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "left_frame2",
+    "fan_left2"
+  ],
+  "slots": [
+    "windowbutton3",
+    "windowbutton4",
+    "window3",
+    "window4"
+  ],
+  "pieces": [
+    {
+      "region": "window",
+      "file": "pieces/window-1a912a86.png",
+      "page": "suru_freegame_5.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "0, 30",
+        "size": "57, 34",
+        "orig": "57, 34",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "windowbutton",
+      "file": "pieces/windowbutton-9da1ff40.png",
+      "page": "suru_freegame_5.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "27, 28",
+        "orig": "27, 28",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-f4a17b398285/suru_freegame_5.json",
+      "sha256": "d4376c1e8b0db158be9084c46daf4901ec08573d29febb85cdf8b685b3770bd5",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-8522fa59.atlas",
+      "source": "raw/_embedded/uht-f4a17b398285/suru_freegame_5.atlas",
+      "sha256": "8522fa590db72a8e3fe91a8b2d7320384dd988b752a1b7fec0939194b98a6b56",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_freegame_5.png",
+      "source": "raw/_embedded/uht-f4a17b398285/suru_freegame_5.png",
+      "sha256": "25d0618548438a65b4af99b299c56ef202a3f05dd1915debabdbb2b7577a3187",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

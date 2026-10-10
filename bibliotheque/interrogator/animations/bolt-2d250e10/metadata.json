@@ -1,0 +1,149 @@
+{
+  "id": "animations/bolt-2d250e10",
+  "name": "bolt",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-f367ab00.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-f367ab00.atlas"
+  ],
+  "textures": [
+    "bolt.png"
+  ],
+  "animations": [
+    {
+      "name": "bolt",
+      "duration": 0.667,
+      "timelines": {
+        "bones": 3,
+        "slots": 4
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "fx_bolt",
+    "bolt",
+    "bolt2"
+  ],
+  "slots": [
+    "Untitled-1",
+    "bolt3",
+    "bolt",
+    "bolt2",
+    "bolt_glw"
+  ],
+  "pieces": [
+    {
+      "region": "fx/bolt",
+      "file": "pieces/fx-bolt-5c34baec.png",
+      "page": "bolt.png",
+      "properties": {
+        "bounds": "1,826,193,1139",
+        "offsets": "53,0,286,1139",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx/bolt_glw",
+      "file": "pieces/fx-bolt-glw-b9a58ab5.png",
+      "page": "bolt.png",
+      "properties": {
+        "bounds": "1138,622,150,339",
+        "offsets": "15,43,178,417",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx/lighting_07",
+      "file": "pieces/fx-lighting-07-f579057f.png",
+      "page": "bolt.png",
+      "properties": {
+        "bounds": "1532,768,385,251",
+        "offsets": "0,32,693,465"
+      }
+    },
+    {
+      "region": "fx/lighting_09",
+      "file": "pieces/fx-lighting-09-2f1d470a.png",
+      "page": "bolt.png",
+      "properties": {
+        "bounds": "1142,774,388,245",
+        "offsets": "0,47,693,465"
+      }
+    },
+    {
+      "region": "fx/lighting_10",
+      "file": "pieces/fx-lighting-10-386ec356.png",
+      "page": "bolt.png",
+      "properties": {
+        "bounds": "1,1,394,269",
+        "offsets": "0,56,693,465"
+      }
+    },
+    {
+      "region": "fx/lighting_12",
+      "file": "pieces/fx-lighting-12-24100987.png",
+      "page": "bolt.png",
+      "properties": {
+        "bounds": "562,254,469,293",
+        "offsets": "0,56,693,465"
+      }
+    },
+    {
+      "region": "fx/lighting_14",
+      "file": "pieces/fx-lighting-14-57bc4790.png",
+      "page": "bolt.png",
+      "properties": {
+        "bounds": "577,549,559,275",
+        "offsets": "0,62,693,465"
+      }
+    },
+    {
+      "region": "fx/lighting_15",
+      "file": "pieces/fx-lighting-15-c6ec272a.png",
+      "page": "bolt.png",
+      "properties": {
+        "bounds": "1,272,559,278",
+        "offsets": "0,59,693,465"
+      }
+    },
+    {
+      "region": "fx/lighting_16",
+      "file": "pieces/fx-lighting-16-8baf51f3.png",
+      "page": "bolt.png",
+      "properties": {
+        "bounds": "1,552,574,272",
+        "offsets": "0,65,693,465"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/fx/bolt/bolt.json",
+      "sha256": "2d250e10c088b7889dff4f7c2955d8cd81c5ccb0d793cdaf0221cceb5b3b3408",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-f367ab00.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/fx/bolt/bolt.atlas",
+      "sha256": "f367ab00057857799cd1d6662d9ea5b31bb960de3d322e61fd9e587699c220c1",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "bolt.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/fx/bolt/bolt.png",
+      "sha256": "c2470ec748cabd89ac7421503eabc3128a08a2ba05e9ce87cdd0a6e8c7f65a6d",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

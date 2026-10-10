@@ -1,0 +1,464 @@
+{
+  "id": "animations/croc-204d604c",
+  "name": "croc",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-a3b73000.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-a3b73000.atlas"
+  ],
+  "textures": [
+    "croc.png",
+    "legacy_hat_back.png"
+  ],
+  "animations": [
+    {
+      "name": "anticipation",
+      "duration": 0.333,
+      "timelines": {
+        "bones": 44,
+        "slots": 1
+      }
+    },
+    {
+      "name": "anticipation_idle",
+      "duration": 2.333,
+      "timelines": {
+        "bones": 44,
+        "slots": 1
+      }
+    },
+    {
+      "name": "attack",
+      "duration": 1.667,
+      "timelines": {
+        "bones": 66,
+        "slots": 33
+      }
+    },
+    {
+      "name": "hat_idle",
+      "duration": 24,
+      "timelines": {
+        "bones": 1
+      }
+    },
+    {
+      "name": "hit",
+      "duration": 1.667,
+      "timelines": {
+        "bones": 66,
+        "slots": 33
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 3.333,
+      "timelines": {
+        "bones": 66,
+        "slots": 33
+      }
+    },
+    {
+      "name": "scatter_tease",
+      "duration": 3,
+      "timelines": {
+        "bones": 1
+      }
+    },
+    {
+      "name": "scatter_tease_end",
+      "duration": 0.65,
+      "timelines": {
+        "bones": 1
+      }
+    },
+    {
+      "name": "idle_eyes",
+      "duration": 24,
+      "timelines": {
+        "bones": 0,
+        "slots": 2,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "main_croc",
+    "character_croc",
+    "t_shirt_1",
+    "t_shirt_2",
+    "head",
+    "shoulder_r_1",
+    "shoulder_l_1",
+    "shoulder_r_2",
+    "shoulder_l_2",
+    "shoulder_l_3",
+    "tail_1",
+    "tail_2",
+    "tail_3",
+    "tail_4",
+    "tail_5",
+    "hat",
+    "shoulder_r_3",
+    "character_croc2",
+    "cloak_r",
+    "cloak_r_2",
+    "cloak_r_3",
+    "cloak_l",
+    "cloak_l_2",
+    "cloak_l_3",
+    "bone27",
+    "bone28",
+    "eyebrow_l",
+    "eyebrow_r",
+    "bone30",
+    "bone31",
+    "bone33",
+    "bone37",
+    "collar_l",
+    "collar_r",
+    "mouth",
+    "bone31b",
+    "target3",
+    "leg_r_1",
+    "leg_r_2",
+    "foot_r_1",
+    "foot_r_2",
+    "leg_l_1",
+    "leg_l_2",
+    "foot_l",
+    "target",
+    "target2",
+    "shoulder_r_4",
+    "shoulder_r_5",
+    "bone",
+    "bone2",
+    "bone3",
+    "bone4",
+    "bone5",
+    "character_croc3",
+    "fx",
+    "fx2",
+    "fx3",
+    "fx4",
+    "fx5",
+    "fx6",
+    "fx7",
+    "fx8",
+    "hand",
+    "hand2",
+    "hand3",
+    "hat_float",
+    "hat_floating_art"
+  ],
+  "slots": [
+    "room_background",
+    "board_empty",
+    "photo_2026-09-20_00-57-45",
+    "tail",
+    "cloak_back",
+    "leg",
+    "t_shirt",
+    "tie_back",
+    "hat_underside",
+    "hat_back_r",
+    "hat_back_l",
+    "hand_opens",
+    "cloak_r",
+    "sleeve_r_upper",
+    "collar_r",
+    "head",
+    "eye_r",
+    "eye_l",
+    "tie",
+    "cloak_l",
+    "hand_l",
+    "collar_l",
+    "Layer 16",
+    "sleeve_r_lower",
+    "book",
+    "book2",
+    "hand_r",
+    "hat_front",
+    "fx",
+    "fx2",
+    "fx3",
+    "fx4",
+    "fx5",
+    "fx6",
+    "fx7",
+    "fx8",
+    "hand2"
+  ],
+  "pieces": [
+    {
+      "region": "book",
+      "file": "pieces/book-3414b8f7.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "951,143,142,197",
+        "offsets": "1,1,144,199",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cloak_back",
+      "file": "pieces/cloak-back-a01ab707.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "1258,604,151,180"
+      }
+    },
+    {
+      "region": "cloak_l",
+      "file": "pieces/cloak-l-1758396b.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "1452,1238,325,803"
+      }
+    },
+    {
+      "region": "cloak_r",
+      "file": "pieces/cloak-r-81e71d32.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "1779,1337,161,704"
+      }
+    },
+    {
+      "region": "collar_l",
+      "file": "pieces/collar-l-9db4f682.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "634,587,176,515"
+      }
+    },
+    {
+      "region": "collar_r",
+      "file": "pieces/collar-r-95535536.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "1420,1058,178,385",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "eye_l",
+      "file": "pieces/eye-l-bc9db2a5.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "634,544,80,41"
+      }
+    },
+    {
+      "region": "eye_r",
+      "file": "pieces/eye-r-9da312f0.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "911,130,37,34"
+      }
+    },
+    {
+      "region": "fx",
+      "file": "pieces/fx-cad49810.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "0,66,459,728",
+        "offsets": "251,124,980,980",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx2",
+      "file": "pieces/fx2-20b7f87a.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "0,1104,875,937",
+        "offsets": "64,64,1000,1065"
+      }
+    },
+    {
+      "region": "hand2",
+      "file": "pieces/hand2-081788de.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "877,1425,573,616"
+      }
+    },
+    {
+      "region": "hand_l",
+      "file": "pieces/hand-l-c5481036.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "812,786,282,602",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "hand_opens",
+      "file": "pieces/hand-opens-7eb8d25a.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "1162,239,348,160",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "hand_r",
+      "file": "pieces/hand-r-7cf2e3d3.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "1807,1104,120,137",
+        "offsets": "1,1,122,139"
+      }
+    },
+    {
+      "region": "hat_back_l",
+      "file": "pieces/hat-back-l-03c7e97b.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "0,0,110,64"
+      }
+    },
+    {
+      "region": "hat_back_r",
+      "file": "pieces/hat-back-r-e6ea9fbc.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "1942,1713,121,65",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "hat_front",
+      "file": "pieces/hat-front-e42f8d9e.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "812,589,444,195"
+      }
+    },
+    {
+      "region": "head",
+      "file": "pieces/head-5caf10f4.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "877,1070,541,353"
+      }
+    },
+    {
+      "region": "leg",
+      "file": "pieces/leg-7c79cf69.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "0,527,632,575"
+      }
+    },
+    {
+      "region": "sleeve_r_lower",
+      "file": "pieces/sleeve-r-lower-8dfdd5ab.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "730,47,117,179",
+        "offsets": "1,1,119,181",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sleeve_r_t",
+      "file": "pieces/sleeve-r-t-79d92b8a.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "1779,1243,92,145",
+        "offsets": "3,2,96,148",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sleeve_r_upper",
+      "file": "pieces/sleeve-r-upper-72b9a30e.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "1942,1836,94,205"
+      }
+    },
+    {
+      "region": "t_shirt",
+      "file": "pieces/t-shirt-e3d49dfb.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "951,287,209,300",
+        "offsets": "0,0,209,301"
+      }
+    },
+    {
+      "region": "tail",
+      "file": "pieces/tail-c9f5f623.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "1416,706,433,350"
+      }
+    },
+    {
+      "region": "tie",
+      "file": "pieces/tie-d680dee7.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "730,166,219,419"
+      }
+    },
+    {
+      "region": "tie_back",
+      "file": "pieces/tie-back-1055d839.png",
+      "page": "croc.png",
+      "properties": {
+        "bounds": "1807,1061,41,56",
+        "offsets": "1,1,43,58",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "legacy_hat_back",
+      "file": "pieces/legacy-hat-back-193376db.png",
+      "page": "legacy_hat_back.png",
+      "properties": {
+        "bounds": "0,0,1774,887"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/croc.json",
+      "sha256": "204d604ce54f92b1979d839210261f2a72994eb7f58fea1ad25f1812e9d64584",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-a3b73000.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/croc.atlas",
+      "sha256": "a3b73000ada312364abbb4546695bce581318a194e1c7fb7ae9d89c3bdd9811d",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "croc.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/croc.png",
+      "sha256": "6ebb881d8cfb3753d9013233acd861d04b87c003c14ad0369b62eeb16bf1a2c9",
+      "kind": "image"
+    },
+    {
+      "file": "legacy_hat_back.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/cast/croc/legacy_hat_back.png",
+      "sha256": "8f527007cca12a3c0769ade23bacdea1f286bb4c83f725712f8fdb88139821a6",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

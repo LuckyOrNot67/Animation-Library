@@ -1,0 +1,97 @@
+{
+  "id": "animations/suru-banner-3-ad5ad9e4",
+  "name": "suru_banner_3",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-af94d567.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-af94d567.atlas"
+  ],
+  "textures": [
+    "suru_banner_3.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_banner_in",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 12
+      }
+    },
+    {
+      "name": "suru_banner_loop",
+      "duration": 1.9,
+      "timelines": {
+        "bones": 9
+      }
+    },
+    {
+      "name": "suru_banner_out",
+      "duration": 0.6,
+      "timelines": {
+        "bones": 12
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "congratulation",
+    "you have win",
+    "123456789",
+    "credit",
+    "rec",
+    "rec1",
+    "ray",
+    "ray2",
+    "star1",
+    "star2",
+    "star01",
+    "star3"
+  ],
+  "slots": [
+    "rays_4"
+  ],
+  "pieces": [
+    {
+      "region": "rays_1",
+      "file": "pieces/rays-1-f7b182a0.png",
+      "page": "suru_banner_3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "435, 250",
+        "orig": "435, 250",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-b2fe8db1cd8e/suru_banner_3.json",
+      "sha256": "ad5ad9e4fb4228ab6698c8bd871c0921d55f5861a8ef2da5d3a5b3c8552df7bb",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-af94d567.atlas",
+      "source": "raw/_embedded/uht-b2fe8db1cd8e/suru_banner_3.atlas",
+      "sha256": "af94d5677fd1df4f8f2c235f92b291aec05e465360f3cfa2b8f01c142f87a1dc",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_banner_3.png",
+      "source": "raw/_embedded/uht-b2fe8db1cd8e/suru_banner_3.png",
+      "sha256": "143d21b7bc55a718ba27009e9ace68bc8de9c74dad816cfb305566c4d0d60d3c",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

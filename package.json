@@ -1,0 +1,19 @@
+{
+  "name": "animation-library",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bibliothèque locale de références d’animations, depuis des captures déposées par machine",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node src/cli.js",
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js",
+    "check": "node src/check.js"
+  },
+  "dependencies": {
+    "sharp": "^0.35.5"
+  }
+}

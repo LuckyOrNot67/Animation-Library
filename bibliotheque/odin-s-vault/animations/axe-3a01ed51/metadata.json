@@ -1,0 +1,705 @@
+{
+  "id": "animations/axe-3a01ed51",
+  "name": "axe",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-7d3eb105.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-7d3eb105.atlas"
+  ],
+  "textures": [
+    "symbols_high.webp"
+  ],
+  "animations": [
+    {
+      "name": "transform",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 7,
+        "slots": 22
+      }
+    },
+    {
+      "name": "win",
+      "duration": 0.833,
+      "timelines": {
+        "bones": 3,
+        "slots": 18,
+        "attachments": 1,
+        "drawOrder": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "mine",
+    "Axe",
+    "Axe_body",
+    "shine2",
+    "main_transform",
+    "Red_Glow_2_1_1",
+    "Red_Glow_2_2_1",
+    "Red_Glow_2_3",
+    "Sparks_Red_1",
+    "Red_Glow_2_4",
+    "Red_Glow_2_5"
+  ],
+  "slots": [
+    "BG_Axe",
+    "BG_Axe2",
+    "frame_Axe",
+    "frame_Axe2",
+    "Shadow_1_Axe",
+    "Shadow_2_Axe",
+    "high_effects_",
+    "Axe_Axe2",
+    "Axe_Axe",
+    "axe_red",
+    "Red_Glow_2_2_1",
+    "Red_Glow_2_2_2",
+    "Red_Glow_2_1_1",
+    "Red_Glow_2_1_2",
+    "Red_Glow_2_3",
+    "Red_Glow_3_4",
+    "Red_Glow_4_4",
+    "Sparks_Red_1",
+    "Sparks_Red_2",
+    "Sparks_Red_3_2",
+    "Sparks_Red_4_2",
+    "Sparks_Red_6",
+    "Sparks_Red_7"
+  ],
+  "pieces": [
+    {
+      "region": "Axe_Axe",
+      "file": "pieces/axe-axe-504eebe2.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "788,118,135,110",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Axe_Axe2",
+      "file": "pieces/axe-axe2-110f395a.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "153,2,135,125",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "BG_Axe",
+      "file": "pieces/bg-axe-ced7b130.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "687,115,100,99",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "BG_Fang",
+      "file": "pieces/bg-fang-cc837cfa.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1337,111,116,104"
+      }
+    },
+    {
+      "region": "BG_Helmet",
+      "file": "pieces/bg-helmet-a7b51ac2.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1138,2,106,107",
+        "offsets": "1,1,108,109"
+      }
+    },
+    {
+      "region": "BG_Horse",
+      "file": "pieces/bg-horse-f65aa59d.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1246,2,107,106",
+        "offsets": "1,1,109,108",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "BG_Raven",
+      "file": "pieces/bg-raven-e87aa608.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1024,2,112,107"
+      }
+    },
+    {
+      "region": "Beack_Top_Raven",
+      "file": "pieces/beack-top-raven-0ba03837.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1906,88,51,32"
+      }
+    },
+    {
+      "region": "Body_Raven",
+      "file": "pieces/body-raven-896b84e6.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1601,105,97,63"
+      }
+    },
+    {
+      "region": "Bottom_Jaw_Back_Raven",
+      "file": "pieces/bottom-jaw-back-raven-5e9b61fc.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "718,217,39,36"
+      }
+    },
+    {
+      "region": "Bottom_Jaw_Front_Raven",
+      "file": "pieces/bottom-jaw-front-raven-3f14c612.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1804,4,41,42",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Bottom_Jaw_closed_Raven",
+      "file": "pieces/bottom-jaw-closed-raven-3ff808a1.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1899,4,45,49"
+      }
+    },
+    {
+      "region": "Closed_eye_Horse",
+      "file": "pieces/closed-eye-horse-779ba8ff.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1681,88,17,15"
+      }
+    },
+    {
+      "region": "Ear_Horse",
+      "file": "pieces/ear-horse-88971781.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1024,111,19,21"
+      }
+    },
+    {
+      "region": "Eye_closed_Raven",
+      "file": "pieces/eye-closed-raven-1df91739.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1957,147,26,14"
+      }
+    },
+    {
+      "region": "Frame_Fix_1_Raven",
+      "file": "pieces/frame-fix-1-raven-ae1596b2.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1337,217,127,61"
+      }
+    },
+    {
+      "region": "Frame_Fix_2_Raven",
+      "file": "pieces/frame-fix-2-raven-2ef5b113.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1546,125,67,53",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Frame_fix_Horse",
+      "file": "pieces/frame-fix-horse-80921024.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1855,160,126,46",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Hair_1_Horse",
+      "file": "pieces/hair-1-horse-fb1be652.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1455,120,72,89",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Hair_2_Horse",
+      "file": "pieces/hair-2-horse-bd4a0683.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "759,222,22,31"
+      }
+    },
+    {
+      "region": "Hair_3_Horse",
+      "file": "pieces/hair-3-horse-2f6bcf5b.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1804,47,56,45",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Hair_4_Horse",
+      "file": "pieces/hair-4-horse-b360924f.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1249,111,52,24"
+      }
+    },
+    {
+      "region": "Hair_5_Horse",
+      "file": "pieces/hair-5-horse-b290010d.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "407,4,41,25"
+      }
+    },
+    {
+      "region": "Hair_Back_1_Horse",
+      "file": "pieces/hair-back-1-horse-0b184220.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1957,163,26,17"
+      }
+    },
+    {
+      "region": "Hair_Back_2_Horse",
+      "file": "pieces/hair-back-2-horse-8ed91dc1.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1943,55,33,31"
+      }
+    },
+    {
+      "region": "Hair_Back_Horse",
+      "file": "pieces/hair-back-horse-069c239c.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1847,106,52,57",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Hair_Shadow_1_Horse",
+      "file": "pieces/hair-shadow-1-horse-60e965fe.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1946,14,39,33",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Hair_Shadow_2_Horse",
+      "file": "pieces/hair-shadow-2-horse-51fa4f2d.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1195,116,32,52",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Hair_Shadow_3_Horse",
+      "file": "pieces/hair-shadow-3-horse-a88cd9a2.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1145,111,37,48",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Head_Horse",
+      "file": "pieces/head-horse-55026514.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1260,137,57,60",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Head_Raven",
+      "file": "pieces/head-raven-82641e16.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1260,196,78,75",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Helmet",
+      "file": "pieces/helmet-aedda4b9.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1746,288,121,132",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Neck_Horse",
+      "file": "pieces/neck-horse-2210a27b.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1903,182,76,105"
+      }
+    },
+    {
+      "region": "Neck_Raven",
+      "file": "pieces/neck-raven-e68850d9.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1589,20,90,83"
+      }
+    },
+    {
+      "region": "Red_Glow_2_1_1",
+      "file": "pieces/red-glow-2-1-1-1668d101.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1700,82,83,83"
+      }
+    },
+    {
+      "region": "Red_Glow_2_2_1",
+      "file": "pieces/red-glow-2-2-1-50624abd.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "788,2,114,114"
+      }
+    },
+    {
+      "region": "Red_Glow_2_3",
+      "file": "pieces/red-glow-2-3-0795632a.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "547,217,169,192"
+      }
+    },
+    {
+      "region": "Red_Glow_3_3",
+      "file": "pieces/red-glow-3-3-66a12c30.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "293,154,252,255"
+      }
+    },
+    {
+      "region": "Red_Glow_4_3",
+      "file": "pieces/red-glow-4-3-a9f55578.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "2,139,289,270"
+      }
+    },
+    {
+      "region": "Shadow_1_Axe",
+      "file": "pieces/shadow-1-axe-ca30b8ae.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1145,150,119,113",
+        "offsets": "3,1,124,115",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_1_Fang",
+      "file": "pieces/shadow-1-fang-4f1dc804.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1880,289,120,101",
+        "offsets": "2,16,124,118",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_1_Helmet",
+      "file": "pieces/shadow-1-helmet-f4e6c1af.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1027,136,120,116",
+        "offsets": "1,1,122,118",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_1_Horse",
+      "file": "pieces/shadow-1-horse-56b8dcae.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "656,2,116,111",
+        "offsets": "1,1,118,114"
+      }
+    },
+    {
+      "region": "Shadow_1_Raven",
+      "file": "pieces/shadow-1-raven-acc03c5b.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1472,2,116,115",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_2_Axe",
+      "file": "pieces/shadow-2-axe-8c5eaecd.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "536,2,118,111",
+        "offsets": "1,1,120,113"
+      }
+    },
+    {
+      "region": "Shadow_Fix_1_Raven",
+      "file": "pieces/shadow-fix-1-raven-ad1a43da.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1906,122,49,58"
+      }
+    },
+    {
+      "region": "Shadow_fix_1_Horse",
+      "file": "pieces/shadow-fix-1-horse-a352ab0f.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1762,4,76,40",
+        "offsets": "1,1,80,42",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Sparks_Red_1",
+      "file": "pieces/sparks-red-1-afd44f2e.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1681,3,77,79",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Sparks_Red_2",
+      "file": "pieces/sparks-red-2-1776e364.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1192,276,143,133"
+      }
+    },
+    {
+      "region": "Sparks_Red_3_2",
+      "file": "pieces/sparks-red-3-2-cb8b5c90.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "718,255,160,154"
+      }
+    },
+    {
+      "region": "Sparks_Red_4_2",
+      "file": "pieces/sparks-red-4-2-d56cdbc4.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1042,271,148,138"
+      }
+    },
+    {
+      "region": "Sparks_Red_6",
+      "file": "pieces/sparks-red-6-e5ced134.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "2,2,149,135"
+      }
+    },
+    {
+      "region": "Sparks_Red_7",
+      "file": "pieces/sparks-red-7-826b3558.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "880,258,160,151"
+      }
+    },
+    {
+      "region": "Tongue_Raven",
+      "file": "pieces/tongue-raven-64ef7386.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "450,12,25,17"
+      }
+    },
+    {
+      "region": "Top_Back_Raven",
+      "file": "pieces/top-back-raven-0dbeea90.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1895,55,46,31"
+      }
+    },
+    {
+      "region": "Wing_Raven",
+      "file": "pieces/wing-raven-a7e0378b.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1851,50,54,42",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "axe_red",
+      "file": "pieces/axe-red-9870ea02.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "280,2,135,125",
+        "offsets": "1,1,137,127",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fang",
+      "file": "pieces/fang-fe9255cf.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "547,115,138,100"
+      }
+    },
+    {
+      "region": "frame _Raven",
+      "file": "pieces/frame-raven-0653a12a.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "407,31,127,121"
+      }
+    },
+    {
+      "region": "frame_Horse",
+      "file": "pieces/frame-horse-53ae5438.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1729,167,124,119",
+        "offsets": "1,1,126,121"
+      }
+    },
+    {
+      "region": "frame_metal",
+      "file": "pieces/frame-metal-4b0b2f78.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1601,170,126,120"
+      }
+    },
+    {
+      "region": "glow_eye_Horse",
+      "file": "pieces/glow-eye-horse-b83c3710.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1851,2,46,46"
+      }
+    },
+    {
+      "region": "glow_eye_Raven",
+      "file": "pieces/glow-eye-raven-873a1b69.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1785,105,60,60"
+      }
+    },
+    {
+      "region": "helmet_red",
+      "file": "pieces/helmet-red-2b3851ac.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1337,280,127,129",
+        "offsets": "1,1,129,131"
+      }
+    },
+    {
+      "region": "high_effects_1",
+      "file": "pieces/high-effects-1-fc3e82f2.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1354,4,105,116",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "high_effects_2",
+      "file": "pieces/high-effects-2-bc28133b.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1466,295,114,140",
+        "offsets": "0,0,115,140",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "high_effects_3",
+      "file": "pieces/high-effects-3-be9e31f8.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1466,194,133,99",
+        "offsets": "1,1,134,100"
+      }
+    },
+    {
+      "region": "horse_red",
+      "file": "pieces/horse-red-0fa9fb72.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "900,134,125,122",
+        "offsets": "1,1,127,124"
+      }
+    },
+    {
+      "region": "raven_red",
+      "file": "pieces/raven-red-31ce3a2c.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "904,3,129,118",
+        "offsets": "1,1,131,120",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wolf_fang_red",
+      "file": "pieces/wolf-fang-red-a4c80fe5.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1608,292,136,117",
+        "offsets": "1,1,138,119"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/axe.json",
+      "sha256": "3a01ed51d06f646036d593760e3853f58e4821620500bce7297181a9d9c7ec5e",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-7d3eb105.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/symbols_high.atlas",
+      "sha256": "7d3eb10548e568af0661b4091f1867ecb7d22fabc867f1d0fbf37a615234a8ef",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "symbols_high.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/symbols/highs/symbols_high.webp",
+      "sha256": "d3b0beea7927da2c9c9ecf54ecc3c4b64d880af903136d54555c5715f13dda4a",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

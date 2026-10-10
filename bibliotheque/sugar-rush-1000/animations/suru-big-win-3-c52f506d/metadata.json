@@ -1,0 +1,166 @@
+{
+  "id": "animations/suru-big-win-3-c52f506d",
+  "name": "suru_big_win_3",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-88d54530.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-88d54530.atlas"
+  ],
+  "textures": [
+    "suru_big_win_3.png"
+  ],
+  "animations": [
+    {
+      "name": "mega_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4
+      }
+    },
+    {
+      "name": "mega_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3
+      }
+    },
+    {
+      "name": "mega_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 5
+      }
+    },
+    {
+      "name": "nice_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4
+      }
+    },
+    {
+      "name": "nice_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3
+      }
+    },
+    {
+      "name": "nice_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 5
+      }
+    },
+    {
+      "name": "sesnational_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4
+      }
+    },
+    {
+      "name": "sesnational_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3
+      }
+    },
+    {
+      "name": "sesnational_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 5
+      }
+    },
+    {
+      "name": "superb_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4
+      }
+    },
+    {
+      "name": "superb_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3
+      }
+    },
+    {
+      "name": "superb_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 5
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "sensational",
+    "numbers",
+    "stars",
+    "big_star"
+  ],
+  "slots": [
+    "meter_shadow",
+    "meter"
+  ],
+  "pieces": [
+    {
+      "region": "meter",
+      "file": "pieces/meter-27131ad2.png",
+      "page": "suru_big_win_3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "816, 11",
+        "size": "809, 228",
+        "orig": "809, 228",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "meter_shadow",
+      "file": "pieces/meter-shadow-8ec26fc6.png",
+      "page": "suru_big_win_3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "814, 239",
+        "orig": "814, 239",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-797585c4e88f/suru_big_win_3.json",
+      "sha256": "c52f506dc37d261314f4df32f637e831c0a030a50ccbd5dda60e2b2c288d5e25",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-88d54530.atlas",
+      "source": "raw/_embedded/uht-797585c4e88f/suru_big_win_3.atlas",
+      "sha256": "88d54530ebde919720a0e760e02f46689c7f1aea83869223abcf96f9a50a4fba",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_big_win_3.png",
+      "source": "raw/_embedded/uht-797585c4e88f/suru_big_win_3.png",
+      "sha256": "6b9d8115a38d1a4da8f82ef1b585e2c1b80fe150a04d475190d8b4eeb6db9579",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

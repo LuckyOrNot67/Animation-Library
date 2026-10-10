@@ -1,0 +1,143 @@
+{
+  "name": "base",
+  "duration": 12,
+  "timelines": {
+    "slots": 3,
+    "attachments": 1
+  },
+  "data": {
+    "slots": {
+      "bg_light-base": {
+        "attachment": [
+          {
+            "name": "bg_light-base"
+          },
+          {
+            "time": 0.0333
+          },
+          {
+            "time": 0.1,
+            "name": "bg_light-base"
+          },
+          {
+            "time": 0.1333
+          },
+          {
+            "time": 5.0333,
+            "name": "bg_light-base"
+          },
+          {
+            "time": 5.0667
+          },
+          {
+            "time": 7.9667,
+            "name": "bg_light-base"
+          },
+          {
+            "time": 8
+          },
+          {
+            "time": 12,
+            "name": "bg_light-base"
+          }
+        ]
+      },
+      "bg_meta": {
+        "attachment": [
+          {
+            "time": 1.4667,
+            "name": "bg_meta-glitch"
+          },
+          {
+            "time": 1.5,
+            "name": "bg_meta"
+          },
+          {
+            "time": 1.5667,
+            "name": "bg_meta-glitch"
+          },
+          {
+            "time": 1.7667,
+            "name": "bg_meta"
+          },
+          {
+            "time": 1.8,
+            "name": "bg_meta-glitch"
+          },
+          {
+            "time": 1.8333,
+            "name": "bg_meta"
+          },
+          {
+            "time": 1.9667
+          },
+          {
+            "time": 2.0667,
+            "name": "bg_meta"
+          },
+          {
+            "time": 2.1333
+          },
+          {
+            "time": 2.2,
+            "name": "bg_meta"
+          }
+        ]
+      },
+      "bg_screen": {
+        "attachment": [
+          {
+            "time": 1.9667,
+            "name": "bg_base"
+          },
+          {
+            "time": 2.0667
+          },
+          {
+            "time": 2.1333,
+            "name": "bg_base"
+          },
+          {
+            "time": 2.2
+          }
+        ]
+      }
+    },
+    "attachments": {
+      "default": {
+        "bg_fan-rgb_00": {
+          "bg_fan-rgb_": {
+            "sequence": [
+              {
+                "mode": "loop",
+                "delay": 0.0417
+              }
+            ]
+          }
+        },
+        "bg_fan-rgb_01": {
+          "bg_fan-rgb_": {
+            "sequence": [
+              {
+                "mode": "loop",
+                "delay": 0.0417
+              }
+            ]
+          }
+        },
+        "bg_fan-rgb_02": {
+          "bg_fan-rgb_": {
+            "sequence": [
+              {
+                "mode": "loop",
+                "delay": 0.0417
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

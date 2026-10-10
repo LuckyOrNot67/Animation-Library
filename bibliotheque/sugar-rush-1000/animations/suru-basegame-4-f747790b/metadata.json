@@ -1,0 +1,89 @@
+{
+  "id": "animations/suru-basegame-4-f747790b",
+  "name": "suru_basegame_4",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-e887c5b0.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-e887c5b0.atlas"
+  ],
+  "textures": [
+    "suru_basegame_4.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_basegame",
+      "duration": 6,
+      "timelines": {
+        "bones": 1,
+        "slots": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "right_frame",
+    "fan_left2"
+  ],
+  "slots": [
+    "right_frame",
+    "jar_glass3",
+    "jar_glass4"
+  ],
+  "pieces": [
+    {
+      "region": "jar_glass",
+      "file": "pieces/jar-glass-2ffd4654.png",
+      "page": "suru_basegame_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "91, 205",
+        "orig": "91, 205",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "left_frame",
+      "file": "pieces/left-frame-671f36be.png",
+      "page": "suru_basegame_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 207",
+        "size": "116, 415",
+        "orig": "116, 415",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-7ef6ba538e9a/suru_basegame_4.json",
+      "sha256": "f747790bdc21b7ab82d7915815a1e4c4862a0daa6c743baad1ec2d1184f2d630",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-e887c5b0.atlas",
+      "source": "raw/_embedded/uht-7ef6ba538e9a/suru_basegame_4.atlas",
+      "sha256": "e887c5b044fd98db1eb74a0fef6edfa5372f820a0d125d51204782f71d87016d",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_basegame_4.png",
+      "source": "raw/_embedded/uht-7ef6ba538e9a/suru_basegame_4.png",
+      "sha256": "94f17869fcfbfb0b1c7f3ef0ab3769ea5272c061540041cb781820493a27dc86",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

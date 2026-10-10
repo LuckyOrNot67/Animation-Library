@@ -1,0 +1,376 @@
+{
+  "id": "animations/logo-54064817-54064817",
+  "name": "logo__54064817",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-4bc38757.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-4bc38757.atlas"
+  ],
+  "textures": [
+    "plaque.png",
+    "letter_01_I.png",
+    "letter_02_N.png",
+    "letter_03_T.png",
+    "letter_04_E.png",
+    "letter_05_R.png",
+    "letter_06_R.png",
+    "letter_07_O.png",
+    "letter_08_G.png",
+    "letter_09_A.png",
+    "letter_10_T.png",
+    "letter_11_O.png",
+    "letter_12_R.png",
+    "slime_1.png",
+    "slime_2.png",
+    "slime_3.png",
+    "slime_4.png",
+    "slime_5.png"
+  ],
+  "animations": [
+    {
+      "name": "hit",
+      "duration": 1.4,
+      "timelines": {
+        "bones": 23
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 4,
+      "timelines": {
+        "bones": 23
+      }
+    },
+    {
+      "name": "intro",
+      "duration": 1.6,
+      "timelines": {
+        "bones": 23
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "sign",
+    "plaque",
+    "letter_01_I",
+    "letter_02_N",
+    "letter_03_T",
+    "letter_04_E",
+    "letter_05_R",
+    "letter_06_R",
+    "letter_07_O",
+    "letter_08_G",
+    "letter_09_A",
+    "letter_10_T",
+    "letter_11_O",
+    "letter_12_R",
+    "slime_1",
+    "slime_1_mid",
+    "slime_1_tip",
+    "slime_2",
+    "slime_2_mid",
+    "slime_2_tip",
+    "slime_3",
+    "slime_3_mid",
+    "slime_3_tip",
+    "slime_4",
+    "slime_4_mid",
+    "slime_4_tip",
+    "slime_5",
+    "slime_5_mid",
+    "slime_5_tip"
+  ],
+  "slots": [
+    "plaque",
+    "letter_01_I",
+    "letter_02_N",
+    "letter_03_T",
+    "letter_04_E",
+    "letter_05_R",
+    "letter_06_R",
+    "letter_07_O",
+    "letter_08_G",
+    "letter_09_A",
+    "letter_10_T",
+    "letter_11_O",
+    "letter_12_R",
+    "slime_1",
+    "slime_2",
+    "slime_3",
+    "slime_4",
+    "slime_5"
+  ],
+  "pieces": [
+    {
+      "region": "letter_01_I",
+      "file": "pieces/letter-01-i-8f0593c1.png",
+      "page": "letter_01_I.png",
+      "properties": {
+        "bounds": "0,0,238,808"
+      }
+    },
+    {
+      "region": "letter_02_N",
+      "file": "pieces/letter-02-n-dddc1631.png",
+      "page": "letter_02_N.png",
+      "properties": {
+        "bounds": "0,0,386,656"
+      }
+    },
+    {
+      "region": "letter_03_T",
+      "file": "pieces/letter-03-t-e3d53080.png",
+      "page": "letter_03_T.png",
+      "properties": {
+        "bounds": "0,0,324,646"
+      }
+    },
+    {
+      "region": "letter_04_E",
+      "file": "pieces/letter-04-e-a3cebf8d.png",
+      "page": "letter_04_E.png",
+      "properties": {
+        "bounds": "0,0,304,634"
+      }
+    },
+    {
+      "region": "letter_05_R",
+      "file": "pieces/letter-05-r-e44e5356.png",
+      "page": "letter_05_R.png",
+      "properties": {
+        "bounds": "0,0,344,630"
+      }
+    },
+    {
+      "region": "letter_06_R",
+      "file": "pieces/letter-06-r-fc193898.png",
+      "page": "letter_06_R.png",
+      "properties": {
+        "bounds": "0,0,360,628"
+      }
+    },
+    {
+      "region": "letter_07_O",
+      "file": "pieces/letter-07-o-8695789a.png",
+      "page": "letter_07_O.png",
+      "properties": {
+        "bounds": "0,0,368,568"
+      }
+    },
+    {
+      "region": "letter_08_G",
+      "file": "pieces/letter-08-g-f81ddd10.png",
+      "page": "letter_08_G.png",
+      "properties": {
+        "bounds": "0,0,358,636"
+      }
+    },
+    {
+      "region": "letter_09_A",
+      "file": "pieces/letter-09-a-256a04e3.png",
+      "page": "letter_09_A.png",
+      "properties": {
+        "bounds": "0,0,340,632"
+      }
+    },
+    {
+      "region": "letter_10_T",
+      "file": "pieces/letter-10-t-a392a404.png",
+      "page": "letter_10_T.png",
+      "properties": {
+        "bounds": "0,0,360,644"
+      }
+    },
+    {
+      "region": "letter_11_O",
+      "file": "pieces/letter-11-o-0288e120.png",
+      "page": "letter_11_O.png",
+      "properties": {
+        "bounds": "0,0,346,670"
+      }
+    },
+    {
+      "region": "letter_12_R",
+      "file": "pieces/letter-12-r-d013a0ff.png",
+      "page": "letter_12_R.png",
+      "properties": {
+        "bounds": "0,0,422,714"
+      }
+    },
+    {
+      "region": "slime_1",
+      "file": "pieces/slime-1-7c42d7a4.png",
+      "page": "slime_1.png",
+      "properties": {
+        "bounds": "0,0,312,444"
+      }
+    },
+    {
+      "region": "slime_2",
+      "file": "pieces/slime-2-444b49e9.png",
+      "page": "slime_2.png",
+      "properties": {
+        "bounds": "0,0,260,222"
+      }
+    },
+    {
+      "region": "slime_3",
+      "file": "pieces/slime-3-51936634.png",
+      "page": "slime_3.png",
+      "properties": {
+        "bounds": "0,0,222,280"
+      }
+    },
+    {
+      "region": "slime_4",
+      "file": "pieces/slime-4-d17d5646.png",
+      "page": "slime_4.png",
+      "properties": {
+        "bounds": "0,0,428,328"
+      }
+    },
+    {
+      "region": "slime_5",
+      "file": "pieces/slime-5-6ba6f67c.png",
+      "page": "slime_5.png",
+      "properties": {
+        "bounds": "0,0,286,266"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/logo__54064817.json",
+      "sha256": "540648175436af714646f6574d07135ee9b58f1424f78ee1f146724105943d3f",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-4bc38757.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/logo.atlas",
+      "sha256": "4bc38757a7490cba9acbf0d4e62d5e8483a4d0a45915b091e9fd593a0b0bca7c",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "plaque.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/plaque.png",
+      "sha256": "63d36e0586a73c2586da9450d34d37086ea0cb563eb770851a5be17d453b628e",
+      "kind": "image"
+    },
+    {
+      "file": "letter_01_I.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_01_I.png",
+      "sha256": "4f8797101e8c202d818e866a889715644a3f1cf98d5137993fa0c7624d937f0f",
+      "kind": "image"
+    },
+    {
+      "file": "letter_02_N.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_02_N.png",
+      "sha256": "053855000c78c2dd00dcd26dd930b362c321887fa944a56d6b959346d8b293ce",
+      "kind": "image"
+    },
+    {
+      "file": "letter_03_T.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_03_T.png",
+      "sha256": "9f7a227c70bdf593b305e49b4e40ce56a29c975fd8920b5833f761d1be33d1bf",
+      "kind": "image"
+    },
+    {
+      "file": "letter_04_E.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_04_E.png",
+      "sha256": "35c45f9969b1df71752d0721c44fa0c928e29dd87bd7a867984cfcd455bae7f9",
+      "kind": "image"
+    },
+    {
+      "file": "letter_05_R.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_05_R.png",
+      "sha256": "6aba4a3079d41c2adfe883afb2baf294e735405044dca6cedf853d1a5504f636",
+      "kind": "image"
+    },
+    {
+      "file": "letter_06_R.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_06_R.png",
+      "sha256": "33d006503cf8d7a3c9da6cbb144a2a849f9d16f72d8f60718d5ac03f9f43abc2",
+      "kind": "image"
+    },
+    {
+      "file": "letter_07_O.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_07_O.png",
+      "sha256": "616bd251ab2db900fbf40709f5288627d2d9d13e8bbb1885dc786c6a54ed818d",
+      "kind": "image"
+    },
+    {
+      "file": "letter_08_G.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_08_G.png",
+      "sha256": "eeda9e655cc647564bc5cd41ae06b86727d58b4d78f1953781200f0cacc11956",
+      "kind": "image"
+    },
+    {
+      "file": "letter_09_A.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_09_A.png",
+      "sha256": "ebd7e24ad6e3260c721af03c7e751f622869ca0d8fc500412d3662468e036799",
+      "kind": "image"
+    },
+    {
+      "file": "letter_10_T.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_10_T.png",
+      "sha256": "ed594e9e7d4b3465fdf1c133ccfd6c7ae0c85ff41618aba951cdf278a75a54bc",
+      "kind": "image"
+    },
+    {
+      "file": "letter_11_O.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_11_O.png",
+      "sha256": "9aad76f10d15fa42a473d08f2f7d49b6cdfa6d288b3eeb19b24d50063e4d5240",
+      "kind": "image"
+    },
+    {
+      "file": "letter_12_R.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/letter_12_R.png",
+      "sha256": "4f812ebc4e5bf734e3b0fa60e11e844c2c775db27466d847c7483b1036e59e62",
+      "kind": "image"
+    },
+    {
+      "file": "slime_1.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/slime_1.png",
+      "sha256": "48cf51b19d37a1c2bc0e40c9379424e5492e5566f4431f011985810f6cbf386e",
+      "kind": "image"
+    },
+    {
+      "file": "slime_2.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/slime_2.png",
+      "sha256": "f22d477e13fe2af37a3bd400ce7e28f7db87a53f069ab35d6164a37a16b18398",
+      "kind": "image"
+    },
+    {
+      "file": "slime_3.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/slime_3.png",
+      "sha256": "19e9167240ef7f86ef95f93f9d6c4d30c86ab0f3739bf78b25fad2dfaf6cd359",
+      "kind": "image"
+    },
+    {
+      "file": "slime_4.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/slime_4.png",
+      "sha256": "9b6e4cd5a982ca9ecb41391cc30467c828fc339fdbb91003045fea3ef3bcb20e",
+      "kind": "image"
+    },
+    {
+      "file": "slime_5.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/logo/slime_5.png",
+      "sha256": "e1300e35dc7a670a406fa59552b6f201449c752f3b955b03aadd8f861ea497c6",
+      "kind": "image"
+    }
+  ],
+  "warnings": [
+    "Dimensions différentes pour plaque.png.",
+    "Découpe plaque : extract_area: bad extract area"
+  ],
+  "complete": false
+}

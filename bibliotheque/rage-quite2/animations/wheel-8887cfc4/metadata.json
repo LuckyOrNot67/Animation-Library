@@ -1,0 +1,5046 @@
+{
+  "id": "animations/wheel-8887cfc4",
+  "name": "wheel",
+  "machine": "rage-quite2",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-23b89430.atlas",
+  "pma": true,
+  "atlases": [
+    "atlas-23b89430.atlas"
+  ],
+  "textures": [
+    "RAGE-QUIT-2-MASTER.png",
+    "RAGE-QUIT-2-MASTER_2.png",
+    "RAGE-QUIT-2-MASTER_3.png",
+    "RAGE-QUIT-2-MASTER_4.png",
+    "RAGE-QUIT-2-MASTER_5.png",
+    "RAGE-QUIT-2-MASTER_6.png",
+    "RAGE-QUIT-2-MASTER_7.png",
+    "RAGE-QUIT-2-MASTER_8.png",
+    "RAGE-QUIT-2-MASTER_9.png",
+    "RAGE-QUIT-2-MASTER_10.png",
+    "RAGE-QUIT-2-MASTER_11.png",
+    "RAGE-QUIT-2-MASTER_12.png",
+    "RAGE-QUIT-2-MASTER_13.png"
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "duration": 10,
+      "timelines": {
+        "bones": 7,
+        "slots": 3
+      }
+    },
+    {
+      "name": "intro",
+      "duration": 0.567,
+      "timelines": {
+        "bones": 16,
+        "slots": 6
+      }
+    },
+    {
+      "name": "outro",
+      "duration": 0.4,
+      "timelines": {
+        "bones": 13,
+        "slots": 24
+      }
+    },
+    {
+      "name": "spin",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 4,
+        "slots": 5,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "CENTRE",
+    "top",
+    "BACKER",
+    "wheel_backerA",
+    "wheel_backerB",
+    "wheel_sideA",
+    "wheel_sideB",
+    "wheel_fan",
+    "wheel_fan-r",
+    "fx-lgt-str_001",
+    "fx-glow-hollow",
+    "fx-glow-hollow3",
+    "wheel_pointer",
+    "wheel_content",
+    "fx-wheel-glitch_05",
+    "R",
+    "wheel_sideB2",
+    "wheel_sideA2",
+    "wheel_fan2",
+    "wheel_fan-r2",
+    "BACKER-R",
+    "wheel_backerA2",
+    "wheel_backerB2"
+  ],
+  "slots": [
+    "demo-ingame",
+    "fx-lgt-str_001",
+    "fx-wheel-glitch_05",
+    "wheel_backerB",
+    "wheel_backerB2",
+    "wheel_backerA",
+    "wheel_backerA2",
+    "wheel_backerA_01",
+    "fx-glow-hollow",
+    "fx-glow-hollow3",
+    "wheel_sideA",
+    "wheel_sideA2",
+    "wheel_top",
+    "wheel_top2",
+    "wheel_fan",
+    "wheel_fan2",
+    "wheel_fan-r",
+    "wheel_fan-r2",
+    "wheel_sideB",
+    "wheel_sideB2",
+    "wheel_centre-pie",
+    "wheel_centre-pie3",
+    "wheel_centre-pie2",
+    "wheel_centre-pie4",
+    "wheel_pointer",
+    "wheel_centre-pie-in",
+    "wheel_centre-pie-in4",
+    "wheel_centre-pie-in2",
+    "wheel_centre-pie-in3",
+    "wheel_content"
+  ],
+  "pieces": [
+    {
+      "region": "anti-scan_00",
+      "file": "pieces/anti-scan-00-a8ecb5f8.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "631,33,57,521",
+        "offsets": "0,0,80,521",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bg_base",
+      "file": "pieces/bg-base-7254436c.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "8,156,961,762",
+        "offsets": "0,1,962,764",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bg_bonus",
+      "file": "pieces/bg-bonus-0ee96b30.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "958,1278,960,762",
+        "offsets": "1,1,962,764"
+      }
+    },
+    {
+      "region": "bg_meta-glitch",
+      "file": "pieces/bg-meta-glitch-da6bc376.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "958,1125,304,145",
+        "offsets": "1,1,306,147"
+      }
+    },
+    {
+      "region": "bn_but1",
+      "file": "pieces/bn-but1-127f221a.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "1659,15,52,34",
+        "offsets": "1,1,55,36"
+      }
+    },
+    {
+      "region": "bn_but2",
+      "file": "pieces/bn-but2-18ba3c1e.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "1719,15,52,34",
+        "offsets": "2,1,55,36"
+      }
+    },
+    {
+      "region": "bot",
+      "file": "pieces/bot-e348fe65.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "1857,186,1084,155",
+        "offsets": "1,1,1085,156",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_eyelidDR",
+      "file": "pieces/ch-eyeliddr-c9f1b712.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "631,98,110,50"
+      }
+    },
+    {
+      "region": "ch_legR",
+      "file": "pieces/ch-legr-512a3c41.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "1857,112,66,183",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_pupilL",
+      "file": "pieces/ch-pupill-c13a8057.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "1160,68,22,39",
+        "offsets": "1,1,24,41",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_pupilR",
+      "file": "pieces/ch-pupilr-c6dc998f.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "749,111,21,37",
+        "offsets": "1,1,23,39"
+      }
+    },
+    {
+      "region": "ch_wire-throw",
+      "file": "pieces/ch-wire-throw-d20bbc21.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "2017,1613,427,15",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cut-bonus-sit-wire",
+      "file": "pieces/cut-bonus-sit-wire-48084934.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "8,8,140,615",
+        "offsets": "5,3,147,619",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fs-backer",
+      "file": "pieces/fs-backer-03f6c5ab.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "8,1125,942,915",
+        "offsets": "1,1,944,917"
+      }
+    },
+    {
+      "region": "fs-fs",
+      "file": "pieces/fs-fs-4b66cea9.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "1926,1445,595,83",
+        "offsets": "1,1,597,85",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fs-light-up",
+      "file": "pieces/fs-light-up-6bd281a8.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "1271,57,1213,578",
+        "offsets": "10,1,1234,603",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-electric-wave28",
+      "file": "pieces/fx-electric-wave28-bac0cbf7.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "1926,1278,159,78",
+        "offsets": "57,20,250,250",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-hexa_00",
+      "file": "pieces/fx-light-hexa-00-ccc8de4b.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "749,102,1,1"
+      }
+    },
+    {
+      "region": "fx-trail-glitch_19",
+      "file": "pieces/fx-trail-glitch-19-c7502a60.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "749,102,1,1"
+      }
+    },
+    {
+      "region": "fx-light-hexa_22",
+      "file": "pieces/fx-light-hexa-22-394fcba0.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "2017,1601,23,4",
+        "offsets": "214,18,237,109"
+      }
+    },
+    {
+      "region": "fx-light-hexa_23",
+      "file": "pieces/fx-light-hexa-23-23a25ac3.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "631,24,2,1",
+        "offsets": "235,20,237,109"
+      }
+    },
+    {
+      "region": "fx-trail-glitch_14",
+      "file": "pieces/fx-trail-glitch-14-7461a067.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "1160,9,491,40",
+        "offsets": "0,18,504,78"
+      }
+    },
+    {
+      "region": "lips-fts_00",
+      "file": "pieces/lips-fts-00-f439d763.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "778,98,1019,485",
+        "offsets": "0,0,1024,485",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pc_jack",
+      "file": "pieces/pc-jack-6095dadc.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "1779,12,37,46",
+        "offsets": "1,1,40,48",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wheel_butL",
+      "file": "pieces/wheel-butl-8545efa0.png",
+      "page": "RAGE-QUIT-2-MASTER.ktx2",
+      "properties": {
+        "bounds": "1857,14,90,180",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bg-speedline-glitch",
+      "file": "pieces/bg-speedline-glitch-c1c965f5.png",
+      "page": "RAGE-QUIT-2-MASTER_2.ktx2",
+      "properties": {
+        "bounds": "449,39,835,471"
+      }
+    },
+    {
+      "region": "bn_controller",
+      "file": "pieces/bn-controller-cad049d3.png",
+      "page": "RAGE-QUIT-2-MASTER_2.ktx2",
+      "properties": {
+        "bounds": "1743,10,292,94"
+      }
+    },
+    {
+      "region": "bn_eyebrow",
+      "file": "pieces/bn-eyebrow-eab9ba7c.png",
+      "page": "RAGE-QUIT-2-MASTER_2.ktx2",
+      "properties": {
+        "bounds": "1051,1407,212,62"
+      }
+    },
+    {
+      "region": "cut-bonus-chair",
+      "file": "pieces/cut-bonus-chair-6c2ed7db.png",
+      "page": "RAGE-QUIT-2-MASTER_2.ktx2",
+      "properties": {
+        "bounds": "1051,529,684,839",
+        "offsets": "1,1,686,841"
+      }
+    },
+    {
+      "region": "cut-bonus-trash",
+      "file": "pieces/cut-bonus-trash-d3f3b884.png",
+      "page": "RAGE-QUIT-2-MASTER_2.ktx2",
+      "properties": {
+        "bounds": "1288,1376,664,730",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cut-desk",
+      "file": "pieces/cut-desk-31a87358.png",
+      "page": "RAGE-QUIT-2-MASTER_2.ktx2",
+      "properties": {
+        "bounds": "8,1477,1272,563"
+      }
+    },
+    {
+      "region": "fs-txt",
+      "file": "pieces/fs-txt-84d3e4a5.png",
+      "page": "RAGE-QUIT-2-MASTER_2.ktx2",
+      "properties": {
+        "bounds": "8,53,1416,188",
+        "offsets": "1,1,1418,190",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-hexa_04",
+      "file": "pieces/fx-light-hexa-04-17d9759e.png",
+      "page": "RAGE-QUIT-2-MASTER_2.ktx2",
+      "properties": {
+        "bounds": "347,8,130,90",
+        "offsets": "1,18,237,109",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "w_off",
+      "file": "pieces/w-off-9ee20c3e.png",
+      "page": "RAGE-QUIT-2-MASTER_2.ktx2",
+      "properties": {
+        "bounds": "204,8,130,135",
+        "offsets": "1,1,132,137",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "w_shadow",
+      "file": "pieces/w-shadow-82acb073.png",
+      "page": "RAGE-QUIT-2-MASTER_2.ktx2",
+      "properties": {
+        "bounds": "1292,100,443,421",
+        "offsets": "1,1,445,423"
+      }
+    },
+    {
+      "region": "win_big-txt",
+      "file": "pieces/win-big-txt-e79bade5.png",
+      "page": "RAGE-QUIT-2-MASTER_2.ktx2",
+      "properties": {
+        "bounds": "1743,112,1256,279",
+        "offsets": "1,1,1258,281",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "win_line-sweep",
+      "file": "pieces/win-line-sweep-cd5b4f7a.png",
+      "page": "RAGE-QUIT-2-MASTER_2.ktx2",
+      "properties": {
+        "bounds": "449,518,951,594",
+        "offsets": "80,1,1032,596",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "win_mega-txt-glitch",
+      "file": "pieces/win-mega-txt-glitch-0d38590b.png",
+      "page": "RAGE-QUIT-2-MASTER_2.ktx2",
+      "properties": {
+        "bounds": "1292,8,424,84"
+      }
+    },
+    {
+      "region": "win_total-txt",
+      "file": "pieces/win-total-txt-d4399660.png",
+      "page": "RAGE-QUIT-2-MASTER_2.ktx2",
+      "properties": {
+        "bounds": "204,146,1323,237",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "anti-glitch_04",
+      "file": "pieces/anti-glitch-04-094fc945.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "1725,8,49,273",
+        "offsets": "12,0,73,273",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_armR-fist",
+      "file": "pieces/ch-armr-fist-c5bba544.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "1725,65,440,284",
+        "offsets": "0,0,443,284",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cut-win-handL-fist",
+      "file": "pieces/cut-win-handl-fist-90a4a91f.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "1698,513,359,293",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fs-light-bot",
+      "file": "pieces/fs-light-bot-9658e22d.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "1961,1195,845,73",
+        "offsets": "1,1,847,75",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-dot-glitch",
+      "file": "pieces/fx-dot-glitch-8f070453.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "1144,9,42,42"
+      }
+    },
+    {
+      "region": "fx-electric-wave23",
+      "file": "pieces/fx-electric-wave23-c2c04c62.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "1471,1832,208,219",
+        "offsets": "14,9,250,250",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-trail-glitch_06",
+      "file": "pieces/fx-trail-glitch-06-49597cb3.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "1961,905,282,71",
+        "offsets": "0,3,504,78",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-trail-glitch_15",
+      "file": "pieces/fx-trail-glitch-15-668c3f57.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "178,15,477,36",
+        "offsets": "0,20,504,78"
+      }
+    },
+    {
+      "region": "fx-trail-glitch_16",
+      "file": "pieces/fx-trail-glitch-16-cf6225c3.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "663,16,473,35",
+        "offsets": "0,21,504,78"
+      }
+    },
+    {
+      "region": "fx-trail-glitch_17",
+      "file": "pieces/fx-trail-glitch-17-4025fd7d.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "136,8,467,34",
+        "offsets": "0,21,504,78",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "lips-fts_01",
+      "file": "pieces/lips-fts-01-c0938490.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "178,1045,1019,485",
+        "offsets": "0,0,1024,485"
+      }
+    },
+    {
+      "region": "lips-fts_03",
+      "file": "pieces/lips-fts-03-86b590aa.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "178,552,1019,485",
+        "offsets": "0,0,1024,485"
+      }
+    },
+    {
+      "region": "lips-fts_05",
+      "file": "pieces/lips-fts-05-4df22fee.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "1205,511,1019,485",
+        "offsets": "0,0,1024,485",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "lips-fts_07",
+      "file": "pieces/lips-fts-07-a63ee5eb.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "178,59,1019,485",
+        "offsets": "0,0,1024,485"
+      }
+    },
+    {
+      "region": "q_chip",
+      "file": "pieces/q-chip-83055cba.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "1457,1557,220,233",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "side",
+      "file": "pieces/side-e5e93d85.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "8,483,162,1557",
+        "offsets": "1,0,164,1557"
+      }
+    },
+    {
+      "region": "starship-light",
+      "file": "pieces/starship-light-806dee76.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "1999,662,235,35",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "win_arrowD",
+      "file": "pieces/win-arrowd-e12b4906.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "8,18,120,457",
+        "offsets": "2,2,124,461"
+      }
+    },
+    {
+      "region": "win_arrowU",
+      "file": "pieces/win-arrowu-de059bce.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "1205,8,512,495",
+        "offsets": "1,2,558,499"
+      }
+    },
+    {
+      "region": "win_epic-txt",
+      "file": "pieces/win-epic-txt-261fad90.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "178,1785,1285,255",
+        "offsets": "1,1,1287,257"
+      }
+    },
+    {
+      "region": "win_max-txt",
+      "file": "pieces/win-max-txt-9450ee0a.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "1698,880,1160,255",
+        "offsets": "1,1,1162,257",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "win_mega-txt",
+      "file": "pieces/win-mega-txt-fa95e8bf.png",
+      "page": "RAGE-QUIT-2-MASTER_3.ktx2",
+      "properties": {
+        "bounds": "178,1538,1271,239",
+        "offsets": "1,1,1273,241"
+      }
+    },
+    {
+      "region": "anti-glitch_03",
+      "file": "pieces/anti-glitch-03-cca79615.png",
+      "page": "RAGE-QUIT-2-MASTER_4.ktx2",
+      "properties": {
+        "bounds": "8,8,60,273",
+        "offsets": "6,0,73,273",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "anti-glitch_15",
+      "file": "pieces/anti-glitch-15-7e477991.png",
+      "page": "RAGE-QUIT-2-MASTER_4.ktx2",
+      "properties": {
+        "bounds": "1691,30,47,272",
+        "offsets": "13,0,73,273"
+      }
+    },
+    {
+      "region": "anti-glitch_17",
+      "file": "pieces/anti-glitch-17-51902a61.png",
+      "page": "RAGE-QUIT-2-MASTER_4.ktx2",
+      "properties": {
+        "bounds": "1746,8,48,272",
+        "offsets": "12,0,73,273",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-trail-glitch_13",
+      "file": "pieces/fx-trail-glitch-13-7b07c7a4.png",
+      "page": "RAGE-QUIT-2-MASTER_4.ktx2",
+      "properties": {
+        "bounds": "289,20,491,48",
+        "offsets": "0,12,504,78"
+      }
+    },
+    {
+      "region": "lips-fts_09",
+      "file": "pieces/lips-fts-09-3801ce83.png",
+      "page": "RAGE-QUIT-2-MASTER_4.ktx2",
+      "properties": {
+        "bounds": "8,1555,1019,485",
+        "offsets": "0,0,1024,485"
+      }
+    },
+    {
+      "region": "lips-fts_11",
+      "file": "pieces/lips-fts-11-619dec5d.png",
+      "page": "RAGE-QUIT-2-MASTER_4.ktx2",
+      "properties": {
+        "bounds": "8,1062,1019,485",
+        "offsets": "0,0,1024,485"
+      }
+    },
+    {
+      "region": "lips-fts_13",
+      "file": "pieces/lips-fts-13-fe371910.png",
+      "page": "RAGE-QUIT-2-MASTER_4.ktx2",
+      "properties": {
+        "bounds": "8,569,1019,485",
+        "offsets": "0,0,1024,485"
+      }
+    },
+    {
+      "region": "lips-fts_15",
+      "file": "pieces/lips-fts-15-d47524cc.png",
+      "page": "RAGE-QUIT-2-MASTER_4.ktx2",
+      "properties": {
+        "bounds": "1035,1021,1019,485",
+        "offsets": "0,0,1024,485",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "lips-fts_17",
+      "file": "pieces/lips-fts-17-fa09de7f.png",
+      "page": "RAGE-QUIT-2-MASTER_4.ktx2",
+      "properties": {
+        "bounds": "8,76,1019,485",
+        "offsets": "0,0,1024,485"
+      }
+    },
+    {
+      "region": "lips-fts_18",
+      "file": "pieces/lips-fts-18-aeafac2d.png",
+      "page": "RAGE-QUIT-2-MASTER_4.ktx2",
+      "properties": {
+        "bounds": "1528,1021,1019,485",
+        "offsets": "0,0,1024,485",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "w_txt-glitch_02",
+      "file": "pieces/w-txt-glitch-02-d86c2e35.png",
+      "page": "RAGE-QUIT-2-MASTER_4.ktx2",
+      "properties": {
+        "bounds": "788,19,212,49",
+        "offsets": "5,2,224,57"
+      }
+    },
+    {
+      "region": "wheel_centre-pie",
+      "file": "pieces/wheel-centre-pie-ec4710ef.png",
+      "page": "RAGE-QUIT-2-MASTER_4.ktx2",
+      "properties": {
+        "bounds": "1035,310,703,703",
+        "offsets": "1,0,704,704"
+      }
+    },
+    {
+      "region": "wheel_sideB",
+      "file": "pieces/wheel-sideb-683fdb0b.png",
+      "page": "RAGE-QUIT-2-MASTER_4.ktx2",
+      "properties": {
+        "bounds": "1035,27,275,648",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "win_board-bot",
+      "file": "pieces/win-board-bot-5438ca3e.png",
+      "page": "RAGE-QUIT-2-MASTER_4.ktx2",
+      "properties": {
+        "bounds": "1746,64,949,293",
+        "offsets": "206,6,1155,306",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "anti-glitch_16",
+      "file": "pieces/anti-glitch-16-482783a9.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "1645,8,47,272",
+        "offsets": "13,0,73,273",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "anti-glitch_20",
+      "file": "pieces/anti-glitch-20-6c7ddc3f.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "1990,1284,50,273",
+        "offsets": "12,0,73,273"
+      }
+    },
+    {
+      "region": "anti-glitch_21",
+      "file": "pieces/anti-glitch-21-cb7da158.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "1990,1003,50,273",
+        "offsets": "12,0,73,273"
+      }
+    },
+    {
+      "region": "ch_armL-controller2",
+      "file": "pieces/ch-arml-controller2-5b283a67.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "1880,571,124,100",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cut-bonus-sit-body2",
+      "file": "pieces/cut-bonus-sit-body2-75d8efcc.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "1062,8,575,497"
+      }
+    },
+    {
+      "region": "fx-explosion-pixel_08",
+      "file": "pieces/fx-explosion-pixel-08-7713cb0f.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "1035,513,500,485",
+        "offsets": "0,15,500,500",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-hexa_07",
+      "file": "pieces/fx-light-hexa-07-2bc68790.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "1880,703,188,100",
+        "offsets": "6,9,237,109",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-hexa_21",
+      "file": "pieces/fx-light-hexa-21-4e7f18a6.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "1925,12,43,94",
+        "offsets": "194,2,237,109",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-ring-burst_01",
+      "file": "pieces/fx-ring-burst-01-62239f26.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "1880,513,50,49",
+        "offsets": "119,136,313,311",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-scan-line-glitch",
+      "file": "pieces/fx-scan-line-glitch-e397bd91.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "8,55,1046,93"
+      }
+    },
+    {
+      "region": "fx-spark_09",
+      "file": "pieces/fx-spark-09-3667b91a.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "1796,899,184,161",
+        "offsets": "4,26,200,200"
+      }
+    },
+    {
+      "region": "fx-trail-glitch_11",
+      "file": "pieces/fx-trail-glitch-11-cf232189.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "1988,529,466,52",
+        "offsets": "0,11,504,78",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-trail-glitch_12",
+      "file": "pieces/fx-trail-glitch-12-006f3b64.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "1990,1565,475,50",
+        "offsets": "0,11,504,78",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-trail-glitch_18",
+      "file": "pieces/fx-trail-glitch-18-79602c7a.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "8,18,415,29",
+        "offsets": "0,25,504,78"
+      }
+    },
+    {
+      "region": "lips-fts_20",
+      "file": "pieces/lips-fts-20-f4743733.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "8,1555,1019,485",
+        "offsets": "0,0,1024,485"
+      }
+    },
+    {
+      "region": "lips-fts_22",
+      "file": "pieces/lips-fts-22-5199192b.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "8,1062,1019,485",
+        "offsets": "0,0,1024,485"
+      }
+    },
+    {
+      "region": "lips-fts_24",
+      "file": "pieces/lips-fts-24-4aa34d2d.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "8,569,1019,485",
+        "offsets": "0,0,1024,485"
+      }
+    },
+    {
+      "region": "lips-fts_26",
+      "file": "pieces/lips-fts-26-bb1d40a4.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "1035,1021,1019,485",
+        "offsets": "0,0,1024,485",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "slot-no",
+      "file": "pieces/slot-no-f497954b.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "1645,63,442,391",
+        "offsets": "1,1,444,393",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "starship",
+      "file": "pieces/starship-69fb4652.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "8,156,1016,405",
+        "offsets": "1,1,1018,407"
+      }
+    },
+    {
+      "region": "top",
+      "file": "pieces/top-3c56d044.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "1528,899,1141,260",
+        "offsets": "1,0,1142,261",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "top-side",
+      "file": "pieces/top-side-31333481.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "1796,1068,972,186",
+        "offsets": "1,1,974,188",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wheel_backer",
+      "file": "pieces/wheel-backer-bab1bde7.png",
+      "page": "RAGE-QUIT-2-MASTER_5.ktx2",
+      "properties": {
+        "bounds": "1528,513,344,378",
+        "offsets": "1,1,346,380"
+      }
+    },
+    {
+      "region": "anti-glitch_00",
+      "file": "pieces/anti-glitch-00-2f0c21c5.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "1984,865,52,272",
+        "offsets": "9,0,73,273"
+      }
+    },
+    {
+      "region": "anti-glitch_01",
+      "file": "pieces/anti-glitch-01-95c088d3.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "1654,8,53,273",
+        "offsets": "9,0,73,273",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "anti-glitch_05",
+      "file": "pieces/anti-glitch-05-159efdd6.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "1984,1145,52,273",
+        "offsets": "10,0,73,273"
+      }
+    },
+    {
+      "region": "ch_hat",
+      "file": "pieces/ch-hat-4a1cf651.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "1654,165,611,251",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cut-bg-glitch",
+      "file": "pieces/cut-bg-glitch-1b885c98.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "700,765,627,627"
+      }
+    },
+    {
+      "region": "cut-bg-glitch-2",
+      "file": "pieces/cut-bg-glitch-2-7a78950a.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "1348,784,628,621",
+        "offsets": "0,7,628,628"
+      }
+    },
+    {
+      "region": "cut-bg-net",
+      "file": "pieces/cut-bg-net-421b2043.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "700,1400,640,640",
+        "offsets": "1,2,643,643"
+      }
+    },
+    {
+      "region": "cut-bg-street",
+      "file": "pieces/cut-bg-street-46bb71a7.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "1348,1413,627,627"
+      }
+    },
+    {
+      "region": "cut-win-monitor",
+      "file": "pieces/cut-win-monitor-9d0180c7.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "8,714,684,659"
+      }
+    },
+    {
+      "region": "cut-win-monitor-glitch",
+      "file": "pieces/cut-win-monitor-glitch-f3ea2596.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "8,1381,684,659"
+      }
+    },
+    {
+      "region": "fx-light-hexa_01",
+      "file": "pieces/fx-light-hexa-01-2b36895d.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "1935,16,45,45",
+        "offsets": "24,51,237,109"
+      }
+    },
+    {
+      "region": "fx-line-burst_01",
+      "file": "pieces/fx-line-burst-01-780629e0.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "1913,190,132,127",
+        "offsets": "111,115,353,353",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-trail-glitch_10",
+      "file": "pieces/fx-trail-glitch-10-f2799b58.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "1983,1586,454,54",
+        "offsets": "0,10,504,78",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "headphone_mic",
+      "file": "pieces/headphone-mic-3f7664a7.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "1983,1426,152,50",
+        "offsets": "1,1,154,52",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "logo-backer",
+      "file": "pieces/logo-backer-474a097b.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "1143,24,733,503",
+        "offsets": "1,1,735,505",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pc_butD",
+      "file": "pieces/pc-butd-2f9be85e.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "1984,787,70,54",
+        "offsets": "2,1,73,56",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "w_hand",
+      "file": "pieces/w-hand-bdea9afd.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "1913,330,446,119",
+        "offsets": "0,0,446,120",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "w_txt-glitch_05",
+      "file": "pieces/w-txt-glitch-05-28106600.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "599,18,204,48",
+        "offsets": "13,3,224,57"
+      }
+    },
+    {
+      "region": "wheel_fan",
+      "file": "pieces/wheel-fan-23f13ed0.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "8,15,691,583",
+        "offsets": "1,1,693,585",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "win_hexa",
+      "file": "pieces/win-hexa-73b0558c.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "817,8,318,749",
+        "offsets": "1,1,320,751"
+      }
+    },
+    {
+      "region": "win_max-board-top",
+      "file": "pieces/win-max-board-top-a98aa001.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "599,74,632,210",
+        "offsets": "1,1,633,212",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "win_max-txt-glitch",
+      "file": "pieces/win-max-txt-glitch-2ccf5a43.png",
+      "page": "RAGE-QUIT-2-MASTER_6.ktx2",
+      "properties": {
+        "bounds": "1654,69,386,88"
+      }
+    },
+    {
+      "region": "anti-glitch_22",
+      "file": "pieces/anti-glitch-22-5e2e0c8e.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "1984,1151,49,273",
+        "offsets": "12,0,73,273"
+      }
+    },
+    {
+      "region": "bn_jaw",
+      "file": "pieces/bn-jaw-a5aaea57.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "1984,1047,96,56",
+        "offsets": "0,1,96,67",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_headphone",
+      "file": "pieces/ch-headphone-53d33f54.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "8,44,503,506"
+      }
+    },
+    {
+      "region": "ch_mouthB",
+      "file": "pieces/ch-mouthb-f0707949.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "1872,664,344,168",
+        "offsets": "1,1,346,170",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cut-bg-glitch-3",
+      "file": "pieces/cut-bg-glitch-3-dfeaf09b.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "1361,1432,628,608",
+        "offsets": "0,20,628,628"
+      }
+    },
+    {
+      "region": "cut-bonus-armR",
+      "file": "pieces/cut-bonus-armr-bb038be4.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "1027,118,298,539",
+        "offsets": "2,0,300,539"
+      }
+    },
+    {
+      "region": "cut-bonus-legR",
+      "file": "pieces/cut-bonus-legr-2198e90d.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "1014,665,318,399",
+        "offsets": "3,1,321,400"
+      }
+    },
+    {
+      "region": "fragG_1",
+      "file": "pieces/fragg-1-11954ac0.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "1907,8,104,125",
+        "offsets": "1,1,106,127"
+      }
+    },
+    {
+      "region": "fx-explosion-pixel_06",
+      "file": "pieces/fx-explosion-pixel-06-23ec5cb9.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "1333,118,480,481",
+        "offsets": "0,19,500,500"
+      }
+    },
+    {
+      "region": "fx-explosion-pixel_09",
+      "file": "pieces/fx-explosion-pixel-09-edd346ef.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "519,50,500,500"
+      }
+    },
+    {
+      "region": "fx-trail-glitch_09",
+      "file": "pieces/fx-trail-glitch-09-2ac0fe8a.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "1821,164,435,59",
+        "offsets": "0,8,504,78",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-wave-glitch_04",
+      "file": "pieces/fx-wave-glitch-04-7a92950c.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "506,1078,247,59",
+        "offsets": "12,0,274,59",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "logo",
+      "file": "pieces/logo-70d25649.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "1351,1016,625,408"
+      }
+    },
+    {
+      "region": "starship-bot",
+      "file": "pieces/starship-bot-2510c9ab.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "1907,141,515,133",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "txt-fts-4",
+      "file": "pieces/txt-fts-4-2a71d5a6.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "1027,8,872,102",
+        "offsets": "2,3,878,106"
+      }
+    },
+    {
+      "region": "w_txt",
+      "file": "pieces/w-txt-36483506.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "1997,1850,190,42",
+        "offsets": "1,1,192,44",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wheel_backerA_06",
+      "file": "pieces/wheel-backera-06-bd1aeda3.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "1340,607,401,524",
+        "offsets": "0,4,401,531",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "win_big-mega-board",
+      "file": "pieces/win-big-mega-board-243c575a.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "8,558,767,490",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "win_epic-board",
+      "file": "pieces/win-epic-board-e4d96cba.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "587,1550,766,490"
+      }
+    },
+    {
+      "region": "win_line-max",
+      "file": "pieces/win-line-max-477d37e9.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "506,558,500,506",
+        "offsets": "0,10,500,525"
+      }
+    },
+    {
+      "region": "win_max-board",
+      "file": "pieces/win-max-board-206ee89e.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "587,1072,756,470"
+      }
+    },
+    {
+      "region": "win_ring",
+      "file": "pieces/win-ring-ba0102e1.png",
+      "page": "RAGE-QUIT-2-MASTER_7.ktx2",
+      "properties": {
+        "bounds": "8,1333,571,707",
+        "offsets": "1,1,769,709"
+      }
+    },
+    {
+      "region": "a",
+      "file": "pieces/a-07326cf2.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "8,8,352,312"
+      }
+    },
+    {
+      "region": "bn_shadow",
+      "file": "pieces/bn-shadow-11dc897f.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "504,814,467,424",
+        "offsets": "1,2,469,427",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_armL-controller",
+      "file": "pieces/ch-arml-controller-8a073619.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "1864,780,194,176",
+        "offsets": "20,38,241,221",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_armR-fuck3",
+      "file": "pieces/ch-armr-fuck3-08bc2877.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "368,8,309,331",
+        "offsets": "0,1,309,332",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_head",
+      "file": "pieces/ch-head-f34779f6.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "1675,1315,346,371"
+      }
+    },
+    {
+      "region": "ch_shorts",
+      "file": "pieces/ch-shorts-fca4a8ce.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "1404,835,390,280",
+        "offsets": "0,0,390,298",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "controller_shadow",
+      "file": "pieces/controller-shadow-e0d149a8.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "1692,982,348,325",
+        "offsets": "1,1,350,327"
+      }
+    },
+    {
+      "region": "cut-bonus-armL",
+      "file": "pieces/cut-bonus-arml-9eaf508a.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "1062,1788,252,582",
+        "offsets": "0,0,254,582",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cut-bonus-monitor",
+      "file": "pieces/cut-bonus-monitor-1ff0bd4d.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "516,1289,508,412",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cut-win-armL-hold",
+      "file": "pieces/cut-win-arml-hold-79238d21.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "1421,1233,547,246",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fragY_1",
+      "file": "pieces/fragy-1-a88e4496.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "1692,867,107,164",
+        "offsets": "1,1,109,166",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-electric-wave08",
+      "file": "pieces/fx-electric-wave08-b4d64f6c.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "896,1805,134,130",
+        "offsets": "110,98,250,250",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-explosion-pixel_05",
+      "file": "pieces/fx-explosion-pixel-05-cc13ea82.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "936,1303,477,477",
+        "offsets": "0,23,500,500"
+      }
+    },
+    {
+      "region": "fx-explosion-pixel_07",
+      "file": "pieces/fx-explosion-pixel-07-21089574.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "8,328,482,483",
+        "offsets": "0,17,500,500"
+      }
+    },
+    {
+      "region": "fx-explosion-pixel_10",
+      "file": "pieces/fx-explosion-pixel-10-3e906696.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "8,819,488,488",
+        "offsets": "6,6,500,500"
+      }
+    },
+    {
+      "region": "fx-explosion-pixel_11",
+      "file": "pieces/fx-explosion-pixel-11-27a947ab.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "498,325,481,431",
+        "offsets": "3,54,500,500",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-line-burst_07",
+      "file": "pieces/fx-line-burst-07-43c671d7.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "960,8,353,351",
+        "offsets": "0,0,353,353"
+      }
+    },
+    {
+      "region": "fx-line-burst_08",
+      "file": "pieces/fx-line-burst-08-ca95198c.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "1682,8,351,350",
+        "offsets": "2,0,353,353",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-line-burst_10",
+      "file": "pieces/fx-line-burst-10-45b3b28a.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "1321,8,353,351",
+        "offsets": "0,0,353,353"
+      }
+    },
+    {
+      "region": "fx-scan-line",
+      "file": "pieces/fx-scan-line-4af06858.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "8,1947,1046,93"
+      }
+    },
+    {
+      "region": "fx-wheel-glitch_05",
+      "file": "pieces/fx-wheel-glitch-05-7db2e175.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "1405,367,451,460",
+        "offsets": "9,0,460,460"
+      }
+    },
+    {
+      "region": "fx-wheel-glitch_13",
+      "file": "pieces/fx-wheel-glitch-13-bc84b99a.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "936,835,460,460"
+      }
+    },
+    {
+      "region": "fx-wheel-glitch_14",
+      "file": "pieces/fx-wheel-glitch-14-1caeb5ea.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "937,367,460,460"
+      }
+    },
+    {
+      "region": "j",
+      "file": "pieces/j-69b182a9.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "707,8,245,309",
+        "offsets": "7,0,252,309"
+      }
+    },
+    {
+      "region": "top-centre",
+      "file": "pieces/top-centre-98060976.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "1864,415,357,158",
+        "offsets": "1,1,359,160",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "txt-fts2",
+      "file": "pieces/txt-fts2-9ecedb71.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "8,1805,880,134",
+        "offsets": "1,1,883,146"
+      }
+    },
+    {
+      "region": "wheel_body",
+      "file": "pieces/wheel-body-9a4cab7d.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "1692,1694,346,348",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wheel_sideA",
+      "file": "pieces/wheel-sidea-5a2dd918.png",
+      "page": "RAGE-QUIT-2-MASTER_8.ktx2",
+      "properties": {
+        "bounds": "8,1315,500,482",
+        "offsets": "1,1,502,484"
+      }
+    },
+    {
+      "region": "anti-glitch_23",
+      "file": "pieces/anti-glitch-23-5bb2e5b0.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "857,14,49,273",
+        "offsets": "12,0,73,273",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bn_backer",
+      "file": "pieces/bn-backer-3498ccdd.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "476,1109,467,406",
+        "offsets": "1,1,469,408"
+      }
+    },
+    {
+      "region": "bn_screen",
+      "file": "pieces/bn-screen-6e5fd13d.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "1360,30,346,143",
+        "offsets": "1,0,348,145"
+      }
+    },
+    {
+      "region": "ch_eyeL",
+      "file": "pieces/ch-eyel-76c628d8.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "1879,1151,155,145",
+        "offsets": "1,1,157,147"
+      }
+    },
+    {
+      "region": "ch_face",
+      "file": "pieces/ch-face-cf32ecf6.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "1816,392,432,200",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_wire",
+      "file": "pieces/ch-wire-75b29c26.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "1888,1616,424,126",
+        "offsets": "3,0,427,126",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-explosion-pixel_04",
+      "file": "pieces/fx-explosion-pixel-04-a81e132c.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "951,1200,452,433",
+        "offsets": "3,54,500,500"
+      }
+    },
+    {
+      "region": "fx-explosion-pixel_12",
+      "file": "pieces/fx-explosion-pixel-12-66a9ac77.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "1411,1607,469,433",
+        "offsets": "10,56,500,500"
+      }
+    },
+    {
+      "region": "fx-light-hexa_05",
+      "file": "pieces/fx-light-hexa-05-77244e37.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "1714,21,152,90",
+        "offsets": "1,18,237,109",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-hexa_15",
+      "file": "pieces/fx-light-hexa-15-fe0965eb.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "1879,1304,161,109",
+        "offsets": "76,0,237,109"
+      }
+    },
+    {
+      "region": "fx-spark_04",
+      "file": "pieces/fx-spark-04-f2e99845.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "1879,1421,178,161",
+        "offsets": "8,23,200,200",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-trail-glitch_07",
+      "file": "pieces/fx-trail-glitch-07-cdcdf1c6.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "445,33,404,66",
+        "offsets": "0,5,504,78"
+      }
+    },
+    {
+      "region": "fx-trail-glitch_08",
+      "file": "pieces/fx-trail-glitch-08-a8010008.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "450,107,420,62",
+        "offsets": "0,7,504,78"
+      }
+    },
+    {
+      "region": "fx-wave-glitch_00",
+      "file": "pieces/fx-wave-glitch-00-7a1704e2.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "885,1560,73,58",
+        "offsets": "98,1,274,59",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-wheel-glitch_06",
+      "file": "pieces/fx-wheel-glitch-06-cc3c7400.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "1343,646,447,455",
+        "offsets": "13,5,460,460"
+      }
+    },
+    {
+      "region": "fx-wheel-glitch_07",
+      "file": "pieces/fx-wheel-glitch-07-7c435365.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "1360,181,457,448",
+        "offsets": "3,12,460,460",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-wheel-glitch_08",
+      "file": "pieces/fx-wheel-glitch-08-a2b0195e.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "417,645,455,456",
+        "offsets": "0,4,460,460"
+      }
+    },
+    {
+      "region": "fx-wheel-glitch_09",
+      "file": "pieces/fx-wheel-glitch-09-e8635a01.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "450,177,450,460",
+        "offsets": "0,0,460,460"
+      }
+    },
+    {
+      "region": "fx-wheel-glitch_10",
+      "file": "pieces/fx-wheel-glitch-10-5a472213.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "880,645,456,455",
+        "offsets": "0,0,460,460",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-wheel-glitch_11",
+      "file": "pieces/fx-wheel-glitch-11-fd80a9f2.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "1411,1149,460,450",
+        "offsets": "0,0,460,460"
+      }
+    },
+    {
+      "region": "fx-wheel-glitch_12",
+      "file": "pieces/fx-wheel-glitch-12-6cf58560.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "908,177,460,444",
+        "offsets": "0,0,460,460",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-wheel-glitch_15",
+      "file": "pieces/fx-wheel-glitch-15-73ba41a0.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "8,1580,460,460"
+      }
+    },
+    {
+      "region": "fx-wheel-glitch_16",
+      "file": "pieces/fx-wheel-glitch-16-99595e28.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "8,1112,460,460"
+      }
+    },
+    {
+      "region": "j_shadow",
+      "file": "pieces/j-shadow-fc161908.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "1798,832,242,309",
+        "offsets": "1,1,244,311"
+      }
+    },
+    {
+      "region": "w_txt-glitch_04",
+      "file": "pieces/w-txt-glitch-04-2fc62a51.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "1138,14,212,49",
+        "offsets": "5,2,224,57"
+      }
+    },
+    {
+      "region": "wheel_backerA",
+      "file": "pieces/wheel-backera-d0bf2d8d.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "885,1641,399,518",
+        "offsets": "1,6,401,531",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wheel_backerA_01",
+      "file": "pieces/wheel-backera-01-0b8336c3.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "476,1523,401,517",
+        "offsets": "0,5,401,531"
+      }
+    },
+    {
+      "region": "wheel_backerA_07",
+      "file": "pieces/wheel-backera-07-d24b3e96.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "8,587,401,517",
+        "offsets": "0,5,401,531"
+      }
+    },
+    {
+      "region": "wheel_glow",
+      "file": "pieces/wheel-glow-2d982fa2.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "1816,8,376,203",
+        "offsets": "1,1,378,214",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "win_big-txt-glitch",
+      "file": "pieces/win-big-txt-glitch-e6988646.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "878,71,419,98"
+      }
+    },
+    {
+      "region": "win_epic-txt-glitch",
+      "file": "pieces/win-epic-txt-glitch-59ad12d6.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "8,10,429,90"
+      }
+    },
+    {
+      "region": "win_max-board-glow",
+      "file": "pieces/win-max-board-glow-42dbcaf3.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "8,108,434,471",
+        "offsets": "8,8,442,486"
+      }
+    },
+    {
+      "region": "win_total-txt-glitch",
+      "file": "pieces/win-total-txt-glitch-4be20c17.png",
+      "page": "RAGE-QUIT-2-MASTER_9.ktx2",
+      "properties": {
+        "bounds": "951,1109,438,83",
+        "offsets": "0,11,441,105"
+      }
+    },
+    {
+      "region": "ch_body-B",
+      "file": "pieces/ch-body-b-ffbe42f3.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "581,13,235,323",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_face_wtf_00",
+      "file": "pieces/ch-face-wtf-00-c52d779b.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "1776,1175,382,223",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cut-win-armL-punch",
+      "file": "pieces/cut-win-arml-punch-fa5c857b.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "8,21,565,227",
+        "offsets": "0,0,566,227"
+      }
+    },
+    {
+      "region": "fragP_2",
+      "file": "pieces/fragp-2-23b6c7a0.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "1916,8,63,85",
+        "offsets": "1,1,65,87"
+      }
+    },
+    {
+      "region": "fx-electric-wave15",
+      "file": "pieces/fx-electric-wave15-2862603b.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "1711,8,202,197",
+        "offsets": "42,31,250,250",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-electric-wave24",
+      "file": "pieces/fx-electric-wave24-f1e4069c.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "1800,1565,236,226",
+        "offsets": "1,2,250,250"
+      }
+    },
+    {
+      "region": "fx-explosion-pixel_02",
+      "file": "pieces/fx-explosion-pixel-02-47363faa.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "904,268,428,428",
+        "offsets": "36,72,500,500"
+      }
+    },
+    {
+      "region": "fx-explosion-pixel_03",
+      "file": "pieces/fx-explosion-pixel-03-33f8e895.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "1352,690,437,415",
+        "offsets": "5,62,500,500",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-explosion-pixel_13",
+      "file": "pieces/fx-explosion-pixel-13-40bab033.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "1352,1135,457,416",
+        "offsets": "17,67,500,500",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-hexa_17",
+      "file": "pieces/fx-light-hexa-17-676625b7.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "1916,101,124,109",
+        "offsets": "113,0,237,109"
+      }
+    },
+    {
+      "region": "fx-line-epl_00",
+      "file": "pieces/fx-line-epl-00-c0f01727.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "8,1600,440,440"
+      }
+    },
+    {
+      "region": "fx-line-epl_01",
+      "file": "pieces/fx-line-epl-01-04147f24.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "8,1152,440,440"
+      }
+    },
+    {
+      "region": "fx-line-epl_02",
+      "file": "pieces/fx-line-epl-02-a10baa14.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "456,1600,440,440"
+      }
+    },
+    {
+      "region": "fx-line-epl_03",
+      "file": "pieces/fx-line-epl-03-289b2f63.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "8,704,440,440"
+      }
+    },
+    {
+      "region": "fx-line-epl_04",
+      "file": "pieces/fx-line-epl-04-26bde98c.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "456,1152,440,440"
+      }
+    },
+    {
+      "region": "fx-line-epl_05",
+      "file": "pieces/fx-line-epl-05-45fda215.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "904,1600,440,440"
+      }
+    },
+    {
+      "region": "fx-line-epl_06",
+      "file": "pieces/fx-line-epl-06-519888ac.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "8,256,440,440"
+      }
+    },
+    {
+      "region": "fx-line-epl_07",
+      "file": "pieces/fx-line-epl-07-a384bf5c.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "456,704,440,440"
+      }
+    },
+    {
+      "region": "fx-line-epl_08",
+      "file": "pieces/fx-line-epl-08-bc5c0730.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "904,1152,440,440"
+      }
+    },
+    {
+      "region": "fx-line-epl_09",
+      "file": "pieces/fx-line-epl-09-b1e6e9c2.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "1352,1600,440,440"
+      }
+    },
+    {
+      "region": "fx-line-epl_10",
+      "file": "pieces/fx-line-epl-10-7d3653b2.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "456,256,440,440"
+      }
+    },
+    {
+      "region": "fx-line-epl_11",
+      "file": "pieces/fx-line-epl-11-24bc4957.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "904,704,440,440"
+      }
+    },
+    {
+      "region": "fx-ring-burst_09",
+      "file": "pieces/fx-ring-burst-09-85a2d0ce.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "1800,1799,240,241",
+        "offsets": "32,39,313,311"
+      }
+    },
+    {
+      "region": "fx-wave-glitch_11",
+      "file": "pieces/fx-wave-glitch-11-b9dc6612.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "1778,218,262,59",
+        "offsets": "4,0,274,59"
+      }
+    },
+    {
+      "region": "mouse",
+      "file": "pieces/mouse-bae178c8.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "1472,8,255,231",
+        "offsets": "2,22,257,253",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "w_backer",
+      "file": "pieces/w-backer-d21e6e4a.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "1340,271,430,411",
+        "offsets": "1,1,432,413"
+      }
+    },
+    {
+      "region": "w_body",
+      "file": "pieces/w-body-1dc40ff0.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "1775,707,420,265",
+        "offsets": "1,0,421,265",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "w_chip",
+      "file": "pieces/w-chip-20151b61.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "1778,285,414,260",
+        "offsets": "1,1,416,262",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "win_max-board-bot",
+      "file": "pieces/win-max-board-bot-22b1a762.png",
+      "page": "RAGE-QUIT-2-MASTER_10.ktx2",
+      "properties": {
+        "bounds": "912,19,552,241",
+        "offsets": "1,1,553,243"
+      }
+    },
+    {
+      "region": "bg_light-bonus",
+      "file": "pieces/bg-light-bonus-96b7769e.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1694,1369,319,345",
+        "offsets": "1,1,321,357",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bn_glass",
+      "file": "pieces/bn-glass-d603c371.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1788,9,234,85"
+      }
+    },
+    {
+      "region": "bn_headphone",
+      "file": "pieces/bn-headphone-b0b2ffba.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1304,1378,382,302"
+      }
+    },
+    {
+      "region": "ch_armR-fuck",
+      "file": "pieces/ch-armr-fuck-c656cfc7.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "463,1646,436,394"
+      }
+    },
+    {
+      "region": "ch_eyelidUL",
+      "file": "pieces/ch-eyelidul-27027e53.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1627,8,153,86"
+      }
+    },
+    {
+      "region": "ch_face_wtf_02",
+      "file": "pieces/ch-face-wtf-02-b6918389.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1295,1147,382,223"
+      }
+    },
+    {
+      "region": "ch_face_wtf_04",
+      "file": "pieces/ch-face-wtf-04-91352de7.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "417,757,382,223",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_face_wtf_06",
+      "file": "pieces/ch-face-wtf-06-289b9650.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "648,757,382,223",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_face_wtf_11",
+      "file": "pieces/ch-face-wtf-11-e632f658.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "879,757,382,223",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_face_wtf_13",
+      "file": "pieces/ch-face-wtf-13-b1f7bcdc.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1384,416,382,223",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_face_wtf_16",
+      "file": "pieces/ch-face-wtf-16-b171d934.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1396,26,382,223",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_handL-controller",
+      "file": "pieces/ch-handl-controller-bd77bd99.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "8,8,328,354"
+      }
+    },
+    {
+      "region": "ch_handL-controller2",
+      "file": "pieces/ch-handl-controller2-ead78515.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1060,38,328,351"
+      }
+    },
+    {
+      "region": "ch_legL",
+      "file": "pieces/ch-legl-cb1bc2ef.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1493,816,100,184",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "controller",
+      "file": "pieces/controller-247c2ccc.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1615,436,350,327"
+      }
+    },
+    {
+      "region": "cut-bonus-legL",
+      "file": "pieces/cut-bonus-legl-075f749b.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "422,1203,270,419",
+        "offsets": "0,1,272,420"
+      }
+    },
+    {
+      "region": "cut-bonus-sit-armL",
+      "file": "pieces/cut-bonus-sit-arml-621d0a64.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "8,1172,450,406",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cut-bonus-sit-armR",
+      "file": "pieces/cut-bonus-sit-armr-c7b28b3f.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "983,1244,304,399"
+      }
+    },
+    {
+      "region": "cut-win-monitor-glow",
+      "file": "pieces/cut-win-monitor-glow-65b8928c.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "907,1651,389,389",
+        "offsets": "0,1,389,391"
+      }
+    },
+    {
+      "region": "fx-explosion-pixel_00",
+      "file": "pieces/fx-explosion-pixel-00-96ad13a4.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "8,370,380,379",
+        "offsets": "60,108,500,500"
+      }
+    },
+    {
+      "region": "fx-explosion-pixel_01",
+      "file": "pieces/fx-explosion-pixel-01-7f1c265b.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "8,757,401,407",
+        "offsets": "48,86,500,500"
+      }
+    },
+    {
+      "region": "fx-explosion-pixel_14",
+      "file": "pieces/fx-explosion-pixel-14-b3b24b65.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "8,1630,447,410",
+        "offsets": "31,67,500,500"
+      }
+    },
+    {
+      "region": "fx-explosion-pixel_15",
+      "file": "pieces/fx-explosion-pixel-15-146bce67.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "396,373,279,376",
+        "offsets": "72,76,500,500"
+      }
+    },
+    {
+      "region": "fx-line-burst_04",
+      "file": "pieces/fx-line-burst-04-a3a16790.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1627,102,335,326",
+        "offsets": "9,11,353,353"
+      }
+    },
+    {
+      "region": "fx-line-burst_05",
+      "file": "pieces/fx-line-burst-05-470c09e0.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "344,9,353,350",
+        "offsets": "0,0,353,353",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-line-burst_06",
+      "file": "pieces/fx-line-burst-06-1ea4e4e5.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1685,1009,353,352",
+        "offsets": "0,0,353,353"
+      }
+    },
+    {
+      "region": "fx-line-burst_09",
+      "file": "pieces/fx-line-burst-09-282e824c.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "702,14,352,350",
+        "offsets": "1,0,353,353",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-wave-glitch_01",
+      "file": "pieces/fx-wave-glitch-01-d5e9cd1f.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "852,1152,116,59",
+        "offsets": "73,0,274,59"
+      }
+    },
+    {
+      "region": "fx-wave-glitch_05",
+      "file": "pieces/fx-wave-glitch-05-a42a5067.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1970,155,273,59",
+        "offsets": "0,0,274,59",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-wave-glitch_06",
+      "file": "pieces/fx-wave-glitch-06-baec4238.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1973,489,274,59",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-wave-glitch_07",
+      "file": "pieces/fx-wave-glitch-07-d871b9c7.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "983,1177,274,59"
+      }
+    },
+    {
+      "region": "headphone",
+      "file": "pieces/headphone-40485480.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1671,1696,362,344"
+      }
+    },
+    {
+      "region": "headphone_shadow",
+      "file": "pieces/headphone-shadow-1e473db7.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1304,1688,359,352",
+        "offsets": "1,1,362,354"
+      }
+    },
+    {
+      "region": "logo-fire_07",
+      "file": "pieces/logo-fire-07-e3515e22.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1493,924,215,184",
+        "offsets": "25,0,240,193",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "mouse_shadow",
+      "file": "pieces/mouse-shadow-aafe3df1.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1685,771,351,230",
+        "offsets": "1,1,353,232"
+      }
+    },
+    {
+      "region": "pc",
+      "file": "pieces/pc-f0d6d04a.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "683,374,375,333",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pc_shadow",
+      "file": "pieces/pc-shadow-d12be9d1.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1110,806,375,333"
+      }
+    },
+    {
+      "region": "w_txt-glitch_00",
+      "file": "pieces/w-txt-glitch-00-aba3427a.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "642,1147,202,48",
+        "offsets": "14,3,224,57"
+      }
+    },
+    {
+      "region": "w_txt-glitch_03",
+      "file": "pieces/w-txt-glitch-03-a282c00f.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "422,1147,212,48",
+        "offsets": "5,3,224,57"
+      }
+    },
+    {
+      "region": "wheel_backerB",
+      "file": "pieces/wheel-backerb-7e64876a.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "700,1219,275,419",
+        "offsets": "1,1,375,422"
+      }
+    },
+    {
+      "region": "wheel_fan-r",
+      "file": "pieces/wheel-fan-r-5dd40ddb.png",
+      "page": "RAGE-QUIT-2-MASTER_11.ktx2",
+      "properties": {
+        "bounds": "1024,397,352,352",
+        "offsets": "1,1,354,354"
+      }
+    },
+    {
+      "region": "10_L",
+      "file": "pieces/10-l-f95adeec.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1643,556,131,267",
+        "offsets": "1,0,132,267"
+      }
+    },
+    {
+      "region": "10_R",
+      "file": "pieces/10-r-10edf90f.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "550,46,221,281",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "10_shadow",
+      "file": "pieces/10-shadow-8ae6222e.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "459,1413,321,279",
+        "offsets": "1,1,323,281",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "a_chip",
+      "file": "pieces/a-chip-6f809828.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "8,11,212,244"
+      }
+    },
+    {
+      "region": "a_shadow",
+      "file": "pieces/a-shadow-ac974224.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "8,1730,349,310",
+        "offsets": "1,1,352,312"
+      }
+    },
+    {
+      "region": "anti-glitch_02",
+      "file": "pieces/anti-glitch-02-4b3f7695.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1586,551,49,272",
+        "offsets": "12,0,73,273"
+      }
+    },
+    {
+      "region": "anti-glitch_24",
+      "file": "pieces/anti-glitch-24-a55c777b.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1530,8,47,266",
+        "offsets": "15,0,74,266"
+      }
+    },
+    {
+      "region": "bg_light-base",
+      "file": "pieces/bg-light-base-57f71c73.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "459,1148,279,257",
+        "offsets": "20,8,300,272"
+      }
+    },
+    {
+      "region": "bg_meta",
+      "file": "pieces/bg-meta-345d3bba.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1331,1020,292,142",
+        "offsets": "1,1,294,144"
+      }
+    },
+    {
+      "region": "bn_body",
+      "file": "pieces/bn-body-71df0b13.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "300,1381,341,151",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bn_head",
+      "file": "pieces/bn-head-5f2a5ec6.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1585,14,260,233",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bn_txt",
+      "file": "pieces/bn-txt-f8f32c54.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1024,1135,299,97",
+        "offsets": "1,1,301,99"
+      }
+    },
+    {
+      "region": "ch_armR-fuck2",
+      "file": "pieces/ch-armr-fuck2-61b454c8.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1015,1760,280,331",
+        "offsets": "0,1,301,332",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_body",
+      "file": "pieces/ch-body-19bc6344.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "8,1388,284,334",
+        "offsets": "0,11,293,352"
+      }
+    },
+    {
+      "region": "ch_controller",
+      "file": "pieces/ch-controller-f8b4faaf.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "239,122,278,303",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_earL",
+      "file": "pieces/ch-earl-b8661d4a.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "746,1423,270,312",
+        "offsets": "2,0,272,312"
+      }
+    },
+    {
+      "region": "ch_earR",
+      "file": "pieces/ch-earr-a0befbbd.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "817,859,191,285"
+      }
+    },
+    {
+      "region": "ch_eyeR",
+      "file": "pieces/ch-eyer-7c619a0c.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1640,1066,117,134",
+        "offsets": "1,1,119,136",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_face_wtf_21",
+      "file": "pieces/ch-face-wtf-21-fb06799b.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "8,653,382,223",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_face_wtf_39",
+      "file": "pieces/ch-face-wtf-39-541198a9.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1354,1817,382,223"
+      }
+    },
+    {
+      "region": "ch_face_wtf_41",
+      "file": "pieces/ch-face-wtf-41-c96c9522.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "8,263,382,223",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_face_wtf_44",
+      "file": "pieces/ch-face-wtf-44-4cc9d246.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1354,1586,382,223"
+      }
+    },
+    {
+      "region": "ch_glasses",
+      "file": "pieces/ch-glasses-ff14189b.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "295,1030,343,144",
+        "offsets": "2,2,346,147",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_handL-fist",
+      "file": "pieces/ch-handl-fist-da200177.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1785,346,206,250",
+        "offsets": "1,1,208,252"
+      }
+    },
+    {
+      "region": "ch_handL-open",
+      "file": "pieces/ch-handl-open-45c7f29d.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1744,1472,294,283",
+        "offsets": "1,1,296,285"
+      }
+    },
+    {
+      "region": "ch_mouthC",
+      "file": "pieces/ch-mouthc-dfe4a91b.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "836,564,287,169",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_shoeL",
+      "file": "pieces/ch-shoel-aa10116b.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1013,326,282,232",
+        "offsets": "0,18,282,250"
+      }
+    },
+    {
+      "region": "ch_shoeR",
+      "file": "pieces/ch-shoer-29843052.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1024,1240,302,203"
+      }
+    },
+    {
+      "region": "controller_chip",
+      "file": "pieces/controller-chip-4d1e56dd.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1782,604,253,209",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cut-win-armL-fist",
+      "file": "pieces/cut-win-arml-fist-e31dfaa6.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1334,1170,298,213"
+      }
+    },
+    {
+      "region": "fragP_1",
+      "file": "pieces/fragp-1-ab5ba016.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "447,1054,79,86",
+        "offsets": "1,1,81,88"
+      }
+    },
+    {
+      "region": "fragR_3",
+      "file": "pieces/fragr-3-1b075cf4.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "442,45,69,100",
+        "offsets": "1,1,71,102",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-electric-wave13",
+      "file": "pieces/fx-electric-wave13-2c3af95d.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1640,1191,185,178",
+        "offsets": "59,50,250,250",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-electric-wave18",
+      "file": "pieces/fx-electric-wave18-bb48db18.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1826,1122,225,210",
+        "offsets": "19,18,250,250",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-explosion-pixel_16",
+      "file": "pieces/fx-explosion-pixel-16-712ae657.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "839,42,145,292",
+        "offsets": "150,150,500,500"
+      }
+    },
+    {
+      "region": "fx-glow-hollow",
+      "file": "pieces/fx-glow-hollow-0508abb3.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1782,865,249,249",
+        "offsets": "9,9,266,268"
+      }
+    },
+    {
+      "region": "fx-lgt-str_001",
+      "file": "pieces/fx-lgt-str-001-ceed0d1b.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1657,1384,77,194",
+        "offsets": "1,1,79,196"
+      }
+    },
+    {
+      "region": "fx-light-bar",
+      "file": "pieces/fx-light-bar-fb09a34b.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1826,8,72,128",
+        "offsets": "6,0,83,128",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-hexa_08",
+      "file": "pieces/fx-light-hexa-08-2f251ee2.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "228,8,206,106",
+        "offsets": "8,3,237,109"
+      }
+    },
+    {
+      "region": "fx-light-hexa_10",
+      "file": "pieces/fx-light-hexa-10-8570a47e.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1826,1355,214,109",
+        "offsets": "23,0,237,109"
+      }
+    },
+    {
+      "region": "fx-line-burst_03",
+      "file": "pieces/fx-line-burst-03-4983d923.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "746,1152,270,263",
+        "offsets": "42,44,353,353"
+      }
+    },
+    {
+      "region": "fx-ring-burst_02",
+      "file": "pieces/fx-ring-burst-02-813f838b.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1742,1388,76,76",
+        "offsets": "106,122,313,311"
+      }
+    },
+    {
+      "region": "fx-ring-burst_10",
+      "file": "pieces/fx-ring-burst-10-ecd18f3c.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "992,57,261,261",
+        "offsets": "21,29,313,311"
+      }
+    },
+    {
+      "region": "fx-ring-burst_11",
+      "file": "pieces/fx-ring-burst-11-b702be13.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "550,275,275,274",
+        "offsets": "14,22,313,311"
+      }
+    },
+    {
+      "region": "fx-ring-burst_12",
+      "file": "pieces/fx-ring-burst-12-dd825ec4.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1303,282,268,263",
+        "offsets": "4,32,313,311"
+      }
+    },
+    {
+      "region": "fx-ring-burst_13",
+      "file": "pieces/fx-ring-burst-13-7b4dbcb1.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "534,850,290,275",
+        "offsets": "0,26,313,311",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-ring-burst_14",
+      "file": "pieces/fx-ring-burst-14-de045a07.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1744,1763,296,277",
+        "offsets": "7,14,313,311"
+      }
+    },
+    {
+      "region": "fx-ring-burst_15",
+      "file": "pieces/fx-ring-burst-15-9ed1b7c8.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "239,716,306,287",
+        "offsets": "1,9,313,311",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-ring-burst_16",
+      "file": "pieces/fx-ring-burst-16-dd16d20c.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1016,842,287,285",
+        "offsets": "19,10,313,311"
+      }
+    },
+    {
+      "region": "fx-ring-burst_17",
+      "file": "pieces/fx-ring-burst-17-cb5f5e6d.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "546,557,285,282",
+        "offsets": "20,12,313,311",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-ring-burst_18",
+      "file": "pieces/fx-ring-burst-18-384d59ad.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1261,18,261,256",
+        "offsets": "26,41,313,311"
+      }
+    },
+    {
+      "region": "fx-ring-burst_19",
+      "file": "pieces/fx-ring-burst-19-d29b9b19.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1303,553,275,270",
+        "offsets": "19,34,313,311"
+      }
+    },
+    {
+      "region": "fx-spark_05",
+      "file": "pieces/fx-spark-05-bc4ff9be.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1610,831,181,164",
+        "offsets": "7,23,200,200",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-trail-glitch_04",
+      "file": "pieces/fx-trail-glitch-04-7dc1f0ee.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1962,10,70,78",
+        "offsets": "0,0,504,78",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "headphone_chip",
+      "file": "pieces/headphone-chip-a4db6435.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1334,1391,315,187"
+      }
+    },
+    {
+      "region": "k",
+      "file": "pieces/k-a9fea386.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "365,1742,298,318",
+        "offsets": "1,0,299,318",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "k_shadow",
+      "file": "pieces/k-shadow-558ef7c9.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "691,1743,297,316",
+        "offsets": "1,1,299,318",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "mouse_chip",
+      "file": "pieces/mouse-chip-ebfbff06.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1826,88,250,191",
+        "offsets": "0,0,251,191",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "mouse_wireB",
+      "file": "pieces/mouse-wireb-2935c325.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1311,831,181,291",
+        "offsets": "0,1,181,292",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "q",
+      "file": "pieces/q-981dfaca.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1013,566,268,282",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "q_front",
+      "file": "pieces/q-front-c26aacf3.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1024,1451,302,301"
+      }
+    },
+    {
+      "region": "q_shadow",
+      "file": "pieces/q-shadow-a4dcd94e.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "239,408,300,299",
+        "offsets": "1,1,302,301",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wheel_pointer",
+      "file": "pieces/wheel-pointer-6a44dcd7.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "839,342,166,214"
+      }
+    },
+    {
+      "region": "wheel_top",
+      "file": "pieces/wheel-top-e8c7df08.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "1579,282,261,198",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "win_lineU",
+      "file": "pieces/win-lineu-ae41fefe.png",
+      "page": "RAGE-QUIT-2-MASTER_12.ktx2",
+      "properties": {
+        "bounds": "8,1043,337,279",
+        "offsets": "44,1,382,281",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "10_chip",
+      "file": "pieces/10-chip-2d5a6fe3.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "268,981,173,205",
+        "offsets": "1,0,174,205",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "anti-glitch_06",
+      "file": "pieces/anti-glitch-06-247204a4.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "208,1093,52,272",
+        "offsets": "10,0,73,273"
+      }
+    },
+    {
+      "region": "anti-glitch_07",
+      "file": "pieces/anti-glitch-07-d164ca4a.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "249,1569,49,272",
+        "offsets": "12,0,73,273",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "anti-glitch_08",
+      "file": "pieces/anti-glitch-08-8b68d4c6.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "960,1802,49,271",
+        "offsets": "12,0,73,273",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "anti-glitch_09",
+      "file": "pieces/anti-glitch-09-8fd390f5.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "960,1685,49,271",
+        "offsets": "12,0,73,273",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "anti-glitch_10",
+      "file": "pieces/anti-glitch-10-2f818bee.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "779,1159,49,271",
+        "offsets": "12,0,73,273"
+      }
+    },
+    {
+      "region": "anti-glitch_11",
+      "file": "pieces/anti-glitch-11-a2aee1c1.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1227,1394,49,272",
+        "offsets": "12,0,73,273",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "anti-glitch_12",
+      "file": "pieces/anti-glitch-12-957c38a8.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1147,997,49,272",
+        "offsets": "12,0,73,273",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "anti-glitch_13",
+      "file": "pieces/anti-glitch-13-d2754327.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "960,1742,52,271",
+        "offsets": "10,0,73,273",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "anti-glitch_14",
+      "file": "pieces/anti-glitch-14-316a1094.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1239,1683,52,272",
+        "offsets": "10,0,73,273",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "anti-glitch_18",
+      "file": "pieces/anti-glitch-18-8b1f3c51.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1519,1171,51,272",
+        "offsets": "11,0,73,273"
+      }
+    },
+    {
+      "region": "anti-glitch_19",
+      "file": "pieces/anti-glitch-19-fed7852c.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1609,1469,51,272",
+        "offsets": "11,0,73,273"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_00",
+      "file": "pieces/bg-fan-rgb-00-60447b2f.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1948,528,91,121",
+        "offsets": "0,0,120,121"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_23",
+      "file": "pieces/bg-fan-rgb-23-f4540876.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1948,528,91,121",
+        "offsets": "0,0,120,121"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_01",
+      "file": "pieces/bg-fan-rgb-01-b9782c90.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1798,431,91,121",
+        "offsets": "0,0,120,121",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_02",
+      "file": "pieces/bg-fan-rgb-02-29881c54.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1338,315,91,121",
+        "offsets": "0,0,120,121",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_03",
+      "file": "pieces/bg-fan-rgb-03-0e04c908.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1467,309,91,121",
+        "offsets": "0,0,120,121",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_04",
+      "file": "pieces/bg-fan-rgb-04-3cc56aae.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1596,275,91,121",
+        "offsets": "0,0,120,121"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_05",
+      "file": "pieces/bg-fan-rgb-05-9fe52634.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1695,285,91,121",
+        "offsets": "0,0,120,121"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_06",
+      "file": "pieces/bg-fan-rgb-06-18728f36.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1798,332,91,121",
+        "offsets": "0,0,120,121",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_07",
+      "file": "pieces/bg-fan-rgb-07-77e92fad.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1794,233,91,121",
+        "offsets": "0,0,120,121",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_08",
+      "file": "pieces/bg-fan-rgb-08-baf20cdf.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1695,156,91,121",
+        "offsets": "0,0,120,121"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_09",
+      "file": "pieces/bg-fan-rgb-09-1bb25ff1.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1794,134,91,121",
+        "offsets": "0,0,120,121",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_10",
+      "file": "pieces/bg-fan-rgb-10-6e33ec8d.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "786,362,91,121",
+        "offsets": "0,0,120,121",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_11",
+      "file": "pieces/bg-fan-rgb-11-0d93334c.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "768,263,91,121",
+        "offsets": "0,0,120,121",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_12",
+      "file": "pieces/bg-fan-rgb-12-4a0f9ce7.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "806,134,91,121",
+        "offsets": "0,0,120,121"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_13",
+      "file": "pieces/bg-fan-rgb-13-187285ae.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "806,35,91,121",
+        "offsets": "0,0,120,121",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_14",
+      "file": "pieces/bg-fan-rgb-14-891e9a78.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1104,270,91,121",
+        "offsets": "0,0,120,121",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_15",
+      "file": "pieces/bg-fan-rgb-15-bc356669.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1338,216,91,121",
+        "offsets": "0,0,120,121",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_16",
+      "file": "pieces/bg-fan-rgb-16-c6599c56.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1467,210,91,121",
+        "offsets": "0,0,120,121",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_17",
+      "file": "pieces/bg-fan-rgb-17-4aad94c2.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1596,146,91,121",
+        "offsets": "0,0,120,121"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_18",
+      "file": "pieces/bg-fan-rgb-18-a85e5d1f.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1695,27,91,121",
+        "offsets": "0,0,120,121"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_19",
+      "file": "pieces/bg-fan-rgb-19-43d2dfce.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1794,35,91,121",
+        "offsets": "0,0,120,121",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_20",
+      "file": "pieces/bg-fan-rgb-20-c6d77176.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "995,158,91,121",
+        "offsets": "0,0,120,121"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_21",
+      "file": "pieces/bg-fan-rgb-21-ac100c11.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1094,171,91,121",
+        "offsets": "0,0,120,121",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bg_fan-rgb_22",
+      "file": "pieces/bg-fan-rgb-22-e2064504.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1038,29,91,121",
+        "offsets": "0,0,120,121"
+      }
+    },
+    {
+      "region": "bg_rgb",
+      "file": "pieces/bg-rgb-6e28da83.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "655,1438,173,174",
+        "offsets": "1,1,175,176"
+      }
+    },
+    {
+      "region": "bn-armR-win",
+      "file": "pieces/bn-armr-win-f3e7d1d3.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "768,1711,138,184",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bn_armL",
+      "file": "pieces/bn-arml-34973585.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1853,1111,81,70",
+        "offsets": "0,0,82,70",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bn_armR",
+      "file": "pieces/bn-armr-14a1e232.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1326,50,81,70",
+        "offsets": "1,0,82,70"
+      }
+    },
+    {
+      "region": "bn_handL",
+      "file": "pieces/bn-handl-b2f69545.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1757,660,131,108",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bn_handR",
+      "file": "pieces/bn-handr-eb700ebe.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1923,821,131,108",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bn_handR-win",
+      "file": "pieces/bn-handr-win-d74be5f3.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1693,533,119,129",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bn_hat",
+      "file": "pieces/bn-hat-1cfd6678.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "558,417,234,114",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_armAL",
+      "file": "pieces/ch-armal-3ddd2a3f.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1670,1710,248,133",
+        "offsets": "0,6,282,139"
+      }
+    },
+    {
+      "region": "ch_eyebrow",
+      "file": "pieces/ch-eyebrow-70198daa.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "669,1189,241,102",
+        "offsets": "0,6,241,108",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_eyelidDL",
+      "file": "pieces/ch-eyeliddl-a8704608.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1873,656,148,63",
+        "offsets": "1,1,149,64",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_eyelidUR",
+      "file": "pieces/ch-eyelidur-20cb2bf5.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1923,129,107,75"
+      }
+    },
+    {
+      "region": "ch_mouthA",
+      "file": "pieces/ch-moutha-d08cf455.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "694,1620,245,83"
+      }
+    },
+    {
+      "region": "ch_mouthC-teeth",
+      "file": "pieces/ch-mouthc-teeth-0fb94c1f.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1419,1451,157,97",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ch_sleeveL",
+      "file": "pieces/ch-sleevel-06d96fb6.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "605,247,155,162",
+        "offsets": "14,0,169,162"
+      }
+    },
+    {
+      "region": "ch_sleeveR",
+      "file": "pieces/ch-sleever-06be1898.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "405,659,152,194"
+      }
+    },
+    {
+      "region": "ch_tail",
+      "file": "pieces/ch-tail-dd3c4dbd.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "702,861,144,126",
+        "offsets": "1,1,146,128"
+      }
+    },
+    {
+      "region": "fragB_1",
+      "file": "pieces/fragb-1-011e31c7.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1240,369,128,90",
+        "offsets": "1,1,130,92",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fragB_2",
+      "file": "pieces/fragb-2-2dacf091.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "998,399,99,98",
+        "offsets": "1,1,101,100",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fragB_3",
+      "file": "pieces/fragb-3-52c96152.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1223,175,71,87",
+        "offsets": "1,1,73,90"
+      }
+    },
+    {
+      "region": "fragB_4",
+      "file": "pieces/fragb-4-46d6b397.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "487,861,117,108",
+        "offsets": "1,1,119,111",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fragG_2",
+      "file": "pieces/fragg-2-452d3b19.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1923,212,101,104",
+        "offsets": "1,1,103,106",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fragG_3",
+      "file": "pieces/fragg-3-b817f9ed.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1247,85,71,82",
+        "offsets": "1,1,73,84"
+      }
+    },
+    {
+      "region": "fragG_4",
+      "file": "pieces/fragg-4-e8f8ec90.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "529,1569,65,80",
+        "offsets": "1,1,67,82",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fragP_3",
+      "file": "pieces/fragp-3-f73d9cbb.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1830,530,110,118",
+        "offsets": "1,1,112,120"
+      }
+    },
+    {
+      "region": "fragP_4",
+      "file": "pieces/fragp-4-ead115c7.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1923,17,104,104",
+        "offsets": "1,2,106,108"
+      }
+    },
+    {
+      "region": "fragR_1",
+      "file": "pieces/fragr-1-19028f81.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "603,861,91,117",
+        "offsets": "1,1,93,119"
+      }
+    },
+    {
+      "region": "fragR_2",
+      "file": "pieces/fragr-2-b6b6e02b.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1840,980,78,123",
+        "offsets": "1,1,81,125"
+      }
+    },
+    {
+      "region": "fragR_4",
+      "file": "pieces/fragr-4-75d5f0da.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "196,996,61,89",
+        "offsets": "1,1,63,91"
+      }
+    },
+    {
+      "region": "fragY_2",
+      "file": "pieces/fragy-2-42e15cd0.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "8,8,109,180",
+        "offsets": "1,1,111,182"
+      }
+    },
+    {
+      "region": "fragY_3",
+      "file": "pieces/fragy-3-ba4c533f.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1944,733,80,96",
+        "offsets": "1,1,82,98",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fragY_4",
+      "file": "pieces/fragy-4-a5d4a236.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1944,657,68,96",
+        "offsets": "1,1,70,98",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-electric-wave02",
+      "file": "pieces/fx-electric-wave02-dc4b9018.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1247,10,67,68",
+        "offsets": "173,156,250,250",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-electric-wave03",
+      "file": "pieces/fx-electric-wave03-b1cc5fdd.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "905,220,82,84",
+        "offsets": "161,143,250,250"
+      }
+    },
+    {
+      "region": "fx-electric-wave04",
+      "file": "pieces/fx-electric-wave04-7d44546b.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "935,29,95,99",
+        "offsets": "148,129,250,250"
+      }
+    },
+    {
+      "region": "fx-electric-wave05",
+      "file": "pieces/fx-electric-wave05-e646cf95.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1926,1790,112,114",
+        "offsets": "132,114,250,250",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-electric-wave06",
+      "file": "pieces/fx-electric-wave06-3b891876.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1926,1790,112,114",
+        "offsets": "132,114,250,250",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-electric-wave07",
+      "file": "pieces/fx-electric-wave07-81c793ce.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1338,414,127,123",
+        "offsets": "117,105,250,250",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-electric-wave09",
+      "file": "pieces/fx-electric-wave09-0af4e7c1.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "921,730,157,142",
+        "offsets": "87,86,250,250"
+      }
+    },
+    {
+      "region": "fx-electric-wave10",
+      "file": "pieces/fx-electric-wave10-a1e72afe.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "760,685,168,153",
+        "offsets": "76,75,250,250",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-electric-wave11",
+      "file": "pieces/fx-electric-wave11-e66fc0a6.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "921,880,168,153",
+        "offsets": "76,75,250,250"
+      }
+    },
+    {
+      "region": "fx-electric-wave12",
+      "file": "pieces/fx-electric-wave12-84aff1cc.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "921,1157,173,164",
+        "offsets": "67,64,250,250"
+      }
+    },
+    {
+      "region": "fx-electric-wave14",
+      "file": "pieces/fx-electric-wave14-d6418b07.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "428,47,191,190",
+        "offsets": "49,38,250,250",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-electric-wave16",
+      "file": "pieces/fx-electric-wave16-44e85a81.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "195,656,202,197",
+        "offsets": "42,31,250,250"
+      }
+    },
+    {
+      "region": "fx-electric-wave17",
+      "file": "pieces/fx-electric-wave17-865cf50a.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "8,196,217,189",
+        "offsets": "27,39,250,250",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-electric-wave19",
+      "file": "pieces/fx-electric-wave19-fe7de5c6.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "8,1824,235,216",
+        "offsets": "6,12,250,250"
+      }
+    },
+    {
+      "region": "fx-electric-wave20",
+      "file": "pieces/fx-electric-wave20-83ba8366.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "8,1373,230,217",
+        "offsets": "6,11,250,250"
+      }
+    },
+    {
+      "region": "fx-electric-wave21",
+      "file": "pieces/fx-electric-wave21-c08a677f.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "8,1373,230,217",
+        "offsets": "6,11,250,250"
+      }
+    },
+    {
+      "region": "fx-electric-wave22",
+      "file": "pieces/fx-electric-wave22-0ed255b6.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "8,1598,233,218",
+        "offsets": "5,10,250,250"
+      }
+    },
+    {
+      "region": "fx-electric-wave25",
+      "file": "pieces/fx-electric-wave25-65cc5c16.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "8,1138,192,227",
+        "offsets": "5,1,250,250"
+      }
+    },
+    {
+      "region": "fx-electric-wave26",
+      "file": "pieces/fx-electric-wave26-c111674b.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "8,1138,192,227",
+        "offsets": "5,1,250,250"
+      }
+    },
+    {
+      "region": "fx-electric-wave27",
+      "file": "pieces/fx-electric-wave27-3dad9e05.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "268,1162,208,198",
+        "offsets": "21,3,250,250",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-glow",
+      "file": "pieces/fx-glow-12eeeee3.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1469,408,122,122",
+        "offsets": "3,3,128,128"
+      }
+    },
+    {
+      "region": "fx-glow-low",
+      "file": "pieces/fx-glow-low-a603c1ce.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1679,414,111,111",
+        "offsets": "9,8,128,128"
+      }
+    },
+    {
+      "region": "fx-light-hexa_02",
+      "file": "pieces/fx-light-hexa-02-5e97a75d.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "905,136,82,76",
+        "offsets": "8,20,237,109"
+      }
+    },
+    {
+      "region": "fx-light-hexa_03",
+      "file": "pieces/fx-light-hexa-03-2e9ea83d.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1927,431,108,89",
+        "offsets": "2,19,237,109"
+      }
+    },
+    {
+      "region": "fx-light-hexa_06",
+      "file": "pieces/fx-light-hexa-06-34d48222.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "660,682,171,92",
+        "offsets": "2,17,237,109",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-hexa_09",
+      "file": "pieces/fx-light-hexa-09-1b7735e9.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "921,1041,218,108",
+        "offsets": "16,1,237,109"
+      }
+    },
+    {
+      "region": "fx-light-hexa_11",
+      "file": "pieces/fx-light-hexa-11-528ab7e0.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1110,1403,207,109",
+        "offsets": "30,0,237,109",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-hexa_12",
+      "file": "pieces/fx-light-hexa-12-86ee93d4.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1931,1247,200,109",
+        "offsets": "37,0,237,109",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-hexa_13",
+      "file": "pieces/fx-light-hexa-13-fde1983d.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1239,1743,190,109",
+        "offsets": "47,0,237,109"
+      }
+    },
+    {
+      "region": "fx-light-hexa_14",
+      "file": "pieces/fx-light-hexa-14-4c49a05b.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "921,1329,179,109",
+        "offsets": "58,0,237,109"
+      }
+    },
+    {
+      "region": "fx-light-hexa_16",
+      "file": "pieces/fx-light-hexa-16-12615bfa.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1931,1095,144,109",
+        "offsets": "93,0,237,109",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-hexa_18",
+      "file": "pieces/fx-light-hexa-18-44c4e26f.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "998,287,104,98",
+        "offsets": "133,0,237,109",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-hexa_19",
+      "file": "pieces/fx-light-hexa-19-b488a39e.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1233,278,83,97",
+        "offsets": "154,0,237,109",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-hexa_20",
+      "file": "pieces/fx-light-hexa-20-1a903d81.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1108,1332,63,96",
+        "offsets": "174,1,237,109",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-horizon",
+      "file": "pieces/fx-light-horizon-16934511.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1104,369,128,128"
+      }
+    },
+    {
+      "region": "fx-light-sweep2_00",
+      "file": "pieces/fx-light-sweep2-00-9f09bf78.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "680,458,216,98",
+        "offsets": "5,7,256,128",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-sweep2_01",
+      "file": "pieces/fx-light-sweep2-01-3882bf6c.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "786,461,216,98",
+        "offsets": "5,7,256,128",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-sweep2_02",
+      "file": "pieces/fx-light-sweep2-02-ebdf5f1b.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "892,461,216,98",
+        "offsets": "5,7,256,128",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-sweep2_03",
+      "file": "pieces/fx-light-sweep2-03-05ecf2cb.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1097,891,216,98",
+        "offsets": "5,7,256,128"
+      }
+    },
+    {
+      "region": "fx-light-sweep2_04",
+      "file": "pieces/fx-light-sweep2-04-ab86f1be.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "998,506,216,98",
+        "offsets": "5,7,256,128",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-sweep2_05",
+      "file": "pieces/fx-light-sweep2-05-7fa6c9e3.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1097,785,216,98",
+        "offsets": "5,7,256,128"
+      }
+    },
+    {
+      "region": "fx-light-sweep2_06",
+      "file": "pieces/fx-light-sweep2-06-7d8a7cbf.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1321,773,216,98",
+        "offsets": "5,7,256,128",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-sweep2_07",
+      "file": "pieces/fx-light-sweep2-07-b3d23aa6.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1104,561,216,98",
+        "offsets": "5,7,256,128",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-sweep2_08",
+      "file": "pieces/fx-light-sweep2-08-67c2e635.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1210,561,216,98",
+        "offsets": "5,7,256,128",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-sweep2_09",
+      "file": "pieces/fx-light-sweep2-09-14dd9818.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1316,549,216,98",
+        "offsets": "5,7,256,128",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-sweep2_10",
+      "file": "pieces/fx-light-sweep2-10-f215e78d.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1427,915,216,98",
+        "offsets": "5,7,256,128",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-sweep2_11",
+      "file": "pieces/fx-light-sweep2-11-9f4f94c4.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1533,1027,216,98",
+        "offsets": "5,7,256,128"
+      }
+    },
+    {
+      "region": "fx-light-sweep2_12",
+      "file": "pieces/fx-light-sweep2-12-3dcc08ea.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1533,921,216,98",
+        "offsets": "5,7,256,128"
+      }
+    },
+    {
+      "region": "fx-light-sweep2_13",
+      "file": "pieces/fx-light-sweep2-13-730d74e6.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1427,691,216,98",
+        "offsets": "5,7,256,128",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-light-sweep2_14",
+      "file": "pieces/fx-light-sweep2-14-bd26b4d5.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1533,815,216,98",
+        "offsets": "5,7,256,128"
+      }
+    },
+    {
+      "region": "fx-line-burst_00",
+      "file": "pieces/fx-line-burst-00-2a996ca7.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1927,321,105,102",
+        "offsets": "124,128,353,353"
+      }
+    },
+    {
+      "region": "fx-line-burst_02",
+      "file": "pieces/fx-line-burst-02-d100c09f.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "231,44,194,189",
+        "offsets": "80,83,353,353",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-ring-burst_03",
+      "file": "pieces/fx-ring-burst-03-9283c550.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1137,60,102,103",
+        "offsets": "93,109,313,311"
+      }
+    },
+    {
+      "region": "fx-ring-burst_04",
+      "file": "pieces/fx-ring-burst-04-b0559a05.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1910,1910,130,130",
+        "offsets": "79,95,313,311"
+      }
+    },
+    {
+      "region": "fx-ring-burst_05",
+      "file": "pieces/fx-ring-burst-05-928d0c97.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "663,995,156,156",
+        "offsets": "66,82,313,311"
+      }
+    },
+    {
+      "region": "fx-ring-burst_06",
+      "file": "pieces/fx-ring-burst-06-c9eb6285.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "464,1378,183,183",
+        "offsets": "52,69,313,311"
+      }
+    },
+    {
+      "region": "fx-ring-burst_07",
+      "file": "pieces/fx-ring-burst-07-c60651bf.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "474,1181,187,189",
+        "offsets": "59,66,313,311"
+      }
+    },
+    {
+      "region": "fx-ring-burst_08",
+      "file": "pieces/fx-ring-burst-08-25287aaf.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "251,1824,216,218",
+        "offsets": "44,51,313,311",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-spark_00",
+      "file": "pieces/fx-spark-00-2c46e21e.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1326,128,79,80",
+        "offsets": "60,62,200,200"
+      }
+    },
+    {
+      "region": "fx-spark_01",
+      "file": "pieces/fx-spark-01-6060169a.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1326,128,79,80",
+        "offsets": "60,62,200,200"
+      }
+    },
+    {
+      "region": "fx-spark_02",
+      "file": "pieces/fx-spark-02-3172a655.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1926,960,127,113",
+        "offsets": "34,51,200,200",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-spark_03",
+      "file": "pieces/fx-spark-03-9a3d6b8e.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1102,1157,164,141",
+        "offsets": "18,39,200,200",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-spark_06",
+      "file": "pieces/fx-spark-06-0c16bbcb.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "921,1446,181,164",
+        "offsets": "7,23,200,200"
+      }
+    },
+    {
+      "region": "fx-spark_07",
+      "file": "pieces/fx-spark-07-29f8382a.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "481,986,187,174",
+        "offsets": "4,15,200,200",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-spark_08",
+      "file": "pieces/fx-spark-08-7b683854.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "626,52,187,172",
+        "offsets": "4,15,200,200",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-spark_10",
+      "file": "pieces/fx-spark-10-3e7519bf.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1227,1451,184,157",
+        "offsets": "4,27,200,200"
+      }
+    },
+    {
+      "region": "fx-sweep_01",
+      "file": "pieces/fx-sweep-01-497967c2.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "836,1352,260,77",
+        "offsets": "20,21,300,120",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-sweep_02",
+      "file": "pieces/fx-sweep-02-3b90964d.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "836,1084,260,77",
+        "offsets": "20,21,300,120",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-sweep_03",
+      "file": "pieces/fx-sweep-03-de9631fa.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1251,1309,260,77",
+        "offsets": "20,21,300,120"
+      }
+    },
+    {
+      "region": "fx-sweep_04",
+      "file": "pieces/fx-sweep-04-4a5d795f.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1251,1224,260,77",
+        "offsets": "20,21,300,120"
+      }
+    },
+    {
+      "region": "fx-sweep_05",
+      "file": "pieces/fx-sweep-05-259e7f86.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1251,1139,260,77",
+        "offsets": "20,21,300,120"
+      }
+    },
+    {
+      "region": "fx-sweep_06",
+      "file": "pieces/fx-sweep-06-354dca73.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1147,1054,260,77",
+        "offsets": "20,21,300,120"
+      }
+    },
+    {
+      "region": "fx-sweep_07",
+      "file": "pieces/fx-sweep-07-01fd9c21.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1524,1481,260,77",
+        "offsets": "20,21,300,120",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-sweep_08",
+      "file": "pieces/fx-sweep-08-4268bee6.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1668,1625,260,77",
+        "offsets": "20,21,300,120"
+      }
+    },
+    {
+      "region": "fx-sweep_09",
+      "file": "pieces/fx-sweep-09-20d3e46f.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1668,1540,260,77",
+        "offsets": "20,21,300,120"
+      }
+    },
+    {
+      "region": "fx-sweep_10",
+      "file": "pieces/fx-sweep-10-47c91f66.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1668,1455,260,77",
+        "offsets": "20,21,300,120"
+      }
+    },
+    {
+      "region": "fx-sweep_11",
+      "file": "pieces/fx-sweep-11-59d06002.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1578,1201,260,77",
+        "offsets": "20,21,300,120",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-sweep_12",
+      "file": "pieces/fx-sweep-12-20974ae2.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1663,1370,260,77",
+        "offsets": "20,21,300,120"
+      }
+    },
+    {
+      "region": "fx-sweep_13",
+      "file": "pieces/fx-sweep-13-6c855c6d.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1663,1285,260,77",
+        "offsets": "20,21,300,120"
+      }
+    },
+    {
+      "region": "fx-sweep_14",
+      "file": "pieces/fx-sweep-14-3c909a1d.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1663,1200,260,77",
+        "offsets": "20,21,300,120"
+      }
+    },
+    {
+      "region": "fx-sweep_15",
+      "file": "pieces/fx-sweep-15-72dbe17d.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1936,1522,260,77",
+        "offsets": "20,21,300,120",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-trail-glitch_05",
+      "file": "pieces/fx-trail-glitch-05-78f92a35.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1757,975,150,75",
+        "offsets": "0,1,504,78",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-wave-glitch_02",
+      "file": "pieces/fx-wave-glitch-02-b76c7761.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1856,812,160,59",
+        "offsets": "50,0,274,59",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-wave-glitch_03",
+      "file": "pieces/fx-wave-glitch-03-edf6e71f.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "854,872,204,59",
+        "offsets": "31,0,274,59",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx-wave-glitch_08",
+      "file": "pieces/fx-wave-glitch-08-710ace9b.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "947,1618,273,59",
+        "offsets": "0,0,274,59"
+      }
+    },
+    {
+      "region": "fx-wave-glitch_09",
+      "file": "pieces/fx-wave-glitch-09-dd98b862.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1228,1616,272,59",
+        "offsets": "1,0,274,59"
+      }
+    },
+    {
+      "region": "fx-wave-glitch_10",
+      "file": "pieces/fx-wave-glitch-10-37e6e72f.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1578,1133,267,59",
+        "offsets": "1,0,274,59"
+      }
+    },
+    {
+      "region": "headphone_mic-broken",
+      "file": "pieces/headphone-mic-broken-511237c3.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1700,663,144,49",
+        "offsets": "1,1,147,51",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "headphone_wire",
+      "file": "pieces/headphone-wire-da2ab187.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1599,404,126,72",
+        "offsets": "6,0,132,72",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "j_chip",
+      "file": "pieces/j-chip-871b8a22.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "410,413,140,238"
+      }
+    },
+    {
+      "region": "k_chip",
+      "file": "pieces/k-chip-78b4ef1c.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1437,1749,102,225",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "logo-fire_00",
+      "file": "pieces/logo-fire-00-223c7e7b.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "718,1857,234,183",
+        "offsets": "1,0,240,193"
+      }
+    },
+    {
+      "region": "logo-fire_01",
+      "file": "pieces/logo-fire-01-84a5e7ab.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "960,1859,236,181",
+        "offsets": "0,0,240,193"
+      }
+    },
+    {
+      "region": "logo-fire_02",
+      "file": "pieces/logo-fire-02-03cbb2f6.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "8,892,238,180",
+        "offsets": "1,0,240,193",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "logo-fire_03",
+      "file": "pieces/logo-fire-03-fa891be2.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "8,647,237,179",
+        "offsets": "3,0,240,193",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "logo-fire_04",
+      "file": "pieces/logo-fire-04-a8ad3357.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1204,1860,234,180",
+        "offsets": "6,0,240,193"
+      }
+    },
+    {
+      "region": "logo-fire_05",
+      "file": "pieces/logo-fire-05-2a20bce9.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1446,1859,226,181",
+        "offsets": "14,0,240,193"
+      }
+    },
+    {
+      "region": "logo-fire_06",
+      "file": "pieces/logo-fire-06-a2212c3f.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "246,1378,210,183",
+        "offsets": "29,0,240,193"
+      }
+    },
+    {
+      "region": "logo-fire_08",
+      "file": "pieces/logo-fire-08-4d5e53cc.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "8,421,218,187",
+        "offsets": "19,0,240,193",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "logo-fire_09",
+      "file": "pieces/logo-fire-09-e713f3de.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1680,1851,222,189",
+        "offsets": "12,0,240,193"
+      }
+    },
+    {
+      "region": "logo-fire_10",
+      "file": "pieces/logo-fire-10-be273fd3.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "249,1626,226,190",
+        "offsets": "6,0,240,193"
+      }
+    },
+    {
+      "region": "logo-fire_11",
+      "file": "pieces/logo-fire-11-7b875a42.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "477,1854,233,186",
+        "offsets": "2,0,240,193"
+      }
+    },
+    {
+      "region": "mouse_frontA",
+      "file": "pieces/mouse-fronta-2d85fd60.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1533,675,132,159",
+        "offsets": "0,1,141,160",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "mouse_frontB",
+      "file": "pieces/mouse-frontb-f52e0764.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1757,799,168,91",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "mouse_wireA",
+      "file": "pieces/mouse-wirea-09551a66.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1529,538,129,156",
+        "offsets": "1,0,130,157",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pc_butA",
+      "file": "pieces/pc-buta-a4400dc9.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "915,312,75,60",
+        "offsets": "1,1,77,62"
+      }
+    },
+    {
+      "region": "pc_butB",
+      "file": "pieces/pc-butb-f9de7000.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "694,1769,77,61",
+        "offsets": "1,1,79,63",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pc_butC",
+      "file": "pieces/pc-butc-47c873c3.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1413,140,73,62",
+        "offsets": "0,0,74,62"
+      }
+    },
+    {
+      "region": "pc_chip",
+      "file": "pieces/pc-chip-1a82eecd.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "565,674,179,87",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pc_screen",
+      "file": "pieces/pc-screen-e34fbeb2.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "408,246,189,159"
+      }
+    },
+    {
+      "region": "pc_wire",
+      "file": "pieces/pc-wire-7ed3a03d.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1422,559,124,99",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "w_txt-glitch_01",
+      "file": "pieces/w-txt-glitch-01-2ced50bf.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "1104,505,202,48",
+        "offsets": "14,3,224,57"
+      }
+    },
+    {
+      "region": "wheel_butR",
+      "file": "pieces/wheel-butr-199be620.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "125,8,98,180"
+      }
+    },
+    {
+      "region": "wheel_centre",
+      "file": "pieces/wheel-centre-064789b3.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "915,380,75,73",
+        "offsets": "1,1,77,75"
+      }
+    },
+    {
+      "region": "wheel_centre-pie-in",
+      "file": "pieces/wheel-centre-pie-in-2a552f55.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "203,448,199,200"
+      }
+    },
+    {
+      "region": "wheel_rotate-circle",
+      "file": "pieces/wheel-rotate-circle-da07045a.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "205,246,195,194"
+      }
+    },
+    {
+      "region": "wheel_txt",
+      "file": "pieces/wheel-txt-45bead99.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "196,861,283,112",
+        "offsets": "1,1,285,114"
+      }
+    },
+    {
+      "region": "win_max-board-fan",
+      "file": "pieces/win-max-board-fan-e935601b.png",
+      "page": "RAGE-QUIT-2-MASTER_13.ktx2",
+      "properties": {
+        "bounds": "483,1642,203,204"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/WHEEL.json",
+      "sha256": "8887cfc4bf1db610b73e3647c6e060ad650a9e0239539d03478816f85f14b956",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-23b89430.atlas",
+      "source": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER.atlas",
+      "sha256": "23b89430827183acd0418f649ac5e03b193483ff19e6101085e508a7c026ebdd",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "originaux/0cbe40a4-RAGE-QUIT-2-MASTER.ktx2",
+      "source": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER.ktx2",
+      "sha256": "0cbe40a4a61e7b9cf748db7bc358993c970dbef02efa36b30c1e01866c2804c2",
+      "kind": "texture"
+    },
+    {
+      "file": "originaux/4499c192-RAGE-QUIT-2-MASTER_2.ktx2",
+      "source": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_2.ktx2",
+      "sha256": "4499c1927c2ea8178246bb973be0c45d4ffc51f0f880a1685af9cfdfaef3bc82",
+      "kind": "texture"
+    },
+    {
+      "file": "originaux/ae55ed7c-RAGE-QUIT-2-MASTER_3.ktx2",
+      "source": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_3.ktx2",
+      "sha256": "ae55ed7c633224b8b4395216c8293fabcfffac15b0abe8054bb30eae52a43eca",
+      "kind": "texture"
+    },
+    {
+      "file": "originaux/56ff916a-RAGE-QUIT-2-MASTER_4.ktx2",
+      "source": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_4.ktx2",
+      "sha256": "56ff916a5d2f28485d93b75a541f44ec7a6e42ade3e956b0b81bb86d9f1b6692",
+      "kind": "texture"
+    },
+    {
+      "file": "originaux/4e389119-RAGE-QUIT-2-MASTER_5.ktx2",
+      "source": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_5.ktx2",
+      "sha256": "4e3891198aefb9e944e3a8a807f1c8db0d257ac80fb61b26363bf8b1b0183f36",
+      "kind": "texture"
+    },
+    {
+      "file": "originaux/bf45c575-RAGE-QUIT-2-MASTER_6.ktx2",
+      "source": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_6.ktx2",
+      "sha256": "bf45c575bcd3709d9502e2d3e4dfa7112fd4711bb750f3d12eba73bedf1abf34",
+      "kind": "texture"
+    },
+    {
+      "file": "originaux/65008867-RAGE-QUIT-2-MASTER_7.ktx2",
+      "source": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_7.ktx2",
+      "sha256": "650088675d365e154e7358d712093b0ec2f3676811d7da881fa2c99c626f5e60",
+      "kind": "texture"
+    },
+    {
+      "file": "originaux/e9b94a98-RAGE-QUIT-2-MASTER_8.ktx2",
+      "source": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_8.ktx2",
+      "sha256": "e9b94a98f274adbac06d6d4c60729b79516ab54617165beaa55c23c19bd2c5c2",
+      "kind": "texture"
+    },
+    {
+      "file": "originaux/2b528060-RAGE-QUIT-2-MASTER_9.ktx2",
+      "source": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_9.ktx2",
+      "sha256": "2b528060ac1fdc7ace229a4c4e56bade799a399a4c94d35bfc2b736f0b2ed06d",
+      "kind": "texture"
+    },
+    {
+      "file": "originaux/3d248c95-RAGE-QUIT-2-MASTER_10.ktx2",
+      "source": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_10.ktx2",
+      "sha256": "3d248c95328d35dbcda930de0882323cb93d9200cb07b3960af04556b99ba1ab",
+      "kind": "texture"
+    },
+    {
+      "file": "originaux/94cdf9c0-RAGE-QUIT-2-MASTER_11.ktx2",
+      "source": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_11.ktx2",
+      "sha256": "94cdf9c095169b0bcf7eb87f1f70066e230686ab034f53deb204efc1162ddb07",
+      "kind": "texture"
+    },
+    {
+      "file": "originaux/48ddd70b-RAGE-QUIT-2-MASTER_12.ktx2",
+      "source": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_12.ktx2",
+      "sha256": "48ddd70b7ced3c917adc73eebc1894575daef686b0cdb3bdf129e7ace8dbf4ba",
+      "kind": "texture"
+    },
+    {
+      "file": "originaux/26a65424-RAGE-QUIT-2-MASTER_13.ktx2",
+      "source": "raw/meta-gaming.live.engine.io/rage-quit-2/v16/images/spine/RAGE-QUIT-2-MASTER_13.ktx2",
+      "sha256": "26a654243d518f65214f04a83099236703fb2ac1ca7ea0edb77806398c951627",
+      "kind": "texture"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

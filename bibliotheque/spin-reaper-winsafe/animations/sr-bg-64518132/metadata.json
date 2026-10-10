@@ -1,0 +1,1922 @@
+{
+  "id": "animations/sr-bg-64518132",
+  "name": "sr_bg",
+  "machine": "spin-reaper-winsafe",
+  "format": "spine-json",
+  "version": "4.1.23",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-2c9703af.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-2c9703af.atlas"
+  ],
+  "textures": [
+    "sr_bg.webp"
+  ],
+  "animations": [
+    {
+      "name": "darken_in",
+      "duration": 0.333,
+      "timelines": {
+        "slots": 10
+      }
+    },
+    {
+      "name": "darken_loop",
+      "duration": 0,
+      "timelines": {
+        "bones": 1,
+        "slots": 10
+      }
+    },
+    {
+      "name": "darken_out",
+      "duration": 0.6,
+      "timelines": {
+        "slots": 10
+      }
+    },
+    {
+      "name": "fstotal_idle",
+      "duration": 7.2,
+      "timelines": {
+        "bones": 2,
+        "slots": 18,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "fstotal_intro",
+      "duration": 1.4,
+      "timelines": {
+        "slots": 16,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "fs_idle",
+      "duration": 7.2,
+      "timelines": {
+        "bones": 2,
+        "slots": 18,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "fs_intro",
+      "duration": 1.4,
+      "timelines": {
+        "slots": 16,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "ghost",
+      "duration": 9.167,
+      "timelines": {
+        "bones": 20,
+        "slots": 7,
+        "path": 1
+      }
+    },
+    {
+      "name": "idle",
+      "duration": 20,
+      "timelines": {
+        "bones": 243,
+        "slots": 73,
+        "path": 2
+      }
+    },
+    {
+      "name": "mobile_fstotal_idle",
+      "duration": 7.2,
+      "timelines": {
+        "bones": 4,
+        "slots": 18,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "mobile_fstotal_intro",
+      "duration": 1.4,
+      "timelines": {
+        "bones": 2,
+        "slots": 16,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "mobile_fs_idle",
+      "duration": 7.2,
+      "timelines": {
+        "bones": 4,
+        "slots": 18,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "mobile_fs_intro",
+      "duration": 1.4,
+      "timelines": {
+        "bones": 2,
+        "slots": 16,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "mobile_idle",
+      "duration": 20,
+      "timelines": {
+        "bones": 254,
+        "slots": 73,
+        "path": 2,
+        "drawOrder": 1
+      }
+    },
+    {
+      "name": "mobile_super_fstotal_idle",
+      "duration": 7.2,
+      "timelines": {
+        "bones": 4,
+        "slots": 16,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "mobile_super_fstotal_intro",
+      "duration": 1.4,
+      "timelines": {
+        "bones": 2,
+        "slots": 16,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "moon",
+      "duration": 0,
+      "timelines": {
+        "bones": 1,
+        "slots": 2
+      }
+    },
+    {
+      "name": "super_fstotal_idle",
+      "duration": 7.2,
+      "timelines": {
+        "bones": 2,
+        "slots": 18,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "super_fstotal_intro",
+      "duration": 1.4,
+      "timelines": {
+        "slots": 16,
+        "attachments": 1
+      }
+    },
+    {
+      "name": "topleft_idle",
+      "duration": 20,
+      "timelines": {
+        "bones": 42,
+        "slots": 9
+      }
+    },
+    {
+      "name": "topright_idle",
+      "duration": 20,
+      "timelines": {
+        "bones": 13,
+        "slots": 3
+      }
+    }
+  ],
+  "skins": [
+    "default",
+    "base",
+    "bonus",
+    "super"
+  ],
+  "bones": [
+    "root",
+    "bottom",
+    "bg_elements",
+    "graves",
+    "topleft",
+    "topright",
+    "batsnbirds",
+    "base_crow1",
+    "bats",
+    "bat",
+    "bat_head",
+    "bat2",
+    "bat3",
+    "bat4",
+    "bat5",
+    "bat6",
+    "bat7",
+    "bg_tree_left",
+    "bg_tree_left2",
+    "bg_tree_left3",
+    "bg_tree_left4",
+    "base_crow2",
+    "bg_tree_left5",
+    "bg_tree_left19",
+    "bg_tree_left20",
+    "bg_tree_left21",
+    "base_crow3",
+    "base_bat_hanging",
+    "base_crow5",
+    "base_crow6",
+    "base_crow7",
+    "base_crow8",
+    "base_crow9",
+    "base_crow10",
+    "base_crow11",
+    "bg_tree_left6",
+    "bg_tree_left7",
+    "bg_tree_left8",
+    "bg_tree_left9",
+    "bg_tree_left10",
+    "bg_tree_left11",
+    "bg_tree_left12",
+    "bg_tree_left13",
+    "bg_tree_left14",
+    "bg_tree_left15",
+    "bg_tree_left16",
+    "bg_tree_left17",
+    "bg_tree_left18",
+    "bg_tree_left22",
+    "bg_tree_left23",
+    "bg_tree_left24",
+    "bg_tree_left25",
+    "bg_tree_left26",
+    "bg_tree_left27",
+    "bg_tree_left28",
+    "bg_tree_left29",
+    "bg_tree_left30",
+    "bg_tree_left31",
+    "bg_tree_left32",
+    "bg_tree_left33",
+    "bg_tree_left34",
+    "bg_tree_left35",
+    "bg_tree_left36",
+    "bg_tree_left37",
+    "bg_tree_left38",
+    "bg_tree_left39",
+    "bg_tree_left40",
+    "bg_tree_left41",
+    "bg_tree_left42",
+    "bg_tree_left43",
+    "bg_tree_left44",
+    "bg_tree_right",
+    "bg_tree_right2",
+    "bg_tree_right3",
+    "bg_tree_right4",
+    "bg_tree_right5",
+    "bg_tree_right6",
+    "bg_tree_right7",
+    "bg_tree_right8",
+    "bg_tree_right9",
+    "bg_tree_right10",
+    "bg_tree_right11",
+    "bg_tree_right12",
+    "bg_tree_right13",
+    "bg_tree_right14",
+    "bg_tree_right15",
+    "bg_tree_right16",
+    "bg_tree_right17",
+    "bg_tree_right18",
+    "bg_tree_right19",
+    "bg_tree_right20",
+    "bg_backtreeleft",
+    "bg_backtreeleft2",
+    "bg_backtreeleft3",
+    "bg_backtreeleft4",
+    "bg_backtreeleft5",
+    "bg_backtreeleft6",
+    "bg_backtreeleft7",
+    "bg_backtreeleft8",
+    "bg_backtreeleft9",
+    "bg_backtreeleft10",
+    "bg_backtreeleft11",
+    "bg_backtreeleft12",
+    "bg_backtreeleft13",
+    "bg_backtreeleft14",
+    "bg_backtreeleft15",
+    "bg_backtreeleft16",
+    "bg_backtreeleft17",
+    "bg_backtreeleft18",
+    "bg_backtreeleft19",
+    "bg_backtreeleft20",
+    "bg_backtreeleft21",
+    "bg_backtreeleft22",
+    "bg_backtreeleft23",
+    "bg_backtreeleft24",
+    "bg_backtreeleft25",
+    "bg_backtreeright",
+    "bg_backtreeright2",
+    "bg_backtreeright3",
+    "bg_backtreeright4",
+    "bg_backtreeright5",
+    "bg_backtreeright6",
+    "bg_backtreeright7",
+    "bg_backtreeright8",
+    "bg_backtreeright9",
+    "bg_backtreeright10",
+    "bg_backtreeright11",
+    "bg_backtreeright12",
+    "bg_backtreeright13",
+    "bg_eyes",
+    "bg_eyes1",
+    "bg_eyes2",
+    "fogndust",
+    "mist",
+    "mist1",
+    "mist2",
+    "mist5",
+    "mist6",
+    "mist7",
+    "mist8",
+    "mist9",
+    "mist10",
+    "mist11",
+    "mist3",
+    "mist4",
+    "mist12",
+    "mist13",
+    "mist14",
+    "mist15",
+    "bg_eyes3",
+    "bg_eyes4",
+    "bg_eyes5",
+    "bg_eyes6",
+    "bg_eyes7",
+    "bg_eyes8",
+    "bg_eyes9",
+    "bg_eyes10",
+    "base_bat_hanging2",
+    "base_bat_hanging3",
+    "base_bat_hanging4",
+    "base_bat_hanging5",
+    "base_bat_hanging6",
+    "base_bat_hanging7",
+    "base_bat_hanging8",
+    "bat8",
+    "bat_head2",
+    "bat9",
+    "bat10",
+    "bat11",
+    "bat12",
+    "bat13",
+    "bat14",
+    "bat15",
+    "bat_head3",
+    "bat16",
+    "bat17",
+    "bat18",
+    "bat19",
+    "bat20",
+    "bat21",
+    "bat22",
+    "bat_head4",
+    "bat23",
+    "bat24",
+    "bat25",
+    "bat26",
+    "bat27",
+    "bat28",
+    "bat29",
+    "bat_head5",
+    "bat30",
+    "bat31",
+    "bat32",
+    "bat33",
+    "bat34",
+    "bat35",
+    "bat36",
+    "bat_head6",
+    "bat37",
+    "bat38",
+    "bat39",
+    "bat40",
+    "bat41",
+    "bat42",
+    "bat43",
+    "bat_head7",
+    "bat44",
+    "bat45",
+    "bat46",
+    "bat47",
+    "bat48",
+    "bat49",
+    "bat50",
+    "bat_head8",
+    "bat51",
+    "bat52",
+    "bat53",
+    "bat54",
+    "bat55",
+    "bat56",
+    "bat57",
+    "bat_head9",
+    "bat58",
+    "bat59",
+    "bat60",
+    "bat61",
+    "bat62",
+    "bat63",
+    "bat64",
+    "bat_head10",
+    "bat65",
+    "bat66",
+    "bat67",
+    "bat68",
+    "bat69",
+    "bat70",
+    "bat71",
+    "bat_head11",
+    "bat72",
+    "bat73",
+    "bat74",
+    "bat75",
+    "bat76",
+    "bat77",
+    "bat78",
+    "bat_head12",
+    "bat79",
+    "bat80",
+    "bat81",
+    "bat82",
+    "bat83",
+    "bat84",
+    "bat85",
+    "bat_head13",
+    "bat86",
+    "bat87",
+    "bat88",
+    "bat89",
+    "bat90",
+    "bat91",
+    "mist31",
+    "mist32",
+    "mist33",
+    "mist34",
+    "mist35",
+    "mist36",
+    "mist37",
+    "mist38",
+    "mist39",
+    "mist40",
+    "mist41",
+    "mist42",
+    "mist43",
+    "mist44",
+    "mist16",
+    "mist17",
+    "mist18",
+    "mist19",
+    "mist20",
+    "mist21",
+    "mist22",
+    "mist23",
+    "mist24",
+    "mist25",
+    "mist26",
+    "mist27",
+    "mist28",
+    "mist29",
+    "mist30",
+    "mist45",
+    "mist46",
+    "mist47",
+    "mist48",
+    "mist49",
+    "mist50",
+    "mist51",
+    "mist52",
+    "mist53",
+    "mist54",
+    "mist55",
+    "mist56",
+    "mist57",
+    "mist58",
+    "mist59",
+    "mist60",
+    "mist61",
+    "mist62",
+    "mist63",
+    "mist64",
+    "mist65",
+    "mist66",
+    "mist67",
+    "mist68",
+    "mist69",
+    "mist70",
+    "mist71",
+    "mist72",
+    "mist73",
+    "mist74",
+    "particles",
+    "particle_small_cont",
+    "particle_small",
+    "particle_small6",
+    "particle_small7",
+    "particle_medium_cont",
+    "particle_medium",
+    "particle_large_cont",
+    "particle_large",
+    "particle_small_cont2",
+    "particle_small2",
+    "particle_small_cont3",
+    "particle_small3",
+    "particle_small_cont5",
+    "particle_small5",
+    "particle_medium_cont3",
+    "particle_medium3",
+    "particles2",
+    "particle_small_cont6",
+    "particle_small8",
+    "particle_small9",
+    "particle_small10",
+    "particle_medium_cont4",
+    "particle_medium4",
+    "particle_small_cont8",
+    "particle_small12",
+    "particle_small_cont9",
+    "particle_small13",
+    "particle_small_cont10",
+    "particle_small14",
+    "particle_large_cont6",
+    "particle_large6",
+    "shine",
+    "base_particle_medium",
+    "base_particle_medium2",
+    "base_particle_medium3",
+    "base_particle_medium4",
+    "base_particle_medium5",
+    "base_particle_medium8",
+    "base_particle_medium9",
+    "base_particle_medium10",
+    "base_particle_medium11",
+    "mist75",
+    "mist76",
+    "ghosts",
+    "base_ghost_medium",
+    "base_ghost_medium2",
+    "base_ghost_medium3",
+    "base_ghost_medium4",
+    "base_ghost_medium5",
+    "base_ghost_medium6",
+    "base_ghost_medium7",
+    "base_ghost_medium8",
+    "base_ghost_medium9",
+    "base_ghost_medium10",
+    "base_ghost_short",
+    "base_ghost_short2",
+    "base_ghost_short3",
+    "base_ghost_short4",
+    "base_ghost_short5",
+    "base_ghost_short6",
+    "base_ghost_short7",
+    "base_ghost_short8",
+    "base_ghost_tall",
+    "base_ghost_tall2",
+    "base_ghost_tall3",
+    "base_ghost_tall4",
+    "base_ghost_tall5",
+    "base_ghost_tall6",
+    "bg_fg_graves_right",
+    "bg_bg_graves_left",
+    "bg_bg_graves_right",
+    "bg_fg_graves_left",
+    "bg_mg_graves_left",
+    "bg_mg_graves_right",
+    "bg_moon",
+    "bg_rightspikes",
+    "bg_middlespike",
+    "bg_leftspikes",
+    "fs",
+    "fs_screen",
+    "overlay",
+    "flames",
+    "flame",
+    "flame2",
+    "flame3",
+    "flame4",
+    "radial",
+    "backglow",
+    "radial2",
+    "radial3",
+    "mist77",
+    "mist78",
+    "bats2",
+    "bat92",
+    "bat_head14",
+    "bat93",
+    "bat94",
+    "bat95",
+    "bat96",
+    "bat97",
+    "bat98",
+    "bat99",
+    "bat_head15",
+    "bat100",
+    "bat101",
+    "bat102",
+    "bat103",
+    "bat104",
+    "bat105",
+    "bat106",
+    "bat_head16",
+    "bat107",
+    "bat108",
+    "bat109",
+    "bat110",
+    "bat111",
+    "bat112",
+    "bat113",
+    "bat_head17",
+    "bat114",
+    "bat115",
+    "bat116",
+    "bat117",
+    "bat118",
+    "bat119",
+    "bat120",
+    "bat_head18",
+    "bat121",
+    "bat122",
+    "bat123",
+    "bat124",
+    "bat125",
+    "bat126",
+    "bat127",
+    "bat_head19",
+    "bat128",
+    "bat129",
+    "bat130",
+    "bat131",
+    "bat132",
+    "bat133",
+    "bat134",
+    "bat_head20",
+    "bat135",
+    "bat136",
+    "bat137",
+    "bat138",
+    "bat139",
+    "bat140",
+    "bat141",
+    "bat_head21",
+    "bat142",
+    "bat143",
+    "bat144",
+    "bat145",
+    "bat146",
+    "bat147",
+    "bat148",
+    "bat_head22",
+    "bat149",
+    "bat150",
+    "bat151",
+    "bat152",
+    "bat153",
+    "bat154",
+    "bat155",
+    "bat_head23",
+    "bat156",
+    "bat157",
+    "bat158",
+    "bat159",
+    "bat160",
+    "bat161",
+    "bat162",
+    "bat_head24",
+    "bat163",
+    "bat164",
+    "bat165",
+    "bat166",
+    "bat167",
+    "bat168",
+    "bat169",
+    "bat_head25",
+    "bat170",
+    "bat171",
+    "bat172",
+    "bat173",
+    "bat174",
+    "bat175",
+    "bat176",
+    "bat_head26",
+    "bat177",
+    "bat178",
+    "bat179",
+    "bat180",
+    "bat181",
+    "bat182",
+    "bat183",
+    "bat_head27",
+    "bat184",
+    "bat185",
+    "bat186",
+    "bat187",
+    "bat188",
+    "bat189",
+    "bat190",
+    "bat_head28",
+    "bat191",
+    "bat192",
+    "bat193",
+    "bat194",
+    "bat195",
+    "bat196",
+    "bat197",
+    "bat_head29",
+    "bat198",
+    "bat199",
+    "bat200",
+    "bat201",
+    "bat202",
+    "bat203",
+    "bat204",
+    "bat_head30",
+    "bat205",
+    "bat206",
+    "bat207",
+    "bat208",
+    "bat209",
+    "bat210",
+    "bat211",
+    "bat_head31",
+    "bat212",
+    "bat213",
+    "bat214",
+    "bat215",
+    "bat216",
+    "bat217",
+    "bat218",
+    "bat_head32",
+    "bat219",
+    "bat220",
+    "bat221",
+    "bat222",
+    "bat223",
+    "bat224",
+    "bat225",
+    "bat226",
+    "bat227",
+    "bat228",
+    "bat_head33",
+    "bat229",
+    "bat230",
+    "bat231",
+    "bat232",
+    "bat233",
+    "bat234",
+    "bat235",
+    "bat236",
+    "bat237",
+    "bg_mausoleum"
+  ],
+  "slots": [
+    "setup",
+    "bg_moon",
+    "bg_moon2",
+    "bat",
+    "bat2",
+    "bat3",
+    "bat4",
+    "bat13",
+    "bat5",
+    "bat6",
+    "bat7",
+    "bat12",
+    "bat8",
+    "bat9",
+    "bat10",
+    "bat11",
+    "bg_backtreeleft",
+    "bg_backtreeright",
+    "bg_rightspikes",
+    "bg_middlespike",
+    "bg_leftspikes",
+    "mist",
+    "mist7",
+    "bg_eyes2",
+    "bg_eyes6",
+    "bg_eyes10",
+    "bg_eyes4",
+    "bg_eyes1",
+    "bg_eyes3",
+    "bg_eyes5",
+    "bg_eyes7",
+    "bg_eyes8",
+    "bg_eyes9",
+    "bg_bg_graves_left",
+    "bg_bg_graves_right",
+    "mist1",
+    "mist2",
+    "bg_mausoleum",
+    "particle_small10",
+    "particle_small9",
+    "particle_small7",
+    "particle_medium",
+    "particle_medium4",
+    "particle_medium3",
+    "bg_mg_graves_left",
+    "bg_mg_graves_right",
+    "mist8",
+    "particle_large",
+    "particle_large6",
+    "particle_small",
+    "particle_small8",
+    "particle_small6",
+    "particle_small2",
+    "particle_small3",
+    "particle_small12",
+    "particle_small13",
+    "particle_small5",
+    "particle_small14",
+    "mist4",
+    "mist3",
+    "mist5",
+    "mist6",
+    "bg_fg_graves_left",
+    "bg_fg_graves_right",
+    "bg_tree_left",
+    "bg_tree_right",
+    "base_bat_hanging",
+    "base_bat_hanging7",
+    "base_bat_hanging8",
+    "base_bat_hanging2",
+    "base_bat_hanging3",
+    "base_bat_hanging4",
+    "base_bat_hanging5",
+    "base_bat_hanging6",
+    "base_crow1",
+    "base_crow2",
+    "base_crow3",
+    "base_particle_medium",
+    "base_particle_medium2",
+    "base_particle_medium3",
+    "base_particle_medium4",
+    "base_particle_medium8",
+    "base_particle_medium11",
+    "base_particle_medium9",
+    "base_particle_medium10",
+    "base_particle_medium5",
+    "gargoyle_wing",
+    "gargoyle_tail",
+    "base_ghost_medium",
+    "base_ghost_medium2",
+    "base_ghost_short",
+    "base_ghost_short2",
+    "base_ghost_shortpath",
+    "base_ghost_tall",
+    "base_ghost_tall2",
+    "fs_darken",
+    "backglow",
+    "backglow2",
+    "flame",
+    "flame3",
+    "flame5",
+    "flame7",
+    "flame2",
+    "flame4",
+    "flame6",
+    "flame8",
+    "radial",
+    "radial2",
+    "radial3",
+    "mist9",
+    "mist10",
+    "bat14",
+    "bat15",
+    "bat16",
+    "bat17",
+    "bat18",
+    "bat19",
+    "bat22",
+    "bat23",
+    "bat24",
+    "bat25",
+    "bat26",
+    "bat27",
+    "bat28",
+    "bat29",
+    "bat30",
+    "bat31",
+    "bat32",
+    "bat33",
+    "bat20",
+    "bat21"
+  ],
+  "pieces": [
+    {
+      "region": "backglow",
+      "file": "pieces/backglow-515372bf.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1933,1929,507,620",
+        "offsets": "13,10,526,650",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "base_bat_hanging",
+      "file": "pieces/base-bat-hanging-f80925bb.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3331,787,34,77"
+      }
+    },
+    {
+      "region": "base_bg_backtreeleft",
+      "file": "pieces/base-bg-backtreeleft-ead80a3b.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1282,690,433,479",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "base_bg_backtreeright",
+      "file": "pieces/base-bg-backtreeright-c4b08762.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1763,658,271,334"
+      }
+    },
+    {
+      "region": "base_bg_bg_graves_left",
+      "file": "pieces/base-bg-bg-graves-left-b10b4f3e.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1282,1125,479,435"
+      }
+    },
+    {
+      "region": "base_bg_bg_graves_right",
+      "file": "pieces/base-bg-bg-graves-right-f26a6c78.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2555,1953,624,483",
+        "offsets": "0,2,680,485"
+      }
+    },
+    {
+      "region": "base_bg_eyes1",
+      "file": "pieces/base-bg-eyes1-4191c4fa.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3831,314,36,13"
+      }
+    },
+    {
+      "region": "base_bg_eyes2",
+      "file": "pieces/base-bg-eyes2-99640974.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "631,688,32,17",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "base_bg_fg_graves_left",
+      "file": "pieces/base-bg-fg-graves-left-9ba75a0d.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1760,230,403,426",
+        "offsets": "0,0,404,426"
+      }
+    },
+    {
+      "region": "base_bg_fg_graves_right",
+      "file": "pieces/base-bg-fg-graves-right-749abad4.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2555,1644,432,307"
+      }
+    },
+    {
+      "region": "base_bg_leftspikes",
+      "file": "pieces/base-bg-leftspikes-ba9e12d0.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3368,1555,48,87"
+      }
+    },
+    {
+      "region": "base_bg_mausoleum",
+      "file": "pieces/base-bg-mausoleum-f2fbd1ce.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "653,1581,649,855",
+        "offsets": "1,56,650,911"
+      }
+    },
+    {
+      "region": "base_bg_mg_graves_left",
+      "file": "pieces/base-bg-mg-graves-left-0530f47c.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1304,1562,566,288"
+      }
+    },
+    {
+      "region": "base_bg_mg_graves_right",
+      "file": "pieces/base-bg-mg-graves-right-6caec6f3.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3367,650,338,265"
+      }
+    },
+    {
+      "region": "base_bg_middlespike",
+      "file": "pieces/base-bg-middlespike-e9eb2324.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3828,1542,50,119",
+        "offsets": "0,2,51,121",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "base_bg_moon",
+      "file": "pieces/base-bg-moon-50d090d8.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2602,426,349,347",
+        "offsets": "1,1,351,349",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "base_bg_rightspikes",
+      "file": "pieces/base-bg-rightspikes-c077f76f.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3204,1366,276,162",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "base_bg_tree_left",
+      "file": "pieces/base-bg-tree-left-644756f7.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2,136,627,584"
+      }
+    },
+    {
+      "region": "base_bg_tree_right",
+      "file": "pieces/base-bg-tree-right-631ab1b7.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3807,2010,247,426"
+      }
+    },
+    {
+      "region": "base_crow1",
+      "file": "pieces/base-crow1-14d32b62.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2886,10,72,65"
+      }
+    },
+    {
+      "region": "base_crow1left",
+      "file": "pieces/base-crow1left-8f31876e.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1872,1563,72,65",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "base_crow2",
+      "file": "pieces/base-crow2-9f4655d6.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2490,1160,43,36",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "base_crow3",
+      "file": "pieces/base-crow3-d7c8518a.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2534,723,43,52"
+      }
+    },
+    {
+      "region": "base_ghost_medium",
+      "file": "pieces/base-ghost-medium-05f6133f.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1143,295,111,213"
+      }
+    },
+    {
+      "region": "base_ghost_short",
+      "file": "pieces/base-ghost-short-bbb11c59.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3707,753,111,117"
+      }
+    },
+    {
+      "region": "base_ghost_tall",
+      "file": "pieces/base-ghost-tall-fffb4241.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2,15,119,272",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "base_mist",
+      "file": "pieces/base-mist-55a2e522.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3719,1183,340,257",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "base_mist1",
+      "file": "pieces/base-mist1-d353e887.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3556,9,302,229",
+        "offsets": "0,1,302,236",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "base_mist2",
+      "file": "pieces/base-mist2-a1b59d19.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1895,8,323,220",
+        "offsets": "0,2,323,224"
+      }
+    },
+    {
+      "region": "base_particle_large",
+      "file": "pieces/base-particle-large-b1e93172.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2,2,11,17",
+        "offsets": "1,0,12,17",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "base_particle_medium",
+      "file": "pieces/base-particle-medium-030acc7b.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3779,650,12,14",
+        "offsets": "1,0,14,15",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "base_particle_small",
+      "file": "pieces/base-particle-small-279c71f0.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "4056,2429,7,7",
+        "offsets": "1,1,9,9"
+      }
+    },
+    {
+      "region": "bat",
+      "file": "pieces/bat-ade64715.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2501,1757,170,52",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bat2",
+      "file": "pieces/bat2-d1782de8.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2545,70,170,52",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bonus_bat_hanging",
+      "file": "pieces/bonus-bat-hanging-f4def241.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3331,708,34,77"
+      }
+    },
+    {
+      "region": "bonus_bg_backtreeleft",
+      "file": "pieces/bonus-bg-backtreeleft-2963c4e2.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1279,255,433,479",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bonus_bg_backtreeright",
+      "file": "pieces/bonus-bg-backtreeright-a114c683.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3558,314,271,334"
+      }
+    },
+    {
+      "region": "bonus_bg_bg_graves_left",
+      "file": "pieces/bonus-bg-bg-graves-left-8740ee36.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2053,1158,479,435",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bonus_bg_bg_graves_right",
+      "file": "pieces/bonus-bg-bg-graves-right-58c63db1.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3181,1953,624,483",
+        "offsets": "0,2,680,485"
+      }
+    },
+    {
+      "region": "bonus_bg_eyes1",
+      "file": "pieces/bonus-bg-eyes1-8d8c4b1d.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3869,314,36,13"
+      }
+    },
+    {
+      "region": "bonus_bg_eyes2",
+      "file": "pieces/bonus-bg-eyes2-d10ff7bb.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3807,1976,32,17",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bonus_bg_fg_graves_left",
+      "file": "pieces/bonus-bg-fg-graves-left-d5054ee2.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3423,1525,403,426",
+        "offsets": "0,0,404,426"
+      }
+    },
+    {
+      "region": "bonus_bg_fg_graves_right",
+      "file": "pieces/bonus-bg-fg-graves-right-ea61a083.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2989,1644,432,307"
+      }
+    },
+    {
+      "region": "bonus_bg_leftspikes",
+      "file": "pieces/bonus-bg-leftspikes-cc9135ac.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2501,1668,48,87"
+      }
+    },
+    {
+      "region": "bonus_bg_mausoleum",
+      "file": "pieces/bonus-bg-mausoleum-a10cfce4.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2,1580,649,856",
+        "offsets": "1,55,650,911"
+      }
+    },
+    {
+      "region": "bonus_bg_mg_graves_left",
+      "file": "pieces/bonus-bg-mg-graves-left-f8bbea17.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1933,1639,566,288"
+      }
+    },
+    {
+      "region": "bonus_bg_mg_graves_right",
+      "file": "pieces/bonus-bg-mg-graves-right-78ce4ef9.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2951,523,338,265",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bonus_bg_middlespike",
+      "file": "pieces/bonus-bg-middlespike-66416543.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1872,1637,50,119",
+        "offsets": "0,2,51,121"
+      }
+    },
+    {
+      "region": "bonus_bg_moon",
+      "file": "pieces/bonus-bg-moon-23e66252.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2602,77,349,347",
+        "offsets": "1,1,351,349"
+      }
+    },
+    {
+      "region": "bonus_bg_rightspikes",
+      "file": "pieces/bonus-bg-rightspikes-0069ff04.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3204,1088,276,162",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bonus_bg_tree_left",
+      "file": "pieces/bonus-bg-tree-left-71a55318.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "653,995,627,584"
+      }
+    },
+    {
+      "region": "bonus_bg_tree_right",
+      "file": "pieces/bonus-bg-tree-right-bb754dc0.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1143,6,247,426",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bonus_ghost_medium",
+      "file": "pieces/bonus-ghost-medium-881b5de6.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3828,1594,111,213",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bonus_ghost_short",
+      "file": "pieces/bonus-ghost-short-71e45e5e.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3820,753,111,117"
+      }
+    },
+    {
+      "region": "bonus_ghost_tall",
+      "file": "pieces/bonus-ghost-tall-33e21c29.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "276,15,119,272",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bonus_mist",
+      "file": "pieces/bonus-mist-9bcf56c5.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3368,917,340,257"
+      }
+    },
+    {
+      "region": "bonus_mist1",
+      "file": "pieces/bonus-mist1-98b3640f.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3710,872,302,229",
+        "offsets": "0,1,302,236",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bonus_mist2",
+      "file": "pieces/bonus-mist2-41bf420e.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2220,20,323,220",
+        "offsets": "0,2,323,224"
+      }
+    },
+    {
+      "region": "flame01",
+      "file": "pieces/flame01-172f0f4c.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2501,1639,27,28",
+        "offsets": "33,9,94,135",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "flame02",
+      "file": "pieces/flame02-ff33f6e8.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1939,1562,55,75",
+        "offsets": "19,8,94,135"
+      }
+    },
+    {
+      "region": "flame03",
+      "file": "pieces/flame03-af4fe0ac.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2783,781,80,123",
+        "offsets": "7,3,94,135",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "flame04",
+      "file": "pieces/flame04-3a1f5948.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3831,329,83,118",
+        "offsets": "5,6,94,135"
+      }
+    },
+    {
+      "region": "flame05",
+      "file": "pieces/flame05-2bcf86a0.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2953,95,86,117",
+        "offsets": "4,7,94,135",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "flame06",
+      "file": "pieces/flame06-f5d45261.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2599,2,73,95",
+        "offsets": "14,8,94,135",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "flame07",
+      "file": "pieces/flame07-e33ae24a.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2696,4,71,94",
+        "offsets": "15,7,94,135",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "flame08",
+      "file": "pieces/flame08-19d22b76.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3916,351,72,96",
+        "offsets": "14,7,94,135"
+      }
+    },
+    {
+      "region": "flame09",
+      "file": "pieces/flame09-003feb6f.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3707,650,70,101",
+        "offsets": "14,3,94,135"
+      }
+    },
+    {
+      "region": "flame10",
+      "file": "pieces/flame10-21dbbb26.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3949,1531,61,93",
+        "offsets": "22,7,94,135",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "flame11",
+      "file": "pieces/flame11-0a5960c3.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1872,1758,59,92",
+        "offsets": "23,7,94,135"
+      }
+    },
+    {
+      "region": "flame12",
+      "file": "pieces/flame12-ecf92230.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2792,11,64,92",
+        "offsets": "21,7,94,135",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "flame13",
+      "file": "pieces/flame13-81bf9228.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3978,1349,66,88",
+        "offsets": "20,7,94,135"
+      }
+    },
+    {
+      "region": "flame14",
+      "file": "pieces/flame14-24568805.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1924,1750,6,7",
+        "offsets": "0,0,6,9",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "flame15",
+      "file": "pieces/flame15-664784f2.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3106,1088,64,90",
+        "offsets": "18,8,94,135",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "flame16",
+      "file": "pieces/flame16-f4caa1a8.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3042,1120,62,94",
+        "offsets": "20,7,94,135"
+      }
+    },
+    {
+      "region": "flame17",
+      "file": "pieces/flame17-0f863f63.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3106,1154,60,95",
+        "offsets": "17,8,94,135",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "flame18",
+      "file": "pieces/flame18-1f771bee.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3978,1169,64,88",
+        "offsets": "13,9,94,135"
+      }
+    },
+    {
+      "region": "flame19",
+      "file": "pieces/flame19-1dc2952e.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3978,1259,66,88",
+        "offsets": "12,10,94,135"
+      }
+    },
+    {
+      "region": "flame20",
+      "file": "pieces/flame20-d0d903d8.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3978,1439,65,90",
+        "offsets": "12,10,94,135"
+      }
+    },
+    {
+      "region": "flame21",
+      "file": "pieces/flame21-29306fc8.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2036,658,63,92",
+        "offsets": "13,9,94,135",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "flame22",
+      "file": "pieces/flame22-e91c455a.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3990,351,68,96",
+        "offsets": "12,11,94,135"
+      }
+    },
+    {
+      "region": "flame23",
+      "file": "pieces/flame23-41f02881.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "550,32,76,102",
+        "offsets": "10,11,94,135"
+      }
+    },
+    {
+      "region": "fs_darken",
+      "file": "pieces/fs-darken-a0637c00.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "631,83,425,510",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "mist1",
+      "file": "pieces/mist1-1c961ec8.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3828,1707,301,235",
+        "offsets": "0,1,302,236",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "mist2",
+      "file": "pieces/mist2-a096da38.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1571,6,322,222",
+        "offsets": "0,2,323,224"
+      }
+    },
+    {
+      "region": "radial",
+      "file": "pieces/radial-33adc576.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3220,313,336,335",
+        "offsets": "2,3,340,340"
+      }
+    },
+    {
+      "region": "setup",
+      "file": "pieces/setup-89fbeb2a.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "4061,146,2,2",
+        "offsets": "1,0,4,4"
+      }
+    },
+    {
+      "region": "super_bat_hanging",
+      "file": "pieces/super-bat-hanging-472465d9.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1143,259,34,77",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "super_bg_backtreeleft",
+      "file": "pieces/super-bg-backtreeleft-6a9a0e1d.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2053,723,433,479",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "super_bg_backtreeright",
+      "file": "pieces/super-bg-backtreeright-efeb5fe4.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3220,40,271,334",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "super_bg_bg_graves_left",
+      "file": "pieces/super-bg-bg-graves-left-ac1f05e8.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2165,242,479,435",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "super_bg_bg_graves_right",
+      "file": "pieces/super-bg-bg-graves-right-210dd899.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "653,510,624,483",
+        "offsets": "0,2,680,485"
+      }
+    },
+    {
+      "region": "super_bg_eyes1",
+      "file": "pieces/super-bg-eyes1-e6baf59c.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3907,314,36,13"
+      }
+    },
+    {
+      "region": "super_bg_eyes2",
+      "file": "pieces/super-bg-eyes2-6cedeb2a.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1571,236,32,17"
+      }
+    },
+    {
+      "region": "super_bg_fg_graves_left",
+      "file": "pieces/super-bg-fg-graves-left-809f13ef.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2799,1216,403,426",
+        "offsets": "0,0,404,426"
+      }
+    },
+    {
+      "region": "super_bg_fg_graves_right",
+      "file": "pieces/super-bg-fg-graves-right-2eb9de2f.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2490,1205,432,307",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "super_bg_leftspikes",
+      "file": "pieces/super-bg-leftspikes-c7ddd90d.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3779,664,48,87"
+      }
+    },
+    {
+      "region": "super_bg_mausoleum",
+      "file": "pieces/super-bg-mausoleum-f4c3f7c5.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2,722,649,856",
+        "offsets": "1,55,650,911"
+      }
+    },
+    {
+      "region": "super_bg_mg_graves_left",
+      "file": "pieces/super-bg-mg-graves-left-4003aea7.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1763,994,566,288",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "super_bg_mg_graves_right",
+      "file": "pieces/super-bg-mg-graves-right-bf6c5008.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2953,183,338,265",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "super_bg_middlespike",
+      "file": "pieces/super-bg-middlespike-2095bb18.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3072,131,50,119",
+        "offsets": "0,2,51,121",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "super_bg_moon",
+      "file": "pieces/super-bg-moon-caf7f893.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3368,1176,349,347",
+        "offsets": "1,1,351,349"
+      }
+    },
+    {
+      "region": "super_bg_rightspikes",
+      "file": "pieces/super-bg-rightspikes-1ce32d48.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3787,150,276,162"
+      }
+    },
+    {
+      "region": "super_bg_tree_left",
+      "file": "pieces/super-bg-tree-left-56eebc22.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "1304,1852,627,584"
+      }
+    },
+    {
+      "region": "super_bg_tree_right",
+      "file": "pieces/super-bg-tree-right-1c74d131.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2534,777,247,426"
+      }
+    },
+    {
+      "region": "super_ghost_medium",
+      "file": "pieces/super-ghost-medium-37e6ff5c.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3218,651,111,213"
+      }
+    },
+    {
+      "region": "super_ghost_short",
+      "file": "pieces/super-ghost-short-05397f97.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3933,753,111,117"
+      }
+    },
+    {
+      "region": "super_ghost_tall",
+      "file": "pieces/super-ghost-tall-40530db1.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3787,29,119,272",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "super_mist",
+      "file": "pieces/super-mist-f378e43d.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "2783,863,340,257",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "super_mist1",
+      "file": "pieces/super-mist1-6fb4a853.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3831,449,302,229",
+        "offsets": "0,1,302,236",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "super_mist2",
+      "file": "pieces/super-mist2-040513ba.png",
+      "page": "sr_bg.webp",
+      "properties": {
+        "bounds": "3042,866,323,220",
+        "offsets": "0,2,323,224"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/background/sr_bg.json",
+      "sha256": "64518132c5967af4b4883e9acc938d712d246423ef7054c12c0e41b9dde81d44",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-2c9703af.atlas",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/background/sr_bg.atlas",
+      "sha256": "2c9703af776bde6769515d357f332eeb35c5a670190e6255c9c30a60c81e9efd",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "sr_bg.webp",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/background/sr_bg.webp",
+      "sha256": "8ef0fd96531c8b7a1fd3a94b0ebd61dea7aa9f41202f731031b4f731c5156374",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

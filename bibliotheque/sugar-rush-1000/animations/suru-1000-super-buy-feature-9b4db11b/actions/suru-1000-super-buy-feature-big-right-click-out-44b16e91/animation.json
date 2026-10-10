@@ -1,0 +1,263 @@
+{
+  "name": "suru_1000_super_buy_feature_big_right_click_out",
+  "duration": 0.633,
+  "timelines": {
+    "bones": 2,
+    "slots": 10,
+    "deform": 1
+  },
+  "data": {
+    "slots": {
+      "base_glow_3": {
+        "color": [
+          {
+            "time": 0,
+            "color": "ffffff00",
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 0.3,
+            "color": "ffffff96",
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 0.6333,
+            "color": "ffffff00"
+          }
+        ]
+      },
+      "base_glow_4": {
+        "color": [
+          {
+            "time": 0,
+            "color": "ffffff00",
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 0.3,
+            "color": "ffffff96",
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 0.6333,
+            "color": "ffffff00"
+          }
+        ]
+      },
+      "cross_sing": {
+        "color": [
+          {
+            "time": 0.1,
+            "color": "ffffffff"
+          },
+          {
+            "time": 0.2,
+            "color": "7a7a7aff"
+          }
+        ]
+      },
+      "cross_sing_defth_shadow": {
+        "color": [
+          {
+            "time": 0.1,
+            "color": "ffffffff"
+          },
+          {
+            "time": 0.2,
+            "color": "7a7a7aff"
+          }
+        ]
+      },
+      "green_base_small": {
+        "attachment": [
+          {
+            "time": 0,
+            "name": null
+          }
+        ]
+      },
+      "green_base_small2": {
+        "attachment": [
+          {
+            "time": 0,
+            "name": null
+          }
+        ]
+      },
+      "green_button_big2": {
+        "color": [
+          {
+            "time": 0.0333,
+            "color": "ffffff00",
+            "curve": [
+              0.315,
+              0,
+              0.649,
+              0.35
+            ]
+          },
+          {
+            "time": 0.1333,
+            "color": "ffffff5d",
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 0.2333,
+            "color": "ffffff00"
+          }
+        ]
+      },
+      "red_base_small": {
+        "attachment": [
+          {
+            "time": 0,
+            "name": null
+          }
+        ]
+      },
+      "red_button_big": {
+        "color": [
+          {
+            "time": 0.1,
+            "color": "ffffffff"
+          },
+          {
+            "time": 0.2,
+            "color": "747272ff"
+          }
+        ]
+      },
+      "sugar": {
+        "attachment": [
+          {
+            "time": 0,
+            "name": null
+          }
+        ]
+      }
+    },
+    "bones": {
+      "bone2": {
+        "scale": [
+          {
+            "time": 0,
+            "x": 1,
+            "y": 1,
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 0.3,
+            "x": 1.062,
+            "y": 1.062,
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 0.6333,
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      "click_right": {
+        "scale": [
+          {
+            "time": 0.0333,
+            "x": 1,
+            "y": 1
+          },
+          {
+            "time": 0.1333,
+            "x": 0.787,
+            "y": 0.787
+          },
+          {
+            "time": 0.2333,
+            "x": 1.107,
+            "y": 1.107
+          },
+          {
+            "time": 0.3333,
+            "x": 1,
+            "y": 1
+          }
+        ]
+      }
+    },
+    "deform": {
+      "default": {
+        "green_button_big2": {
+          "green_button_big": [
+            {
+              "time": 0.0333,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.1333,
+              "vertices": [
+                -5.4064,
+                2.80847,
+                5.40637,
+                2.80847,
+                5.40637,
+                -2.8085,
+                -5.4064,
+                -2.8085
+              ],
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.2333
+            }
+          ]
+        }
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

@@ -1,0 +1,827 @@
+{
+  "id": "animations/sr-title-54170378",
+  "name": "sr_title",
+  "machine": "spin-reaper-winsafe",
+  "format": "spine-json",
+  "version": "4.1.23",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-9134136e.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-9134136e.atlas"
+  ],
+  "textures": [
+    "sr_title.webp"
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "duration": 10,
+      "timelines": {
+        "bones": 53,
+        "slots": 51,
+        "drawOrder": 1
+      }
+    },
+    {
+      "name": "idle_base",
+      "duration": 10,
+      "timelines": {
+        "bones": 25,
+        "slots": 23
+      }
+    },
+    {
+      "name": "idle_bonus",
+      "duration": 10,
+      "timelines": {
+        "bones": 25,
+        "slots": 36
+      }
+    },
+    {
+      "name": "intro",
+      "duration": 3.367,
+      "timelines": {
+        "bones": 68,
+        "slots": 85,
+        "drawOrder": 2
+      }
+    },
+    {
+      "name": "outro",
+      "duration": 1.067,
+      "timelines": {
+        "bones": 50,
+        "slots": 86,
+        "drawOrder": 1
+      }
+    },
+    {
+      "name": "win_base",
+      "duration": 1.533,
+      "timelines": {
+        "bones": 36,
+        "slots": 21
+      }
+    },
+    {
+      "name": "win_bonus",
+      "duration": 1.533,
+      "timelines": {
+        "bones": 36,
+        "slots": 36
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "title",
+    "reaper",
+    "weapon",
+    "left",
+    "left_hand",
+    "right_hand",
+    "hood",
+    "hood2",
+    "hood4",
+    "hood5",
+    "skull",
+    "eye_glow",
+    "backing",
+    "text",
+    "text_spin_s",
+    "text_spin_p",
+    "text_spin_n",
+    "text_spin_i",
+    "text_sin_shadow",
+    "text_reaper_shadow",
+    "text_reaper_r2",
+    "text_reaper_r",
+    "text_reaper_p",
+    "text_reaper_e2",
+    "text_reaper_e",
+    "text_reaper_a",
+    "text_p_shadow",
+    "fx",
+    "title_backboard",
+    "other",
+    "crow_1",
+    "crow_2",
+    "spike_1",
+    "spike_2",
+    "spike_3",
+    "spike_4",
+    "spike_5",
+    "spike_6",
+    "backboard_control",
+    "title_glow_blue2",
+    "particles_idle",
+    "particle_small_cont",
+    "particle_small",
+    "particle_small6",
+    "particle_small7",
+    "particle_small8",
+    "particle_medium_cont",
+    "particle_medium",
+    "particle_large_cont",
+    "particle_large",
+    "particle_small_cont2",
+    "particle_small2",
+    "particle_small_cont3",
+    "particle_small3",
+    "particle_small_cont4",
+    "particle_small4",
+    "particle_small9",
+    "particle_small_cont5",
+    "particle_small5",
+    "particle_small10",
+    "particle_medium_cont2",
+    "particle_medium2",
+    "particle_medium_cont3",
+    "particle_medium3",
+    "particle_large_cont2",
+    "particle_large2",
+    "particle_large_cont3",
+    "particle_large3",
+    "particle_small_cont6",
+    "particle_small11",
+    "particle_small12",
+    "particle_small13",
+    "particle_small14",
+    "particle_large_cont4",
+    "particle_large4",
+    "particle_medium_cont4",
+    "particle_medium4",
+    "particle_medium_cont5",
+    "particle_medium5",
+    "pop_particles",
+    "particle39",
+    "particle40",
+    "particle41",
+    "particle42",
+    "particle43",
+    "particle44",
+    "particle45",
+    "particle46",
+    "particle47",
+    "particle48",
+    "particle49",
+    "crow_3",
+    "crow_4",
+    "crow_5",
+    "crow_6",
+    "crow_7",
+    "crow_8",
+    "crow_9",
+    "crow_10",
+    "particle2_big"
+  ],
+  "slots": [
+    "title_glow_purple",
+    "title_glow_blue",
+    "title_glow_blue2",
+    "particle39",
+    "particle42",
+    "particle47",
+    "particle45",
+    "particle40",
+    "particle43",
+    "particle41",
+    "particle46",
+    "particle48",
+    "particle49",
+    "particle44",
+    "spike_4",
+    "spike_9",
+    "spike_6",
+    "spike_7",
+    "spike_2",
+    "spike_11",
+    "spike_3",
+    "spike_10",
+    "spike_1",
+    "spike_12",
+    "spike_5",
+    "spike_8",
+    "H1_backhood",
+    "title_backboard",
+    "title_backboard2",
+    "crow_2",
+    "crow_1",
+    "text_reaper_shadow",
+    "text_sin_shadow",
+    "text_p_shadow",
+    "text_spin_i",
+    "text_spin_i2",
+    "text_spin_p",
+    "text_spin_p2",
+    "text_spin_s",
+    "text_spin_s2",
+    "text_spin_n",
+    "text_spin_n2",
+    "text_reaper_r",
+    "text_reaper_r4",
+    "text_reaper_e",
+    "text_reaper_e4",
+    "text_reaper_a",
+    "text_reaper_a2",
+    "text_reaper_p",
+    "text_reaper_p2",
+    "text_reaper_e2",
+    "text_reaper_e3",
+    "text_reaper_r2",
+    "text_reaper_r3",
+    "spin_glow",
+    "H1_skull",
+    "H1_eyes",
+    "H1_eyesglow",
+    "H1_eyesglow2",
+    "H1_hood",
+    "H1_hand",
+    "H1_hand2",
+    "particle_large",
+    "particle_large2",
+    "particle_large3",
+    "particle_large4",
+    "particle_medium",
+    "particle_medium5",
+    "particle_medium4",
+    "particle_medium2",
+    "particle_medium3",
+    "particle_small",
+    "particle_small11",
+    "particle_small8",
+    "particle_small14",
+    "particle_small6",
+    "particle_small12",
+    "particle_small7",
+    "particle_small13",
+    "particle_small2",
+    "particle_small3",
+    "particle_small4",
+    "particle_small9",
+    "particle_small5",
+    "particle_small10",
+    "particle2_big"
+  ],
+  "pieces": [
+    {
+      "region": "H1_backhood",
+      "file": "pieces/h1-backhood-1c0d301a.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1369,3,186,172",
+        "offsets": "0,0,187,172",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "H1_eyes",
+      "file": "pieces/h1-eyes-a158d77e.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1289,4,153,78",
+        "offsets": "0,1,154,80",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "H1_eyesglow",
+      "file": "pieces/h1-eyesglow-bc44d0df.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1678,547,153,78",
+        "offsets": "0,1,154,80"
+      }
+    },
+    {
+      "region": "H1_hand",
+      "file": "pieces/h1-hand-97ce81f3.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "264,15,54,35",
+        "offsets": "1,8,56,53",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "H1_hand_bonus",
+      "file": "pieces/h1-hand-bonus-540f9df4.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "301,15,54,35",
+        "offsets": "1,8,56,53",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "H1_hood",
+      "file": "pieces/h1-hood-b82ec548.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "101,71,231,193",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "H1_hood_bonus",
+      "file": "pieces/h1-hood-bonus-fbf1e61a.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "296,71,231,193",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "H1_skull",
+      "file": "pieces/h1-skull-fcafdbe4.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1543,18,171,144",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "H1_skull_bonus",
+      "file": "pieces/h1-skull-bonus-a48ef2cb.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1461,789,171,144",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "crow_1",
+      "file": "pieces/crow-1-e697b4e3.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1879,130,111,113",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "crow_1_bonus",
+      "file": "pieces/crow-1-bonus-ca7187c0.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1871,15,111,113"
+      }
+    },
+    {
+      "region": "crow_2",
+      "file": "pieces/crow-2-9066b677.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "784,2,101,117",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "crow_2_bonus",
+      "file": "pieces/crow-2-bonus-650f71a4.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "903,2,101,117",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "particle1_big",
+      "file": "pieces/particle1-big-782f5b7c.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "12,5,8,8"
+      }
+    },
+    {
+      "region": "particle2_big",
+      "file": "pieces/particle2-big-d7d3a268.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "2,4,9,8",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "particle3_big",
+      "file": "pieces/particle3-big-7d501dd7.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "28,8,5,5"
+      }
+    },
+    {
+      "region": "particle_large_big",
+      "file": "pieces/particle-large-big-03d5183e.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "22,7,4,6"
+      }
+    },
+    {
+      "region": "particle_medium_big",
+      "file": "pieces/particle-medium-big-8cd9a6d4.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "35,8,5,5"
+      }
+    },
+    {
+      "region": "particle_small_big",
+      "file": "pieces/particle-small-big-68b2ccf6.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "22,2,3,3"
+      }
+    },
+    {
+      "region": "spike_1",
+      "file": "pieces/spike-1-df76ee34.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "101,13,56,161",
+        "offsets": "0,0,56,162",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spike_2",
+      "file": "pieces/spike-2-029eced3.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "994,325,45,110",
+        "offsets": "0,1,45,112"
+      }
+    },
+    {
+      "region": "spike_3",
+      "file": "pieces/spike-3-edaa678a.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1049,110,47,107",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spike_4",
+      "file": "pieces/spike-4-44ac4bdb.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1842,693,43,117"
+      }
+    },
+    {
+      "region": "spike_5",
+      "file": "pieces/spike-5-410ac7ee.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1902,937,41,121",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spike_6",
+      "file": "pieces/spike-6-441dcca8.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "338,16,53,172",
+        "offsets": "0,1,53,173",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spin_glow",
+      "file": "pieces/spin-glow-a69dc909.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "668,105,379,197",
+        "offsets": "165,72,677,394"
+      }
+    },
+    {
+      "region": "text_p_shadow",
+      "file": "pieces/text-p-shadow-2048175b.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1780,114,84,89",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "text_reaper_a",
+      "file": "pieces/text-reaper-a-2e3d03e5.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1022,3,100,135",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "text_reaper_a_blur",
+      "file": "pieces/text-reaper-a-blur-3ccb01d1.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1902,774,118,161",
+        "offsets": "28,25,175,210"
+      }
+    },
+    {
+      "region": "text_reaper_a_bonus",
+      "file": "pieces/text-reaper-a-bonus-42388751.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1689,445,100,135",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "text_reaper_e",
+      "file": "pieces/text-reaper-e-3e4ab39c.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "512,10,89,134",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "text_reaper_e2",
+      "file": "pieces/text-reaper-e2-34c2dd5e.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1678,198,89,133"
+      }
+    },
+    {
+      "region": "text_reaper_e2_blur",
+      "file": "pieces/text-reaper-e2-blur-25f7f96d.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1568,628,106,159",
+        "offsets": "36,25,164,208"
+      }
+    },
+    {
+      "region": "text_reaper_e2_bonus",
+      "file": "pieces/text-reaper-e2-bonus-d7bba0e8.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1689,63,89,133"
+      }
+    },
+    {
+      "region": "text_reaper_e_blur",
+      "file": "pieces/text-reaper-e-blur-889eb909.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1461,627,105,160",
+        "offsets": "27,25,164,209"
+      }
+    },
+    {
+      "region": "text_reaper_e_bonus",
+      "file": "pieces/text-reaper-e-bonus-bab9e3b1.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "648,10,89,134",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "text_reaper_p",
+      "file": "pieces/text-reaper-p-e051cff6.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1769,200,108,131"
+      }
+    },
+    {
+      "region": "text_reaper_p_blur",
+      "file": "pieces/text-reaper-p-blur-2cba07f1.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1159,2,128,155",
+        "offsets": "31,26,183,206"
+      }
+    },
+    {
+      "region": "text_reaper_p_bonus",
+      "file": "pieces/text-reaper-p-bonus-49f9fa72.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1879,243,108,131",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "text_reaper_r",
+      "file": "pieces/text-reaper-r-9c6884b9.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1826,353,110,134",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "text_reaper_r2",
+      "file": "pieces/text-reaper-r2-d9bba4e4.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1887,662,110,135",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "text_reaper_r2_bonus",
+      "file": "pieces/text-reaper-r2-bonus-8b857ffd.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1833,465,110,135",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "text_reaper_r_blur",
+      "file": "pieces/text-reaper-r-blur-58905b39.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "832,304,131,160",
+        "offsets": "21,25,185,209",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "text_reaper_r_bonus",
+      "file": "pieces/text-reaper-r-bonus-b6a8ceed.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1689,333,110,134",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "text_reaper_shadow",
+      "file": "pieces/text-reaper-shadow-aa10e534.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1678,980,345,81"
+      }
+    },
+    {
+      "region": "text_sin_shadow",
+      "file": "pieces/text-sin-shadow-9cebf313.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "2,15,287,97",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "text_spin_i",
+      "file": "pieces/text-spin-i-245f8853.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1842,577,83,161",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "text_spin_i_blur",
+      "file": "pieces/text-spin-i-blur-1ff3f5e3.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1461,962,99,192",
+        "offsets": "30,23,158,236",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "text_spin_n",
+      "file": "pieces/text-spin-n-565b7aa7.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1607,790,147,170"
+      }
+    },
+    {
+      "region": "text_spin_n_blur",
+      "file": "pieces/text-spin-n-blur-a8f30f51.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "491,101,175,201",
+        "offsets": "30,23,222,245"
+      }
+    },
+    {
+      "region": "text_spin_p",
+      "file": "pieces/text-spin-p-c50f6ccd.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1676,627,161,164",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "text_spin_s",
+      "file": "pieces/text-spin-s-3525dc01.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1756,812,144,166",
+        "offsets": "4,0,148,166"
+      }
+    },
+    {
+      "region": "text_spin_s_blur",
+      "file": "pieces/text-spin-s-blur-cbba0b89.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "832,437,172,197",
+        "offsets": "18,23,223,241",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "title_backboard",
+      "file": "pieces/title-backboard-e769df21.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "2,304,757,413",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "title_backboard_bonus",
+      "file": "pieces/title-backboard-bonus-866e2a6a.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "417,304,757,413",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "title_glow_blue",
+      "file": "pieces/title-glow-blue-82eb298b.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1146,627,434,313",
+        "offsets": "48,2,541,315",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "title_glow_blue_bonus",
+      "file": "pieces/title-glow-blue-bonus-8056b971.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1363,191,434,313",
+        "offsets": "48,2,541,315",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "title_glow_purple",
+      "file": "pieces/title-glow-purple-446d00f3.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "832,611,450,312",
+        "offsets": "6,2,461,314",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "title_glow_purple_bonus",
+      "file": "pieces/title-glow-purple-bonus-09fa57e9.png",
+      "page": "sr_title.webp",
+      "properties": {
+        "bounds": "1049,159,450,312",
+        "offsets": "6,2,461,314",
+        "rotate": "90"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/title/sr_title.json",
+      "sha256": "541703782327dfbb57856bbbedc3715b3d8f68b8e3d65a6c7e248a33d11e595f",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-9134136e.atlas",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/title/sr_title.atlas",
+      "sha256": "9134136e98c66496e62f3a9537016f471a9486612e34c38cfa56b4215102ef34",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "sr_title.webp",
+      "source": "raw/twist.live.engine.io/56-spin-reaper-2/v18/assets/spines/title/sr_title.webp",
+      "sha256": "609e1c6e780d7e79ba3631d1108e7f9a30ff57faef4616c24c9dd276560bdb7e",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

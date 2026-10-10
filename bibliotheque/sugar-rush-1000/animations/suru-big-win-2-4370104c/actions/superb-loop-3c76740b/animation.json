@@ -1,0 +1,232 @@
+{
+  "name": "superb_loop",
+  "duration": 1.5,
+  "timelines": {
+    "bones": 3,
+    "deform": 1
+  },
+  "data": {
+    "bones": {
+      "sensational": {
+        "translate": [
+          {
+            "time": 0,
+            "x": 0,
+            "y": 0,
+            "curve": [
+              0,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 0.4667,
+            "x": 0,
+            "y": 4,
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 1.1667,
+            "x": 0,
+            "y": -2.32,
+            "curve": [
+              0.25,
+              0,
+              0.999,
+              0.99
+            ]
+          },
+          {
+            "time": 1.5,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "scale": [
+          {
+            "time": 0,
+            "x": 1,
+            "y": 1,
+            "curve": [
+              0,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 0.4667,
+            "x": 1.08,
+            "y": 1.08,
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 1.1667,
+            "x": 0.94,
+            "y": 0.94,
+            "curve": [
+              0.25,
+              0,
+              0.999,
+              0.99
+            ]
+          },
+          {
+            "time": 1.5,
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      "stars": {
+        "translate": [
+          {
+            "time": 0,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "time": 1.5,
+            "x": 0,
+            "y": 60.6
+          }
+        ],
+        "scale": [
+          {
+            "time": 0,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "time": 1.5,
+            "x": 3.245,
+            "y": 3.245
+          }
+        ]
+      },
+      "big_star": {
+        "scale": [
+          {
+            "time": 0,
+            "x": 1,
+            "y": 1,
+            "curve": [
+              0,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 0.4,
+            "x": 0.976,
+            "y": 0.976,
+            "curve": [
+              0.25,
+              0,
+              0.75,
+              1
+            ]
+          },
+          {
+            "time": 1.1,
+            "x": 1.024,
+            "y": 1.024,
+            "curve": [
+              0.25,
+              0,
+              0.999,
+              1
+            ]
+          },
+          {
+            "time": 1.5,
+            "x": 1,
+            "y": 1
+          }
+        ]
+      }
+    },
+    "deform": {
+      "default": {
+        "left_star": {
+          "left_star": [
+            {
+              "time": 0,
+              "vertices": [
+                -104.89496,
+                0,
+                -104.89496,
+                0,
+                -104.89496,
+                0,
+                -104.89496
+              ]
+            }
+          ]
+        },
+        "left_star_motion": {
+          "left_star_motion": [
+            {
+              "time": 0,
+              "vertices": [
+                -104.89496,
+                0,
+                -104.89496,
+                0,
+                -104.89496,
+                0,
+                -104.89496
+              ]
+            }
+          ]
+        },
+        "right_star": {
+          "right_star": [
+            {
+              "time": 0,
+              "vertices": [
+                121.21201,
+                0,
+                121.21201,
+                0,
+                121.21201,
+                0,
+                121.21201
+              ]
+            }
+          ]
+        },
+        "right_star_motion": {
+          "right_star_motion": [
+            {
+              "time": 0,
+              "vertices": [
+                121.21201,
+                0,
+                121.21201,
+                0,
+                121.21201,
+                0,
+                121.21201
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

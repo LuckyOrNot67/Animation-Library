@@ -1,0 +1,115 @@
+{
+  "id": "animations/suru-freegame-6-36cb88de",
+  "name": "suru_freegame_6",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-ea5e117e.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-ea5e117e.atlas"
+  ],
+  "textures": [
+    "suru_freegame_6.png"
+  ],
+  "animations": [
+    {
+      "name": "suru_freegame",
+      "duration": 3,
+      "timelines": {
+        "bones": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "left_frame2",
+    "fan_left2"
+  ],
+  "slots": [
+    "fan_fame_q2",
+    "fan_wings2",
+    "fan_fame2",
+    "jar_top_sugar2"
+  ],
+  "pieces": [
+    {
+      "region": "fan_fame",
+      "file": "pieces/fan-fame-d5282510.png",
+      "page": "suru_freegame_6.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "163, 49",
+        "size": "44, 44",
+        "orig": "44, 44",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fan_fame_q",
+      "file": "pieces/fan-fame-q-16698f13.png",
+      "page": "suru_freegame_6.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "111, 42",
+        "size": "50, 51",
+        "orig": "52, 52",
+        "offset": "1, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fan_wings",
+      "file": "pieces/fan-wings-e3569185.png",
+      "page": "suru_freegame_6.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "111, 0",
+        "size": "41, 40",
+        "orig": "41, 40",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "jar_top_sugar",
+      "file": "pieces/jar-top-sugar-0cfc1fc0.png",
+      "page": "suru_freegame_6.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 3",
+        "size": "109, 90",
+        "orig": "109, 90",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-2e7687dda3be/suru_freegame_6.json",
+      "sha256": "36cb88deb82e62e943929b252032fa9906f27f9f34e9f47911812645e862a21a",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-ea5e117e.atlas",
+      "source": "raw/_embedded/uht-2e7687dda3be/suru_freegame_6.atlas",
+      "sha256": "ea5e117ec6989d309490c886255c8bbad02328c3d7421944a8d7127b3111db88",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_freegame_6.png",
+      "source": "raw/_embedded/uht-2e7687dda3be/suru_freegame_6.png",
+      "sha256": "803aa6ff8e300c8fb6a2793cd9ae157dac861814311760e63b73bd70f7bbfba1",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

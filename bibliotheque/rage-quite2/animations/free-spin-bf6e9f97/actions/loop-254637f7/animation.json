@@ -1,0 +1,106 @@
+{
+  "name": "loop",
+  "duration": 2.667,
+  "timelines": {
+    "bones": 1,
+    "slots": 2
+  },
+  "data": {
+    "slots": {
+      "fs-light-bot": {
+        "attachment": [
+          {
+            "name": "fs-light-bot"
+          }
+        ]
+      },
+      "fs-light-up": {
+        "attachment": [
+          {
+            "name": "fs-light-up"
+          },
+          {
+            "time": 0.5
+          },
+          {
+            "time": 0.5667,
+            "name": "fs-light-up"
+          },
+          {
+            "time": 0.6333
+          },
+          {
+            "time": 0.7,
+            "name": "fs-light-up"
+          }
+        ]
+      }
+    },
+    "bones": {
+      "fs-backer": {
+        "scale": [
+          {
+            "curve": [
+              0.311,
+              1.013,
+              0.444,
+              1.053,
+              0.311,
+              1.013,
+              0.444,
+              1.053
+            ]
+          },
+          {
+            "time": 0.6667,
+            "x": 1.053,
+            "y": 1.053,
+            "curve": [
+              0.889,
+              1.053,
+              1.111,
+              0.991,
+              0.889,
+              1.053,
+              1.111,
+              0.991
+            ]
+          },
+          {
+            "time": 1.3333,
+            "curve": [
+              1.645,
+              1.013,
+              1.778,
+              1.053,
+              1.645,
+              1.013,
+              1.778,
+              1.053
+            ]
+          },
+          {
+            "time": 2,
+            "x": 1.053,
+            "y": 1.053,
+            "curve": [
+              2.222,
+              1.053,
+              2.408,
+              0.989,
+              2.222,
+              1.053,
+              2.408,
+              0.989
+            ]
+          },
+          {
+            "time": 2.6667
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

@@ -1,0 +1,193 @@
+{
+  "id": "animations/rat-b1738941",
+  "name": "rat",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-4594f97e.atlas",
+  "pma": true,
+  "atlases": [
+    "atlas-4594f97e.atlas"
+  ],
+  "textures": [
+    "rat.png"
+  ],
+  "animations": [
+    {
+      "name": "leave",
+      "duration": 0.34,
+      "timelines": {
+        "bones": 1
+      }
+    },
+    {
+      "name": "peek",
+      "duration": 5.8,
+      "timelines": {
+        "bones": 12,
+        "slots": 4,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "body",
+    "head",
+    "nose",
+    "ear_l",
+    "ear_r",
+    "hand_l",
+    "hand_r",
+    "tail_base",
+    "tail_mid",
+    "tail_tip",
+    "eye_l",
+    "eye_l_pupil",
+    "eye_r",
+    "eye_r_pupil"
+  ],
+  "slots": [
+    "tail",
+    "body",
+    "ear_l",
+    "ear_r",
+    "hand_l",
+    "hand_r",
+    "head",
+    "eye_l_clip",
+    "eye_l_pupil",
+    "eye_l_upper",
+    "eye_l_lower",
+    "eye_r_clip",
+    "eye_r_pupil",
+    "eye_r_upper",
+    "eye_r_lower"
+  ],
+  "pieces": [
+    {
+      "region": "body",
+      "file": "pieces/body-3b63ceb3.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "2,216,406,410",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ear_l",
+      "file": "pieces/ear-l-be8b3b9b.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "2,2,212,262",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ear_r",
+      "file": "pieces/ear-r-3de34e24.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "266,10,204,265",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "hand_l",
+      "file": "pieces/hand-l-6939094e.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "561,204,199,255",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "hand_r",
+      "file": "pieces/hand-r-b104647c.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "533,405,188,262",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "head",
+      "file": "pieces/head-c906d07f.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "2,624,522,438"
+      }
+    },
+    {
+      "region": "lid_l",
+      "file": "pieces/lid-l-3fac9d5e.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "533,35,167,145",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "lid_r",
+      "file": "pieces/lid-r-1d3e01dd.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "414,234,169,145",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pupil_l",
+      "file": "pieces/pupil-l-93294a39.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "414,488,66,106",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pupil_r",
+      "file": "pieces/pupil-r-2aea75ea.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "414,556,66,107",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "tail",
+      "file": "pieces/tail-a669db1c.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "526,595,467,290",
+        "rotate": "90"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.json",
+      "sha256": "b173894111e07fd8ec379657b537c1570333046d9f925626327f62777f87a26d",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-4594f97e.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.atlas",
+      "sha256": "4594f97e6f145c77fb55208b61042312b5f2fcf166c1e5a26be34e7699f872cc",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "rat.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/ambient/rat/rat.png",
+      "sha256": "e14543fb7d15af79f017f7e9b0177be0dd7ff7d9e8e53062fa122f4ee4f9eb0a",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

@@ -1,0 +1,342 @@
+{
+  "id": "animations/bg-freegame1-4ec0cded",
+  "name": "bg_freegame1",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-5950cadf.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-5950cadf.atlas"
+  ],
+  "textures": [
+    "bg_freegame1.webp",
+    "bg_freegame1_2.webp"
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "duration": 10,
+      "timelines": {
+        "bones": 50,
+        "slots": 10,
+        "attachments": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "BG",
+    "fire-bowler-l-glow",
+    "fire-bowler-r-glow",
+    "rays_all",
+    "rays",
+    "rays2",
+    "rays3",
+    "atmosphere_light_1",
+    "glare_all",
+    "glare-40",
+    "glare-39",
+    "glare-38",
+    "glare-37",
+    "glare-36",
+    "glare-35",
+    "glare-34",
+    "glare-33",
+    "glare-32",
+    "glare-31",
+    "glare-30",
+    "glare-29",
+    "glare-28",
+    "glare-27",
+    "glare-26",
+    "glare-25",
+    "glare-24",
+    "glare-23",
+    "glare-22",
+    "glare-21",
+    "glare-20",
+    "glare-19",
+    "glare-18",
+    "glare-17",
+    "glare-16",
+    "glare-15",
+    "glare-14",
+    "glare-13",
+    "glare-12",
+    "glare-11",
+    "glare-10",
+    "glare-9",
+    "glare-8",
+    "glare-7",
+    "glare-6",
+    "glare-5",
+    "glare-4",
+    "glare-3",
+    "glare-2",
+    "glare-1",
+    "rays_all2",
+    "rays4",
+    "rays5",
+    "rays6",
+    "atmosphere_light_2",
+    "fx_fireL",
+    "fx_fireR"
+  ],
+  "slots": [
+    "clip",
+    "BG",
+    "fire-bowler-l-glow",
+    "back_elementsL",
+    "fx_fireL",
+    "front_elementL",
+    "fire-bowler-r-glow",
+    "back_elementsR",
+    "fx_fireR2",
+    "front_elementR",
+    "BG_front",
+    "rays",
+    "rays4",
+    "rays2",
+    "rays5",
+    "rays3",
+    "rays6",
+    "glare-40",
+    "glare-39",
+    "glare-38",
+    "glare-37",
+    "glare-36",
+    "glare-35",
+    "glare-34",
+    "glare-33",
+    "glare-32",
+    "glare-31",
+    "glare-30",
+    "glare-29",
+    "glare-28",
+    "glare-27",
+    "glare-26",
+    "glare-25",
+    "glare-24",
+    "glare-23",
+    "glare-22",
+    "glare-21",
+    "glare-20",
+    "glare-19",
+    "glare-18",
+    "glare-17",
+    "glare-16",
+    "glare-15",
+    "glare-14",
+    "glare-13",
+    "glare-12",
+    "glare-11",
+    "glare-10",
+    "glare-9",
+    "glare-8",
+    "glare-7",
+    "glare-6",
+    "glare-5",
+    "glare-4",
+    "glare-3",
+    "glare-2",
+    "glare-1",
+    "atmosphere_light_2",
+    "atmosphere_light_add",
+    "atmosphere_light_1",
+    "atmosphere_light_3"
+  ],
+  "pieces": [
+    {
+      "region": "atmosphere_light_1",
+      "file": "pieces/atmosphere-light-1-d83c1a7c.png",
+      "page": "bg_freegame1.webp",
+      "properties": {
+        "bounds": "1413,1014,258,148",
+        "offsets": "1,1,260,150"
+      }
+    },
+    {
+      "region": "atmosphere_light_2",
+      "file": "pieces/atmosphere-light-2-08c0692f.png",
+      "page": "bg_freegame1.webp",
+      "properties": {
+        "bounds": "2,2,459,413",
+        "offsets": "1,48,461,461"
+      }
+    },
+    {
+      "region": "atmosphere_light_add",
+      "file": "pieces/atmosphere-light-add-bcf4c92b.png",
+      "page": "bg_freegame1.webp",
+      "properties": {
+        "bounds": "1612,392,432,396",
+        "offsets": "2,65,461,461"
+      }
+    },
+    {
+      "region": "back_elementsL",
+      "file": "pieces/back-elementsl-15c6ce2e.png",
+      "page": "bg_freegame1.webp",
+      "properties": {
+        "bounds": "928,791,222,467",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "back_elementsR",
+      "file": "pieces/back-elementsr-79f35211.png",
+      "page": "bg_freegame1.webp",
+      "properties": {
+        "bounds": "1397,790,222,467",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fire-bowler-l-glow",
+      "file": "pieces/fire-bowler-l-glow-4153a20d.png",
+      "page": "bg_freegame1.webp",
+      "properties": {
+        "bounds": "378,417,372,615",
+        "offsets": "0,41,402,686",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fire-bowler-r-glow",
+      "file": "pieces/fire-bowler-r-glow-9e02b555.png",
+      "page": "bg_freegame1.webp",
+      "properties": {
+        "bounds": "995,416,372,615",
+        "offsets": "30,41,402,686",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fire_bowler_l_2",
+      "file": "pieces/fire-bowler-l-2-74f8c9a4.png",
+      "page": "bg_freegame1.webp",
+      "properties": {
+        "bounds": "851,1024,138,286",
+        "offsets": "3,5,143,292",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fire_bowler_l_3",
+      "file": "pieces/fire-bowler-l-3-f1fd5233.png",
+      "page": "bg_freegame1.webp",
+      "properties": {
+        "bounds": "336,1029,133,251",
+        "offsets": "3,3,138,255",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fire_bowler_l_4",
+      "file": "pieces/fire-bowler-l-4-c5d2806f.png",
+      "page": "bg_freegame1.webp",
+      "properties": {
+        "bounds": "589,1029,133,260",
+        "offsets": "4,4,140,267",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fire_bowler_l_5",
+      "file": "pieces/fire-bowler-l-5-2045a483.png",
+      "page": "bg_freegame1.webp",
+      "properties": {
+        "bounds": "72,1031,131,262",
+        "offsets": "4,4,138,267",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fire_bowler_l_6",
+      "file": "pieces/fire-bowler-l-6-484ff4ee.png",
+      "page": "bg_freegame1.webp",
+      "properties": {
+        "bounds": "1139,1015,147,272",
+        "offsets": "3,2,152,275",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "front_elementL",
+      "file": "pieces/front-elementl-021bd204.png",
+      "page": "bg_freegame1.webp",
+      "properties": {
+        "bounds": "2,810,217,461",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "front_elementR",
+      "file": "pieces/front-elementr-00a65dea.png",
+      "page": "bg_freegame1.webp",
+      "properties": {
+        "bounds": "465,805,217,461",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "glare-40",
+      "file": "pieces/glare-40-0cec7c83.png",
+      "page": "bg_freegame1.webp",
+      "properties": {
+        "bounds": "2,1098,64,68",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "rays",
+      "file": "pieces/rays-0789d3c6.png",
+      "page": "bg_freegame1.webp",
+      "properties": {
+        "bounds": "2,515,374,293"
+      }
+    },
+    {
+      "region": "BG_front",
+      "file": "pieces/bg-front-2e295f4d.png",
+      "page": "bg_freegame1_2.webp",
+      "properties": {
+        "bounds": "2,2,1985,1856",
+        "offsets": "1,6,1986,1862"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_freegame1.json",
+      "sha256": "4ec0cded4cf346ce33242ea5098a4346fc52643440a2fd403a6c14f8cae2b661",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-5950cadf.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_freegame1.atlas",
+      "sha256": "5950cadf82a14d3426d8116033c87bafaeb7fc9f67b6c154bba9125f1265989d",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "bg_freegame1.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_freegame1.webp",
+      "sha256": "15ee90b184d4cdfce8889be82121fde7d886bf749b4ef59c46ed3f38333f1462",
+      "kind": "image"
+    },
+    {
+      "file": "bg_freegame1_2.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/background/bg_freegame1_2.webp",
+      "sha256": "52dce89c5b5863432ab650831581511dbd48e5f53370ed9ca3c3351dd9c0a8e9",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

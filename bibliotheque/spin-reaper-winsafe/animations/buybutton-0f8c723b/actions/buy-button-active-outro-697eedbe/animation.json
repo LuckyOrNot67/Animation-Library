@@ -1,0 +1,187 @@
+{
+  "name": "buy_button_active_outro",
+  "duration": 0.667,
+  "timelines": {
+    "bones": 1,
+    "slots": 14
+  },
+  "data": {
+    "slots": {
+      "bbtn_star1": {
+        "attachment": [
+          {
+            "name": "bbtn_star1"
+          }
+        ]
+      },
+      "bbtn_star2": {
+        "attachment": [
+          {
+            "name": "bbtn_star2"
+          }
+        ]
+      },
+      "buybonus_text": {
+        "rgba": [
+          {
+            "color": "ffffffff",
+            "curve": [
+              0.111,
+              1,
+              0.222,
+              1,
+              0.111,
+              1,
+              0.222,
+              1,
+              0.111,
+              1,
+              0.222,
+              1,
+              0,
+              0.86,
+              0.054,
+              0
+            ]
+          },
+          {
+            "time": 0.3333,
+            "color": "ffffff00",
+            "curve": [
+              0.444,
+              1,
+              0.556,
+              1,
+              0.444,
+              1,
+              0.556,
+              1,
+              0.444,
+              1,
+              0.556,
+              1,
+              0.465,
+              0,
+              0.667,
+              1.13
+            ]
+          },
+          {
+            "time": 0.6667,
+            "color": "ffffffff"
+          }
+        ],
+        "attachment": [
+          {
+            "name": "DISABLE"
+          },
+          {
+            "time": 0.3333,
+            "name": "buybonus_base"
+          }
+        ]
+      },
+      "buybonus_texthl": {
+        "attachment": [
+          {
+            "name": "DISABLE"
+          },
+          {
+            "time": 0.3333,
+            "name": "buybonus_base"
+          }
+        ]
+      },
+      "fx_baseshine_1": {
+        "attachment": [
+          {}
+        ]
+      },
+      "fx_baseshine_2": {
+        "attachment": [
+          {}
+        ]
+      },
+      "fx_baseshine_3": {
+        "attachment": [
+          {}
+        ]
+      },
+      "fx_baseshine_4": {
+        "attachment": [
+          {}
+        ]
+      },
+      "fx_baseshine_5": {
+        "attachment": [
+          {}
+        ]
+      },
+      "fx_ringshine_1": {
+        "attachment": [
+          {}
+        ]
+      },
+      "fx_ringshine_2": {
+        "attachment": [
+          {}
+        ]
+      },
+      "fx_ringshine_3": {
+        "attachment": [
+          {}
+        ]
+      },
+      "fx_ringshine_4": {
+        "attachment": [
+          {}
+        ]
+      },
+      "fx_ringshine_5": {
+        "attachment": [
+          {}
+        ]
+      }
+    },
+    "bones": {
+      "buttonfront": {
+        "scale": [
+          {
+            "x": 0.98,
+            "y": 0.98,
+            "curve": [
+              0.131,
+              0.98,
+              0.248,
+              1.02,
+              0.131,
+              0.98,
+              0.248,
+              1.02
+            ]
+          },
+          {
+            "time": 0.3333,
+            "x": 1.02,
+            "y": 1.02,
+            "curve": [
+              0.465,
+              1.02,
+              0.639,
+              1.002,
+              0.465,
+              1.02,
+              0.639,
+              1.002
+            ]
+          },
+          {
+            "time": 0.6667
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

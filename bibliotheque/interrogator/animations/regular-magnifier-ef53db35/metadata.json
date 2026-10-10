@@ -1,0 +1,99 @@
+{
+  "id": "animations/regular-magnifier-ef53db35",
+  "name": "regular-magnifier",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-9a759227.atlas",
+  "pma": true,
+  "atlases": [
+    "atlas-9a759227.atlas"
+  ],
+  "textures": [
+    "regular-magnifier.png"
+  ],
+  "animations": [
+    {
+      "name": "land",
+      "duration": 0.7,
+      "timelines": {
+        "bones": 5,
+        "events": 1
+      }
+    },
+    {
+      "name": "win",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 5,
+        "events": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "sway",
+    "grip",
+    "neck",
+    "rim",
+    "lens_center"
+  ],
+  "slots": [
+    "handle",
+    "rim",
+    "glass"
+  ],
+  "pieces": [
+    {
+      "region": "glass",
+      "file": "pieces/glass-38aa1cb3.png",
+      "page": "regular-magnifier.png",
+      "properties": {
+        "bounds": "772,159,585,567",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "handle",
+      "file": "pieces/handle-703c9179.png",
+      "page": "regular-magnifier.png",
+      "properties": {
+        "bounds": "1341,174,554,570"
+      }
+    },
+    {
+      "region": "rim",
+      "file": "pieces/rim-94260640.png",
+      "page": "regular-magnifier.png",
+      "properties": {
+        "bounds": "2,2,768,742"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-magnifier/regular-magnifier.json",
+      "sha256": "ef53db35580c48fc2ce3cab5db0ed4cf17c66ac58a48a917bcb6cb7faadc4dbe",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-9a759227.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-magnifier/regular-magnifier.atlas",
+      "sha256": "9a75922743717afe8c25a61dbbe0fcdfa3ce6fe46cd0c06ecae1befddcf146bb",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "regular-magnifier.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/regular-magnifier/regular-magnifier.png",
+      "sha256": "e8b58793aad8f96115df36cc0e7b8c7e85ae39e5e32fa0a715ae45a36e4e24da",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

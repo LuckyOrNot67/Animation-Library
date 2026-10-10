@@ -1,0 +1,263 @@
+{
+  "id": "animations/volatility-indicator-11473525",
+  "name": "volatility_indicator",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.9.1",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-5c43ff15.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-5c43ff15.atlas"
+  ],
+  "textures": [
+    "volatility_indicator.png"
+  ],
+  "animations": [
+    {
+      "name": "volatility_high",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 4,
+        "slots": 7
+      }
+    },
+    {
+      "name": "volatility_high_paytable",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 4,
+        "slots": 8
+      }
+    },
+    {
+      "name": "volatility_low",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 4,
+        "slots": 8
+      }
+    },
+    {
+      "name": "volatility_low_paytable",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 4,
+        "slots": 9
+      }
+    },
+    {
+      "name": "volatility_mid",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 4,
+        "slots": 8
+      }
+    },
+    {
+      "name": "volatility_mid_paytable",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 4,
+        "slots": 9
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "bone_left",
+    "container_holder",
+    "low",
+    "mid",
+    "high",
+    "text",
+    "bone_right",
+    "text_holder"
+  ],
+  "slots": [
+    "container",
+    "container_holder",
+    "icon_lowvolatility",
+    "icon_lowvolatility_off",
+    "icon_lowvolatility_off2",
+    "icon_midvolatility",
+    "icon_midvolatility_off",
+    "icon_midvolatility_off2",
+    "icon_highvolatility",
+    "icon_highvolatility_off",
+    "icon_highvolatility_off2",
+    "icon_lowvolatility_glow",
+    "icon_midvolatility_glow",
+    "icon_highvolatility_glow"
+  ],
+  "pieces": [
+    {
+      "region": "container",
+      "file": "pieces/container-5c70591b.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 402",
+        "size": "880, 142",
+        "orig": "880, 142",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "container_small",
+      "file": "pieces/container-small-89e19d7b.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 60",
+        "size": "540, 340",
+        "orig": "540, 340",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "icon_highvolatility",
+      "file": "pieces/icon-highvolatility-30101d01.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "658, 302",
+        "size": "98, 98",
+        "orig": "104, 104",
+        "offset": "3, 3",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "icon_highvolatility_glow",
+      "file": "pieces/icon-highvolatility-glow-3298b43a.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "544, 288",
+        "size": "112, 112",
+        "orig": "128, 128",
+        "offset": "8, 8",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "icon_highvolatility_off",
+      "file": "pieces/icon-highvolatility-off-494afa83.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "658, 202",
+        "size": "98, 98",
+        "orig": "104, 104",
+        "offset": "3, 3",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "icon_lowvolatility",
+      "file": "pieces/icon-lowvolatility-ef532139.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "658, 102",
+        "size": "98, 98",
+        "orig": "104, 104",
+        "offset": "3, 3",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "icon_lowvolatility_glow",
+      "file": "pieces/icon-lowvolatility-glow-00dfe1c9.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "544, 174",
+        "size": "112, 112",
+        "orig": "128, 128",
+        "offset": "8, 8",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "icon_lowvolatility_off",
+      "file": "pieces/icon-lowvolatility-off-14b28687.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "658, 2",
+        "size": "98, 98",
+        "orig": "104, 104",
+        "offset": "3, 3",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "icon_midvolatility",
+      "file": "pieces/icon-midvolatility-b8353f04.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "758, 302",
+        "size": "98, 98",
+        "orig": "104, 104",
+        "offset": "3, 3",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "icon_midvolatility_glow",
+      "file": "pieces/icon-midvolatility-glow-7afd7139.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "544, 60",
+        "size": "112, 112",
+        "orig": "128, 128",
+        "offset": "8, 8",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "icon_midvolatility_off",
+      "file": "pieces/icon-midvolatility-off-79223567.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "758, 202",
+        "size": "98, 98",
+        "orig": "104, 104",
+        "offset": "3, 3",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-b18755228c4a/volatility_indicator.json",
+      "sha256": "114735256cc063758aa1035b792564e6264dd14564b10adb82723766d07f93cb",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-5c43ff15.atlas",
+      "source": "raw/_embedded/uht-b18755228c4a/volatility_indicator.atlas",
+      "sha256": "5c43ff151e16f11c1b77409b8dae2f0096159ce63a41ffa6c6301bfcfad078bf",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "volatility_indicator.png",
+      "source": "raw/_embedded/uht-b18755228c4a/volatility_indicator.png",
+      "sha256": "abb715971f0a2745b2774f25b1a81a36508ed566127e8cb7ac434f84cc2fe75c",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

@@ -1,0 +1,172 @@
+{
+  "id": "animations/suru-big-win-6-3c74baf6",
+  "name": "suru_big_win_6",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-f6f104f3.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-f6f104f3.atlas"
+  ],
+  "textures": [
+    "suru_big_win_6.png"
+  ],
+  "animations": [
+    {
+      "name": "mega_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 1,
+        "deform": 1
+      }
+    },
+    {
+      "name": "mega_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "deform": 1
+      }
+    },
+    {
+      "name": "mega_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 1,
+        "deform": 1
+      }
+    },
+    {
+      "name": "nice_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 1,
+        "deform": 1
+      }
+    },
+    {
+      "name": "nice_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "deform": 1
+      }
+    },
+    {
+      "name": "nice_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 1,
+        "deform": 1
+      }
+    },
+    {
+      "name": "sesnational_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 1,
+        "deform": 1
+      }
+    },
+    {
+      "name": "sesnational_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "deform": 1
+      }
+    },
+    {
+      "name": "sesnational_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 1,
+        "deform": 1
+      }
+    },
+    {
+      "name": "superb_in",
+      "duration": 1,
+      "timelines": {
+        "bones": 4,
+        "slots": 1,
+        "deform": 1
+      }
+    },
+    {
+      "name": "superb_loop",
+      "duration": 1.5,
+      "timelines": {
+        "bones": 3,
+        "deform": 1
+      }
+    },
+    {
+      "name": "superb_out",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 4,
+        "slots": 1,
+        "deform": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "sensational",
+    "numbers",
+    "stars",
+    "big_star"
+  ],
+  "slots": [
+    "rays_2"
+  ],
+  "pieces": [
+    {
+      "region": "rays_2",
+      "file": "pieces/rays-2-faa383bf.png",
+      "page": "suru_big_win_6.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "441, 230",
+        "orig": "441, 230",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/_embedded/uht-78b52b2afca1/suru_big_win_6.json",
+      "sha256": "3c74baf62d29cc5db022e6a9e36f9061ec6435778a27257385136294487ca50e",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-f6f104f3.atlas",
+      "source": "raw/_embedded/uht-78b52b2afca1/suru_big_win_6.atlas",
+      "sha256": "f6f104f39865633d47e71b4e856c4890a5c3441fef3921b88ef30c98d7ef9b6e",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "suru_big_win_6.png",
+      "source": "raw/_embedded/uht-78b52b2afca1/suru_big_win_6.png",
+      "sha256": "39863c6b0edb9f98b00a8aacf55dd3c7551b5e7faeb09a6824f589f486130b5b",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

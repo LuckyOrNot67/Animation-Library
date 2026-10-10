@@ -1,0 +1,93 @@
+{
+  "id": "animations/vs-squid-2300e6b2",
+  "name": "vs-squid",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-a806964e.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-a806964e.atlas"
+  ],
+  "textures": [
+    "portrait.png"
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "duration": 4,
+      "timelines": {
+        "bones": 13
+      }
+    },
+    {
+      "name": "land",
+      "duration": 0.48,
+      "timelines": {
+        "bones": 1
+      }
+    },
+    {
+      "name": "win",
+      "duration": 1.2,
+      "timelines": {
+        "bones": 13
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "body",
+    "face",
+    "mantle",
+    "brow_l",
+    "brow_r",
+    "bowtie",
+    "curl_l_base",
+    "curl_l_mid",
+    "curl_l_tip",
+    "curl_r_base",
+    "curl_r_mid",
+    "curl_r_tip",
+    "arms"
+  ],
+  "slots": [
+    "portrait"
+  ],
+  "pieces": [
+    {
+      "region": "portrait",
+      "file": "pieces/portrait-63d27c9e.png",
+      "page": "portrait.png",
+      "properties": {
+        "bounds": "0,0,627,627"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-squid/vs-squid.json",
+      "sha256": "2300e6b2465e5ed75040c4824d071952a5cb86f4903ca548a24456905c6068f0",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-a806964e.atlas",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-squid/vs-squid.atlas",
+      "sha256": "a806964ebdf53afcb08a9feceb776730b3013ee59951425fe9c0e07486d129a0",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "portrait.png",
+      "source": "raw/blackout.live.engine.io/interrogator/v21/assets/spine/symbols/vs-squid/portrait.png",
+      "sha256": "95605396cb2bd01daee047ca4c10437ce338763526f50971d9958f4b61447ec6",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

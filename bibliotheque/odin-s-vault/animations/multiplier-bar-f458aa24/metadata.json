@@ -1,0 +1,185 @@
+{
+  "id": "animations/multiplier-bar-f458aa24",
+  "name": "multiplier_bar",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-f807e78f.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-f807e78f.atlas"
+  ],
+  "textures": [
+    "multiplier_bar.webp"
+  ],
+  "animations": [
+    {
+      "name": "spin",
+      "duration": 1.333,
+      "timelines": {
+        "bones": 7,
+        "slots": 14,
+        "attachments": 1,
+        "events": 1
+      }
+    },
+    {
+      "name": "static",
+      "duration": 0,
+      "timelines": {}
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "cylinder 1",
+    "muliplyer_value",
+    "digit_1",
+    "digit_2",
+    "digit_3",
+    "digit_4",
+    "digit_5",
+    "digit_6"
+  ],
+  "slots": [
+    "cylinder_1_back",
+    "cylinder_mask",
+    "cylinder_1",
+    "cylinder_blure_1",
+    "x",
+    "digit_1",
+    "b_x",
+    "b_x2",
+    "b_x3",
+    "b_x4",
+    "b_x5",
+    "b_x6",
+    "b_digit_8",
+    "b_digit_7",
+    "b_digit_6",
+    "b_digit_5",
+    "b_digit_4",
+    "b_digit_2"
+  ],
+  "pieces": [
+    {
+      "region": "b_digit_2",
+      "file": "pieces/b-digit-2-d60e0945.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "232,2,11,28",
+        "offsets": "1,1,13,31",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "b_digit_4",
+      "file": "pieces/b-digit-4-4415dacb.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "292,17,13,28",
+        "offsets": "2,1,16,30",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "b_digit_5",
+      "file": "pieces/b-digit-5-ac97fe9d.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "292,4,11,29",
+        "offsets": "1,1,14,31",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "b_digit_6",
+      "file": "pieces/b-digit-6-1ba3a034.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "262,16,14,28",
+        "offsets": "1,1,16,30",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "b_digit_7",
+      "file": "pieces/b-digit-7-e2dbc488.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "323,3,12,27",
+        "offsets": "1,1,14,29"
+      }
+    },
+    {
+      "region": "b_digit_8",
+      "file": "pieces/b-digit-8-5d18b4c6.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "232,15,15,28",
+        "offsets": "1,1,17,30",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "b_x",
+      "file": "pieces/b-x-124d5234.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "262,2,12,28",
+        "offsets": "1,1,15,30",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cylinder_1",
+      "file": "pieces/cylinder-1-b464c621.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "80,4,74,26"
+      }
+    },
+    {
+      "region": "cylinder_1_back",
+      "file": "pieces/cylinder-1-back-ec11ea56.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "2,2,76,28",
+        "offsets": "1,1,78,30"
+      }
+    },
+    {
+      "region": "cylinder_blure_1",
+      "file": "pieces/cylinder-blure-1-c085cde1.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "156,4,74,26"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/multiplier/multiplier_bar.json",
+      "sha256": "f458aa24608ebb0b8ae4c1394c19206cc9b5a28a6a0b3be158136eae96528ab0",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-f807e78f.atlas",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/multiplier/multiplier_bar.atlas",
+      "sha256": "f807e78f0903b2c914dda8729a49b830c1bb9a786f1bb69d1065e65d5b4623c6",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "multiplier_bar.webp",
+      "source": "raw/valkyrie.live.engine.io/odins-vault/v13/assets/spines/multiplier/multiplier_bar.webp",
+      "sha256": "3a50dfcb935016d5530d40cce8626fadb7a73c82891cffda01b4cea12e6387fb",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}
