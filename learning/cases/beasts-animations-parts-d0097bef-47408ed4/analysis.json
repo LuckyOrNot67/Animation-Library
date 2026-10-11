@@ -1,0 +1,823 @@
+{
+  "id": "beasts-animations-parts-d0097bef-47408ed4",
+  "collection": "library",
+  "name": "parts",
+  "machine": "beasts",
+  "format": "spritesheet",
+  "version": null,
+  "packagePath": "bibliotheque/beasts/animations/parts-d0097bef",
+  "skeleton": "spritesheet.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": null,
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 4018176,
+    "rgbaBytesEstimate": 16072704,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 33,
+  "actions": [],
+  "analysisPath": "learning/cases/beasts-animations-parts-d0097bef-47408ed4/analysis.json",
+  "exactActionVisibility": false,
+  "rig": null,
+  "atlasRegions": [
+    {
+      "region": "mh_spear",
+      "file": "pieces/mh-spear-5f251fa9.png",
+      "properties": {
+        "frame": {
+          "x": 2,
+          "y": 2,
+          "w": 102,
+          "h": 1344
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 102,
+          "h": 1344
+        },
+        "sourceSize": {
+          "w": 102,
+          "h": 1344
+        }
+      }
+    },
+    {
+      "region": "mh_cape_front",
+      "file": "pieces/mh-cape-front-b943ba48.png",
+      "properties": {
+        "frame": {
+          "x": 108,
+          "y": 2,
+          "w": 264,
+          "h": 911
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 264,
+          "h": 911
+        },
+        "sourceSize": {
+          "w": 264,
+          "h": 911
+        }
+      }
+    },
+    {
+      "region": "mh_cape_back",
+      "file": "pieces/mh-cape-back-7eb260f4.png",
+      "properties": {
+        "frame": {
+          "x": 376,
+          "y": 2,
+          "w": 467,
+          "h": 878
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 467,
+          "h": 878
+        },
+        "sourceSize": {
+          "w": 467,
+          "h": 878
+        }
+      }
+    },
+    {
+      "region": "mh_cape_edge",
+      "file": "pieces/mh-cape-edge-d189d989.png",
+      "properties": {
+        "frame": {
+          "x": 847,
+          "y": 2,
+          "w": 91,
+          "h": 867
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 91,
+          "h": 867
+        },
+        "sourceSize": {
+          "w": 91,
+          "h": 867
+        }
+      }
+    },
+    {
+      "region": "mh_antlers_r",
+      "file": "pieces/mh-antlers-r-fc68fb66.png",
+      "properties": {
+        "frame": {
+          "x": 942,
+          "y": 2,
+          "w": 434,
+          "h": 435
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 434,
+          "h": 435
+        },
+        "sourceSize": {
+          "w": 434,
+          "h": 435
+        }
+      }
+    },
+    {
+      "region": "mh_coat_skirt",
+      "file": "pieces/mh-coat-skirt-1fa754d3.png",
+      "properties": {
+        "frame": {
+          "x": 1380,
+          "y": 2,
+          "w": 345,
+          "h": 423
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 345,
+          "h": 423
+        },
+        "sourceSize": {
+          "w": 345,
+          "h": 423
+        }
+      }
+    },
+    {
+      "region": "mh_antlers_l",
+      "file": "pieces/mh-antlers-l-13936737.png",
+      "properties": {
+        "frame": {
+          "x": 2,
+          "y": 1350,
+          "w": 390,
+          "h": 393
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 393
+        },
+        "sourceSize": {
+          "w": 390,
+          "h": 393
+        }
+      }
+    },
+    {
+      "region": "mh_leg_l",
+      "file": "pieces/mh-leg-l-5fa3ea7c.png",
+      "properties": {
+        "frame": {
+          "x": 396,
+          "y": 1350,
+          "w": 166,
+          "h": 334
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 166,
+          "h": 334
+        },
+        "sourceSize": {
+          "w": 166,
+          "h": 334
+        }
+      }
+    },
+    {
+      "region": "mh_leg_r",
+      "file": "pieces/mh-leg-r-4b269baa.png",
+      "properties": {
+        "frame": {
+          "x": 566,
+          "y": 1350,
+          "w": 135,
+          "h": 331
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 135,
+          "h": 331
+        },
+        "sourceSize": {
+          "w": 135,
+          "h": 331
+        }
+      }
+    },
+    {
+      "region": "mh_boot_l",
+      "file": "pieces/mh-boot-l-f31dfe64.png",
+      "properties": {
+        "frame": {
+          "x": 705,
+          "y": 1350,
+          "w": 128,
+          "h": 325
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 325
+        },
+        "sourceSize": {
+          "w": 128,
+          "h": 325
+        }
+      }
+    },
+    {
+      "region": "mh_torso",
+      "file": "pieces/mh-torso-1b98b68f.png",
+      "properties": {
+        "frame": {
+          "x": 837,
+          "y": 1350,
+          "w": 272,
+          "h": 313
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 272,
+          "h": 313
+        },
+        "sourceSize": {
+          "w": 272,
+          "h": 313
+        }
+      }
+    },
+    {
+      "region": "mh_boot_r",
+      "file": "pieces/mh-boot-r-506ca059.png",
+      "properties": {
+        "frame": {
+          "x": 1113,
+          "y": 1350,
+          "w": 188,
+          "h": 289
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 188,
+          "h": 289
+        },
+        "sourceSize": {
+          "w": 188,
+          "h": 289
+        }
+      }
+    },
+    {
+      "region": "mh_arm_r_top",
+      "file": "pieces/mh-arm-r-top-d9a289cc.png",
+      "properties": {
+        "frame": {
+          "x": 1305,
+          "y": 1350,
+          "w": 119,
+          "h": 284
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 119,
+          "h": 284
+        },
+        "sourceSize": {
+          "w": 119,
+          "h": 284
+        }
+      }
+    },
+    {
+      "region": "mh_head",
+      "file": "pieces/mh-head-b30ff639.png",
+      "properties": {
+        "frame": {
+          "x": 1428,
+          "y": 1350,
+          "w": 154,
+          "h": 282
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 154,
+          "h": 282
+        },
+        "sourceSize": {
+          "w": 154,
+          "h": 282
+        }
+      }
+    },
+    {
+      "region": "mh_sash",
+      "file": "pieces/mh-sash-516c2496.png",
+      "properties": {
+        "frame": {
+          "x": 1586,
+          "y": 1350,
+          "w": 198,
+          "h": 278
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 198,
+          "h": 278
+        },
+        "sourceSize": {
+          "w": 198,
+          "h": 278
+        }
+      }
+    },
+    {
+      "region": "mh_cape_front_top",
+      "file": "pieces/mh-cape-front-top-8b95bc57.png",
+      "properties": {
+        "frame": {
+          "x": 1788,
+          "y": 1350,
+          "w": 150,
+          "h": 273
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 150,
+          "h": 273
+        },
+        "sourceSize": {
+          "w": 150,
+          "h": 273
+        }
+      }
+    },
+    {
+      "region": "mh_arm_l_top",
+      "file": "pieces/mh-arm-l-top-e829b949.png",
+      "properties": {
+        "frame": {
+          "x": 1942,
+          "y": 1350,
+          "w": 102,
+          "h": 218
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 102,
+          "h": 218
+        },
+        "sourceSize": {
+          "w": 102,
+          "h": 218
+        }
+      }
+    },
+    {
+      "region": "mh_cowl",
+      "file": "pieces/mh-cowl-7c9e6314.png",
+      "properties": {
+        "frame": {
+          "x": 2,
+          "y": 1747,
+          "w": 277,
+          "h": 213
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 277,
+          "h": 213
+        },
+        "sourceSize": {
+          "w": 277,
+          "h": 213
+        }
+      }
+    },
+    {
+      "region": "mh_hips",
+      "file": "pieces/mh-hips-79819d4e.png",
+      "properties": {
+        "frame": {
+          "x": 283,
+          "y": 1747,
+          "w": 231,
+          "h": 205
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 231,
+          "h": 205
+        },
+        "sourceSize": {
+          "w": 231,
+          "h": 205
+        }
+      }
+    },
+    {
+      "region": "mh_pauldron_r",
+      "file": "pieces/mh-pauldron-r-8fba47ed.png",
+      "properties": {
+        "frame": {
+          "x": 518,
+          "y": 1747,
+          "w": 198,
+          "h": 198
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 198,
+          "h": 198
+        },
+        "sourceSize": {
+          "w": 198,
+          "h": 198
+        }
+      }
+    },
+    {
+      "region": "mh_skull",
+      "file": "pieces/mh-skull-e2c7ac44.png",
+      "properties": {
+        "frame": {
+          "x": 720,
+          "y": 1747,
+          "w": 116,
+          "h": 198
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 116,
+          "h": 198
+        },
+        "sourceSize": {
+          "w": 116,
+          "h": 198
+        }
+      }
+    },
+    {
+      "region": "mh_arm_r_bottom",
+      "file": "pieces/mh-arm-r-bottom-4181a6d1.png",
+      "properties": {
+        "frame": {
+          "x": 840,
+          "y": 1747,
+          "w": 105,
+          "h": 191
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 105,
+          "h": 191
+        },
+        "sourceSize": {
+          "w": 105,
+          "h": 191
+        }
+      }
+    },
+    {
+      "region": "mh_hood_back",
+      "file": "pieces/mh-hood-back-96d5cfda.png",
+      "properties": {
+        "frame": {
+          "x": 949,
+          "y": 1747,
+          "w": 214,
+          "h": 175
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 214,
+          "h": 175
+        },
+        "sourceSize": {
+          "w": 214,
+          "h": 175
+        }
+      }
+    },
+    {
+      "region": "mh_pauldron_l",
+      "file": "pieces/mh-pauldron-l-defa0924.png",
+      "properties": {
+        "frame": {
+          "x": 1167,
+          "y": 1747,
+          "w": 109,
+          "h": 132
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 109,
+          "h": 132
+        },
+        "sourceSize": {
+          "w": 109,
+          "h": 132
+        }
+      }
+    },
+    {
+      "region": "mh_arm_r_hand",
+      "file": "pieces/mh-arm-r-hand-691d62d7.png",
+      "properties": {
+        "frame": {
+          "x": 1280,
+          "y": 1747,
+          "w": 91,
+          "h": 126
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 91,
+          "h": 126
+        },
+        "sourceSize": {
+          "w": 91,
+          "h": 126
+        }
+      }
+    },
+    {
+      "region": "mh_arm_l_bottom",
+      "file": "pieces/mh-arm-l-bottom-a5741a37.png",
+      "properties": {
+        "frame": {
+          "x": 1375,
+          "y": 1747,
+          "w": 160,
+          "h": 104
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 160,
+          "h": 104
+        },
+        "sourceSize": {
+          "w": 160,
+          "h": 104
+        }
+      }
+    },
+    {
+      "region": "mh_fist_back",
+      "file": "pieces/mh-fist-back-e88c3494.png",
+      "properties": {
+        "frame": {
+          "x": 1539,
+          "y": 1747,
+          "w": 78,
+          "h": 87
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 78,
+          "h": 87
+        },
+        "sourceSize": {
+          "w": 78,
+          "h": 87
+        }
+      }
+    },
+    {
+      "region": "mh_fist_front",
+      "file": "pieces/mh-fist-front-fc86e62a.png",
+      "properties": {
+        "frame": {
+          "x": 1621,
+          "y": 1747,
+          "w": 85,
+          "h": 87
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 85,
+          "h": 87
+        },
+        "sourceSize": {
+          "w": 85,
+          "h": 87
+        }
+      }
+    },
+    {
+      "region": "mh_finger_2",
+      "file": "pieces/mh-finger-2-822d7ced.png",
+      "properties": {
+        "frame": {
+          "x": 1710,
+          "y": 1747,
+          "w": 47,
+          "h": 62
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 47,
+          "h": 62
+        },
+        "sourceSize": {
+          "w": 47,
+          "h": 62
+        }
+      }
+    },
+    {
+      "region": "mh_finger_3",
+      "file": "pieces/mh-finger-3-dc2735a5.png",
+      "properties": {
+        "frame": {
+          "x": 1761,
+          "y": 1747,
+          "w": 44,
+          "h": 55
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 44,
+          "h": 55
+        },
+        "sourceSize": {
+          "w": 44,
+          "h": 55
+        }
+      }
+    },
+    {
+      "region": "mh_finger_1",
+      "file": "pieces/mh-finger-1-b9b11d07.png",
+      "properties": {
+        "frame": {
+          "x": 1809,
+          "y": 1747,
+          "w": 34,
+          "h": 44
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 34,
+          "h": 44
+        },
+        "sourceSize": {
+          "w": 34,
+          "h": 44
+        }
+      }
+    },
+    {
+      "region": "mh_finger_4",
+      "file": "pieces/mh-finger-4-232fb8f1.png",
+      "properties": {
+        "frame": {
+          "x": 1847,
+          "y": 1747,
+          "w": 27,
+          "h": 39
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 27,
+          "h": 39
+        },
+        "sourceSize": {
+          "w": 27,
+          "h": 39
+        }
+      }
+    },
+    {
+      "region": "mh_finger_5",
+      "file": "pieces/mh-finger-5-ffdd69f6.png",
+      "properties": {
+        "frame": {
+          "x": 1878,
+          "y": 1747,
+          "w": 25,
+          "h": 32
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 25,
+          "h": 32
+        },
+        "sourceSize": {
+          "w": 25,
+          "h": 32
+        }
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

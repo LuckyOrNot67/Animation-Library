@@ -1,0 +1,63 @@
+{
+  "name": "idle",
+  "duration": 2,
+  "timelines": {
+    "bones": 1,
+    "slots": 1
+  },
+  "data": {
+    "bones": {
+      "body": {
+        "scale": [
+          {
+            "time": 0,
+            "x": 1,
+            "y": 1,
+            "curve": [
+              0.2,
+              0,
+              0.8,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "x": 1.04,
+            "y": 1.04,
+            "curve": [
+              0.2,
+              0,
+              0.8,
+              1
+            ]
+          },
+          {
+            "time": 2,
+            "x": 1,
+            "y": 1
+          }
+        ]
+      }
+    },
+    "slots": {
+      "halo": {
+        "rgba": [
+          {
+            "time": 0,
+            "color": "ffffff40"
+          },
+          {
+            "time": 1,
+            "color": "ffffff80"
+          },
+          {
+            "time": 2,
+            "color": "ffffff40"
+          }
+        ]
+      }
+    }
+  },
+  "package": "../../metadata.json",
+  "note": "Le rig, les skins, atlas et textures du package parent sont requis. Les pièces couvrent tous les skins/actions du rig."
+}

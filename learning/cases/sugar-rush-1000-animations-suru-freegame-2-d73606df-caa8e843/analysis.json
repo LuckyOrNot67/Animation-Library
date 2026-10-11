@@ -1,0 +1,1184 @@
+{
+  "id": "sugar-rush-1000-animations-suru-freegame-2-d73606df-caa8e843",
+  "collection": "library",
+  "name": "suru_freegame_2",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-freegame-2-d73606df",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 5,
+    "slots": 3,
+    "attachments": 33,
+    "meshAttachments": 1,
+    "meshUvPairs": 4,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 1308480,
+    "rgbaBytesEstimate": 5233920,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 17,
+  "actions": [
+    {
+      "name": "suru_freegame",
+      "duration": 3,
+      "keyframes": 203,
+      "curvedKeys": 4,
+      "channels": [
+        {
+          "path": "slots.rays.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.stars_0.attachment",
+          "keyframes": 91
+        },
+        {
+          "path": "slots.stars_00000.attachment",
+          "keyframes": 80
+        },
+        {
+          "path": "bones.fan_left.rotate",
+          "keyframes": 13
+        },
+        {
+          "path": "bones.fan_left2.rotate",
+          "keyframes": 13
+        },
+        {
+          "path": "deform.default.rays.rays_free",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "fan_left",
+        "fan_left2"
+      ],
+      "animatedSlots": [
+        "rays",
+        "stars_0",
+        "stars_00000"
+      ],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-freegame-2-d73606df-caa8e843/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "left_frame",
+        "parent": "root",
+        "x": -619.2,
+        "y": 17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "fan_left",
+        "parent": "left_frame",
+        "x": -47.49,
+        "y": -363.64,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "left_frame2",
+        "parent": "root",
+        "x": 591.55,
+        "y": 17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      },
+      {
+        "name": "fan_left2",
+        "parent": "left_frame2",
+        "x": -47.49,
+        "y": -363.64,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "rays",
+        "bone": "root",
+        "setupAttachment": "rays_free",
+        "blend": "additive",
+        "color": "ffffff32"
+      },
+      {
+        "name": "stars_00000",
+        "bone": "root",
+        "setupAttachment": "stars_00030",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "stars_0",
+        "bone": "root",
+        "setupAttachment": "stars_00030",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "rays",
+        "name": "rays_free",
+        "region": "rays_free",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_0",
+        "name": "stars_00000",
+        "region": "stars_00000",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -710,
+          "y": -10.4,
+          "rotation": 0,
+          "scaleX": -2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_0",
+        "name": "stars_00002",
+        "region": "stars_00002",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -710,
+          "y": -10.4,
+          "rotation": 0,
+          "scaleX": -2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_0",
+        "name": "stars_00004",
+        "region": "stars_00004",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -710,
+          "y": -10.4,
+          "rotation": 0,
+          "scaleX": -2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_0",
+        "name": "stars_00006",
+        "region": "stars_00006",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -710,
+          "y": -10.4,
+          "rotation": 0,
+          "scaleX": -2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_0",
+        "name": "stars_00008",
+        "region": "stars_00008",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -710,
+          "y": -10.4,
+          "rotation": 0,
+          "scaleX": -2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_0",
+        "name": "stars_00010",
+        "region": "stars_00010",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -710,
+          "y": -10.4,
+          "rotation": 0,
+          "scaleX": -2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_0",
+        "name": "stars_00012",
+        "region": "stars_00012",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -710,
+          "y": -10.4,
+          "rotation": 0,
+          "scaleX": -2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_0",
+        "name": "stars_00014",
+        "region": "stars_00014",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -710,
+          "y": -10.4,
+          "rotation": 0,
+          "scaleX": -2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_0",
+        "name": "stars_00016",
+        "region": "stars_00016",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -710,
+          "y": -10.4,
+          "rotation": 0,
+          "scaleX": -2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_0",
+        "name": "stars_00018",
+        "region": "stars_00018",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -710,
+          "y": -10.4,
+          "rotation": 0,
+          "scaleX": -2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_0",
+        "name": "stars_00020",
+        "region": "stars_00020",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -710,
+          "y": -10.4,
+          "rotation": 0,
+          "scaleX": -2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_0",
+        "name": "stars_00022",
+        "region": "stars_00022",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -710,
+          "y": -10.4,
+          "rotation": 0,
+          "scaleX": -2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_0",
+        "name": "stars_00024",
+        "region": "stars_00024",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -710,
+          "y": -10.4,
+          "rotation": 0,
+          "scaleX": -2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_0",
+        "name": "stars_00026",
+        "region": "stars_00026",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -710,
+          "y": -10.4,
+          "rotation": 0,
+          "scaleX": -2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_0",
+        "name": "stars_00028",
+        "region": "stars_00028",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -710,
+          "y": -10.4,
+          "rotation": 0,
+          "scaleX": -2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_0",
+        "name": "stars_00030",
+        "region": "stars_00030",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -710,
+          "y": -10.4,
+          "rotation": 0,
+          "scaleX": -2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_00000",
+        "name": "stars_00000",
+        "region": "stars_00000",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 680,
+          "y": -135,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_00000",
+        "name": "stars_00002",
+        "region": "stars_00002",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 680,
+          "y": -135,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_00000",
+        "name": "stars_00004",
+        "region": "stars_00004",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 680,
+          "y": -135,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_00000",
+        "name": "stars_00006",
+        "region": "stars_00006",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 680,
+          "y": -135,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_00000",
+        "name": "stars_00008",
+        "region": "stars_00008",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 680,
+          "y": -135,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_00000",
+        "name": "stars_00010",
+        "region": "stars_00010",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 680,
+          "y": -135,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_00000",
+        "name": "stars_00012",
+        "region": "stars_00012",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 680,
+          "y": -135,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_00000",
+        "name": "stars_00014",
+        "region": "stars_00014",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 680,
+          "y": -135,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_00000",
+        "name": "stars_00016",
+        "region": "stars_00016",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 680,
+          "y": -135,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_00000",
+        "name": "stars_00018",
+        "region": "stars_00018",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 680,
+          "y": -135,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_00000",
+        "name": "stars_00020",
+        "region": "stars_00020",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 680,
+          "y": -135,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_00000",
+        "name": "stars_00022",
+        "region": "stars_00022",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 680,
+          "y": -135,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_00000",
+        "name": "stars_00024",
+        "region": "stars_00024",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 680,
+          "y": -135,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_00000",
+        "name": "stars_00026",
+        "region": "stars_00026",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 680,
+          "y": -135,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_00000",
+        "name": "stars_00028",
+        "region": "stars_00028",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 680,
+          "y": -135,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_00000",
+        "name": "stars_00030",
+        "region": "stars_00030",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 680,
+          "y": -135,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 198,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "suru_freegame",
+        "duration": 3,
+        "keyframes": 203,
+        "curvedKeys": 4,
+        "channels": [
+          {
+            "path": "slots.rays.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.stars_0.attachment",
+            "keyframes": 91
+          },
+          {
+            "path": "slots.stars_00000.attachment",
+            "keyframes": 80
+          },
+          {
+            "path": "bones.fan_left.rotate",
+            "keyframes": 13
+          },
+          {
+            "path": "bones.fan_left2.rotate",
+            "keyframes": 13
+          },
+          {
+            "path": "deform.default.rays.rays_free",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "fan_left",
+          "fan_left2"
+        ],
+        "animatedSlots": [
+          "rays",
+          "stars_0",
+          "stars_00000"
+        ],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 5,
+      "slots": 3,
+      "attachments": 33,
+      "meshAttachments": 1,
+      "meshUvPairs": 4,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "rays_free",
+      "file": "pieces/rays-free-ba1cb95d.png",
+      "page": "suru_freegame_2.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "0, 236",
+        "size": "516, 285",
+        "orig": "516, 285",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "stars_00000",
+      "file": "pieces/stars-00000-03395fd1.png",
+      "page": "suru_freegame_2.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1377, 14",
+        "size": "172, 344",
+        "orig": "198, 500",
+        "offset": "26, 15",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "stars_00002",
+      "file": "pieces/stars-00002-2d0fc174.png",
+      "page": "suru_freegame_2.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1487, 392",
+        "size": "198, 360",
+        "orig": "198, 500",
+        "offset": "0, 140",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "stars_00004",
+      "file": "pieces/stars-00004-51e066b6.png",
+      "page": "suru_freegame_2.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1377, 188",
+        "size": "198, 362",
+        "orig": "198, 500",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "stars_00006",
+      "file": "pieces/stars-00006-afbef7e5.png",
+      "page": "suru_freegame_2.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1287, 388",
+        "size": "198, 364",
+        "orig": "198, 500",
+        "offset": "0, 136",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "stars_00008",
+      "file": "pieces/stars-00008-d0a702e8.png",
+      "page": "suru_freegame_2.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "782, 5",
+        "size": "198, 366",
+        "orig": "198, 500",
+        "offset": "0, 134",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "stars_00010",
+      "file": "pieces/stars-00010-d9d05382.png",
+      "page": "suru_freegame_2.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "582, 3",
+        "size": "198, 368",
+        "orig": "198, 500",
+        "offset": "0, 132",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "stars_00012",
+      "file": "pieces/stars-00012-64d3d592.png",
+      "page": "suru_freegame_2.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "382, 0",
+        "size": "198, 370",
+        "orig": "198, 500",
+        "offset": "0, 130",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "stars_00014",
+      "file": "pieces/stars-00014-5da7ff5d.png",
+      "page": "suru_freegame_2.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "982, 0",
+        "size": "194, 372",
+        "orig": "198, 500",
+        "offset": "0, 128",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "stars_00016",
+      "file": "pieces/stars-00016-e2461579.png",
+      "page": "suru_freegame_2.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1178, 2",
+        "size": "197, 373",
+        "orig": "198, 500",
+        "offset": "0, 127",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "stars_00018",
+      "file": "pieces/stars-00018-f0b00a9b.png",
+      "page": "suru_freegame_2.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1087, 377",
+        "size": "198, 375",
+        "orig": "198, 500",
+        "offset": "0, 125",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "stars_00020",
+      "file": "pieces/stars-00020-b50b9d05.png",
+      "page": "suru_freegame_2.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "887, 374",
+        "size": "198, 378",
+        "orig": "198, 500",
+        "offset": "0, 122",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "stars_00022",
+      "file": "pieces/stars-00022-8763d5aa.png",
+      "page": "suru_freegame_2.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "0, 36",
+        "size": "198, 380",
+        "orig": "198, 500",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "stars_00024",
+      "file": "pieces/stars-00024-bcaf399d.png",
+      "page": "suru_freegame_2.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "287, 372",
+        "size": "198, 380",
+        "orig": "198, 500",
+        "offset": "0, 120",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "stars_00026",
+      "file": "pieces/stars-00026-507bc675.png",
+      "page": "suru_freegame_2.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "487, 373",
+        "size": "198, 379",
+        "orig": "198, 500",
+        "offset": "0, 118",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "stars_00028",
+      "file": "pieces/stars-00028-ee8c65dd.png",
+      "page": "suru_freegame_2.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "687, 373",
+        "size": "198, 379",
+        "orig": "198, 500",
+        "offset": "0, 118",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "stars_00030",
+      "file": "pieces/stars-00030-f2e19841.png",
+      "page": "suru_freegame_2.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1377, 14",
+        "size": "172, 344",
+        "orig": "198, 500",
+        "offset": "26, 15",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

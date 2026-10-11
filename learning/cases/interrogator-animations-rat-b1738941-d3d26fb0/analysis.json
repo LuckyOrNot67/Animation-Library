@@ -1,0 +1,1080 @@
+{
+  "id": "interrogator-animations-rat-b1738941-d3d26fb0",
+  "collection": "library",
+  "name": "rat",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/interrogator/animations/rat-b1738941",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 15,
+    "slots": 15,
+    "attachments": 15,
+    "meshAttachments": 13,
+    "meshUvPairs": 1627,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 870352,
+    "rgbaBytesEstimate": 3481408,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 11,
+  "actions": [
+    {
+      "name": "leave",
+      "duration": 0.34,
+      "keyframes": 2,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "bones.root.translate",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "root"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "peek",
+      "duration": 5.8,
+      "keyframes": 1176,
+      "curvedKeys": 352,
+      "channels": [
+        {
+          "path": "slots.eye_l_lower.alpha",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.eye_l_upper.alpha",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.eye_r_lower.alpha",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.eye_r_upper.alpha",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.body.translate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.hand_l.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.hand_r.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.head.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.nose.translate",
+          "keyframes": 349
+        },
+        {
+          "path": "bones.ear_l.rotate",
+          "keyframes": 175
+        },
+        {
+          "path": "bones.ear_r.rotate",
+          "keyframes": 175
+        },
+        {
+          "path": "bones.tail_mid.rotate",
+          "keyframes": 175
+        },
+        {
+          "path": "bones.tail_tip.rotate",
+          "keyframes": 175
+        },
+        {
+          "path": "bones.eye_l_pupil.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.eye_r_pupil.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.root.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "attachments.default.eye_l_lower.eye_l_lower.deform",
+          "keyframes": 10
+        },
+        {
+          "path": "attachments.default.eye_l_upper.eye_l_upper.deform",
+          "keyframes": 10
+        },
+        {
+          "path": "attachments.default.eye_r_lower.eye_r_lower.deform",
+          "keyframes": 10
+        },
+        {
+          "path": "attachments.default.eye_r_upper.eye_r_upper.deform",
+          "keyframes": 10
+        }
+      ],
+      "animatedBones": [
+        "body",
+        "hand_l",
+        "hand_r",
+        "head",
+        "nose",
+        "ear_l",
+        "ear_r",
+        "tail_mid",
+        "tail_tip",
+        "eye_l_pupil",
+        "eye_r_pupil",
+        "root"
+      ],
+      "animatedSlots": [
+        "eye_l_lower",
+        "eye_l_upper",
+        "eye_r_lower",
+        "eye_r_upper"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/interrogator-animations-rat-b1738941-d3d26fb0/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "body",
+        "parent": "root",
+        "x": 20,
+        "y": 80,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "head",
+        "parent": "body",
+        "x": -20,
+        "y": 150,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "nose",
+        "parent": "head",
+        "x": -125,
+        "y": -90,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ear_l",
+        "parent": "head",
+        "x": -105,
+        "y": 100,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ear_r",
+        "parent": "head",
+        "x": 148,
+        "y": 99,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "hand_l",
+        "parent": "root",
+        "x": -120,
+        "y": 0,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "hand_r",
+        "parent": "root",
+        "x": 125,
+        "y": 0,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tail_base",
+        "parent": "body",
+        "x": 80,
+        "y": -125,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tail_mid",
+        "parent": "tail_base",
+        "x": 135,
+        "y": -5,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tail_tip",
+        "parent": "tail_mid",
+        "x": 155,
+        "y": -110,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "eye_l",
+        "parent": "head",
+        "x": -57,
+        "y": 39,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "eye_l_pupil",
+        "parent": "eye_l",
+        "x": 0,
+        "y": 0,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "eye_r",
+        "parent": "head",
+        "x": 30,
+        "y": 29,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "eye_r_pupil",
+        "parent": "eye_r",
+        "x": 0,
+        "y": 0,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "tail",
+        "bone": "root",
+        "setupAttachment": "tail",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "body",
+        "bone": "root",
+        "setupAttachment": "body",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ear_l",
+        "bone": "root",
+        "setupAttachment": "ear_l",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ear_r",
+        "bone": "root",
+        "setupAttachment": "ear_r",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "hand_l",
+        "bone": "root",
+        "setupAttachment": "hand_l",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "hand_r",
+        "bone": "root",
+        "setupAttachment": "hand_r",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "head",
+        "bone": "root",
+        "setupAttachment": "head",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "eye_l_clip",
+        "bone": "eye_l",
+        "setupAttachment": "eye_l_clip",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "eye_l_pupil",
+        "bone": "root",
+        "setupAttachment": "eye_l_pupil",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "eye_l_upper",
+        "bone": "eye_l",
+        "setupAttachment": "eye_l_upper",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "eye_l_lower",
+        "bone": "eye_l",
+        "setupAttachment": "eye_l_lower",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "eye_r_clip",
+        "bone": "eye_r",
+        "setupAttachment": "eye_r_clip",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "eye_r_pupil",
+        "bone": "root",
+        "setupAttachment": "eye_r_pupil",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "eye_r_upper",
+        "bone": "eye_r",
+        "setupAttachment": "eye_r_upper",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "eye_r_lower",
+        "bone": "eye_r",
+        "setupAttachment": "eye_r_lower",
+        "blend": "normal",
+        "color": "ffffff00"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "body",
+        "name": "body",
+        "region": "body",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 406,
+          "height": 410
+        },
+        "mesh": {
+          "uvPairs": 117,
+          "vertexNumbers": 793,
+          "triangles": 192,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ear_l",
+        "name": "ear_l",
+        "region": "ear_l",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 262
+        },
+        "mesh": {
+          "uvPairs": 117,
+          "vertexNumbers": 585,
+          "triangles": 192,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ear_r",
+        "name": "ear_r",
+        "region": "ear_r",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 204,
+          "height": 265
+        },
+        "mesh": {
+          "uvPairs": 117,
+          "vertexNumbers": 585,
+          "triangles": 192,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "eye_l_clip",
+        "name": "eye_l_clip",
+        "region": "eye_l_clip",
+        "type": "clipping",
+        "bone": "eye_l",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "eye_l_lower",
+        "name": "eye_l_lower",
+        "region": "lid_l",
+        "type": "mesh",
+        "bone": "eye_l",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 167,
+          "height": 145
+        },
+        "mesh": {
+          "uvPairs": 85,
+          "vertexNumbers": 170,
+          "triangles": 128,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "eye_l_pupil",
+        "name": "eye_l_pupil",
+        "region": "pupil_l",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 66,
+          "height": 106
+        },
+        "mesh": {
+          "uvPairs": 9,
+          "vertexNumbers": 45,
+          "triangles": 8,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "eye_l_upper",
+        "name": "eye_l_upper",
+        "region": "lid_l",
+        "type": "mesh",
+        "bone": "eye_l",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 167,
+          "height": 145
+        },
+        "mesh": {
+          "uvPairs": 85,
+          "vertexNumbers": 170,
+          "triangles": 128,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "eye_r_clip",
+        "name": "eye_r_clip",
+        "region": "eye_r_clip",
+        "type": "clipping",
+        "bone": "eye_r",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "eye_r_lower",
+        "name": "eye_r_lower",
+        "region": "lid_r",
+        "type": "mesh",
+        "bone": "eye_r",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 169,
+          "height": 145
+        },
+        "mesh": {
+          "uvPairs": 85,
+          "vertexNumbers": 170,
+          "triangles": 128,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "eye_r_pupil",
+        "name": "eye_r_pupil",
+        "region": "pupil_r",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 66,
+          "height": 107
+        },
+        "mesh": {
+          "uvPairs": 9,
+          "vertexNumbers": 45,
+          "triangles": 8,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "eye_r_upper",
+        "name": "eye_r_upper",
+        "region": "lid_r",
+        "type": "mesh",
+        "bone": "eye_r",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 169,
+          "height": 145
+        },
+        "mesh": {
+          "uvPairs": 85,
+          "vertexNumbers": 170,
+          "triangles": 128,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "hand_l",
+        "name": "hand_l",
+        "region": "hand_l",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 199,
+          "height": 255
+        },
+        "mesh": {
+          "uvPairs": 117,
+          "vertexNumbers": 585,
+          "triangles": 192,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "hand_r",
+        "name": "hand_r",
+        "region": "hand_r",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 188,
+          "height": 262
+        },
+        "mesh": {
+          "uvPairs": 117,
+          "vertexNumbers": 585,
+          "triangles": 192,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "head",
+        "name": "head",
+        "region": "head",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 522,
+          "height": 438
+        },
+        "mesh": {
+          "uvPairs": 459,
+          "vertexNumbers": 2671,
+          "triangles": 832,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "tail",
+        "name": "tail",
+        "region": "tail",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 467,
+          "height": 290
+        },
+        "mesh": {
+          "uvPairs": 225,
+          "vertexNumbers": 1881,
+          "triangles": 384,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "leave",
+        "duration": 0.34,
+        "keyframes": 2,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "bones.root.translate",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "root"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "peek",
+        "duration": 5.8,
+        "keyframes": 1176,
+        "curvedKeys": 352,
+        "channels": [
+          {
+            "path": "slots.eye_l_lower.alpha",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.eye_l_upper.alpha",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.eye_r_lower.alpha",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.eye_r_upper.alpha",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.body.translate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.hand_l.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.hand_r.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.head.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.nose.translate",
+            "keyframes": 349
+          },
+          {
+            "path": "bones.ear_l.rotate",
+            "keyframes": 175
+          },
+          {
+            "path": "bones.ear_r.rotate",
+            "keyframes": 175
+          },
+          {
+            "path": "bones.tail_mid.rotate",
+            "keyframes": 175
+          },
+          {
+            "path": "bones.tail_tip.rotate",
+            "keyframes": 175
+          },
+          {
+            "path": "bones.eye_l_pupil.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.eye_r_pupil.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.root.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "attachments.default.eye_l_lower.eye_l_lower.deform",
+            "keyframes": 10
+          },
+          {
+            "path": "attachments.default.eye_l_upper.eye_l_upper.deform",
+            "keyframes": 10
+          },
+          {
+            "path": "attachments.default.eye_r_lower.eye_r_lower.deform",
+            "keyframes": 10
+          },
+          {
+            "path": "attachments.default.eye_r_upper.eye_r_upper.deform",
+            "keyframes": 10
+          }
+        ],
+        "animatedBones": [
+          "body",
+          "hand_l",
+          "hand_r",
+          "head",
+          "nose",
+          "ear_l",
+          "ear_r",
+          "tail_mid",
+          "tail_tip",
+          "eye_l_pupil",
+          "eye_r_pupil",
+          "root"
+        ],
+        "animatedSlots": [
+          "eye_l_lower",
+          "eye_l_upper",
+          "eye_r_lower",
+          "eye_r_upper"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 15,
+      "slots": 15,
+      "attachments": 15,
+      "meshAttachments": 13,
+      "meshUvPairs": 1627,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "body",
+      "file": "pieces/body-3b63ceb3.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "2,216,406,410",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ear_l",
+      "file": "pieces/ear-l-be8b3b9b.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "2,2,212,262",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ear_r",
+      "file": "pieces/ear-r-3de34e24.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "266,10,204,265",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "hand_l",
+      "file": "pieces/hand-l-6939094e.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "561,204,199,255",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "hand_r",
+      "file": "pieces/hand-r-b104647c.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "533,405,188,262",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "head",
+      "file": "pieces/head-c906d07f.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "2,624,522,438"
+      }
+    },
+    {
+      "region": "lid_l",
+      "file": "pieces/lid-l-3fac9d5e.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "533,35,167,145",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "lid_r",
+      "file": "pieces/lid-r-1d3e01dd.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "414,234,169,145",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pupil_l",
+      "file": "pieces/pupil-l-93294a39.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "414,488,66,106",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pupil_r",
+      "file": "pieces/pupil-r-2aea75ea.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "414,556,66,107",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "tail",
+      "file": "pieces/tail-a669db1c.png",
+      "page": "rat.png",
+      "properties": {
+        "bounds": "526,595,467,290",
+        "rotate": "90"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

@@ -1,0 +1,6761 @@
+{
+  "id": "interrogator-animations-squid-d1eeb085-1966d245",
+  "collection": "library",
+  "name": "squid",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/interrogator/animations/squid-d1eeb085",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 78,
+    "slots": 34,
+    "attachments": 102,
+    "meshAttachments": 11,
+    "meshUvPairs": 319,
+    "constraints": {
+      "ik": 1,
+      "transform": 4,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 4194304,
+    "rgbaBytesEstimate": 16777216,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 56,
+  "actions": [
+    {
+      "name": "anticipation",
+      "duration": 2.3333,
+      "keyframes": 183,
+      "curvedKeys": 129,
+      "channels": [
+        {
+          "path": "slots.squideye_l_d.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.squideye_l_u.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.squideye_r_d.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.squideye_r_u.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone4.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.bone6.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_bone3.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_bone5.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base13.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base19.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.squid_base2.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base3.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base4.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base5.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base6.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base7.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base8.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base9.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base10.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base11.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base12.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_head.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_head.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_base21.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base22.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base23.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base24.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base25.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base26.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base27.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base28.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base29.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base16.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_base17.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.pupil_l2.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.pupil_l2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.pupil_r2.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.pupil_r2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.pupil_r.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.pupil_l.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.squid_base20.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_head2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.squid_head3.rotate",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "bone4",
+        "bone6",
+        "squid_bone3",
+        "squid_bone5",
+        "squid_base13",
+        "squid_base19",
+        "squid_base2",
+        "squid_base3",
+        "squid_base4",
+        "squid_base5",
+        "squid_base6",
+        "squid_base7",
+        "squid_base8",
+        "squid_base9",
+        "squid_base10",
+        "squid_base11",
+        "squid_base12",
+        "squid_head",
+        "squid_base21",
+        "squid_base22",
+        "squid_base23",
+        "squid_base24",
+        "squid_base25",
+        "squid_base26",
+        "squid_base27",
+        "squid_base28",
+        "squid_base29",
+        "squid_base16",
+        "squid_base17",
+        "pupil_l2",
+        "pupil_r2",
+        "pupil_r",
+        "pupil_l",
+        "squid_base20",
+        "squid_head2",
+        "squid_head3"
+      ],
+      "animatedSlots": [
+        "squideye_l_d",
+        "squideye_l_u",
+        "squideye_r_d",
+        "squideye_r_u"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "anticipation"
+      ]
+    },
+    {
+      "name": "anticipation_idle",
+      "duration": 2,
+      "keyframes": 58,
+      "curvedKeys": 39,
+      "channels": [
+        {
+          "path": "bones.squid_base19.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_base13.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base2.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base3.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base4.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base5.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base6.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base7.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base8.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base9.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base10.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base11.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base12.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base21.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base22.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base23.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base24.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base25.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base26.rotate",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "squid_base19",
+        "bone4",
+        "bone6",
+        "squid_bone3",
+        "squid_bone5",
+        "squid_base13",
+        "squid_base2",
+        "squid_base3",
+        "squid_base4",
+        "squid_base5",
+        "squid_base6",
+        "squid_base7",
+        "squid_base8",
+        "squid_base9",
+        "squid_base10",
+        "squid_base11",
+        "squid_base12",
+        "squid_head",
+        "squid_base21",
+        "squid_base22",
+        "squid_base23",
+        "squid_base24",
+        "squid_base25",
+        "squid_base26",
+        "squid_base27",
+        "squid_base28",
+        "squid_base29",
+        "squid_base16",
+        "squid_base17",
+        "pupil_l2",
+        "pupil_r2",
+        "pupil_r",
+        "pupil_l",
+        "squid_base20",
+        "squid_head2",
+        "squid_head3"
+      ],
+      "animatedSlots": [
+        "squideye_l_d",
+        "squideye_l_u",
+        "squideye_r_d",
+        "squideye_r_u"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle",
+        "anticipation"
+      ]
+    },
+    {
+      "name": "attack_1",
+      "duration": 1.2333,
+      "keyframes": 296,
+      "curvedKeys": 142,
+      "channels": [
+        {
+          "path": "slots.fx.attachment",
+          "keyframes": 12
+        },
+        {
+          "path": "slots.fx2.attachment",
+          "keyframes": 17
+        },
+        {
+          "path": "slots.fx3.attachment",
+          "keyframes": 17
+        },
+        {
+          "path": "slots.squid3.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.squideye_l_d.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.squideye_l_u.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.squideye_r_d.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.squideye_r_u.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone4.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.bone6.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_bone3.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.squid_bone5.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.squid_base13.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base13.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base13.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base19.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.squid_base2.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base3.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base4.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base5.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base6.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base7.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base8.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base9.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base10.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base11.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base12.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_head.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base21.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base22.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base23.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_base24.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.squid_base25.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.squid_base26.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.squid_base27.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base28.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base29.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base16.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base17.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.pupil_l2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.pupil_l2.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.pupil_r2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.pupil_r2.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.pupil_r.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.pupil_l.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_head2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_head2.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_head3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_head3.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.fx.rotate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.fx.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.fx.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.fx2.rotate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.fx2.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.fx2.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.fx3.rotate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.fx3.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.fx3.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.squid_base20.rotate",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "bone4",
+        "bone6",
+        "squid_bone3",
+        "squid_bone5",
+        "squid_base13",
+        "squid_base19",
+        "squid_base2",
+        "squid_base3",
+        "squid_base4",
+        "squid_base5",
+        "squid_base6",
+        "squid_base7",
+        "squid_base8",
+        "squid_base9",
+        "squid_base10",
+        "squid_base11",
+        "squid_base12",
+        "squid_head",
+        "squid_base21",
+        "squid_base22",
+        "squid_base23",
+        "squid_base24",
+        "squid_base25",
+        "squid_base26",
+        "squid_base27",
+        "squid_base28",
+        "squid_base29",
+        "squid_base16",
+        "squid_base17",
+        "pupil_l2",
+        "pupil_r2",
+        "pupil_r",
+        "pupil_l",
+        "squid_head2",
+        "squid_head3",
+        "fx",
+        "fx2",
+        "fx3",
+        "squid_base20"
+      ],
+      "animatedSlots": [
+        "fx",
+        "fx2",
+        "fx3",
+        "squid3",
+        "squideye_l_d",
+        "squideye_l_u",
+        "squideye_r_d",
+        "squideye_r_u"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "character"
+      ]
+    },
+    {
+      "name": "attack_2",
+      "duration": 1.2333,
+      "keyframes": 280,
+      "curvedKeys": 139,
+      "channels": [
+        {
+          "path": "slots.fx.attachment",
+          "keyframes": 12
+        },
+        {
+          "path": "slots.fx2.attachment",
+          "keyframes": 17
+        },
+        {
+          "path": "slots.fx3.attachment",
+          "keyframes": 17
+        },
+        {
+          "path": "slots.squideye_l_d.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.squideye_l_u.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.squideye_r_d.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.squideye_r_u.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone4.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.bone6.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_bone3.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.squid_bone5.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.squid_base13.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base13.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base13.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base19.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.squid_base2.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base3.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base4.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base5.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base6.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base7.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base8.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base9.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base10.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base11.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base12.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_head.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_base21.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_base22.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_base23.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base24.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.squid_base25.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.squid_base27.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_base28.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_base29.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.squid_base16.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base17.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.pupil_l2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.pupil_l2.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.pupil_r2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.pupil_r2.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.pupil_r.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.pupil_l.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_head2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_head2.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_head3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_head3.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.fx.rotate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.fx.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.fx.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.fx2.rotate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.fx2.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.fx2.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.fx3.rotate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.fx3.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.fx3.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.squid_base20.rotate",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "bone4",
+        "bone6",
+        "squid_bone3",
+        "squid_bone5",
+        "squid_base13",
+        "squid_base19",
+        "squid_base2",
+        "squid_base3",
+        "squid_base4",
+        "squid_base5",
+        "squid_base6",
+        "squid_base7",
+        "squid_base8",
+        "squid_base9",
+        "squid_base10",
+        "squid_base11",
+        "squid_base12",
+        "squid_head",
+        "squid_base21",
+        "squid_base22",
+        "squid_base23",
+        "squid_base24",
+        "squid_base25",
+        "squid_base26",
+        "squid_base27",
+        "squid_base28",
+        "squid_base29",
+        "squid_base16",
+        "squid_base17",
+        "pupil_l2",
+        "pupil_r2",
+        "pupil_r",
+        "pupil_l",
+        "squid_head2",
+        "squid_head3",
+        "fx",
+        "fx2",
+        "fx3",
+        "squid_base20"
+      ],
+      "animatedSlots": [
+        "fx",
+        "fx2",
+        "fx3",
+        "squideye_l_d",
+        "squideye_l_u",
+        "squideye_r_d",
+        "squideye_r_u"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "character"
+      ]
+    },
+    {
+      "name": "hit",
+      "duration": 2.5,
+      "keyframes": 434,
+      "curvedKeys": 198,
+      "channels": [
+        {
+          "path": "slots.cartoon_star.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.cartoon_star2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.cartoon_star3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.cartoon_star4.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.cartoon_star5.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.cartoon_star6.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.cartoon_star7.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.cartoon_star8.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.cartoon_star9.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.cartoon_star10.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.cartoon_star11.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.cartoon_star12.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.circle2_pma.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.circle2_pma2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.circle2_pma3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.circle2_pma4.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Explosion.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Explosion.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.squideye_l_d.attachment",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.squideye_l_u.attachment",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.squideye_r_d.attachment",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.squideye_r_u.attachment",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bone4.translate",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.bone6.translate",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.squid_bone3.translate",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.squid_bone5.translate",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.squid_base13.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_base13.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.squid_base19.translate",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.squid_base2.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_base3.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_base4.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_base5.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_base6.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_base7.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_base8.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_base9.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_base10.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_base11.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_base12.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_head.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_head.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_head.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base21.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base22.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_base23.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_base24.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_base25.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_base26.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_base27.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base28.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base29.rotate",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.squid_base16.scale",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.squid_base17.scale",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.pupil_l2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.pupil_l2.scale",
+          "keyframes": 15
+        },
+        {
+          "path": "bones.pupil_r2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.pupil_r2.scale",
+          "keyframes": 15
+        },
+        {
+          "path": "bones.pupil_r.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.pupil_l.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_base20.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.squid_head2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_head2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.squid_head3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_head3.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Explosion.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.kolo_main.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.kolo.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.kolo2.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.kolo_main2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "drawOrder",
+          "keyframes": 6
+        }
+      ],
+      "animatedBones": [
+        "bone4",
+        "bone6",
+        "squid_bone3",
+        "squid_bone5",
+        "squid_base13",
+        "squid_base19",
+        "squid_base2",
+        "squid_base3",
+        "squid_base4",
+        "squid_base5",
+        "squid_base6",
+        "squid_base7",
+        "squid_base8",
+        "squid_base9",
+        "squid_base10",
+        "squid_base11",
+        "squid_base12",
+        "squid_head",
+        "squid_base21",
+        "squid_base22",
+        "squid_base23",
+        "squid_base24",
+        "squid_base25",
+        "squid_base26",
+        "squid_base27",
+        "squid_base28",
+        "squid_base29",
+        "squid_base16",
+        "squid_base17",
+        "pupil_l2",
+        "pupil_r2",
+        "pupil_r",
+        "pupil_l",
+        "squid_base20",
+        "squid_head2",
+        "squid_head3",
+        "Explosion",
+        "kolo_main",
+        "kolo",
+        "kolo2",
+        "kolo_main2"
+      ],
+      "animatedSlots": [
+        "cartoon_star",
+        "cartoon_star2",
+        "cartoon_star3",
+        "cartoon_star4",
+        "cartoon_star5",
+        "cartoon_star6",
+        "cartoon_star7",
+        "cartoon_star8",
+        "cartoon_star9",
+        "cartoon_star10",
+        "cartoon_star11",
+        "cartoon_star12",
+        "circle2_pma",
+        "circle2_pma2",
+        "circle2_pma3",
+        "circle2_pma4",
+        "Explosion",
+        "squideye_l_d",
+        "squideye_l_u",
+        "squideye_r_d",
+        "squideye_r_u"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": true,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "idle",
+      "duration": 2,
+      "keyframes": 48,
+      "curvedKeys": 35,
+      "channels": [
+        {
+          "path": "bones.squid_base13.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base19.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_base2.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_base4.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_base5.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_base6.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_base7.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base8.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.squid_base9.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_base10.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_base11.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.squid_base12.rotate",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "bone4",
+        "bone6",
+        "squid_bone3",
+        "squid_bone5",
+        "squid_base13",
+        "squid_base19",
+        "squid_base2",
+        "squid_base3",
+        "squid_base4",
+        "squid_base5",
+        "squid_base6",
+        "squid_base7",
+        "squid_base8",
+        "squid_base9",
+        "squid_base10",
+        "squid_base11",
+        "squid_base12"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "idle_eyes",
+      "duration": 12,
+      "keyframes": 24,
+      "curvedKeys": 12,
+      "channels": [
+        {
+          "path": "bones.pupil_l2.translate",
+          "keyframes": 12
+        },
+        {
+          "path": "bones.pupil_r2.translate",
+          "keyframes": 12
+        }
+      ],
+      "animatedBones": [
+        "pupil_l2",
+        "pupil_r2"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/interrogator-animations-squid-d1eeb085-1966d245/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "main_squid",
+        "parent": "root",
+        "x": -1092.06,
+        "y": -658.93,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base",
+        "parent": "main_squid",
+        "x": 22.62,
+        "y": 282.15,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base2",
+        "parent": "squid_base",
+        "x": 36.71,
+        "y": -33.65,
+        "length": 84.78,
+        "rotation": -86.55,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base3",
+        "parent": "squid_base2",
+        "x": 84.78,
+        "y": 0,
+        "length": 85.31,
+        "rotation": -28.17,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base4",
+        "parent": "squid_base3",
+        "x": 85.31,
+        "y": 0,
+        "length": 62.6,
+        "rotation": 12.5,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base5",
+        "parent": "squid_base4",
+        "x": 62.6,
+        "y": 0,
+        "length": 55.89,
+        "rotation": 50.56,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base6",
+        "parent": "squid_base5",
+        "x": 55.89,
+        "y": 0,
+        "length": 47.14,
+        "rotation": 12.81,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base7",
+        "parent": "squid_base",
+        "x": 145.81,
+        "y": -11.22,
+        "length": 41.66,
+        "rotation": -68.46,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base8",
+        "parent": "squid_base7",
+        "x": 41.66,
+        "y": 0,
+        "length": 56.16,
+        "rotation": -24.66,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base9",
+        "parent": "squid_base8",
+        "x": 56.16,
+        "y": 0,
+        "length": 66.56,
+        "rotation": -2.15,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base10",
+        "parent": "squid_base9",
+        "x": 66.56,
+        "y": 0,
+        "length": 73.42,
+        "rotation": 42.94,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base11",
+        "parent": "squid_base10",
+        "x": 73.42,
+        "y": 0,
+        "length": 63.35,
+        "rotation": -4.49,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base12",
+        "parent": "squid_base11",
+        "x": 63.35,
+        "y": 0,
+        "length": 62.33,
+        "rotation": -48.35,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base13",
+        "parent": "squid_base",
+        "x": 0,
+        "y": 3.06,
+        "length": 174.66,
+        "rotation": 82.96,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_head",
+        "parent": "squid_base13",
+        "x": 243.33,
+        "y": 1.29,
+        "length": 0,
+        "rotation": -82.96,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base15",
+        "parent": "squid_head",
+        "x": -63.94,
+        "y": 119.29,
+        "length": 333.63,
+        "rotation": 115.8,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base16",
+        "parent": "squid_head",
+        "x": 6.49,
+        "y": 15.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base17",
+        "parent": "squid_head",
+        "x": 77.91,
+        "y": 26.23,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base18",
+        "parent": "squid_base13",
+        "x": 158.19,
+        "y": -39.44,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_bone",
+        "parent": "squid_base16",
+        "x": 0,
+        "y": -17.83,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_bone2",
+        "parent": "squid_base17",
+        "x": 0,
+        "y": -15.22,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base19",
+        "parent": "squid_head",
+        "x": 45.99,
+        "y": 17.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base20",
+        "parent": "squid_base13",
+        "x": 111.61,
+        "y": 46.21,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base21",
+        "parent": "squid_base20",
+        "x": 0,
+        "y": 0,
+        "length": 74.09,
+        "rotation": -131.77,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base22",
+        "parent": "squid_base21",
+        "x": 74.09,
+        "y": 0,
+        "length": 64.81,
+        "rotation": 48.43,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base23",
+        "parent": "squid_base22",
+        "x": 64.81,
+        "y": 0,
+        "length": 54.1,
+        "rotation": 23.72,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base24",
+        "parent": "squid_base23",
+        "x": 54.1,
+        "y": 0,
+        "length": 48.8,
+        "rotation": -15.73,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base25",
+        "parent": "squid_base24",
+        "x": 48.8,
+        "y": 0,
+        "length": 36.23,
+        "rotation": -41.97,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base26",
+        "parent": "squid_base25",
+        "x": 36.23,
+        "y": 0,
+        "length": 26.07,
+        "rotation": -9.31,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base27",
+        "parent": "squid_base20",
+        "x": 0.26,
+        "y": -2.13,
+        "length": 79.38,
+        "rotation": -76.72,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base28",
+        "parent": "squid_base27",
+        "x": 79.38,
+        "y": 0,
+        "length": 67.37,
+        "rotation": -5.48,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base29",
+        "parent": "squid_base28",
+        "x": 68.01,
+        "y": -1.02,
+        "length": 48.92,
+        "rotation": -68.78,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base30",
+        "parent": "squid_base13",
+        "x": 143.44,
+        "y": -60.01,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "pupil_r",
+        "parent": "squid_base17",
+        "x": 15.42,
+        "y": 8.14,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "pupil_l",
+        "parent": "squid_base16",
+        "x": 25.84,
+        "y": 8.29,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_bone3",
+        "parent": "squid_bone",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone4",
+        "parent": "squid_bone",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_bone5",
+        "parent": "squid_bone2",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone6",
+        "parent": "squid_bone2",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "pupil_l2",
+        "parent": "pupil_l",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "pupil_r2",
+        "parent": "pupil_r",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_head2",
+        "parent": "squid_base16",
+        "x": -11.37,
+        "y": 60.53,
+        "length": 43.13,
+        "rotation": 44.05,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_head3",
+        "parent": "squid_base17",
+        "x": -9.09,
+        "y": 65.65,
+        "length": 37.78,
+        "rotation": 146.52,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base31",
+        "parent": "squid_head",
+        "x": -72.66,
+        "y": 17.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "squid_base32",
+        "parent": "squid_base31",
+        "x": 0,
+        "y": 0,
+        "length": 24.81,
+        "rotation": -1.21,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Explosion",
+        "parent": "squid_head",
+        "x": 67.07,
+        "y": 91.99,
+        "length": 0,
+        "rotation": 16.67,
+        "scaleX": 0.2174,
+        "scaleY": 0.2174
+      },
+      {
+        "name": "kolo",
+        "parent": "squid_head",
+        "x": -31.54,
+        "y": 65.42,
+        "length": 0,
+        "rotation": 11.69,
+        "scaleX": 1.5972,
+        "scaleY": 0.2767
+      },
+      {
+        "name": "kolo_main",
+        "parent": "kolo",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cartoon_star",
+        "parent": "kolo_main",
+        "x": 164.39,
+        "y": -73.98,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cartoon_star2",
+        "parent": "kolo_main",
+        "x": 84.04,
+        "y": -165.1,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cartoon_star3",
+        "parent": "kolo_main",
+        "x": -110.62,
+        "y": -118.16,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cartoon_star4",
+        "parent": "kolo_main",
+        "x": -131.67,
+        "y": 133.1,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cartoon_star5",
+        "parent": "kolo_main",
+        "x": 97.91,
+        "y": 155.19,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cartoon_star6",
+        "parent": "cartoon_star5",
+        "x": 0,
+        "y": 21.39,
+        "length": 0,
+        "rotation": -40.07,
+        "scaleX": 1.2201,
+        "scaleY": 1.2201
+      },
+      {
+        "name": "cartoon_star7",
+        "parent": "cartoon_star4",
+        "x": 0,
+        "y": -22.15,
+        "length": 0,
+        "rotation": 89.39,
+        "scaleX": 0.6935,
+        "scaleY": 0.6935
+      },
+      {
+        "name": "cartoon_star8",
+        "parent": "cartoon_star3",
+        "x": 0,
+        "y": 29.79,
+        "length": 0,
+        "rotation": -66.02,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cartoon_star9",
+        "parent": "cartoon_star2",
+        "x": 0,
+        "y": -24.44,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cartoon_star10",
+        "parent": "cartoon_star",
+        "x": 0,
+        "y": 22.15,
+        "length": 0,
+        "rotation": 29.82,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cartoon_star11",
+        "parent": "kolo_main",
+        "x": -82.88,
+        "y": -167.86,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cartoon_star12",
+        "parent": "cartoon_star11",
+        "x": 0,
+        "y": 25.14,
+        "length": 0,
+        "rotation": 63.33,
+        "scaleX": 0.5678,
+        "scaleY": 0.5678
+      },
+      {
+        "name": "kolo2",
+        "parent": "squid_head",
+        "x": -31.54,
+        "y": 65.42,
+        "length": 0,
+        "rotation": -14.2,
+        "scaleX": -1.1401,
+        "scaleY": 0.1975
+      },
+      {
+        "name": "kolo_main2",
+        "parent": "kolo2",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cartoon_star13",
+        "parent": "kolo_main2",
+        "x": 164.39,
+        "y": -73.98,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.7529,
+        "scaleY": 0.7529
+      },
+      {
+        "name": "cartoon_star14",
+        "parent": "cartoon_star13",
+        "x": 0,
+        "y": 22.15,
+        "length": 0,
+        "rotation": 29.82,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cartoon_star15",
+        "parent": "kolo_main2",
+        "x": 84.04,
+        "y": -165.1,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.7529,
+        "scaleY": 0.7529
+      },
+      {
+        "name": "cartoon_star16",
+        "parent": "cartoon_star15",
+        "x": 0,
+        "y": -24.44,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cartoon_star17",
+        "parent": "kolo_main2",
+        "x": -110.62,
+        "y": -118.16,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.7529,
+        "scaleY": 0.7529
+      },
+      {
+        "name": "cartoon_star18",
+        "parent": "cartoon_star17",
+        "x": 0,
+        "y": 29.79,
+        "length": 0,
+        "rotation": -66.02,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cartoon_star19",
+        "parent": "kolo_main2",
+        "x": -131.67,
+        "y": 133.1,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.7529,
+        "scaleY": 0.7529
+      },
+      {
+        "name": "cartoon_star20",
+        "parent": "cartoon_star19",
+        "x": 0,
+        "y": -22.15,
+        "length": 0,
+        "rotation": 89.39,
+        "scaleX": 0.6935,
+        "scaleY": 0.6935
+      },
+      {
+        "name": "cartoon_star21",
+        "parent": "kolo_main2",
+        "x": 97.91,
+        "y": 155.19,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.7529,
+        "scaleY": 0.7529
+      },
+      {
+        "name": "cartoon_star22",
+        "parent": "cartoon_star21",
+        "x": 0,
+        "y": 21.39,
+        "length": 0,
+        "rotation": -40.07,
+        "scaleX": 1.2201,
+        "scaleY": 1.2201
+      },
+      {
+        "name": "cartoon_star23",
+        "parent": "kolo_main2",
+        "x": -82.88,
+        "y": -167.86,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.7529,
+        "scaleY": 0.7529
+      },
+      {
+        "name": "cartoon_star24",
+        "parent": "cartoon_star23",
+        "x": 0,
+        "y": 25.14,
+        "length": 0,
+        "rotation": 63.33,
+        "scaleX": 0.5678,
+        "scaleY": 0.5678
+      },
+      {
+        "name": "fx",
+        "parent": "main_squid",
+        "x": 355.63,
+        "y": 425.38,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -0.2854,
+        "scaleY": 0.5582
+      },
+      {
+        "name": "fx2",
+        "parent": "main_squid",
+        "x": 355.63,
+        "y": 425.38,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -0.2854,
+        "scaleY": 0.5582
+      },
+      {
+        "name": "fx3",
+        "parent": "main_squid",
+        "x": 355.63,
+        "y": 425.38,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -0.4086,
+        "scaleY": 0.7991
+      }
+    ],
+    "slots": [
+      {
+        "name": "room_background",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "photo_2026-09-20_00-57-45",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "board_empty",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "circle2_pma",
+        "bone": "kolo",
+        "setupAttachment": "circle2_pma",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "circle2_pma3",
+        "bone": "kolo2",
+        "setupAttachment": "circle2_pma",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "chair",
+        "bone": "main_squid",
+        "setupAttachment": "chair",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "squid",
+        "bone": "main_squid",
+        "setupAttachment": "squid",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "pupil_l",
+        "bone": "pupil_l2",
+        "setupAttachment": "pupil_l",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "pupil_r",
+        "bone": "pupil_r2",
+        "setupAttachment": "pupil_r",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "fx3",
+        "bone": "fx3",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "squid1",
+        "bone": "main_squid",
+        "setupAttachment": "squid1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "squid3",
+        "bone": "main_squid",
+        "setupAttachment": "squid12",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "squid2",
+        "bone": "squid_base18",
+        "setupAttachment": "squid2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "squideye_r_d",
+        "bone": "bone6",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "squideye_r_u",
+        "bone": "squid_bone5",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "squideye_l_d",
+        "bone": "bone4",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "squideye_l_u",
+        "bone": "squid_bone3",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Explosion",
+        "bone": "Explosion",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "circle2_pma2",
+        "bone": "kolo",
+        "setupAttachment": "circle2_pma",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "circle2_pma4",
+        "bone": "kolo2",
+        "setupAttachment": "circle2_pma",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "cartoon_star",
+        "bone": "cartoon_star10",
+        "setupAttachment": "cartoon_star",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "cartoon_star7",
+        "bone": "cartoon_star14",
+        "setupAttachment": "cartoon_star",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "cartoon_star2",
+        "bone": "cartoon_star9",
+        "setupAttachment": "cartoon_star",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "cartoon_star8",
+        "bone": "cartoon_star16",
+        "setupAttachment": "cartoon_star",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "cartoon_star3",
+        "bone": "cartoon_star8",
+        "setupAttachment": "cartoon_star",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "cartoon_star9",
+        "bone": "cartoon_star18",
+        "setupAttachment": "cartoon_star",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "cartoon_star6",
+        "bone": "cartoon_star12",
+        "setupAttachment": "cartoon_star",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "cartoon_star12",
+        "bone": "cartoon_star24",
+        "setupAttachment": "cartoon_star",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "cartoon_star4",
+        "bone": "cartoon_star7",
+        "setupAttachment": "cartoon_star",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "cartoon_star10",
+        "bone": "cartoon_star20",
+        "setupAttachment": "cartoon_star",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "cartoon_star5",
+        "bone": "cartoon_star6",
+        "setupAttachment": "cartoon_star",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "cartoon_star11",
+        "bone": "cartoon_star22",
+        "setupAttachment": "cartoon_star",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "fx",
+        "bone": "fx",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "fx2",
+        "bone": "fx2",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "cartoon_star",
+        "name": "cartoon_star",
+        "region": "cartoon_star",
+        "type": "region",
+        "bone": "cartoon_star10",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 54
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cartoon_star2",
+        "name": "cartoon_star",
+        "region": "cartoon_star",
+        "type": "region",
+        "bone": "cartoon_star9",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 54
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cartoon_star3",
+        "name": "cartoon_star",
+        "region": "cartoon_star",
+        "type": "region",
+        "bone": "cartoon_star8",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 54
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cartoon_star4",
+        "name": "cartoon_star",
+        "region": "cartoon_star",
+        "type": "region",
+        "bone": "cartoon_star7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 54
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cartoon_star5",
+        "name": "cartoon_star",
+        "region": "cartoon_star",
+        "type": "region",
+        "bone": "cartoon_star6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 54
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cartoon_star6",
+        "name": "cartoon_star",
+        "region": "cartoon_star",
+        "type": "region",
+        "bone": "cartoon_star12",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 54
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cartoon_star7",
+        "name": "cartoon_star",
+        "region": "cartoon_star",
+        "type": "region",
+        "bone": "cartoon_star14",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 54
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cartoon_star8",
+        "name": "cartoon_star",
+        "region": "cartoon_star",
+        "type": "region",
+        "bone": "cartoon_star16",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 54
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cartoon_star9",
+        "name": "cartoon_star",
+        "region": "cartoon_star",
+        "type": "region",
+        "bone": "cartoon_star18",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 54
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cartoon_star10",
+        "name": "cartoon_star",
+        "region": "cartoon_star",
+        "type": "region",
+        "bone": "cartoon_star20",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 54
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cartoon_star11",
+        "name": "cartoon_star",
+        "region": "cartoon_star",
+        "type": "region",
+        "bone": "cartoon_star22",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 54
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cartoon_star12",
+        "name": "cartoon_star",
+        "region": "cartoon_star",
+        "type": "region",
+        "bone": "cartoon_star24",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 54
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "chair",
+        "name": "chair",
+        "region": "chair",
+        "type": "region",
+        "bone": "main_squid",
+        "transform": {
+          "x": 0,
+          "y": 225.24,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 528,
+          "height": 698
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "circle2_pma",
+        "name": "circle2_pma",
+        "region": "circle2_pma",
+        "type": "mesh",
+        "bone": "kolo",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 128,
+          "height": 128
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "circle2_pma2",
+        "name": "circle2_pma",
+        "region": "circle2_pma",
+        "type": "mesh",
+        "bone": "kolo",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 128,
+          "height": 128
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "circle2_pma3",
+        "name": "circle2_pma",
+        "region": "circle2_pma",
+        "type": "mesh",
+        "bone": "kolo2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 128,
+          "height": 128
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "circle2_pma4",
+        "name": "circle2_pma",
+        "region": "circle2_pma",
+        "type": "mesh",
+        "bone": "kolo2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 128,
+          "height": 128
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Explosion",
+        "name": "Explosion",
+        "region": "Explosion",
+        "type": "region",
+        "bone": "Explosion",
+        "transform": {
+          "x": -7.02,
+          "y": 11.04,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 600,
+          "height": 582
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx",
+        "name": "fx/fx_0000",
+        "region": "fx/fx_0000",
+        "type": "region",
+        "bone": "fx",
+        "transform": {
+          "x": 510.15,
+          "y": 15.61,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1071,
+          "height": 370
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx",
+        "name": "fx/fx_0001",
+        "region": "fx/fx_0001",
+        "type": "region",
+        "bone": "fx",
+        "transform": {
+          "x": 510.15,
+          "y": 15.61,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1071,
+          "height": 370
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx",
+        "name": "fx/fx_0002",
+        "region": "fx/fx_0002",
+        "type": "region",
+        "bone": "fx",
+        "transform": {
+          "x": 510.15,
+          "y": 15.61,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1071,
+          "height": 370
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx",
+        "name": "fx/fx_0003",
+        "region": "fx/fx_0003",
+        "type": "region",
+        "bone": "fx",
+        "transform": {
+          "x": 510.15,
+          "y": 15.61,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1071,
+          "height": 370
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx",
+        "name": "fx/fx_0004",
+        "region": "fx/fx_0004",
+        "type": "region",
+        "bone": "fx",
+        "transform": {
+          "x": 510.15,
+          "y": 15.61,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1071,
+          "height": 370
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx",
+        "name": "fx/fx_0005",
+        "region": "fx/fx_0005",
+        "type": "region",
+        "bone": "fx",
+        "transform": {
+          "x": 510.15,
+          "y": 15.61,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1071,
+          "height": 370
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx",
+        "name": "fx/fx_0006",
+        "region": "fx/fx_0006",
+        "type": "region",
+        "bone": "fx",
+        "transform": {
+          "x": 510.15,
+          "y": 15.61,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1071,
+          "height": 370
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx",
+        "name": "fx/fx_0007",
+        "region": "fx/fx_0007",
+        "type": "region",
+        "bone": "fx",
+        "transform": {
+          "x": 510.15,
+          "y": 15.61,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1071,
+          "height": 370
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx",
+        "name": "fx/fx_0008",
+        "region": "fx/fx_0008",
+        "type": "region",
+        "bone": "fx",
+        "transform": {
+          "x": 510.15,
+          "y": 15.61,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1071,
+          "height": 370
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx",
+        "name": "fx/fx_0009",
+        "region": "fx/fx_0009",
+        "type": "region",
+        "bone": "fx",
+        "transform": {
+          "x": 510.15,
+          "y": 15.61,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1071,
+          "height": 370
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0000",
+        "region": "fx2/fx2_0000",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0001",
+        "region": "fx2/fx2_0001",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0002",
+        "region": "fx2/fx2_0002",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0003",
+        "region": "fx2/fx2_0003",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0004",
+        "region": "fx2/fx2_0004",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0005",
+        "region": "fx2/fx2_0005",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0006",
+        "region": "fx2/fx2_0006",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0007",
+        "region": "fx2/fx2_0007",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0008",
+        "region": "fx2/fx2_0008",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0009",
+        "region": "fx2/fx2_0009",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0010",
+        "region": "fx2/fx2_0010",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0011",
+        "region": "fx2/fx2_0011",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0012",
+        "region": "fx2/fx2_0012",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0013",
+        "region": "fx2/fx2_0013",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0014",
+        "region": "fx2/fx2_0014",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0015",
+        "region": "fx2/fx2_0015",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0016",
+        "region": "fx2/fx2_0016",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0017",
+        "region": "fx2/fx2_0017",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0018",
+        "region": "fx2/fx2_0018",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0019",
+        "region": "fx2/fx2_0019",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0020",
+        "region": "fx2/fx2_0020",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0021",
+        "region": "fx2/fx2_0021",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0022",
+        "region": "fx2/fx2_0022",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0023",
+        "region": "fx2/fx2_0023",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0024",
+        "region": "fx2/fx2_0024",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0025",
+        "region": "fx2/fx2_0025",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0026",
+        "region": "fx2/fx2_0026",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0027",
+        "region": "fx2/fx2_0027",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0028",
+        "region": "fx2/fx2_0028",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0029",
+        "region": "fx2/fx2_0029",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0030",
+        "region": "fx2/fx2_0030",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx2",
+        "name": "fx2/fx2_0031",
+        "region": "fx2/fx2_0031",
+        "type": "region",
+        "bone": "fx2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0000",
+        "region": "fx2/fx2_0000",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0001",
+        "region": "fx2/fx2_0001",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0002",
+        "region": "fx2/fx2_0002",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0003",
+        "region": "fx2/fx2_0003",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0004",
+        "region": "fx2/fx2_0004",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0005",
+        "region": "fx2/fx2_0005",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0006",
+        "region": "fx2/fx2_0006",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0007",
+        "region": "fx2/fx2_0007",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0008",
+        "region": "fx2/fx2_0008",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0009",
+        "region": "fx2/fx2_0009",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0010",
+        "region": "fx2/fx2_0010",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0011",
+        "region": "fx2/fx2_0011",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0012",
+        "region": "fx2/fx2_0012",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0013",
+        "region": "fx2/fx2_0013",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0014",
+        "region": "fx2/fx2_0014",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0015",
+        "region": "fx2/fx2_0015",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0016",
+        "region": "fx2/fx2_0016",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0017",
+        "region": "fx2/fx2_0017",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0018",
+        "region": "fx2/fx2_0018",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0019",
+        "region": "fx2/fx2_0019",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0020",
+        "region": "fx2/fx2_0020",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0021",
+        "region": "fx2/fx2_0021",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0022",
+        "region": "fx2/fx2_0022",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0023",
+        "region": "fx2/fx2_0023",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0024",
+        "region": "fx2/fx2_0024",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0025",
+        "region": "fx2/fx2_0025",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0026",
+        "region": "fx2/fx2_0026",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0027",
+        "region": "fx2/fx2_0027",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0028",
+        "region": "fx2/fx2_0028",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0029",
+        "region": "fx2/fx2_0029",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0030",
+        "region": "fx2/fx2_0030",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx3",
+        "name": "fx2/fx2_0031",
+        "region": "fx2/fx2_0031",
+        "type": "region",
+        "bone": "fx3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 700,
+          "height": 500
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_l",
+        "name": "pupil_l",
+        "region": "pupil_l",
+        "type": "region",
+        "bone": "pupil_l2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 25,
+          "height": 50
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_r",
+        "name": "pupil_r",
+        "region": "pupil_r",
+        "type": "region",
+        "bone": "pupil_r2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 25,
+          "height": 50
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "squid",
+        "name": "squid",
+        "region": "squid",
+        "type": "mesh",
+        "bone": "main_squid",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 590,
+          "height": 1044
+        },
+        "mesh": {
+          "uvPairs": 131,
+          "vertexNumbers": 1299,
+          "triangles": 170,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "squid1",
+        "name": "squid1",
+        "region": "squid1",
+        "type": "mesh",
+        "bone": "main_squid",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 204,
+          "height": 311
+        },
+        "mesh": {
+          "uvPairs": 53,
+          "vertexNumbers": 461,
+          "triangles": 51,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "squid2",
+        "name": "squid2",
+        "region": "squid2",
+        "type": "region",
+        "bone": "squid_base18",
+        "transform": {
+          "x": -1.39,
+          "y": 2.01,
+          "rotation": -82.96,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 96,
+          "height": 70
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "squid3",
+        "name": "squid12",
+        "region": "squid12",
+        "type": "mesh",
+        "bone": "main_squid",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 204,
+          "height": 311
+        },
+        "mesh": {
+          "uvPairs": 53,
+          "vertexNumbers": 457,
+          "triangles": 51,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "squideye_l_d",
+        "name": "squideye_l_d",
+        "region": "squideye_l_d",
+        "type": "mesh",
+        "bone": "bone4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 85,
+          "height": 54
+        },
+        "mesh": {
+          "uvPairs": 17,
+          "vertexNumbers": 113,
+          "triangles": 15,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "squideye_l_u",
+        "name": "squideye_l_u",
+        "region": "squideye_l_u",
+        "type": "mesh",
+        "bone": "squid_bone3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 84,
+          "height": 76
+        },
+        "mesh": {
+          "uvPairs": 18,
+          "vertexNumbers": 134,
+          "triangles": 20,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "squideye_r_d",
+        "name": "squideye_r_d",
+        "region": "squideye_r_d",
+        "type": "mesh",
+        "bone": "bone6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 64,
+          "height": 48
+        },
+        "mesh": {
+          "uvPairs": 13,
+          "vertexNumbers": 85,
+          "triangles": 11,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "squideye_r_u",
+        "name": "squideye_r_u",
+        "region": "squideye_r_u",
+        "type": "mesh",
+        "bone": "squid_bone5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 64,
+          "height": 73
+        },
+        "mesh": {
+          "uvPairs": 18,
+          "vertexNumbers": 130,
+          "triangles": 21,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "anticipation",
+        "duration": 2.3333,
+        "keyframes": 183,
+        "curvedKeys": 129,
+        "channels": [
+          {
+            "path": "slots.squideye_l_d.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.squideye_l_u.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.squideye_r_d.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.squideye_r_u.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone4.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.bone6.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_bone3.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_bone5.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base13.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base19.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.squid_base2.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base3.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base4.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base5.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base6.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base7.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base8.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base9.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base10.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base11.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base12.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_head.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_head.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_base21.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base22.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base23.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base24.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base25.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base26.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base27.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base28.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base29.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base16.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_base17.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.pupil_l2.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.pupil_l2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.pupil_r2.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.pupil_r2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.pupil_r.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.pupil_l.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.squid_base20.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_head2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.squid_head3.rotate",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "bone4",
+          "bone6",
+          "squid_bone3",
+          "squid_bone5",
+          "squid_base13",
+          "squid_base19",
+          "squid_base2",
+          "squid_base3",
+          "squid_base4",
+          "squid_base5",
+          "squid_base6",
+          "squid_base7",
+          "squid_base8",
+          "squid_base9",
+          "squid_base10",
+          "squid_base11",
+          "squid_base12",
+          "squid_head",
+          "squid_base21",
+          "squid_base22",
+          "squid_base23",
+          "squid_base24",
+          "squid_base25",
+          "squid_base26",
+          "squid_base27",
+          "squid_base28",
+          "squid_base29",
+          "squid_base16",
+          "squid_base17",
+          "pupil_l2",
+          "pupil_r2",
+          "pupil_r",
+          "pupil_l",
+          "squid_base20",
+          "squid_head2",
+          "squid_head3"
+        ],
+        "animatedSlots": [
+          "squideye_l_d",
+          "squideye_l_u",
+          "squideye_r_d",
+          "squideye_r_u"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "anticipation"
+        ]
+      },
+      {
+        "name": "anticipation_idle",
+        "duration": 2,
+        "keyframes": 58,
+        "curvedKeys": 39,
+        "channels": [
+          {
+            "path": "bones.squid_base19.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_base13.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base2.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base3.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base4.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base5.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base6.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base7.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base8.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base9.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base10.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base11.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base12.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base21.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base22.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base23.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base24.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base25.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base26.rotate",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "squid_base19",
+          "bone4",
+          "bone6",
+          "squid_bone3",
+          "squid_bone5",
+          "squid_base13",
+          "squid_base2",
+          "squid_base3",
+          "squid_base4",
+          "squid_base5",
+          "squid_base6",
+          "squid_base7",
+          "squid_base8",
+          "squid_base9",
+          "squid_base10",
+          "squid_base11",
+          "squid_base12",
+          "squid_head",
+          "squid_base21",
+          "squid_base22",
+          "squid_base23",
+          "squid_base24",
+          "squid_base25",
+          "squid_base26",
+          "squid_base27",
+          "squid_base28",
+          "squid_base29",
+          "squid_base16",
+          "squid_base17",
+          "pupil_l2",
+          "pupil_r2",
+          "pupil_r",
+          "pupil_l",
+          "squid_base20",
+          "squid_head2",
+          "squid_head3"
+        ],
+        "animatedSlots": [
+          "squideye_l_d",
+          "squideye_l_u",
+          "squideye_r_d",
+          "squideye_r_u"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle",
+          "anticipation"
+        ]
+      },
+      {
+        "name": "attack_1",
+        "duration": 1.2333,
+        "keyframes": 296,
+        "curvedKeys": 142,
+        "channels": [
+          {
+            "path": "slots.fx.attachment",
+            "keyframes": 12
+          },
+          {
+            "path": "slots.fx2.attachment",
+            "keyframes": 17
+          },
+          {
+            "path": "slots.fx3.attachment",
+            "keyframes": 17
+          },
+          {
+            "path": "slots.squid3.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.squideye_l_d.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.squideye_l_u.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.squideye_r_d.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.squideye_r_u.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone4.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.bone6.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_bone3.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.squid_bone5.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.squid_base13.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base13.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base13.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base19.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.squid_base2.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base3.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base4.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base5.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base6.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base7.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base8.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base9.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base10.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base11.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base12.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_head.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base21.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base22.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base23.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_base24.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.squid_base25.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.squid_base26.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.squid_base27.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base28.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base29.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base16.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base17.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.pupil_l2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.pupil_l2.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.pupil_r2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.pupil_r2.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.pupil_r.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.pupil_l.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_head2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_head2.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_head3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_head3.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.fx.rotate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.fx.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.fx.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.fx2.rotate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.fx2.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.fx2.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.fx3.rotate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.fx3.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.fx3.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.squid_base20.rotate",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "bone4",
+          "bone6",
+          "squid_bone3",
+          "squid_bone5",
+          "squid_base13",
+          "squid_base19",
+          "squid_base2",
+          "squid_base3",
+          "squid_base4",
+          "squid_base5",
+          "squid_base6",
+          "squid_base7",
+          "squid_base8",
+          "squid_base9",
+          "squid_base10",
+          "squid_base11",
+          "squid_base12",
+          "squid_head",
+          "squid_base21",
+          "squid_base22",
+          "squid_base23",
+          "squid_base24",
+          "squid_base25",
+          "squid_base26",
+          "squid_base27",
+          "squid_base28",
+          "squid_base29",
+          "squid_base16",
+          "squid_base17",
+          "pupil_l2",
+          "pupil_r2",
+          "pupil_r",
+          "pupil_l",
+          "squid_head2",
+          "squid_head3",
+          "fx",
+          "fx2",
+          "fx3",
+          "squid_base20"
+        ],
+        "animatedSlots": [
+          "fx",
+          "fx2",
+          "fx3",
+          "squid3",
+          "squideye_l_d",
+          "squideye_l_u",
+          "squideye_r_d",
+          "squideye_r_u"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "character"
+        ]
+      },
+      {
+        "name": "attack_2",
+        "duration": 1.2333,
+        "keyframes": 280,
+        "curvedKeys": 139,
+        "channels": [
+          {
+            "path": "slots.fx.attachment",
+            "keyframes": 12
+          },
+          {
+            "path": "slots.fx2.attachment",
+            "keyframes": 17
+          },
+          {
+            "path": "slots.fx3.attachment",
+            "keyframes": 17
+          },
+          {
+            "path": "slots.squideye_l_d.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.squideye_l_u.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.squideye_r_d.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.squideye_r_u.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone4.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.bone6.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_bone3.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.squid_bone5.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.squid_base13.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base13.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base13.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base19.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.squid_base2.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base3.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base4.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base5.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base6.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base7.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base8.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base9.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base10.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base11.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base12.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_head.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_base21.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_base22.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_base23.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base24.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.squid_base25.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.squid_base27.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_base28.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_base29.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.squid_base16.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base17.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.pupil_l2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.pupil_l2.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.pupil_r2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.pupil_r2.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.pupil_r.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.pupil_l.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_head2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_head2.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_head3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_head3.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.fx.rotate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.fx.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.fx.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.fx2.rotate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.fx2.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.fx2.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.fx3.rotate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.fx3.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.fx3.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.squid_base20.rotate",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "bone4",
+          "bone6",
+          "squid_bone3",
+          "squid_bone5",
+          "squid_base13",
+          "squid_base19",
+          "squid_base2",
+          "squid_base3",
+          "squid_base4",
+          "squid_base5",
+          "squid_base6",
+          "squid_base7",
+          "squid_base8",
+          "squid_base9",
+          "squid_base10",
+          "squid_base11",
+          "squid_base12",
+          "squid_head",
+          "squid_base21",
+          "squid_base22",
+          "squid_base23",
+          "squid_base24",
+          "squid_base25",
+          "squid_base26",
+          "squid_base27",
+          "squid_base28",
+          "squid_base29",
+          "squid_base16",
+          "squid_base17",
+          "pupil_l2",
+          "pupil_r2",
+          "pupil_r",
+          "pupil_l",
+          "squid_head2",
+          "squid_head3",
+          "fx",
+          "fx2",
+          "fx3",
+          "squid_base20"
+        ],
+        "animatedSlots": [
+          "fx",
+          "fx2",
+          "fx3",
+          "squideye_l_d",
+          "squideye_l_u",
+          "squideye_r_d",
+          "squideye_r_u"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "character"
+        ]
+      },
+      {
+        "name": "hit",
+        "duration": 2.5,
+        "keyframes": 434,
+        "curvedKeys": 198,
+        "channels": [
+          {
+            "path": "slots.cartoon_star.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.cartoon_star2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.cartoon_star3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.cartoon_star4.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.cartoon_star5.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.cartoon_star6.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.cartoon_star7.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.cartoon_star8.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.cartoon_star9.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.cartoon_star10.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.cartoon_star11.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.cartoon_star12.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.circle2_pma.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.circle2_pma2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.circle2_pma3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.circle2_pma4.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Explosion.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Explosion.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.squideye_l_d.attachment",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.squideye_l_u.attachment",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.squideye_r_d.attachment",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.squideye_r_u.attachment",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bone4.translate",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.bone6.translate",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.squid_bone3.translate",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.squid_bone5.translate",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.squid_base13.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_base13.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.squid_base19.translate",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.squid_base2.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_base3.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_base4.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_base5.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_base6.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_base7.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_base8.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_base9.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_base10.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_base11.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_base12.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_head.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_head.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_head.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base21.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base22.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_base23.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_base24.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_base25.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_base26.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_base27.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base28.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base29.rotate",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.squid_base16.scale",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.squid_base17.scale",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.pupil_l2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.pupil_l2.scale",
+            "keyframes": 15
+          },
+          {
+            "path": "bones.pupil_r2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.pupil_r2.scale",
+            "keyframes": 15
+          },
+          {
+            "path": "bones.pupil_r.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.pupil_l.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_base20.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.squid_head2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_head2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.squid_head3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_head3.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Explosion.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.kolo_main.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.kolo.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.kolo2.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.kolo_main2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "drawOrder",
+            "keyframes": 6
+          }
+        ],
+        "animatedBones": [
+          "bone4",
+          "bone6",
+          "squid_bone3",
+          "squid_bone5",
+          "squid_base13",
+          "squid_base19",
+          "squid_base2",
+          "squid_base3",
+          "squid_base4",
+          "squid_base5",
+          "squid_base6",
+          "squid_base7",
+          "squid_base8",
+          "squid_base9",
+          "squid_base10",
+          "squid_base11",
+          "squid_base12",
+          "squid_head",
+          "squid_base21",
+          "squid_base22",
+          "squid_base23",
+          "squid_base24",
+          "squid_base25",
+          "squid_base26",
+          "squid_base27",
+          "squid_base28",
+          "squid_base29",
+          "squid_base16",
+          "squid_base17",
+          "pupil_l2",
+          "pupil_r2",
+          "pupil_r",
+          "pupil_l",
+          "squid_base20",
+          "squid_head2",
+          "squid_head3",
+          "Explosion",
+          "kolo_main",
+          "kolo",
+          "kolo2",
+          "kolo_main2"
+        ],
+        "animatedSlots": [
+          "cartoon_star",
+          "cartoon_star2",
+          "cartoon_star3",
+          "cartoon_star4",
+          "cartoon_star5",
+          "cartoon_star6",
+          "cartoon_star7",
+          "cartoon_star8",
+          "cartoon_star9",
+          "cartoon_star10",
+          "cartoon_star11",
+          "cartoon_star12",
+          "circle2_pma",
+          "circle2_pma2",
+          "circle2_pma3",
+          "circle2_pma4",
+          "Explosion",
+          "squideye_l_d",
+          "squideye_l_u",
+          "squideye_r_d",
+          "squideye_r_u"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": true,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "idle",
+        "duration": 2,
+        "keyframes": 48,
+        "curvedKeys": 35,
+        "channels": [
+          {
+            "path": "bones.squid_base13.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base19.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_base2.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_base4.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_base5.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_base6.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_base7.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base8.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.squid_base9.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_base10.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_base11.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.squid_base12.rotate",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "bone4",
+          "bone6",
+          "squid_bone3",
+          "squid_bone5",
+          "squid_base13",
+          "squid_base19",
+          "squid_base2",
+          "squid_base3",
+          "squid_base4",
+          "squid_base5",
+          "squid_base6",
+          "squid_base7",
+          "squid_base8",
+          "squid_base9",
+          "squid_base10",
+          "squid_base11",
+          "squid_base12"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "idle_eyes",
+        "duration": 12,
+        "keyframes": 24,
+        "curvedKeys": 12,
+        "channels": [
+          {
+            "path": "bones.pupil_l2.translate",
+            "keyframes": 12
+          },
+          {
+            "path": "bones.pupil_r2.translate",
+            "keyframes": 12
+          }
+        ],
+        "animatedBones": [
+          "pupil_l2",
+          "pupil_r2"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 78,
+      "slots": 34,
+      "attachments": 102,
+      "meshAttachments": 11,
+      "meshUvPairs": 319,
+      "constraints": {
+        "ik": 1,
+        "transform": 4,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "Explosion",
+      "file": "pieces/explosion-d4c5a1c1.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "783,1605,450,437"
+      }
+    },
+    {
+      "region": "cartoon_star",
+      "file": "pieces/cartoon-star-f8cb040e.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1056,565,43,41"
+      }
+    },
+    {
+      "region": "chair",
+      "file": "pieces/chair-835eca5f.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "389,1521,392,521",
+        "offsets": "2,2,396,524"
+      }
+    },
+    {
+      "region": "circle2_pma",
+      "file": "pieces/circle2-pma-192f16dd.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1004,126,96,96"
+      }
+    },
+    {
+      "region": "fx/fx_0000",
+      "file": "pieces/fx-fx-0000-4ad61320.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "93,555,702,119",
+        "offsets": "13,84,803,278",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx/fx_0001",
+      "file": "pieces/fx-fx-0001-15b87d36.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1235,1642,729,88",
+        "offsets": "12,92,803,278"
+      }
+    },
+    {
+      "region": "fx/fx_0002",
+      "file": "pieces/fx-fx-0002-77acc372.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "0,493,764,91",
+        "offsets": "10,92,803,278",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx/fx_0003",
+      "file": "pieces/fx-fx-0003-3195923a.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1235,1535,676,105",
+        "offsets": "14,75,803,278"
+      }
+    },
+    {
+      "region": "fx/fx_0004",
+      "file": "pieces/fx-fx-0004-22b9bbdb.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "420,851,668,99",
+        "offsets": "16,79,803,278",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx/fx_0005",
+      "file": "pieces/fx-fx-0005-26f24c72.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "321,561,696,97",
+        "offsets": "11,83,803,278",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx/fx_0006",
+      "file": "pieces/fx-fx-0006-a5fa35c2.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1235,1944,725,98",
+        "offsets": "12,87,803,278"
+      }
+    },
+    {
+      "region": "fx/fx_0007",
+      "file": "pieces/fx-fx-0007-f4985b2e.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "214,562,695,105",
+        "offsets": "13,95,803,278",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx/fx_0008",
+      "file": "pieces/fx-fx-0008-589f83cb.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1235,1732,712,105",
+        "offsets": "13,92,803,278"
+      }
+    },
+    {
+      "region": "fx/fx_0009",
+      "file": "pieces/fx-fx-0009-f2009b43.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1235,1839,716,103",
+        "offsets": "15,92,803,278"
+      }
+    },
+    {
+      "region": "fx2/fx2_0000",
+      "file": "pieces/fx2-fx2-0000-5f9d3516.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "0,2,182,221",
+        "offsets": "69,104,525,375",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx2/fx2_0001",
+      "file": "pieces/fx2-fx2-0001-4fbba121.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1796,338,251,252",
+        "offsets": "55,87,525,375",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx2/fx2_0002",
+      "file": "pieces/fx2-fx2-0002-ee4890a3.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1190,8,295,288",
+        "offsets": "52,54,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0003",
+      "file": "pieces/fx2-fx2-0003-557cef7b.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "747,526,322,307",
+        "offsets": "51,40,525,375",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx2/fx2_0004",
+      "file": "pieces/fx2-fx2-0004-3c57defb.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "868,945,337,312",
+        "offsets": "52,37,525,375",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx2/fx2_0005",
+      "file": "pieces/fx2-fx2-0005-fb047b27.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "521,850,345,316",
+        "offsets": "52,35,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0006",
+      "file": "pieces/fx2-fx2-0006-34a8437e.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1546,1218,349,315",
+        "offsets": "51,36,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0007",
+      "file": "pieces/fx2-fx2-0007-f6a17c3c.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1194,1218,350,315",
+        "offsets": "51,36,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0008",
+      "file": "pieces/fx2-fx2-0008-9638f84e.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "842,1284,350,319",
+        "offsets": "51,33,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0009",
+      "file": "pieces/fx2-fx2-0009-47de4ad7.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "521,1168,351,319",
+        "offsets": "51,33,525,375",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx2/fx2_0010",
+      "file": "pieces/fx2-fx2-0010-675e1276.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "420,528,325,320",
+        "offsets": "77,33,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0011",
+      "file": "pieces/fx2-fx2-0011-9167394d.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1511,896,326,320",
+        "offsets": "77,33,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0012",
+      "file": "pieces/fx2-fx2-0012-9ab35e6d.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1182,914,327,302",
+        "offsets": "76,48,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0013",
+      "file": "pieces/fx2-fx2-0013-8e812497.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1667,591,303,303",
+        "offsets": "76,48,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0014",
+      "file": "pieces/fx2-fx2-0014-16d0aab9.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1361,597,304,297",
+        "offsets": "75,47,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0015",
+      "file": "pieces/fx2-fx2-0015-37dde173.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1190,298,297,297",
+        "offsets": "75,47,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0016",
+      "file": "pieces/fx2-fx2-0016-6d914558.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "890,224,298,300",
+        "offsets": "74,45,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0017",
+      "file": "pieces/fx2-fx2-0017-e10a8297.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "587,224,301,300",
+        "offsets": "74,45,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0018",
+      "file": "pieces/fx2-fx2-0018-78e9ade6.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "283,222,302,304",
+        "offsets": "73,43,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0019",
+      "file": "pieces/fx2-fx2-0019-7bde5541.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1056,608,303,304",
+        "offsets": "73,43,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0020",
+      "file": "pieces/fx2-fx2-0020-c1f6d656.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "0,186,281,305",
+        "offsets": "95,42,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0021",
+      "file": "pieces/fx2-fx2-0021-a337af2f.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1489,307,282,305",
+        "offsets": "94,42,525,375",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx2/fx2_0022",
+      "file": "pieces/fx2-fx2-0022-5795a3db.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "283,9,282,211",
+        "offsets": "94,98,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0023",
+      "file": "pieces/fx2-fx2-0023-79bd2ab9.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1796,125,235,211",
+        "offsets": "97,98,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0024",
+      "file": "pieces/fx2-fx2-0024-b15f3e2d.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "567,8,216,212",
+        "offsets": "116,97,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0025",
+      "file": "pieces/fx2-fx2-0025-e1dfe58f.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "785,10,217,212",
+        "offsets": "116,97,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0026",
+      "file": "pieces/fx2-fx2-0026-e1854a6d.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1487,0,217,150",
+        "offsets": "116,116,525,375"
+      }
+    },
+    {
+      "region": "fx2/fx2_0027",
+      "file": "pieces/fx2-fx2-0027-57ce8945.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1232,1602,1,1"
+      }
+    },
+    {
+      "region": "fx2/fx2_0028",
+      "file": "pieces/fx2-fx2-0028-cde2730f.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1232,1602,1,1"
+      }
+    },
+    {
+      "region": "fx2/fx2_0029",
+      "file": "pieces/fx2-fx2-0029-e02293d3.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1232,1602,1,1"
+      }
+    },
+    {
+      "region": "fx2/fx2_0030",
+      "file": "pieces/fx2-fx2-0030-b99c9457.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1232,1602,1,1"
+      }
+    },
+    {
+      "region": "fx2/fx2_0031",
+      "file": "pieces/fx2-fx2-0031-54b8cc58.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1232,1602,1,1"
+      }
+    },
+    {
+      "region": "pupil_l",
+      "file": "pieces/pupil-l-27aea5c5.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1194,1535,18,37",
+        "offsets": "0,0,19,38",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pupil_r",
+      "file": "pieces/pupil-r-fbcff642.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1194,1535,18,37",
+        "offsets": "0,0,19,38",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "squid",
+      "file": "pieces/squid-9270393e.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "0,1259,387,783",
+        "offsets": "56,0,443,783"
+      }
+    },
+    {
+      "region": "squid1",
+      "file": "pieces/squid1-2633d279.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1839,985,153,231",
+        "offsets": "0,2,153,233"
+      }
+    },
+    {
+      "region": "squid12",
+      "file": "pieces/squid12-47a0ca69.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1489,152,153,231",
+        "offsets": "0,2,153,233",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "squid2",
+      "file": "pieces/squid2-d578d2ca.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1962,1990,70,52",
+        "offsets": "0,0,72,53"
+      }
+    },
+    {
+      "region": "squideye_l_d",
+      "file": "pieces/squideye-l-d-e4b431a2.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "868,902,64,41"
+      }
+    },
+    {
+      "region": "squideye_l_u",
+      "file": "pieces/squideye-l-u-fea97944.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "783,1540,63,57",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "squideye_r_d",
+      "file": "pieces/squideye-r-d-f0fa225f.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "1194,1555,48,36",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "squideye_r_u",
+      "file": "pieces/squideye-r-u-1c602de9.png",
+      "page": "squid.png",
+      "properties": {
+        "bounds": "93,498,48,55"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

@@ -1,0 +1,680 @@
+{
+  "id": "interrogator-animations-bolt-2d250e10-f143d1d3",
+  "collection": "library",
+  "name": "bolt",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/interrogator/animations/bolt-2d250e10",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 4,
+    "slots": 5,
+    "attachments": 17,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 2097152,
+    "rgbaBytesEstimate": 8388608,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 9,
+  "actions": [
+    {
+      "name": "bolt",
+      "duration": 0.6667,
+      "keyframes": 30,
+      "curvedKeys": 4,
+      "channels": [
+        {
+          "path": "slots.bolt.attachment",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.bolt2.attachment",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.bolt3.attachment",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.bolt_glw.rgba",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "bolt",
+        "bolt2",
+        "fx_bolt"
+      ],
+      "animatedSlots": [
+        "bolt",
+        "bolt2",
+        "bolt3",
+        "bolt_glw"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/interrogator-animations-bolt-2d250e10-f143d1d3/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "fx_bolt",
+        "parent": "root",
+        "x": -245.12,
+        "y": 364.9,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bolt",
+        "parent": "fx_bolt",
+        "x": -70.02,
+        "y": -487.68,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bolt2",
+        "parent": "fx_bolt",
+        "x": -70.02,
+        "y": -487.68,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "Untitled-1",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bolt3",
+        "bone": "fx_bolt",
+        "setupAttachment": "fx/bolt2",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bolt",
+        "bone": "bolt",
+        "setupAttachment": "fx/lighting_16",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bolt2",
+        "bone": "bolt2",
+        "setupAttachment": "fx/lighting_16",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bolt_glw",
+        "bone": "fx_bolt",
+        "setupAttachment": "fx/bolt_glw",
+        "blend": "additive",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "bolt",
+        "name": "fx/lighting_07",
+        "region": "fx/lighting_07",
+        "type": "region",
+        "bone": "bolt",
+        "transform": {
+          "x": 315.15,
+          "y": 122.78,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 693,
+          "height": 465
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bolt",
+        "name": "fx/lighting_09",
+        "region": "fx/lighting_09",
+        "type": "region",
+        "bone": "bolt",
+        "transform": {
+          "x": 315.15,
+          "y": 122.78,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 693,
+          "height": 465
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bolt",
+        "name": "fx/lighting_10",
+        "region": "fx/lighting_10",
+        "type": "region",
+        "bone": "bolt",
+        "transform": {
+          "x": 315.15,
+          "y": 122.78,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 693,
+          "height": 465
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bolt",
+        "name": "fx/lighting_12",
+        "region": "fx/lighting_12",
+        "type": "region",
+        "bone": "bolt",
+        "transform": {
+          "x": 315.15,
+          "y": 122.78,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 693,
+          "height": 465
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bolt",
+        "name": "fx/lighting_14",
+        "region": "fx/lighting_14",
+        "type": "region",
+        "bone": "bolt",
+        "transform": {
+          "x": 315.15,
+          "y": 122.78,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 693,
+          "height": 465
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bolt",
+        "name": "fx/lighting_15",
+        "region": "fx/lighting_15",
+        "type": "region",
+        "bone": "bolt",
+        "transform": {
+          "x": 315.15,
+          "y": 122.78,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 693,
+          "height": 465
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bolt",
+        "name": "fx/lighting_16",
+        "region": "fx/lighting_16",
+        "type": "region",
+        "bone": "bolt",
+        "transform": {
+          "x": 315.15,
+          "y": 122.78,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 693,
+          "height": 465
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bolt2",
+        "name": "fx/lighting_07",
+        "region": "fx/lighting_07",
+        "type": "region",
+        "bone": "bolt2",
+        "transform": {
+          "x": 315.15,
+          "y": 122.78,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 693,
+          "height": 465
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bolt2",
+        "name": "fx/lighting_09",
+        "region": "fx/lighting_09",
+        "type": "region",
+        "bone": "bolt2",
+        "transform": {
+          "x": 315.15,
+          "y": 122.78,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 693,
+          "height": 465
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bolt2",
+        "name": "fx/lighting_10",
+        "region": "fx/lighting_10",
+        "type": "region",
+        "bone": "bolt2",
+        "transform": {
+          "x": 315.15,
+          "y": 122.78,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 693,
+          "height": 465
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bolt2",
+        "name": "fx/lighting_12",
+        "region": "fx/lighting_12",
+        "type": "region",
+        "bone": "bolt2",
+        "transform": {
+          "x": 315.15,
+          "y": 122.78,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 693,
+          "height": 465
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bolt2",
+        "name": "fx/lighting_14",
+        "region": "fx/lighting_14",
+        "type": "region",
+        "bone": "bolt2",
+        "transform": {
+          "x": 315.15,
+          "y": 122.78,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 693,
+          "height": 465
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bolt2",
+        "name": "fx/lighting_15",
+        "region": "fx/lighting_15",
+        "type": "region",
+        "bone": "bolt2",
+        "transform": {
+          "x": 315.15,
+          "y": 122.78,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 693,
+          "height": 465
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bolt2",
+        "name": "fx/lighting_16",
+        "region": "fx/lighting_16",
+        "type": "region",
+        "bone": "bolt2",
+        "transform": {
+          "x": 315.15,
+          "y": 122.78,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 693,
+          "height": 465
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bolt3",
+        "name": "fx/bolt",
+        "region": "fx/bolt",
+        "type": "region",
+        "bone": "fx_bolt",
+        "transform": {
+          "x": -62.38,
+          "y": -373.27,
+          "rotation": 0,
+          "scaleX": 0.718,
+          "scaleY": 0.718
+        },
+        "size": {
+          "width": 286,
+          "height": 1139
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bolt3",
+        "name": "fx/bolt2",
+        "region": "fx/bolt",
+        "type": "region",
+        "bone": "fx_bolt",
+        "transform": {
+          "x": -62.38,
+          "y": -373.27,
+          "rotation": 180,
+          "scaleX": -0.7956,
+          "scaleY": 0.718
+        },
+        "size": {
+          "width": 286,
+          "height": 1139
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bolt_glw",
+        "name": "fx/bolt_glw",
+        "region": "fx/bolt_glw",
+        "type": "region",
+        "bone": "fx_bolt",
+        "transform": {
+          "x": -66.68,
+          "y": -370.81,
+          "rotation": 0,
+          "scaleX": 1.0537,
+          "scaleY": 2.6291
+        },
+        "size": {
+          "width": 178,
+          "height": 417
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "bolt",
+        "duration": 0.6667,
+        "keyframes": 30,
+        "curvedKeys": 4,
+        "channels": [
+          {
+            "path": "slots.bolt.attachment",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.bolt2.attachment",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.bolt3.attachment",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.bolt_glw.rgba",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "bolt",
+          "bolt2",
+          "fx_bolt"
+        ],
+        "animatedSlots": [
+          "bolt",
+          "bolt2",
+          "bolt3",
+          "bolt_glw"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 4,
+      "slots": 5,
+      "attachments": 17,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "fx/bolt",
+      "file": "pieces/fx-bolt-5c34baec.png",
+      "page": "bolt.png",
+      "properties": {
+        "bounds": "1,826,193,1139",
+        "offsets": "53,0,286,1139",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx/bolt_glw",
+      "file": "pieces/fx-bolt-glw-b9a58ab5.png",
+      "page": "bolt.png",
+      "properties": {
+        "bounds": "1138,622,150,339",
+        "offsets": "15,43,178,417",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx/lighting_07",
+      "file": "pieces/fx-lighting-07-f579057f.png",
+      "page": "bolt.png",
+      "properties": {
+        "bounds": "1532,768,385,251",
+        "offsets": "0,32,693,465"
+      }
+    },
+    {
+      "region": "fx/lighting_09",
+      "file": "pieces/fx-lighting-09-2f1d470a.png",
+      "page": "bolt.png",
+      "properties": {
+        "bounds": "1142,774,388,245",
+        "offsets": "0,47,693,465"
+      }
+    },
+    {
+      "region": "fx/lighting_10",
+      "file": "pieces/fx-lighting-10-386ec356.png",
+      "page": "bolt.png",
+      "properties": {
+        "bounds": "1,1,394,269",
+        "offsets": "0,56,693,465"
+      }
+    },
+    {
+      "region": "fx/lighting_12",
+      "file": "pieces/fx-lighting-12-24100987.png",
+      "page": "bolt.png",
+      "properties": {
+        "bounds": "562,254,469,293",
+        "offsets": "0,56,693,465"
+      }
+    },
+    {
+      "region": "fx/lighting_14",
+      "file": "pieces/fx-lighting-14-57bc4790.png",
+      "page": "bolt.png",
+      "properties": {
+        "bounds": "577,549,559,275",
+        "offsets": "0,62,693,465"
+      }
+    },
+    {
+      "region": "fx/lighting_15",
+      "file": "pieces/fx-lighting-15-c6ec272a.png",
+      "page": "bolt.png",
+      "properties": {
+        "bounds": "1,272,559,278",
+        "offsets": "0,59,693,465"
+      }
+    },
+    {
+      "region": "fx/lighting_16",
+      "file": "pieces/fx-lighting-16-8baf51f3.png",
+      "page": "bolt.png",
+      "properties": {
+        "bounds": "1,552,574,272",
+        "offsets": "0,65,693,465"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

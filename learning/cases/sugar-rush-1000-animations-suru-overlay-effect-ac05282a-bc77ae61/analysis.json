@@ -1,0 +1,652 @@
+{
+  "id": "sugar-rush-1000-animations-suru-overlay-effect-ac05282a-bc77ae61",
+  "collection": "library",
+  "name": "suru_overlay_effect",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-overlay-effect-ac05282a",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 1,
+    "slots": 1,
+    "attachments": 15,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 618520,
+    "rgbaBytesEstimate": 2474080,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 15,
+  "actions": [
+    {
+      "name": "suru_overlay_effect",
+      "duration": 0.5333,
+      "keyframes": 17,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "slots.effect_00341.attachment",
+          "keyframes": 17
+        }
+      ],
+      "animatedBones": [],
+      "animatedSlots": [
+        "effect_00341"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-overlay-effect-ac05282a-bc77ae61/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "effect_00341",
+        "bone": "root",
+        "setupAttachment": "effect_00014",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "effect_00341",
+        "name": "effect_00000",
+        "region": "effect_00000",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 235,
+          "height": 232
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "effect_00341",
+        "name": "effect_00001",
+        "region": "effect_00001",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 235,
+          "height": 232
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "effect_00341",
+        "name": "effect_00002",
+        "region": "effect_00002",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 235,
+          "height": 232
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "effect_00341",
+        "name": "effect_00003",
+        "region": "effect_00003",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 235,
+          "height": 232
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "effect_00341",
+        "name": "effect_00004",
+        "region": "effect_00004",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 235,
+          "height": 232
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "effect_00341",
+        "name": "effect_00005",
+        "region": "effect_00005",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 235,
+          "height": 232
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "effect_00341",
+        "name": "effect_00006",
+        "region": "effect_00006",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 235,
+          "height": 232
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "effect_00341",
+        "name": "effect_00007",
+        "region": "effect_00007",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 235,
+          "height": 232
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "effect_00341",
+        "name": "effect_00008",
+        "region": "effect_00008",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 235,
+          "height": 232
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "effect_00341",
+        "name": "effect_00009",
+        "region": "effect_00009",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 235,
+          "height": 232
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "effect_00341",
+        "name": "effect_00010",
+        "region": "effect_00010",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 235,
+          "height": 232
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "effect_00341",
+        "name": "effect_00011",
+        "region": "effect_00011",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 235,
+          "height": 232
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "effect_00341",
+        "name": "effect_00012",
+        "region": "effect_00012",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 235,
+          "height": 232
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "effect_00341",
+        "name": "effect_00013",
+        "region": "effect_00013",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 235,
+          "height": 232
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "effect_00341",
+        "name": "effect_00014",
+        "region": "effect_00014",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 235,
+          "height": 232
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "suru_overlay_effect",
+        "duration": 0.5333,
+        "keyframes": 17,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "slots.effect_00341.attachment",
+            "keyframes": 17
+          }
+        ],
+        "animatedBones": [],
+        "animatedSlots": [
+          "effect_00341"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 1,
+      "slots": 1,
+      "attachments": 15,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "effect_00000",
+      "file": "pieces/effect-00000-fbf3c73c.png",
+      "page": "suru_overlay_effect.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "441, 5",
+        "size": "214, 140",
+        "orig": "235, 232",
+        "offset": "8, 50",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "effect_00001",
+      "file": "pieces/effect-00001-00f3f894.png",
+      "page": "suru_overlay_effect.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1331, 236",
+        "size": "214, 140",
+        "orig": "235, 232",
+        "offset": "8, 50",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "effect_00002",
+      "file": "pieces/effect-00002-011b04bc.png",
+      "page": "suru_overlay_effect.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1505, 20",
+        "size": "214, 140",
+        "orig": "235, 232",
+        "offset": "13, 42",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "effect_00003",
+      "file": "pieces/effect-00003-60b79d34.png",
+      "page": "suru_overlay_effect.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "214, 139",
+        "orig": "235, 232",
+        "offset": "8, 50",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "effect_00004",
+      "file": "pieces/effect-00004-72d7da05.png",
+      "page": "suru_overlay_effect.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "225, 0",
+        "size": "214, 145",
+        "orig": "235, 232",
+        "offset": "8, 45",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "effect_00005",
+      "file": "pieces/effect-00005-29e4aac1.png",
+      "page": "suru_overlay_effect.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "657, 3",
+        "size": "213, 154",
+        "orig": "235, 232",
+        "offset": "9, 38",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "effect_00006",
+      "file": "pieces/effect-00006-b7d7d4b5.png",
+      "page": "suru_overlay_effect.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1115, 214",
+        "size": "214, 162",
+        "orig": "235, 232",
+        "offset": "8, 32",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "effect_00007",
+      "file": "pieces/effect-00007-abd645e6.png",
+      "page": "suru_overlay_effect.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1086, 17",
+        "size": "213, 171",
+        "orig": "235, 232",
+        "offset": "9, 27",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "effect_00008",
+      "file": "pieces/effect-00008-724403d9.png",
+      "page": "suru_overlay_effect.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "872, 5",
+        "size": "212, 176",
+        "orig": "235, 232",
+        "offset": "9, 24",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "effect_00009",
+      "file": "pieces/effect-00009-20d2e927.png",
+      "page": "suru_overlay_effect.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "902, 190",
+        "size": "211, 186",
+        "orig": "235, 232",
+        "offset": "10, 19",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "effect_00010",
+      "file": "pieces/effect-00010-497f6284.png",
+      "page": "suru_overlay_effect.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "667, 183",
+        "size": "233, 193",
+        "orig": "235, 232",
+        "offset": "1, 18",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "effect_00011",
+      "file": "pieces/effect-00011-45077ef2.png",
+      "page": "suru_overlay_effect.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1301, 2",
+        "size": "210, 202",
+        "orig": "235, 232",
+        "offset": "11, 17",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "effect_00012",
+      "file": "pieces/effect-00012-14a20612.png",
+      "page": "suru_overlay_effect.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "451, 159",
+        "size": "214, 217",
+        "orig": "235, 232",
+        "offset": "10, 5",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "effect_00013",
+      "file": "pieces/effect-00013-566e2d60.png",
+      "page": "suru_overlay_effect.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "225, 147",
+        "size": "224, 229",
+        "orig": "235, 232",
+        "offset": "3, 3",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "effect_00014",
+      "file": "pieces/effect-00014-712d2707.png",
+      "page": "suru_overlay_effect.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "0, 141",
+        "size": "235, 223",
+        "orig": "235, 232",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

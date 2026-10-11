@@ -1,0 +1,224 @@
+{
+  "id": "sugar-rush-1000-animations-suru-freegame-4-2976bcd6-9e829f02",
+  "collection": "library",
+  "name": "suru_freegame_4",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-freegame-4-2976bcd6",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 3,
+    "slots": 2,
+    "attachments": 2,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 128128,
+    "rgbaBytesEstimate": 512512,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 2,
+  "actions": [
+    {
+      "name": "suru_freegame",
+      "duration": 3,
+      "keyframes": 13,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "bones.fan_left2.rotate",
+          "keyframes": 13
+        }
+      ],
+      "animatedBones": [
+        "fan_left2"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-freegame-4-2976bcd6-9e829f02/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "left_frame2",
+        "parent": "root",
+        "x": 591.55,
+        "y": 17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      },
+      {
+        "name": "fan_left2",
+        "parent": "left_frame2",
+        "x": -47.49,
+        "y": -363.64,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "left_frame2",
+        "bone": "left_frame2",
+        "setupAttachment": "frame_left_free",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "jar_glass2",
+        "bone": "left_frame2",
+        "setupAttachment": "jar_glass_free",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "jar_glass2",
+        "name": "jar_glass_free",
+        "region": "jar_glass_free",
+        "type": "region",
+        "bone": "left_frame2",
+        "transform": {
+          "x": -75.14,
+          "y": -123.49,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 91,
+          "height": 205
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "left_frame2",
+        "name": "frame_left_free",
+        "region": "frame_left_free",
+        "type": "region",
+        "bone": "left_frame2",
+        "transform": {
+          "x": -87.23,
+          "y": -167.7,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 148,
+          "height": 527
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "suru_freegame",
+        "duration": 3,
+        "keyframes": 13,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "bones.fan_left2.rotate",
+            "keyframes": 13
+          }
+        ],
+        "animatedBones": [
+          "fan_left2"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 3,
+      "slots": 2,
+      "attachments": 2,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "frame_left_free",
+      "file": "pieces/frame-left-free-51b945f2.png",
+      "page": "suru_freegame_4.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "0, 57",
+        "size": "148, 520",
+        "orig": "148, 527",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "jar_glass_free",
+      "file": "pieces/jar-glass-free-eae17409.png",
+      "page": "suru_freegame_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "522, 0",
+        "size": "91, 205",
+        "orig": "91, 205",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

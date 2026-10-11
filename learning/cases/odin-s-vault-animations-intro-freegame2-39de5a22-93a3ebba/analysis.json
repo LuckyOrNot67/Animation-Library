@@ -1,0 +1,5018 @@
+{
+  "id": "odin-s-vault-animations-intro-freegame2-39de5a22-93a3ebba",
+  "collection": "library",
+  "name": "intro_freegame2",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/intro-freegame2-39de5a22",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 34,
+    "slots": 44,
+    "attachments": 43,
+    "meshAttachments": 29,
+    "meshUvPairs": 240,
+    "constraints": {
+      "ik": 0,
+      "transform": 1,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 3065764,
+    "rgbaBytesEstimate": 12263056,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 29,
+  "actions": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "keyframes": 168,
+      "curvedKeys": 85,
+      "channels": [
+        {
+          "path": "slots.chest2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.cross.alpha",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.cross2.alpha",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.free_add.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow_5.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.glow_6.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Numbers_Glow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.particles.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.particles2.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.particles3.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.particles4.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.spins_add.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.super_add.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Chest.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Cap.translatey",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Cap2.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.SpearsL2.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.SpearsL.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone2.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone2.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone4.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone4.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone3.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Spins.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Free.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Prt2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Prt3.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Prt5.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Prt6.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Glow1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Glow2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.ray.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.BlikRound.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.BlikRound.translatex",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.BlikRound.translatey",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.BlikRound2.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.BlikRound2.translatex",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.BlikRound2.translatey",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.Cross.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Cross.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Cross.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Cross2.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ray2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone5.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone6.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Super.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "Chest",
+        "Cap",
+        "Cap2",
+        "SpearsL2",
+        "SpearsL",
+        "bone2",
+        "bone4",
+        "bone",
+        "bone3",
+        "Spins",
+        "Free",
+        "Prt2",
+        "Prt3",
+        "Prt5",
+        "Prt6",
+        "Glow1",
+        "Glow2",
+        "ray",
+        "BlikRound",
+        "BlikRound2",
+        "Cross",
+        "Cross2",
+        "ray2",
+        "bone5",
+        "bone6",
+        "Super"
+      ],
+      "animatedSlots": [
+        "chest2",
+        "chest3",
+        "cross",
+        "cross2",
+        "free_add",
+        "glow_5",
+        "glow_6",
+        "Numbers_Glow",
+        "particles",
+        "particles2",
+        "particles3",
+        "particles4",
+        "spins_add",
+        "super_add"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "in",
+      "duration": 1,
+      "keyframes": 299,
+      "curvedKeys": 143,
+      "channels": [
+        {
+          "path": "slots.Cap.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.chest.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.chest.rgb",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.chest2.alpha",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.chest3.rgb",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.chest3.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.chest3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.cross.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.cross2.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.free.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.free_add.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.free_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.free_thick.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow_1.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.glow_2.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.glow_3.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.glow_4.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.glow_5.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow_6.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.l.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Numbers.alpha",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.Numbers_Glow.alpha",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.particles.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.particles2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.particles3.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.particles4.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.r.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ray_1.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.ray_2.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.red_gem_1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spear_bottom_right.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spear_bottom_right2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spear_top_right.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spear_top_right2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spear_top_right3.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spear_top_right4.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spins.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spins_add.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.spins_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spins_thick.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spin_1.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.spin_3.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.spin_4.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.spin_5.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.super.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.super_add.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.super_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Chest.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Chest.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Cap.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Cap2.translatex",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.SpearsL2.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.SpearsL.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.bone2.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone2.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bone4.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone4.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bone.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bone3.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone3.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Spins.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Free.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Prt2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Prt3.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Prt5.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Prt6.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Glow1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Glow2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.ray.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.ray.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.BlikRound.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.BlikRound.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.BlikRound.translatey",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.BlikRound2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.BlikRound2.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.BlikRound2.translatey",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Cross.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Cross.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Cross.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Cross2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Numbers.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.Numbers.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Text.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Text.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.FreeSpins2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.FreeSpins2.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.ray2.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.ray2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone5.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone5.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bone6.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone6.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Super.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "attachments.default.spin_1.spin_.sequence",
+          "keyframes": 1
+        },
+        {
+          "path": "attachments.default.spin_3.spin_.sequence",
+          "keyframes": 1
+        },
+        {
+          "path": "attachments.default.spin_4.spin_.sequence",
+          "keyframes": 1
+        },
+        {
+          "path": "attachments.default.spin_5.spin_.sequence",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "Chest",
+        "Cap",
+        "Cap2",
+        "SpearsL2",
+        "SpearsL",
+        "bone2",
+        "bone4",
+        "bone",
+        "bone3",
+        "Spins",
+        "Free",
+        "Prt2",
+        "Prt3",
+        "Prt5",
+        "Prt6",
+        "Glow1",
+        "Glow2",
+        "ray",
+        "BlikRound",
+        "BlikRound2",
+        "Cross",
+        "Cross2",
+        "Numbers",
+        "Text",
+        "FreeSpins2",
+        "ray2",
+        "bone5",
+        "bone6",
+        "Super"
+      ],
+      "animatedSlots": [
+        "Cap",
+        "chest",
+        "chest2",
+        "chest3",
+        "cross",
+        "cross2",
+        "free",
+        "free_add",
+        "free_shadow",
+        "free_thick",
+        "glow_1",
+        "glow_2",
+        "glow_3",
+        "glow_4",
+        "glow_5",
+        "glow_6",
+        "l",
+        "Numbers",
+        "Numbers_Glow",
+        "particles",
+        "particles2",
+        "particles3",
+        "particles4",
+        "r",
+        "ray_1",
+        "ray_2",
+        "red_gem_1",
+        "spear_bottom_right",
+        "spear_bottom_right2",
+        "spear_top_right",
+        "spear_top_right2",
+        "spear_top_right3",
+        "spear_top_right4",
+        "spins",
+        "spins_add",
+        "spins_shadow",
+        "spins_thick",
+        "spin_1",
+        "spin_3",
+        "spin_4",
+        "spin_5",
+        "super",
+        "super_add",
+        "super_shadow"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "in_upgrade",
+      "duration": 1,
+      "keyframes": 259,
+      "curvedKeys": 122,
+      "channels": [
+        {
+          "path": "slots.Cap.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.chest.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.chest.rgb",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.chest2.alpha",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.chest3.rgb",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.chest3.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.chest3.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.cross.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.cross2.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.free.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.free_add.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.free_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.free_thick.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow_1.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.glow_2.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.glow_3.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.glow_4.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.glow_5.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow_6.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.l.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Numbers.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Numbers_Glow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.particles.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.particles2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.particles3.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.particles4.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.r.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ray_1.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.ray_2.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.red_gem_1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spear_bottom_right.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spear_bottom_right2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spear_top_right.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spear_top_right2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spear_top_right3.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spear_top_right4.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spins.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spins_add.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.spins_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spins_thick.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.super.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.super_add.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.super_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Chest.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Chest.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Cap.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Cap2.translatex",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.SpearsL2.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.SpearsL.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.bone2.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone2.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bone4.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone4.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bone.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bone3.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone3.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Spins.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Free.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Prt2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Prt3.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Prt5.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Prt6.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Glow1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Glow2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.ray.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.ray.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.BlikRound.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.BlikRound.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.BlikRound.translatey",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.BlikRound2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.BlikRound2.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.BlikRound2.translatey",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Cross.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Cross.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Cross.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Cross2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Numbers.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Numbers.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.Text.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Text.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.FreeSpins2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.FreeSpins2.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.ray2.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.ray2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone5.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone5.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bone6.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone6.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Super.scale",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "Chest",
+        "Cap",
+        "Cap2",
+        "SpearsL2",
+        "SpearsL",
+        "bone2",
+        "bone4",
+        "bone",
+        "bone3",
+        "Spins",
+        "Free",
+        "Prt2",
+        "Prt3",
+        "Prt5",
+        "Prt6",
+        "Glow1",
+        "Glow2",
+        "ray",
+        "BlikRound",
+        "BlikRound2",
+        "Cross",
+        "Cross2",
+        "Numbers",
+        "Text",
+        "FreeSpins2",
+        "ray2",
+        "bone5",
+        "bone6",
+        "Super"
+      ],
+      "animatedSlots": [
+        "Cap",
+        "chest",
+        "chest2",
+        "chest3",
+        "cross",
+        "cross2",
+        "free",
+        "free_add",
+        "free_shadow",
+        "free_thick",
+        "glow_1",
+        "glow_2",
+        "glow_3",
+        "glow_4",
+        "glow_5",
+        "glow_6",
+        "l",
+        "Numbers",
+        "Numbers_Glow",
+        "particles",
+        "particles2",
+        "particles3",
+        "particles4",
+        "r",
+        "ray_1",
+        "ray_2",
+        "red_gem_1",
+        "spear_bottom_right",
+        "spear_bottom_right2",
+        "spear_top_right",
+        "spear_top_right2",
+        "spear_top_right3",
+        "spear_top_right4",
+        "spins",
+        "spins_add",
+        "spins_shadow",
+        "spins_thick",
+        "super",
+        "super_add",
+        "super_shadow"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "out",
+      "duration": 0.5,
+      "keyframes": 130,
+      "curvedKeys": 49,
+      "channels": [
+        {
+          "path": "slots.Cap.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.chest.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.chest3.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.free.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.free_add.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.free_shadow.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.free_thick.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.glow_1.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.glow_2.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.glow_3.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.glow_4.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.glow_5.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow_5.rgb",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.glow_6.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow_6.rgb",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.l.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Numbers.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Numbers_Glow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Numbers_Glow.rgb",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particles.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particles2.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particles3.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particles4.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.r.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ray_1.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ray_2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.red_gem_1.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.spear_bottom_right.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spear_bottom_right2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spear_top_right.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spear_top_right2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spear_top_right3.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spear_top_right4.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spins.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.spins_add.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.spins_shadow.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.spins_thick.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.super.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.super_add.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.super_shadow.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Chest.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Chest.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Cap2.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.SpearsL.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone2.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone4.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone3.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Prt2.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Prt3.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Prt6.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bone5.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone6.rotate",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "Chest",
+        "Cap",
+        "Cap2",
+        "SpearsL2",
+        "SpearsL",
+        "bone2",
+        "bone4",
+        "bone",
+        "bone3",
+        "Spins",
+        "Free",
+        "Prt2",
+        "Prt3",
+        "Prt5",
+        "Prt6",
+        "Glow1",
+        "Glow2",
+        "ray",
+        "BlikRound",
+        "BlikRound2",
+        "Cross",
+        "Cross2",
+        "ray2",
+        "bone5",
+        "bone6",
+        "Super"
+      ],
+      "animatedSlots": [
+        "Cap",
+        "chest",
+        "chest3",
+        "cross",
+        "cross2",
+        "free",
+        "free_add",
+        "free_shadow",
+        "free_thick",
+        "glow_1",
+        "glow_2",
+        "glow_3",
+        "glow_4",
+        "glow_5",
+        "glow_6",
+        "l",
+        "Numbers",
+        "Numbers_Glow",
+        "particles",
+        "particles2",
+        "particles3",
+        "particles4",
+        "r",
+        "ray_1",
+        "ray_2",
+        "red_gem_1",
+        "spear_bottom_right",
+        "spear_bottom_right2",
+        "spear_top_right",
+        "spear_top_right2",
+        "spear_top_right3",
+        "spear_top_right4",
+        "spins",
+        "spins_add",
+        "spins_shadow",
+        "spins_thick",
+        "super",
+        "super_add",
+        "super_shadow"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-intro-freegame2-39de5a22-93a3ebba/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "FreeSpins_chest2",
+        "parent": "root",
+        "x": 0,
+        "y": 12.54,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Chest",
+        "parent": "FreeSpins_chest2",
+        "x": 3.5,
+        "y": -461.9,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Cap",
+        "parent": "Chest",
+        "x": 261.6,
+        "y": 515.56,
+        "length": 102.33,
+        "rotation": 90,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Cap2",
+        "parent": "Cap",
+        "x": 394.99,
+        "y": -95.31,
+        "length": 67.58,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Cap3",
+        "parent": "Cap",
+        "x": 479.69,
+        "y": -67.53,
+        "length": 56.55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "SpearsL",
+        "parent": "Cap",
+        "x": -183.53,
+        "y": 265.1,
+        "length": 0,
+        "rotation": -90,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone",
+        "parent": "SpearsL",
+        "x": 181.49,
+        "y": 17.49,
+        "length": 321.62,
+        "rotation": 43.2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone2",
+        "parent": "SpearsL",
+        "x": 124.25,
+        "y": 7.58,
+        "length": 349.06,
+        "rotation": 23.41,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Text",
+        "parent": "Cap",
+        "x": 166.18,
+        "y": 259.3,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Spins",
+        "parent": "Text",
+        "x": -197.44,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Free",
+        "parent": "Text",
+        "x": -56.81,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Numbers",
+        "parent": "Chest",
+        "x": -0.7,
+        "y": 196.04,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "SpearsL2",
+        "parent": "SpearsL",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone3",
+        "parent": "SpearsL2",
+        "x": 181.49,
+        "y": 17.49,
+        "length": 321.62,
+        "rotation": 43.2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone4",
+        "parent": "SpearsL2",
+        "x": 124.25,
+        "y": 7.58,
+        "length": 349.06,
+        "rotation": 23.41,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Prt",
+        "parent": "FreeSpins_chest2",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Prt2",
+        "parent": "Prt",
+        "x": 93.43,
+        "y": 180.84,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Prt3",
+        "parent": "Prt",
+        "x": 115.54,
+        "y": 149.25,
+        "length": 0,
+        "rotation": -27.09,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Prt4",
+        "parent": "Prt",
+        "x": 50.54,
+        "y": 94.77,
+        "length": 0,
+        "rotation": 85.06,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Prt5",
+        "parent": "Prt4",
+        "x": 93.43,
+        "y": 180.84,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Prt6",
+        "parent": "Prt4",
+        "x": 115.54,
+        "y": 149.25,
+        "length": 0,
+        "rotation": -27.09,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow1",
+        "parent": "FreeSpins_chest2",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow2",
+        "parent": "FreeSpins_chest2",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ray",
+        "parent": "FreeSpins_chest2",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "BlikRound",
+        "parent": "Chest",
+        "x": -145.28,
+        "y": 189.13,
+        "length": 0,
+        "rotation": 90.25,
+        "scaleX": 1,
+        "scaleY": 0.7218
+      },
+      {
+        "name": "BlikRound2",
+        "parent": "Chest",
+        "x": -145.28,
+        "y": 189.13,
+        "length": 0,
+        "rotation": 90.25,
+        "scaleX": 1,
+        "scaleY": 0.7218
+      },
+      {
+        "name": "Cross",
+        "parent": "FreeSpins_chest2",
+        "x": -251.75,
+        "y": -459.66,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Cross2",
+        "parent": "Chest",
+        "x": 66.86,
+        "y": 339.93,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "FreeSpins2",
+        "parent": "FreeSpins_chest2",
+        "x": 1.9,
+        "y": -267.59,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ray2",
+        "parent": "FreeSpins_chest2",
+        "x": 0,
+        "y": -255.98,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone5",
+        "parent": "SpearsL2",
+        "x": 214.49,
+        "y": 83.48,
+        "length": 321.62,
+        "rotation": 57.94,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone6",
+        "parent": "SpearsL",
+        "x": 212.97,
+        "y": 89.68,
+        "length": 321.62,
+        "rotation": 56.53,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Super",
+        "parent": "Text",
+        "x": 101.25,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "glow_1",
+        "bone": "Glow1",
+        "setupAttachment": "glow_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glow_4",
+        "bone": "Glow1",
+        "setupAttachment": "glow_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particles",
+        "bone": "Prt2",
+        "setupAttachment": "particles",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particles3",
+        "bone": "Prt5",
+        "setupAttachment": "particles",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particles2",
+        "bone": "Prt3",
+        "setupAttachment": "particles",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particles4",
+        "bone": "Prt6",
+        "setupAttachment": "particles",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ray_2",
+        "bone": "ray",
+        "setupAttachment": "ray_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glow_2",
+        "bone": "Glow2",
+        "setupAttachment": "glow_2",
+        "blend": "additive",
+        "color": "ffffff7a"
+      },
+      {
+        "name": "glow_3",
+        "bone": "Glow2",
+        "setupAttachment": "glow_2",
+        "blend": "additive",
+        "color": "ffffff7a"
+      },
+      {
+        "name": "ray_1",
+        "bone": "ray",
+        "setupAttachment": "ray_1",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "spear_bottom_right",
+        "bone": "bone2",
+        "setupAttachment": "spear_bottom_right",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "spear_bottom_right2",
+        "bone": "bone4",
+        "setupAttachment": "spear_bottom_right",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "spear_top_right",
+        "bone": "bone",
+        "setupAttachment": "spear_top_right",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "spear_top_right4",
+        "bone": "bone6",
+        "setupAttachment": "spear_top_right",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "spear_top_right2",
+        "bone": "bone3",
+        "setupAttachment": "spear_top_right",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "spear_top_right3",
+        "bone": "bone5",
+        "setupAttachment": "spear_top_right",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Cap",
+        "bone": "FreeSpins_chest2",
+        "setupAttachment": "Cap",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "chest",
+        "bone": "FreeSpins_chest2",
+        "setupAttachment": "chest",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "chest2",
+        "bone": "FreeSpins_chest2",
+        "setupAttachment": "chest",
+        "blend": "screen",
+        "color": "ffffff00"
+      },
+      {
+        "name": "l",
+        "bone": "Chest",
+        "setupAttachment": "l",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "r",
+        "bone": "Chest",
+        "setupAttachment": "r",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "free_shadow",
+        "bone": "Free",
+        "setupAttachment": "free_shadow",
+        "blend": "multiply",
+        "color": "ffffffff"
+      },
+      {
+        "name": "super_shadow",
+        "bone": "Super",
+        "setupAttachment": "super_shadow",
+        "blend": "multiply",
+        "color": "ffffffff"
+      },
+      {
+        "name": "spins_shadow",
+        "bone": "Spins",
+        "setupAttachment": "spins_shadow",
+        "blend": "multiply",
+        "color": "ffffffff"
+      },
+      {
+        "name": "free_thick",
+        "bone": "Free",
+        "setupAttachment": "free_thick",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "free",
+        "bone": "Free",
+        "setupAttachment": "free",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "super",
+        "bone": "Super",
+        "setupAttachment": "super",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "spins_thick",
+        "bone": "Spins",
+        "setupAttachment": "spins_thick",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "spins",
+        "bone": "Spins",
+        "setupAttachment": "spins",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "free_add",
+        "bone": "Free",
+        "setupAttachment": "free",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "super_add",
+        "bone": "Super",
+        "setupAttachment": "super",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "spins_add",
+        "bone": "Spins",
+        "setupAttachment": "spins",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "glow_5",
+        "bone": "BlikRound",
+        "setupAttachment": "glow_1",
+        "blend": "additive",
+        "color": "ffffff2f"
+      },
+      {
+        "name": "glow_6",
+        "bone": "BlikRound2",
+        "setupAttachment": "glow_1",
+        "blend": "additive",
+        "color": "ffffff2f"
+      },
+      {
+        "name": "cross",
+        "bone": "Cross",
+        "setupAttachment": "cross",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "cross2",
+        "bone": "Cross2",
+        "setupAttachment": "cross",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "chest3",
+        "bone": "Chest",
+        "setupAttachment": "spin",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "spin_1",
+        "bone": "FreeSpins2",
+        "setupAttachment": "spin_",
+        "blend": "normal",
+        "color": "ffe65f00"
+      },
+      {
+        "name": "spin_3",
+        "bone": "FreeSpins2",
+        "setupAttachment": "spin_",
+        "blend": "normal",
+        "color": "ffe65f00"
+      },
+      {
+        "name": "spin_5",
+        "bone": "FreeSpins2",
+        "setupAttachment": "spin_",
+        "blend": "normal",
+        "color": "ffe65f00"
+      },
+      {
+        "name": "spin_4",
+        "bone": "FreeSpins2",
+        "setupAttachment": "spin_",
+        "blend": "normal",
+        "color": "ffe65f00"
+      },
+      {
+        "name": "Numbers",
+        "bone": "Numbers",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Numbers_Glow",
+        "bone": "Numbers",
+        "setupAttachment": null,
+        "blend": "screen",
+        "color": "ffffff81"
+      },
+      {
+        "name": "red_gem_1",
+        "bone": "Chest",
+        "setupAttachment": "red_gem_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "Cap",
+        "name": "Cap",
+        "region": "Cap",
+        "type": "mesh",
+        "bone": "FreeSpins_chest2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 728,
+          "height": 491
+        },
+        "mesh": {
+          "uvPairs": 42,
+          "vertexNumbers": 266,
+          "triangles": 66,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "chest",
+        "name": "chest",
+        "region": "chest",
+        "type": "mesh",
+        "bone": "FreeSpins_chest2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 778,
+          "height": 590
+        },
+        "mesh": {
+          "uvPairs": 6,
+          "vertexNumbers": 30,
+          "triangles": 4,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "chest2",
+        "name": "chest",
+        "region": "chest",
+        "type": "mesh",
+        "bone": "FreeSpins_chest2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 778,
+          "height": 590
+        },
+        "mesh": {
+          "uvPairs": 6,
+          "vertexNumbers": 30,
+          "triangles": 4,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "chest3",
+        "name": "chest",
+        "region": "chest",
+        "type": "mesh",
+        "bone": "Chest",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 778,
+          "height": 590
+        },
+        "mesh": {
+          "uvPairs": 6,
+          "vertexNumbers": 30,
+          "triangles": 4,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "chest3",
+        "name": "spin",
+        "region": "spin",
+        "type": "clipping",
+        "bone": "Chest",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cross",
+        "name": "cross",
+        "region": "cross",
+        "type": "mesh",
+        "bone": "Cross",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 256,
+          "height": 256
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cross2",
+        "name": "cross",
+        "region": "cross",
+        "type": "mesh",
+        "bone": "Cross2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 256,
+          "height": 256
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "free",
+        "name": "free",
+        "region": "free",
+        "type": "region",
+        "bone": "Free",
+        "transform": {
+          "x": 20.09,
+          "y": 3.79,
+          "rotation": -90,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 308,
+          "height": 147
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "free_add",
+        "name": "free",
+        "region": "free",
+        "type": "region",
+        "bone": "Free",
+        "transform": {
+          "x": 19.62,
+          "y": 3.79,
+          "rotation": -90,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 308,
+          "height": 147
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "free_shadow",
+        "name": "free_shadow",
+        "region": "free_shadow",
+        "type": "region",
+        "bone": "Free",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -90,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 342,
+          "height": 180
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "free_thick",
+        "name": "free_thick",
+        "region": "free_thick",
+        "type": "region",
+        "bone": "Free",
+        "transform": {
+          "x": 6.59,
+          "y": 3.29,
+          "rotation": -90,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 309,
+          "height": 137
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_1",
+        "name": "glow_1",
+        "region": "glow_1",
+        "type": "mesh",
+        "bone": "Glow1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 745,
+          "height": 559
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_2",
+        "name": "glow_2",
+        "region": "glow_2",
+        "type": "mesh",
+        "bone": "Glow2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 536,
+          "height": 479
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_3",
+        "name": "glow_2",
+        "region": "glow_2",
+        "type": "mesh",
+        "bone": "Glow2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 536,
+          "height": 479
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_4",
+        "name": "glow_1",
+        "region": "glow_1",
+        "type": "mesh",
+        "bone": "Glow1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 745,
+          "height": 559
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_5",
+        "name": "glow_1",
+        "region": "glow_1",
+        "type": "mesh",
+        "bone": "BlikRound",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 745,
+          "height": 559
+        },
+        "mesh": {
+          "uvPairs": 15,
+          "vertexNumbers": 30,
+          "triangles": 16,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_6",
+        "name": "glow_1",
+        "region": "glow_1",
+        "type": "mesh",
+        "bone": "BlikRound2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 745,
+          "height": 559
+        },
+        "mesh": {
+          "uvPairs": 15,
+          "vertexNumbers": 30,
+          "triangles": 16,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "l",
+        "name": "l",
+        "region": "l",
+        "type": "mesh",
+        "bone": "Chest",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 360,
+          "height": 120
+        },
+        "mesh": {
+          "uvPairs": 9,
+          "vertexNumbers": 18,
+          "triangles": 7,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particles",
+        "name": "particles",
+        "region": "particles",
+        "type": "mesh",
+        "bone": "Prt2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 908,
+          "height": 570
+        },
+        "mesh": {
+          "uvPairs": 6,
+          "vertexNumbers": 12,
+          "triangles": 4,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particles2",
+        "name": "particles",
+        "region": "particles",
+        "type": "mesh",
+        "bone": "Prt3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 908,
+          "height": 570
+        },
+        "mesh": {
+          "uvPairs": 6,
+          "vertexNumbers": 12,
+          "triangles": 4,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particles3",
+        "name": "particles",
+        "region": "particles",
+        "type": "mesh",
+        "bone": "Prt5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 908,
+          "height": 570
+        },
+        "mesh": {
+          "uvPairs": 6,
+          "vertexNumbers": 12,
+          "triangles": 4,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particles4",
+        "name": "particles",
+        "region": "particles",
+        "type": "mesh",
+        "bone": "Prt6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 908,
+          "height": 570
+        },
+        "mesh": {
+          "uvPairs": 6,
+          "vertexNumbers": 12,
+          "triangles": 4,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r",
+        "name": "r",
+        "region": "r",
+        "type": "mesh",
+        "bone": "Chest",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 279,
+          "height": 101
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ray_1",
+        "name": "ray_1",
+        "region": "ray_1",
+        "type": "mesh",
+        "bone": "ray",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 932,
+          "height": 590
+        },
+        "mesh": {
+          "uvPairs": 9,
+          "vertexNumbers": 18,
+          "triangles": 7,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ray_2",
+        "name": "ray_2",
+        "region": "ray_2",
+        "type": "mesh",
+        "bone": "ray",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 932,
+          "height": 304
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "red_gem_1",
+        "name": "red_gem_1",
+        "region": "red_gem_1",
+        "type": "region",
+        "bone": "Chest",
+        "transform": {
+          "x": -3.5,
+          "y": -42.15,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 287,
+          "height": 90
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spear_bottom_right",
+        "name": "spear_bottom_right",
+        "region": "spear_bottom_right",
+        "type": "mesh",
+        "bone": "bone2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 370,
+          "height": 178
+        },
+        "mesh": {
+          "uvPairs": 6,
+          "vertexNumbers": 12,
+          "triangles": 4,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spear_bottom_right2",
+        "name": "spear_bottom_right",
+        "region": "spear_bottom_right",
+        "type": "mesh",
+        "bone": "bone4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 370,
+          "height": 178
+        },
+        "mesh": {
+          "uvPairs": 6,
+          "vertexNumbers": 12,
+          "triangles": 4,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spear_top_right",
+        "name": "spear_top_right",
+        "region": "spear_top_right",
+        "type": "mesh",
+        "bone": "bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 301,
+          "height": 283
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spear_top_right2",
+        "name": "spear_top_right",
+        "region": "spear_top_right",
+        "type": "mesh",
+        "bone": "bone3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 301,
+          "height": 283
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spear_top_right3",
+        "name": "spear_top_right",
+        "region": "spear_top_right",
+        "type": "mesh",
+        "bone": "bone5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 301,
+          "height": 283
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spear_top_right4",
+        "name": "spear_top_right",
+        "region": "spear_top_right",
+        "type": "mesh",
+        "bone": "bone6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 301,
+          "height": 283
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spins",
+        "name": "spins",
+        "region": "spins",
+        "type": "region",
+        "bone": "Spins",
+        "transform": {
+          "x": 16.21,
+          "y": 1.29,
+          "rotation": -90,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 367,
+          "height": 147
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spins_add",
+        "name": "spins",
+        "region": "spins",
+        "type": "region",
+        "bone": "Spins",
+        "transform": {
+          "x": 16.39,
+          "y": 1.29,
+          "rotation": -90,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 367,
+          "height": 147
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spins_shadow",
+        "name": "spins_shadow",
+        "region": "spins_shadow",
+        "type": "region",
+        "bone": "Spins",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -90,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 402,
+          "height": 179
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spins_thick",
+        "name": "spins_thick",
+        "region": "spins_thick",
+        "type": "region",
+        "bone": "Spins",
+        "transform": {
+          "x": 3.21,
+          "y": 0.79,
+          "rotation": -90,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 368,
+          "height": 137
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spin_1",
+        "name": "spin_",
+        "region": "spin_",
+        "type": "region",
+        "bone": "FreeSpins2",
+        "transform": {
+          "x": -1.27,
+          "y": 6.41,
+          "rotation": 0,
+          "scaleX": 0.7742,
+          "scaleY": 1.3996
+        },
+        "size": {
+          "width": 114,
+          "height": 113
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": {
+          "count": 8,
+          "digits": 1
+        }
+      },
+      {
+        "skin": "default",
+        "slot": "spin_3",
+        "name": "spin_",
+        "region": "spin_",
+        "type": "mesh",
+        "bone": "FreeSpins2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 114,
+          "height": 113
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": {
+          "count": 8,
+          "digits": 1
+        }
+      },
+      {
+        "skin": "default",
+        "slot": "spin_4",
+        "name": "spin_",
+        "region": "spin_",
+        "type": "mesh",
+        "bone": "FreeSpins2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 114,
+          "height": 113
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": {
+          "count": 8,
+          "digits": 1
+        }
+      },
+      {
+        "skin": "default",
+        "slot": "spin_5",
+        "name": "spin_",
+        "region": "spin_",
+        "type": "mesh",
+        "bone": "FreeSpins2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 114,
+          "height": 113
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": {
+          "count": 8,
+          "digits": 1
+        }
+      },
+      {
+        "skin": "default",
+        "slot": "super",
+        "name": "super",
+        "region": "super",
+        "type": "region",
+        "bone": "Super",
+        "transform": {
+          "x": 20.09,
+          "y": 3.79,
+          "rotation": -90,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 398,
+          "height": 152
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "super_add",
+        "name": "super",
+        "region": "super",
+        "type": "region",
+        "bone": "Super",
+        "transform": {
+          "x": 19.92,
+          "y": 3.79,
+          "rotation": -90,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 398,
+          "height": 152
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "super_shadow",
+        "name": "super_shadow",
+        "region": "super_shadow",
+        "type": "region",
+        "bone": "Super",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -90,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 430,
+          "height": 185
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "idle",
+        "duration": 2,
+        "keyframes": 168,
+        "curvedKeys": 85,
+        "channels": [
+          {
+            "path": "slots.chest2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.cross.alpha",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.cross2.alpha",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.free_add.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow_5.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.glow_6.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Numbers_Glow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.particles.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.particles2.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.particles3.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.particles4.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.spins_add.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.super_add.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Chest.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Cap.translatey",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Cap2.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.SpearsL2.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.SpearsL.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone2.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone2.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone4.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone4.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone3.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Spins.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Free.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Prt2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Prt3.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Prt5.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Prt6.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Glow1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Glow2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.ray.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.BlikRound.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.BlikRound.translatex",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.BlikRound.translatey",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.BlikRound2.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.BlikRound2.translatex",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.BlikRound2.translatey",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.Cross.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Cross.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Cross.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Cross2.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ray2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone5.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone6.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Super.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "Chest",
+          "Cap",
+          "Cap2",
+          "SpearsL2",
+          "SpearsL",
+          "bone2",
+          "bone4",
+          "bone",
+          "bone3",
+          "Spins",
+          "Free",
+          "Prt2",
+          "Prt3",
+          "Prt5",
+          "Prt6",
+          "Glow1",
+          "Glow2",
+          "ray",
+          "BlikRound",
+          "BlikRound2",
+          "Cross",
+          "Cross2",
+          "ray2",
+          "bone5",
+          "bone6",
+          "Super"
+        ],
+        "animatedSlots": [
+          "chest2",
+          "chest3",
+          "cross",
+          "cross2",
+          "free_add",
+          "glow_5",
+          "glow_6",
+          "Numbers_Glow",
+          "particles",
+          "particles2",
+          "particles3",
+          "particles4",
+          "spins_add",
+          "super_add"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "in",
+        "duration": 1,
+        "keyframes": 299,
+        "curvedKeys": 143,
+        "channels": [
+          {
+            "path": "slots.Cap.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.chest.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.chest.rgb",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.chest2.alpha",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.chest3.rgb",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.chest3.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.chest3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.cross.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.cross2.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.free.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.free_add.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.free_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.free_thick.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow_1.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.glow_2.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.glow_3.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.glow_4.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.glow_5.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow_6.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.l.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Numbers.alpha",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.Numbers_Glow.alpha",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.particles.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.particles2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.particles3.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.particles4.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.r.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ray_1.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.ray_2.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.red_gem_1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spear_bottom_right.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spear_bottom_right2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spear_top_right.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spear_top_right2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spear_top_right3.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spear_top_right4.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spins.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spins_add.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.spins_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spins_thick.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spin_1.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.spin_3.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.spin_4.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.spin_5.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.super.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.super_add.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.super_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Chest.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Chest.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Cap.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Cap2.translatex",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.SpearsL2.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.SpearsL.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.bone2.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone2.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bone4.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone4.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bone.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bone3.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone3.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Spins.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Free.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Prt2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Prt3.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Prt5.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Prt6.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Glow1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Glow2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.ray.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.ray.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.BlikRound.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.BlikRound.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.BlikRound.translatey",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.BlikRound2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.BlikRound2.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.BlikRound2.translatey",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Cross.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Cross.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Cross.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Cross2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Numbers.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.Numbers.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Text.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Text.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.FreeSpins2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.FreeSpins2.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.ray2.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.ray2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone5.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone5.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bone6.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone6.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Super.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "attachments.default.spin_1.spin_.sequence",
+            "keyframes": 1
+          },
+          {
+            "path": "attachments.default.spin_3.spin_.sequence",
+            "keyframes": 1
+          },
+          {
+            "path": "attachments.default.spin_4.spin_.sequence",
+            "keyframes": 1
+          },
+          {
+            "path": "attachments.default.spin_5.spin_.sequence",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "Chest",
+          "Cap",
+          "Cap2",
+          "SpearsL2",
+          "SpearsL",
+          "bone2",
+          "bone4",
+          "bone",
+          "bone3",
+          "Spins",
+          "Free",
+          "Prt2",
+          "Prt3",
+          "Prt5",
+          "Prt6",
+          "Glow1",
+          "Glow2",
+          "ray",
+          "BlikRound",
+          "BlikRound2",
+          "Cross",
+          "Cross2",
+          "Numbers",
+          "Text",
+          "FreeSpins2",
+          "ray2",
+          "bone5",
+          "bone6",
+          "Super"
+        ],
+        "animatedSlots": [
+          "Cap",
+          "chest",
+          "chest2",
+          "chest3",
+          "cross",
+          "cross2",
+          "free",
+          "free_add",
+          "free_shadow",
+          "free_thick",
+          "glow_1",
+          "glow_2",
+          "glow_3",
+          "glow_4",
+          "glow_5",
+          "glow_6",
+          "l",
+          "Numbers",
+          "Numbers_Glow",
+          "particles",
+          "particles2",
+          "particles3",
+          "particles4",
+          "r",
+          "ray_1",
+          "ray_2",
+          "red_gem_1",
+          "spear_bottom_right",
+          "spear_bottom_right2",
+          "spear_top_right",
+          "spear_top_right2",
+          "spear_top_right3",
+          "spear_top_right4",
+          "spins",
+          "spins_add",
+          "spins_shadow",
+          "spins_thick",
+          "spin_1",
+          "spin_3",
+          "spin_4",
+          "spin_5",
+          "super",
+          "super_add",
+          "super_shadow"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "in_upgrade",
+        "duration": 1,
+        "keyframes": 259,
+        "curvedKeys": 122,
+        "channels": [
+          {
+            "path": "slots.Cap.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.chest.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.chest.rgb",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.chest2.alpha",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.chest3.rgb",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.chest3.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.chest3.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.cross.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.cross2.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.free.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.free_add.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.free_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.free_thick.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow_1.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.glow_2.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.glow_3.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.glow_4.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.glow_5.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow_6.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.l.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Numbers.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Numbers_Glow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.particles.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.particles2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.particles3.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.particles4.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.r.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ray_1.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.ray_2.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.red_gem_1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spear_bottom_right.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spear_bottom_right2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spear_top_right.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spear_top_right2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spear_top_right3.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spear_top_right4.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spins.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spins_add.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.spins_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spins_thick.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.super.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.super_add.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.super_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Chest.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Chest.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Cap.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Cap2.translatex",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.SpearsL2.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.SpearsL.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.bone2.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone2.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bone4.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone4.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bone.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bone3.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone3.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Spins.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Free.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Prt2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Prt3.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Prt5.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Prt6.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Glow1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Glow2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.ray.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.ray.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.BlikRound.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.BlikRound.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.BlikRound.translatey",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.BlikRound2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.BlikRound2.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.BlikRound2.translatey",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Cross.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Cross.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Cross.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Cross2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Numbers.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Numbers.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.Text.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Text.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.FreeSpins2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.FreeSpins2.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.ray2.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.ray2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone5.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone5.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bone6.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone6.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Super.scale",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "Chest",
+          "Cap",
+          "Cap2",
+          "SpearsL2",
+          "SpearsL",
+          "bone2",
+          "bone4",
+          "bone",
+          "bone3",
+          "Spins",
+          "Free",
+          "Prt2",
+          "Prt3",
+          "Prt5",
+          "Prt6",
+          "Glow1",
+          "Glow2",
+          "ray",
+          "BlikRound",
+          "BlikRound2",
+          "Cross",
+          "Cross2",
+          "Numbers",
+          "Text",
+          "FreeSpins2",
+          "ray2",
+          "bone5",
+          "bone6",
+          "Super"
+        ],
+        "animatedSlots": [
+          "Cap",
+          "chest",
+          "chest2",
+          "chest3",
+          "cross",
+          "cross2",
+          "free",
+          "free_add",
+          "free_shadow",
+          "free_thick",
+          "glow_1",
+          "glow_2",
+          "glow_3",
+          "glow_4",
+          "glow_5",
+          "glow_6",
+          "l",
+          "Numbers",
+          "Numbers_Glow",
+          "particles",
+          "particles2",
+          "particles3",
+          "particles4",
+          "r",
+          "ray_1",
+          "ray_2",
+          "red_gem_1",
+          "spear_bottom_right",
+          "spear_bottom_right2",
+          "spear_top_right",
+          "spear_top_right2",
+          "spear_top_right3",
+          "spear_top_right4",
+          "spins",
+          "spins_add",
+          "spins_shadow",
+          "spins_thick",
+          "super",
+          "super_add",
+          "super_shadow"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "out",
+        "duration": 0.5,
+        "keyframes": 130,
+        "curvedKeys": 49,
+        "channels": [
+          {
+            "path": "slots.Cap.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.chest.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.chest3.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.free.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.free_add.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.free_shadow.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.free_thick.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.glow_1.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.glow_2.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.glow_3.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.glow_4.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.glow_5.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow_5.rgb",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.glow_6.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow_6.rgb",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.l.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Numbers.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Numbers_Glow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Numbers_Glow.rgb",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particles.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particles2.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particles3.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particles4.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.r.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ray_1.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ray_2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.red_gem_1.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.spear_bottom_right.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spear_bottom_right2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spear_top_right.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spear_top_right2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spear_top_right3.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spear_top_right4.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spins.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.spins_add.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.spins_shadow.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.spins_thick.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.super.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.super_add.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.super_shadow.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Chest.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Chest.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Cap2.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.SpearsL.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone2.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone4.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone3.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Prt2.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Prt3.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Prt6.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bone5.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone6.rotate",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "Chest",
+          "Cap",
+          "Cap2",
+          "SpearsL2",
+          "SpearsL",
+          "bone2",
+          "bone4",
+          "bone",
+          "bone3",
+          "Spins",
+          "Free",
+          "Prt2",
+          "Prt3",
+          "Prt5",
+          "Prt6",
+          "Glow1",
+          "Glow2",
+          "ray",
+          "BlikRound",
+          "BlikRound2",
+          "Cross",
+          "Cross2",
+          "ray2",
+          "bone5",
+          "bone6",
+          "Super"
+        ],
+        "animatedSlots": [
+          "Cap",
+          "chest",
+          "chest3",
+          "cross",
+          "cross2",
+          "free",
+          "free_add",
+          "free_shadow",
+          "free_thick",
+          "glow_1",
+          "glow_2",
+          "glow_3",
+          "glow_4",
+          "glow_5",
+          "glow_6",
+          "l",
+          "Numbers",
+          "Numbers_Glow",
+          "particles",
+          "particles2",
+          "particles3",
+          "particles4",
+          "r",
+          "ray_1",
+          "ray_2",
+          "red_gem_1",
+          "spear_bottom_right",
+          "spear_bottom_right2",
+          "spear_top_right",
+          "spear_top_right2",
+          "spear_top_right3",
+          "spear_top_right4",
+          "spins",
+          "spins_add",
+          "spins_shadow",
+          "spins_thick",
+          "super",
+          "super_add",
+          "super_shadow"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 34,
+      "slots": 44,
+      "attachments": 43,
+      "meshAttachments": 29,
+      "meshUvPairs": 240,
+      "constraints": {
+        "ik": 0,
+        "transform": 1,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "Cap",
+      "file": "pieces/cap-4302622f.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1144,778,728,491",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "chest",
+      "file": "pieces/chest-0b4d14ce.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "552,728,778,590",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cross",
+      "file": "pieces/cross-eb6950bb.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1396,88,256,256"
+      }
+    },
+    {
+      "region": "free",
+      "file": "pieces/free-f3627bbe.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1317,631,306,145",
+        "offsets": "1,1,308,147"
+      }
+    },
+    {
+      "region": "free_shadow",
+      "file": "pieces/free-shadow-a0d0d8c4.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1637,893,338,174",
+        "offsets": "2,3,342,180"
+      }
+    },
+    {
+      "region": "free_thick",
+      "file": "pieces/free-thick-3ba80744.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1637,756,307,135",
+        "offsets": "1,1,309,137"
+      }
+    },
+    {
+      "region": "glow_1",
+      "file": "pieces/glow-1-29e1bb88.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "648,15,373,559",
+        "offsets": "0,0,745,559"
+      }
+    },
+    {
+      "region": "glow_2",
+      "file": "pieces/glow-2-1bc10961.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1023,10,268,479",
+        "offsets": "0,0,536,479"
+      }
+    },
+    {
+      "region": "l",
+      "file": "pieces/l-e9d8000b.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1637,1069,360,120"
+      }
+    },
+    {
+      "region": "particles",
+      "file": "pieces/particles-98c1de26.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "2,2,644,570",
+        "offsets": "264,0,908,570"
+      }
+    },
+    {
+      "region": "r",
+      "file": "pieces/r-e199b571.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1293,65,279,101",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ray_1",
+      "file": "pieces/ray-1-0936c29e.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "2,574,932,336",
+        "offsets": "0,140,932,590",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ray_2",
+      "file": "pieces/ray-2-a36da6f4.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "340,574,932,210",
+        "offsets": "0,61,932,304",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "red_gem_1",
+      "file": "pieces/red-gem-1-8ffb138c.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1023,491,285,88",
+        "offsets": "1,1,287,90"
+      }
+    },
+    {
+      "region": "spear_bottom_right",
+      "file": "pieces/spear-bottom-right-798ccc87.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1637,1328,370,178"
+      }
+    },
+    {
+      "region": "spear_top_right",
+      "file": "pieces/spear-top-right-944a431b.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1317,346,301,283"
+      }
+    },
+    {
+      "region": "spin_1",
+      "file": "pieces/spin-1-974b162c.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1620,465,114,113",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spin_2",
+      "file": "pieces/spin-2-08db84e9.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1620,349,114,113",
+        "offsets": "0,0,114,126",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spin_3",
+      "file": "pieces/spin-3-8daf2a1a.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1917,466,114,113",
+        "offsets": "0,0,114,126"
+      }
+    },
+    {
+      "region": "spin_4",
+      "file": "pieces/spin-4-ab4a8c94.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1917,351,114,113",
+        "offsets": "0,0,114,126"
+      }
+    },
+    {
+      "region": "spin_5",
+      "file": "pieces/spin-5-ca93d6c0.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1917,236,114,113",
+        "offsets": "0,0,114,126"
+      }
+    },
+    {
+      "region": "spin_6",
+      "file": "pieces/spin-6-fe8c6a7d.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1917,121,114,113"
+      }
+    },
+    {
+      "region": "spin_7",
+      "file": "pieces/spin-7-235cfb8d.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1654,5,114,113",
+        "offsets": "0,0,114,114",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spin_8",
+      "file": "pieces/spin-8-0559864c.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1769,5,114,113",
+        "offsets": "0,0,114,126",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "spins",
+      "file": "pieces/spins-76fa209b.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "950,581,365,145",
+        "offsets": "1,1,367,147"
+      }
+    },
+    {
+      "region": "spins_shadow",
+      "file": "pieces/spins-shadow-5daf3124.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1625,581,398,173",
+        "offsets": "2,3,402,179"
+      }
+    },
+    {
+      "region": "spins_thick",
+      "file": "pieces/spins-thick-fccf9063.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1637,1191,366,135",
+        "offsets": "1,1,368,137"
+      }
+    },
+    {
+      "region": "super",
+      "file": "pieces/super-c0b67c4a.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "552,576,396,150",
+        "offsets": "1,1,398,152"
+      }
+    },
+    {
+      "region": "super_shadow",
+      "file": "pieces/super-shadow-2116b00c.png",
+      "page": "intro_freegame2.webp",
+      "properties": {
+        "bounds": "1735,153,426,180",
+        "offsets": "2,2,430,185",
+        "rotate": "90"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

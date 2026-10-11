@@ -1,0 +1,103 @@
+{
+  "id": "spin-reaper-winsafe-animations-basebg-c02e125d-bfe81800",
+  "collection": "library",
+  "name": "basebg",
+  "machine": "spin-reaper-winsafe",
+  "format": "spritesheet",
+  "version": null,
+  "packagePath": "bibliotheque/spin-reaper-winsafe/animations/basebg-c02e125d",
+  "skeleton": "spritesheet.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": null,
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 1612062,
+    "rgbaBytesEstimate": 6448248,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 3,
+  "actions": [],
+  "analysisPath": "learning/cases/spin-reaper-winsafe-animations-basebg-c02e125d-bfe81800/analysis.json",
+  "exactActionVisibility": false,
+  "rig": null,
+  "atlasRegions": [
+    {
+      "region": "base_bg_base.png",
+      "file": "pieces/base-bg-base-png-5d965a6a.png",
+      "properties": {
+        "frame": {
+          "x": 1,
+          "y": 1,
+          "w": 961,
+          "h": 556
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 961,
+          "h": 556
+        },
+        "sourceSize": {
+          "w": 961,
+          "h": 556
+        }
+      }
+    },
+    {
+      "region": "bonus_bg_base.png",
+      "file": "pieces/bonus-bg-base-png-0e33df2e.png",
+      "properties": {
+        "frame": {
+          "x": 1,
+          "y": 559,
+          "w": 961,
+          "h": 556
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 961,
+          "h": 556
+        },
+        "sourceSize": {
+          "w": 961,
+          "h": 556
+        }
+      }
+    },
+    {
+      "region": "super_bg_base.png",
+      "file": "pieces/super-bg-base-png-8f2403bd.png",
+      "properties": {
+        "frame": {
+          "x": 1,
+          "y": 1117,
+          "w": 961,
+          "h": 556
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 961,
+          "h": 556
+        },
+        "sourceSize": {
+          "w": 961,
+          "h": 556
+        }
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

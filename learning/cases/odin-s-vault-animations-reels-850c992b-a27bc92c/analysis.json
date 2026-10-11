@@ -1,0 +1,180 @@
+{
+  "id": "odin-s-vault-animations-reels-850c992b-a27bc92c",
+  "collection": "library",
+  "name": "reels",
+  "machine": "odin-s-vault",
+  "format": "spritesheet",
+  "version": null,
+  "packagePath": "bibliotheque/odin-s-vault/animations/reels-850c992b",
+  "skeleton": "spritesheet.json",
+  "complete": false,
+  "warnings": [
+    "Frame multiplier_reel.png : extract_area: bad extract area",
+    "Frame progress_bar_mob_gold.png : extract_area: bad extract area",
+    "Frame progress_bar_web_green.png : extract_area: bad extract area",
+    "Frame reel_raven.png : extract_area: bad extract area"
+  ],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": null,
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 3475452,
+    "rgbaBytesEstimate": 13901808,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 6,
+  "actions": [],
+  "analysisPath": "learning/cases/odin-s-vault-animations-reels-850c992b-a27bc92c/analysis.json",
+  "exactActionVisibility": false,
+  "rig": null,
+  "atlasRegions": [
+    {
+      "region": "progress_bar_mob.png",
+      "file": "pieces/progress-bar-mob-png-e53f5ca3.png",
+      "properties": {
+        "frame": {
+          "x": 1,
+          "y": 884,
+          "w": 904,
+          "h": 259
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 904,
+          "h": 259
+        },
+        "sourceSize": {
+          "w": 904,
+          "h": 259
+        }
+      }
+    },
+    {
+      "region": "progress_bar_mob_green.png",
+      "file": "pieces/progress-bar-mob-green-png-e1200702.png",
+      "properties": {
+        "frame": {
+          "x": 802,
+          "y": 1747,
+          "w": 902,
+          "h": 259
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 902,
+          "h": 259
+        },
+        "sourceSize": {
+          "w": 902,
+          "h": 259
+        }
+      }
+    },
+    {
+      "region": "progress_bar_web.png",
+      "file": "pieces/progress-bar-web-png-4994c07e.png",
+      "properties": {
+        "frame": {
+          "x": 907,
+          "y": 843,
+          "w": 444,
+          "h": 799
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 444,
+          "h": 799
+        },
+        "sourceSize": {
+          "w": 444,
+          "h": 799
+        }
+      }
+    },
+    {
+      "region": "progress_bar_web_gold.png",
+      "file": "pieces/progress-bar-web-gold-png-3ca9c54d.png",
+      "properties": {
+        "frame": {
+          "x": 1,
+          "y": 1145,
+          "w": 444,
+          "h": 799
+        },
+        "rotated": true,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 444,
+          "h": 799
+        },
+        "sourceSize": {
+          "w": 444,
+          "h": 799
+        }
+      }
+    },
+    {
+      "region": "reel.png",
+      "file": "pieces/reel-png-9fc005dd.png",
+      "properties": {
+        "frame": {
+          "x": 1,
+          "y": 1,
+          "w": 881,
+          "h": 881
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 881,
+          "h": 881
+        },
+        "sourceSize": {
+          "w": 881,
+          "h": 881
+        }
+      }
+    },
+    {
+      "region": "reel_background.png",
+      "file": "pieces/reel-background-png-5b9d9bb6.png",
+      "properties": {
+        "frame": {
+          "x": 884,
+          "y": 1,
+          "w": 794,
+          "h": 840
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 794,
+          "h": 840
+        },
+        "sourceSize": {
+          "w": 794,
+          "h": 840
+        }
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

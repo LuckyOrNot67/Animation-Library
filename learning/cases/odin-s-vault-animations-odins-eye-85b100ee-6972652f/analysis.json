@@ -1,0 +1,6532 @@
+{
+  "id": "odin-s-vault-animations-odins-eye-85b100ee-6972652f",
+  "collection": "library",
+  "name": "odins_eye",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/odins-eye-85b100ee",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 21,
+    "slots": 47,
+    "attachments": 75,
+    "meshAttachments": 40,
+    "meshUvPairs": 304,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 262144,
+    "rgbaBytesEstimate": 1048576,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 44,
+  "actions": [
+    {
+      "name": "disappear",
+      "duration": 0.6667,
+      "keyframes": 261,
+      "curvedKeys": 120,
+      "channels": [
+        {
+          "path": "slots.background.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.background.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.background2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.background2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.base.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.decor_01.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.decor_01.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.decor_02.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.decor_02.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.decor_03.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.decor_03.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.decor_04.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.decor_04.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.decor_05.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.decor_05.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.decor_06.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.decor_06.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.decor_07.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.decor_07.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.decor_08.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.decor_08.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.eyelid_bottom.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.eyelid_bottom.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.eyelid_top.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.eyelid_top.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.eye_shadow.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.eye_shadow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.eye_vfx.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.eye_vfx.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_01.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_01.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.frame_02.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_02.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.frame_03.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_03.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.frame_04.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_04.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.frame_05.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame_05.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_06.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame_06.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_07.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame_07.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_08.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame_08.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_shadow1.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_shadow1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.frame_shadow2.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_shadow2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.frame_shadow3.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_shadow3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.frame_shadow4.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_shadow4.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.metal_arc_bottom_01.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.metal_arc_bottom_01.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.metal_arc_bottom_02.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.metal_arc_bottom_02.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.metal_arc_bottom_03.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.metal_arc_bottom_03.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.metal_arc_top.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.metal_arc_top.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.metal_arc_top2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.metal_arc_top2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.pupil.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.pupil.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.pupil2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.pupil2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.pupil_shadow_01.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.pupil_shadow_01.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.pupil_shadow_02.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.pupil_shadow_02.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.root.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.runes.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.runes.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.star_glow.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.star_glow.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.star_glow2.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.star_glow2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.background.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.background.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.base.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.base.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.pupil.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.pupil.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.pupil.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.eyelid_top.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.eyelid_bottom.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.frame_02.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.frame_02.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.frame_01.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.frame_01.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.frame_03.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.frame_03.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.frame_04.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.frame_04.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.decor_01.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.decor_02.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.decor_04.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.decor_03.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.eye_vfx.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.eye_vfx.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.star_glow_back.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star_glow_back.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.star_glow_pupil.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star_glow_pupil.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "attachments.default.background.background.deform",
+          "keyframes": 3
+        },
+        {
+          "path": "attachments.default.background2.background.deform",
+          "keyframes": 3
+        },
+        {
+          "path": "attachments.default.base.base.deform",
+          "keyframes": 3
+        },
+        {
+          "path": "drawOrder",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "background",
+        "base",
+        "pupil",
+        "eyelid_top",
+        "eyelid_bottom",
+        "frame_02",
+        "frame_01",
+        "frame_03",
+        "frame_04",
+        "decor_01",
+        "decor_02",
+        "decor_04",
+        "decor_03",
+        "eye_vfx",
+        "star_glow_back",
+        "star_glow_pupil"
+      ],
+      "animatedSlots": [
+        "background",
+        "background2",
+        "base",
+        "decor_01",
+        "decor_02",
+        "decor_03",
+        "decor_04",
+        "decor_05",
+        "decor_06",
+        "decor_07",
+        "decor_08",
+        "eyelid_bottom",
+        "eyelid_top",
+        "eye_shadow",
+        "eye_vfx",
+        "frame_01",
+        "frame_02",
+        "frame_03",
+        "frame_04",
+        "frame_05",
+        "frame_06",
+        "frame_07",
+        "frame_08",
+        "frame_shadow1",
+        "frame_shadow2",
+        "frame_shadow3",
+        "frame_shadow4",
+        "metal_arc_bottom_01",
+        "metal_arc_bottom_02",
+        "metal_arc_bottom_03",
+        "metal_arc_top",
+        "metal_arc_top2",
+        "pupil",
+        "pupil2",
+        "pupil_shadow_01",
+        "pupil_shadow_02",
+        "root",
+        "root_eye",
+        "runes",
+        "star_glow",
+        "star_glow2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": true,
+      "events": [],
+      "tags": [
+        "transition"
+      ]
+    },
+    {
+      "name": "land",
+      "duration": 0.6667,
+      "keyframes": 209,
+      "curvedKeys": 120,
+      "channels": [
+        {
+          "path": "slots.background2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.background2.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.decor_05.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.decor_05.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.decor_06.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.decor_06.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.decor_07.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.decor_07.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.decor_08.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.decor_08.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.eyelid_closed.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.eyelid_closed.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.eyelid_top.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.eyelid_top.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_05.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame_05.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_06.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame_06.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_07.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame_07.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_08.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame_08.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.metal_arc_bottom_03.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.metal_arc_bottom_03.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.metal_arc_top2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.metal_arc_top2.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.pupil2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.pupil2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.star_glow.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.star_glow.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.star_glow2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.star_glow2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.eyelid_closed.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.frame_03.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.frame_03.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.frame_04.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.frame_04.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.frame_01.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.frame_01.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.frame_02.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.frame_02.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.base.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.base.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.pupil.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.pupil.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.eyelid_bottom.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.decor_01.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.decor_02.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.decor_03.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.decor_04.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.background.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.background.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star_glow_pupil.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star_glow_pupil.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star_glow_back.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.star_glow_back.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.eyelid_top.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "attachments.default.background.background.deform",
+          "keyframes": 3
+        },
+        {
+          "path": "attachments.default.background2.background.deform",
+          "keyframes": 3
+        },
+        {
+          "path": "attachments.default.eyelid_closed.eyelid_closed.deform",
+          "keyframes": 9
+        },
+        {
+          "path": "attachments.default.eyelid_top.eyelid_top.deform",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "eyelid_closed",
+        "frame_03",
+        "frame_04",
+        "frame_01",
+        "frame_02",
+        "base",
+        "pupil",
+        "eyelid_bottom",
+        "decor_01",
+        "decor_02",
+        "decor_03",
+        "decor_04",
+        "background",
+        "star_glow_pupil",
+        "star_glow_back",
+        "eyelid_top"
+      ],
+      "animatedSlots": [
+        "background2",
+        "decor_05",
+        "decor_06",
+        "decor_07",
+        "decor_08",
+        "eyelid_closed",
+        "eyelid_top",
+        "eye_vfx",
+        "frame_05",
+        "frame_06",
+        "frame_07",
+        "frame_08",
+        "metal_arc_bottom_03",
+        "metal_arc_top2",
+        "pupil2",
+        "root",
+        "root_eye",
+        "star_glow",
+        "star_glow2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": true,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "multi_unlock",
+      "duration": 1.9333,
+      "keyframes": 418,
+      "curvedKeys": 248,
+      "channels": [
+        {
+          "path": "slots.background2.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.background2.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.decor_05.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.decor_05.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.decor_06.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.decor_06.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.decor_07.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.decor_07.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.decor_08.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.decor_08.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.eyelid_closed.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.eyelid_closed.attachment",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.eyelid_top.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.eyelid_top.attachment",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.eye_vfx.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.eye_vfx.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_05.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.frame_05.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_06.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.frame_06.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_07.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.frame_07.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_08.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.frame_08.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.metal_arc_bottom_03.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.metal_arc_bottom_03.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.metal_arc_top2.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.metal_arc_top2.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.pupil.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.pupil2.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.pupil_open.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.pupil_open.attachment",
+          "keyframes": 32
+        },
+        {
+          "path": "slots.pupil_open_add.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.pupil_open_add.attachment",
+          "keyframes": 15
+        },
+        {
+          "path": "slots.pupil_shadow_02.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.pupil_shadow_02.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.root_eye.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.star_glow.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.star_glow.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.star_glow2.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.star_glow2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Symbol_placeholder.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.Symbol_placeholder.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.background.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.background.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.frame_02.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.frame_02.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.frame_03.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.frame_03.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.frame_04.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.frame_04.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.frame_01.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.frame_01.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.base.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.base.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.decor_01.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.decor_02.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.decor_03.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.decor_04.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.eyelid_closed.translate",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.pupil.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.pupil.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.eye_vfx.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.star_glow_back.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star_glow_back.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.star_glow_pupil.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star_glow_pupil.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.eyelid_top.translate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.eyelid_bottom.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.Symbol_placeholder.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Symbol_placeholder.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.pupil_open.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "attachments.default.background.background.deform",
+          "keyframes": 4
+        },
+        {
+          "path": "attachments.default.background2.background.deform",
+          "keyframes": 4
+        },
+        {
+          "path": "attachments.default.base.base.deform",
+          "keyframes": 5
+        },
+        {
+          "path": "attachments.default.eyelid_bottom.eyelid_bottom.deform",
+          "keyframes": 6
+        },
+        {
+          "path": "attachments.default.eyelid_closed.eyelid_closed.deform",
+          "keyframes": 18
+        },
+        {
+          "path": "attachments.default.eyelid_top.eyelid_top.deform",
+          "keyframes": 8
+        },
+        {
+          "path": "attachments.default.pupil.pupil.deform",
+          "keyframes": 3
+        },
+        {
+          "path": "drawOrder",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "background",
+        "frame_02",
+        "frame_03",
+        "frame_04",
+        "frame_01",
+        "base",
+        "decor_01",
+        "decor_02",
+        "decor_03",
+        "decor_04",
+        "eyelid_closed",
+        "pupil",
+        "eye_vfx",
+        "star_glow_back",
+        "star_glow_pupil",
+        "eyelid_top",
+        "eyelid_bottom",
+        "Symbol_placeholder",
+        "pupil_open"
+      ],
+      "animatedSlots": [
+        "background2",
+        "decor_05",
+        "decor_06",
+        "decor_07",
+        "decor_08",
+        "eyelid_closed",
+        "eyelid_top",
+        "eye_vfx",
+        "frame_05",
+        "frame_06",
+        "frame_07",
+        "frame_08",
+        "metal_arc_bottom_03",
+        "metal_arc_top2",
+        "pupil",
+        "pupil2",
+        "pupil_open",
+        "pupil_open_add",
+        "pupil_shadow_02",
+        "root_eye",
+        "star_glow",
+        "star_glow2",
+        "Symbol_placeholder"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": true,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "selecting_symbols",
+      "duration": 2.3333,
+      "keyframes": 316,
+      "curvedKeys": 218,
+      "channels": [
+        {
+          "path": "slots.background2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.background2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.decor_05.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.decor_05.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.decor_06.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.decor_06.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.decor_07.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.decor_07.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.decor_08.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.decor_08.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.eyelid_closed.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.eyelid_closed.attachment",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.eyelid_top.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.eyelid_top.attachment",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.eye_vfx.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.eye_vfx.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_05.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame_05.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_06.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame_06.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_07.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame_07.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_08.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame_08.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.metal_arc_bottom_03.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.metal_arc_bottom_03.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.metal_arc_top2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.metal_arc_top2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.pupil2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.pupil2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.pupil_shadow_02.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.pupil_shadow_02.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.root_eye.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.star_glow.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.star_glow.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.star_glow2.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.star_glow2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.background.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.background.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.frame_02.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.frame_02.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.frame_03.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.frame_03.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.frame_04.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.frame_04.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.frame_01.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.frame_01.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.base.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.base.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.decor_01.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.decor_02.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.decor_03.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.decor_04.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.eyelid_closed.translate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.pupil.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.pupil.translate",
+          "keyframes": 11
+        },
+        {
+          "path": "bones.pupil.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.eye_vfx.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.eye_vfx.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.star_glow_back.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star_glow_back.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.star_glow_pupil.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star_glow_pupil.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.eyelid_top.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.eyelid_bottom.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "attachments.default.background.background.deform",
+          "keyframes": 4
+        },
+        {
+          "path": "attachments.default.background2.background.deform",
+          "keyframes": 4
+        },
+        {
+          "path": "attachments.default.base.base.deform",
+          "keyframes": 4
+        },
+        {
+          "path": "attachments.default.eyelid_bottom.eyelid_bottom.deform",
+          "keyframes": 5
+        },
+        {
+          "path": "attachments.default.eyelid_closed.eyelid_closed.deform",
+          "keyframes": 18
+        },
+        {
+          "path": "attachments.default.eyelid_top.eyelid_top.deform",
+          "keyframes": 6
+        },
+        {
+          "path": "attachments.default.root_eye.root_eye.deform",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "background",
+        "frame_02",
+        "frame_03",
+        "frame_04",
+        "frame_01",
+        "base",
+        "decor_01",
+        "decor_02",
+        "decor_03",
+        "decor_04",
+        "eyelid_closed",
+        "pupil",
+        "eye_vfx",
+        "star_glow_back",
+        "star_glow_pupil",
+        "eyelid_top",
+        "eyelid_bottom"
+      ],
+      "animatedSlots": [
+        "background2",
+        "decor_05",
+        "decor_06",
+        "decor_07",
+        "decor_08",
+        "eyelid_closed",
+        "eyelid_top",
+        "eye_vfx",
+        "frame_05",
+        "frame_06",
+        "frame_07",
+        "frame_08",
+        "metal_arc_bottom_03",
+        "metal_arc_top2",
+        "pupil2",
+        "pupil_shadow_02",
+        "root_eye",
+        "star_glow",
+        "star_glow2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "win",
+      "duration": 1.1667,
+      "keyframes": 245,
+      "curvedKeys": 158,
+      "channels": [
+        {
+          "path": "slots.background2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.background2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.decor_05.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.decor_05.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.decor_06.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.decor_06.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.decor_07.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.decor_07.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.decor_08.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.decor_08.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.eyelid_closed.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.eyelid_closed.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.eyelid_top.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.eyelid_top.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.eye_vfx.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.eye_vfx.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_05.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame_05.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_06.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame_06.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_07.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame_07.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_08.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame_08.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.metal_arc_bottom_03.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.metal_arc_bottom_03.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.metal_arc_top2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.metal_arc_top2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.pupil2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.pupil2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.pupil_shadow_02.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.pupil_shadow_02.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.star_glow.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.star_glow.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.star_glow2.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.star_glow2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.background.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.background.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.frame_02.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.frame_02.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.frame_03.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.frame_03.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.frame_04.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.frame_04.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.frame_01.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.frame_01.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.base.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.base.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.decor_01.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.decor_02.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.decor_03.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.decor_04.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.eyelid_top.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.eyelid_closed.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.eyelid_bottom.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.pupil.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.pupil.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.pupil.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.eye_vfx.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.eye_vfx.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.star_glow_back.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star_glow_back.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.star_glow_pupil.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star_glow_pupil.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "attachments.default.background.background.deform",
+          "keyframes": 3
+        },
+        {
+          "path": "attachments.default.background2.background.deform",
+          "keyframes": 3
+        },
+        {
+          "path": "attachments.default.base.base.deform",
+          "keyframes": 4
+        },
+        {
+          "path": "attachments.default.eyelid_closed.eyelid_closed.deform",
+          "keyframes": 9
+        },
+        {
+          "path": "attachments.default.eyelid_top.eyelid_top.deform",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "background",
+        "frame_02",
+        "frame_03",
+        "frame_04",
+        "frame_01",
+        "base",
+        "decor_01",
+        "decor_02",
+        "decor_03",
+        "decor_04",
+        "eyelid_top",
+        "eyelid_closed",
+        "eyelid_bottom",
+        "pupil",
+        "eye_vfx",
+        "star_glow_back",
+        "star_glow_pupil"
+      ],
+      "animatedSlots": [
+        "background2",
+        "decor_05",
+        "decor_06",
+        "decor_07",
+        "decor_08",
+        "eyelid_closed",
+        "eyelid_top",
+        "eye_vfx",
+        "frame_05",
+        "frame_06",
+        "frame_07",
+        "frame_08",
+        "metal_arc_bottom_03",
+        "metal_arc_top2",
+        "pupil2",
+        "pupil_shadow_02",
+        "root_eye",
+        "star_glow",
+        "star_glow2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "win"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-odins-eye-85b100ee-6972652f/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "main",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "background",
+        "parent": "main",
+        "x": 0.5,
+        "y": 76.67,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "frame_03",
+        "parent": "background",
+        "x": 53.52,
+        "y": -54.53,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "frame_04",
+        "parent": "background",
+        "x": -54.44,
+        "y": -54.3,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "frame_02",
+        "parent": "background",
+        "x": 52.6,
+        "y": 49.5,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "frame_01",
+        "parent": "background",
+        "x": -53.52,
+        "y": 49.27,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "base",
+        "parent": "background",
+        "x": -1.54,
+        "y": -2.08,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "pupil",
+        "parent": "base",
+        "x": 1.3,
+        "y": -2.19,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "decor_01",
+        "parent": "base",
+        "x": 0.43,
+        "y": 56.25,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "decor_02",
+        "parent": "base",
+        "x": 59.84,
+        "y": 2.29,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "decor_04",
+        "parent": "base",
+        "x": -59.42,
+        "y": 0.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "decor_03",
+        "parent": "base",
+        "x": -0.29,
+        "y": -60.72,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "eyelid_top",
+        "parent": "base",
+        "x": 0.04,
+        "y": 30.95,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "eyelid_bottom",
+        "parent": "base",
+        "x": 0.96,
+        "y": -29.14,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "eyelid_closed",
+        "parent": "base",
+        "x": 1.53,
+        "y": -30.5,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "eye_vfx",
+        "parent": "pupil",
+        "x": -0.42,
+        "y": 1.13,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.7,
+        "scaleY": 1.7
+      },
+      {
+        "name": "star_glow_back",
+        "parent": "background",
+        "x": 2.6,
+        "y": -3.82,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.1,
+        "scaleY": 1.1
+      },
+      {
+        "name": "star_glow_pupil",
+        "parent": "background",
+        "x": 0,
+        "y": -3.82,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.1,
+        "scaleY": 1.1
+      },
+      {
+        "name": "Symbol_placeholder",
+        "parent": "main",
+        "x": 0,
+        "y": 72.72,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "pupil_open",
+        "parent": "pupil",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.1577,
+        "scaleY": 1.1577
+      }
+    ],
+    "slots": [
+      {
+        "name": "BG",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "star_glow",
+        "bone": "star_glow_back",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "star_glow2",
+        "bone": "star_glow_pupil",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "eye_shadow",
+        "bone": "background",
+        "setupAttachment": "eye_shadow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "root",
+        "bone": "background",
+        "setupAttachment": "root",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "background",
+        "bone": "background",
+        "setupAttachment": "background",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "background2",
+        "bone": "background",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_shadow1",
+        "bone": "frame_02",
+        "setupAttachment": "frame_shadow1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_shadow2",
+        "bone": "frame_03",
+        "setupAttachment": "frame_shadow2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_shadow3",
+        "bone": "frame_04",
+        "setupAttachment": "frame_shadow3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_shadow4",
+        "bone": "frame_01",
+        "setupAttachment": "frame_shadow4",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_04",
+        "bone": "frame_04",
+        "setupAttachment": "frame_04",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_08",
+        "bone": "frame_04",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_03",
+        "bone": "frame_03",
+        "setupAttachment": "frame_03",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_07",
+        "bone": "frame_03",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_02",
+        "bone": "frame_02",
+        "setupAttachment": "frame_02",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_05",
+        "bone": "frame_02",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_01",
+        "bone": "frame_01",
+        "setupAttachment": "frame_01",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_06",
+        "bone": "frame_01",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "decor_04",
+        "bone": "decor_04",
+        "setupAttachment": "decor_04",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "decor_08",
+        "bone": "decor_04",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "decor_03",
+        "bone": "decor_03",
+        "setupAttachment": "decor_03",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "decor_07",
+        "bone": "decor_03",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "decor_02",
+        "bone": "decor_02",
+        "setupAttachment": "decor_02",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "decor_06",
+        "bone": "decor_02",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "decor_01",
+        "bone": "decor_01",
+        "setupAttachment": "decor_01",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "decor_05",
+        "bone": "decor_01",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "base",
+        "bone": "base",
+        "setupAttachment": "base",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "root_eye",
+        "bone": "eyelid_bottom",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "pupil_shadow_01",
+        "bone": "pupil",
+        "setupAttachment": "pupil_shadow_01",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "pupil",
+        "bone": "pupil",
+        "setupAttachment": "pupil",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "pupil2",
+        "bone": "pupil",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "pupil_open",
+        "bone": "pupil_open",
+        "setupAttachment": "pupil_open_00",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "pupil_open_add",
+        "bone": "pupil_open",
+        "setupAttachment": "pupil_open_00",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "eye_vfx",
+        "bone": "eye_vfx",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "pupil_open_mask",
+        "bone": "pupil",
+        "setupAttachment": "pupil_open_mask",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "pupil_shadow_02",
+        "bone": "pupil",
+        "setupAttachment": "pupil_shadow_02",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "metal_arc_bottom_01",
+        "bone": "base",
+        "setupAttachment": "metal_arc_bottom_01",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "metal_arc_bottom_03",
+        "bone": "base",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "metal_arc_bottom_02",
+        "bone": "base",
+        "setupAttachment": "metal_arc_bottom_02",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "metal_arc_top",
+        "bone": "base",
+        "setupAttachment": "metal_arc_top",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "metal_arc_top2",
+        "bone": "base",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "eyelid_bottom",
+        "bone": "eyelid_bottom",
+        "setupAttachment": "eyelid_bottom",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "eyelid_top",
+        "bone": "eyelid_top",
+        "setupAttachment": "eyelid_top",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "eyelid_closed",
+        "bone": "eyelid_closed",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "runes",
+        "bone": "base",
+        "setupAttachment": "runes",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Symbol_placeholder",
+        "bone": "Symbol_placeholder",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffff00"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "background",
+        "name": "background",
+        "region": "background",
+        "type": "mesh",
+        "bone": "background",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 132,
+          "height": 128
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "background2",
+        "name": "background",
+        "region": "background",
+        "type": "mesh",
+        "bone": "background",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 132,
+          "height": 128
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "base",
+        "name": "base",
+        "region": "base",
+        "type": "mesh",
+        "bone": "base",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 100,
+          "height": 99
+        },
+        "mesh": {
+          "uvPairs": 31,
+          "vertexNumbers": 62,
+          "triangles": 44,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "decor_01",
+        "name": "decor_01",
+        "region": "decor_01",
+        "type": "mesh",
+        "bone": "decor_01",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 50,
+          "height": 27
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "decor_02",
+        "name": "decor_02",
+        "region": "decor_02",
+        "type": "mesh",
+        "bone": "decor_02",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 27,
+          "height": 49
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "decor_03",
+        "name": "decor_03",
+        "region": "decor_03",
+        "type": "mesh",
+        "bone": "decor_03",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 50,
+          "height": 27
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "decor_04",
+        "name": "decor_04",
+        "region": "decor_04",
+        "type": "mesh",
+        "bone": "decor_04",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 28,
+          "height": 49
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "decor_05",
+        "name": "decor_01",
+        "region": "decor_01",
+        "type": "mesh",
+        "bone": "decor_01",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 50,
+          "height": 27
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "decor_06",
+        "name": "decor_02",
+        "region": "decor_02",
+        "type": "mesh",
+        "bone": "decor_02",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 27,
+          "height": 49
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "decor_07",
+        "name": "decor_03",
+        "region": "decor_03",
+        "type": "mesh",
+        "bone": "decor_03",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 50,
+          "height": 27
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "decor_08",
+        "name": "decor_04",
+        "region": "decor_04",
+        "type": "mesh",
+        "bone": "decor_04",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 28,
+          "height": 49
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "eyelid_bottom",
+        "name": "eyelid_bottom",
+        "region": "eyelid_bottom",
+        "type": "mesh",
+        "bone": "eyelid_bottom",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 117,
+          "height": 41
+        },
+        "mesh": {
+          "uvPairs": 24,
+          "vertexNumbers": 176,
+          "triangles": 22,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "eyelid_closed",
+        "name": "eyelid_closed",
+        "region": "eyelid_closed",
+        "type": "mesh",
+        "bone": "eyelid_closed",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 133,
+          "height": 73
+        },
+        "mesh": {
+          "uvPairs": 55,
+          "vertexNumbers": 455,
+          "triangles": 77,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "eyelid_top",
+        "name": "eyelid_top",
+        "region": "eyelid_top",
+        "type": "mesh",
+        "bone": "eyelid_top",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 134,
+          "height": 41
+        },
+        "mesh": {
+          "uvPairs": 28,
+          "vertexNumbers": 188,
+          "triangles": 26,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "eye_shadow",
+        "name": "eye_shadow",
+        "region": "eye_shadow",
+        "type": "mesh",
+        "bone": "background",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 145,
+          "height": 143
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "eye_vfx",
+        "name": "eye_vfx",
+        "region": "eye_vfx",
+        "type": "mesh",
+        "bone": "eye_vfx",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 48,
+          "height": 48
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_01",
+        "name": "frame_01",
+        "region": "frame_01",
+        "type": "mesh",
+        "bone": "frame_01",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 48
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_02",
+        "name": "frame_02",
+        "region": "frame_02",
+        "type": "mesh",
+        "bone": "frame_02",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 48
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_03",
+        "name": "frame_03",
+        "region": "frame_03",
+        "type": "mesh",
+        "bone": "frame_03",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 48
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_04",
+        "name": "frame_04",
+        "region": "frame_04",
+        "type": "mesh",
+        "bone": "frame_04",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 48
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_05",
+        "name": "frame_02",
+        "region": "frame_02",
+        "type": "mesh",
+        "bone": "frame_02",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 48
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_06",
+        "name": "frame_01",
+        "region": "frame_01",
+        "type": "mesh",
+        "bone": "frame_01",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 48
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_07",
+        "name": "frame_03",
+        "region": "frame_03",
+        "type": "mesh",
+        "bone": "frame_03",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 48
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_08",
+        "name": "frame_04",
+        "region": "frame_04",
+        "type": "mesh",
+        "bone": "frame_04",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 48
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_shadow1",
+        "name": "frame_shadow1",
+        "region": "frame_shadow1",
+        "type": "mesh",
+        "bone": "frame_02",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 46,
+          "height": 45
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_shadow2",
+        "name": "frame_shadow2",
+        "region": "frame_shadow2",
+        "type": "mesh",
+        "bone": "frame_03",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 44,
+          "height": 39
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_shadow3",
+        "name": "frame_shadow3",
+        "region": "frame_shadow3",
+        "type": "mesh",
+        "bone": "frame_04",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 50,
+          "height": 42
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_shadow4",
+        "name": "frame_shadow4",
+        "region": "frame_shadow4",
+        "type": "mesh",
+        "bone": "frame_01",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 47
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "metal_arc_bottom_01",
+        "name": "metal_arc_bottom_01",
+        "region": "metal_arc_bottom_01",
+        "type": "mesh",
+        "bone": "base",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 117,
+          "height": 67
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "metal_arc_bottom_02",
+        "name": "metal_arc_bottom_02",
+        "region": "metal_arc_bottom_02",
+        "type": "mesh",
+        "bone": "base",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 99,
+          "height": 56
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "metal_arc_bottom_03",
+        "name": "metal_arc_bottom_01",
+        "region": "metal_arc_bottom_01",
+        "type": "mesh",
+        "bone": "base",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 117,
+          "height": 67
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "metal_arc_top",
+        "name": "metal_arc_top",
+        "region": "metal_arc_top",
+        "type": "mesh",
+        "bone": "base",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 113,
+          "height": 47
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "metal_arc_top2",
+        "name": "metal_arc_top",
+        "region": "metal_arc_top",
+        "type": "mesh",
+        "bone": "base",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 113,
+          "height": 47
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil",
+        "name": "pupil",
+        "region": "pupil",
+        "type": "mesh",
+        "bone": "pupil",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 48,
+          "height": 48
+        },
+        "mesh": {
+          "uvPairs": 15,
+          "vertexNumbers": 30,
+          "triangles": 16,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil2",
+        "name": "pupil",
+        "region": "pupil",
+        "type": "mesh",
+        "bone": "pupil",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 48,
+          "height": 48
+        },
+        "mesh": {
+          "uvPairs": 15,
+          "vertexNumbers": 30,
+          "triangles": 16,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open",
+        "name": "pupil_open_00",
+        "region": "pupil_open_00",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open",
+        "name": "pupil_open_01",
+        "region": "pupil_open_01",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open",
+        "name": "pupil_open_02",
+        "region": "pupil_open_02",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open",
+        "name": "pupil_open_03",
+        "region": "pupil_open_03",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open",
+        "name": "pupil_open_04",
+        "region": "pupil_open_04",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open",
+        "name": "pupil_open_05",
+        "region": "pupil_open_05",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open",
+        "name": "pupil_open_06",
+        "region": "pupil_open_06",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open",
+        "name": "pupil_open_07",
+        "region": "pupil_open_07",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open",
+        "name": "pupil_open_08",
+        "region": "pupil_open_08",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open",
+        "name": "pupil_open_09",
+        "region": "pupil_open_09",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open",
+        "name": "pupil_open_10",
+        "region": "pupil_open_10",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open",
+        "name": "pupil_open_11",
+        "region": "pupil_open_11",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open",
+        "name": "pupil_open_12",
+        "region": "pupil_open_12",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open",
+        "name": "pupil_open_13",
+        "region": "pupil_open_13",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open",
+        "name": "pupil_open_14",
+        "region": "pupil_open_14",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open",
+        "name": "pupil_open_15",
+        "region": "pupil_open_15",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open_add",
+        "name": "pupil_open_00",
+        "region": "pupil_open_00",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1.0936,
+          "scaleY": 1.0936
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open_add",
+        "name": "pupil_open_01",
+        "region": "pupil_open_01",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open_add",
+        "name": "pupil_open_02",
+        "region": "pupil_open_02",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open_add",
+        "name": "pupil_open_03",
+        "region": "pupil_open_03",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open_add",
+        "name": "pupil_open_04",
+        "region": "pupil_open_04",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open_add",
+        "name": "pupil_open_05",
+        "region": "pupil_open_05",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open_add",
+        "name": "pupil_open_06",
+        "region": "pupil_open_06",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open_add",
+        "name": "pupil_open_07",
+        "region": "pupil_open_07",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open_add",
+        "name": "pupil_open_08",
+        "region": "pupil_open_08",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open_add",
+        "name": "pupil_open_09",
+        "region": "pupil_open_09",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open_add",
+        "name": "pupil_open_10",
+        "region": "pupil_open_10",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open_add",
+        "name": "pupil_open_11",
+        "region": "pupil_open_11",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open_add",
+        "name": "pupil_open_12",
+        "region": "pupil_open_12",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open_add",
+        "name": "pupil_open_13",
+        "region": "pupil_open_13",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open_add",
+        "name": "pupil_open_14",
+        "region": "pupil_open_14",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open_add",
+        "name": "pupil_open_15",
+        "region": "pupil_open_15",
+        "type": "region",
+        "bone": "pupil_open",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_open_mask",
+        "name": "pupil_open_mask",
+        "region": "pupil_open_mask",
+        "type": "region",
+        "bone": "pupil",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 46,
+          "height": 46
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_shadow_01",
+        "name": "pupil_shadow_01",
+        "region": "pupil_shadow_01",
+        "type": "mesh",
+        "bone": "pupil",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 49,
+          "height": 49
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pupil_shadow_02",
+        "name": "pupil_shadow_02",
+        "region": "pupil_shadow_02",
+        "type": "mesh",
+        "bone": "pupil",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 38,
+          "height": 11
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "root",
+        "name": "root",
+        "region": "root",
+        "type": "clipping",
+        "bone": "background",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "root_eye",
+        "name": "root_eye",
+        "region": "root_eye",
+        "type": "clipping",
+        "bone": "eyelid_bottom",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "runes",
+        "name": "runes",
+        "region": "runes",
+        "type": "mesh",
+        "bone": "base",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 100,
+          "height": 34
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "star_glow",
+        "name": "star_glow",
+        "region": "star_glow",
+        "type": "mesh",
+        "bone": "star_glow_back",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 128,
+          "height": 128
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "star_glow2",
+        "name": "star_glow",
+        "region": "star_glow",
+        "type": "mesh",
+        "bone": "star_glow_pupil",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 128,
+          "height": 128
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "disappear",
+        "duration": 0.6667,
+        "keyframes": 261,
+        "curvedKeys": 120,
+        "channels": [
+          {
+            "path": "slots.background.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.background.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.background2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.background2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.base.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.decor_01.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.decor_01.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.decor_02.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.decor_02.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.decor_03.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.decor_03.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.decor_04.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.decor_04.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.decor_05.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.decor_05.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.decor_06.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.decor_06.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.decor_07.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.decor_07.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.decor_08.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.decor_08.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.eyelid_bottom.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.eyelid_bottom.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.eyelid_top.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.eyelid_top.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.eye_shadow.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.eye_shadow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.eye_vfx.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.eye_vfx.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_01.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_01.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.frame_02.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_02.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.frame_03.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_03.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.frame_04.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_04.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.frame_05.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame_05.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_06.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame_06.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_07.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame_07.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_08.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame_08.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_shadow1.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_shadow1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.frame_shadow2.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_shadow2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.frame_shadow3.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_shadow3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.frame_shadow4.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_shadow4.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.metal_arc_bottom_01.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.metal_arc_bottom_01.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.metal_arc_bottom_02.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.metal_arc_bottom_02.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.metal_arc_bottom_03.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.metal_arc_bottom_03.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.metal_arc_top.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.metal_arc_top.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.metal_arc_top2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.metal_arc_top2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.pupil.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.pupil.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.pupil2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.pupil2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.pupil_shadow_01.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.pupil_shadow_01.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.pupil_shadow_02.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.pupil_shadow_02.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.root.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.runes.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.runes.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.star_glow.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.star_glow.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.star_glow2.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.star_glow2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.background.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.background.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.base.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.base.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.pupil.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.pupil.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.pupil.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.eyelid_top.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.eyelid_bottom.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.frame_02.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.frame_02.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.frame_01.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.frame_01.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.frame_03.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.frame_03.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.frame_04.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.frame_04.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.decor_01.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.decor_02.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.decor_04.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.decor_03.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.eye_vfx.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.eye_vfx.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.star_glow_back.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star_glow_back.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.star_glow_pupil.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star_glow_pupil.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "attachments.default.background.background.deform",
+            "keyframes": 3
+          },
+          {
+            "path": "attachments.default.background2.background.deform",
+            "keyframes": 3
+          },
+          {
+            "path": "attachments.default.base.base.deform",
+            "keyframes": 3
+          },
+          {
+            "path": "drawOrder",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "background",
+          "base",
+          "pupil",
+          "eyelid_top",
+          "eyelid_bottom",
+          "frame_02",
+          "frame_01",
+          "frame_03",
+          "frame_04",
+          "decor_01",
+          "decor_02",
+          "decor_04",
+          "decor_03",
+          "eye_vfx",
+          "star_glow_back",
+          "star_glow_pupil"
+        ],
+        "animatedSlots": [
+          "background",
+          "background2",
+          "base",
+          "decor_01",
+          "decor_02",
+          "decor_03",
+          "decor_04",
+          "decor_05",
+          "decor_06",
+          "decor_07",
+          "decor_08",
+          "eyelid_bottom",
+          "eyelid_top",
+          "eye_shadow",
+          "eye_vfx",
+          "frame_01",
+          "frame_02",
+          "frame_03",
+          "frame_04",
+          "frame_05",
+          "frame_06",
+          "frame_07",
+          "frame_08",
+          "frame_shadow1",
+          "frame_shadow2",
+          "frame_shadow3",
+          "frame_shadow4",
+          "metal_arc_bottom_01",
+          "metal_arc_bottom_02",
+          "metal_arc_bottom_03",
+          "metal_arc_top",
+          "metal_arc_top2",
+          "pupil",
+          "pupil2",
+          "pupil_shadow_01",
+          "pupil_shadow_02",
+          "root",
+          "root_eye",
+          "runes",
+          "star_glow",
+          "star_glow2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": true,
+        "events": [],
+        "tags": [
+          "transition"
+        ]
+      },
+      {
+        "name": "land",
+        "duration": 0.6667,
+        "keyframes": 209,
+        "curvedKeys": 120,
+        "channels": [
+          {
+            "path": "slots.background2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.background2.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.decor_05.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.decor_05.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.decor_06.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.decor_06.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.decor_07.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.decor_07.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.decor_08.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.decor_08.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.eyelid_closed.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.eyelid_closed.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.eyelid_top.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.eyelid_top.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_05.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame_05.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_06.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame_06.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_07.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame_07.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_08.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame_08.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.metal_arc_bottom_03.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.metal_arc_bottom_03.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.metal_arc_top2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.metal_arc_top2.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.pupil2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.pupil2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.star_glow.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.star_glow.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.star_glow2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.star_glow2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.eyelid_closed.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.frame_03.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.frame_03.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.frame_04.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.frame_04.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.frame_01.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.frame_01.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.frame_02.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.frame_02.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.base.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.base.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.pupil.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.pupil.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.eyelid_bottom.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.decor_01.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.decor_02.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.decor_03.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.decor_04.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.background.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.background.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star_glow_pupil.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star_glow_pupil.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star_glow_back.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.star_glow_back.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.eyelid_top.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "attachments.default.background.background.deform",
+            "keyframes": 3
+          },
+          {
+            "path": "attachments.default.background2.background.deform",
+            "keyframes": 3
+          },
+          {
+            "path": "attachments.default.eyelid_closed.eyelid_closed.deform",
+            "keyframes": 9
+          },
+          {
+            "path": "attachments.default.eyelid_top.eyelid_top.deform",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "eyelid_closed",
+          "frame_03",
+          "frame_04",
+          "frame_01",
+          "frame_02",
+          "base",
+          "pupil",
+          "eyelid_bottom",
+          "decor_01",
+          "decor_02",
+          "decor_03",
+          "decor_04",
+          "background",
+          "star_glow_pupil",
+          "star_glow_back",
+          "eyelid_top"
+        ],
+        "animatedSlots": [
+          "background2",
+          "decor_05",
+          "decor_06",
+          "decor_07",
+          "decor_08",
+          "eyelid_closed",
+          "eyelid_top",
+          "eye_vfx",
+          "frame_05",
+          "frame_06",
+          "frame_07",
+          "frame_08",
+          "metal_arc_bottom_03",
+          "metal_arc_top2",
+          "pupil2",
+          "root",
+          "root_eye",
+          "star_glow",
+          "star_glow2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": true,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "multi_unlock",
+        "duration": 1.9333,
+        "keyframes": 418,
+        "curvedKeys": 248,
+        "channels": [
+          {
+            "path": "slots.background2.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.background2.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.decor_05.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.decor_05.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.decor_06.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.decor_06.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.decor_07.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.decor_07.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.decor_08.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.decor_08.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.eyelid_closed.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.eyelid_closed.attachment",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.eyelid_top.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.eyelid_top.attachment",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.eye_vfx.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.eye_vfx.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_05.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.frame_05.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_06.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.frame_06.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_07.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.frame_07.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_08.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.frame_08.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.metal_arc_bottom_03.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.metal_arc_bottom_03.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.metal_arc_top2.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.metal_arc_top2.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.pupil.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.pupil2.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.pupil_open.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.pupil_open.attachment",
+            "keyframes": 32
+          },
+          {
+            "path": "slots.pupil_open_add.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.pupil_open_add.attachment",
+            "keyframes": 15
+          },
+          {
+            "path": "slots.pupil_shadow_02.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.pupil_shadow_02.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.root_eye.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.star_glow.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.star_glow.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.star_glow2.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.star_glow2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Symbol_placeholder.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.Symbol_placeholder.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.background.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.background.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.frame_02.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.frame_02.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.frame_03.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.frame_03.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.frame_04.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.frame_04.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.frame_01.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.frame_01.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.base.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.base.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.decor_01.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.decor_02.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.decor_03.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.decor_04.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.eyelid_closed.translate",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.pupil.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.pupil.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.eye_vfx.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.star_glow_back.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star_glow_back.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.star_glow_pupil.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star_glow_pupil.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.eyelid_top.translate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.eyelid_bottom.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.Symbol_placeholder.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Symbol_placeholder.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.pupil_open.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "attachments.default.background.background.deform",
+            "keyframes": 4
+          },
+          {
+            "path": "attachments.default.background2.background.deform",
+            "keyframes": 4
+          },
+          {
+            "path": "attachments.default.base.base.deform",
+            "keyframes": 5
+          },
+          {
+            "path": "attachments.default.eyelid_bottom.eyelid_bottom.deform",
+            "keyframes": 6
+          },
+          {
+            "path": "attachments.default.eyelid_closed.eyelid_closed.deform",
+            "keyframes": 18
+          },
+          {
+            "path": "attachments.default.eyelid_top.eyelid_top.deform",
+            "keyframes": 8
+          },
+          {
+            "path": "attachments.default.pupil.pupil.deform",
+            "keyframes": 3
+          },
+          {
+            "path": "drawOrder",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "background",
+          "frame_02",
+          "frame_03",
+          "frame_04",
+          "frame_01",
+          "base",
+          "decor_01",
+          "decor_02",
+          "decor_03",
+          "decor_04",
+          "eyelid_closed",
+          "pupil",
+          "eye_vfx",
+          "star_glow_back",
+          "star_glow_pupil",
+          "eyelid_top",
+          "eyelid_bottom",
+          "Symbol_placeholder",
+          "pupil_open"
+        ],
+        "animatedSlots": [
+          "background2",
+          "decor_05",
+          "decor_06",
+          "decor_07",
+          "decor_08",
+          "eyelid_closed",
+          "eyelid_top",
+          "eye_vfx",
+          "frame_05",
+          "frame_06",
+          "frame_07",
+          "frame_08",
+          "metal_arc_bottom_03",
+          "metal_arc_top2",
+          "pupil",
+          "pupil2",
+          "pupil_open",
+          "pupil_open_add",
+          "pupil_shadow_02",
+          "root_eye",
+          "star_glow",
+          "star_glow2",
+          "Symbol_placeholder"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": true,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "selecting_symbols",
+        "duration": 2.3333,
+        "keyframes": 316,
+        "curvedKeys": 218,
+        "channels": [
+          {
+            "path": "slots.background2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.background2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.decor_05.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.decor_05.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.decor_06.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.decor_06.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.decor_07.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.decor_07.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.decor_08.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.decor_08.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.eyelid_closed.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.eyelid_closed.attachment",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.eyelid_top.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.eyelid_top.attachment",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.eye_vfx.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.eye_vfx.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_05.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame_05.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_06.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame_06.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_07.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame_07.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_08.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame_08.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.metal_arc_bottom_03.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.metal_arc_bottom_03.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.metal_arc_top2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.metal_arc_top2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.pupil2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.pupil2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.pupil_shadow_02.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.pupil_shadow_02.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.root_eye.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.star_glow.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.star_glow.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.star_glow2.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.star_glow2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.background.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.background.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.frame_02.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.frame_02.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.frame_03.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.frame_03.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.frame_04.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.frame_04.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.frame_01.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.frame_01.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.base.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.base.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.decor_01.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.decor_02.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.decor_03.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.decor_04.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.eyelid_closed.translate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.pupil.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.pupil.translate",
+            "keyframes": 11
+          },
+          {
+            "path": "bones.pupil.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.eye_vfx.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.eye_vfx.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.star_glow_back.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star_glow_back.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.star_glow_pupil.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star_glow_pupil.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.eyelid_top.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.eyelid_bottom.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "attachments.default.background.background.deform",
+            "keyframes": 4
+          },
+          {
+            "path": "attachments.default.background2.background.deform",
+            "keyframes": 4
+          },
+          {
+            "path": "attachments.default.base.base.deform",
+            "keyframes": 4
+          },
+          {
+            "path": "attachments.default.eyelid_bottom.eyelid_bottom.deform",
+            "keyframes": 5
+          },
+          {
+            "path": "attachments.default.eyelid_closed.eyelid_closed.deform",
+            "keyframes": 18
+          },
+          {
+            "path": "attachments.default.eyelid_top.eyelid_top.deform",
+            "keyframes": 6
+          },
+          {
+            "path": "attachments.default.root_eye.root_eye.deform",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "background",
+          "frame_02",
+          "frame_03",
+          "frame_04",
+          "frame_01",
+          "base",
+          "decor_01",
+          "decor_02",
+          "decor_03",
+          "decor_04",
+          "eyelid_closed",
+          "pupil",
+          "eye_vfx",
+          "star_glow_back",
+          "star_glow_pupil",
+          "eyelid_top",
+          "eyelid_bottom"
+        ],
+        "animatedSlots": [
+          "background2",
+          "decor_05",
+          "decor_06",
+          "decor_07",
+          "decor_08",
+          "eyelid_closed",
+          "eyelid_top",
+          "eye_vfx",
+          "frame_05",
+          "frame_06",
+          "frame_07",
+          "frame_08",
+          "metal_arc_bottom_03",
+          "metal_arc_top2",
+          "pupil2",
+          "pupil_shadow_02",
+          "root_eye",
+          "star_glow",
+          "star_glow2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "win",
+        "duration": 1.1667,
+        "keyframes": 245,
+        "curvedKeys": 158,
+        "channels": [
+          {
+            "path": "slots.background2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.background2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.decor_05.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.decor_05.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.decor_06.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.decor_06.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.decor_07.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.decor_07.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.decor_08.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.decor_08.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.eyelid_closed.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.eyelid_closed.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.eyelid_top.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.eyelid_top.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.eye_vfx.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.eye_vfx.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_05.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame_05.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_06.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame_06.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_07.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame_07.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_08.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame_08.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.metal_arc_bottom_03.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.metal_arc_bottom_03.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.metal_arc_top2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.metal_arc_top2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.pupil2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.pupil2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.pupil_shadow_02.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.pupil_shadow_02.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.star_glow.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.star_glow.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.star_glow2.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.star_glow2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.background.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.background.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.frame_02.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.frame_02.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.frame_03.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.frame_03.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.frame_04.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.frame_04.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.frame_01.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.frame_01.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.base.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.base.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.decor_01.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.decor_02.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.decor_03.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.decor_04.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.eyelid_top.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.eyelid_closed.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.eyelid_bottom.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.pupil.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.pupil.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.pupil.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.eye_vfx.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.eye_vfx.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.star_glow_back.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star_glow_back.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.star_glow_pupil.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star_glow_pupil.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "attachments.default.background.background.deform",
+            "keyframes": 3
+          },
+          {
+            "path": "attachments.default.background2.background.deform",
+            "keyframes": 3
+          },
+          {
+            "path": "attachments.default.base.base.deform",
+            "keyframes": 4
+          },
+          {
+            "path": "attachments.default.eyelid_closed.eyelid_closed.deform",
+            "keyframes": 9
+          },
+          {
+            "path": "attachments.default.eyelid_top.eyelid_top.deform",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "background",
+          "frame_02",
+          "frame_03",
+          "frame_04",
+          "frame_01",
+          "base",
+          "decor_01",
+          "decor_02",
+          "decor_03",
+          "decor_04",
+          "eyelid_top",
+          "eyelid_closed",
+          "eyelid_bottom",
+          "pupil",
+          "eye_vfx",
+          "star_glow_back",
+          "star_glow_pupil"
+        ],
+        "animatedSlots": [
+          "background2",
+          "decor_05",
+          "decor_06",
+          "decor_07",
+          "decor_08",
+          "eyelid_closed",
+          "eyelid_top",
+          "eye_vfx",
+          "frame_05",
+          "frame_06",
+          "frame_07",
+          "frame_08",
+          "metal_arc_bottom_03",
+          "metal_arc_top2",
+          "pupil2",
+          "pupil_shadow_02",
+          "root_eye",
+          "star_glow",
+          "star_glow2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "win"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 21,
+      "slots": 47,
+      "attachments": 75,
+      "meshAttachments": 40,
+      "meshUvPairs": 304,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "background",
+      "file": "pieces/background-d93d70cb.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "149,121,132,128"
+      }
+    },
+    {
+      "region": "base",
+      "file": "pieces/base-8a72979b.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "413,150,100,99"
+      }
+    },
+    {
+      "region": "decor_01",
+      "file": "pieces/decor-01-9ae41f21.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "2,2,50,27"
+      }
+    },
+    {
+      "region": "decor_02",
+      "file": "pieces/decor-02-4c7aa0b2.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "764,107,27,49"
+      }
+    },
+    {
+      "region": "decor_03",
+      "file": "pieces/decor-03-bb5c3b74.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "54,2,50,27"
+      }
+    },
+    {
+      "region": "decor_04",
+      "file": "pieces/decor-04-c0d495b0.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "850,157,28,49"
+      }
+    },
+    {
+      "region": "eye_shadow",
+      "file": "pieces/eye-shadow-76d1c2e7.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "2,106,145,143"
+      }
+    },
+    {
+      "region": "eye_vfx",
+      "file": "pieces/eye-vfx-b9cbc98a.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "568,96,48,48"
+      }
+    },
+    {
+      "region": "eyelid_bottom",
+      "file": "pieces/eyelid-bottom-ad30e7e3.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "770,208,117,41"
+      }
+    },
+    {
+      "region": "eyelid_closed",
+      "file": "pieces/eyelid-closed-e4495f3b.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "2,31,133,73"
+      }
+    },
+    {
+      "region": "eyelid_top",
+      "file": "pieces/eyelid-top-b4bb8924.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "634,208,134,41"
+      }
+    },
+    {
+      "region": "frame_01",
+      "file": "pieces/frame-01-57a8af24.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "514,96,52,48"
+      }
+    },
+    {
+      "region": "frame_02",
+      "file": "pieces/frame-02-a89c8679.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "634,158,52,48"
+      }
+    },
+    {
+      "region": "frame_03",
+      "file": "pieces/frame-03-352ee1c3.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "688,158,52,48"
+      }
+    },
+    {
+      "region": "frame_04",
+      "file": "pieces/frame-04-965c2d97.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "742,158,52,48"
+      }
+    },
+    {
+      "region": "frame_shadow1",
+      "file": "pieces/frame-shadow1-ad718b20.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "716,111,46,45"
+      }
+    },
+    {
+      "region": "frame_shadow2",
+      "file": "pieces/frame-shadow2-58a69ad5.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "983,156,44,39",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_shadow3",
+      "file": "pieces/frame-shadow3-93a8f365.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "880,158,50,42"
+      }
+    },
+    {
+      "region": "frame_shadow4",
+      "file": "pieces/frame-shadow4-f1542346.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "796,159,52,47"
+      }
+    },
+    {
+      "region": "metal_arc_bottom_01",
+      "file": "pieces/metal-arc-bottom-01-1761c085.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "515,182,117,67"
+      }
+    },
+    {
+      "region": "metal_arc_bottom_02",
+      "file": "pieces/metal-arc-bottom-02-1bd9aa09.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "413,92,99,56"
+      }
+    },
+    {
+      "region": "metal_arc_top",
+      "file": "pieces/metal-arc-top-b0181f9e.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "889,202,113,47"
+      }
+    },
+    {
+      "region": "pupil",
+      "file": "pieces/pupil-2e06ee94.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "618,108,48,48"
+      }
+    },
+    {
+      "region": "pupil_open_00",
+      "file": "pieces/pupil-open-00-246be993.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "983,114,39,40",
+        "offsets": "1,0,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_01",
+      "file": "pieces/pupil-open-01-79b8684e.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "149,79,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_02",
+      "file": "pieces/pupil-open-02-4f46d4d1.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "191,79,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_03",
+      "file": "pieces/pupil-open-03-9e28bb87.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "233,79,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_04",
+      "file": "pieces/pupil-open-04-103e4938.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "275,79,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_05",
+      "file": "pieces/pupil-open-05-3a81f332.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "317,79,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_06",
+      "file": "pieces/pupil-open-06-9c14a10f.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "359,79,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_07",
+      "file": "pieces/pupil-open-07-26e06523.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "137,37,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_08",
+      "file": "pieces/pupil-open-08-c635d927.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "179,37,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_09",
+      "file": "pieces/pupil-open-09-f9e069ed.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "221,37,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_10",
+      "file": "pieces/pupil-open-10-ab6cec6e.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "263,37,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_11",
+      "file": "pieces/pupil-open-11-4abe7edf.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "305,37,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_12",
+      "file": "pieces/pupil-open-12-3a1dcd57.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "347,37,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_13",
+      "file": "pieces/pupil-open-13-25e76f91.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "618,66,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_14",
+      "file": "pieces/pupil-open-14-d3230471.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "389,37,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_15",
+      "file": "pieces/pupil-open-15-06e9294f.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "441,51,40,39",
+        "offsets": "0,0,40,40"
+      }
+    },
+    {
+      "region": "pupil_open_mask",
+      "file": "pieces/pupil-open-mask-be4a1989.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "668,110,46,46"
+      }
+    },
+    {
+      "region": "pupil_shadow_01",
+      "file": "pieces/pupil-shadow-01-a8f435fc.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "932,151,49,49"
+      }
+    },
+    {
+      "region": "pupil_shadow_02",
+      "file": "pieces/pupil-shadow-02-7c4d210b.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "401,79,38,11"
+      }
+    },
+    {
+      "region": "runes",
+      "file": "pieces/runes-da15d08c.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "515,146,100,34"
+      }
+    },
+    {
+      "region": "star_glow",
+      "file": "pieces/star-glow-0eb47d98.png",
+      "page": "odins_eye.webp",
+      "properties": {
+        "bounds": "283,121,128,128"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

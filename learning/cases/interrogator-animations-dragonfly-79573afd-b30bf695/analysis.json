@@ -1,0 +1,1238 @@
+{
+  "id": "interrogator-animations-dragonfly-79573afd-b30bf695",
+  "collection": "library",
+  "name": "dragonfly",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/interrogator/animations/dragonfly-79573afd",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 15,
+    "slots": 6,
+    "attachments": 6,
+    "meshAttachments": 6,
+    "meshUvPairs": 580,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 479530,
+    "rgbaBytesEstimate": 1918120,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 4,
+  "actions": [
+    {
+      "name": "caught",
+      "duration": 0.28,
+      "keyframes": 402,
+      "curvedKeys": 3,
+      "channels": [
+        {
+          "path": "bones.wing_lower_back.rotate",
+          "keyframes": 30
+        },
+        {
+          "path": "bones.wing_lower_back.scale",
+          "keyframes": 30
+        },
+        {
+          "path": "bones.wing_lower_back_tip.rotate",
+          "keyframes": 30
+        },
+        {
+          "path": "bones.wing_lower_front.rotate",
+          "keyframes": 30
+        },
+        {
+          "path": "bones.wing_lower_front.scale",
+          "keyframes": 30
+        },
+        {
+          "path": "bones.wing_lower_front_tip.rotate",
+          "keyframes": 30
+        },
+        {
+          "path": "bones.wing_upper_back.rotate",
+          "keyframes": 30
+        },
+        {
+          "path": "bones.wing_upper_back.scale",
+          "keyframes": 30
+        },
+        {
+          "path": "bones.wing_upper_back_tip.rotate",
+          "keyframes": 30
+        },
+        {
+          "path": "bones.wing_upper_front.rotate",
+          "keyframes": 30
+        },
+        {
+          "path": "bones.wing_upper_front.scale",
+          "keyframes": 30
+        },
+        {
+          "path": "bones.wing_upper_front_tip.rotate",
+          "keyframes": 30
+        },
+        {
+          "path": "bones.abdomen_base.rotate",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.abdomen_mid.rotate",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.abdomen_tip.rotate",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.legs.scale",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.root.translate",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "wing_lower_back",
+        "wing_lower_back_tip",
+        "wing_lower_front",
+        "wing_lower_front_tip",
+        "wing_upper_back",
+        "wing_upper_back_tip",
+        "wing_upper_front",
+        "wing_upper_front_tip",
+        "abdomen_base",
+        "abdomen_mid",
+        "abdomen_tip",
+        "legs",
+        "root"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "fly",
+      "duration": 0.8,
+      "keyframes": 1074,
+      "curvedKeys": 1,
+      "channels": [
+        {
+          "path": "bones.wing_lower_back.rotate",
+          "keyframes": 81
+        },
+        {
+          "path": "bones.wing_lower_back.scale",
+          "keyframes": 81
+        },
+        {
+          "path": "bones.wing_lower_back_tip.rotate",
+          "keyframes": 81
+        },
+        {
+          "path": "bones.wing_lower_front.rotate",
+          "keyframes": 81
+        },
+        {
+          "path": "bones.wing_lower_front.scale",
+          "keyframes": 81
+        },
+        {
+          "path": "bones.wing_lower_front_tip.rotate",
+          "keyframes": 81
+        },
+        {
+          "path": "bones.wing_upper_back.rotate",
+          "keyframes": 81
+        },
+        {
+          "path": "bones.wing_upper_back.scale",
+          "keyframes": 81
+        },
+        {
+          "path": "bones.wing_upper_back_tip.rotate",
+          "keyframes": 81
+        },
+        {
+          "path": "bones.wing_upper_front.rotate",
+          "keyframes": 81
+        },
+        {
+          "path": "bones.wing_upper_front.scale",
+          "keyframes": 81
+        },
+        {
+          "path": "bones.wing_upper_front_tip.rotate",
+          "keyframes": 81
+        },
+        {
+          "path": "bones.abdomen_base.rotate",
+          "keyframes": 25
+        },
+        {
+          "path": "bones.abdomen_mid.rotate",
+          "keyframes": 25
+        },
+        {
+          "path": "bones.abdomen_tip.rotate",
+          "keyframes": 25
+        },
+        {
+          "path": "bones.legs.scale",
+          "keyframes": 25
+        },
+        {
+          "path": "bones.root.translate",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "wing_lower_back",
+        "wing_lower_back_tip",
+        "wing_lower_front",
+        "wing_lower_front_tip",
+        "wing_upper_back",
+        "wing_upper_back_tip",
+        "wing_upper_front",
+        "wing_upper_front_tip",
+        "abdomen_base",
+        "abdomen_mid",
+        "abdomen_tip",
+        "legs",
+        "root"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "land",
+      "duration": 0.46,
+      "keyframes": 626,
+      "curvedKeys": 3,
+      "channels": [
+        {
+          "path": "bones.wing_lower_back.rotate",
+          "keyframes": 47
+        },
+        {
+          "path": "bones.wing_lower_back.scale",
+          "keyframes": 47
+        },
+        {
+          "path": "bones.wing_lower_back_tip.rotate",
+          "keyframes": 47
+        },
+        {
+          "path": "bones.wing_lower_front.rotate",
+          "keyframes": 47
+        },
+        {
+          "path": "bones.wing_lower_front.scale",
+          "keyframes": 47
+        },
+        {
+          "path": "bones.wing_lower_front_tip.rotate",
+          "keyframes": 47
+        },
+        {
+          "path": "bones.wing_upper_back.rotate",
+          "keyframes": 47
+        },
+        {
+          "path": "bones.wing_upper_back.scale",
+          "keyframes": 47
+        },
+        {
+          "path": "bones.wing_upper_back_tip.rotate",
+          "keyframes": 47
+        },
+        {
+          "path": "bones.wing_upper_front.rotate",
+          "keyframes": 47
+        },
+        {
+          "path": "bones.wing_upper_front.scale",
+          "keyframes": 47
+        },
+        {
+          "path": "bones.wing_upper_front_tip.rotate",
+          "keyframes": 47
+        },
+        {
+          "path": "bones.abdomen_base.rotate",
+          "keyframes": 15
+        },
+        {
+          "path": "bones.abdomen_mid.rotate",
+          "keyframes": 15
+        },
+        {
+          "path": "bones.abdomen_tip.rotate",
+          "keyframes": 15
+        },
+        {
+          "path": "bones.legs.scale",
+          "keyframes": 15
+        },
+        {
+          "path": "bones.root.translate",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "wing_lower_back",
+        "wing_lower_back_tip",
+        "wing_lower_front",
+        "wing_lower_front_tip",
+        "wing_upper_back",
+        "wing_upper_back_tip",
+        "wing_upper_front",
+        "wing_upper_front_tip",
+        "abdomen_base",
+        "abdomen_mid",
+        "abdomen_tip",
+        "legs",
+        "root"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "perch",
+      "duration": 2.4,
+      "keyframes": 3186,
+      "curvedKeys": 1993,
+      "channels": [
+        {
+          "path": "bones.wing_lower_back.rotate",
+          "keyframes": 241
+        },
+        {
+          "path": "bones.wing_lower_back.scale",
+          "keyframes": 241
+        },
+        {
+          "path": "bones.wing_lower_back_tip.rotate",
+          "keyframes": 241
+        },
+        {
+          "path": "bones.wing_lower_front.rotate",
+          "keyframes": 241
+        },
+        {
+          "path": "bones.wing_lower_front.scale",
+          "keyframes": 241
+        },
+        {
+          "path": "bones.wing_lower_front_tip.rotate",
+          "keyframes": 241
+        },
+        {
+          "path": "bones.wing_upper_back.rotate",
+          "keyframes": 241
+        },
+        {
+          "path": "bones.wing_upper_back.scale",
+          "keyframes": 241
+        },
+        {
+          "path": "bones.wing_upper_back_tip.rotate",
+          "keyframes": 241
+        },
+        {
+          "path": "bones.wing_upper_front.rotate",
+          "keyframes": 241
+        },
+        {
+          "path": "bones.wing_upper_front.scale",
+          "keyframes": 241
+        },
+        {
+          "path": "bones.wing_upper_front_tip.rotate",
+          "keyframes": 241
+        },
+        {
+          "path": "bones.abdomen_base.rotate",
+          "keyframes": 73
+        },
+        {
+          "path": "bones.abdomen_mid.rotate",
+          "keyframes": 73
+        },
+        {
+          "path": "bones.abdomen_tip.rotate",
+          "keyframes": 73
+        },
+        {
+          "path": "bones.legs.scale",
+          "keyframes": 73
+        },
+        {
+          "path": "bones.root.translate",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "wing_lower_back",
+        "wing_lower_back_tip",
+        "wing_lower_front",
+        "wing_lower_front_tip",
+        "wing_upper_back",
+        "wing_upper_back_tip",
+        "wing_upper_front",
+        "wing_upper_front_tip",
+        "abdomen_base",
+        "abdomen_mid",
+        "abdomen_tip",
+        "legs",
+        "root"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/interrogator-animations-dragonfly-79573afd-b30bf695/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "thorax",
+        "parent": "root",
+        "x": 80,
+        "y": 0,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "head",
+        "parent": "thorax",
+        "x": 70,
+        "y": 0,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "abdomen_base",
+        "parent": "thorax",
+        "x": -120,
+        "y": 0,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "abdomen_mid",
+        "parent": "abdomen_base",
+        "x": -140,
+        "y": 0,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "abdomen_tip",
+        "parent": "abdomen_mid",
+        "x": -150,
+        "y": 0,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "legs",
+        "parent": "thorax",
+        "x": -15,
+        "y": 0,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "wing_lower_back",
+        "parent": "thorax",
+        "x": -42,
+        "y": -12,
+        "length": 30,
+        "rotation": -113,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "wing_lower_back_tip",
+        "parent": "wing_lower_back",
+        "x": 235,
+        "y": 0,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "wing_lower_front",
+        "parent": "thorax",
+        "x": 5,
+        "y": -12,
+        "length": 30,
+        "rotation": -65,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "wing_lower_front_tip",
+        "parent": "wing_lower_front",
+        "x": 275,
+        "y": 0,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "wing_upper_back",
+        "parent": "thorax",
+        "x": -42,
+        "y": 12,
+        "length": 30,
+        "rotation": 113,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "wing_upper_back_tip",
+        "parent": "wing_upper_back",
+        "x": 235,
+        "y": 0,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "wing_upper_front",
+        "parent": "thorax",
+        "x": 5,
+        "y": 12,
+        "length": 30,
+        "rotation": 65,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "wing_upper_front_tip",
+        "parent": "wing_upper_front",
+        "x": 275,
+        "y": 0,
+        "length": 30,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "legs",
+        "bone": "root",
+        "setupAttachment": "legs",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "wing_lower_back",
+        "bone": "root",
+        "setupAttachment": "wing_lower_back",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "wing_lower_front",
+        "bone": "root",
+        "setupAttachment": "wing_lower_front",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "wing_upper_back",
+        "bone": "root",
+        "setupAttachment": "wing_upper_back",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "wing_upper_front",
+        "bone": "root",
+        "setupAttachment": "wing_upper_front",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "body",
+        "bone": "root",
+        "setupAttachment": "body",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "body",
+        "name": "body",
+        "region": "body",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 588,
+          "height": 169
+        },
+        "mesh": {
+          "uvPairs": 203,
+          "vertexNumbers": 1771,
+          "triangles": 336,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "legs",
+        "name": "legs",
+        "region": "legs",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 417,
+          "height": 446
+        },
+        "mesh": {
+          "uvPairs": 117,
+          "vertexNumbers": 585,
+          "triangles": 192,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "wing_lower_back",
+        "name": "wing_lower_back",
+        "region": "wing_back",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 341,
+          "height": 155
+        },
+        "mesh": {
+          "uvPairs": 65,
+          "vertexNumbers": 425,
+          "triangles": 96,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "wing_lower_front",
+        "name": "wing_lower_front",
+        "region": "wing_front",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 488,
+          "height": 196
+        },
+        "mesh": {
+          "uvPairs": 65,
+          "vertexNumbers": 425,
+          "triangles": 96,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "wing_upper_back",
+        "name": "wing_upper_back",
+        "region": "wing_back",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 341,
+          "height": 155
+        },
+        "mesh": {
+          "uvPairs": 65,
+          "vertexNumbers": 425,
+          "triangles": 96,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "wing_upper_front",
+        "name": "wing_upper_front",
+        "region": "wing_front",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 488,
+          "height": 196
+        },
+        "mesh": {
+          "uvPairs": 65,
+          "vertexNumbers": 425,
+          "triangles": 96,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "caught",
+        "duration": 0.28,
+        "keyframes": 402,
+        "curvedKeys": 3,
+        "channels": [
+          {
+            "path": "bones.wing_lower_back.rotate",
+            "keyframes": 30
+          },
+          {
+            "path": "bones.wing_lower_back.scale",
+            "keyframes": 30
+          },
+          {
+            "path": "bones.wing_lower_back_tip.rotate",
+            "keyframes": 30
+          },
+          {
+            "path": "bones.wing_lower_front.rotate",
+            "keyframes": 30
+          },
+          {
+            "path": "bones.wing_lower_front.scale",
+            "keyframes": 30
+          },
+          {
+            "path": "bones.wing_lower_front_tip.rotate",
+            "keyframes": 30
+          },
+          {
+            "path": "bones.wing_upper_back.rotate",
+            "keyframes": 30
+          },
+          {
+            "path": "bones.wing_upper_back.scale",
+            "keyframes": 30
+          },
+          {
+            "path": "bones.wing_upper_back_tip.rotate",
+            "keyframes": 30
+          },
+          {
+            "path": "bones.wing_upper_front.rotate",
+            "keyframes": 30
+          },
+          {
+            "path": "bones.wing_upper_front.scale",
+            "keyframes": 30
+          },
+          {
+            "path": "bones.wing_upper_front_tip.rotate",
+            "keyframes": 30
+          },
+          {
+            "path": "bones.abdomen_base.rotate",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.abdomen_mid.rotate",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.abdomen_tip.rotate",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.legs.scale",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.root.translate",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "wing_lower_back",
+          "wing_lower_back_tip",
+          "wing_lower_front",
+          "wing_lower_front_tip",
+          "wing_upper_back",
+          "wing_upper_back_tip",
+          "wing_upper_front",
+          "wing_upper_front_tip",
+          "abdomen_base",
+          "abdomen_mid",
+          "abdomen_tip",
+          "legs",
+          "root"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "fly",
+        "duration": 0.8,
+        "keyframes": 1074,
+        "curvedKeys": 1,
+        "channels": [
+          {
+            "path": "bones.wing_lower_back.rotate",
+            "keyframes": 81
+          },
+          {
+            "path": "bones.wing_lower_back.scale",
+            "keyframes": 81
+          },
+          {
+            "path": "bones.wing_lower_back_tip.rotate",
+            "keyframes": 81
+          },
+          {
+            "path": "bones.wing_lower_front.rotate",
+            "keyframes": 81
+          },
+          {
+            "path": "bones.wing_lower_front.scale",
+            "keyframes": 81
+          },
+          {
+            "path": "bones.wing_lower_front_tip.rotate",
+            "keyframes": 81
+          },
+          {
+            "path": "bones.wing_upper_back.rotate",
+            "keyframes": 81
+          },
+          {
+            "path": "bones.wing_upper_back.scale",
+            "keyframes": 81
+          },
+          {
+            "path": "bones.wing_upper_back_tip.rotate",
+            "keyframes": 81
+          },
+          {
+            "path": "bones.wing_upper_front.rotate",
+            "keyframes": 81
+          },
+          {
+            "path": "bones.wing_upper_front.scale",
+            "keyframes": 81
+          },
+          {
+            "path": "bones.wing_upper_front_tip.rotate",
+            "keyframes": 81
+          },
+          {
+            "path": "bones.abdomen_base.rotate",
+            "keyframes": 25
+          },
+          {
+            "path": "bones.abdomen_mid.rotate",
+            "keyframes": 25
+          },
+          {
+            "path": "bones.abdomen_tip.rotate",
+            "keyframes": 25
+          },
+          {
+            "path": "bones.legs.scale",
+            "keyframes": 25
+          },
+          {
+            "path": "bones.root.translate",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "wing_lower_back",
+          "wing_lower_back_tip",
+          "wing_lower_front",
+          "wing_lower_front_tip",
+          "wing_upper_back",
+          "wing_upper_back_tip",
+          "wing_upper_front",
+          "wing_upper_front_tip",
+          "abdomen_base",
+          "abdomen_mid",
+          "abdomen_tip",
+          "legs",
+          "root"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "land",
+        "duration": 0.46,
+        "keyframes": 626,
+        "curvedKeys": 3,
+        "channels": [
+          {
+            "path": "bones.wing_lower_back.rotate",
+            "keyframes": 47
+          },
+          {
+            "path": "bones.wing_lower_back.scale",
+            "keyframes": 47
+          },
+          {
+            "path": "bones.wing_lower_back_tip.rotate",
+            "keyframes": 47
+          },
+          {
+            "path": "bones.wing_lower_front.rotate",
+            "keyframes": 47
+          },
+          {
+            "path": "bones.wing_lower_front.scale",
+            "keyframes": 47
+          },
+          {
+            "path": "bones.wing_lower_front_tip.rotate",
+            "keyframes": 47
+          },
+          {
+            "path": "bones.wing_upper_back.rotate",
+            "keyframes": 47
+          },
+          {
+            "path": "bones.wing_upper_back.scale",
+            "keyframes": 47
+          },
+          {
+            "path": "bones.wing_upper_back_tip.rotate",
+            "keyframes": 47
+          },
+          {
+            "path": "bones.wing_upper_front.rotate",
+            "keyframes": 47
+          },
+          {
+            "path": "bones.wing_upper_front.scale",
+            "keyframes": 47
+          },
+          {
+            "path": "bones.wing_upper_front_tip.rotate",
+            "keyframes": 47
+          },
+          {
+            "path": "bones.abdomen_base.rotate",
+            "keyframes": 15
+          },
+          {
+            "path": "bones.abdomen_mid.rotate",
+            "keyframes": 15
+          },
+          {
+            "path": "bones.abdomen_tip.rotate",
+            "keyframes": 15
+          },
+          {
+            "path": "bones.legs.scale",
+            "keyframes": 15
+          },
+          {
+            "path": "bones.root.translate",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "wing_lower_back",
+          "wing_lower_back_tip",
+          "wing_lower_front",
+          "wing_lower_front_tip",
+          "wing_upper_back",
+          "wing_upper_back_tip",
+          "wing_upper_front",
+          "wing_upper_front_tip",
+          "abdomen_base",
+          "abdomen_mid",
+          "abdomen_tip",
+          "legs",
+          "root"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "perch",
+        "duration": 2.4,
+        "keyframes": 3186,
+        "curvedKeys": 1993,
+        "channels": [
+          {
+            "path": "bones.wing_lower_back.rotate",
+            "keyframes": 241
+          },
+          {
+            "path": "bones.wing_lower_back.scale",
+            "keyframes": 241
+          },
+          {
+            "path": "bones.wing_lower_back_tip.rotate",
+            "keyframes": 241
+          },
+          {
+            "path": "bones.wing_lower_front.rotate",
+            "keyframes": 241
+          },
+          {
+            "path": "bones.wing_lower_front.scale",
+            "keyframes": 241
+          },
+          {
+            "path": "bones.wing_lower_front_tip.rotate",
+            "keyframes": 241
+          },
+          {
+            "path": "bones.wing_upper_back.rotate",
+            "keyframes": 241
+          },
+          {
+            "path": "bones.wing_upper_back.scale",
+            "keyframes": 241
+          },
+          {
+            "path": "bones.wing_upper_back_tip.rotate",
+            "keyframes": 241
+          },
+          {
+            "path": "bones.wing_upper_front.rotate",
+            "keyframes": 241
+          },
+          {
+            "path": "bones.wing_upper_front.scale",
+            "keyframes": 241
+          },
+          {
+            "path": "bones.wing_upper_front_tip.rotate",
+            "keyframes": 241
+          },
+          {
+            "path": "bones.abdomen_base.rotate",
+            "keyframes": 73
+          },
+          {
+            "path": "bones.abdomen_mid.rotate",
+            "keyframes": 73
+          },
+          {
+            "path": "bones.abdomen_tip.rotate",
+            "keyframes": 73
+          },
+          {
+            "path": "bones.legs.scale",
+            "keyframes": 73
+          },
+          {
+            "path": "bones.root.translate",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "wing_lower_back",
+          "wing_lower_back_tip",
+          "wing_lower_front",
+          "wing_lower_front_tip",
+          "wing_upper_back",
+          "wing_upper_back_tip",
+          "wing_upper_front",
+          "wing_upper_front_tip",
+          "abdomen_base",
+          "abdomen_mid",
+          "abdomen_tip",
+          "legs",
+          "root"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 15,
+      "slots": 6,
+      "attachments": 6,
+      "meshAttachments": 6,
+      "meshUvPairs": 580,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "body",
+      "file": "pieces/body-5851f3fd.png",
+      "page": "dragonfly.png",
+      "properties": {
+        "bounds": "619,17,588,169",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "legs",
+      "file": "pieces/legs-eb457365.png",
+      "page": "dragonfly.png",
+      "properties": {
+        "bounds": "2,159,417,446"
+      }
+    },
+    {
+      "region": "wing_back",
+      "file": "pieces/wing-back-21615cf1.png",
+      "page": "dragonfly.png",
+      "properties": {
+        "bounds": "2,2,341,155"
+      }
+    },
+    {
+      "region": "wing_front",
+      "file": "pieces/wing-front-2a7980ab.png",
+      "page": "dragonfly.png",
+      "properties": {
+        "bounds": "421,117,488,196",
+        "rotate": "90"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

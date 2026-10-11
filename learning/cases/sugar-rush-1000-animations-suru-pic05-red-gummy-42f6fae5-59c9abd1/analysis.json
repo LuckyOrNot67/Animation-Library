@@ -1,0 +1,1599 @@
+{
+  "id": "sugar-rush-1000-animations-suru-pic05-red-gummy-42f6fae5-59c9abd1",
+  "collection": "library",
+  "name": "suru_pic05_red_gummy",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-pic05-red-gummy-42f6fae5",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 5,
+    "slots": 7,
+    "attachments": 45,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 38056,
+    "rgbaBytesEstimate": 152224,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 24,
+  "actions": [
+    {
+      "name": "suru_pic05_red_gummy",
+      "duration": 1.5,
+      "keyframes": 72,
+      "curvedKeys": 20,
+      "channels": [
+        {
+          "path": "slots.candy2.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.shadow.color",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.spalsh_00000.attachment",
+          "keyframes": 21
+        },
+        {
+          "path": "slots.spalsh_0.attachment",
+          "keyframes": 21
+        },
+        {
+          "path": "bones.main.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.main.scale",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.shadow.scale",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.splash.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.splash2.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.splash2.scale",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "main",
+        "shadow",
+        "splash",
+        "splash2"
+      ],
+      "animatedSlots": [
+        "candy2",
+        "shadow",
+        "spalsh_00000",
+        "spalsh_0"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-pic05-red-gummy-42f6fae5-59c9abd1/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "main",
+        "parent": "root",
+        "x": 0,
+        "y": -79.04,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "shadow",
+        "parent": "root",
+        "x": 0,
+        "y": -79.04,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "splash",
+        "parent": "root",
+        "x": -37.05,
+        "y": -92.75,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "splash2",
+        "parent": "root",
+        "x": 62.97,
+        "y": -60.6,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "shadow",
+        "bone": "shadow",
+        "setupAttachment": "shadow",
+        "blend": "normal",
+        "color": "0017ff66"
+      },
+      {
+        "name": "spalsh_0",
+        "bone": "splash2",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy",
+        "bone": "main",
+        "setupAttachment": "red_gummy_bear",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy3",
+        "bone": "main",
+        "setupAttachment": "red_gummy_bear_stroke",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy2",
+        "bone": "main",
+        "setupAttachment": "red_gummy_bear",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "particles",
+        "bone": "main",
+        "setupAttachment": "particles",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "spalsh_00000",
+        "bone": "splash",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "candy",
+        "name": "red_gummy_bear",
+        "region": "red_gummy_bear",
+        "type": "region",
+        "bone": "main",
+        "transform": {
+          "x": -1.5,
+          "y": 83.54,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 171,
+          "height": 194
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy2",
+        "name": "red_gummy_bear",
+        "region": "red_gummy_bear",
+        "type": "region",
+        "bone": "main",
+        "transform": {
+          "x": -1.5,
+          "y": 83.54,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 171,
+          "height": 194
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy3",
+        "name": "red_gummy_bear_stroke",
+        "region": "red_gummy_bear_stroke",
+        "type": "region",
+        "bone": "main",
+        "transform": {
+          "x": -1.5,
+          "y": 83.54,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 177,
+          "height": 200
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particles",
+        "name": "particles",
+        "region": "particles",
+        "type": "region",
+        "bone": "main",
+        "transform": {
+          "x": -2,
+          "y": 77.82,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 137,
+          "height": 167
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "shadow",
+        "name": "shadow",
+        "region": "shadow",
+        "type": "region",
+        "bone": "shadow",
+        "transform": {
+          "x": 23.61,
+          "y": 46.25,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 177,
+          "height": 120
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00000",
+        "region": "spalsh_00000",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00001",
+        "region": "spalsh_00001",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00002",
+        "region": "spalsh_00002",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00003",
+        "region": "spalsh_00003",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00004",
+        "region": "spalsh_00004",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00005",
+        "region": "spalsh_00005",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00006",
+        "region": "spalsh_00006",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00007",
+        "region": "spalsh_00007",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00008",
+        "region": "spalsh_00008",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00009",
+        "region": "spalsh_00009",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00010",
+        "region": "spalsh_00010",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00011",
+        "region": "spalsh_00011",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00012",
+        "region": "spalsh_00012",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00013",
+        "region": "spalsh_00013",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00014",
+        "region": "spalsh_00014",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00015",
+        "region": "spalsh_00015",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00016",
+        "region": "spalsh_00016",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00017",
+        "region": "spalsh_00017",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00018",
+        "region": "spalsh_00018",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_0",
+        "name": "spalsh_00019",
+        "region": "spalsh_00019",
+        "type": "region",
+        "bone": "splash2",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00000",
+        "region": "spalsh_00000",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00001",
+        "region": "spalsh_00001",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00002",
+        "region": "spalsh_00002",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00003",
+        "region": "spalsh_00003",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00004",
+        "region": "spalsh_00004",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00005",
+        "region": "spalsh_00005",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00006",
+        "region": "spalsh_00006",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00007",
+        "region": "spalsh_00007",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00008",
+        "region": "spalsh_00008",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00009",
+        "region": "spalsh_00009",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00010",
+        "region": "spalsh_00010",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00011",
+        "region": "spalsh_00011",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00012",
+        "region": "spalsh_00012",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00013",
+        "region": "spalsh_00013",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00014",
+        "region": "spalsh_00014",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00015",
+        "region": "spalsh_00015",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00016",
+        "region": "spalsh_00016",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00017",
+        "region": "spalsh_00017",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00018",
+        "region": "spalsh_00018",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spalsh_00000",
+        "name": "spalsh_00019",
+        "region": "spalsh_00019",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 6.69,
+          "y": 43.24,
+          "rotation": 0,
+          "scaleX": 1.757,
+          "scaleY": 1.757
+        },
+        "size": {
+          "width": 54,
+          "height": 59
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "suru_pic05_red_gummy",
+        "duration": 1.5,
+        "keyframes": 72,
+        "curvedKeys": 20,
+        "channels": [
+          {
+            "path": "slots.candy2.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.shadow.color",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.spalsh_00000.attachment",
+            "keyframes": 21
+          },
+          {
+            "path": "slots.spalsh_0.attachment",
+            "keyframes": 21
+          },
+          {
+            "path": "bones.main.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.main.scale",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.shadow.scale",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.splash.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.splash2.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.splash2.scale",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "main",
+          "shadow",
+          "splash",
+          "splash2"
+        ],
+        "animatedSlots": [
+          "candy2",
+          "shadow",
+          "spalsh_00000",
+          "spalsh_0"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 5,
+      "slots": 7,
+      "attachments": 45,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "particles",
+      "file": "pieces/particles-efa7cea5.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "179, 73",
+        "size": "69, 84",
+        "orig": "69, 84",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "red_gummy_bear",
+      "file": "pieces/red-gummy-bear-1bb2af0e.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "91, 45",
+        "size": "86, 97",
+        "orig": "86, 97",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "red_gummy_bear_stroke",
+      "file": "pieces/red-gummy-bear-stroke-10d01baa.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 42",
+        "size": "89, 100",
+        "orig": "89, 100",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "shadow",
+      "file": "pieces/shadow-da71c29f.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "179, 11",
+        "size": "89, 60",
+        "orig": "89, 60",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00000",
+      "file": "pieces/spalsh-00000-c972c916.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "151, 24",
+        "size": "5, 4",
+        "orig": "27, 30",
+        "offset": "10, 25",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00001",
+      "file": "pieces/spalsh-00001-1cbcd491.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "144, 24",
+        "size": "5, 5",
+        "orig": "27, 30",
+        "offset": "12, 1",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00002",
+      "file": "pieces/spalsh-00002-f564bd0e.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "148, 0",
+        "size": "10, 7",
+        "orig": "27, 30",
+        "offset": "5, 22",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00003",
+      "file": "pieces/spalsh-00003-6a6ff233.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "148, 12",
+        "size": "10, 8",
+        "orig": "27, 30",
+        "offset": "5, 21",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00004",
+      "file": "pieces/spalsh-00004-1d673691.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "86, 2",
+        "size": "10, 14",
+        "orig": "27, 30",
+        "offset": "12, 1",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00005",
+      "file": "pieces/spalsh-00005-96b82e51.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "66, 0",
+        "size": "18, 16",
+        "orig": "27, 30",
+        "offset": "4, 1",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00006",
+      "file": "pieces/spalsh-00006-22fb50b5.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "129, 4",
+        "size": "18, 17",
+        "orig": "27, 30",
+        "offset": "5, 12",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00007",
+      "file": "pieces/spalsh-00007-321d07e7.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "124, 24",
+        "size": "18, 19",
+        "orig": "27, 30",
+        "offset": "4, 1",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00008",
+      "file": "pieces/spalsh-00008-688048c1.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "109, 0",
+        "size": "18, 20",
+        "orig": "27, 30",
+        "offset": "4, 1",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00009",
+      "file": "pieces/spalsh-00009-9fe3801b.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "104, 22",
+        "size": "18, 21",
+        "orig": "27, 30",
+        "offset": "4, 1",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00010",
+      "file": "pieces/spalsh-00010-647173c0.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "64, 18",
+        "size": "18, 22",
+        "orig": "27, 30",
+        "offset": "4, 1",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00011",
+      "file": "pieces/spalsh-00011-5c763471.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "84, 18",
+        "size": "18, 22",
+        "orig": "27, 30",
+        "offset": "4, 1",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00012",
+      "file": "pieces/spalsh-00012-0f644479.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "43, 17",
+        "size": "19, 23",
+        "orig": "27, 30",
+        "offset": "3, 1",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00013",
+      "file": "pieces/spalsh-00013-9127c289.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "22, 16",
+        "size": "19, 24",
+        "orig": "27, 30",
+        "offset": "3, 1",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00014",
+      "file": "pieces/spalsh-00014-d83d49c8.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 15",
+        "size": "20, 25",
+        "orig": "27, 30",
+        "offset": "3, 1",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00015",
+      "file": "pieces/spalsh-00015-6df6eb7b.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "20, 13",
+        "orig": "27, 30",
+        "offset": "3, 11",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00016",
+      "file": "pieces/spalsh-00016-3ad7d877.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "22, 2",
+        "size": "21, 12",
+        "orig": "27, 30",
+        "offset": "3, 12",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00017",
+      "file": "pieces/spalsh-00017-2069ce29.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "45, 0",
+        "size": "19, 15",
+        "orig": "27, 30",
+        "offset": "3, 11",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00018",
+      "file": "pieces/spalsh-00018-9d522031.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "144, 31",
+        "size": "8, 12",
+        "orig": "27, 30",
+        "offset": "3, 15",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "spalsh_00019",
+      "file": "pieces/spalsh-00019-08de82e6.png",
+      "page": "suru_pic05_red_gummy.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "98, 2",
+        "size": "9, 14",
+        "orig": "27, 30",
+        "offset": "3, 14",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

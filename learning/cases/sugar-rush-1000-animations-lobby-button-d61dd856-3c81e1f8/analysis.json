@@ -1,0 +1,1555 @@
+{
+  "id": "sugar-rush-1000-animations-lobby-button-d61dd856-3c81e1f8",
+  "collection": "library",
+  "name": "lobby_button",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.9.1",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/lobby-button-d61dd856",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 2,
+    "slots": 1,
+    "attachments": 38,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 1597600,
+    "rgbaBytesEstimate": 6390400,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 38,
+  "actions": [
+    {
+      "name": "btn_maximize_desktop",
+      "duration": 0.6333,
+      "keyframes": 23,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "slots.frame_holder.attachment",
+          "keyframes": 20
+        },
+        {
+          "path": "bones.frame_holder.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.root.translate",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "frame_holder",
+        "root"
+      ],
+      "animatedSlots": [
+        "frame_holder"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "btn_minimize_desktop",
+      "duration": 0.6333,
+      "keyframes": 23,
+      "curvedKeys": 1,
+      "channels": [
+        {
+          "path": "slots.frame_holder.attachment",
+          "keyframes": 20
+        },
+        {
+          "path": "bones.root.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.frame_holder.translate",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "root",
+        "frame_holder"
+      ],
+      "animatedSlots": [
+        "frame_holder"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-lobby-button-d61dd856-3c81e1f8/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "frame_holder",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.66,
+        "scaleY": 0.66
+      }
+    ],
+    "slots": [
+      {
+        "name": "frame_holder",
+        "bone": "frame_holder",
+        "setupAttachment": "Reverse_29",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_01",
+        "region": "expand_01",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_03",
+        "region": "expand_03",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_05",
+        "region": "expand_05",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_07",
+        "region": "expand_07",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_09",
+        "region": "expand_09",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_11",
+        "region": "expand_11",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_13",
+        "region": "expand_13",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_15",
+        "region": "expand_15",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_17",
+        "region": "expand_17",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_19",
+        "region": "expand_19",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_21",
+        "region": "expand_21",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_23",
+        "region": "expand_23",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_25",
+        "region": "expand_25",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_27",
+        "region": "expand_27",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_29",
+        "region": "expand_29",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_31",
+        "region": "expand_31",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_33",
+        "region": "expand_33",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_35",
+        "region": "expand_35",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "expand_39",
+        "region": "expand_39",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 297,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_00",
+        "region": "Reverse_00",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_01",
+        "region": "Reverse_01",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_02",
+        "region": "Reverse_02",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_03",
+        "region": "Reverse_03",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_04",
+        "region": "Reverse_04",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_05",
+        "region": "Reverse_05",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_06",
+        "region": "Reverse_06",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_07",
+        "region": "Reverse_07",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_09",
+        "region": "Reverse_09",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_11",
+        "region": "Reverse_11",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_13",
+        "region": "Reverse_13",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_15",
+        "region": "Reverse_15",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_17",
+        "region": "Reverse_17",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_19",
+        "region": "Reverse_19",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_21",
+        "region": "Reverse_21",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_23",
+        "region": "Reverse_23",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_25",
+        "region": "Reverse_25",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_27",
+        "region": "Reverse_27",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_holder",
+        "name": "Reverse_29",
+        "region": "Reverse_29",
+        "type": "region",
+        "bone": "frame_holder",
+        "transform": {
+          "x": 0.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "btn_maximize_desktop",
+        "duration": 0.6333,
+        "keyframes": 23,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "slots.frame_holder.attachment",
+            "keyframes": 20
+          },
+          {
+            "path": "bones.frame_holder.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.root.translate",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "frame_holder",
+          "root"
+        ],
+        "animatedSlots": [
+          "frame_holder"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "btn_minimize_desktop",
+        "duration": 0.6333,
+        "keyframes": 23,
+        "curvedKeys": 1,
+        "channels": [
+          {
+            "path": "slots.frame_holder.attachment",
+            "keyframes": 20
+          },
+          {
+            "path": "bones.root.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.frame_holder.translate",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "root",
+          "frame_holder"
+        ],
+        "animatedSlots": [
+          "frame_holder"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 2,
+      "slots": 1,
+      "attachments": 38,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "expand_01",
+      "file": "pieces/expand-01-a7f16531.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1266, 534",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_03",
+      "file": "pieces/expand-03-ae10776a.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1582, 667",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_05",
+      "file": "pieces/expand-05-349e3ebc.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "318, 2",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_07",
+      "file": "pieces/expand-07-20cd3ce2.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "634, 135",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_09",
+      "file": "pieces/expand-09-c708f194.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "950, 268",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_11",
+      "file": "pieces/expand-11-8118148b.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1266, 401",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_13",
+      "file": "pieces/expand-13-e2061c6a.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1565, 534",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_15",
+      "file": "pieces/expand-15-511df16c.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "617, 2",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_17",
+      "file": "pieces/expand-17-0a76d553.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "933, 135",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_19",
+      "file": "pieces/expand-19-75fd5aa8.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1249, 268",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_21",
+      "file": "pieces/expand-21-328e718d.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1565, 401",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_23",
+      "file": "pieces/expand-23-4ce7a1d4.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "916, 2",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_25",
+      "file": "pieces/expand-25-d868a254.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1232, 135",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_27",
+      "file": "pieces/expand-27-3cceea01.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1548, 268",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_29",
+      "file": "pieces/expand-29-9076c7d4.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1215, 2",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_31",
+      "file": "pieces/expand-31-5d108f97.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1531, 135",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_33",
+      "file": "pieces/expand-33-d0d9d36b.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1514, 2",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_35",
+      "file": "pieces/expand-35-fafbac3d.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1864, 368",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "expand_39",
+      "file": "pieces/expand-39-b6a8390a.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1847, 69",
+        "size": "297, 131",
+        "orig": "297, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_00",
+      "file": "pieces/reverse-00-1d2e739d.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 667",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_01",
+      "file": "pieces/reverse-01-91da6c01.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 534",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_02",
+      "file": "pieces/reverse-02-232b2c5b.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "318, 667",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_03",
+      "file": "pieces/reverse-03-16870c64.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 401",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_04",
+      "file": "pieces/reverse-04-34000385.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "318, 534",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_05",
+      "file": "pieces/reverse-05-f50c8551.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "634, 667",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_06",
+      "file": "pieces/reverse-06-2458b819.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 268",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_07",
+      "file": "pieces/reverse-07-0f311f5a.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "318, 401",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_09",
+      "file": "pieces/reverse-09-531fb8f2.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "634, 534",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_11",
+      "file": "pieces/reverse-11-b8982082.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "950, 667",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_13",
+      "file": "pieces/reverse-13-81600aa4.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 135",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_15",
+      "file": "pieces/reverse-15-eace8a6f.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "318, 268",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_17",
+      "file": "pieces/reverse-17-4a225a25.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "634, 401",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_19",
+      "file": "pieces/reverse-19-6eec57b3.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "950, 534",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_21",
+      "file": "pieces/reverse-21-5030f024.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1266, 667",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_23",
+      "file": "pieces/reverse-23-0aa542ad.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 2",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_25",
+      "file": "pieces/reverse-25-fb2f477b.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "318, 135",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_27",
+      "file": "pieces/reverse-27-d7f84e6e.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "634, 268",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "Reverse_29",
+      "file": "pieces/reverse-29-904f3a86.png",
+      "page": "lobby_button_desktop_v3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "950, 401",
+        "size": "314, 131",
+        "orig": "314, 131",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

@@ -1,0 +1,1869 @@
+{
+  "id": "wicked-grin-animations-bg-682d3e3d-745b85dd",
+  "collection": "library",
+  "name": "bg",
+  "machine": "wicked-grin",
+  "format": "spine-json",
+  "version": "4.0.64",
+  "packagePath": "bibliotheque/wicked-grin/animations/bg-682d3e3d",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 29,
+    "slots": 30,
+    "attachments": 30,
+    "meshAttachments": 29,
+    "meshUvPairs": 119,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 4194304,
+    "rgbaBytesEstimate": 16777216,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 6,
+  "actions": [
+    {
+      "name": "hide_black",
+      "duration": 0,
+      "keyframes": 0,
+      "curvedKeys": 0,
+      "channels": [],
+      "animatedBones": [],
+      "animatedSlots": [
+        "ring_16",
+        "ring_17",
+        "ring_18",
+        "ring_19"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "idle",
+      "duration": 13.3333,
+      "keyframes": 59,
+      "curvedKeys": 27,
+      "channels": [
+        {
+          "path": "slots.ring_2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.ring_3.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.ring_4.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.ring_5.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.ring_6.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.ring_7.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.ring_9.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ring_10.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ring_11.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ring_12.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ring_13.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.ring_14.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ring_15.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.ring2.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ring3.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ring4.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ring5.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ring6.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ring7.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ring8.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ring9.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ring10.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ring11.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ring12.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ring13.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ring14.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ring15.scale",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "ring2",
+        "ring3",
+        "ring4",
+        "ring5",
+        "ring6",
+        "ring7",
+        "ring8",
+        "ring9",
+        "ring10",
+        "ring11",
+        "ring12",
+        "ring13",
+        "ring14",
+        "ring15"
+      ],
+      "animatedSlots": [
+        "ring_2",
+        "ring_3",
+        "ring_4",
+        "ring_5",
+        "ring_6",
+        "ring_7",
+        "ring_9",
+        "ring_10",
+        "ring_11",
+        "ring_12",
+        "ring_13",
+        "ring_14",
+        "ring_15"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "noise",
+      "duration": 1.3333,
+      "keyframes": 8,
+      "curvedKeys": 6,
+      "channels": [
+        {
+          "path": "bones.noise.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.noise.scale",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "noise1",
+        "noise2",
+        "noise3",
+        "noise4",
+        "noise5",
+        "noise6",
+        "noise7",
+        "noise8",
+        "noise9",
+        "noise10",
+        "noise"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "show_black",
+      "duration": 0,
+      "keyframes": 0,
+      "curvedKeys": 0,
+      "channels": [],
+      "animatedBones": [],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/wicked-grin-animations-bg-682d3e3d-745b85dd/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "scale_all_bone",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.1,
+        "scaleY": 1.1
+      },
+      {
+        "name": "rings",
+        "parent": "scale_all_bone",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.2,
+        "scaleY": 1.2
+      },
+      {
+        "name": "ring2",
+        "parent": "rings",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 2.1329,
+        "scaleY": 2.1329
+      },
+      {
+        "name": "ring3",
+        "parent": "rings",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 2.1329,
+        "scaleY": 2.1329
+      },
+      {
+        "name": "ring4",
+        "parent": "rings",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 2.1329,
+        "scaleY": 2.1329
+      },
+      {
+        "name": "ring5",
+        "parent": "rings",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ring6",
+        "parent": "rings",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ring7",
+        "parent": "rings",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ring8",
+        "parent": "rings",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ring9",
+        "parent": "rings",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.1731,
+        "scaleY": 0.1731
+      },
+      {
+        "name": "ring10",
+        "parent": "rings",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.1731,
+        "scaleY": 0.1731
+      },
+      {
+        "name": "ring11",
+        "parent": "rings",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.1731,
+        "scaleY": 0.1731
+      },
+      {
+        "name": "ring12",
+        "parent": "rings",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.1731,
+        "scaleY": 0.1731
+      },
+      {
+        "name": "ring13",
+        "parent": "rings",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.3693,
+        "scaleY": 0.3693
+      },
+      {
+        "name": "ring14",
+        "parent": "rings",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.3693,
+        "scaleY": 0.3693
+      },
+      {
+        "name": "ring15",
+        "parent": "rings",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.3693,
+        "scaleY": 0.3693
+      },
+      {
+        "name": "noise",
+        "parent": "scale_all_bone",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.9,
+        "scaleY": 0.9
+      },
+      {
+        "name": "noise1",
+        "parent": "noise",
+        "x": 0,
+        "y": -1024,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "noise2",
+        "parent": "noise",
+        "x": 0,
+        "y": -512,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "noise3",
+        "parent": "noise",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "noise4",
+        "parent": "noise",
+        "x": 0,
+        "y": 512,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "noise5",
+        "parent": "noise",
+        "x": 0,
+        "y": 1024,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ring_black",
+        "parent": "scale_all_bone",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 6.4768,
+        "scaleY": 6.4768
+      },
+      {
+        "name": "noise6",
+        "parent": "noise",
+        "x": 2048.08,
+        "y": -1024,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "noise7",
+        "parent": "noise",
+        "x": 2048.08,
+        "y": -512,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "noise8",
+        "parent": "noise",
+        "x": 2048.08,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "noise9",
+        "parent": "noise",
+        "x": 2048.08,
+        "y": 512,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "noise10",
+        "parent": "noise",
+        "x": 2048.08,
+        "y": 1024,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "black",
+        "bone": "scale_all_bone",
+        "setupAttachment": "black",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ring_4",
+        "bone": "ring4",
+        "setupAttachment": "ring_4",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ring_13",
+        "bone": "ring13",
+        "setupAttachment": "ring_4",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ring_3",
+        "bone": "ring3",
+        "setupAttachment": "ring_3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ring_14",
+        "bone": "ring14",
+        "setupAttachment": "ring_3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ring_2",
+        "bone": "ring2",
+        "setupAttachment": "ring_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ring_15",
+        "bone": "ring15",
+        "setupAttachment": "ring_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ring_5",
+        "bone": "ring5",
+        "setupAttachment": "ring_4",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ring_6",
+        "bone": "ring6",
+        "setupAttachment": "ring_3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ring_7",
+        "bone": "ring7",
+        "setupAttachment": "ring_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ring_8",
+        "bone": "ring8",
+        "setupAttachment": "ring_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bounds",
+        "bone": "scale_all_bone",
+        "setupAttachment": "bounds",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ring_12",
+        "bone": "ring12",
+        "setupAttachment": "ring_4",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ring_11",
+        "bone": "ring11",
+        "setupAttachment": "ring_3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ring_10",
+        "bone": "ring10",
+        "setupAttachment": "ring_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ring_9",
+        "bone": "ring9",
+        "setupAttachment": "ring_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "noise",
+        "bone": "noise1",
+        "setupAttachment": "noise",
+        "blend": "normal",
+        "color": "ffffff13"
+      },
+      {
+        "name": "noise6",
+        "bone": "noise6",
+        "setupAttachment": "noise",
+        "blend": "normal",
+        "color": "ffffff13"
+      },
+      {
+        "name": "noise4",
+        "bone": "noise4",
+        "setupAttachment": "noise",
+        "blend": "normal",
+        "color": "ffffff13"
+      },
+      {
+        "name": "noise9",
+        "bone": "noise9",
+        "setupAttachment": "noise",
+        "blend": "normal",
+        "color": "ffffff13"
+      },
+      {
+        "name": "noise5",
+        "bone": "noise5",
+        "setupAttachment": "noise",
+        "blend": "normal",
+        "color": "ffffff13"
+      },
+      {
+        "name": "noise10",
+        "bone": "noise10",
+        "setupAttachment": "noise",
+        "blend": "normal",
+        "color": "ffffff13"
+      },
+      {
+        "name": "noise2",
+        "bone": "noise2",
+        "setupAttachment": "noise",
+        "blend": "normal",
+        "color": "ffffff13"
+      },
+      {
+        "name": "noise7",
+        "bone": "noise7",
+        "setupAttachment": "noise",
+        "blend": "normal",
+        "color": "ffffff13"
+      },
+      {
+        "name": "noise3",
+        "bone": "noise3",
+        "setupAttachment": "noise",
+        "blend": "normal",
+        "color": "ffffff13"
+      },
+      {
+        "name": "noise8",
+        "bone": "noise8",
+        "setupAttachment": "noise",
+        "blend": "normal",
+        "color": "ffffff13"
+      },
+      {
+        "name": "ring_19",
+        "bone": "ring_black",
+        "setupAttachment": "ring_4",
+        "blend": "normal",
+        "color": "000000ff"
+      },
+      {
+        "name": "ring_18",
+        "bone": "ring_black",
+        "setupAttachment": "ring_3",
+        "blend": "normal",
+        "color": "000000ff"
+      },
+      {
+        "name": "ring_17",
+        "bone": "ring_black",
+        "setupAttachment": "ring_2",
+        "blend": "normal",
+        "color": "000000ff"
+      },
+      {
+        "name": "ring_16",
+        "bone": "ring_black",
+        "setupAttachment": "ring_1",
+        "blend": "normal",
+        "color": "000000ff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "black",
+        "name": "black",
+        "region": "black",
+        "type": "mesh",
+        "bone": "scale_all_bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bounds",
+        "name": "bounds",
+        "region": "bounds",
+        "type": "boundingbox",
+        "bone": "scale_all_bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise",
+        "name": "noise",
+        "region": "noise",
+        "type": "mesh",
+        "bone": "noise1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2048,
+          "height": 512
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise2",
+        "name": "noise",
+        "region": "noise",
+        "type": "mesh",
+        "bone": "noise2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2048,
+          "height": 512
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise3",
+        "name": "noise",
+        "region": "noise",
+        "type": "mesh",
+        "bone": "noise3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2048,
+          "height": 512
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise4",
+        "name": "noise",
+        "region": "noise",
+        "type": "mesh",
+        "bone": "noise4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2048,
+          "height": 512
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise5",
+        "name": "noise",
+        "region": "noise",
+        "type": "mesh",
+        "bone": "noise5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2048,
+          "height": 512
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise6",
+        "name": "noise",
+        "region": "noise",
+        "type": "mesh",
+        "bone": "noise6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2048,
+          "height": 512
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise7",
+        "name": "noise",
+        "region": "noise",
+        "type": "mesh",
+        "bone": "noise7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2048,
+          "height": 512
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise8",
+        "name": "noise",
+        "region": "noise",
+        "type": "mesh",
+        "bone": "noise8",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2048,
+          "height": 512
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise9",
+        "name": "noise",
+        "region": "noise",
+        "type": "mesh",
+        "bone": "noise9",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2048,
+          "height": 512
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise10",
+        "name": "noise",
+        "region": "noise",
+        "type": "mesh",
+        "bone": "noise10",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2048,
+          "height": 512
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ring_2",
+        "name": "ring_2",
+        "region": "ring_2",
+        "type": "mesh",
+        "bone": "ring2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ring_3",
+        "name": "ring_3",
+        "region": "ring_3",
+        "type": "mesh",
+        "bone": "ring3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ring_4",
+        "name": "ring_4",
+        "region": "ring_4",
+        "type": "mesh",
+        "bone": "ring4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ring_5",
+        "name": "ring_4",
+        "region": "ring_4",
+        "type": "mesh",
+        "bone": "ring5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ring_6",
+        "name": "ring_3",
+        "region": "ring_3",
+        "type": "mesh",
+        "bone": "ring6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ring_7",
+        "name": "ring_2",
+        "region": "ring_2",
+        "type": "mesh",
+        "bone": "ring7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 5,
+          "vertexNumbers": 10,
+          "triangles": 3,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ring_8",
+        "name": "ring_1",
+        "region": "ring_1",
+        "type": "mesh",
+        "bone": "ring8",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ring_9",
+        "name": "ring_1",
+        "region": "ring_1",
+        "type": "mesh",
+        "bone": "ring9",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ring_10",
+        "name": "ring_2",
+        "region": "ring_2",
+        "type": "mesh",
+        "bone": "ring10",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 5,
+          "vertexNumbers": 10,
+          "triangles": 3,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ring_11",
+        "name": "ring_3",
+        "region": "ring_3",
+        "type": "mesh",
+        "bone": "ring11",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ring_12",
+        "name": "ring_4",
+        "region": "ring_4",
+        "type": "mesh",
+        "bone": "ring12",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ring_13",
+        "name": "ring_4",
+        "region": "ring_4",
+        "type": "mesh",
+        "bone": "ring13",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ring_14",
+        "name": "ring_3",
+        "region": "ring_3",
+        "type": "mesh",
+        "bone": "ring14",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ring_15",
+        "name": "ring_2",
+        "region": "ring_2",
+        "type": "mesh",
+        "bone": "ring15",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ring_16",
+        "name": "ring_1",
+        "region": "ring_1",
+        "type": "mesh",
+        "bone": "ring_black",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ring_17",
+        "name": "ring_2",
+        "region": "ring_2",
+        "type": "mesh",
+        "bone": "ring_black",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 5,
+          "vertexNumbers": 10,
+          "triangles": 3,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ring_18",
+        "name": "ring_3",
+        "region": "ring_3",
+        "type": "mesh",
+        "bone": "ring_black",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ring_19",
+        "name": "ring_4",
+        "region": "ring_4",
+        "type": "mesh",
+        "bone": "ring_black",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2298,
+          "height": 2384
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "hide_black",
+        "duration": 0,
+        "keyframes": 0,
+        "curvedKeys": 0,
+        "channels": [],
+        "animatedBones": [],
+        "animatedSlots": [
+          "ring_16",
+          "ring_17",
+          "ring_18",
+          "ring_19"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "idle",
+        "duration": 13.3333,
+        "keyframes": 59,
+        "curvedKeys": 27,
+        "channels": [
+          {
+            "path": "slots.ring_2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.ring_3.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.ring_4.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.ring_5.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.ring_6.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.ring_7.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.ring_9.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ring_10.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ring_11.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ring_12.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ring_13.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.ring_14.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ring_15.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.ring2.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ring3.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ring4.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ring5.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ring6.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ring7.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ring8.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ring9.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ring10.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ring11.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ring12.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ring13.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ring14.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ring15.scale",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "ring2",
+          "ring3",
+          "ring4",
+          "ring5",
+          "ring6",
+          "ring7",
+          "ring8",
+          "ring9",
+          "ring10",
+          "ring11",
+          "ring12",
+          "ring13",
+          "ring14",
+          "ring15"
+        ],
+        "animatedSlots": [
+          "ring_2",
+          "ring_3",
+          "ring_4",
+          "ring_5",
+          "ring_6",
+          "ring_7",
+          "ring_9",
+          "ring_10",
+          "ring_11",
+          "ring_12",
+          "ring_13",
+          "ring_14",
+          "ring_15"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "noise",
+        "duration": 1.3333,
+        "keyframes": 8,
+        "curvedKeys": 6,
+        "channels": [
+          {
+            "path": "bones.noise.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.noise.scale",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "noise1",
+          "noise2",
+          "noise3",
+          "noise4",
+          "noise5",
+          "noise6",
+          "noise7",
+          "noise8",
+          "noise9",
+          "noise10",
+          "noise"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "show_black",
+        "duration": 0,
+        "keyframes": 0,
+        "curvedKeys": 0,
+        "channels": [],
+        "animatedBones": [],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 29,
+      "slots": 30,
+      "attachments": 30,
+      "meshAttachments": 29,
+      "meshUvPairs": 119,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "black",
+      "file": "pieces/black-44f2139f.png",
+      "page": "bg.png",
+      "properties": {
+        "bounds": "2,2,478,472",
+        "offsets": "741,787,1953,2026"
+      }
+    },
+    {
+      "region": "noise",
+      "file": "pieces/noise-0a5d107e.png",
+      "page": "bg.png",
+      "properties": {
+        "bounds": "2,1449,1741,435"
+      }
+    },
+    {
+      "region": "ring_1",
+      "file": "pieces/ring-1-3db7f27b.png",
+      "page": "bg.png",
+      "properties": {
+        "bounds": "482,11,476,463",
+        "offsets": "730,782,1953,2026"
+      }
+    },
+    {
+      "region": "ring_2",
+      "file": "pieces/ring-2-503c25f2.png",
+      "page": "bg.png",
+      "properties": {
+        "bounds": "1014,79,620,590",
+        "offsets": "651,718,1953,2026"
+      }
+    },
+    {
+      "region": "ring_3",
+      "file": "pieces/ring-3-849d4505.png",
+      "page": "bg.png",
+      "properties": {
+        "bounds": "1014,671,789,776",
+        "offsets": "586,623,1953,2026"
+      }
+    },
+    {
+      "region": "ring_4",
+      "file": "pieces/ring-4-d277391f.png",
+      "page": "bg.png",
+      "properties": {
+        "bounds": "2,476,1010,971",
+        "offsets": "459,526,1953,2026"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

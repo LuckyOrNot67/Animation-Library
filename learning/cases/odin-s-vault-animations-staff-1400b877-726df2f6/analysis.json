@@ -1,0 +1,3431 @@
+{
+  "id": "odin-s-vault-animations-staff-1400b877-726df2f6",
+  "collection": "library",
+  "name": "staff",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/staff-1400b877",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 24,
+    "slots": 32,
+    "attachments": 64,
+    "meshAttachments": 22,
+    "meshUvPairs": 165,
+    "constraints": {
+      "ik": 0,
+      "transform": 1,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 4194304,
+    "rgbaBytesEstimate": 16777216,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 57,
+  "actions": [
+    {
+      "name": "collect",
+      "duration": 1,
+      "keyframes": 93,
+      "curvedKeys": 33,
+      "channels": [
+        {
+          "path": "slots.Feather_glow_staff.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow_1_staff.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.glow_1_staff2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow_1_staff3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow_1_staff4.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow_1_staff5.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.glow_base_staff.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.staff.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.staff2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.staff3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.staff_effects_02.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.staff_effects_02_glow_01.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.staff_effects_02_glow_02.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.staff_effects_03.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.staff.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.staff.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Feather_staff.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Feather_staff2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.staff_3d.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.glow_2_staff.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.glow_2_staff4.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.glow_2_staff5.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.glow_2_staff6.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.glow_2_staff7.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.glow_2_staff2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.glow_2_staff3.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.staff2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.staff2.scale",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "staff",
+        "Feather_staff",
+        "Feather_staff2",
+        "staff_3d",
+        "glow_2_staff",
+        "glow_2_staff4",
+        "glow_2_staff5",
+        "glow_2_staff6",
+        "glow_2_staff7",
+        "glow_2_staff2",
+        "glow_2_staff3",
+        "staff2"
+      ],
+      "animatedSlots": [
+        "Feather_glow_staff",
+        "glow_1_staff",
+        "glow_1_staff2",
+        "glow_1_staff3",
+        "glow_1_staff4",
+        "glow_1_staff5",
+        "glow_base_staff",
+        "staff",
+        "staff2",
+        "staff3",
+        "staff_effects_02",
+        "staff_effects_02_glow_01",
+        "staff_effects_02_glow_02",
+        "staff_effects_03"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "win",
+      "duration": 1,
+      "keyframes": 212,
+      "curvedKeys": 51,
+      "channels": [
+        {
+          "path": "slots.Feather_glow_staff.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.glow2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow_1_staff.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.glow_1_staff2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow_1_staff3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow_1_staff4.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow_1_staff5.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.glow_base_staff.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.r1_finisher_kick_2_01.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.r1_finisher_kick_2_01.attachment",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.r1_finisher_kick_2_red_light_01.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.r1_finisher_kick_2_red_light_01.attachment",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.r1_finisher_scratch_red_01_01.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.r1_finisher_scratch_red_01_01.attachment",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.r1_finisher_scratch_red_01_light_01.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.r1_finisher_scratch_red_01_light_01.attachment",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.r1_finisher_scratch_red_02_01.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.r1_finisher_scratch_red_02_01.attachment",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.r1_finisher_scratch_red_02_light_01.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.r1_finisher_scratch_red_02_light_01.attachment",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.staff.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.staff2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.staff3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.staff_effects_02.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.staff_effects_02_glow_01.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.staff_effects_02_glow_02.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.staff_effects_03.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.staff.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.staff.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Feather_staff.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Feather_staff2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.staff_3d.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.glow_2_staff.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.glow_2_staff4.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.glow_2_staff5.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.glow_2_staff6.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.glow_2_staff7.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.glow_2_staff2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.glow_2_staff3.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.staff2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.staff2.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.r1_VFX.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.r1_VFX.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.r1_finisher_kick_2_01.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.r1_finisher_kick_2_01.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.r1_finisher_scratch_red_01_01.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.r1_finisher_scratch_red_01_01.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.r1_finisher_scratch_red_01_01.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.glow2.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.glow2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.r1_finisher_scratch_red_02_01.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.r1_finisher_scratch_red_02_01.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.glow3.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "drawOrder",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "staff",
+        "Feather_staff",
+        "Feather_staff2",
+        "staff_3d",
+        "glow_2_staff",
+        "glow_2_staff4",
+        "glow_2_staff5",
+        "glow_2_staff6",
+        "glow_2_staff7",
+        "glow_2_staff2",
+        "glow_2_staff3",
+        "staff2",
+        "r1_VFX",
+        "r1_finisher_kick_2_01",
+        "r1_finisher_scratch_red_01_01",
+        "glow2",
+        "r1_finisher_scratch_red_02_01",
+        "glow3"
+      ],
+      "animatedSlots": [
+        "Feather_glow_staff",
+        "glow",
+        "glow2",
+        "glow_1_staff",
+        "glow_1_staff2",
+        "glow_1_staff3",
+        "glow_1_staff4",
+        "glow_1_staff5",
+        "glow_base_staff",
+        "r1_finisher_kick_2_01",
+        "r1_finisher_kick_2_red_light_01",
+        "r1_finisher_scratch_red_01_01",
+        "r1_finisher_scratch_red_01_light_01",
+        "r1_finisher_scratch_red_02_01",
+        "r1_finisher_scratch_red_02_light_01",
+        "staff",
+        "staff2",
+        "staff3",
+        "staff_effects_02",
+        "staff_effects_02_glow_01",
+        "staff_effects_02_glow_02",
+        "staff_effects_03"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": true,
+      "events": [],
+      "tags": [
+        "win"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-staff-1400b877-726df2f6/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Mine_staff",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "staff",
+        "parent": "Mine_staff",
+        "x": 40.71,
+        "y": -52.62,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Feather_staff",
+        "parent": "staff",
+        "x": -20.88,
+        "y": 36.88,
+        "length": 21.2,
+        "rotation": -14.51,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Feather_staff2",
+        "parent": "Feather_staff",
+        "x": 21.2,
+        "y": 0,
+        "length": 21.25,
+        "rotation": -21.71,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "glow",
+        "parent": "staff",
+        "x": -71.36,
+        "y": 90.07,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "glow_2_staff",
+        "parent": "glow",
+        "x": 0.26,
+        "y": -0.55,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "glow_2_staff2",
+        "parent": "staff",
+        "x": -71.1,
+        "y": 89.52,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "glow_2_staff3",
+        "parent": "staff",
+        "x": -71.1,
+        "y": 89.52,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "staff_3d",
+        "parent": "staff",
+        "x": -0.93,
+        "y": -0.15,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "staff_3d2",
+        "parent": "staff",
+        "x": -0.93,
+        "y": -0.15,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "glow_2_staff4",
+        "parent": "glow",
+        "x": 0.26,
+        "y": -0.55,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "glow_2_staff5",
+        "parent": "glow",
+        "x": 0.26,
+        "y": -0.55,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "glow_2_staff6",
+        "parent": "glow",
+        "x": 0.26,
+        "y": -0.55,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "glow_2_staff7",
+        "parent": "glow",
+        "x": 0.26,
+        "y": -0.55,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "staff_effects_02_glow_02",
+        "parent": "staff",
+        "x": -52.16,
+        "y": 69.17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "staff_effects_02_glow_010",
+        "parent": "staff_effects_02_glow_02",
+        "x": -27.53,
+        "y": 32.3,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "staff2",
+        "parent": "staff",
+        "x": -70.45,
+        "y": 86.92,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "r1_VFX",
+        "parent": "Mine_staff",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -0.8812,
+        "scaleY": 0.8812
+      },
+      {
+        "name": "r1_finisher_scratch_red_01_01",
+        "parent": "r1_VFX",
+        "x": 30,
+        "y": 71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "glow2",
+        "parent": "r1_finisher_scratch_red_01_01",
+        "x": -31.34,
+        "y": -85.46,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.1436,
+        "scaleY": 2.0414
+      },
+      {
+        "name": "r1_finisher_scratch_red_02_01",
+        "parent": "r1_VFX",
+        "x": -15.62,
+        "y": 60.99,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "r1_finisher_kick_2_01",
+        "parent": "r1_VFX",
+        "x": -3.73,
+        "y": -13.12,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "glow3",
+        "parent": "r1_finisher_kick_2_01",
+        "x": 2.39,
+        "y": -1.34,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.1436,
+        "scaleY": 2.0414
+      }
+    ],
+    "slots": [
+      {
+        "name": "BG_staff",
+        "bone": "Mine_staff",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Shadow_2_staff",
+        "bone": "staff",
+        "setupAttachment": "Shadow_2_staff",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Shadow_1_staff",
+        "bone": "staff",
+        "setupAttachment": "Shadow_1_staff",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "staff_effects_02",
+        "bone": "staff",
+        "setupAttachment": "staff_effects_02",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Feather_glow_staff",
+        "bone": "Feather_staff",
+        "setupAttachment": "Feather_glow_staff",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "glow_base_staff",
+        "bone": "staff",
+        "setupAttachment": "glow_base_staff",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "staff_effects_03",
+        "bone": "staff",
+        "setupAttachment": "staff_effects_03",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "glow_5_staff",
+        "bone": "glow_2_staff3",
+        "setupAttachment": "glow_5_staff",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glow_2_staff",
+        "bone": "glow_2_staff2",
+        "setupAttachment": "glow_2_staff",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glow_1_staff",
+        "bone": "glow_2_staff",
+        "setupAttachment": "glow_1_staff",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glow_1_staff2",
+        "bone": "glow_2_staff4",
+        "setupAttachment": "glow_1_staff",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "glow_1_staff3",
+        "bone": "glow_2_staff5",
+        "setupAttachment": "glow_1_staff",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "glow_1_staff4",
+        "bone": "glow_2_staff6",
+        "setupAttachment": "glow_1_staff",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "glow_1_staff5",
+        "bone": "glow_2_staff7",
+        "setupAttachment": "glow_1_staff",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Crystal_staff",
+        "bone": "staff",
+        "setupAttachment": "Crystal_staff",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Feather_staff",
+        "bone": "Feather_staff",
+        "setupAttachment": "Feather_staff",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Bead_1_staff",
+        "bone": "Feather_staff",
+        "setupAttachment": "Bead_1_staff",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Gold_3_staff",
+        "bone": "staff",
+        "setupAttachment": "Gold_3_staff",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_mask_staff",
+        "bone": "Mine_staff",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "staff_effects_02_glow_01",
+        "bone": "staff",
+        "setupAttachment": "staff_effects_02_glow_01",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "staff_effects_02_glow_02",
+        "bone": "staff_effects_02_glow_02",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "r1_finisher_scratch_red_02_01",
+        "bone": "r1_finisher_scratch_red_02_01",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "r1_finisher_scratch_red_02_light_01",
+        "bone": "r1_finisher_scratch_red_02_01",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "r1_finisher_kick_2_01",
+        "bone": "r1_finisher_kick_2_01",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "r1_finisher_kick_2_red_light_01",
+        "bone": "r1_finisher_kick_2_01",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "staff",
+        "bone": "staff2",
+        "setupAttachment": "mist_2_empty",
+        "blend": "additive",
+        "color": "5bff2f00"
+      },
+      {
+        "name": "staff3",
+        "bone": "staff2",
+        "setupAttachment": "mist_2_empty",
+        "blend": "additive",
+        "color": "5bff2f00"
+      },
+      {
+        "name": "staff2",
+        "bone": "staff2",
+        "setupAttachment": "mist_2_empty",
+        "blend": "additive",
+        "color": "5bff2f00"
+      },
+      {
+        "name": "r1_finisher_scratch_red_01_01",
+        "bone": "r1_finisher_scratch_red_01_01",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "r1_finisher_scratch_red_01_light_01",
+        "bone": "r1_finisher_scratch_red_01_01",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glow2",
+        "bone": "glow2",
+        "setupAttachment": "glow",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "glow",
+        "bone": "glow3",
+        "setupAttachment": "glow",
+        "blend": "additive",
+        "color": "ffffff00"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "Bead_1_staff",
+        "name": "Bead_1_staff",
+        "region": "Bead_1_staff",
+        "type": "mesh",
+        "bone": "Feather_staff",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 8,
+          "height": 6
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Crystal_staff",
+        "name": "Crystal_staff",
+        "region": "Crystal_staff",
+        "type": "mesh",
+        "bone": "staff",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 30,
+          "height": 32
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 72,
+          "triangles": 7,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Feather_glow_staff",
+        "name": "Feather_glow_staff",
+        "region": "Feather_glow_staff",
+        "type": "mesh",
+        "bone": "Feather_staff",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 53,
+          "height": 39
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 92,
+          "triangles": 6,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Feather_staff",
+        "name": "Feather_staff",
+        "region": "Feather_staff",
+        "type": "mesh",
+        "bone": "Feather_staff",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 38,
+          "height": 24
+        },
+        "mesh": {
+          "uvPairs": 7,
+          "vertexNumbers": 75,
+          "triangles": 5,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow",
+        "name": "glow",
+        "region": "glow",
+        "type": "region",
+        "bone": "glow3",
+        "transform": {
+          "x": 1.8,
+          "y": 2.37,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 146,
+          "height": 160
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow2",
+        "name": "glow",
+        "region": "glow",
+        "type": "region",
+        "bone": "glow2",
+        "transform": {
+          "x": 1.8,
+          "y": 2.37,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 146,
+          "height": 160
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_1_staff",
+        "name": "glow_1_staff",
+        "region": "glow_1_staff",
+        "type": "mesh",
+        "bone": "glow_2_staff",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 80,
+          "height": 79
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_1_staff2",
+        "name": "glow_1_staff",
+        "region": "glow_1_staff",
+        "type": "mesh",
+        "bone": "glow_2_staff4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 80,
+          "height": 79
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_1_staff3",
+        "name": "glow_1_staff",
+        "region": "glow_1_staff",
+        "type": "mesh",
+        "bone": "glow_2_staff5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 80,
+          "height": 79
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_1_staff4",
+        "name": "glow_1_staff",
+        "region": "glow_1_staff",
+        "type": "mesh",
+        "bone": "glow_2_staff6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 80,
+          "height": 79
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_1_staff5",
+        "name": "glow_1_staff",
+        "region": "glow_1_staff",
+        "type": "mesh",
+        "bone": "glow_2_staff7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 80,
+          "height": 79
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_2_staff",
+        "name": "glow_2_staff",
+        "region": "glow_2_staff",
+        "type": "mesh",
+        "bone": "glow_2_staff2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 102,
+          "height": 87
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_5_staff",
+        "name": "glow_5_staff",
+        "region": "glow_5_staff",
+        "type": "mesh",
+        "bone": "glow_2_staff3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 93,
+          "height": 93
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_base_staff",
+        "name": "glow_base_staff",
+        "region": "glow_base_staff",
+        "type": "mesh",
+        "bone": "staff",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 126,
+          "height": 141
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 32,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Gold_3_staff",
+        "name": "Gold_3_staff",
+        "region": "Gold_3_staff",
+        "type": "mesh",
+        "bone": "staff",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 133
+        },
+        "mesh": {
+          "uvPairs": 46,
+          "vertexNumbers": 406,
+          "triangles": 82,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_kick_2_01",
+        "name": "r1_finisher_kick_2_01",
+        "region": "r1_finisher_kick_2_01",
+        "type": "region",
+        "bone": "r1_finisher_kick_2_01",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 72,
+          "height": 66
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_kick_2_01",
+        "name": "r1_finisher_kick_2_02",
+        "region": "r1_finisher_kick_2_02",
+        "type": "region",
+        "bone": "r1_finisher_kick_2_01",
+        "transform": {
+          "x": 12.5,
+          "y": -8,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 169,
+          "height": 222
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_kick_2_01",
+        "name": "r1_finisher_kick_2_03",
+        "region": "r1_finisher_kick_2_03",
+        "type": "region",
+        "bone": "r1_finisher_kick_2_01",
+        "transform": {
+          "x": 12.5,
+          "y": -22.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 173,
+          "height": 311
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_kick_2_01",
+        "name": "r1_finisher_kick_2_04",
+        "region": "r1_finisher_kick_2_04",
+        "type": "region",
+        "bone": "r1_finisher_kick_2_01",
+        "transform": {
+          "x": 10.5,
+          "y": 19,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 215,
+          "height": 442
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_kick_2_01",
+        "name": "r1_finisher_kick_2_05",
+        "region": "r1_finisher_kick_2_05",
+        "type": "region",
+        "bone": "r1_finisher_kick_2_01",
+        "transform": {
+          "x": 11,
+          "y": 17.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 224,
+          "height": 513
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_kick_2_01",
+        "name": "r1_finisher_kick_2_06",
+        "region": "r1_finisher_kick_2_06",
+        "type": "region",
+        "bone": "r1_finisher_kick_2_01",
+        "transform": {
+          "x": 9,
+          "y": -5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 306,
+          "height": 550
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_kick_2_01",
+        "name": "r1_finisher_kick_2_07",
+        "region": "r1_finisher_kick_2_07",
+        "type": "region",
+        "bone": "r1_finisher_kick_2_01",
+        "transform": {
+          "x": -4,
+          "y": -33.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 294,
+          "height": 525
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_kick_2_red_light_01",
+        "name": "r1_finisher_kick_2_red_light_01",
+        "region": "r1_finisher_kick_2_red_light_01",
+        "type": "region",
+        "bone": "r1_finisher_kick_2_01",
+        "transform": {
+          "x": 0,
+          "y": -0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 82,
+          "height": 77
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_kick_2_red_light_01",
+        "name": "r1_finisher_kick_2_red_light_02",
+        "region": "r1_finisher_kick_2_red_light_02",
+        "type": "region",
+        "bone": "r1_finisher_kick_2_01",
+        "transform": {
+          "x": 13,
+          "y": -8,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 180,
+          "height": 234
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_kick_2_red_light_01",
+        "name": "r1_finisher_kick_2_red_light_03",
+        "region": "r1_finisher_kick_2_red_light_03",
+        "type": "region",
+        "bone": "r1_finisher_kick_2_01",
+        "transform": {
+          "x": 12.5,
+          "y": -22.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 183,
+          "height": 325
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_kick_2_red_light_01",
+        "name": "r1_finisher_kick_2_red_light_04",
+        "region": "r1_finisher_kick_2_red_light_04",
+        "type": "region",
+        "bone": "r1_finisher_kick_2_01",
+        "transform": {
+          "x": 9,
+          "y": 19.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 222,
+          "height": 455
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_kick_2_red_light_01",
+        "name": "r1_finisher_kick_2_red_light_05",
+        "region": "r1_finisher_kick_2_red_light_05",
+        "type": "region",
+        "bone": "r1_finisher_kick_2_01",
+        "transform": {
+          "x": 15,
+          "y": 18,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 226,
+          "height": 524
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_kick_2_red_light_01",
+        "name": "r1_finisher_kick_2_red_light_06",
+        "region": "r1_finisher_kick_2_red_light_06",
+        "type": "region",
+        "bone": "r1_finisher_kick_2_01",
+        "transform": {
+          "x": 14,
+          "y": -3,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 306,
+          "height": 550
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_kick_2_red_light_01",
+        "name": "r1_finisher_kick_2_red_light_07",
+        "region": "r1_finisher_kick_2_red_light_07",
+        "type": "region",
+        "bone": "r1_finisher_kick_2_01",
+        "transform": {
+          "x": 0,
+          "y": -37.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 294,
+          "height": 513
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_01_01",
+        "name": "r1_finisher_scratch_red_01_01",
+        "region": "r1_finisher_scratch_red_01_01",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_01_01",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 177,
+          "height": 130
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_01_01",
+        "name": "r1_finisher_scratch_red_01_02",
+        "region": "r1_finisher_scratch_red_01_02",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_01_01",
+        "transform": {
+          "x": 29,
+          "y": -62.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 157,
+          "height": 265
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_01_01",
+        "name": "r1_finisher_scratch_red_01_03",
+        "region": "r1_finisher_scratch_red_01_03",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_01_01",
+        "transform": {
+          "x": 11.5,
+          "y": -90.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 222,
+          "height": 299
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_01_01",
+        "name": "r1_finisher_scratch_red_01_04",
+        "region": "r1_finisher_scratch_red_01_04",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_01_01",
+        "transform": {
+          "x": -25.5,
+          "y": -161,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 194,
+          "height": 154
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_01_01",
+        "name": "r1_finisher_scratch_red_01_05",
+        "region": "r1_finisher_scratch_red_01_05",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_01_01",
+        "transform": {
+          "x": -53.5,
+          "y": -171,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 202,
+          "height": 124
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_01_01",
+        "name": "r1_finisher_scratch_red_01_06",
+        "region": "r1_finisher_scratch_red_01_06",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_01_01",
+        "transform": {
+          "x": -91,
+          "y": -131,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 149,
+          "height": 112
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_01_light_01",
+        "name": "r1_finisher_scratch_red_01_light_01",
+        "region": "r1_finisher_scratch_red_01_light_01",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_01_01",
+        "transform": {
+          "x": -8,
+          "y": -26.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 203,
+          "height": 193
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_01_light_01",
+        "name": "r1_finisher_scratch_red_01_light_02",
+        "region": "r1_finisher_scratch_red_01_light_02",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_01_01",
+        "transform": {
+          "x": -11.5,
+          "y": -62.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 248,
+          "height": 325
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_01_light_01",
+        "name": "r1_finisher_scratch_red_01_light_03",
+        "region": "r1_finisher_scratch_red_01_light_03",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_01_01",
+        "transform": {
+          "x": -21,
+          "y": -72.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 375,
+          "height": 349
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_01_light_01",
+        "name": "r1_finisher_scratch_red_01_light_04",
+        "region": "r1_finisher_scratch_red_01_light_04",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_01_01",
+        "transform": {
+          "x": -36,
+          "y": -136.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 245,
+          "height": 213
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_01_light_01",
+        "name": "r1_finisher_scratch_red_01_light_05",
+        "region": "r1_finisher_scratch_red_01_light_05",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_01_01",
+        "transform": {
+          "x": -50,
+          "y": -144,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 283,
+          "height": 188
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_01_light_01",
+        "name": "r1_finisher_scratch_red_01_light_06",
+        "region": "r1_finisher_scratch_red_01_light_06",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_01_01",
+        "transform": {
+          "x": -64.5,
+          "y": -107,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 218,
+          "height": 178
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_02_01",
+        "name": "r1_finisher_scratch_red_02_01",
+        "region": "r1_finisher_scratch_red_02_01",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_02_01",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 105,
+          "height": 105
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_02_01",
+        "name": "r1_finisher_scratch_red_02_02",
+        "region": "r1_finisher_scratch_red_02_02",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_02_01",
+        "transform": {
+          "x": -16,
+          "y": -22.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 181,
+          "height": 144
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_02_01",
+        "name": "r1_finisher_scratch_red_02_03",
+        "region": "r1_finisher_scratch_red_02_03",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_02_01",
+        "transform": {
+          "x": -77,
+          "y": -51,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 285,
+          "height": 113
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_02_01",
+        "name": "r1_finisher_scratch_red_02_04",
+        "region": "r1_finisher_scratch_red_02_04",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_02_01",
+        "transform": {
+          "x": -105,
+          "y": -14,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 309,
+          "height": 197
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_02_01",
+        "name": "r1_finisher_scratch_red_02_05",
+        "region": "r1_finisher_scratch_red_02_05",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_02_01",
+        "transform": {
+          "x": -178,
+          "y": 18,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 201,
+          "height": 205
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_02_01",
+        "name": "r1_finisher_scratch_red_02_06",
+        "region": "r1_finisher_scratch_red_02_06",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_02_01",
+        "transform": {
+          "x": -183,
+          "y": 56.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 181,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_02_01",
+        "name": "r1_finisher_scratch_red_02_07",
+        "region": "r1_finisher_scratch_red_02_07",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_02_01",
+        "transform": {
+          "x": -148,
+          "y": 134.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 101,
+          "height": 26
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_02_light_01",
+        "name": "r1_finisher_scratch_red_02_light_01",
+        "region": "r1_finisher_scratch_red_02_light_01",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_02_01",
+        "transform": {
+          "x": -17,
+          "y": -20.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 179,
+          "height": 166
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_02_light_01",
+        "name": "r1_finisher_scratch_red_02_light_02",
+        "region": "r1_finisher_scratch_red_02_light_02",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_02_01",
+        "transform": {
+          "x": -51.5,
+          "y": -27,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 266,
+          "height": 155
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_02_light_01",
+        "name": "r1_finisher_scratch_red_02_light_03",
+        "region": "r1_finisher_scratch_red_02_light_03",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_02_01",
+        "transform": {
+          "x": -111,
+          "y": -26.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 357,
+          "height": 182
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_02_light_01",
+        "name": "r1_finisher_scratch_red_02_light_04",
+        "region": "r1_finisher_scratch_red_02_light_04",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_02_01",
+        "transform": {
+          "x": -86,
+          "y": 20,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 361,
+          "height": 325
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_02_light_01",
+        "name": "r1_finisher_scratch_red_02_light_05",
+        "region": "r1_finisher_scratch_red_02_light_05",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_02_01",
+        "transform": {
+          "x": -145,
+          "y": 12.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 295,
+          "height": 244
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_02_light_01",
+        "name": "r1_finisher_scratch_red_02_light_06",
+        "region": "r1_finisher_scratch_red_02_light_06",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_02_01",
+        "transform": {
+          "x": -160.5,
+          "y": 35.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 260,
+          "height": 258
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "r1_finisher_scratch_red_02_light_01",
+        "name": "r1_finisher_scratch_red_02_light_07",
+        "region": "r1_finisher_scratch_red_02_light_07",
+        "type": "region",
+        "bone": "r1_finisher_scratch_red_02_01",
+        "transform": {
+          "x": -105.5,
+          "y": 107.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 206,
+          "height": 90
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Shadow_1_staff",
+        "name": "Shadow_1_staff",
+        "region": "Shadow_1_staff",
+        "type": "mesh",
+        "bone": "staff",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 120,
+          "height": 93
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Shadow_2_staff",
+        "name": "Shadow_2_staff",
+        "region": "Shadow_2_staff",
+        "type": "mesh",
+        "bone": "staff",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 102,
+          "height": 102
+        },
+        "mesh": {
+          "uvPairs": 11,
+          "vertexNumbers": 22,
+          "triangles": 9,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "staff",
+        "name": "mist_2_empty",
+        "region": "mist_2_empty",
+        "type": "mesh",
+        "bone": "staff2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 106,
+          "height": 102
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "staff2",
+        "name": "mist_2_empty",
+        "region": "mist_2_empty",
+        "type": "mesh",
+        "bone": "staff2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 106,
+          "height": 102
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "staff3",
+        "name": "mist_2_empty",
+        "region": "mist_2_empty",
+        "type": "mesh",
+        "bone": "staff2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 106,
+          "height": 102
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "staff_effects_02",
+        "name": "staff_effects_02",
+        "region": "staff_effects_02",
+        "type": "mesh",
+        "bone": "staff",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 159,
+          "height": 162
+        },
+        "mesh": {
+          "uvPairs": 13,
+          "vertexNumbers": 109,
+          "triangles": 11,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "staff_effects_02_glow_01",
+        "name": "staff_effects_02_glow_01",
+        "region": "staff_effects_02_glow_01",
+        "type": "mesh",
+        "bone": "staff",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 160,
+          "height": 162
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "staff_effects_02_glow_02",
+        "name": "staff_effects_02_glow_02",
+        "region": "staff_effects_02_glow_02",
+        "type": "mesh",
+        "bone": "staff_effects_02_glow_02",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 147,
+          "height": 138
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 28,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "staff_effects_03",
+        "name": "staff_effects_03",
+        "region": "staff_effects_03",
+        "type": "mesh",
+        "bone": "staff",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 167,
+          "height": 172
+        },
+        "mesh": {
+          "uvPairs": 12,
+          "vertexNumbers": 68,
+          "triangles": 15,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "collect",
+        "duration": 1,
+        "keyframes": 93,
+        "curvedKeys": 33,
+        "channels": [
+          {
+            "path": "slots.Feather_glow_staff.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow_1_staff.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.glow_1_staff2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow_1_staff3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow_1_staff4.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow_1_staff5.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.glow_base_staff.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.staff.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.staff2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.staff3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.staff_effects_02.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.staff_effects_02_glow_01.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.staff_effects_02_glow_02.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.staff_effects_03.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.staff.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.staff.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Feather_staff.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Feather_staff2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.staff_3d.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.glow_2_staff.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.glow_2_staff4.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.glow_2_staff5.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.glow_2_staff6.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.glow_2_staff7.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.glow_2_staff2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.glow_2_staff3.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.staff2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.staff2.scale",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "staff",
+          "Feather_staff",
+          "Feather_staff2",
+          "staff_3d",
+          "glow_2_staff",
+          "glow_2_staff4",
+          "glow_2_staff5",
+          "glow_2_staff6",
+          "glow_2_staff7",
+          "glow_2_staff2",
+          "glow_2_staff3",
+          "staff2"
+        ],
+        "animatedSlots": [
+          "Feather_glow_staff",
+          "glow_1_staff",
+          "glow_1_staff2",
+          "glow_1_staff3",
+          "glow_1_staff4",
+          "glow_1_staff5",
+          "glow_base_staff",
+          "staff",
+          "staff2",
+          "staff3",
+          "staff_effects_02",
+          "staff_effects_02_glow_01",
+          "staff_effects_02_glow_02",
+          "staff_effects_03"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "win",
+        "duration": 1,
+        "keyframes": 212,
+        "curvedKeys": 51,
+        "channels": [
+          {
+            "path": "slots.Feather_glow_staff.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.glow2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow_1_staff.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.glow_1_staff2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow_1_staff3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow_1_staff4.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow_1_staff5.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.glow_base_staff.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.r1_finisher_kick_2_01.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.r1_finisher_kick_2_01.attachment",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.r1_finisher_kick_2_red_light_01.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.r1_finisher_kick_2_red_light_01.attachment",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.r1_finisher_scratch_red_01_01.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.r1_finisher_scratch_red_01_01.attachment",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.r1_finisher_scratch_red_01_light_01.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.r1_finisher_scratch_red_01_light_01.attachment",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.r1_finisher_scratch_red_02_01.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.r1_finisher_scratch_red_02_01.attachment",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.r1_finisher_scratch_red_02_light_01.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.r1_finisher_scratch_red_02_light_01.attachment",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.staff.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.staff2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.staff3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.staff_effects_02.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.staff_effects_02_glow_01.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.staff_effects_02_glow_02.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.staff_effects_03.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.staff.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.staff.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Feather_staff.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Feather_staff2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.staff_3d.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.glow_2_staff.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.glow_2_staff4.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.glow_2_staff5.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.glow_2_staff6.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.glow_2_staff7.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.glow_2_staff2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.glow_2_staff3.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.staff2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.staff2.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.r1_VFX.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.r1_VFX.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.r1_finisher_kick_2_01.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.r1_finisher_kick_2_01.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.r1_finisher_scratch_red_01_01.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.r1_finisher_scratch_red_01_01.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.r1_finisher_scratch_red_01_01.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.glow2.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.glow2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.r1_finisher_scratch_red_02_01.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.r1_finisher_scratch_red_02_01.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.glow3.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "drawOrder",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "staff",
+          "Feather_staff",
+          "Feather_staff2",
+          "staff_3d",
+          "glow_2_staff",
+          "glow_2_staff4",
+          "glow_2_staff5",
+          "glow_2_staff6",
+          "glow_2_staff7",
+          "glow_2_staff2",
+          "glow_2_staff3",
+          "staff2",
+          "r1_VFX",
+          "r1_finisher_kick_2_01",
+          "r1_finisher_scratch_red_01_01",
+          "glow2",
+          "r1_finisher_scratch_red_02_01",
+          "glow3"
+        ],
+        "animatedSlots": [
+          "Feather_glow_staff",
+          "glow",
+          "glow2",
+          "glow_1_staff",
+          "glow_1_staff2",
+          "glow_1_staff3",
+          "glow_1_staff4",
+          "glow_1_staff5",
+          "glow_base_staff",
+          "r1_finisher_kick_2_01",
+          "r1_finisher_kick_2_red_light_01",
+          "r1_finisher_scratch_red_01_01",
+          "r1_finisher_scratch_red_01_light_01",
+          "r1_finisher_scratch_red_02_01",
+          "r1_finisher_scratch_red_02_light_01",
+          "staff",
+          "staff2",
+          "staff3",
+          "staff_effects_02",
+          "staff_effects_02_glow_01",
+          "staff_effects_02_glow_02",
+          "staff_effects_03"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": true,
+        "events": [],
+        "tags": [
+          "win"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 24,
+      "slots": 32,
+      "attachments": 64,
+      "meshAttachments": 22,
+      "meshUvPairs": 165,
+      "constraints": {
+        "ik": 0,
+        "transform": 1,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "Bead_1_staff",
+      "file": "pieces/bead-1-staff-74a9781d.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "604,1525,8,6",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Crystal_staff",
+      "file": "pieces/crystal-staff-e0c0531b.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "216,70,30,32"
+      }
+    },
+    {
+      "region": "Feather_glow_staff",
+      "file": "pieces/feather-glow-staff-4822749b.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "959,1228,53,39"
+      }
+    },
+    {
+      "region": "Feather_staff",
+      "file": "pieces/feather-staff-03453451.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "681,777,38,24"
+      }
+    },
+    {
+      "region": "Gold_3_staff",
+      "file": "pieces/gold-3-staff-dcff51cc.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "696,487,110,127",
+        "offsets": "0,6,110,133",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_1_staff",
+      "file": "pieces/shadow-1-staff-db122d19.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "852,653,120,93",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_2_staff",
+      "file": "pieces/shadow-2-staff-e21e9faa.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "110,0,102,102"
+      }
+    },
+    {
+      "region": "glow",
+      "file": "pieces/glow-4ab957b8.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1467,756,146,160"
+      }
+    },
+    {
+      "region": "glow_1_staff",
+      "file": "pieces/glow-1-staff-6ec9d662.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1389,673,80,79"
+      }
+    },
+    {
+      "region": "glow_2_staff",
+      "file": "pieces/glow-2-staff-09bbf708.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1201,670,102,87",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "glow_5_staff",
+      "file": "pieces/glow-5-staff-b0ca2a23.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1292,659,93,93"
+      }
+    },
+    {
+      "region": "glow_base_staff",
+      "file": "pieces/glow-base-staff-6230b28a.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "949,646,126,141",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "mist_2_empty",
+      "file": "pieces/mist-2-empty-ce9a747b.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "0,0,106,102"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_01",
+      "file": "pieces/r1-finisher-kick-2-01-79552166.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1492,1657,70,64",
+        "offsets": "1,1,72,66"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_02",
+      "file": "pieces/r1-finisher-kick-2-02-2df29851.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "308,828,167,220",
+        "offsets": "1,1,169,222",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_03",
+      "file": "pieces/r1-finisher-kick-2-03-a6a5a150.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1018,1204,171,309",
+        "offsets": "1,1,173,311"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_04",
+      "file": "pieces/r1-finisher-kick-2-04-0a0c0bc6.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1570,1611,213,440",
+        "offsets": "1,1,215,442",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_05",
+      "file": "pieces/r1-finisher-kick-2-05-94727dd1.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "604,1537,222,511",
+        "offsets": "1,1,224,513"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_06",
+      "file": "pieces/r1-finisher-kick-2-06-2e6b65fc.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "0,1500,304,548",
+        "offsets": "1,1,306,550"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_07",
+      "file": "pieces/r1-finisher-kick-2-07-c65fb995.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "308,1525,292,523",
+        "offsets": "1,1,294,525"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_red_light_01",
+      "file": "pieces/r1-finisher-kick-2-red-light-01-23e663d9.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1473,677,80,75",
+        "offsets": "1,1,82,77"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_red_light_02",
+      "file": "pieces/r1-finisher-kick-2-red-light-02-3bc6bb97.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "296,592,178,232",
+        "offsets": "1,1,180,234"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_red_light_03",
+      "file": "pieces/r1-finisher-kick-2-red-light-03-5519c807.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "536,1198,181,323",
+        "offsets": "1,1,183,325"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_red_light_04",
+      "file": "pieces/r1-finisher-kick-2-red-light-04-acdcc1fc.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1570,1828,220,453",
+        "offsets": "1,1,222,455",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_red_light_05",
+      "file": "pieces/r1-finisher-kick-2-red-light-05-aaa93cbb.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "308,999,224,522",
+        "offsets": "1,1,226,524"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_red_light_06",
+      "file": "pieces/r1-finisher-kick-2-red-light-06-cb2e0f33.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "0,948,304,548",
+        "offsets": "1,1,306,550"
+      }
+    },
+    {
+      "region": "r1_finisher_kick_2_red_light_07",
+      "file": "pieces/r1-finisher-kick-2-red-light-07-9744b468.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "0,433,292,511",
+        "offsets": "1,1,294,513"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_01",
+      "file": "pieces/r1-finisher-scratch-red-01-01-97ebd197.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1372,920,175,128",
+        "offsets": "1,1,177,130"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_02",
+      "file": "pieces/r1-finisher-scratch-red-01-02-a1e30d0a.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1221,1053,155,263",
+        "offsets": "1,1,157,265"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_03",
+      "file": "pieces/r1-finisher-scratch-red-01-03-258e4c7c.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "536,897,220,297",
+        "offsets": "1,1,222,299"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_04",
+      "file": "pieces/r1-finisher-scratch-red-01-04-54281df0.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "296,436,192,152",
+        "offsets": "1,1,194,154"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_05",
+      "file": "pieces/r1-finisher-scratch-red-01-05-163dc40d.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "492,472,200,122",
+        "offsets": "1,1,202,124"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_06",
+      "file": "pieces/r1-finisher-scratch-red-01-06-905990bb.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1221,939,147,110",
+        "offsets": "1,1,149,112"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_light_01",
+      "file": "pieces/r1-finisher-scratch-red-01-light-01-db7be312.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "545,267,201,191",
+        "offsets": "1,1,203,193",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_light_02",
+      "file": "pieces/r1-finisher-scratch-red-01-light-02-b91205d4.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "0,106,246,323",
+        "offsets": "1,1,248,325"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_light_03",
+      "file": "pieces/r1-finisher-scratch-red-01-light-03-a68a1f47.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "830,1701,373,347",
+        "offsets": "1,1,375,349"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_light_04",
+      "file": "pieces/r1-finisher-scratch-red-01-light-04-8166eb3a.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1193,1320,243,211",
+        "offsets": "1,1,245,213"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_light_05",
+      "file": "pieces/r1-finisher-scratch-red-01-light-05-baf57ac2.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1207,1535,281,186",
+        "offsets": "1,1,283,188"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_01_light_06",
+      "file": "pieces/r1-finisher-scratch-red-01-light-06-6630c174.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "365,216,216,176",
+        "offsets": "1,1,218,178",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_01",
+      "file": "pieces/r1-finisher-scratch-red-02-01-d013ed8a.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1094,669,103,103",
+        "offsets": "1,1,105,105"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_02",
+      "file": "pieces/r1-finisher-scratch-red-02-02-e2b2edc2.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "250,0,179,142",
+        "offsets": "1,1,181,144"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_03",
+      "file": "pieces/r1-finisher-scratch-red-02-03-2da2d3bf.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "250,146,283,111",
+        "offsets": "1,1,285,113",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_04",
+      "file": "pieces/r1-finisher-scratch-red-02-04-b5e7e4f2.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "760,960,307,195",
+        "offsets": "1,1,309,197",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_05",
+      "file": "pieces/r1-finisher-scratch-red-02-05-8dd4a4d7.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "478,598,199,203",
+        "offsets": "1,1,201,205"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_06",
+      "file": "pieces/r1-finisher-scratch-red-02-06-1e93e04c.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "760,777,179,190",
+        "offsets": "1,1,181,192",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_07",
+      "file": "pieces/r1-finisher-scratch-red-02-07-235dc3d6.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1193,1217,99,24",
+        "offsets": "1,1,101,26",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_light_01",
+      "file": "pieces/r1-finisher-scratch-red-02-light-01-21e6b7c8.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "954,776,177,164",
+        "offsets": "1,1,179,166"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_light_02",
+      "file": "pieces/r1-finisher-scratch-red-02-light-02-1280b629.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1380,1052,264,153",
+        "offsets": "1,1,266,155",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_light_03",
+      "file": "pieces/r1-finisher-scratch-red-02-light-03-bde235fb.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "830,1517,355,180",
+        "offsets": "1,1,357,182"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_light_04",
+      "file": "pieces/r1-finisher-scratch-red-02-light-04-0644a3e6.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1207,1725,359,323",
+        "offsets": "1,1,361,325"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_light_05",
+      "file": "pieces/r1-finisher-scratch-red-02-light-05-714742e9.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "721,1271,293,242",
+        "offsets": "1,1,295,244"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_light_06",
+      "file": "pieces/r1-finisher-scratch-red-02-light-06-8a6dcbe6.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "959,944,258,256",
+        "offsets": "1,1,260,258"
+      }
+    },
+    {
+      "region": "r1_finisher_scratch_red_02_light_07",
+      "file": "pieces/r1-finisher-scratch-red-02-light-07-b5905627.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "532,805,204,88",
+        "offsets": "1,1,206,90"
+      }
+    },
+    {
+      "region": "staff_effects_02",
+      "file": "pieces/staff-effects-02-075bff8b.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1135,776,159,162",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "staff_effects_02_glow_01",
+      "file": "pieces/staff-effects-02-glow-01-1f64d1f7.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "1301,756,160,162",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "staff_effects_02_glow_02",
+      "file": "pieces/staff-effects-02-glow-02-c4a4780b.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "740,336,147,138",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "staff_effects_03",
+      "file": "pieces/staff-effects-03-efe55006.png",
+      "page": "staff.webp",
+      "properties": {
+        "bounds": "681,601,167,172"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

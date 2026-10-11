@@ -1,0 +1,2098 @@
+{
+  "id": "odin-s-vault-animations-club-4c782c8d-7a0c72e1",
+  "collection": "library",
+  "name": "club",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/club-4c782c8d",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 13,
+    "slots": 23,
+    "attachments": 23,
+    "meshAttachments": 21,
+    "meshUvPairs": 84,
+    "constraints": {
+      "ik": 0,
+      "transform": 1,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 1048576,
+    "rgbaBytesEstimate": 4194304,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 44,
+  "actions": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "keyframes": 8,
+      "curvedKeys": 6,
+      "channels": [
+        {
+          "path": "bones.cubs.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cubs_3d.translate",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "cubs",
+        "cubs_3d"
+      ],
+      "animatedSlots": [
+        "Red_Glow_2_1_1",
+        "Red_Glow_2_1_2",
+        "Red_Glow_2_2_1",
+        "Red_Glow_2_2_2",
+        "Red_Glow_2_3",
+        "Red_Glow_3_4",
+        "Red_Glow_4_4",
+        "Sparks_Red_1",
+        "Sparks_Red_2",
+        "Sparks_Red_3_2",
+        "Sparks_Red_4_2",
+        "Sparks_Red_6",
+        "Sparks_Red_7"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "land",
+      "duration": 0.4667,
+      "keyframes": 9,
+      "curvedKeys": 6,
+      "channels": [
+        {
+          "path": "bones.cubs.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.cubs.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.cubs_3d.translate",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "cubs",
+        "cubs_3d"
+      ],
+      "animatedSlots": [
+        "Red_Glow_2_1_1",
+        "Red_Glow_2_1_2",
+        "Red_Glow_2_2_1",
+        "Red_Glow_2_2_2",
+        "Red_Glow_2_3",
+        "Red_Glow_3_4",
+        "Red_Glow_4_4",
+        "Sparks_Red_1",
+        "Sparks_Red_2",
+        "Sparks_Red_3_2",
+        "Sparks_Red_4_2",
+        "Sparks_Red_6",
+        "Sparks_Red_7"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "transform",
+      "duration": 0.7,
+      "keyframes": 99,
+      "curvedKeys": 47,
+      "channels": [
+        {
+          "path": "slots.cubs_red.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.cubs_red.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Red_Glow_2_1_1.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Red_Glow_2_1_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Red_Glow_2_1_2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Red_Glow_2_1_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Red_Glow_2_2_1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Red_Glow_2_2_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Red_Glow_2_2_2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Red_Glow_2_2_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Red_Glow_2_3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Red_Glow_2_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Red_Glow_3_4.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Red_Glow_3_4.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Red_Glow_4_4.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Red_Glow_4_4.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Sparks_Red_1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_Red_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Sparks_Red_2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Sparks_Red_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Sparks_Red_3_2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Sparks_Red_3_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Sparks_Red_4_2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Sparks_Red_4_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Sparks_Red_6.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Sparks_Red_6.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Sparks_Red_7.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Sparks_Red_7.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.cubs/frame_cubs.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.cubs/frame_cubs2.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.cubs/frame_shadow_cubs.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.cubs/frame_thickness_cubs.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.cubs/shadow_cubs.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.cubs/wood_cubs.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.cubs/wood_cubs_symbol.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Red_Glow_2_2_1.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Red_Glow_2_1_1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Red_Glow_2_3.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Sparks_Red_1.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Red_Glow_2_4.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Red_Glow_2_5.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.cubs.scale",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "Red_Glow_2_2_1",
+        "Red_Glow_2_1_1",
+        "Red_Glow_2_3",
+        "Sparks_Red_1",
+        "Red_Glow_2_4",
+        "Red_Glow_2_5",
+        "cubs"
+      ],
+      "animatedSlots": [
+        "cubs_red",
+        "Red_Glow_2_1_1",
+        "Red_Glow_2_1_2",
+        "Red_Glow_2_2_1",
+        "Red_Glow_2_2_2",
+        "Red_Glow_2_3",
+        "Red_Glow_3_4",
+        "Red_Glow_4_4",
+        "Sparks_Red_1",
+        "Sparks_Red_2",
+        "Sparks_Red_3_2",
+        "Sparks_Red_4_2",
+        "Sparks_Red_6",
+        "Sparks_Red_7",
+        "cubs/frame_cubs",
+        "cubs/frame_cubs2",
+        "cubs/frame_shadow_cubs",
+        "cubs/frame_thickness_cubs",
+        "cubs/shadow_cubs",
+        "cubs/wood_cubs",
+        "cubs/wood_cubs_symbol"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "win",
+      "duration": 1,
+      "keyframes": 34,
+      "curvedKeys": 23,
+      "channels": [
+        {
+          "path": "slots.cubs/frame_cubs2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.cubs/multiplier_back_glow3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.cubs/wood_cubs_symbol_add.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.cubs.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cubs.translatex",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cubs.translatey",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cubs.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cubs_3d.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cubs_back_glow.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.cubs_symbol.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "cubs",
+        "cubs_3d",
+        "cubs_back_glow",
+        "cubs_symbol"
+      ],
+      "animatedSlots": [
+        "Red_Glow_2_1_1",
+        "Red_Glow_2_1_2",
+        "Red_Glow_2_2_1",
+        "Red_Glow_2_2_2",
+        "Red_Glow_2_3",
+        "Red_Glow_3_4",
+        "Red_Glow_4_4",
+        "Sparks_Red_1",
+        "Sparks_Red_2",
+        "Sparks_Red_3_2",
+        "Sparks_Red_4_2",
+        "Sparks_Red_6",
+        "Sparks_Red_7",
+        "cubs/frame_cubs2",
+        "cubs/multiplier_back_glow3",
+        "cubs/wood_cubs_symbol_add"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "win"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-club-4c782c8d-7a0c72e1/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cubs",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cubs_3d",
+        "parent": "cubs",
+        "x": 0.53,
+        "y": 10.18,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cubs_3d2",
+        "parent": "cubs",
+        "x": 0.53,
+        "y": 10.18,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cubs_back_glow",
+        "parent": "cubs",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cubs_symbol",
+        "parent": "cubs",
+        "x": 0.18,
+        "y": 11.84,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "main_transform",
+        "parent": "root",
+        "x": 0.27,
+        "y": 14.37,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Red_Glow_2_1_1",
+        "parent": "main_transform",
+        "x": 1.56,
+        "y": 1.35,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.2,
+        "scaleY": 1.2
+      },
+      {
+        "name": "Red_Glow_2_2_1",
+        "parent": "main_transform",
+        "x": 2.06,
+        "y": -0.15,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.2,
+        "scaleY": 1.2
+      },
+      {
+        "name": "Red_Glow_2_3",
+        "parent": "main_transform",
+        "x": -1.44,
+        "y": 5.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Sparks_Red_1",
+        "parent": "main_transform",
+        "x": -4.44,
+        "y": -2.65,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Red_Glow_2_4",
+        "parent": "main_transform",
+        "x": -1.44,
+        "y": 5.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Red_Glow_2_5",
+        "parent": "main_transform",
+        "x": -1.44,
+        "y": 5.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "cubs/multiplier_back_glow3",
+        "bone": "cubs_back_glow",
+        "setupAttachment": "multiplier_back_glow3",
+        "blend": "additive",
+        "color": "ffd24c00"
+      },
+      {
+        "name": "cubs/shadow_cubs",
+        "bone": "cubs",
+        "setupAttachment": "shadow_cubs",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cubs/wood_cubs",
+        "bone": "cubs",
+        "setupAttachment": "wood_cubs",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cubs/frame_shadow_cubs",
+        "bone": "cubs",
+        "setupAttachment": "frame_shadow_cubs",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cubs/frame_thickness_cubs",
+        "bone": "cubs",
+        "setupAttachment": "frame_thickness_cubs",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cubs/frame_cubs",
+        "bone": "cubs",
+        "setupAttachment": "frame_cubs",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cubs/frame_cubs2",
+        "bone": "cubs",
+        "setupAttachment": "frame_cubs",
+        "blend": "additive",
+        "color": "ffe5b100"
+      },
+      {
+        "name": "cubs/wood_cubs_symbol",
+        "bone": "cubs_symbol",
+        "setupAttachment": "wood_cubs_symbol",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cubs/wood_cubs_symbol_add",
+        "bone": "cubs_symbol",
+        "setupAttachment": "wood_cubs_symbol_add",
+        "blend": "additive",
+        "color": "c9efff00"
+      },
+      {
+        "name": "cubs_red",
+        "bone": "cubs",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Red_Glow_2_2_1",
+        "bone": "Red_Glow_2_2_1",
+        "setupAttachment": "Red_Glow_2_2_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Red_Glow_2_2_2",
+        "bone": "Red_Glow_2_2_1",
+        "setupAttachment": "Red_Glow_2_2_1",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Red_Glow_2_1_1",
+        "bone": "Red_Glow_2_1_1",
+        "setupAttachment": "Red_Glow_2_1_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Red_Glow_2_1_2",
+        "bone": "Red_Glow_2_1_1",
+        "setupAttachment": "Red_Glow_2_1_1",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Red_Glow_2_3",
+        "bone": "Red_Glow_2_3",
+        "setupAttachment": "Red_Glow_2_3",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Sparks_Red_1",
+        "bone": "Sparks_Red_1",
+        "setupAttachment": "Sparks_Red_1",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Sparks_Red_2",
+        "bone": "Sparks_Red_1",
+        "setupAttachment": "Sparks_Red_2",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Sparks_Red_3_2",
+        "bone": "Sparks_Red_1",
+        "setupAttachment": "Sparks_Red_3_2",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Sparks_Red_4_2",
+        "bone": "Sparks_Red_1",
+        "setupAttachment": "Sparks_Red_4_2",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Sparks_Red_6",
+        "bone": "Sparks_Red_1",
+        "setupAttachment": "Sparks_Red_6",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Sparks_Red_7",
+        "bone": "Sparks_Red_1",
+        "setupAttachment": "Sparks_Red_7",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Red_Glow_3_4",
+        "bone": "Red_Glow_2_4",
+        "setupAttachment": "Red_Glow_3_3",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Red_Glow_4_4",
+        "bone": "Red_Glow_2_5",
+        "setupAttachment": "Red_Glow_4_3",
+        "blend": "additive",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "cubs_red",
+        "name": "cubs_red",
+        "region": "cubs_red",
+        "type": "region",
+        "bone": "cubs",
+        "transform": {
+          "x": 0.86,
+          "y": 10.06,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 95,
+          "height": 106
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Red_Glow_2_1_1",
+        "name": "Red_Glow_2_1_1",
+        "region": "Red_Glow_2_1_1",
+        "type": "mesh",
+        "bone": "Red_Glow_2_1_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 83,
+          "height": 83
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Red_Glow_2_1_2",
+        "name": "Red_Glow_2_1_1",
+        "region": "Red_Glow_2_1_1",
+        "type": "mesh",
+        "bone": "Red_Glow_2_1_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 83,
+          "height": 83
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Red_Glow_2_2_1",
+        "name": "Red_Glow_2_2_1",
+        "region": "Red_Glow_2_2_1",
+        "type": "mesh",
+        "bone": "Red_Glow_2_2_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 114,
+          "height": 114
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Red_Glow_2_2_2",
+        "name": "Red_Glow_2_2_1",
+        "region": "Red_Glow_2_2_1",
+        "type": "mesh",
+        "bone": "Red_Glow_2_2_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 114,
+          "height": 114
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Red_Glow_2_3",
+        "name": "Red_Glow_2_3",
+        "region": "Red_Glow_2_3",
+        "type": "mesh",
+        "bone": "Red_Glow_2_3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 169,
+          "height": 192
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Red_Glow_3_4",
+        "name": "Red_Glow_3_3",
+        "region": "Red_Glow_3_3",
+        "type": "mesh",
+        "bone": "Red_Glow_2_4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 252,
+          "height": 255
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Red_Glow_4_4",
+        "name": "Red_Glow_4_3",
+        "region": "Red_Glow_4_3",
+        "type": "mesh",
+        "bone": "Red_Glow_2_5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 289,
+          "height": 270
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_Red_1",
+        "name": "Sparks_Red_1",
+        "region": "Sparks_Red_1",
+        "type": "mesh",
+        "bone": "Sparks_Red_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 77,
+          "height": 79
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_Red_2",
+        "name": "Sparks_Red_2",
+        "region": "Sparks_Red_2",
+        "type": "mesh",
+        "bone": "Sparks_Red_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 143,
+          "height": 133
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_Red_3_2",
+        "name": "Sparks_Red_3_2",
+        "region": "Sparks_Red_3_2",
+        "type": "mesh",
+        "bone": "Sparks_Red_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 160,
+          "height": 154
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_Red_4_2",
+        "name": "Sparks_Red_4_2",
+        "region": "Sparks_Red_4_2",
+        "type": "mesh",
+        "bone": "Sparks_Red_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 148,
+          "height": 138
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_Red_6",
+        "name": "Sparks_Red_6",
+        "region": "Sparks_Red_6",
+        "type": "mesh",
+        "bone": "Sparks_Red_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 149,
+          "height": 135
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_Red_7",
+        "name": "Sparks_Red_7",
+        "region": "Sparks_Red_7",
+        "type": "mesh",
+        "bone": "Sparks_Red_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 160,
+          "height": 151
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cubs/frame_cubs",
+        "name": "frame_cubs",
+        "region": "frame_cubs",
+        "type": "mesh",
+        "bone": "cubs",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 95,
+          "height": 103
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cubs/frame_cubs2",
+        "name": "frame_cubs",
+        "region": "frame_cubs",
+        "type": "mesh",
+        "bone": "cubs",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 95,
+          "height": 103
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cubs/frame_shadow_cubs",
+        "name": "frame_shadow_cubs",
+        "region": "frame_shadow_cubs",
+        "type": "mesh",
+        "bone": "cubs",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 90,
+          "height": 96
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cubs/frame_thickness_cubs",
+        "name": "frame_thickness_cubs",
+        "region": "frame_thickness_cubs",
+        "type": "mesh",
+        "bone": "cubs",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 95,
+          "height": 103
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cubs/multiplier_back_glow3",
+        "name": "multiplier_back_glow3",
+        "region": "multiplier_back_glow3",
+        "type": "region",
+        "bone": "cubs_back_glow",
+        "transform": {
+          "x": 3.34,
+          "y": 7.78,
+          "rotation": 0,
+          "scaleX": 1.3709,
+          "scaleY": 1.3709
+        },
+        "size": {
+          "width": 132,
+          "height": 133
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cubs/shadow_cubs",
+        "name": "shadow_cubs",
+        "region": "shadow_cubs",
+        "type": "mesh",
+        "bone": "cubs",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 97,
+          "height": 108
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cubs/wood_cubs",
+        "name": "wood_cubs",
+        "region": "wood_cubs",
+        "type": "mesh",
+        "bone": "cubs",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 89,
+          "height": 96
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 20,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cubs/wood_cubs_symbol",
+        "name": "wood_cubs_symbol",
+        "region": "wood_cubs_symbol",
+        "type": "mesh",
+        "bone": "cubs_symbol",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 20,
+          "height": 38
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cubs/wood_cubs_symbol_add",
+        "name": "wood_cubs_symbol_add",
+        "region": "wood_cubs_symbol_add",
+        "type": "mesh",
+        "bone": "cubs_symbol",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 32,
+          "height": 48
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "idle",
+        "duration": 2,
+        "keyframes": 8,
+        "curvedKeys": 6,
+        "channels": [
+          {
+            "path": "bones.cubs.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cubs_3d.translate",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "cubs",
+          "cubs_3d"
+        ],
+        "animatedSlots": [
+          "Red_Glow_2_1_1",
+          "Red_Glow_2_1_2",
+          "Red_Glow_2_2_1",
+          "Red_Glow_2_2_2",
+          "Red_Glow_2_3",
+          "Red_Glow_3_4",
+          "Red_Glow_4_4",
+          "Sparks_Red_1",
+          "Sparks_Red_2",
+          "Sparks_Red_3_2",
+          "Sparks_Red_4_2",
+          "Sparks_Red_6",
+          "Sparks_Red_7"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "land",
+        "duration": 0.4667,
+        "keyframes": 9,
+        "curvedKeys": 6,
+        "channels": [
+          {
+            "path": "bones.cubs.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.cubs.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.cubs_3d.translate",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "cubs",
+          "cubs_3d"
+        ],
+        "animatedSlots": [
+          "Red_Glow_2_1_1",
+          "Red_Glow_2_1_2",
+          "Red_Glow_2_2_1",
+          "Red_Glow_2_2_2",
+          "Red_Glow_2_3",
+          "Red_Glow_3_4",
+          "Red_Glow_4_4",
+          "Sparks_Red_1",
+          "Sparks_Red_2",
+          "Sparks_Red_3_2",
+          "Sparks_Red_4_2",
+          "Sparks_Red_6",
+          "Sparks_Red_7"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "transform",
+        "duration": 0.7,
+        "keyframes": 99,
+        "curvedKeys": 47,
+        "channels": [
+          {
+            "path": "slots.cubs_red.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.cubs_red.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Red_Glow_2_1_1.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Red_Glow_2_1_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Red_Glow_2_1_2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Red_Glow_2_1_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Red_Glow_2_2_1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Red_Glow_2_2_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Red_Glow_2_2_2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Red_Glow_2_2_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Red_Glow_2_3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Red_Glow_2_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Red_Glow_3_4.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Red_Glow_3_4.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Red_Glow_4_4.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Red_Glow_4_4.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Sparks_Red_1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_Red_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Sparks_Red_2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Sparks_Red_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Sparks_Red_3_2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Sparks_Red_3_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Sparks_Red_4_2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Sparks_Red_4_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Sparks_Red_6.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Sparks_Red_6.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Sparks_Red_7.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Sparks_Red_7.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.cubs/frame_cubs.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.cubs/frame_cubs2.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.cubs/frame_shadow_cubs.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.cubs/frame_thickness_cubs.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.cubs/shadow_cubs.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.cubs/wood_cubs.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.cubs/wood_cubs_symbol.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Red_Glow_2_2_1.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Red_Glow_2_1_1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Red_Glow_2_3.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Sparks_Red_1.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Red_Glow_2_4.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Red_Glow_2_5.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.cubs.scale",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "Red_Glow_2_2_1",
+          "Red_Glow_2_1_1",
+          "Red_Glow_2_3",
+          "Sparks_Red_1",
+          "Red_Glow_2_4",
+          "Red_Glow_2_5",
+          "cubs"
+        ],
+        "animatedSlots": [
+          "cubs_red",
+          "Red_Glow_2_1_1",
+          "Red_Glow_2_1_2",
+          "Red_Glow_2_2_1",
+          "Red_Glow_2_2_2",
+          "Red_Glow_2_3",
+          "Red_Glow_3_4",
+          "Red_Glow_4_4",
+          "Sparks_Red_1",
+          "Sparks_Red_2",
+          "Sparks_Red_3_2",
+          "Sparks_Red_4_2",
+          "Sparks_Red_6",
+          "Sparks_Red_7",
+          "cubs/frame_cubs",
+          "cubs/frame_cubs2",
+          "cubs/frame_shadow_cubs",
+          "cubs/frame_thickness_cubs",
+          "cubs/shadow_cubs",
+          "cubs/wood_cubs",
+          "cubs/wood_cubs_symbol"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "win",
+        "duration": 1,
+        "keyframes": 34,
+        "curvedKeys": 23,
+        "channels": [
+          {
+            "path": "slots.cubs/frame_cubs2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.cubs/multiplier_back_glow3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.cubs/wood_cubs_symbol_add.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.cubs.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cubs.translatex",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cubs.translatey",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cubs.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cubs_3d.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cubs_back_glow.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.cubs_symbol.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "cubs",
+          "cubs_3d",
+          "cubs_back_glow",
+          "cubs_symbol"
+        ],
+        "animatedSlots": [
+          "Red_Glow_2_1_1",
+          "Red_Glow_2_1_2",
+          "Red_Glow_2_2_1",
+          "Red_Glow_2_2_2",
+          "Red_Glow_2_3",
+          "Red_Glow_3_4",
+          "Red_Glow_4_4",
+          "Sparks_Red_1",
+          "Sparks_Red_2",
+          "Sparks_Red_3_2",
+          "Sparks_Red_4_2",
+          "Sparks_Red_6",
+          "Sparks_Red_7",
+          "cubs/frame_cubs2",
+          "cubs/multiplier_back_glow3",
+          "cubs/wood_cubs_symbol_add"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "win"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 13,
+      "slots": 23,
+      "attachments": 23,
+      "meshAttachments": 21,
+      "meshUvPairs": 84,
+      "constraints": {
+        "ik": 0,
+        "transform": 1,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "Red_Glow_2_1_1",
+      "file": "pieces/red-glow-2-1-1-4ea2bb0f.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "304,39,83,83"
+      }
+    },
+    {
+      "region": "Red_Glow_2_2_1",
+      "file": "pieces/red-glow-2-2-1-6cf2a882.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "430,255,114,114"
+      }
+    },
+    {
+      "region": "Red_Glow_2_3",
+      "file": "pieces/red-glow-2-3-658022cb.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "549,436,169,192"
+      }
+    },
+    {
+      "region": "Red_Glow_3_3",
+      "file": "pieces/red-glow-3-3-db9cb726.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "293,373,252,255"
+      }
+    },
+    {
+      "region": "Red_Glow_4_3",
+      "file": "pieces/red-glow-4-3-e9a276c6.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "0,358,289,270"
+      }
+    },
+    {
+      "region": "Sparks_Red_1",
+      "file": "pieces/sparks-red-1-434b1f3d.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "638,35,77,79",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Sparks_Red_2",
+      "file": "pieces/sparks-red-2-3a37f9a4.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "886,332,143,133",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Sparks_Red_3_2",
+      "file": "pieces/sparks-red-3-2-b845f7c9.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "722,468,160,154",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Sparks_Red_4_2",
+      "file": "pieces/sparks-red-4-2-e54b09b5.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "549,294,148,138"
+      }
+    },
+    {
+      "region": "Sparks_Red_6",
+      "file": "pieces/sparks-red-6-c475258f.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "880,479,149,135",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Sparks_Red_7",
+      "file": "pieces/sparks-red-7-3ed23774.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "722,313,160,151"
+      }
+    },
+    {
+      "region": "cubs_red",
+      "file": "pieces/cubs-red-2024d0e0.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "810,132,93,104",
+        "offsets": "1,1,95,106",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "diamonds_red",
+      "file": "pieces/diamonds-red-73e66dd6.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "329,126,90,107",
+        "offsets": "1,1,92,109"
+      }
+    },
+    {
+      "region": "frame_cubs",
+      "file": "pieces/frame-cubs-45586bee.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "430,156,95,103",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_diamonds",
+      "file": "pieces/frame-diamonds-14a2f013.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "918,133,92,105",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_hearts",
+      "file": "pieces/frame-hearts-6e98cdf6.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "423,58,98,94"
+      }
+    },
+    {
+      "region": "frame_shadow_cubs",
+      "file": "pieces/frame-shadow-cubs-efe4e546.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "109,55,90,96",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_shadow_diamonds",
+      "file": "pieces/frame-shadow-diamonds-183c86ec.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "391,0,85,54"
+      }
+    },
+    {
+      "region": "frame_shadow_hearts",
+      "file": "pieces/frame-shadow-hearts-1fc20bbe.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "855,32,96,52",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_shadow_spades",
+      "file": "pieces/frame-shadow-spades-83fdbc70.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "200,253,88,101"
+      }
+    },
+    {
+      "region": "frame_spades",
+      "file": "pieces/frame-spades-df8a1eaa.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "0,148,93,105",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_thickness_cubs",
+      "file": "pieces/frame-thickness-cubs-f04ffc61.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "548,195,95,103",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_thickness_diamonds",
+      "file": "pieces/frame-thickness-diamonds-66838a22.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "219,141,92,106",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_thickness_hearts",
+      "file": "pieces/frame-thickness-hearts-92b9751e.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "655,116,99,95"
+      }
+    },
+    {
+      "region": "frame_thickness_spades",
+      "file": "pieces/frame-thickness-spades-5e96bbaa.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "701,215,94,105",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "hearts_red",
+      "file": "pieces/hearts-red-55861daf.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "537,95,97,96",
+        "offsets": "1,1,99,98"
+      }
+    },
+    {
+      "region": "multiplier_back_glow3",
+      "file": "pieces/multiplier-back-glow3-d598481f.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "293,237,132,133",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "shadow_cubs",
+      "file": "pieces/shadow-cubs-a21d4308.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "0,246,97,108"
+      }
+    },
+    {
+      "region": "shadow_diamonds",
+      "file": "pieces/shadow-diamonds-ff934955.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "525,29,94,62"
+      }
+    },
+    {
+      "region": "shadow_hearts",
+      "file": "pieces/shadow-hearts-8b62f0e1.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "886,229,100,99"
+      }
+    },
+    {
+      "region": "shadow_spades",
+      "file": "pieces/shadow-spades-6b11e67c.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "101,245,95,109"
+      }
+    },
+    {
+      "region": "spades_red",
+      "file": "pieces/spades-red-c31b62e3.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "109,149,92,106",
+        "offsets": "1,1,94,108",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wood_cubs",
+      "file": "pieces/wood-cubs-d49350dc.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "0,55,89,96",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wood_cubs_symbol",
+      "file": "pieces/wood-cubs-symbol-3b8591bf.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "758,135,20,38"
+      }
+    },
+    {
+      "region": "wood_cubs_symbol_add",
+      "file": "pieces/wood-cubs-symbol-add-f8eb389f.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "990,280,32,48"
+      }
+    },
+    {
+      "region": "wood_diamonds",
+      "file": "pieces/wood-diamonds-66f82e70.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "758,46,82,93",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wood_diamonds_symbol",
+      "file": "pieces/wood-diamonds-symbol-6f44394d.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "701,394,14,38"
+      }
+    },
+    {
+      "region": "wood_diamonds_symbol_add",
+      "file": "pieces/wood-diamonds-symbol-add-2bb91b6b.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "850,261,26,48"
+      }
+    },
+    {
+      "region": "wood_hearts",
+      "file": "pieces/wood-hearts-e939a0e9.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "209,51,91,86"
+      }
+    },
+    {
+      "region": "wood_hearts_symbol",
+      "file": "pieces/wood-hearts-symbol-9a03c521.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "758,177,24,34"
+      }
+    },
+    {
+      "region": "wood_hearts_symbol_add",
+      "file": "pieces/wood-hearts-symbol-add-6259cd77.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "655,246,34,44"
+      }
+    },
+    {
+      "region": "wood_spades",
+      "file": "pieces/wood-spades-1693fd88.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "918,45,84,91",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wood_spades_symbol",
+      "file": "pieces/wood-spades-symbol-8318888b.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "990,238,26,38"
+      }
+    },
+    {
+      "region": "wood_spades_symbol_add",
+      "file": "pieces/wood-spades-symbol-add-42b0b8b4.png",
+      "page": "symbols_low.webp",
+      "properties": {
+        "bounds": "810,262,36,47"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

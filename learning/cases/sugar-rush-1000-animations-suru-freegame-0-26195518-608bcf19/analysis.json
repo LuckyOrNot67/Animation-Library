@@ -1,0 +1,456 @@
+{
+  "id": "sugar-rush-1000-animations-suru-freegame-0-26195518-608bcf19",
+  "collection": "library",
+  "name": "suru_freegame_0",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-freegame-0-26195518",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 5,
+    "slots": 6,
+    "attachments": 6,
+    "meshAttachments": 3,
+    "meshUvPairs": 12,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 380800,
+    "rgbaBytesEstimate": 1523200,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 6,
+  "actions": [
+    {
+      "name": "suru_freegame",
+      "duration": 3,
+      "keyframes": 35,
+      "curvedKeys": 6,
+      "channels": [
+        {
+          "path": "bones.fan_left.rotate",
+          "keyframes": 13
+        },
+        {
+          "path": "bones.fan_left2.rotate",
+          "keyframes": 13
+        },
+        {
+          "path": "deform.default.cloud_1.cloud_1_free",
+          "keyframes": 3
+        },
+        {
+          "path": "deform.default.cloud_2.cloud_2_free",
+          "keyframes": 3
+        },
+        {
+          "path": "deform.default.cloud_6.cloud_6_free",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "fan_left",
+        "fan_left2"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-freegame-0-26195518-608bcf19/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "left_frame",
+        "parent": "root",
+        "x": -619.2,
+        "y": 17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "fan_left",
+        "parent": "left_frame",
+        "x": -47.49,
+        "y": -363.64,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "left_frame2",
+        "parent": "root",
+        "x": 591.55,
+        "y": 17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      },
+      {
+        "name": "fan_left2",
+        "parent": "left_frame2",
+        "x": -47.49,
+        "y": -363.64,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "cloud_6",
+        "bone": "root",
+        "setupAttachment": "cloud_6_free",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_5",
+        "bone": "root",
+        "setupAttachment": "cloud_5_free",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_4",
+        "bone": "root",
+        "setupAttachment": "cloud_4_free",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_3",
+        "bone": "root",
+        "setupAttachment": "cloud_3_free",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_2",
+        "bone": "root",
+        "setupAttachment": "cloud_2_free",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_1",
+        "bone": "root",
+        "setupAttachment": "cloud_1_free",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "cloud_1",
+        "name": "cloud_1_free",
+        "region": "cloud_1_free",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_2",
+        "name": "cloud_2_free",
+        "region": "cloud_2_free",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_3",
+        "name": "cloud_3_free",
+        "region": "cloud_3_free",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -0.5,
+          "y": 219.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 679,
+          "height": 253
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_4",
+        "name": "cloud_4_free",
+        "region": "cloud_4_free",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -308,
+          "y": 347,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 144,
+          "height": 64
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_5",
+        "name": "cloud_5_free",
+        "region": "cloud_5_free",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -803,
+          "y": 309,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 200,
+          "height": 103
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_6",
+        "name": "cloud_6_free",
+        "region": "cloud_6_free",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "suru_freegame",
+        "duration": 3,
+        "keyframes": 35,
+        "curvedKeys": 6,
+        "channels": [
+          {
+            "path": "bones.fan_left.rotate",
+            "keyframes": 13
+          },
+          {
+            "path": "bones.fan_left2.rotate",
+            "keyframes": 13
+          },
+          {
+            "path": "deform.default.cloud_1.cloud_1_free",
+            "keyframes": 3
+          },
+          {
+            "path": "deform.default.cloud_2.cloud_2_free",
+            "keyframes": 3
+          },
+          {
+            "path": "deform.default.cloud_6.cloud_6_free",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "fan_left",
+          "fan_left2"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 5,
+      "slots": 6,
+      "attachments": 6,
+      "meshAttachments": 3,
+      "meshUvPairs": 12,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "cloud_1_free",
+      "file": "pieces/cloud-1-free-bee679c0.png",
+      "page": "suru_freegame_0.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1252, 29",
+        "size": "183, 77",
+        "orig": "183, 77",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_2_free",
+      "file": "pieces/cloud-2-free-d3b1d28c.png",
+      "page": "suru_freegame_0.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "681, 129",
+        "size": "532, 149",
+        "orig": "532, 149",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_3_free",
+      "file": "pieces/cloud-3-free-1bea1595.png",
+      "page": "suru_freegame_0.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 25",
+        "size": "679, 253",
+        "orig": "679, 253",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_4_free",
+      "file": "pieces/cloud-4-free-0fc99e71.png",
+      "page": "suru_freegame_0.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1215, 214",
+        "size": "144, 64",
+        "orig": "144, 64",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_5_free",
+      "file": "pieces/cloud-5-free-89627500.png",
+      "page": "suru_freegame_0.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1050, 24",
+        "size": "200, 103",
+        "orig": "200, 103",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_6_free",
+      "file": "pieces/cloud-6-free-ea03eb1d.png",
+      "page": "suru_freegame_0.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "681, 0",
+        "size": "367, 127",
+        "orig": "377, 127",
+        "offset": "5, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

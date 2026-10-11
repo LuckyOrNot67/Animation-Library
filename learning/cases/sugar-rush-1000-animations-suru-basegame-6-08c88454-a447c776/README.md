@@ -1,0 +1,22 @@
+# sugar-rush-1000 / suru_basegame_6
+
+Source : bibliotheque/sugar-rush-1000/animations/suru-basegame-6-08c88454. Format spine-json, version 3.7.91.
+
+Droits : user-provided-unverified. Aucun avertissement structurel.
+
+## Lecture du rig
+
+3 os, 3 slots, 3 attachments, 0 meshes.
+
+## Actions
+
+- suru_basegame : 6 s, tags unclassified, 13 clés.
+
+## Fichiers utiles
+
+- Skeleton : bibliotheque/sugar-rush-1000/animations/suru-basegame-6-08c88454/skeleton.json
+- Atlas : bibliotheque/sugar-rush-1000/animations/suru-basegame-6-08c88454/atlas-6773980b.atlas
+- Pièces : bibliotheque/sugar-rush-1000/animations/suru-basegame-6-08c88454/pieces/
+- analysis.json relie attachment → slot → bone et région → page de texture.
+
+Les noms suggèrent une intention ; les tags sont heuristiques, pas une annotation certifiée.

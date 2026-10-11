@@ -1,0 +1,3452 @@
+{
+  "id": "odin-s-vault-animations-bg-basegame-8bf810b5-7f93c5db",
+  "collection": "library",
+  "name": "bg_basegame",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/bg-basegame-8bf810b5",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 72,
+    "slots": 51,
+    "attachments": 42,
+    "meshAttachments": 38,
+    "meshUvPairs": 410,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 2,
+  "textureBudget": {
+    "pixels": 6658353,
+    "rgbaBytesEstimate": 26633412,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 30,
+  "actions": [
+    {
+      "name": "idle",
+      "duration": 5,
+      "keyframes": 739,
+      "curvedKeys": 448,
+      "channels": [
+        {
+          "path": "slots.arch_portal.rgba",
+          "keyframes": 17
+        },
+        {
+          "path": "slots.arch_portal2.rgba",
+          "keyframes": 21
+        },
+        {
+          "path": "slots.ladder_fog.rgba",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.mounts_r_1_fog.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.mounts_r_2_fog.rgba",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.mounts_r_3_fog_1.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.mounts_r_3_fog_2.rgba",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.portal-light-1.rgba",
+          "keyframes": 13
+        },
+        {
+          "path": "slots.portal-light-2.rgba",
+          "keyframes": 13
+        },
+        {
+          "path": "slots.portal-light-3.rgba",
+          "keyframes": 21
+        },
+        {
+          "path": "slots.portal-light-4.rgba",
+          "keyframes": 21
+        },
+        {
+          "path": "slots.portal-paticles.rgba",
+          "keyframes": 25
+        },
+        {
+          "path": "slots.portal-paticles2.rgba",
+          "keyframes": 31
+        },
+        {
+          "path": "slots.portal-paticles3.rgba",
+          "keyframes": 25
+        },
+        {
+          "path": "slots.portal-paticles4.rgba",
+          "keyframes": 31
+        },
+        {
+          "path": "slots.sunbeam_1.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.sunbeam_2.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.sunbeam_3.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.sunbeam_4.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.snow/snow.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.snow/snow2.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.snow2/snow3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.snow2/snow3.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.snow2/snow4.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.arch_portal.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.arch_portal.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.arch_portal.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.arch_portal.shear",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.arch_portal2.rotate",
+          "keyframes": 13
+        },
+        {
+          "path": "bones.arch_portal2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.arch_portal2.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.arch_portal2.shear",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.portal-light-2.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.portal-light-2.scale",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.portal-light-1.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.portal-light-1.scale",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.portal-light-3.rotate",
+          "keyframes": 13
+        },
+        {
+          "path": "bones.portal-light-3.scale",
+          "keyframes": 13
+        },
+        {
+          "path": "bones.portal-light-4.rotate",
+          "keyframes": 13
+        },
+        {
+          "path": "bones.portal-light-4.scale",
+          "keyframes": 13
+        },
+        {
+          "path": "bones.portal-paticles.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.portal-paticles.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.portal-paticles.scale",
+          "keyframes": 13
+        },
+        {
+          "path": "bones.portal-paticles2.rotate",
+          "keyframes": 13
+        },
+        {
+          "path": "bones.portal-paticles2.translate",
+          "keyframes": 13
+        },
+        {
+          "path": "bones.portal-paticles2.scale",
+          "keyframes": 19
+        },
+        {
+          "path": "bones.sunbeam_1.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sunbeam_1.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.sunbeam_1.shear",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sunbeam_2.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.sunbeam_2.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sunbeam_2.shear",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.sunbeam_3.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sunbeam_3.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.sunbeam_3.shear",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.cloud_24.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cloud_23.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cloud_22.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cloud_21.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.cloud_20.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cloud_19.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.cloud_18.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cloud_17.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.cloud_16.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cloud_15.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.cloud_14.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.cloud_13.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cloud_12.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cloud_11.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.cloud_10.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cloud_9.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cloud_8.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cloud_7.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.cloud_6.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cloud_5.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cloud_4.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.cloud_3.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.cloud_2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.cloud_1.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.snow.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.snow2.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.tree_l_big2.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.tree_l_big4.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.tree_l_big3.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.tree_l_small2.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.tree_l_small3.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.tree_r_big2.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.tree_r_big2b.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.tree_r_big3.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.tree_r_big4.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.tree_r_small_2.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.tree_r_small_3.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.tree_r_small_5.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.tree_r_small_6.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.snow3.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.snow4.translate",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "arch_portal",
+        "arch_portal2",
+        "portal-light-2",
+        "portal-light-1",
+        "portal-light-3",
+        "portal-light-4",
+        "portal-paticles",
+        "portal-paticles2",
+        "sunbeam_1",
+        "sunbeam_2",
+        "sunbeam_3",
+        "cloud_24",
+        "cloud_23",
+        "cloud_22",
+        "cloud_21",
+        "cloud_20",
+        "cloud_19",
+        "cloud_18",
+        "cloud_17",
+        "cloud_16",
+        "cloud_15",
+        "cloud_14",
+        "cloud_13",
+        "cloud_12",
+        "cloud_11",
+        "cloud_10",
+        "cloud_9",
+        "cloud_8",
+        "cloud_7",
+        "cloud_6",
+        "cloud_5",
+        "cloud_4",
+        "cloud_3",
+        "cloud_2",
+        "cloud_1",
+        "snow",
+        "snow2",
+        "tree_l_big2",
+        "tree_l_big4",
+        "tree_l_big3",
+        "tree_l_small2",
+        "tree_l_small3",
+        "tree_r_big2",
+        "tree_r_big2b",
+        "tree_r_big3",
+        "tree_r_big4",
+        "tree_r_small_2",
+        "tree_r_small_3",
+        "tree_r_small_5",
+        "tree_r_small_6",
+        "snow3",
+        "snow4"
+      ],
+      "animatedSlots": [
+        "arch_portal",
+        "arch_portal2",
+        "ladder_fog",
+        "mounts_r_1_fog",
+        "mounts_r_2_fog",
+        "mounts_r_3_fog_1",
+        "mounts_r_3_fog_2",
+        "portal-light-1",
+        "portal-light-2",
+        "portal-light-3",
+        "portal-light-4",
+        "portal-paticles",
+        "portal-paticles2",
+        "portal-paticles3",
+        "portal-paticles4",
+        "sunbeam_1",
+        "sunbeam_2",
+        "sunbeam_3",
+        "sunbeam_4",
+        "snow/snow",
+        "snow/snow2",
+        "snow2/snow3",
+        "snow2/snow4"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-bg-basegame-8bf810b5-7f93c5db/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "arch",
+        "parent": "root",
+        "x": -487,
+        "y": 385,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "portal-light-1",
+        "parent": "arch",
+        "x": 19.64,
+        "y": -47.82,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "portal-light-2",
+        "parent": "arch",
+        "x": 19.64,
+        "y": -47.82,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "portal-paticles",
+        "parent": "arch",
+        "x": 19.64,
+        "y": -47.82,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.9179,
+        "scaleY": 0.9179
+      },
+      {
+        "name": "arch_portal",
+        "parent": "arch",
+        "x": 12.6,
+        "y": -48.2,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "arch_portal2",
+        "parent": "arch",
+        "x": 12.6,
+        "y": -48.2,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "portal-light-3",
+        "parent": "arch",
+        "x": 19.64,
+        "y": -47.82,
+        "length": 0,
+        "rotation": 13.74,
+        "scaleX": 1.0454,
+        "scaleY": 0.9435
+      },
+      {
+        "name": "portal-light-4",
+        "parent": "arch",
+        "x": 19.64,
+        "y": -47.82,
+        "length": 0,
+        "rotation": 13.74,
+        "scaleX": 1.0454,
+        "scaleY": 0.9435
+      },
+      {
+        "name": "portal-paticles2",
+        "parent": "arch",
+        "x": 19.64,
+        "y": -47.82,
+        "length": 0,
+        "rotation": 231.3,
+        "scaleX": 1.0708,
+        "scaleY": 0.8732
+      },
+      {
+        "name": "sunbeam",
+        "parent": "root",
+        "x": -187.5,
+        "y": 743,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "sunbeam_1",
+        "parent": "sunbeam",
+        "x": 132.31,
+        "y": 208.83,
+        "length": 338.75,
+        "rotation": -127.46,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "sunbeam_2",
+        "parent": "sunbeam",
+        "x": 207.52,
+        "y": 218.1,
+        "length": 456.73,
+        "rotation": -120.5,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "sunbeam_3",
+        "parent": "sunbeam",
+        "x": 271.39,
+        "y": 231.49,
+        "length": 495.1,
+        "rotation": -114.59,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "sunbeam_4",
+        "parent": "sunbeam",
+        "x": 188.97,
+        "y": 252.1,
+        "length": 588.35,
+        "rotation": -120.52,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "sky_glow",
+        "parent": "root",
+        "x": -3,
+        "y": 871.29,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "fog",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mounts_r_3_fog_2",
+        "parent": "fog",
+        "x": 605,
+        "y": -128,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mounts_r_3_fog_1",
+        "parent": "fog",
+        "x": 170.5,
+        "y": -63,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mounts_r_2_fog",
+        "parent": "fog",
+        "x": 686,
+        "y": -123,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mounts_r_1_fog",
+        "parent": "fog",
+        "x": 797.5,
+        "y": -376.5,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ladder_fog",
+        "parent": "fog",
+        "x": -477,
+        "y": -427,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud",
+        "parent": "root",
+        "x": 0,
+        "y": 609.57,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_8",
+        "parent": "cloud",
+        "x": 150.88,
+        "y": 254.22,
+        "length": 64.64,
+        "rotation": 18.78,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_9",
+        "parent": "cloud",
+        "x": 143.54,
+        "y": 103.68,
+        "length": 81.13,
+        "rotation": -11.31,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_10",
+        "parent": "cloud",
+        "x": 37.05,
+        "y": -67.67,
+        "length": 71.16,
+        "rotation": -49.18,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_11",
+        "parent": "cloud",
+        "x": -79.22,
+        "y": -143.56,
+        "length": 49.34,
+        "rotation": -66.61,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_5",
+        "parent": "cloud",
+        "x": 301.42,
+        "y": 101.23,
+        "length": 94.4,
+        "rotation": -13.5,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_6",
+        "parent": "cloud",
+        "x": 169.24,
+        "y": -81.14,
+        "length": 88.43,
+        "rotation": -48.37,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_7",
+        "parent": "cloud",
+        "x": -21.7,
+        "y": -212.1,
+        "length": 86.15,
+        "rotation": -67.44,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_12",
+        "parent": "cloud",
+        "x": -182.03,
+        "y": -279.42,
+        "length": 68.65,
+        "rotation": -78.69,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_1",
+        "parent": "cloud",
+        "x": 521.44,
+        "y": 295.18,
+        "length": 134.6,
+        "rotation": -1.79,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_2",
+        "parent": "cloud",
+        "x": 483.6,
+        "y": 127,
+        "length": 160.65,
+        "rotation": 6.01,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_3",
+        "parent": "cloud",
+        "x": 500.42,
+        "y": -26.45,
+        "length": 137.94,
+        "rotation": -7.88,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_4",
+        "parent": "cloud",
+        "x": 405.82,
+        "y": -184.11,
+        "length": 106.24,
+        "rotation": -27.07,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_13",
+        "parent": "cloud",
+        "x": 243.96,
+        "y": -253.48,
+        "length": 73.33,
+        "rotation": -62.7,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_14",
+        "parent": "cloud",
+        "x": 90.5,
+        "y": -314.45,
+        "length": 63.83,
+        "rotation": -72.76,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_15",
+        "parent": "cloud",
+        "x": 331.32,
+        "y": 213.17,
+        "length": 141.14,
+        "rotation": 88.6,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_16",
+        "parent": "cloud",
+        "x": 102.46,
+        "y": 294.05,
+        "length": 96.61,
+        "rotation": 85.91,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_17",
+        "parent": "cloud",
+        "x": -212.43,
+        "y": 311.25,
+        "length": 87.83,
+        "rotation": 87.75,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_18",
+        "parent": "cloud",
+        "x": -458.75,
+        "y": 313.4,
+        "length": 116.8,
+        "rotation": 129.29,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_19",
+        "parent": "cloud",
+        "x": -664.2,
+        "y": 198.35,
+        "length": 172.77,
+        "rotation": 154.65,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_20",
+        "parent": "cloud",
+        "x": -801.17,
+        "y": 55.91,
+        "length": 131.52,
+        "rotation": -178.81,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_21",
+        "parent": "cloud",
+        "x": -718.99,
+        "y": -116.67,
+        "length": 113.41,
+        "rotation": -142.85,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_22",
+        "parent": "cloud",
+        "x": -601.2,
+        "y": -212.54,
+        "length": 110.43,
+        "rotation": -119.74,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_23",
+        "parent": "cloud",
+        "x": -494.44,
+        "y": 192.01,
+        "length": 106.71,
+        "rotation": 157.22,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cloud_24",
+        "parent": "cloud",
+        "x": -590.86,
+        "y": 32.63,
+        "length": 126.44,
+        "rotation": -159.03,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "snow_all",
+        "parent": "root",
+        "x": -0.23,
+        "y": -0.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "snow",
+        "parent": "snow_all",
+        "x": 0.23,
+        "y": 0.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 9.2237,
+        "scaleY": 9.2237
+      },
+      {
+        "name": "snow2",
+        "parent": "snow_all",
+        "x": 0.23,
+        "y": 0.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 9.2237,
+        "scaleY": 9.2237
+      },
+      {
+        "name": "tree",
+        "parent": "root",
+        "x": 570.92,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree_r_big",
+        "parent": "tree",
+        "x": 452.86,
+        "y": 16.64,
+        "length": 1127.13,
+        "rotation": 112.28,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree_r_big2",
+        "parent": "tree_r_big",
+        "x": 468.18,
+        "y": 32.19,
+        "length": 269.06,
+        "rotation": 39.03,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree_r_big2b",
+        "parent": "tree_r_big2",
+        "x": 269.06,
+        "y": 0,
+        "length": 269.06,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree_r_big3",
+        "parent": "tree_r_big",
+        "x": 481.88,
+        "y": -66.97,
+        "length": 189.54,
+        "rotation": -35.84,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree_r_big4",
+        "parent": "tree_r_big3",
+        "x": 189.54,
+        "y": 0,
+        "length": 232.32,
+        "rotation": -2.06,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree_r_small_1",
+        "parent": "tree",
+        "x": 453.84,
+        "y": 515.65,
+        "length": 285.23,
+        "rotation": 104.42,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree_r_small_2",
+        "parent": "tree_r_small_1",
+        "x": 285.23,
+        "y": 0,
+        "length": 134.3,
+        "rotation": -4.27,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree_r_small_3",
+        "parent": "tree_r_small_2",
+        "x": 134.3,
+        "y": 0,
+        "length": 115.81,
+        "rotation": 3.65,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree_r_small_4",
+        "parent": "tree",
+        "x": 451.37,
+        "y": -408.18,
+        "length": 412.97,
+        "rotation": 107.72,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree_r_small_5",
+        "parent": "tree_r_small_4",
+        "x": 410.66,
+        "y": -0.38,
+        "length": 217.91,
+        "rotation": -3.23,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree_r_small_6",
+        "parent": "tree_r_small_5",
+        "x": 217.91,
+        "y": 0,
+        "length": 199.26,
+        "rotation": 9.74,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree_l_big",
+        "parent": "tree",
+        "x": -1633.12,
+        "y": 21.68,
+        "length": 1041.56,
+        "rotation": 73.44,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree_l_big2",
+        "parent": "tree_l_big",
+        "x": 831.88,
+        "y": -69.17,
+        "length": 282.52,
+        "rotation": -32.33,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree_l_big3",
+        "parent": "tree_l_big",
+        "x": 452.44,
+        "y": -45.74,
+        "length": 250.12,
+        "rotation": -23.1,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree_l_big4",
+        "parent": "tree_l_big3",
+        "x": 250.12,
+        "y": 0,
+        "length": 256.17,
+        "rotation": -8.09,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree_l_small",
+        "parent": "tree",
+        "x": -1541.86,
+        "y": -112.64,
+        "length": 104.18,
+        "rotation": 80.35,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree_l_small2",
+        "parent": "tree_l_small",
+        "x": 104.18,
+        "y": 0,
+        "length": 107.19,
+        "rotation": -17.92,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree_l_small3",
+        "parent": "tree_l_small2",
+        "x": 107.19,
+        "y": 0,
+        "length": 79.56,
+        "rotation": -3.05,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "snow_all2",
+        "parent": "root",
+        "x": -0.23,
+        "y": -0.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "snow3",
+        "parent": "snow_all2",
+        "x": 242.08,
+        "y": 157.05,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 5.2074,
+        "scaleY": 5.2074
+      },
+      {
+        "name": "snow4",
+        "parent": "snow_all2",
+        "x": 242.08,
+        "y": 157.05,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 5.2074,
+        "scaleY": 5.2074
+      }
+    ],
+    "slots": [
+      {
+        "name": "sky_base",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_9",
+        "bone": "cloud",
+        "setupAttachment": "cloud_9",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_8",
+        "bone": "cloud_11",
+        "setupAttachment": "cloud_8",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_7",
+        "bone": "cloud_24",
+        "setupAttachment": "cloud_7",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_6",
+        "bone": "cloud_22",
+        "setupAttachment": "cloud_6",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_5",
+        "bone": "cloud_12",
+        "setupAttachment": "cloud_5",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "sunbeam_4",
+        "bone": "sunbeam_4",
+        "setupAttachment": "sunbeam_4",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "sunbeam_3",
+        "bone": "sunbeam_3",
+        "setupAttachment": "sunbeam_3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "sunbeam_2",
+        "bone": "sunbeam_2",
+        "setupAttachment": "sunbeam_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "sunbeam_1",
+        "bone": "sunbeam_1",
+        "setupAttachment": "sunbeam_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "sky_glow",
+        "bone": "sky_glow",
+        "setupAttachment": "sky_glow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_2",
+        "bone": "cloud_17",
+        "setupAttachment": "cloud_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_1",
+        "bone": "cloud_14",
+        "setupAttachment": "cloud_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mounts_r_3_base",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mounts_r_3_fog_2",
+        "bone": "mounts_r_3_fog_2",
+        "setupAttachment": "mounts_r_3_fog_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mounts_r_3_fog_1",
+        "bone": "mounts_r_3_fog_1",
+        "setupAttachment": "mounts_r_3_fog_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mounts_r_2_base",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mounts_r_2_fog",
+        "bone": "mounts_r_2_fog",
+        "setupAttachment": "mounts_r_2_fog",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mounts_r_1_base",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mounts_r_1_fog",
+        "bone": "mounts_r_1_fog",
+        "setupAttachment": "mounts_r_1_fog",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mount_l",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "snow2/clip_snow2",
+        "bone": "snow_all2",
+        "setupAttachment": "clip_snow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "snow2/snow3",
+        "bone": "snow3",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "snow2/snow4",
+        "bone": "snow4",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "snow2/end_clip_snow2",
+        "bone": "snow_all2",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "tree_r_small_2",
+        "bone": "tree_r_small_4",
+        "setupAttachment": "tree_r_small_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "tree_r_small_1",
+        "bone": "tree_r_small_1",
+        "setupAttachment": "tree_r_small_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "tree_r_big",
+        "bone": "tree_r_big",
+        "setupAttachment": "tree_r_big",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "tree_l_small",
+        "bone": "tree_l_small",
+        "setupAttachment": "tree_l_small",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "tree_l_big",
+        "bone": "tree_l_big",
+        "setupAttachment": "tree_l_big",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "arch_glow",
+        "bone": "arch",
+        "setupAttachment": "arch_glow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "portal_clip",
+        "bone": "arch",
+        "setupAttachment": "portal_clip",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "arch_portal",
+        "bone": "arch_portal",
+        "setupAttachment": "arch_portal",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "arch_portal2",
+        "bone": "arch_portal2",
+        "setupAttachment": "arch_portal",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "portal_clip_end",
+        "bone": "arch",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "arch",
+        "bone": "arch",
+        "setupAttachment": "arch",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ladder",
+        "bone": "root",
+        "setupAttachment": "ladder",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "portal-light-2",
+        "bone": "portal-light-2",
+        "setupAttachment": "portal-light-2",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "portal-light-3",
+        "bone": "portal-light-3",
+        "setupAttachment": "portal-light-2",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "portal-light-1",
+        "bone": "portal-light-1",
+        "setupAttachment": "portal-light-1",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "portal-light-4",
+        "bone": "portal-light-4",
+        "setupAttachment": "portal-light-1",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "portal-paticles",
+        "bone": "portal-paticles",
+        "setupAttachment": "portal-paticles",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "portal-paticles3",
+        "bone": "portal-paticles",
+        "setupAttachment": "portal-paticles",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "portal-paticles2",
+        "bone": "portal-paticles2",
+        "setupAttachment": "portal-paticles",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "portal-paticles4",
+        "bone": "portal-paticles2",
+        "setupAttachment": "portal-paticles",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ladder_fog",
+        "bone": "ladder_fog",
+        "setupAttachment": "ladder_fog",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "front_snow_1",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "snow/clip_snow",
+        "bone": "snow_all",
+        "setupAttachment": "clip_snow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "snow/snow",
+        "bone": "snow",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "snow/snow2",
+        "bone": "snow2",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "snow/end_clip_snow",
+        "bone": "snow_all",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "arch",
+        "name": "arch",
+        "region": "arch",
+        "type": "mesh",
+        "bone": "arch",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 446,
+          "height": 648
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "arch_glow",
+        "name": "arch_glow",
+        "region": "arch_glow",
+        "type": "mesh",
+        "bone": "arch",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 848,
+          "height": 786
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "arch_portal",
+        "name": "arch_portal",
+        "region": "arch_portal",
+        "type": "mesh",
+        "bone": "arch_portal",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 444,
+          "height": 633
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "arch_portal2",
+        "name": "arch_portal",
+        "region": "arch_portal",
+        "type": "mesh",
+        "bone": "arch_portal2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 444,
+          "height": 633
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_1",
+        "name": "cloud_1",
+        "region": "cloud_1",
+        "type": "mesh",
+        "bone": "cloud_14",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 606,
+          "height": 426
+        },
+        "mesh": {
+          "uvPairs": 41,
+          "vertexNumbers": 433,
+          "triangles": 50,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_2",
+        "name": "cloud_2",
+        "region": "cloud_2",
+        "type": "mesh",
+        "bone": "cloud_17",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 572,
+          "height": 147
+        },
+        "mesh": {
+          "uvPairs": 31,
+          "vertexNumbers": 243,
+          "triangles": 38,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_5",
+        "name": "cloud_5",
+        "region": "cloud_5",
+        "type": "mesh",
+        "bone": "cloud_12",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 492,
+          "height": 300
+        },
+        "mesh": {
+          "uvPairs": 34,
+          "vertexNumbers": 294,
+          "triangles": 41,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_6",
+        "name": "cloud_6",
+        "region": "cloud_6",
+        "type": "mesh",
+        "bone": "cloud_22",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 357,
+          "height": 405
+        },
+        "mesh": {
+          "uvPairs": 39,
+          "vertexNumbers": 351,
+          "triangles": 47,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_7",
+        "name": "cloud_7",
+        "region": "cloud_7",
+        "type": "mesh",
+        "bone": "cloud_24",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 501,
+          "height": 590
+        },
+        "mesh": {
+          "uvPairs": 27,
+          "vertexNumbers": 135,
+          "triangles": 33,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_8",
+        "name": "cloud_8",
+        "region": "cloud_8",
+        "type": "mesh",
+        "bone": "cloud_11",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 404,
+          "height": 498
+        },
+        "mesh": {
+          "uvPairs": 24,
+          "vertexNumbers": 224,
+          "triangles": 29,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_9",
+        "name": "cloud_9",
+        "region": "cloud_9",
+        "type": "mesh",
+        "bone": "cloud",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 292,
+          "height": 269
+        },
+        "mesh": {
+          "uvPairs": 22,
+          "vertexNumbers": 44,
+          "triangles": 26,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ladder",
+        "name": "ladder",
+        "region": "ladder",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1634,
+          "height": 767
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ladder_fog",
+        "name": "ladder_fog",
+        "region": "ladder_fog",
+        "type": "mesh",
+        "bone": "ladder_fog",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 540,
+          "height": 583
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mounts_r_1_fog",
+        "name": "mounts_r_1_fog",
+        "region": "mounts_r_1_fog",
+        "type": "mesh",
+        "bone": "mounts_r_1_fog",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 320,
+          "height": 241
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mounts_r_2_fog",
+        "name": "mounts_r_2_fog",
+        "region": "mounts_r_2_fog",
+        "type": "mesh",
+        "bone": "mounts_r_2_fog",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 332,
+          "height": 472
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mounts_r_3_fog_1",
+        "name": "mounts_r_3_fog_1",
+        "region": "mounts_r_3_fog_1",
+        "type": "mesh",
+        "bone": "mounts_r_3_fog_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 299,
+          "height": 203
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mounts_r_3_fog_2",
+        "name": "mounts_r_3_fog_2",
+        "region": "mounts_r_3_fog_2",
+        "type": "mesh",
+        "bone": "mounts_r_3_fog_2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 276,
+          "height": 237
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "portal-light-1",
+        "name": "portal-light-1",
+        "region": "portal-light-1",
+        "type": "mesh",
+        "bone": "portal-light-1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 687,
+          "height": 578
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "portal-light-2",
+        "name": "portal-light-2",
+        "region": "portal-light-2",
+        "type": "mesh",
+        "bone": "portal-light-2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 611,
+          "height": 578
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "portal-light-3",
+        "name": "portal-light-2",
+        "region": "portal-light-2",
+        "type": "mesh",
+        "bone": "portal-light-3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 611,
+          "height": 578
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "portal-light-4",
+        "name": "portal-light-1",
+        "region": "portal-light-1",
+        "type": "mesh",
+        "bone": "portal-light-4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 687,
+          "height": 578
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "portal-paticles",
+        "name": "portal-paticles",
+        "region": "portal-paticles",
+        "type": "mesh",
+        "bone": "portal-paticles",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 312,
+          "height": 421
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "portal-paticles2",
+        "name": "portal-paticles",
+        "region": "portal-paticles",
+        "type": "mesh",
+        "bone": "portal-paticles2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 312,
+          "height": 421
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "portal-paticles3",
+        "name": "portal-paticles",
+        "region": "portal-paticles",
+        "type": "mesh",
+        "bone": "portal-paticles",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 312,
+          "height": 421
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "portal-paticles4",
+        "name": "portal-paticles",
+        "region": "portal-paticles",
+        "type": "mesh",
+        "bone": "portal-paticles2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 312,
+          "height": 421
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "portal_clip",
+        "name": "portal_clip",
+        "region": "portal_clip",
+        "type": "clipping",
+        "bone": "arch",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "sky_glow",
+        "name": "sky_glow",
+        "region": "sky_glow",
+        "type": "mesh",
+        "bone": "sky_glow",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 446,
+          "height": 290
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "sunbeam_1",
+        "name": "sunbeam_1",
+        "region": "sunbeam_1",
+        "type": "mesh",
+        "bone": "sunbeam_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 130,
+          "height": 164
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "sunbeam_2",
+        "name": "sunbeam_2",
+        "region": "sunbeam_2",
+        "type": "mesh",
+        "bone": "sunbeam_2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 140,
+          "height": 208
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "sunbeam_3",
+        "name": "sunbeam_3",
+        "region": "sunbeam_3",
+        "type": "mesh",
+        "bone": "sunbeam_3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 126,
+          "height": 238
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "sunbeam_4",
+        "name": "sunbeam_4",
+        "region": "sunbeam_4",
+        "type": "mesh",
+        "bone": "sunbeam_4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 261,
+          "height": 251
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "tree_l_big",
+        "name": "tree_l_big",
+        "region": "tree_l_big",
+        "type": "mesh",
+        "bone": "tree_l_big",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 303,
+          "height": 523
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 80,
+          "triangles": 6,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "tree_l_small",
+        "name": "tree_l_small",
+        "region": "tree_l_small",
+        "type": "mesh",
+        "bone": "tree_l_small",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 68,
+          "height": 141
+        },
+        "mesh": {
+          "uvPairs": 9,
+          "vertexNumbers": 69,
+          "triangles": 7,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "tree_r_big",
+        "name": "tree_r_big",
+        "region": "tree_r_big",
+        "type": "mesh",
+        "bone": "tree_r_big",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 382,
+          "height": 629
+        },
+        "mesh": {
+          "uvPairs": 44,
+          "vertexNumbers": 308,
+          "triangles": 42,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "tree_r_small_1",
+        "name": "tree_r_small_1",
+        "region": "tree_r_small_1",
+        "type": "mesh",
+        "bone": "tree_r_small_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 114,
+          "height": 280
+        },
+        "mesh": {
+          "uvPairs": 10,
+          "vertexNumbers": 50,
+          "triangles": 8,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "tree_r_small_2",
+        "name": "tree_r_small_2",
+        "region": "tree_r_small_2",
+        "type": "mesh",
+        "bone": "tree_r_small_4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 168,
+          "height": 421
+        },
+        "mesh": {
+          "uvPairs": 17,
+          "vertexNumbers": 117,
+          "triangles": 15,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "snow/clip_snow",
+        "name": "clip_snow",
+        "region": "clip_snow",
+        "type": "clipping",
+        "bone": "snow_all",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "snow/snow",
+        "name": "snow",
+        "region": "snow",
+        "type": "region",
+        "bone": "snow",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 484,
+          "height": 484
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "snow/snow2",
+        "name": "snow",
+        "region": "snow",
+        "type": "mesh",
+        "bone": "snow2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 484,
+          "height": 484
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "snow2/clip_snow2",
+        "name": "clip_snow",
+        "region": "clip_snow",
+        "type": "clipping",
+        "bone": "snow_all2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "snow2/snow3",
+        "name": "snow",
+        "region": "snow",
+        "type": "mesh",
+        "bone": "snow3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 484,
+          "height": 484
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "snow2/snow4",
+        "name": "snow",
+        "region": "snow",
+        "type": "mesh",
+        "bone": "snow4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 484,
+          "height": 484
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "idle",
+        "duration": 5,
+        "keyframes": 739,
+        "curvedKeys": 448,
+        "channels": [
+          {
+            "path": "slots.arch_portal.rgba",
+            "keyframes": 17
+          },
+          {
+            "path": "slots.arch_portal2.rgba",
+            "keyframes": 21
+          },
+          {
+            "path": "slots.ladder_fog.rgba",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.mounts_r_1_fog.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.mounts_r_2_fog.rgba",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.mounts_r_3_fog_1.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.mounts_r_3_fog_2.rgba",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.portal-light-1.rgba",
+            "keyframes": 13
+          },
+          {
+            "path": "slots.portal-light-2.rgba",
+            "keyframes": 13
+          },
+          {
+            "path": "slots.portal-light-3.rgba",
+            "keyframes": 21
+          },
+          {
+            "path": "slots.portal-light-4.rgba",
+            "keyframes": 21
+          },
+          {
+            "path": "slots.portal-paticles.rgba",
+            "keyframes": 25
+          },
+          {
+            "path": "slots.portal-paticles2.rgba",
+            "keyframes": 31
+          },
+          {
+            "path": "slots.portal-paticles3.rgba",
+            "keyframes": 25
+          },
+          {
+            "path": "slots.portal-paticles4.rgba",
+            "keyframes": 31
+          },
+          {
+            "path": "slots.sunbeam_1.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.sunbeam_2.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.sunbeam_3.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.sunbeam_4.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.snow/snow.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.snow/snow2.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.snow2/snow3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.snow2/snow3.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.snow2/snow4.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.arch_portal.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.arch_portal.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.arch_portal.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.arch_portal.shear",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.arch_portal2.rotate",
+            "keyframes": 13
+          },
+          {
+            "path": "bones.arch_portal2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.arch_portal2.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.arch_portal2.shear",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.portal-light-2.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.portal-light-2.scale",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.portal-light-1.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.portal-light-1.scale",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.portal-light-3.rotate",
+            "keyframes": 13
+          },
+          {
+            "path": "bones.portal-light-3.scale",
+            "keyframes": 13
+          },
+          {
+            "path": "bones.portal-light-4.rotate",
+            "keyframes": 13
+          },
+          {
+            "path": "bones.portal-light-4.scale",
+            "keyframes": 13
+          },
+          {
+            "path": "bones.portal-paticles.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.portal-paticles.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.portal-paticles.scale",
+            "keyframes": 13
+          },
+          {
+            "path": "bones.portal-paticles2.rotate",
+            "keyframes": 13
+          },
+          {
+            "path": "bones.portal-paticles2.translate",
+            "keyframes": 13
+          },
+          {
+            "path": "bones.portal-paticles2.scale",
+            "keyframes": 19
+          },
+          {
+            "path": "bones.sunbeam_1.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sunbeam_1.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.sunbeam_1.shear",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sunbeam_2.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.sunbeam_2.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sunbeam_2.shear",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.sunbeam_3.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sunbeam_3.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.sunbeam_3.shear",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.cloud_24.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cloud_23.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cloud_22.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cloud_21.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.cloud_20.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cloud_19.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.cloud_18.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cloud_17.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.cloud_16.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cloud_15.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.cloud_14.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.cloud_13.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cloud_12.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cloud_11.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.cloud_10.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cloud_9.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cloud_8.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cloud_7.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.cloud_6.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cloud_5.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cloud_4.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.cloud_3.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.cloud_2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.cloud_1.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.snow.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.snow2.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.tree_l_big2.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.tree_l_big4.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.tree_l_big3.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.tree_l_small2.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.tree_l_small3.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.tree_r_big2.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.tree_r_big2b.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.tree_r_big3.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.tree_r_big4.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.tree_r_small_2.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.tree_r_small_3.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.tree_r_small_5.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.tree_r_small_6.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.snow3.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.snow4.translate",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "arch_portal",
+          "arch_portal2",
+          "portal-light-2",
+          "portal-light-1",
+          "portal-light-3",
+          "portal-light-4",
+          "portal-paticles",
+          "portal-paticles2",
+          "sunbeam_1",
+          "sunbeam_2",
+          "sunbeam_3",
+          "cloud_24",
+          "cloud_23",
+          "cloud_22",
+          "cloud_21",
+          "cloud_20",
+          "cloud_19",
+          "cloud_18",
+          "cloud_17",
+          "cloud_16",
+          "cloud_15",
+          "cloud_14",
+          "cloud_13",
+          "cloud_12",
+          "cloud_11",
+          "cloud_10",
+          "cloud_9",
+          "cloud_8",
+          "cloud_7",
+          "cloud_6",
+          "cloud_5",
+          "cloud_4",
+          "cloud_3",
+          "cloud_2",
+          "cloud_1",
+          "snow",
+          "snow2",
+          "tree_l_big2",
+          "tree_l_big4",
+          "tree_l_big3",
+          "tree_l_small2",
+          "tree_l_small3",
+          "tree_r_big2",
+          "tree_r_big2b",
+          "tree_r_big3",
+          "tree_r_big4",
+          "tree_r_small_2",
+          "tree_r_small_3",
+          "tree_r_small_5",
+          "tree_r_small_6",
+          "snow3",
+          "snow4"
+        ],
+        "animatedSlots": [
+          "arch_portal",
+          "arch_portal2",
+          "ladder_fog",
+          "mounts_r_1_fog",
+          "mounts_r_2_fog",
+          "mounts_r_3_fog_1",
+          "mounts_r_3_fog_2",
+          "portal-light-1",
+          "portal-light-2",
+          "portal-light-3",
+          "portal-light-4",
+          "portal-paticles",
+          "portal-paticles2",
+          "portal-paticles3",
+          "portal-paticles4",
+          "sunbeam_1",
+          "sunbeam_2",
+          "sunbeam_3",
+          "sunbeam_4",
+          "snow/snow",
+          "snow/snow2",
+          "snow2/snow3",
+          "snow2/snow4"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 72,
+      "slots": 51,
+      "attachments": 42,
+      "meshAttachments": 38,
+      "meshUvPairs": 410,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "arch",
+      "file": "pieces/arch-44f7ea4d.png",
+      "page": "bg_basegame.webp",
+      "properties": {
+        "bounds": "2,2,446,648",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "arch_glow",
+      "file": "pieces/arch-glow-34ba95cd.png",
+      "page": "bg_basegame.webp",
+      "properties": {
+        "bounds": "2,450,848,786"
+      }
+    },
+    {
+      "region": "arch_portal",
+      "file": "pieces/arch-portal-e9fe8446.png",
+      "page": "bg_basegame.webp",
+      "properties": {
+        "bounds": "852,212,444,633",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cloud_1",
+      "file": "pieces/cloud-1-052c0bda.png",
+      "page": "bg_basegame.webp",
+      "properties": {
+        "bounds": "1541,630,606,426",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cloud_2",
+      "file": "pieces/cloud-2-6ca18ac8.png",
+      "page": "bg_basegame.webp",
+      "properties": {
+        "bounds": "822,63,572,147"
+      }
+    },
+    {
+      "region": "cloud_7",
+      "file": "pieces/cloud-7-c3a64e01.png",
+      "page": "bg_basegame.webp",
+      "properties": {
+        "bounds": "1487,38,501,590"
+      }
+    },
+    {
+      "region": "ladder",
+      "file": "pieces/ladder-3c54a1ee.png",
+      "page": "bg_basegame.webp",
+      "properties": {
+        "bounds": "2,1238,1634,767"
+      }
+    },
+    {
+      "region": "portal-light-1",
+      "file": "pieces/portal-light-1-9c6b67fe.png",
+      "page": "bg_basegame.webp",
+      "properties": {
+        "bounds": "852,658,687,578"
+      }
+    },
+    {
+      "region": "tree_l_small",
+      "file": "pieces/tree-l-small-2ccfc458.png",
+      "page": "bg_basegame.webp",
+      "properties": {
+        "bounds": "1396,69,68,141"
+      }
+    },
+    {
+      "region": "tree_r_big",
+      "file": "pieces/tree-r-big-d8d69354.png",
+      "page": "bg_basegame.webp",
+      "properties": {
+        "bounds": "1638,1376,382,629"
+      }
+    },
+    {
+      "region": "tree_r_small_1",
+      "file": "pieces/tree-r-small-1-1d06449f.png",
+      "page": "bg_basegame.webp",
+      "properties": {
+        "bounds": "1638,1260,114,280",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "tree_r_small_2",
+      "file": "pieces/tree-r-small-2-a550e189.png",
+      "page": "bg_basegame.webp",
+      "properties": {
+        "bounds": "652,27,168,421"
+      }
+    },
+    {
+      "region": "cloud_5",
+      "file": "pieces/cloud-5-fe54bcb1.png",
+      "page": "bg_basegame_2.webp",
+      "properties": {
+        "bounds": "849,361,492,300",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cloud_6",
+      "file": "pieces/cloud-6-279814e6.png",
+      "page": "bg_basegame_2.webp",
+      "properties": {
+        "bounds": "849,2,357,405",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cloud_8",
+      "file": "pieces/cloud-8-2462737b.png",
+      "page": "bg_basegame_2.webp",
+      "properties": {
+        "bounds": "1101,935,404,498",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cloud_9",
+      "file": "pieces/cloud-9-c03e4427.png",
+      "page": "bg_basegame_2.webp",
+      "properties": {
+        "bounds": "1151,372,292,269"
+      }
+    },
+    {
+      "region": "ladder_fog",
+      "file": "pieces/ladder-fog-09d9cac2.png",
+      "page": "bg_basegame_2.webp",
+      "properties": {
+        "bounds": "2,176,540,583"
+      }
+    },
+    {
+      "region": "mounts_r_1_fog",
+      "file": "pieces/mounts-r-1-fog-36d6a1de.png",
+      "page": "bg_basegame_2.webp",
+      "properties": {
+        "bounds": "1599,624,320,241"
+      }
+    },
+    {
+      "region": "mounts_r_2_fog",
+      "file": "pieces/mounts-r-2-fog-8692cf38.png",
+      "page": "bg_basegame_2.webp",
+      "properties": {
+        "bounds": "1601,867,332,472"
+      }
+    },
+    {
+      "region": "mounts_r_3_fog_1",
+      "file": "pieces/mounts-r-3-fog-1-3984b9f8.png",
+      "page": "bg_basegame_2.webp",
+      "properties": {
+        "bounds": "544,31,299,203"
+      }
+    },
+    {
+      "region": "mounts_r_3_fog_2",
+      "file": "pieces/mounts-r-3-fog-2-88669f78.png",
+      "page": "bg_basegame_2.webp",
+      "properties": {
+        "bounds": "1398,71,276,237"
+      }
+    },
+    {
+      "region": "portal-light-2",
+      "file": "pieces/portal-light-2-7144a859.png",
+      "page": "bg_basegame_2.webp",
+      "properties": {
+        "bounds": "2,761,611,578"
+      }
+    },
+    {
+      "region": "portal-paticles",
+      "file": "pieces/portal-paticles-7172571b.png",
+      "page": "bg_basegame_2.webp",
+      "properties": {
+        "bounds": "1445,310,312,421",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sky_glow",
+      "file": "pieces/sky-glow-a3db3485.png",
+      "page": "bg_basegame_2.webp",
+      "properties": {
+        "bounds": "1151,643,446,290"
+      }
+    },
+    {
+      "region": "snow",
+      "file": "pieces/snow-a7d2fbc0.png",
+      "page": "bg_basegame_2.webp",
+      "properties": {
+        "bounds": "615,855,484,484"
+      }
+    },
+    {
+      "region": "sunbeam_1",
+      "file": "pieces/sunbeam-1-ef2e1337.png",
+      "page": "bg_basegame_2.webp",
+      "properties": {
+        "bounds": "242,44,130,164",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sunbeam_2",
+      "file": "pieces/sunbeam-2-2c6bea49.png",
+      "page": "bg_basegame_2.webp",
+      "properties": {
+        "bounds": "1256,162,140,208"
+      }
+    },
+    {
+      "region": "sunbeam_3",
+      "file": "pieces/sunbeam-3-0a0996d6.png",
+      "page": "bg_basegame_2.webp",
+      "properties": {
+        "bounds": "2,48,126,238",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sunbeam_4",
+      "file": "pieces/sunbeam-4-c51edaa7.png",
+      "page": "bg_basegame_2.webp",
+      "properties": {
+        "bounds": "1676,57,261,251"
+      }
+    },
+    {
+      "region": "tree_l_big",
+      "file": "pieces/tree-l-big-6bb25ab0.png",
+      "page": "bg_basegame_2.webp",
+      "properties": {
+        "bounds": "544,236,303,523"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

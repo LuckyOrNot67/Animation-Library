@@ -1,25 +1,59 @@
-# Animation Library
+# Animation Library — références Spine pour Claude Code
 
-Bibliothèque locale de références visuelles, organisée par machine puis par personnage ou effet animé. Dépose des captures déjà réalisées : ce projet ne navigue pas sur les sites et ne scrape pas automatiquement.
+Bibliothèque de références pour créer des animations originales de slots/casino par code, sans l’éditeur graphique Spine. Le projet importe des exports depuis GitHub ou des captures HAR, analyse les rigs et les textures, indexe les actions pour Claude et propose un viewer. Ce n’est pas un modèle entraîné ni une garantie de qualité studio.
 
-## Démarrage
+## Préparer le corpus pour Claude
 
-Node.js 20 ou plus récent.
+Node.js 20 ou plus récent. Sur Mac/Linux :
 
 ```bash
+git pull
 npm ci
-# Déposer reception/gatorhunters2.har (ou des fichiers dans reception/Sugar Rush/)
-npm run build
+npm run prepare:claude
 npm start
 ```
 
-Ouvre http://127.0.0.1:4173 : la page principale explique le workflow. L’onglet Bibliothèque permet de filtrer les machines, rechercher un personnage/action, lire les animations Spine et examiner les pièces PNG et les fichiers sources.
+Sur Windows / PowerShell :
+
+```powershell
+git pull
+npm.cmd ci
+npm.cmd run prepare:claude
+npm.cmd start
+```
+
+Ouvre http://127.0.0.1:4173. L’onglet **Sources GitHub / Claude** présente les dépôts ; la Bibliothèque réunit tes machines, les références importées et les exemples originaux.
+
+`prepare:claude` importe la sélection initiale : tous les exports des exemples officiels et de rigc ; exemples Spine Animation AI ; 30 dossiers d’atlas Arknights et 10 Langrisser ; guides/licences des sources accessibles ; trois exemples originaux ; puis l’analyse. Les collections communautaires restent des références à droits non vérifiés et ne sont pas un kit commercial.
+
+Les fichiers téléchargés restent dans `.local/references/`, exclus de Git : la commande les reconstruit depuis les commits figés et vérifie leurs empreintes. Le dépôt contient les outils, les liens, les analyses de tes références existantes et les exemples originaux. Donner le dépôt à Claude n’importe pas automatiquement toutes les sources et n’entraîne pas un modèle ; Claude doit lancer la préparation ou lire une sélection d’analyses.
+
+Lire **[CLAUDE.md](CLAUDE.md)** puis **[docs/GUIDE-CLAUDE.md](docs/GUIDE-CLAUDE.md)**. Tous les dépôts sont liés dans **[sources/README.md](sources/README.md)** avec leur rôle et leurs restrictions.
+
+## Explorer et enrichir
 
 ```bash
-npm run build -- --machine "Sugar Rush"  # reconstruire uniquement cette machine
-npm test                               # tests de tri et reconstruction
-npm run check                          # validation de syntaxe
+npm run sources:list
+npm run sources:fetch                              # exemples officiels + rigc
+npm run sources:fetch -- --guides-only              # guides figés de toutes les sources accessibles
+npm run sources:fetch -- --source ID --bundles 100 --max-mb 512
+npm run learn
+npm run reference:search -- anticipation
+npm run reference:search -- win
+npm run create:demo
+npm test
+npm run check
 ```
+
+`--bundles` limite le nombre de **dossiers contenant des atlas**, pas le nombre d’actions. `--bundles 0` importe tous les dossiers du périmètre de la source. Le budget `--max-mb` est par source ; un dépassement refuse l’import avant téléchargement. Un arbre GitHub tronqué ou un blob incorrect est refusé. Un pointeur Git LFS nécessite les vraies données.
+
+**Pas de promesse de 500 000 animations** : les inventories mesurent les fichiers, les index les packages/actions analysés et les doublons exacts. Les SKEL binaires sont conservés mais leurs timelines ne sont pas décodées. Des milliers de variantes/forks ne valent pas des milliers de techniques différentes.
+
+## Création sans éditeur
+
+`npm run create:demo` dessine ses propres textures, construit atlas et JSON Spine 4.2, puis écrit trois rigs de casino : pièce, Wild et gemme. Chaque rig a idle, anticipation, spin, win et exit. Leur générateur **[src/create-demo.js](src/create-demo.js)** est modifiable par Claude ; il constitue une démonstration technique, pas un kit visuel de studio.
+
+Les images téléchargées et le runtime ont leurs propres licences, même si tu ne passes pas par l’éditeur. La production doit utiliser des graphismes originaux ou autorisés. Les références et leurs restrictions restent identifiables par source/commit/empreinte.
 
 ## Déposer un HAR (workflow principal)
 
@@ -96,7 +130,7 @@ Les pièces restaurent les offsets et rotations courants des atlas. Ce sont des 
 
 ## Pour une IA
 
-Commence par [docs/POUR-IA.md](docs/POUR-IA.md), puis catalogue.json et metadata.json. Les exports fournissent les données d’animation, **pas le code source original du jeu ni le projet éditable .spine**. Les os, keyframes, courbes, contraintes et meshes permettent d’étudier la construction de l’animation.
+Commence par CLAUDE.md et docs/GUIDE-CLAUDE.md. Pour lire les captures existantes : [docs/POUR-IA.md](docs/POUR-IA.md), puis catalogue.json et metadata.json. Les exports fournissent les données d’animation, **pas le code source original du jeu ni le projet éditable .spine**. Les os, keyframes, courbes, contraintes et meshes permettent d’étudier la construction de l’animation.
 
 ## Préparer GitHub
 

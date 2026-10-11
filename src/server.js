@@ -21,19 +21,54 @@ http
       let base, relative;
       if (url.pathname === "/api/catalog") {
         res.setHeader("Content-Type", "application/json");
+        const catalogs = [];
+        for (const [file, assetBase] of [
+          ["bibliotheque/catalogue.json", "/assets/"],
+          [
+            ".local/references/bibliotheque/catalogue.json",
+            "/reference-assets/",
+          ],
+        ]) {
+          try {
+            const c = JSON.parse(
+              await fs.readFile(path.join(PROJECT_DIR, file), "utf8"),
+            );
+            catalogs.push({
+              ...c,
+              packages: c.packages.map((p) => ({ ...p, assetBase })),
+            });
+          } catch (e) {
+            if (e.code !== "ENOENT") throw e;
+          }
+        }
+        res.end(
+          JSON.stringify({
+            machines: catalogs.flatMap((c) => c.machines),
+            packages: catalogs.flatMap((c) => c.packages),
+          }),
+        );
+        return;
+      }
+      if (url.pathname === "/api/sources" || url.pathname === "/api/learning") {
+        res.setHeader("Content-Type", "application/json");
+        const file =
+          url.pathname === "/api/sources"
+            ? "sources/catalogue.json"
+            : "learning/index.json";
         try {
-          res.end(
-            await fs.readFile(
-              path.join(PROJECT_DIR, "bibliotheque/catalogue.json"),
-            ),
-          );
+          res.end(await fs.readFile(path.join(PROJECT_DIR, file)));
         } catch (e) {
           if (e.code !== "ENOENT") throw e;
-          res.end(JSON.stringify({ machines: [], packages: [] }));
+          res.end(JSON.stringify({ sources: [], cases: [], counts: {} }));
         }
         return;
       }
-      if (url.pathname.startsWith("/assets/")) {
+      if (url.pathname.startsWith("/reference-assets/")) {
+        base = path.join(PROJECT_DIR, ".local/references/bibliotheque");
+        relative = decodeURIComponent(
+          url.pathname.slice("/reference-assets/".length),
+        );
+      } else if (url.pathname.startsWith("/assets/")) {
         base = path.join(PROJECT_DIR, "bibliotheque");
         relative = decodeURIComponent(url.pathname.slice(8));
       } else {

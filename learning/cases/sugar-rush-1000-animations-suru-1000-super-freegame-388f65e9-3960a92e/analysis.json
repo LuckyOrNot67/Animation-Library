@@ -1,0 +1,6922 @@
+{
+  "id": "sugar-rush-1000-animations-suru-1000-super-freegame-388f65e9-3960a92e",
+  "collection": "library",
+  "name": "suru_1000_super_freegame",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-1000-super-freegame-388f65e9",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 5,
+    "slots": 58,
+    "attachments": 167,
+    "meshAttachments": 24,
+    "meshUvPairs": 125,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 4072992,
+    "rgbaBytesEstimate": 16291968,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 108,
+  "actions": [
+    {
+      "name": "suru_1000_super_freegame_ol",
+      "duration": 6,
+      "keyframes": 385,
+      "curvedKeys": 284,
+      "channels": [
+        {
+          "path": "slots.background_candy_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.background_candy_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.background_new.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.choco_drop.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.choco_drop.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.chocolate.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.chocolate_shadow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.cloud_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.cloud_2_new.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.cloud_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.cloud_4.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.cloud_6_new.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.cloud_10.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.cloud_11.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.forground_new.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.forground_new2.color",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.forground_new2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.fx_5_00010.color",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.jar_glass4.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.jar_top_sugar.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.rivets_s6.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.window2.color",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.window4.color",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.windowbutton2.color",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.windowbutton4.color",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.fan_left.rotate",
+          "keyframes": 13
+        },
+        {
+          "path": "bones.fan_left2.rotate",
+          "keyframes": 13
+        },
+        {
+          "path": "deform.default.candy_17.candy_16",
+          "keyframes": 16
+        },
+        {
+          "path": "deform.default.candy_18.candy_15",
+          "keyframes": 15
+        },
+        {
+          "path": "deform.default.candy_19.candy_14",
+          "keyframes": 20
+        },
+        {
+          "path": "deform.default.candy_20.candy_13",
+          "keyframes": 13
+        },
+        {
+          "path": "deform.default.candy_21.candy_12",
+          "keyframes": 12
+        },
+        {
+          "path": "deform.default.candy_22.candy_11",
+          "keyframes": 17
+        },
+        {
+          "path": "deform.default.candy_23.candy_10",
+          "keyframes": 10
+        },
+        {
+          "path": "deform.default.candy_24.candy_9",
+          "keyframes": 23
+        },
+        {
+          "path": "deform.default.candy_25.candy_8",
+          "keyframes": 22
+        },
+        {
+          "path": "deform.default.candy_26.candy_7",
+          "keyframes": 21
+        },
+        {
+          "path": "deform.default.candy_27.candy_6",
+          "keyframes": 19
+        },
+        {
+          "path": "deform.default.candy_28.candy_5",
+          "keyframes": 19
+        },
+        {
+          "path": "deform.default.candy_29.candy_4",
+          "keyframes": 18
+        },
+        {
+          "path": "deform.default.candy_30.candy_3",
+          "keyframes": 17
+        },
+        {
+          "path": "deform.default.candy_31.candy_2",
+          "keyframes": 15
+        },
+        {
+          "path": "deform.default.candy_32.candy_1",
+          "keyframes": 15
+        },
+        {
+          "path": "deform.default.choco_drop.choco_drop",
+          "keyframes": 5
+        },
+        {
+          "path": "deform.default.chocolate.chocolate",
+          "keyframes": 6
+        },
+        {
+          "path": "deform.default.cloud_1.cloud_1",
+          "keyframes": 3
+        },
+        {
+          "path": "deform.default.cloud_2_new.cloud_2_new",
+          "keyframes": 3
+        },
+        {
+          "path": "deform.default.cloud_6_new.cloud_6_new",
+          "keyframes": 3
+        },
+        {
+          "path": "deform.default.cloud_10.cloud_10",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.cloud_11.cloud_11",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "fan_left",
+        "fan_left2"
+      ],
+      "animatedSlots": [
+        "background_candy_1",
+        "background_candy_2",
+        "background_new",
+        "choco_drop",
+        "chocolate",
+        "chocolate_shadow",
+        "cloud_1",
+        "cloud_2_new",
+        "cloud_3",
+        "cloud_4",
+        "cloud_6_new",
+        "cloud_10",
+        "cloud_11",
+        "forground_new",
+        "forground_new2",
+        "fx_5_00010",
+        "jar_glass4",
+        "jar_top_sugar",
+        "rivets_s6",
+        "window2",
+        "window4",
+        "windowbutton2",
+        "windowbutton4"
+      ],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "suru_1000_super_freegame_ul",
+      "duration": 6,
+      "keyframes": 641,
+      "curvedKeys": 284,
+      "channels": [
+        {
+          "path": "slots.candy_17.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.candy_18.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.candy_19.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.candy_20.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.candy_21.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.candy_22.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.candy_23.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.candy_24.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.candy_25.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.candy_26.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.candy_27.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.candy_28.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.candy_29.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.candy_30.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.candy_31.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.candy_32.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.choco_drop.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.fan_fame.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.fan_fame2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.fan_fame_q.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.fan_fame_q2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.fan_wings.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.fan_wings2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.forground_new2.color",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.fx_1_00010.attachment",
+          "keyframes": 42
+        },
+        {
+          "path": "slots.fx_1_10.attachment",
+          "keyframes": 42
+        },
+        {
+          "path": "slots.fx_4_00002.attachment",
+          "keyframes": 56
+        },
+        {
+          "path": "slots.fx_4_2.attachment",
+          "keyframes": 56
+        },
+        {
+          "path": "slots.fx_5_00010.color",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.fx_5_00010.attachment",
+          "keyframes": 42
+        },
+        {
+          "path": "slots.jar_glass3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.jar_glass4.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.jar_glass4.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.jar_top_candy2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.left_frame_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.right_frame.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.window.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.window2.color",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.window2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.window3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.window4.color",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.window4.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.windowbutton.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.windowbutton2.color",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.windowbutton2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.windowbutton3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.windowbutton4.color",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.windowbutton4.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.fan_left.rotate",
+          "keyframes": 13
+        },
+        {
+          "path": "bones.fan_left2.rotate",
+          "keyframes": 13
+        },
+        {
+          "path": "deform.default.candy_17.candy_16",
+          "keyframes": 16
+        },
+        {
+          "path": "deform.default.candy_18.candy_15",
+          "keyframes": 15
+        },
+        {
+          "path": "deform.default.candy_19.candy_14",
+          "keyframes": 20
+        },
+        {
+          "path": "deform.default.candy_20.candy_13",
+          "keyframes": 13
+        },
+        {
+          "path": "deform.default.candy_21.candy_12",
+          "keyframes": 12
+        },
+        {
+          "path": "deform.default.candy_22.candy_11",
+          "keyframes": 17
+        },
+        {
+          "path": "deform.default.candy_23.candy_10",
+          "keyframes": 10
+        },
+        {
+          "path": "deform.default.candy_24.candy_9",
+          "keyframes": 23
+        },
+        {
+          "path": "deform.default.candy_25.candy_8",
+          "keyframes": 22
+        },
+        {
+          "path": "deform.default.candy_26.candy_7",
+          "keyframes": 21
+        },
+        {
+          "path": "deform.default.candy_27.candy_6",
+          "keyframes": 19
+        },
+        {
+          "path": "deform.default.candy_28.candy_5",
+          "keyframes": 19
+        },
+        {
+          "path": "deform.default.candy_29.candy_4",
+          "keyframes": 18
+        },
+        {
+          "path": "deform.default.candy_30.candy_3",
+          "keyframes": 17
+        },
+        {
+          "path": "deform.default.candy_31.candy_2",
+          "keyframes": 15
+        },
+        {
+          "path": "deform.default.candy_32.candy_1",
+          "keyframes": 15
+        },
+        {
+          "path": "deform.default.choco_drop.choco_drop",
+          "keyframes": 5
+        },
+        {
+          "path": "deform.default.chocolate.chocolate",
+          "keyframes": 6
+        },
+        {
+          "path": "deform.default.cloud_1.cloud_1",
+          "keyframes": 3
+        },
+        {
+          "path": "deform.default.cloud_2_new.cloud_2_new",
+          "keyframes": 3
+        },
+        {
+          "path": "deform.default.cloud_6_new.cloud_6_new",
+          "keyframes": 3
+        },
+        {
+          "path": "deform.default.cloud_10.cloud_10",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.cloud_11.cloud_11",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "fan_left",
+        "fan_left2"
+      ],
+      "animatedSlots": [
+        "candy_17",
+        "candy_18",
+        "candy_19",
+        "candy_20",
+        "candy_21",
+        "candy_22",
+        "candy_23",
+        "candy_24",
+        "candy_25",
+        "candy_26",
+        "candy_27",
+        "candy_28",
+        "candy_29",
+        "candy_30",
+        "candy_31",
+        "candy_32",
+        "choco_drop",
+        "fan_fame",
+        "fan_fame2",
+        "fan_fame_q",
+        "fan_fame_q2",
+        "fan_wings",
+        "fan_wings2",
+        "forground_new2",
+        "fx_1_00010",
+        "fx_1_10",
+        "fx_4_00002",
+        "fx_4_2",
+        "fx_5_00010",
+        "jar_glass3",
+        "jar_glass4",
+        "jar_top_candy2",
+        "left_frame_2",
+        "right_frame",
+        "window",
+        "window2",
+        "window3",
+        "window4",
+        "windowbutton",
+        "windowbutton2",
+        "windowbutton3",
+        "windowbutton4"
+      ],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-1000-super-freegame-388f65e9-3960a92e/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "left_frame",
+        "parent": "root",
+        "x": -619.2,
+        "y": 17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "fan_left",
+        "parent": "left_frame",
+        "x": -47.49,
+        "y": -363.64,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "right_frame",
+        "parent": "root",
+        "x": 592.99,
+        "y": 17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      },
+      {
+        "name": "fan_left2",
+        "parent": "right_frame",
+        "x": -47.49,
+        "y": -363.64,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "background_new",
+        "bone": "root",
+        "setupAttachment": "background_new",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_6_new",
+        "bone": "root",
+        "setupAttachment": "cloud_6_new",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_4",
+        "bone": "root",
+        "setupAttachment": "cloud_4",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_3",
+        "bone": "root",
+        "setupAttachment": "cloud_3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_2_new",
+        "bone": "root",
+        "setupAttachment": "cloud_2_new",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_1",
+        "bone": "root",
+        "setupAttachment": "cloud_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "background_candy_2",
+        "bone": "root",
+        "setupAttachment": "background_candy_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "chocolate_shadow",
+        "bone": "root",
+        "setupAttachment": "chocolate_shadow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "chocolate",
+        "bone": "root",
+        "setupAttachment": "chocolate",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "choco_drop",
+        "bone": "root",
+        "setupAttachment": "choco_drop",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "background_candy_1",
+        "bone": "root",
+        "setupAttachment": "background_candy_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "forground_new",
+        "bone": "root",
+        "setupAttachment": "forground_new",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "forground_new2",
+        "bone": "root",
+        "setupAttachment": "forground_new",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "left_frame_2",
+        "bone": "right_frame",
+        "setupAttachment": "left_frame_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_17",
+        "bone": "right_frame",
+        "setupAttachment": "candy_16",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_18",
+        "bone": "right_frame",
+        "setupAttachment": "candy_15",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_19",
+        "bone": "right_frame",
+        "setupAttachment": "candy_14",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_20",
+        "bone": "right_frame",
+        "setupAttachment": "candy_13",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_21",
+        "bone": "right_frame",
+        "setupAttachment": "candy_12",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_22",
+        "bone": "right_frame",
+        "setupAttachment": "candy_11",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_23",
+        "bone": "right_frame",
+        "setupAttachment": "candy_10",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_24",
+        "bone": "right_frame",
+        "setupAttachment": "candy_9",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_25",
+        "bone": "right_frame",
+        "setupAttachment": "candy_8",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_26",
+        "bone": "right_frame",
+        "setupAttachment": "candy_7",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_27",
+        "bone": "right_frame",
+        "setupAttachment": "candy_6",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_28",
+        "bone": "right_frame",
+        "setupAttachment": "candy_5",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_29",
+        "bone": "right_frame",
+        "setupAttachment": "candy_4",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_30",
+        "bone": "right_frame",
+        "setupAttachment": "candy_3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_31",
+        "bone": "right_frame",
+        "setupAttachment": "candy_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_32",
+        "bone": "right_frame",
+        "setupAttachment": "candy_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "right_frame",
+        "bone": "right_frame",
+        "setupAttachment": "left_frame",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "jar_glass3",
+        "bone": "right_frame",
+        "setupAttachment": "jar_glass",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "jar_glass4",
+        "bone": "right_frame",
+        "setupAttachment": "jar_glass",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "rivets_s6",
+        "bone": "right_frame",
+        "setupAttachment": "rivets_s",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "windowbutton",
+        "bone": "left_frame",
+        "setupAttachment": "windowbutton",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "windowbutton3",
+        "bone": "right_frame",
+        "setupAttachment": "windowbutton",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "windowbutton2",
+        "bone": "left_frame",
+        "setupAttachment": "windowbutton",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "windowbutton4",
+        "bone": "right_frame",
+        "setupAttachment": "windowbutton",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "window",
+        "bone": "left_frame",
+        "setupAttachment": "window",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "window3",
+        "bone": "right_frame",
+        "setupAttachment": "window",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "window2",
+        "bone": "left_frame",
+        "setupAttachment": "window",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "window4",
+        "bone": "right_frame",
+        "setupAttachment": "window",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "fan_fame_q",
+        "bone": "left_frame",
+        "setupAttachment": "fan_fame_q",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "fan_fame_q2",
+        "bone": "right_frame",
+        "setupAttachment": "fan_fame_q",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "fan_wings",
+        "bone": "fan_left",
+        "setupAttachment": "fan_wings",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "fan_wings2",
+        "bone": "fan_left2",
+        "setupAttachment": "fan_wings",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "fan_fame",
+        "bone": "left_frame",
+        "setupAttachment": "fan_fame",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "fan_fame2",
+        "bone": "right_frame",
+        "setupAttachment": "fan_fame",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "jar_top_candy2",
+        "bone": "right_frame",
+        "setupAttachment": "jar_top_candy",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "jar_top_sugar",
+        "bone": "left_frame",
+        "setupAttachment": "jar_top_sugar",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "jar_top_sugar2",
+        "bone": "right_frame",
+        "setupAttachment": "jar_top_sugar",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_10",
+        "bone": "root",
+        "setupAttachment": "cloud_10",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_11",
+        "bone": "root",
+        "setupAttachment": "cloud_11",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "fx_1_00010",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "fx_1_10",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffb9"
+      },
+      {
+        "name": "fx_4_00002",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "fx_4_2",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffff3b"
+      },
+      {
+        "name": "fx_5_00010",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "background_candy_1",
+        "name": "background_candy_1",
+        "region": "background_candy_1",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 81,
+          "y": -419,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 120,
+          "height": 118
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "background_candy_2",
+        "name": "background_candy_2",
+        "region": "background_candy_2",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 21,
+          "height": 30
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "background_new",
+        "name": "background_new",
+        "region": "background_new",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -14,
+          "y": -10,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2500,
+          "height": 999
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_17",
+        "name": "candy_16",
+        "region": "candy_16",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 45,
+          "height": 25
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_18",
+        "name": "candy_15",
+        "region": "candy_15",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 38,
+          "height": 38
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_19",
+        "name": "candy_14",
+        "region": "candy_14",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 34,
+          "height": 35
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_20",
+        "name": "candy_13",
+        "region": "candy_13",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 30,
+          "height": 29
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_21",
+        "name": "candy_12",
+        "region": "candy_12",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 36,
+          "height": 35
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_22",
+        "name": "candy_11",
+        "region": "candy_11",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 49,
+          "height": 40
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_23",
+        "name": "candy_10",
+        "region": "candy_10",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 46,
+          "height": 42
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_24",
+        "name": "candy_9",
+        "region": "candy_9",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 32,
+          "height": 32
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_25",
+        "name": "candy_8",
+        "region": "candy_8",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 34,
+          "height": 35
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_26",
+        "name": "candy_7",
+        "region": "candy_7",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 38,
+          "height": 38
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_27",
+        "name": "candy_6",
+        "region": "candy_6",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 32,
+          "height": 32
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_28",
+        "name": "candy_5",
+        "region": "candy_5",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 31,
+          "height": 31
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_29",
+        "name": "candy_4",
+        "region": "candy_4",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 37,
+          "height": 38
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_30",
+        "name": "candy_3",
+        "region": "candy_3",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 39
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_31",
+        "name": "candy_2",
+        "region": "candy_2",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 39,
+          "height": 40
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_32",
+        "name": "candy_1",
+        "region": "candy_1",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 46,
+          "height": 46
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "choco_drop",
+        "name": "choco_drop",
+        "region": "choco_drop",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 15,
+          "height": 54
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "chocolate",
+        "name": "chocolate",
+        "region": "chocolate",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 122,
+          "height": 93
+        },
+        "mesh": {
+          "uvPairs": 33,
+          "vertexNumbers": 66,
+          "triangles": 45,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "chocolate_shadow",
+        "name": "chocolate_shadow",
+        "region": "chocolate_shadow",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -842.5,
+          "y": -12.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 121,
+          "height": 101
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_1",
+        "name": "cloud_1",
+        "region": "cloud_1",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 183,
+          "height": 77
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_10",
+        "name": "cloud_10",
+        "region": "cloud_10",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 337,
+          "height": 154
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_11",
+        "name": "cloud_11",
+        "region": "cloud_11",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 275,
+          "height": 117
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_2_new",
+        "name": "cloud_2_new",
+        "region": "cloud_2_new",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 637,
+          "height": 149
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_3",
+        "name": "cloud_3",
+        "region": "cloud_3",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -0.5,
+          "y": 219.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 679,
+          "height": 253
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_4",
+        "name": "cloud_4",
+        "region": "cloud_4",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -308,
+          "y": 347,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 144,
+          "height": 64
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_6_new",
+        "name": "cloud_6_new",
+        "region": "cloud_6_new",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 434,
+          "height": 122
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fan_fame",
+        "name": "fan_fame",
+        "region": "fan_fame",
+        "type": "region",
+        "bone": "left_frame",
+        "transform": {
+          "x": -47.64,
+          "y": -363.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 44,
+          "height": 44
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fan_fame2",
+        "name": "fan_fame",
+        "region": "fan_fame",
+        "type": "region",
+        "bone": "right_frame",
+        "transform": {
+          "x": -47.64,
+          "y": -363.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 44,
+          "height": 44
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fan_fame_q",
+        "name": "fan_fame_q",
+        "region": "fan_fame_q",
+        "type": "region",
+        "bone": "left_frame",
+        "transform": {
+          "x": -46.64,
+          "y": -363.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 50,
+          "height": 52
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fan_fame_q2",
+        "name": "fan_fame_q",
+        "region": "fan_fame_q",
+        "type": "region",
+        "bone": "right_frame",
+        "transform": {
+          "x": -46.64,
+          "y": -363.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 50,
+          "height": 52
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fan_wings",
+        "name": "fan_wings",
+        "region": "fan_wings",
+        "type": "region",
+        "bone": "fan_left",
+        "transform": {
+          "x": 0.35,
+          "y": 0.64,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 41,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fan_wings2",
+        "name": "fan_wings",
+        "region": "fan_wings",
+        "type": "region",
+        "bone": "fan_left2",
+        "transform": {
+          "x": 0.35,
+          "y": 0.64,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 41,
+          "height": 40
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "forground_new",
+        "name": "forground_new",
+        "region": "forground_new",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -13.37,
+          "y": -378.48,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2500,
+          "height": 261
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "forground_new2",
+        "name": "forground_new",
+        "region": "forground_new",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -13.37,
+          "y": -381.88,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2500,
+          "height": 261
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00010",
+        "region": "fx_1_00010",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00012",
+        "region": "fx_1_00012",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00014",
+        "region": "fx_1_00014",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00016",
+        "region": "fx_1_00016",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00018",
+        "region": "fx_1_00018",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00020",
+        "region": "fx_1_00020",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00022",
+        "region": "fx_1_00022",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00023",
+        "region": "fx_1_00023",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00025",
+        "region": "fx_1_00025",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00027",
+        "region": "fx_1_00027",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00029",
+        "region": "fx_1_00029",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00031",
+        "region": "fx_1_00031",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00033",
+        "region": "fx_1_00033",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00035",
+        "region": "fx_1_00035",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00037",
+        "region": "fx_1_00037",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00038",
+        "region": "fx_1_00038",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00040",
+        "region": "fx_1_00040",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00042",
+        "region": "fx_1_00042",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00044",
+        "region": "fx_1_00044",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_00010",
+        "name": "fx_1_00046",
+        "region": "fx_1_00046",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00010",
+        "region": "fx_1_00010",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00012",
+        "region": "fx_1_00012",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00014",
+        "region": "fx_1_00014",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00016",
+        "region": "fx_1_00016",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00018",
+        "region": "fx_1_00018",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00020",
+        "region": "fx_1_00020",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00022",
+        "region": "fx_1_00022",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00023",
+        "region": "fx_1_00023",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00025",
+        "region": "fx_1_00025",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00027",
+        "region": "fx_1_00027",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00029",
+        "region": "fx_1_00029",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00031",
+        "region": "fx_1_00031",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00033",
+        "region": "fx_1_00033",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00035",
+        "region": "fx_1_00035",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00037",
+        "region": "fx_1_00037",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00038",
+        "region": "fx_1_00038",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00040",
+        "region": "fx_1_00040",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00042",
+        "region": "fx_1_00042",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00044",
+        "region": "fx_1_00044",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1_10",
+        "name": "fx_1_00046",
+        "region": "fx_1_00046",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1129.6,
+          "y": -17.71,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 192
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00002",
+        "region": "fx_4_00002",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00004",
+        "region": "fx_4_00004",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00006",
+        "region": "fx_4_00006",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00008",
+        "region": "fx_4_00008",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00010",
+        "region": "fx_4_00010",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00012",
+        "region": "fx_4_00012",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00014",
+        "region": "fx_4_00014",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00015",
+        "region": "fx_4_00015",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00017",
+        "region": "fx_4_00017",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00019",
+        "region": "fx_4_00019",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00021",
+        "region": "fx_4_00021",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00023",
+        "region": "fx_4_00023",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00025",
+        "region": "fx_4_00025",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00027",
+        "region": "fx_4_00027",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00029",
+        "region": "fx_4_00029",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00030",
+        "region": "fx_4_00030",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00032",
+        "region": "fx_4_00032",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00034",
+        "region": "fx_4_00034",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00036",
+        "region": "fx_4_00036",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00038",
+        "region": "fx_4_00038",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00040",
+        "region": "fx_4_00040",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00042",
+        "region": "fx_4_00042",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00044",
+        "region": "fx_4_00044",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00045",
+        "region": "fx_4_00045",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00047",
+        "region": "fx_4_00047",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00049",
+        "region": "fx_4_00049",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_00002",
+        "name": "fx_4_00051",
+        "region": "fx_4_00051",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00002",
+        "region": "fx_4_00002",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00004",
+        "region": "fx_4_00004",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00006",
+        "region": "fx_4_00006",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00008",
+        "region": "fx_4_00008",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00010",
+        "region": "fx_4_00010",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00012",
+        "region": "fx_4_00012",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00014",
+        "region": "fx_4_00014",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00015",
+        "region": "fx_4_00015",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00017",
+        "region": "fx_4_00017",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00019",
+        "region": "fx_4_00019",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00021",
+        "region": "fx_4_00021",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00023",
+        "region": "fx_4_00023",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00025",
+        "region": "fx_4_00025",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00027",
+        "region": "fx_4_00027",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00029",
+        "region": "fx_4_00029",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00030",
+        "region": "fx_4_00030",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00032",
+        "region": "fx_4_00032",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00034",
+        "region": "fx_4_00034",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00036",
+        "region": "fx_4_00036",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00038",
+        "region": "fx_4_00038",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00040",
+        "region": "fx_4_00040",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00042",
+        "region": "fx_4_00042",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00044",
+        "region": "fx_4_00044",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00045",
+        "region": "fx_4_00045",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00047",
+        "region": "fx_4_00047",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00049",
+        "region": "fx_4_00049",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_4_2",
+        "name": "fx_4_00051",
+        "region": "fx_4_00051",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1039.62,
+          "y": 31.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00010",
+        "region": "fx_5_00010",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00012",
+        "region": "fx_5_00012",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00014",
+        "region": "fx_5_00014",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00015",
+        "region": "fx_5_00015",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00017",
+        "region": "fx_5_00017",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00019",
+        "region": "fx_5_00019",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00021",
+        "region": "fx_5_00021",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00023",
+        "region": "fx_5_00023",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00025",
+        "region": "fx_5_00025",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00027",
+        "region": "fx_5_00027",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00029",
+        "region": "fx_5_00029",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00030",
+        "region": "fx_5_00030",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00032",
+        "region": "fx_5_00032",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00034",
+        "region": "fx_5_00034",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00036",
+        "region": "fx_5_00036",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00038",
+        "region": "fx_5_00038",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00040",
+        "region": "fx_5_00040",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00042",
+        "region": "fx_5_00042",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00044",
+        "region": "fx_5_00044",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_5_00010",
+        "name": "fx_5_00045",
+        "region": "fx_5_00045",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -1208.77,
+          "y": 109.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "jar_glass3",
+        "name": "jar_glass",
+        "region": "jar_glass",
+        "type": "region",
+        "bone": "right_frame",
+        "transform": {
+          "x": -75.14,
+          "y": -123.49,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 91,
+          "height": 205
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "jar_glass4",
+        "name": "jar_glass",
+        "region": "jar_glass",
+        "type": "region",
+        "bone": "right_frame",
+        "transform": {
+          "x": -75.14,
+          "y": -123.49,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 91,
+          "height": 205
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "jar_top_candy2",
+        "name": "jar_top_candy",
+        "region": "jar_top_candy",
+        "type": "region",
+        "bone": "right_frame",
+        "transform": {
+          "x": -73.14,
+          "y": 34.51,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 119,
+          "height": 123
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "jar_top_sugar",
+        "name": "jar_top_sugar",
+        "region": "jar_top_sugar",
+        "type": "region",
+        "bone": "left_frame",
+        "transform": {
+          "x": -72.14,
+          "y": 37.01,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 109,
+          "height": 90
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "jar_top_sugar2",
+        "name": "jar_top_sugar",
+        "region": "jar_top_sugar",
+        "type": "region",
+        "bone": "right_frame",
+        "transform": {
+          "x": -72.14,
+          "y": 37.01,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 109,
+          "height": 90
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "left_frame_2",
+        "name": "left_frame_1",
+        "region": "left_frame_1",
+        "type": "region",
+        "bone": "right_frame",
+        "transform": {
+          "x": -83.64,
+          "y": -166.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 154,
+          "height": 528
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "right_frame",
+        "name": "left_frame",
+        "region": "left_frame",
+        "type": "region",
+        "bone": "right_frame",
+        "transform": {
+          "x": -72.43,
+          "y": -222.63,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 116,
+          "height": 415
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "rivets_s6",
+        "name": "rivets_s",
+        "region": "rivets_s",
+        "type": "region",
+        "bone": "right_frame",
+        "transform": {
+          "x": -1.44,
+          "y": -130.06,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 18,
+          "height": 17
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "window",
+        "name": "window",
+        "region": "window",
+        "type": "region",
+        "bone": "left_frame",
+        "transform": {
+          "x": -109.14,
+          "y": -321.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 34
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "window2",
+        "name": "window",
+        "region": "window",
+        "type": "region",
+        "bone": "left_frame",
+        "transform": {
+          "x": -109.14,
+          "y": -321.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 34
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "window3",
+        "name": "window",
+        "region": "window",
+        "type": "region",
+        "bone": "right_frame",
+        "transform": {
+          "x": -109.14,
+          "y": -321.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 34
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "window4",
+        "name": "window",
+        "region": "window",
+        "type": "region",
+        "bone": "right_frame",
+        "transform": {
+          "x": -109.14,
+          "y": -321.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 34
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "windowbutton",
+        "name": "windowbutton",
+        "region": "windowbutton",
+        "type": "region",
+        "bone": "left_frame",
+        "transform": {
+          "x": -116.14,
+          "y": -358.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 27,
+          "height": 28
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "windowbutton2",
+        "name": "windowbutton",
+        "region": "windowbutton",
+        "type": "region",
+        "bone": "left_frame",
+        "transform": {
+          "x": -116.14,
+          "y": -358.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 27,
+          "height": 28
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "windowbutton3",
+        "name": "windowbutton",
+        "region": "windowbutton",
+        "type": "region",
+        "bone": "right_frame",
+        "transform": {
+          "x": -116.14,
+          "y": -358.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 27,
+          "height": 28
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "windowbutton4",
+        "name": "windowbutton",
+        "region": "windowbutton",
+        "type": "region",
+        "bone": "right_frame",
+        "transform": {
+          "x": -116.14,
+          "y": -358.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 27,
+          "height": 28
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "suru_1000_super_freegame_ol",
+        "duration": 6,
+        "keyframes": 385,
+        "curvedKeys": 284,
+        "channels": [
+          {
+            "path": "slots.background_candy_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.background_candy_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.background_new.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.choco_drop.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.choco_drop.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.chocolate.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.chocolate_shadow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.cloud_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.cloud_2_new.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.cloud_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.cloud_4.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.cloud_6_new.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.cloud_10.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.cloud_11.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.forground_new.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.forground_new2.color",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.forground_new2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.fx_5_00010.color",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.jar_glass4.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.jar_top_sugar.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.rivets_s6.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.window2.color",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.window4.color",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.windowbutton2.color",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.windowbutton4.color",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.fan_left.rotate",
+            "keyframes": 13
+          },
+          {
+            "path": "bones.fan_left2.rotate",
+            "keyframes": 13
+          },
+          {
+            "path": "deform.default.candy_17.candy_16",
+            "keyframes": 16
+          },
+          {
+            "path": "deform.default.candy_18.candy_15",
+            "keyframes": 15
+          },
+          {
+            "path": "deform.default.candy_19.candy_14",
+            "keyframes": 20
+          },
+          {
+            "path": "deform.default.candy_20.candy_13",
+            "keyframes": 13
+          },
+          {
+            "path": "deform.default.candy_21.candy_12",
+            "keyframes": 12
+          },
+          {
+            "path": "deform.default.candy_22.candy_11",
+            "keyframes": 17
+          },
+          {
+            "path": "deform.default.candy_23.candy_10",
+            "keyframes": 10
+          },
+          {
+            "path": "deform.default.candy_24.candy_9",
+            "keyframes": 23
+          },
+          {
+            "path": "deform.default.candy_25.candy_8",
+            "keyframes": 22
+          },
+          {
+            "path": "deform.default.candy_26.candy_7",
+            "keyframes": 21
+          },
+          {
+            "path": "deform.default.candy_27.candy_6",
+            "keyframes": 19
+          },
+          {
+            "path": "deform.default.candy_28.candy_5",
+            "keyframes": 19
+          },
+          {
+            "path": "deform.default.candy_29.candy_4",
+            "keyframes": 18
+          },
+          {
+            "path": "deform.default.candy_30.candy_3",
+            "keyframes": 17
+          },
+          {
+            "path": "deform.default.candy_31.candy_2",
+            "keyframes": 15
+          },
+          {
+            "path": "deform.default.candy_32.candy_1",
+            "keyframes": 15
+          },
+          {
+            "path": "deform.default.choco_drop.choco_drop",
+            "keyframes": 5
+          },
+          {
+            "path": "deform.default.chocolate.chocolate",
+            "keyframes": 6
+          },
+          {
+            "path": "deform.default.cloud_1.cloud_1",
+            "keyframes": 3
+          },
+          {
+            "path": "deform.default.cloud_2_new.cloud_2_new",
+            "keyframes": 3
+          },
+          {
+            "path": "deform.default.cloud_6_new.cloud_6_new",
+            "keyframes": 3
+          },
+          {
+            "path": "deform.default.cloud_10.cloud_10",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.cloud_11.cloud_11",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "fan_left",
+          "fan_left2"
+        ],
+        "animatedSlots": [
+          "background_candy_1",
+          "background_candy_2",
+          "background_new",
+          "choco_drop",
+          "chocolate",
+          "chocolate_shadow",
+          "cloud_1",
+          "cloud_2_new",
+          "cloud_3",
+          "cloud_4",
+          "cloud_6_new",
+          "cloud_10",
+          "cloud_11",
+          "forground_new",
+          "forground_new2",
+          "fx_5_00010",
+          "jar_glass4",
+          "jar_top_sugar",
+          "rivets_s6",
+          "window2",
+          "window4",
+          "windowbutton2",
+          "windowbutton4"
+        ],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "suru_1000_super_freegame_ul",
+        "duration": 6,
+        "keyframes": 641,
+        "curvedKeys": 284,
+        "channels": [
+          {
+            "path": "slots.candy_17.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.candy_18.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.candy_19.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.candy_20.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.candy_21.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.candy_22.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.candy_23.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.candy_24.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.candy_25.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.candy_26.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.candy_27.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.candy_28.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.candy_29.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.candy_30.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.candy_31.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.candy_32.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.choco_drop.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.fan_fame.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.fan_fame2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.fan_fame_q.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.fan_fame_q2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.fan_wings.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.fan_wings2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.forground_new2.color",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.fx_1_00010.attachment",
+            "keyframes": 42
+          },
+          {
+            "path": "slots.fx_1_10.attachment",
+            "keyframes": 42
+          },
+          {
+            "path": "slots.fx_4_00002.attachment",
+            "keyframes": 56
+          },
+          {
+            "path": "slots.fx_4_2.attachment",
+            "keyframes": 56
+          },
+          {
+            "path": "slots.fx_5_00010.color",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.fx_5_00010.attachment",
+            "keyframes": 42
+          },
+          {
+            "path": "slots.jar_glass3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.jar_glass4.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.jar_glass4.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.jar_top_candy2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.left_frame_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.right_frame.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.window.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.window2.color",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.window2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.window3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.window4.color",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.window4.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.windowbutton.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.windowbutton2.color",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.windowbutton2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.windowbutton3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.windowbutton4.color",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.windowbutton4.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.fan_left.rotate",
+            "keyframes": 13
+          },
+          {
+            "path": "bones.fan_left2.rotate",
+            "keyframes": 13
+          },
+          {
+            "path": "deform.default.candy_17.candy_16",
+            "keyframes": 16
+          },
+          {
+            "path": "deform.default.candy_18.candy_15",
+            "keyframes": 15
+          },
+          {
+            "path": "deform.default.candy_19.candy_14",
+            "keyframes": 20
+          },
+          {
+            "path": "deform.default.candy_20.candy_13",
+            "keyframes": 13
+          },
+          {
+            "path": "deform.default.candy_21.candy_12",
+            "keyframes": 12
+          },
+          {
+            "path": "deform.default.candy_22.candy_11",
+            "keyframes": 17
+          },
+          {
+            "path": "deform.default.candy_23.candy_10",
+            "keyframes": 10
+          },
+          {
+            "path": "deform.default.candy_24.candy_9",
+            "keyframes": 23
+          },
+          {
+            "path": "deform.default.candy_25.candy_8",
+            "keyframes": 22
+          },
+          {
+            "path": "deform.default.candy_26.candy_7",
+            "keyframes": 21
+          },
+          {
+            "path": "deform.default.candy_27.candy_6",
+            "keyframes": 19
+          },
+          {
+            "path": "deform.default.candy_28.candy_5",
+            "keyframes": 19
+          },
+          {
+            "path": "deform.default.candy_29.candy_4",
+            "keyframes": 18
+          },
+          {
+            "path": "deform.default.candy_30.candy_3",
+            "keyframes": 17
+          },
+          {
+            "path": "deform.default.candy_31.candy_2",
+            "keyframes": 15
+          },
+          {
+            "path": "deform.default.candy_32.candy_1",
+            "keyframes": 15
+          },
+          {
+            "path": "deform.default.choco_drop.choco_drop",
+            "keyframes": 5
+          },
+          {
+            "path": "deform.default.chocolate.chocolate",
+            "keyframes": 6
+          },
+          {
+            "path": "deform.default.cloud_1.cloud_1",
+            "keyframes": 3
+          },
+          {
+            "path": "deform.default.cloud_2_new.cloud_2_new",
+            "keyframes": 3
+          },
+          {
+            "path": "deform.default.cloud_6_new.cloud_6_new",
+            "keyframes": 3
+          },
+          {
+            "path": "deform.default.cloud_10.cloud_10",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.cloud_11.cloud_11",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "fan_left",
+          "fan_left2"
+        ],
+        "animatedSlots": [
+          "candy_17",
+          "candy_18",
+          "candy_19",
+          "candy_20",
+          "candy_21",
+          "candy_22",
+          "candy_23",
+          "candy_24",
+          "candy_25",
+          "candy_26",
+          "candy_27",
+          "candy_28",
+          "candy_29",
+          "candy_30",
+          "candy_31",
+          "candy_32",
+          "choco_drop",
+          "fan_fame",
+          "fan_fame2",
+          "fan_fame_q",
+          "fan_fame_q2",
+          "fan_wings",
+          "fan_wings2",
+          "forground_new2",
+          "fx_1_00010",
+          "fx_1_10",
+          "fx_4_00002",
+          "fx_4_2",
+          "fx_5_00010",
+          "jar_glass3",
+          "jar_glass4",
+          "jar_top_candy2",
+          "left_frame_2",
+          "right_frame",
+          "window",
+          "window2",
+          "window3",
+          "window4",
+          "windowbutton",
+          "windowbutton2",
+          "windowbutton3",
+          "windowbutton4"
+        ],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 5,
+      "slots": 58,
+      "attachments": 167,
+      "meshAttachments": 24,
+      "meshUvPairs": 125,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "background_candy_1",
+      "file": "pieces/background-candy-1-8cd26670.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1409, 71",
+        "size": "120, 115",
+        "orig": "120, 118",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "background_candy_2",
+      "file": "pieces/background-candy-2-43d248bb.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2280, 0",
+        "size": "21, 30",
+        "orig": "21, 30",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "background_new",
+      "file": "pieces/background-new-05aaa1b4.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 597",
+        "size": "2500, 999",
+        "orig": "2500, 999",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_1",
+      "file": "pieces/candy-1-a75a41d0.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2502, 359",
+        "size": "46, 46",
+        "orig": "46, 46",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_10",
+      "file": "pieces/candy-10-db9e27a9.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2387, 189",
+        "size": "46, 42",
+        "orig": "46, 42",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_11",
+      "file": "pieces/candy-11-72564c24.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2502, 1094",
+        "size": "49, 40",
+        "orig": "49, 40",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_12",
+      "file": "pieces/candy-12-fc426974.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "652, 0",
+        "size": "36, 35",
+        "orig": "36, 35",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_13",
+      "file": "pieces/candy-13-1ecc8dbf.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "943, 6",
+        "size": "30, 29",
+        "orig": "30, 29",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_14",
+      "file": "pieces/candy-14-98efa199.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "764, 0",
+        "size": "34, 35",
+        "orig": "34, 35",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_15",
+      "file": "pieces/candy-15-220169f6.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2411, 147",
+        "size": "38, 38",
+        "orig": "38, 38",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_16",
+      "file": "pieces/candy-16-0f7de2b3.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2501, 189",
+        "size": "45, 25",
+        "orig": "45, 25",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_2",
+      "file": "pieces/candy-2-719f87fc.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2322, 97",
+        "size": "39, 40",
+        "orig": "39, 40",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_3",
+      "file": "pieces/candy-3-8cdb1c86.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2369, 138",
+        "size": "40, 39",
+        "orig": "40, 39",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_4",
+      "file": "pieces/candy-4-0ea70d7d.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2451, 147",
+        "size": "37, 38",
+        "orig": "37, 38",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_5",
+      "file": "pieces/candy-5-d408371d.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "910, 4",
+        "size": "31, 31",
+        "orig": "31, 31",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_6",
+      "file": "pieces/candy-6-be5a951b.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "842, 3",
+        "size": "32, 32",
+        "orig": "32, 32",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_7",
+      "file": "pieces/candy-7-ac12c7a1.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1369, 29",
+        "size": "38, 38",
+        "orig": "38, 38",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_8",
+      "file": "pieces/candy-8-0f0cf508.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "728, 0",
+        "size": "34, 35",
+        "orig": "34, 35",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_9",
+      "file": "pieces/candy-9-d12d9043.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "876, 3",
+        "size": "32, 32",
+        "orig": "32, 32",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "choco_drop",
+      "file": "pieces/choco-drop-76615e81.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "651, 58",
+        "size": "15, 54",
+        "orig": "15, 54",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "chocolate",
+      "file": "pieces/chocolate-21d54817.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1653, 93",
+        "size": "122, 93",
+        "orig": "122, 93",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "chocolate_shadow",
+      "file": "pieces/chocolate-shadow-73fb2dea.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1531, 86",
+        "size": "120, 100",
+        "orig": "121, 101",
+        "offset": "0, 1",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_1",
+      "file": "pieces/cloud-1-d8c769a5.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "207, 35",
+        "size": "183, 77",
+        "orig": "183, 77",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_10",
+      "file": "pieces/cloud-10-5473a2b7.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "668, 37",
+        "size": "337, 154",
+        "orig": "337, 154",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_11",
+      "file": "pieces/cloud-11-94b959c3.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1007, 74",
+        "size": "275, 117",
+        "orig": "275, 117",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_2_new",
+      "file": "pieces/cloud-2-new-dd0691e6.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "668, 193",
+        "size": "637, 149",
+        "orig": "637, 149",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_3",
+      "file": "pieces/cloud-3-494c5efa.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 114",
+        "size": "666, 228",
+        "orig": "679, 253",
+        "offset": "9, 19",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_4",
+      "file": "pieces/cloud-4-425e8a30.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "392, 53",
+        "size": "133, 59",
+        "orig": "144, 64",
+        "offset": "5, 4",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_6_new",
+      "file": "pieces/cloud-6-new-16a6ff2c.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1837, 220",
+        "size": "434, 122",
+        "orig": "434, 122",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fan_fame",
+      "file": "pieces/fan-fame-2dbf9e69.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2435, 187",
+        "size": "44, 44",
+        "orig": "44, 44",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fan_fame_q",
+      "file": "pieces/fan-fame-q-63ec821b.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2270, 164",
+        "size": "50, 52",
+        "orig": "50, 52",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fan_wings",
+      "file": "pieces/fan-wings-0d958cb1.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2364, 96",
+        "size": "40, 40",
+        "orig": "41, 40",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "forground_new",
+      "file": "pieces/forground-new-3e734e88.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 344",
+        "size": "2500, 251",
+        "orig": "2500, 261",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00010",
+      "file": "pieces/fx-1-00010-3fa17fe9.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2533, 345",
+        "size": "12, 18",
+        "orig": "212, 192",
+        "offset": "149, 139",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00012",
+      "file": "pieces/fx-1-00012-b4da93fa.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2312, 0",
+        "size": "21, 28",
+        "orig": "212, 192",
+        "offset": "138, 126",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00014",
+      "file": "pieces/fx-1-00014-407ecc3f.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "800, 3",
+        "size": "32, 40",
+        "orig": "212, 192",
+        "offset": "127, 113",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00016",
+      "file": "pieces/fx-1-00016-ec36d208.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "456, 7",
+        "size": "44, 68",
+        "orig": "212, 192",
+        "offset": "115, 85",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00018",
+      "file": "pieces/fx-1-00018-e8722917.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1202, 15",
+        "size": "57, 79",
+        "orig": "212, 192",
+        "offset": "102, 74",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00020",
+      "file": "pieces/fx-1-00020-1f7de36e.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1933, 13",
+        "size": "68, 81",
+        "orig": "212, 192",
+        "offset": "56, 47",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00022",
+      "file": "pieces/fx-1-00022-0de6b89a.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1849, 17",
+        "size": "82, 77",
+        "orig": "212, 192",
+        "offset": "56, 61",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00023",
+      "file": "pieces/fx-1-00023-a4cf15c9.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1777, 96",
+        "size": "90, 75",
+        "orig": "212, 192",
+        "offset": "66, 50",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00025",
+      "file": "pieces/fx-1-00025-da5d7109.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1854, 148",
+        "size": "107, 70",
+        "orig": "212, 192",
+        "offset": "56, 80",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00027",
+      "file": "pieces/fx-1-00027-2d46ed56.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1085, 9",
+        "size": "115, 63",
+        "orig": "212, 192",
+        "offset": "65, 92",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00029",
+      "file": "pieces/fx-1-00029-547dea26.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "527, 55",
+        "size": "122, 57",
+        "orig": "212, 192",
+        "offset": "75, 102",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00031",
+      "file": "pieces/fx-1-00031-6a07f444.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2501, 216",
+        "size": "126, 50",
+        "orig": "212, 192",
+        "offset": "0, 31",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00033",
+      "file": "pieces/fx-1-00033-6696ad54.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 1413",
+        "size": "114, 45",
+        "orig": "212, 192",
+        "offset": "0, 30",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00035",
+      "file": "pieces/fx-1-00035-e35bd7e1.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 1310",
+        "size": "101, 44",
+        "orig": "212, 192",
+        "offset": "0, 30",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00037",
+      "file": "pieces/fx-1-00037-58054de7.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 1221",
+        "size": "87, 44",
+        "orig": "212, 192",
+        "offset": "0, 30",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00038",
+      "file": "pieces/fx-1-00038-4264f86e.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 1012",
+        "size": "80, 45",
+        "orig": "212, 192",
+        "offset": "0, 30",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00040",
+      "file": "pieces/fx-1-00040-846cda6d.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 709",
+        "size": "65, 44",
+        "orig": "212, 192",
+        "offset": "0, 31",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00042",
+      "file": "pieces/fx-1-00042-5e2b7f97.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2298, 115",
+        "size": "47, 22",
+        "orig": "212, 192",
+        "offset": "4, 32",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00044",
+      "file": "pieces/fx-1-00044-3e96607f.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "32, 19",
+        "orig": "212, 192",
+        "offset": "176, 138",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_1_00046",
+      "file": "pieces/fx-1-00046-6c07d669.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1849, 0",
+        "size": "19, 15",
+        "orig": "212, 192",
+        "offset": "189, 139",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00002",
+      "file": "pieces/fx-4-00002-551097a0.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "975, 7",
+        "size": "22, 28",
+        "orig": "123, 89",
+        "offset": "50, 30",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00004",
+      "file": "pieces/fx-4-00004-fd9306ef.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "690, 0",
+        "size": "36, 35",
+        "orig": "123, 89",
+        "offset": "49, 31",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00006",
+      "file": "pieces/fx-4-00006-8b3321b0.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2324, 138",
+        "size": "43, 39",
+        "orig": "123, 89",
+        "offset": "50, 27",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00008",
+      "file": "pieces/fx-4-00008-1dace826.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 407",
+        "size": "47, 42",
+        "orig": "123, 89",
+        "offset": "28, 23",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00010",
+      "file": "pieces/fx-4-00010-d211c215.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 515",
+        "size": "63, 41",
+        "orig": "123, 89",
+        "offset": "28, 24",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00012",
+      "file": "pieces/fx-4-00012-670c7535.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 645",
+        "size": "62, 44",
+        "orig": "123, 89",
+        "offset": "29, 22",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00014",
+      "file": "pieces/fx-4-00014-9db5acdd.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "392, 0",
+        "size": "62, 51",
+        "orig": "123, 89",
+        "offset": "32, 22",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00015",
+      "file": "pieces/fx-4-00015-b829f96f.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2324, 179",
+        "size": "61, 52",
+        "orig": "123, 89",
+        "offset": "32, 23",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00017",
+      "file": "pieces/fx-4-00017-e315a1bb.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "527, 0",
+        "size": "61, 53",
+        "orig": "123, 89",
+        "offset": "31, 24",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00019",
+      "file": "pieces/fx-4-00019-76849311.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2034, 96",
+        "size": "57, 52",
+        "orig": "123, 89",
+        "offset": "35, 12",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00021",
+      "file": "pieces/fx-4-00021-4033997b.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "590, 0",
+        "size": "60, 53",
+        "orig": "123, 89",
+        "offset": "31, 24",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00023",
+      "file": "pieces/fx-4-00023-6f56ddba.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 1529",
+        "size": "67, 49",
+        "orig": "123, 89",
+        "offset": "24, 11",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00025",
+      "file": "pieces/fx-4-00025-a848eed1.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 776",
+        "size": "73, 46",
+        "orig": "123, 89",
+        "offset": "18, 11",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00027",
+      "file": "pieces/fx-4-00027-db85d114.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 851",
+        "size": "76, 43",
+        "orig": "123, 89",
+        "offset": "13, 11",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00029",
+      "file": "pieces/fx-4-00029-dd7cd3f4.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2242, 88",
+        "size": "74, 54",
+        "orig": "123, 89",
+        "offset": "12, 11",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00030",
+      "file": "pieces/fx-4-00030-d817e80b.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1963, 96",
+        "size": "69, 57",
+        "orig": "123, 89",
+        "offset": "41, 21",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00032",
+      "file": "pieces/fx-4-00032-685309eb.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2280, 23",
+        "size": "57, 63",
+        "orig": "123, 89",
+        "offset": "54, 14",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00034",
+      "file": "pieces/fx-4-00034-9da91c94.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2502, 580",
+        "size": "43, 63",
+        "orig": "123, 89",
+        "offset": "68, 12",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00036",
+      "file": "pieces/fx-4-00036-63a4185f.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2064, 161",
+        "size": "100, 57",
+        "orig": "123, 89",
+        "offset": "11, 12",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00038",
+      "file": "pieces/fx-4-00038-08c5f31d.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1854, 96",
+        "size": "102, 50",
+        "orig": "123, 89",
+        "offset": "9, 12",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00040",
+      "file": "pieces/fx-4-00040-f08f1d20.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2166, 164",
+        "size": "102, 54",
+        "orig": "123, 89",
+        "offset": "9, 13",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00042",
+      "file": "pieces/fx-4-00042-005998ee.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1963, 155",
+        "size": "99, 63",
+        "orig": "123, 89",
+        "offset": "10, 13",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00044",
+      "file": "pieces/fx-4-00044-eadb67c6.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1779, 4",
+        "size": "90, 68",
+        "orig": "123, 89",
+        "offset": "20, 8",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00045",
+      "file": "pieces/fx-4-00045-92689796.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2003, 12",
+        "size": "82, 71",
+        "orig": "123, 89",
+        "offset": "26, 6",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00047",
+      "file": "pieces/fx-4-00047-08c20861.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2339, 68",
+        "size": "27, 21",
+        "orig": "123, 89",
+        "offset": "77, 4",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00049",
+      "file": "pieces/fx-4-00049-ad88585f.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1837, 197",
+        "size": "21, 15",
+        "orig": "123, 89",
+        "offset": "77, 4",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_4_00051",
+      "file": "pieces/fx-4-00051-6c4751da.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2502, 344",
+        "size": "14, 13",
+        "orig": "123, 89",
+        "offset": "32, 72",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00010",
+      "file": "pieces/fx-5-00010-51479f80.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1521, 57",
+        "size": "8, 12",
+        "orig": "110, 96",
+        "offset": "0, 16",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00012",
+      "file": "pieces/fx-5-00012-f54cd9f9.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2481, 187",
+        "size": "18, 44",
+        "orig": "110, 96",
+        "offset": "0, 17",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00014",
+      "file": "pieces/fx-5-00014-1447185c.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "277, 5",
+        "size": "28, 67",
+        "orig": "110, 96",
+        "offset": "82, 11",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00015",
+      "file": "pieces/fx-5-00015-59614acf.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "207, 0",
+        "size": "33, 68",
+        "orig": "110, 96",
+        "offset": "77, 10",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00017",
+      "file": "pieces/fx-5-00017-71b9ca34.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1475, 0",
+        "size": "44, 69",
+        "orig": "110, 96",
+        "offset": "0, 18",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00019",
+      "file": "pieces/fx-5-00019-ca4d657a.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2154, 11",
+        "size": "54, 71",
+        "orig": "110, 96",
+        "offset": "0, 18",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00021",
+      "file": "pieces/fx-5-00021-732d586e.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1409, 0",
+        "size": "64, 69",
+        "orig": "110, 96",
+        "offset": "0, 20",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00023",
+      "file": "pieces/fx-5-00023-54973f83.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2210, 16",
+        "size": "68, 70",
+        "orig": "110, 96",
+        "offset": "7, 20",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00025",
+      "file": "pieces/fx-5-00025-f618666e.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2170, 89",
+        "size": "70, 73",
+        "orig": "110, 96",
+        "offset": "14, 18",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00027",
+      "file": "pieces/fx-5-00027-7c63bf1c.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1007, 0",
+        "size": "72, 76",
+        "orig": "110, 96",
+        "offset": "16, 5",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00029",
+      "file": "pieces/fx-5-00029-bbe7519d.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2088, 84",
+        "size": "75, 80",
+        "orig": "110, 96",
+        "offset": "6, 4",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00030",
+      "file": "pieces/fx-5-00030-02b20bba.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2076, 0",
+        "size": "76, 82",
+        "orig": "110, 96",
+        "offset": "33, 10",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00032",
+      "file": "pieces/fx-5-00032-81d17089.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1531, 0",
+        "size": "70, 84",
+        "orig": "110, 96",
+        "offset": "40, 7",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00034",
+      "file": "pieces/fx-5-00034-e734e9aa.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1603, 0",
+        "size": "63, 84",
+        "orig": "110, 96",
+        "offset": "47, 7",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00036",
+      "file": "pieces/fx-5-00036-8a2262cf.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1283, 12",
+        "size": "55, 84",
+        "orig": "110, 96",
+        "offset": "0, 6",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00038",
+      "file": "pieces/fx-5-00038-4c163480.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2502, 1136",
+        "size": "48, 83",
+        "orig": "110, 96",
+        "offset": "62, 6",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00040",
+      "file": "pieces/fx-5-00040-8b90a4eb.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2502, 929",
+        "size": "41, 81",
+        "orig": "110, 96",
+        "offset": "69, 6",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00042",
+      "file": "pieces/fx-5-00042-5fb16d0e.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "346, 3",
+        "size": "30, 44",
+        "orig": "110, 96",
+        "offset": "5, 10",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00044",
+      "file": "pieces/fx-5-00044-b789d3f6.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2518, 344",
+        "size": "13, 13",
+        "orig": "110, 96",
+        "offset": "81, 71",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "fx_5_00045",
+      "file": "pieces/fx-5-00045-c23ba41e.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2273, 220",
+        "size": "11, 12",
+        "orig": "110, 96",
+        "offset": "15, 13",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "jar_glass",
+      "file": "pieces/jar-glass-e74ea8e8.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "0, 21",
+        "size": "91, 205",
+        "orig": "91, 205",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "jar_top_candy",
+      "file": "pieces/jar-top-candy-0612db09.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1284, 69",
+        "size": "117, 123",
+        "orig": "119, 123",
+        "offset": "2, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "jar_top_sugar",
+      "file": "pieces/jar-top-sugar-b361fb24.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1668, 1",
+        "size": "109, 90",
+        "orig": "109, 90",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "left_frame",
+      "file": "pieces/left-frame-30fdb8c4.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2273, 233",
+        "size": "109, 226",
+        "orig": "116, 415",
+        "offset": "7, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "left_frame_1",
+      "file": "pieces/left-frame-1-717a238e.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1307, 188",
+        "size": "154, 528",
+        "orig": "154, 528",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "rivets_s",
+      "file": "pieces/rivets-s-1d76f6dd.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "34, 3",
+        "size": "16, 16",
+        "orig": "18, 17",
+        "offset": "1, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "window",
+      "file": "pieces/window-e40a7b67.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2502, 456",
+        "size": "57, 34",
+        "orig": "57, 34",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "windowbutton",
+      "file": "pieces/windowbutton-b0042d8c.png",
+      "page": "suru_1000_super_freegame.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1369, 0",
+        "size": "27, 28",
+        "orig": "27, 28",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

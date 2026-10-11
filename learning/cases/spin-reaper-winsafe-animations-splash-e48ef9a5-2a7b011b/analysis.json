@@ -1,0 +1,199 @@
+{
+  "id": "spin-reaper-winsafe-animations-splash-e48ef9a5-2a7b011b",
+  "collection": "library",
+  "name": "splash",
+  "machine": "spin-reaper-winsafe",
+  "format": "spritesheet",
+  "version": null,
+  "packagePath": "bibliotheque/spin-reaper-winsafe/animations/splash-e48ef9a5",
+  "skeleton": "spritesheet.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": null,
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 8103240,
+    "rgbaBytesEstimate": 32412960,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 7,
+  "actions": [],
+  "analysisPath": "learning/cases/spin-reaper-winsafe-animations-splash-e48ef9a5-2a7b011b/analysis.json",
+  "exactActionVisibility": false,
+  "rig": null,
+  "atlasRegions": [
+    {
+      "region": "free_games.png",
+      "file": "pieces/free-games-png-f831b96c.png",
+      "properties": {
+        "frame": {
+          "x": 1240,
+          "y": 2470,
+          "w": 909,
+          "h": 909
+        },
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {
+          "x": 245,
+          "y": 33,
+          "w": 909,
+          "h": 909
+        },
+        "sourceSize": {
+          "w": 1400,
+          "h": 1040
+        }
+      }
+    },
+    {
+      "region": "free_games_text.png",
+      "file": "pieces/free-games-text-png-7397668e.png",
+      "properties": {
+        "frame": {
+          "x": 0,
+          "y": 3300,
+          "w": 1095,
+          "h": 156
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 1095,
+          "h": 156
+        },
+        "sourceSize": {
+          "w": 1095,
+          "h": 156
+        }
+      }
+    },
+    {
+      "region": "max_win.png",
+      "file": "pieces/max-win-png-f267c4b5.png",
+      "properties": {
+        "frame": {
+          "x": 0,
+          "y": 2852,
+          "w": 1219,
+          "h": 448
+        },
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {
+          "x": 90,
+          "y": 264,
+          "w": 1219,
+          "h": 448
+        },
+        "sourceSize": {
+          "w": 1400,
+          "h": 1040
+        }
+      }
+    },
+    {
+      "region": "max_win_text.png",
+      "file": "pieces/max-win-text-png-40df4ff1.png",
+      "properties": {
+        "frame": {
+          "x": 1095,
+          "y": 3379,
+          "w": 781,
+          "h": 155
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 781,
+          "h": 155
+        },
+        "sourceSize": {
+          "w": 781,
+          "h": 155
+        }
+      }
+    },
+    {
+      "region": "mystery_symbols.png",
+      "file": "pieces/mystery-symbols-png-7b95923b.png",
+      "properties": {
+        "frame": {
+          "x": 0,
+          "y": 2470,
+          "w": 1240,
+          "h": 382
+        },
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {
+          "x": 80,
+          "y": 297,
+          "w": 1240,
+          "h": 382
+        },
+        "sourceSize": {
+          "w": 1400,
+          "h": 1040
+        }
+      }
+    },
+    {
+      "region": "mystery_symbols_text.png",
+      "file": "pieces/mystery-symbols-text-png-dd5f7e4d.png",
+      "properties": {
+        "frame": {
+          "x": 0,
+          "y": 3534,
+          "w": 1676,
+          "h": 156
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 1676,
+          "h": 156
+        },
+        "sourceSize": {
+          "w": 1676,
+          "h": 156
+        }
+      }
+    },
+    {
+      "region": "splashframe.png",
+      "file": "pieces/splashframe-png-de7f575e.png",
+      "properties": {
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "w": 2196,
+          "h": 2470
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 2196,
+          "h": 2470
+        },
+        "sourceSize": {
+          "w": 2196,
+          "h": 2470
+        }
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

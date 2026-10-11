@@ -1,0 +1,5761 @@
+{
+  "id": "sugar-rush-1000-animations-suru-big-win-4-bf4247c6-7b1f071f",
+  "collection": "library",
+  "name": "suru_big_win_4",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-big-win-4-bf4247c6",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 5,
+    "slots": 30,
+    "attachments": 30,
+    "meshAttachments": 10,
+    "meshUvPairs": 40,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 3401816,
+    "rgbaBytesEstimate": 13607264,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 27,
+  "actions": [
+    {
+      "name": "mega_in",
+      "duration": 1,
+      "keyframes": 52,
+      "curvedKeys": 14,
+      "channels": [
+        {
+          "path": "slots.mega_high_light_1.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_2.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_3.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_white.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_1.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.sensational_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.sensational_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_3.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.sensational_high_light_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "mega_high_light_1",
+        "mega_high_light_2",
+        "mega_high_light_3",
+        "nice_base",
+        "nice_glow",
+        "nice_high_light_1",
+        "nice_high_light_2",
+        "nice_text",
+        "nice_text_depth",
+        "nice_white",
+        "sensational_base",
+        "sensational_glow",
+        "sensational_high_light_1",
+        "sensational_high_light_2",
+        "sensational_high_light_3",
+        "sensational_text",
+        "sensational_text_depth",
+        "sensational_white_part",
+        "superb_base",
+        "superb_depth",
+        "superb_glow",
+        "superb_high_light_1",
+        "superb_high_light_2",
+        "superb_text",
+        "superb_white_part"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "mega_loop",
+      "duration": 1.5,
+      "keyframes": 86,
+      "curvedKeys": 26,
+      "channels": [
+        {
+          "path": "slots.mega_high_light_1.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.mega_high_light_2.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.mega_high_light_3.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.nice_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_white.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_1.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.sensational_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_2.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.sensational_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_3.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.sensational_high_light_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.mega_high_light_1.mega_high_light_1",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.mega_high_light_2.mega_high_light_2",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.mega_high_light_3.mega_high_light_2",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.sensational_high_light_1.sensational_high_light_1",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.sensational_high_light_2.sensational_high_light_1",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.sensational_high_light_3.sensational_high_light_1",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "mega_high_light_1",
+        "mega_high_light_2",
+        "mega_high_light_3",
+        "nice_base",
+        "nice_glow",
+        "nice_high_light_1",
+        "nice_high_light_2",
+        "nice_text",
+        "nice_text_depth",
+        "nice_white",
+        "sensational_base",
+        "sensational_glow",
+        "sensational_high_light_1",
+        "sensational_high_light_2",
+        "sensational_high_light_3",
+        "sensational_text",
+        "sensational_text_depth",
+        "sensational_white_part",
+        "superb_base",
+        "superb_depth",
+        "superb_glow",
+        "superb_high_light_1",
+        "superb_high_light_2",
+        "superb_text",
+        "superb_white_part"
+      ],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "mega_out",
+      "duration": 0.5,
+      "keyframes": 53,
+      "curvedKeys": 8,
+      "channels": [
+        {
+          "path": "slots.mega_high_light_1.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_2.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_3.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_white.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_1.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.sensational_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_2.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.sensational_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_3.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.sensational_high_light_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "deform.default.mega_high_light_1.mega_high_light_1",
+          "keyframes": 1
+        },
+        {
+          "path": "deform.default.mega_high_light_2.mega_high_light_2",
+          "keyframes": 2
+        },
+        {
+          "path": "deform.default.mega_high_light_3.mega_high_light_2",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "mega_high_light_1",
+        "mega_high_light_2",
+        "mega_high_light_3",
+        "nice_base",
+        "nice_glow",
+        "nice_high_light_1",
+        "nice_high_light_2",
+        "nice_text",
+        "nice_text_depth",
+        "nice_white",
+        "sensational_base",
+        "sensational_glow",
+        "sensational_high_light_1",
+        "sensational_high_light_2",
+        "sensational_high_light_3",
+        "sensational_text",
+        "sensational_text_depth",
+        "sensational_white_part",
+        "superb_base",
+        "superb_depth",
+        "superb_glow",
+        "superb_high_light_1",
+        "superb_high_light_2",
+        "superb_text",
+        "superb_white_part"
+      ],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "nice_in",
+      "duration": 1,
+      "keyframes": 54,
+      "curvedKeys": 14,
+      "channels": [
+        {
+          "path": "slots.mega_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_1.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.nice_high_light_2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.sensational_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_1.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.sensational_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.sensational_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_3.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.sensational_high_light_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "mega_base",
+        "mega_glow",
+        "mega_high_light_1",
+        "mega_high_light_2",
+        "mega_high_light_3",
+        "mega_text",
+        "mega_text_depth",
+        "mega_white_part",
+        "nice_high_light_1",
+        "nice_high_light_2",
+        "sensational_base",
+        "sensational_glow",
+        "sensational_high_light_1",
+        "sensational_high_light_2",
+        "sensational_high_light_3",
+        "sensational_text",
+        "sensational_text_depth",
+        "sensational_white_part",
+        "superb_base",
+        "superb_depth",
+        "superb_glow",
+        "superb_high_light_1",
+        "superb_high_light_2",
+        "superb_text",
+        "superb_white_part"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "nice_loop",
+      "duration": 1.5,
+      "keyframes": 72,
+      "curvedKeys": 22,
+      "channels": [
+        {
+          "path": "slots.mega_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_1.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.sensational_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_2.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.sensational_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_3.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.sensational_high_light_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.nice_high_light_1.nice_high_light_1",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.nice_high_light_2.nice_high_light_2",
+          "keyframes": 5
+        },
+        {
+          "path": "deform.default.sensational_high_light_1.sensational_high_light_1",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.sensational_high_light_2.sensational_high_light_1",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.sensational_high_light_3.sensational_high_light_1",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "mega_base",
+        "mega_glow",
+        "mega_high_light_1",
+        "mega_high_light_2",
+        "mega_high_light_3",
+        "mega_text",
+        "mega_text_depth",
+        "mega_white_part",
+        "sensational_base",
+        "sensational_glow",
+        "sensational_high_light_1",
+        "sensational_high_light_2",
+        "sensational_high_light_3",
+        "sensational_text",
+        "sensational_text_depth",
+        "sensational_white_part",
+        "superb_base",
+        "superb_depth",
+        "superb_glow",
+        "superb_high_light_1",
+        "superb_high_light_2",
+        "superb_text",
+        "superb_white_part"
+      ],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "nice_out",
+      "duration": 0.5,
+      "keyframes": 48,
+      "curvedKeys": 8,
+      "channels": [
+        {
+          "path": "slots.mega_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_1.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.sensational_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_2.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.sensational_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_3.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.sensational_high_light_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "mega_base",
+        "mega_glow",
+        "mega_high_light_1",
+        "mega_high_light_2",
+        "mega_high_light_3",
+        "mega_text",
+        "mega_text_depth",
+        "mega_white_part",
+        "nice_high_light_1",
+        "nice_high_light_2",
+        "sensational_base",
+        "sensational_glow",
+        "sensational_high_light_1",
+        "sensational_high_light_2",
+        "sensational_high_light_3",
+        "sensational_text",
+        "sensational_text_depth",
+        "sensational_white_part",
+        "superb_base",
+        "superb_depth",
+        "superb_glow",
+        "superb_high_light_1",
+        "superb_high_light_2",
+        "superb_text",
+        "superb_white_part"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "sesnational_in",
+      "duration": 1,
+      "keyframes": 49,
+      "curvedKeys": 14,
+      "channels": [
+        {
+          "path": "slots.mega_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_white.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_1.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.sensational_high_light_2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.sensational_high_light_3.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.superb_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "mega_base",
+        "mega_glow",
+        "mega_high_light_1",
+        "mega_high_light_2",
+        "mega_high_light_3",
+        "mega_text",
+        "mega_text_depth",
+        "mega_white_part",
+        "nice_base",
+        "nice_glow",
+        "nice_high_light_1",
+        "nice_high_light_2",
+        "nice_text",
+        "nice_text_depth",
+        "nice_white",
+        "sensational_high_light_1",
+        "sensational_high_light_2",
+        "sensational_high_light_3",
+        "superb_base",
+        "superb_depth",
+        "superb_glow",
+        "superb_high_light_1",
+        "superb_high_light_2",
+        "superb_text",
+        "superb_white_part"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "sesnational_loop",
+      "duration": 1.5,
+      "keyframes": 62,
+      "curvedKeys": 20,
+      "channels": [
+        {
+          "path": "slots.mega_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_white.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_1.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.sensational_high_light_2.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.sensational_high_light_3.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.superb_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.sensational_high_light_1.sensational_high_light_1",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.sensational_high_light_2.sensational_high_light_1",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.sensational_high_light_3.sensational_high_light_1",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "mega_base",
+        "mega_glow",
+        "mega_high_light_1",
+        "mega_high_light_2",
+        "mega_high_light_3",
+        "mega_text",
+        "mega_text_depth",
+        "mega_white_part",
+        "nice_base",
+        "nice_glow",
+        "nice_high_light_1",
+        "nice_high_light_2",
+        "nice_text",
+        "nice_text_depth",
+        "nice_white",
+        "sensational_high_light_1",
+        "sensational_high_light_2",
+        "sensational_high_light_3",
+        "superb_base",
+        "superb_depth",
+        "superb_glow",
+        "superb_high_light_1",
+        "superb_high_light_2",
+        "superb_text",
+        "superb_white_part"
+      ],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "sesnational_out",
+      "duration": 0.5,
+      "keyframes": 45,
+      "curvedKeys": 8,
+      "channels": [
+        {
+          "path": "slots.mega_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_white.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_1.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.sensational_high_light_2.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.sensational_high_light_3.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.superb_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "mega_base",
+        "mega_glow",
+        "mega_high_light_1",
+        "mega_high_light_2",
+        "mega_high_light_3",
+        "mega_text",
+        "mega_text_depth",
+        "mega_white_part",
+        "nice_base",
+        "nice_glow",
+        "nice_high_light_1",
+        "nice_high_light_2",
+        "nice_text",
+        "nice_text_depth",
+        "nice_white",
+        "sensational_high_light_1",
+        "sensational_high_light_2",
+        "sensational_high_light_3",
+        "superb_base",
+        "superb_depth",
+        "superb_glow",
+        "superb_high_light_1",
+        "superb_high_light_2",
+        "superb_text",
+        "superb_white_part"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "superb_in",
+      "duration": 1,
+      "keyframes": 54,
+      "curvedKeys": 14,
+      "channels": [
+        {
+          "path": "slots.mega_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_white.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_1.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.sensational_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.sensational_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_3.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.sensational_high_light_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_1.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.superb_high_light_2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "mega_base",
+        "mega_glow",
+        "mega_high_light_1",
+        "mega_high_light_2",
+        "mega_high_light_3",
+        "mega_text",
+        "mega_text_depth",
+        "mega_white_part",
+        "nice_base",
+        "nice_glow",
+        "nice_high_light_1",
+        "nice_high_light_2",
+        "nice_text",
+        "nice_text_depth",
+        "nice_white",
+        "sensational_base",
+        "sensational_glow",
+        "sensational_high_light_1",
+        "sensational_high_light_2",
+        "sensational_high_light_3",
+        "sensational_text",
+        "sensational_text_depth",
+        "sensational_white_part",
+        "superb_high_light_1",
+        "superb_high_light_2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "superb_loop",
+      "duration": 1.5,
+      "keyframes": 72,
+      "curvedKeys": 22,
+      "channels": [
+        {
+          "path": "slots.mega_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_white.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_1.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.sensational_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_2.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.sensational_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_3.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.sensational_high_light_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.sensational_high_light_1.sensational_high_light_1",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.sensational_high_light_2.sensational_high_light_1",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.sensational_high_light_3.sensational_high_light_1",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.superb_high_light_1.superb_high_light_1",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.superb_high_light_2.superb_high_light_2",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "mega_base",
+        "mega_glow",
+        "mega_high_light_1",
+        "mega_high_light_2",
+        "mega_high_light_3",
+        "mega_text",
+        "mega_text_depth",
+        "mega_white_part",
+        "nice_base",
+        "nice_glow",
+        "nice_high_light_1",
+        "nice_high_light_2",
+        "nice_text",
+        "nice_text_depth",
+        "nice_white",
+        "sensational_base",
+        "sensational_glow",
+        "sensational_high_light_1",
+        "sensational_high_light_2",
+        "sensational_high_light_3",
+        "sensational_text",
+        "sensational_text_depth",
+        "sensational_white_part"
+      ],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "superb_out",
+      "duration": 0.5,
+      "keyframes": 49,
+      "curvedKeys": 8,
+      "channels": [
+        {
+          "path": "slots.mega_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_high_light_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.mega_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.nice_white.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_base.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_glow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_1.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.sensational_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_2.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.sensational_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_high_light_3.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.sensational_high_light_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_text.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_text_depth.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sensational_white_part.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.superb_high_light_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "mega_base",
+        "mega_glow",
+        "mega_high_light_1",
+        "mega_high_light_2",
+        "mega_high_light_3",
+        "mega_text",
+        "mega_text_depth",
+        "mega_white_part",
+        "nice_base",
+        "nice_glow",
+        "nice_high_light_1",
+        "nice_high_light_2",
+        "nice_text",
+        "nice_text_depth",
+        "nice_white",
+        "sensational_base",
+        "sensational_glow",
+        "sensational_high_light_1",
+        "sensational_high_light_2",
+        "sensational_high_light_3",
+        "sensational_text",
+        "sensational_text_depth",
+        "sensational_white_part",
+        "superb_high_light_1",
+        "superb_high_light_2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-big-win-4-bf4247c6-7b1f071f/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "sensational",
+        "parent": "root",
+        "x": 2.92,
+        "y": 285.62,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "numbers",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "stars",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "big_star",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "superb_glow",
+        "bone": "sensational",
+        "setupAttachment": "superb_glow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "superb_base",
+        "bone": "sensational",
+        "setupAttachment": "superb_base",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "superb_white_part",
+        "bone": "sensational",
+        "setupAttachment": "superb_white_part",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "superb_depth",
+        "bone": "sensational",
+        "setupAttachment": "superb_depth",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "superb_text",
+        "bone": "sensational",
+        "setupAttachment": "superb_text",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "superb_high_light_2",
+        "bone": "sensational",
+        "setupAttachment": "superb_high_light_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "superb_high_light_1",
+        "bone": "sensational",
+        "setupAttachment": "superb_high_light_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mega_glow",
+        "bone": "sensational",
+        "setupAttachment": "mega_glow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mega_base",
+        "bone": "sensational",
+        "setupAttachment": "mega_base",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mega_white_part",
+        "bone": "sensational",
+        "setupAttachment": "mega_white_part",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mega_text_depth",
+        "bone": "sensational",
+        "setupAttachment": "mega_text_depth",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mega_text",
+        "bone": "sensational",
+        "setupAttachment": "mega_text",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mega_high_light_2",
+        "bone": "sensational",
+        "setupAttachment": "mega_high_light_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mega_high_light_3",
+        "bone": "sensational",
+        "setupAttachment": "mega_high_light_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mega_high_light_1",
+        "bone": "sensational",
+        "setupAttachment": "mega_high_light_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "nice_glow",
+        "bone": "sensational",
+        "setupAttachment": "nice_glow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "nice_base",
+        "bone": "sensational",
+        "setupAttachment": "nice_base",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "nice_white",
+        "bone": "sensational",
+        "setupAttachment": "nice_white",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "nice_text_depth",
+        "bone": "sensational",
+        "setupAttachment": "nice_text_depth",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "nice_text",
+        "bone": "sensational",
+        "setupAttachment": "nice_text",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "nice_high_light_2",
+        "bone": "sensational",
+        "setupAttachment": "nice_high_light_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "nice_high_light_1",
+        "bone": "sensational",
+        "setupAttachment": "nice_high_light_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "sensational_glow",
+        "bone": "sensational",
+        "setupAttachment": "sensational_glow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "sensational_base",
+        "bone": "sensational",
+        "setupAttachment": "sensational_base",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "sensational_white_part",
+        "bone": "sensational",
+        "setupAttachment": "sensational_white_part",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "sensational_text_depth",
+        "bone": "sensational",
+        "setupAttachment": "sensational_text_depth",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "sensational_text",
+        "bone": "sensational",
+        "setupAttachment": "sensational_text",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "sensational_high_light_1",
+        "bone": "sensational",
+        "setupAttachment": "sensational_high_light_1",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "sensational_high_light_3",
+        "bone": "sensational",
+        "setupAttachment": "sensational_high_light_1",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "sensational_high_light_2",
+        "bone": "sensational",
+        "setupAttachment": "sensational_high_light_1",
+        "blend": "additive",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "mega_base",
+        "name": "mega_base",
+        "region": "mega_base",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": 5.11,
+          "y": -8.32,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 693,
+          "height": 294
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mega_glow",
+        "name": "mega_glow",
+        "region": "mega_glow",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": 5.11,
+          "y": -8.32,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 363,
+          "height": 163
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mega_high_light_1",
+        "name": "mega_high_light_1",
+        "region": "mega_high_light_1",
+        "type": "mesh",
+        "bone": "sensational",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mega_high_light_2",
+        "name": "mega_high_light_2",
+        "region": "mega_high_light_2",
+        "type": "mesh",
+        "bone": "sensational",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mega_high_light_3",
+        "name": "mega_high_light_2",
+        "region": "mega_high_light_2",
+        "type": "mesh",
+        "bone": "sensational",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mega_text",
+        "name": "mega_text",
+        "region": "mega_text",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": 5.61,
+          "y": 10.68,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 654,
+          "height": 216
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mega_text_depth",
+        "name": "mega_text_depth",
+        "region": "mega_text_depth",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": 5.11,
+          "y": -2.82,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 655,
+          "height": 243
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mega_white_part",
+        "name": "mega_white_part",
+        "region": "mega_white_part",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": 5.11,
+          "y": -3.32,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 334,
+          "height": 126
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "nice_base",
+        "name": "nice_base",
+        "region": "nice_base",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": 1.11,
+          "y": 4.68,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 589,
+          "height": 294
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "nice_glow",
+        "name": "nice_glow",
+        "region": "nice_glow",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": 0.61,
+          "y": 4.68,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 311,
+          "height": 163
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "nice_high_light_1",
+        "name": "nice_high_light_1",
+        "region": "nice_high_light_1",
+        "type": "mesh",
+        "bone": "sensational",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "nice_high_light_2",
+        "name": "nice_high_light_2",
+        "region": "nice_high_light_2",
+        "type": "mesh",
+        "bone": "sensational",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "nice_text",
+        "name": "nice_text",
+        "region": "nice_text",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": 1.11,
+          "y": 22.18,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 553,
+          "height": 223
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "nice_text_depth",
+        "name": "nice_text_depth",
+        "region": "nice_text_depth",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": 1.61,
+          "y": 10.68,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 554,
+          "height": 248
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "nice_white",
+        "name": "nice_white",
+        "region": "nice_white",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": 1.61,
+          "y": 10.68,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 282,
+          "height": 128
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "sensational_base",
+        "name": "sensational_base",
+        "region": "sensational_base",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": 3.11,
+          "y": -54.82,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1231,
+          "height": 331
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "sensational_glow",
+        "name": "sensational_glow",
+        "region": "sensational_glow",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": -1.89,
+          "y": -54.32,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 639,
+          "height": 181
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "sensational_high_light_1",
+        "name": "sensational_high_light_1",
+        "region": "sensational_high_light_1",
+        "type": "mesh",
+        "bone": "sensational",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "sensational_high_light_2",
+        "name": "sensational_high_light_1",
+        "region": "sensational_high_light_1",
+        "type": "mesh",
+        "bone": "sensational",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "sensational_high_light_3",
+        "name": "sensational_high_light_1",
+        "region": "sensational_high_light_1",
+        "type": "mesh",
+        "bone": "sensational",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "sensational_text",
+        "name": "sensational_text",
+        "region": "sensational_text",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": 3.61,
+          "y": -37.32,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1188,
+          "height": 262
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "sensational_text_depth",
+        "name": "sensational_text_depth",
+        "region": "sensational_text_depth",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": 3.61,
+          "y": -48.32,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1190,
+          "height": 284
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "sensational_white_part",
+        "name": "sensational_white_part",
+        "region": "sensational_white_part",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": 3.61,
+          "y": -48.82,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 600,
+          "height": 147
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "superb_base",
+        "name": "superb_base",
+        "region": "superb_base",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": -0.39,
+          "y": -23.82,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 904,
+          "height": 303
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "superb_depth",
+        "name": "superb_depth",
+        "region": "superb_depth",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": -0.39,
+          "y": -16.82,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 858,
+          "height": 241
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "superb_glow",
+        "name": "superb_glow",
+        "region": "superb_glow",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": 0.11,
+          "y": -23.82,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 469,
+          "height": 168
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "superb_high_light_1",
+        "name": "superb_high_light_1",
+        "region": "superb_high_light_1",
+        "type": "mesh",
+        "bone": "sensational",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "superb_high_light_2",
+        "name": "superb_high_light_2",
+        "region": "superb_high_light_2",
+        "type": "mesh",
+        "bone": "sensational",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "superb_text",
+        "name": "superb_text",
+        "region": "superb_text",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": 0.11,
+          "y": -13.32,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 857,
+          "height": 234
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "superb_white_part",
+        "name": "superb_white_part",
+        "region": "superb_white_part",
+        "type": "region",
+        "bone": "sensational",
+        "transform": {
+          "x": 0.11,
+          "y": -16.82,
+          "rotation": 0,
+          "scaleX": 2,
+          "scaleY": 2
+        },
+        "size": {
+          "width": 435,
+          "height": 127
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "mega_in",
+        "duration": 1,
+        "keyframes": 52,
+        "curvedKeys": 14,
+        "channels": [
+          {
+            "path": "slots.mega_high_light_1.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_2.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_3.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_white.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_1.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.sensational_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.sensational_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_3.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.sensational_high_light_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "mega_high_light_1",
+          "mega_high_light_2",
+          "mega_high_light_3",
+          "nice_base",
+          "nice_glow",
+          "nice_high_light_1",
+          "nice_high_light_2",
+          "nice_text",
+          "nice_text_depth",
+          "nice_white",
+          "sensational_base",
+          "sensational_glow",
+          "sensational_high_light_1",
+          "sensational_high_light_2",
+          "sensational_high_light_3",
+          "sensational_text",
+          "sensational_text_depth",
+          "sensational_white_part",
+          "superb_base",
+          "superb_depth",
+          "superb_glow",
+          "superb_high_light_1",
+          "superb_high_light_2",
+          "superb_text",
+          "superb_white_part"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "mega_loop",
+        "duration": 1.5,
+        "keyframes": 86,
+        "curvedKeys": 26,
+        "channels": [
+          {
+            "path": "slots.mega_high_light_1.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.mega_high_light_2.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.mega_high_light_3.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.nice_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_white.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_1.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.sensational_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_2.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.sensational_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_3.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.sensational_high_light_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.mega_high_light_1.mega_high_light_1",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.mega_high_light_2.mega_high_light_2",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.mega_high_light_3.mega_high_light_2",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.sensational_high_light_1.sensational_high_light_1",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.sensational_high_light_2.sensational_high_light_1",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.sensational_high_light_3.sensational_high_light_1",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "mega_high_light_1",
+          "mega_high_light_2",
+          "mega_high_light_3",
+          "nice_base",
+          "nice_glow",
+          "nice_high_light_1",
+          "nice_high_light_2",
+          "nice_text",
+          "nice_text_depth",
+          "nice_white",
+          "sensational_base",
+          "sensational_glow",
+          "sensational_high_light_1",
+          "sensational_high_light_2",
+          "sensational_high_light_3",
+          "sensational_text",
+          "sensational_text_depth",
+          "sensational_white_part",
+          "superb_base",
+          "superb_depth",
+          "superb_glow",
+          "superb_high_light_1",
+          "superb_high_light_2",
+          "superb_text",
+          "superb_white_part"
+        ],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "mega_out",
+        "duration": 0.5,
+        "keyframes": 53,
+        "curvedKeys": 8,
+        "channels": [
+          {
+            "path": "slots.mega_high_light_1.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_2.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_3.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_white.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_1.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.sensational_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_2.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.sensational_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_3.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.sensational_high_light_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "deform.default.mega_high_light_1.mega_high_light_1",
+            "keyframes": 1
+          },
+          {
+            "path": "deform.default.mega_high_light_2.mega_high_light_2",
+            "keyframes": 2
+          },
+          {
+            "path": "deform.default.mega_high_light_3.mega_high_light_2",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "mega_high_light_1",
+          "mega_high_light_2",
+          "mega_high_light_3",
+          "nice_base",
+          "nice_glow",
+          "nice_high_light_1",
+          "nice_high_light_2",
+          "nice_text",
+          "nice_text_depth",
+          "nice_white",
+          "sensational_base",
+          "sensational_glow",
+          "sensational_high_light_1",
+          "sensational_high_light_2",
+          "sensational_high_light_3",
+          "sensational_text",
+          "sensational_text_depth",
+          "sensational_white_part",
+          "superb_base",
+          "superb_depth",
+          "superb_glow",
+          "superb_high_light_1",
+          "superb_high_light_2",
+          "superb_text",
+          "superb_white_part"
+        ],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "nice_in",
+        "duration": 1,
+        "keyframes": 54,
+        "curvedKeys": 14,
+        "channels": [
+          {
+            "path": "slots.mega_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_1.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.nice_high_light_2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.sensational_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_1.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.sensational_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.sensational_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_3.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.sensational_high_light_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "mega_base",
+          "mega_glow",
+          "mega_high_light_1",
+          "mega_high_light_2",
+          "mega_high_light_3",
+          "mega_text",
+          "mega_text_depth",
+          "mega_white_part",
+          "nice_high_light_1",
+          "nice_high_light_2",
+          "sensational_base",
+          "sensational_glow",
+          "sensational_high_light_1",
+          "sensational_high_light_2",
+          "sensational_high_light_3",
+          "sensational_text",
+          "sensational_text_depth",
+          "sensational_white_part",
+          "superb_base",
+          "superb_depth",
+          "superb_glow",
+          "superb_high_light_1",
+          "superb_high_light_2",
+          "superb_text",
+          "superb_white_part"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "nice_loop",
+        "duration": 1.5,
+        "keyframes": 72,
+        "curvedKeys": 22,
+        "channels": [
+          {
+            "path": "slots.mega_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_1.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.sensational_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_2.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.sensational_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_3.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.sensational_high_light_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.nice_high_light_1.nice_high_light_1",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.nice_high_light_2.nice_high_light_2",
+            "keyframes": 5
+          },
+          {
+            "path": "deform.default.sensational_high_light_1.sensational_high_light_1",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.sensational_high_light_2.sensational_high_light_1",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.sensational_high_light_3.sensational_high_light_1",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "mega_base",
+          "mega_glow",
+          "mega_high_light_1",
+          "mega_high_light_2",
+          "mega_high_light_3",
+          "mega_text",
+          "mega_text_depth",
+          "mega_white_part",
+          "sensational_base",
+          "sensational_glow",
+          "sensational_high_light_1",
+          "sensational_high_light_2",
+          "sensational_high_light_3",
+          "sensational_text",
+          "sensational_text_depth",
+          "sensational_white_part",
+          "superb_base",
+          "superb_depth",
+          "superb_glow",
+          "superb_high_light_1",
+          "superb_high_light_2",
+          "superb_text",
+          "superb_white_part"
+        ],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "nice_out",
+        "duration": 0.5,
+        "keyframes": 48,
+        "curvedKeys": 8,
+        "channels": [
+          {
+            "path": "slots.mega_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_1.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.sensational_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_2.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.sensational_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_3.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.sensational_high_light_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "mega_base",
+          "mega_glow",
+          "mega_high_light_1",
+          "mega_high_light_2",
+          "mega_high_light_3",
+          "mega_text",
+          "mega_text_depth",
+          "mega_white_part",
+          "nice_high_light_1",
+          "nice_high_light_2",
+          "sensational_base",
+          "sensational_glow",
+          "sensational_high_light_1",
+          "sensational_high_light_2",
+          "sensational_high_light_3",
+          "sensational_text",
+          "sensational_text_depth",
+          "sensational_white_part",
+          "superb_base",
+          "superb_depth",
+          "superb_glow",
+          "superb_high_light_1",
+          "superb_high_light_2",
+          "superb_text",
+          "superb_white_part"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "sesnational_in",
+        "duration": 1,
+        "keyframes": 49,
+        "curvedKeys": 14,
+        "channels": [
+          {
+            "path": "slots.mega_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_white.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_1.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.sensational_high_light_2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.sensational_high_light_3.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.superb_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "mega_base",
+          "mega_glow",
+          "mega_high_light_1",
+          "mega_high_light_2",
+          "mega_high_light_3",
+          "mega_text",
+          "mega_text_depth",
+          "mega_white_part",
+          "nice_base",
+          "nice_glow",
+          "nice_high_light_1",
+          "nice_high_light_2",
+          "nice_text",
+          "nice_text_depth",
+          "nice_white",
+          "sensational_high_light_1",
+          "sensational_high_light_2",
+          "sensational_high_light_3",
+          "superb_base",
+          "superb_depth",
+          "superb_glow",
+          "superb_high_light_1",
+          "superb_high_light_2",
+          "superb_text",
+          "superb_white_part"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "sesnational_loop",
+        "duration": 1.5,
+        "keyframes": 62,
+        "curvedKeys": 20,
+        "channels": [
+          {
+            "path": "slots.mega_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_white.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_1.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.sensational_high_light_2.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.sensational_high_light_3.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.superb_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.sensational_high_light_1.sensational_high_light_1",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.sensational_high_light_2.sensational_high_light_1",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.sensational_high_light_3.sensational_high_light_1",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "mega_base",
+          "mega_glow",
+          "mega_high_light_1",
+          "mega_high_light_2",
+          "mega_high_light_3",
+          "mega_text",
+          "mega_text_depth",
+          "mega_white_part",
+          "nice_base",
+          "nice_glow",
+          "nice_high_light_1",
+          "nice_high_light_2",
+          "nice_text",
+          "nice_text_depth",
+          "nice_white",
+          "sensational_high_light_1",
+          "sensational_high_light_2",
+          "sensational_high_light_3",
+          "superb_base",
+          "superb_depth",
+          "superb_glow",
+          "superb_high_light_1",
+          "superb_high_light_2",
+          "superb_text",
+          "superb_white_part"
+        ],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "sesnational_out",
+        "duration": 0.5,
+        "keyframes": 45,
+        "curvedKeys": 8,
+        "channels": [
+          {
+            "path": "slots.mega_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_white.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_1.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.sensational_high_light_2.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.sensational_high_light_3.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.superb_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "mega_base",
+          "mega_glow",
+          "mega_high_light_1",
+          "mega_high_light_2",
+          "mega_high_light_3",
+          "mega_text",
+          "mega_text_depth",
+          "mega_white_part",
+          "nice_base",
+          "nice_glow",
+          "nice_high_light_1",
+          "nice_high_light_2",
+          "nice_text",
+          "nice_text_depth",
+          "nice_white",
+          "sensational_high_light_1",
+          "sensational_high_light_2",
+          "sensational_high_light_3",
+          "superb_base",
+          "superb_depth",
+          "superb_glow",
+          "superb_high_light_1",
+          "superb_high_light_2",
+          "superb_text",
+          "superb_white_part"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "superb_in",
+        "duration": 1,
+        "keyframes": 54,
+        "curvedKeys": 14,
+        "channels": [
+          {
+            "path": "slots.mega_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_white.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_1.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.sensational_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.sensational_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_3.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.sensational_high_light_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_1.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.superb_high_light_2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "mega_base",
+          "mega_glow",
+          "mega_high_light_1",
+          "mega_high_light_2",
+          "mega_high_light_3",
+          "mega_text",
+          "mega_text_depth",
+          "mega_white_part",
+          "nice_base",
+          "nice_glow",
+          "nice_high_light_1",
+          "nice_high_light_2",
+          "nice_text",
+          "nice_text_depth",
+          "nice_white",
+          "sensational_base",
+          "sensational_glow",
+          "sensational_high_light_1",
+          "sensational_high_light_2",
+          "sensational_high_light_3",
+          "sensational_text",
+          "sensational_text_depth",
+          "sensational_white_part",
+          "superb_high_light_1",
+          "superb_high_light_2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "superb_loop",
+        "duration": 1.5,
+        "keyframes": 72,
+        "curvedKeys": 22,
+        "channels": [
+          {
+            "path": "slots.mega_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_white.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_1.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.sensational_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_2.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.sensational_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_3.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.sensational_high_light_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.sensational_high_light_1.sensational_high_light_1",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.sensational_high_light_2.sensational_high_light_1",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.sensational_high_light_3.sensational_high_light_1",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.superb_high_light_1.superb_high_light_1",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.superb_high_light_2.superb_high_light_2",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "mega_base",
+          "mega_glow",
+          "mega_high_light_1",
+          "mega_high_light_2",
+          "mega_high_light_3",
+          "mega_text",
+          "mega_text_depth",
+          "mega_white_part",
+          "nice_base",
+          "nice_glow",
+          "nice_high_light_1",
+          "nice_high_light_2",
+          "nice_text",
+          "nice_text_depth",
+          "nice_white",
+          "sensational_base",
+          "sensational_glow",
+          "sensational_high_light_1",
+          "sensational_high_light_2",
+          "sensational_high_light_3",
+          "sensational_text",
+          "sensational_text_depth",
+          "sensational_white_part"
+        ],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "superb_out",
+        "duration": 0.5,
+        "keyframes": 49,
+        "curvedKeys": 8,
+        "channels": [
+          {
+            "path": "slots.mega_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_high_light_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.mega_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.nice_white.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_base.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_glow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_1.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.sensational_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_2.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.sensational_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_high_light_3.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.sensational_high_light_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_text.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_text_depth.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sensational_white_part.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.superb_high_light_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "mega_base",
+          "mega_glow",
+          "mega_high_light_1",
+          "mega_high_light_2",
+          "mega_high_light_3",
+          "mega_text",
+          "mega_text_depth",
+          "mega_white_part",
+          "nice_base",
+          "nice_glow",
+          "nice_high_light_1",
+          "nice_high_light_2",
+          "nice_text",
+          "nice_text_depth",
+          "nice_white",
+          "sensational_base",
+          "sensational_glow",
+          "sensational_high_light_1",
+          "sensational_high_light_2",
+          "sensational_high_light_3",
+          "sensational_text",
+          "sensational_text_depth",
+          "sensational_white_part",
+          "superb_high_light_1",
+          "superb_high_light_2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 5,
+      "slots": 30,
+      "attachments": 30,
+      "meshAttachments": 10,
+      "meshUvPairs": 40,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "mega_base",
+      "file": "pieces/mega-base-572afefe.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1192, 1041",
+        "size": "693, 294",
+        "orig": "693, 294",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "mega_glow",
+      "file": "pieces/mega-glow-26124fa6.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1461, 172",
+        "size": "363, 163",
+        "orig": "363, 163",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "mega_high_light_1",
+      "file": "pieces/mega-high-light-1-1402b774.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "773, 40",
+        "size": "91, 77",
+        "orig": "91, 77",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "mega_high_light_2",
+      "file": "pieces/mega-high-light-2-03cda263.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1831, 987",
+        "size": "61, 52",
+        "orig": "61, 52",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "mega_text",
+      "file": "pieces/mega-text-68b500e8.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1233, 1337",
+        "size": "654, 216",
+        "orig": "654, 216",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "mega_text_depth",
+      "file": "pieces/mega-text-depth-2eab3638.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1233, 1555",
+        "size": "655, 243",
+        "orig": "655, 243",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "mega_white_part",
+      "file": "pieces/mega-white-part-421575ec.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "437, 5",
+        "size": "334, 126",
+        "orig": "334, 126",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "nice_base",
+      "file": "pieces/nice-base-681a005e.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1156, 562",
+        "size": "589, 294",
+        "orig": "589, 294",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "nice_glow",
+      "file": "pieces/nice-glow-7d4dd90f.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1330, 7",
+        "size": "311, 163",
+        "orig": "311, 163",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "nice_high_light_1",
+      "file": "pieces/nice-high-light-1-13bda22c.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1750, 80",
+        "size": "90, 73",
+        "orig": "90, 73",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "nice_high_light_2",
+      "file": "pieces/nice-high-light-2-925106df.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1831, 867",
+        "size": "57, 47",
+        "orig": "57, 47",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "nice_text",
+      "file": "pieces/nice-text-ba041372.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1156, 337",
+        "size": "553, 223",
+        "orig": "553, 223",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "nice_text_depth",
+      "file": "pieces/nice-text-depth-7eea4fb6.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "906, 361",
+        "size": "554, 248",
+        "orig": "554, 248",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "nice_white",
+      "file": "pieces/nice-white-4935c563.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1747, 574",
+        "size": "282, 128",
+        "orig": "282, 128",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "sensational_base",
+      "file": "pieces/sensational-base-fcff2a08.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 1467",
+        "size": "1231, 331",
+        "orig": "1231, 331",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "sensational_glow",
+      "file": "pieces/sensational-glow-a0ef4fb0.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1190, 858",
+        "size": "639, 181",
+        "orig": "639, 181",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "sensational_high_light_1",
+      "file": "pieces/sensational-high-light-1-bcfedf06.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1643, 0",
+        "size": "92, 80",
+        "orig": "92, 80",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "sensational_text",
+      "file": "pieces/sensational-text-d5a25a52.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 917",
+        "size": "1188, 262",
+        "orig": "1188, 262",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "sensational_text_depth",
+      "file": "pieces/sensational-text-depth-12cddc4b.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 1181",
+        "size": "1190, 284",
+        "orig": "1190, 284",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "sensational_white_part",
+      "file": "pieces/sensational-white-part-e1a1f779.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "859, 188",
+        "size": "600, 147",
+        "orig": "600, 147",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "superb_base",
+      "file": "pieces/superb-base-9812c107.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 612",
+        "size": "904, 303",
+        "orig": "904, 303",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "superb_depth",
+      "file": "pieces/superb-depth-4b3585b5.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 369",
+        "size": "858, 241",
+        "orig": "858, 241",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "superb_glow",
+      "file": "pieces/superb-glow-8eb0aea0.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "859, 18",
+        "size": "469, 168",
+        "orig": "469, 168",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "superb_high_light_1",
+      "file": "pieces/superb-high-light-1-1ccfa5c8.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1643, 82",
+        "size": "105, 88",
+        "orig": "105, 88",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "superb_high_light_2",
+      "file": "pieces/superb-high-light-2-975a9309.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1831, 916",
+        "size": "69, 60",
+        "orig": "69, 60",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "superb_text",
+      "file": "pieces/superb-text-829418e9.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 133",
+        "size": "857, 234",
+        "orig": "857, 234",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "superb_white_part",
+      "file": "pieces/superb-white-part-33b2bbac.png",
+      "page": "suru_big_win_4.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 4",
+        "size": "435, 127",
+        "orig": "435, 127",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

@@ -1,0 +1,1050 @@
+{
+  "id": "interrogator-animations-ink-d05646cc-cc8dda68",
+  "collection": "library",
+  "name": "ink",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/interrogator/animations/ink-d05646cc",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 2,
+    "slots": 2,
+    "attachments": 28,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 2097152,
+    "rgbaBytesEstimate": 8388608,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 28,
+  "actions": [
+    {
+      "name": "ink",
+      "duration": 0.9333,
+      "keyframes": 39,
+      "curvedKeys": 4,
+      "channels": [
+        {
+          "path": "slots.ezgif-frame-001png_1.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.ezgif-frame-001png_1.attachment",
+          "keyframes": 29
+        },
+        {
+          "path": "bones.ink.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ink.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ink.shear",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "ink"
+      ],
+      "animatedSlots": [
+        "ezgif-frame-001png_1"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/interrogator-animations-ink-d05646cc-cc8dda68/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ink",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "Untitled-1",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ezgif-frame-001png_1",
+        "bone": "ink",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-001png_1",
+        "region": "ezgif-frame-001png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -243,
+          "y": -127,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 58,
+          "height": 96
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-003png_1",
+        "region": "ezgif-frame-003png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -229,
+          "y": -111,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 78,
+          "height": 134
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-004png_1",
+        "region": "ezgif-frame-004png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -207.5,
+          "y": -102,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 121,
+          "height": 166
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-006png_1",
+        "region": "ezgif-frame-006png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -191.5,
+          "y": -100,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 153,
+          "height": 182
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-007png_1",
+        "region": "ezgif-frame-007png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -175,
+          "y": -99.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 186,
+          "height": 197
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-008png_1",
+        "region": "ezgif-frame-008png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -161,
+          "y": -99.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 214,
+          "height": 209
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-009png_1",
+        "region": "ezgif-frame-009png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -144.5,
+          "y": -100,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 247,
+          "height": 222
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-011png_1",
+        "region": "ezgif-frame-011png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -132.5,
+          "y": -99.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 271,
+          "height": 233
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-012png_1",
+        "region": "ezgif-frame-012png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -122,
+          "y": -95,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 290,
+          "height": 246
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-013png_1",
+        "region": "ezgif-frame-013png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -114.5,
+          "y": -87,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 305,
+          "height": 266
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-014png_1",
+        "region": "ezgif-frame-014png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -105.5,
+          "y": -79,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 321,
+          "height": 284
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-016png_1",
+        "region": "ezgif-frame-016png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -94.5,
+          "y": -50,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 339,
+          "height": 266
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-017png_1",
+        "region": "ezgif-frame-017png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -87.5,
+          "y": -45.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 353,
+          "height": 283
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-018png_1",
+        "region": "ezgif-frame-018png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -82,
+          "y": -41.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 364,
+          "height": 299
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-019png_1",
+        "region": "ezgif-frame-019png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -76,
+          "y": -38,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 376,
+          "height": 314
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-021png_1",
+        "region": "ezgif-frame-021png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -69.5,
+          "y": -35,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 389,
+          "height": 330
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-022png_1",
+        "region": "ezgif-frame-022png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -65,
+          "y": -32,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 396,
+          "height": 338
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-023png_1",
+        "region": "ezgif-frame-023png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -9,
+          "y": -6.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 300,
+          "height": 301
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-024png_1",
+        "region": "ezgif-frame-024png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -9,
+          "y": -8.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 314,
+          "height": 315
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-026png_1",
+        "region": "ezgif-frame-026png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -9,
+          "y": -10,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 328,
+          "height": 330
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-027png_1",
+        "region": "ezgif-frame-027png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -8.5,
+          "y": -12,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 339,
+          "height": 340
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-028png_1",
+        "region": "ezgif-frame-028png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -8.5,
+          "y": -15,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 351,
+          "height": 352
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-029png_1",
+        "region": "ezgif-frame-029png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -8.5,
+          "y": -17.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 363,
+          "height": 363
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-031png_1",
+        "region": "ezgif-frame-031png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -8,
+          "y": -21,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 374,
+          "height": 374
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-032png_1",
+        "region": "ezgif-frame-032png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -8,
+          "y": -24,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 384,
+          "height": 384
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-033png_1",
+        "region": "ezgif-frame-033png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -7,
+          "y": -26.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 394,
+          "height": 393
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-034png_1",
+        "region": "ezgif-frame-034png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -7,
+          "y": -28,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 404,
+          "height": 396
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ezgif-frame-001png_1",
+        "name": "ezgif-frame-036png_1",
+        "region": "ezgif-frame-036png_1",
+        "type": "region",
+        "bone": "ink",
+        "transform": {
+          "x": -6.5,
+          "y": -27.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 413,
+          "height": 397
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "ink",
+        "duration": 0.9333,
+        "keyframes": 39,
+        "curvedKeys": 4,
+        "channels": [
+          {
+            "path": "slots.ezgif-frame-001png_1.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.ezgif-frame-001png_1.attachment",
+            "keyframes": 29
+          },
+          {
+            "path": "bones.ink.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ink.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ink.shear",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "ink"
+        ],
+        "animatedSlots": [
+          "ezgif-frame-001png_1"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 2,
+      "slots": 2,
+      "attachments": 28,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "ezgif-frame-001png_1",
+      "file": "pieces/ezgif-frame-001png-1-45806930.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "1,1,58,96",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ezgif-frame-003png_1",
+      "file": "pieces/ezgif-frame-003png-1-7b97b011.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "1952,415,78,134"
+      }
+    },
+    {
+      "region": "ezgif-frame-004png_1",
+      "file": "pieces/ezgif-frame-004png-1-08c791cd.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "1784,428,121,166",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ezgif-frame-006png_1",
+      "file": "pieces/ezgif-frame-006png-1-37875002.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "1600,407,153,182",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ezgif-frame-007png_1",
+      "file": "pieces/ezgif-frame-007png-1-d1b35d3e.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "1412,389,186,197"
+      }
+    },
+    {
+      "region": "ezgif-frame-008png_1",
+      "file": "pieces/ezgif-frame-008png-1-970b0495.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "740,80,214,209"
+      }
+    },
+    {
+      "region": "ezgif-frame-009png_1",
+      "file": "pieces/ezgif-frame-009png-1-78bf98e9.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "261,235,247,222"
+      }
+    },
+    {
+      "region": "ezgif-frame-011png_1",
+      "file": "pieces/ezgif-frame-011png-1-fa089222.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "714,529,271,233"
+      }
+    },
+    {
+      "region": "ezgif-frame-012png_1",
+      "file": "pieces/ezgif-frame-012png-1-2218bbc5.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "261,459,290,246",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ezgif-frame-013png_1",
+      "file": "pieces/ezgif-frame-013png-1-3dd54fb4.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "715,764,305,258",
+        "offsets": "0,0,305,266"
+      }
+    },
+    {
+      "region": "ezgif-frame-014png_1",
+      "file": "pieces/ezgif-frame-014png-1-38763916.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "1672,767,297,255",
+        "offsets": "0,0,321,284"
+      }
+    },
+    {
+      "region": "ezgif-frame-016png_1",
+      "file": "pieces/ezgif-frame-016png-1-983aa32b.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "1351,805,319,217",
+        "offsets": "0,0,339,266"
+      }
+    },
+    {
+      "region": "ezgif-frame-017png_1",
+      "file": "pieces/ezgif-frame-017png-1-0957d828.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "1022,795,327,227",
+        "offsets": "0,0,353,283"
+      }
+    },
+    {
+      "region": "ezgif-frame-018png_1",
+      "file": "pieces/ezgif-frame-018png-1-7d6f0d81.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "1,61,330,235",
+        "offsets": "0,0,364,299",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ezgif-frame-019png_1",
+      "file": "pieces/ezgif-frame-019png-1-36c9d4f7.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "358,767,355,255",
+        "offsets": "0,0,376,314"
+      }
+    },
+    {
+      "region": "ezgif-frame-021png_1",
+      "file": "pieces/ezgif-frame-021png-1-924db5c2.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "1,393,356,258",
+        "offsets": "0,0,389,330",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ezgif-frame-022png_1",
+      "file": "pieces/ezgif-frame-022png-1-a07b0934.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "1,751,355,271",
+        "offsets": "0,0,396,338"
+      }
+    },
+    {
+      "region": "ezgif-frame-023png_1",
+      "file": "pieces/ezgif-frame-023png-1-8db30695.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "958,308,227,217",
+        "offsets": "41,1,300,301"
+      }
+    },
+    {
+      "region": "ezgif-frame-024png_1",
+      "file": "pieces/ezgif-frame-024png-1-ccd8a6c9.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "509,506,203,259",
+        "offsets": "59,27,314,315"
+      }
+    },
+    {
+      "region": "ezgif-frame-026png_1",
+      "file": "pieces/ezgif-frame-026png-1-dacfbf94.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "1847,551,197,214",
+        "offsets": "67,29,328,330"
+      }
+    },
+    {
+      "region": "ezgif-frame-027png_1",
+      "file": "pieces/ezgif-frame-027png-1-2354ab87.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "1203,374,194,207",
+        "offsets": "72,31,339,340",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ezgif-frame-028png_1",
+      "file": "pieces/ezgif-frame-028png-1-a1a228e8.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "987,527,235,214",
+        "offsets": "38,35,351,352",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ezgif-frame-029png_1",
+      "file": "pieces/ezgif-frame-029png-1-536ae0cb.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "1627,562,203,218",
+        "offsets": "79,37,363,363",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ezgif-frame-031png_1",
+      "file": "pieces/ezgif-frame-031png-1-40005a82.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "510,247,257,228",
+        "offsets": "34,41,374,374",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ezgif-frame-032png_1",
+      "file": "pieces/ezgif-frame-032png-1-2aeb3887.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "740,291,216,236",
+        "offsets": "80,44,384,384"
+      }
+    },
+    {
+      "region": "ezgif-frame-033png_1",
+      "file": "pieces/ezgif-frame-033png-1-043cd215.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "238,27,206,242",
+        "offsets": "95,47,394,393",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ezgif-frame-034png_1",
+      "file": "pieces/ezgif-frame-034png-1-0cc1e25d.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "1412,588,213,215",
+        "offsets": "93,84,404,396"
+      }
+    },
+    {
+      "region": "ezgif-frame-036png_1",
+      "file": "pieces/ezgif-frame-036png-1-dd867287.png",
+      "page": "ink.png",
+      "properties": {
+        "bounds": "1203,570,207,223",
+        "offsets": "103,86,413,397"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

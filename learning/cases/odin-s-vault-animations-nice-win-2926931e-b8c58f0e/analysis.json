@@ -1,0 +1,4765 @@
+{
+  "id": "odin-s-vault-animations-nice-win-2926931e-b8c58f0e",
+  "collection": "library",
+  "name": "nice_win",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/nice-win-2926931e",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 39,
+    "slots": 46,
+    "attachments": 52,
+    "meshAttachments": 41,
+    "meshUvPairs": 388,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 2,
+  "textureBudget": {
+    "pixels": 5641744,
+    "rgbaBytesEstimate": 22566976,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 49,
+  "actions": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "keyframes": 228,
+      "curvedKeys": 142,
+      "channels": [
+        {
+          "path": "slots.Color2.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.effect_green.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.effect_green2.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.effect_green3.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.effect_green4.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.glow_arrow_under_numbers.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.Nice_00000.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Nice_00001.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Nice_00002.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spot_alpha3.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_l_glow1.alpha",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.symbol_r_glow2.alpha",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.symbol_top_l_glow3.alpha",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.symbol_top_r_glow4.alpha",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.Win__00000.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Win__00001.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.Win__00002.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Glow2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Rays1.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Rays3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Rays5.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Rays7.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.PopUp_Pivot.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.PopUp_Pivot.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship.translatey",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship2.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship2.shearx",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship3.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.Ship6.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Ship10.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship9.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship9.translatex",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship9.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship9.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.PopUp_Pivot2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.PopUp_Pivot2.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.PopUp_Pivot2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.PopUp_Pivot3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.PopUp_Pivot3.translatex",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.PopUp_Pivot3.translatey",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.PopUp_Pivot3.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship11.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship11.translatex",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship11.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Rays.scalex",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Rays.scaley",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Arrow.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship7.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.PopUp_Pivot6.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.PopUp_Pivot5.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.PopUp_Pivot4.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.PopUp_Pivot7.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.PopUp_Pivot8.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship8.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.numbers2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "attachments.default.spot_alpha3.spot_alpha.deform",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "Glow2",
+        "Rays1",
+        "Rays3",
+        "Rays5",
+        "Rays7",
+        "PopUp_Pivot",
+        "Ship",
+        "Ship2",
+        "Ship3",
+        "Ship6",
+        "Ship10",
+        "Ship9",
+        "PopUp_Pivot2",
+        "PopUp_Pivot3",
+        "Ship11",
+        "Rays",
+        "Arrow",
+        "Ship7",
+        "PopUp_Pivot6",
+        "PopUp_Pivot5",
+        "PopUp_Pivot4",
+        "PopUp_Pivot7",
+        "PopUp_Pivot8",
+        "Ship8",
+        "numbers2"
+      ],
+      "animatedSlots": [
+        "Color2",
+        "effect_green",
+        "effect_green2",
+        "effect_green3",
+        "effect_green4",
+        "glow_arrow_under_numbers",
+        "Nice_00000",
+        "Nice_00001",
+        "Nice_00002",
+        "spot_alpha3",
+        "symbol_l_glow1",
+        "symbol_r_glow2",
+        "symbol_top_l_glow3",
+        "symbol_top_r_glow4",
+        "Win__00000",
+        "Win__00001",
+        "Win__00002"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "in",
+      "duration": 1.1333,
+      "keyframes": 341,
+      "curvedKeys": 206,
+      "channels": [
+        {
+          "path": "slots.arrow_under_numbers.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.base.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.bg_shading_2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Color1.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Color2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.effect_green.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.effect_green2.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.effect_green3.alpha",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.effect_green4.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow_arrow_under_numbers.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.glow_ship_nice_win.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.nice.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.nice.rgb",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.nice_shadow6.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.numbers.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.shield.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ship.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ship_head.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ship_head_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ship_tail.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.splash.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.splash.attachment",
+          "keyframes": 11
+        },
+        {
+          "path": "slots.spot_alpha3.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.symbol_l2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_l_glow1.alpha",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.symbol_l_shadow4.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_r.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_r_glow2.alpha",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.symbol_r_shadow3.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_top_l1.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_top_l_glow3.alpha",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.symbol_top_l_shadow2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_top_r.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_top_r_glow4.alpha",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.symbol_top_r_shadow1.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.wave_l.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.wave_r.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.win.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.win.rgb",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.win_shadow5.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Rays5.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Rays3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Rays1.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.PopUp_Pivot.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.PopUp_Pivot.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.PopUp_Pivot.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Glow2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship.translatey",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship2.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship2.shearx",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship3.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.Ship6.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.Ship10.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship9.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship9.translatex",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship9.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship9.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship11.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship11.translatex",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Ship11.translatey",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Rays.scalex",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Rays.scaley",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.PopUp_Pivot3.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.PopUp_Pivot3.translatex",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.PopUp_Pivot3.translatey",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.PopUp_Pivot3.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.PopUp_Pivot2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.PopUp_Pivot2.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.PopUp_Pivot2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship7.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship7.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Rays7.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Glow.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Arrow.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.PopUp_Pivot4.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.PopUp_Pivot5.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.PopUp_Pivot5.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.PopUp_Pivot5.scalex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.PopUp_Pivot5.scaley",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.PopUp_Pivot6.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.PopUp_Pivot7.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.PopUp_Pivot8.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship8.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.numbers2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.splash.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "attachments.default.spot_alpha3.spot_alpha.deform",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "Rays5",
+        "Rays3",
+        "Rays1",
+        "PopUp_Pivot",
+        "Glow2",
+        "Ship",
+        "Ship2",
+        "Ship3",
+        "Ship6",
+        "Ship10",
+        "Ship9",
+        "Ship11",
+        "Rays",
+        "PopUp_Pivot3",
+        "PopUp_Pivot2",
+        "Ship7",
+        "Rays7",
+        "Glow",
+        "Arrow",
+        "PopUp_Pivot4",
+        "PopUp_Pivot5",
+        "PopUp_Pivot6",
+        "PopUp_Pivot7",
+        "PopUp_Pivot8",
+        "Ship8",
+        "numbers2",
+        "splash"
+      ],
+      "animatedSlots": [
+        "arrow_under_numbers",
+        "base",
+        "bg_shading_2",
+        "Color1",
+        "Color2",
+        "effect_green",
+        "effect_green2",
+        "effect_green3",
+        "effect_green4",
+        "frame",
+        "glow_arrow_under_numbers",
+        "glow_ship_nice_win",
+        "nice",
+        "nice_shadow6",
+        "numbers",
+        "shield",
+        "ship",
+        "ship_head",
+        "ship_head_shadow",
+        "ship_tail",
+        "splash",
+        "spot_alpha3",
+        "symbol_l2",
+        "symbol_l_glow1",
+        "symbol_l_shadow4",
+        "symbol_r",
+        "symbol_r_glow2",
+        "symbol_r_shadow3",
+        "symbol_top_l1",
+        "symbol_top_l_glow3",
+        "symbol_top_l_shadow2",
+        "symbol_top_r",
+        "symbol_top_r_glow4",
+        "symbol_top_r_shadow1",
+        "wave_l",
+        "wave_r",
+        "win",
+        "win_shadow5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "out",
+      "duration": 0.4667,
+      "keyframes": 214,
+      "curvedKeys": 91,
+      "channels": [
+        {
+          "path": "slots.arrow_under_numbers.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.base.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.bg_shading_2.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Color1.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Color2.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.effect_green.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.effect_green2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.effect_green3.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.effect_green4.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.glow_arrow_under_numbers.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.glow_ship_nice_win.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.nice.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.nice_shadow6.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.numbers.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.shield.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.ship.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.ship_head.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.ship_head_shadow.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.ship_tail.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.spot_alpha3.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.symbol_l2.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.symbol_l_glow1.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.symbol_l_shadow4.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.symbol_r.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.symbol_r_glow2.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.symbol_r_shadow3.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.symbol_top_l1.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.symbol_top_l_glow3.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.symbol_top_l_shadow2.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.symbol_top_r.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.symbol_top_r_glow4.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.symbol_top_r_shadow1.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.wave_l.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.wave_r.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.win.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.win_shadow5.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship11.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship11.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship11.translatey",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.PopUp_Pivot3.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.PopUp_Pivot3.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.PopUp_Pivot3.translatey",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.PopUp_Pivot3.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.PopUp_Pivot2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.PopUp_Pivot2.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.PopUp_Pivot2.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship10.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship6.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship9.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship9.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship9.translatey",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship9.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship3.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship2.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship2.shearx",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship.translatey",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Glow2.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Rays.scalex",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Rays.scaley",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.PopUp_Pivot.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.PopUp_Pivot.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.PopUp_Pivot.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Arrow.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Rays7.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Rays5.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Rays3.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Rays1.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship8.translate",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "Ship11",
+        "PopUp_Pivot3",
+        "PopUp_Pivot2",
+        "Ship10",
+        "Ship6",
+        "Ship9",
+        "Ship3",
+        "Ship2",
+        "Ship",
+        "Glow2",
+        "Rays",
+        "PopUp_Pivot",
+        "Arrow",
+        "Rays7",
+        "Rays5",
+        "Rays3",
+        "Rays1",
+        "PopUp_Pivot8",
+        "PopUp_Pivot7",
+        "PopUp_Pivot6",
+        "PopUp_Pivot5",
+        "PopUp_Pivot4",
+        "Ship7",
+        "Ship8"
+      ],
+      "animatedSlots": [
+        "arrow_under_numbers",
+        "base",
+        "bg_shading_2",
+        "Color1",
+        "Color2",
+        "effect_green",
+        "effect_green2",
+        "effect_green3",
+        "effect_green4",
+        "frame",
+        "glow_arrow_under_numbers",
+        "glow_ship_nice_win",
+        "nice",
+        "nice_shadow6",
+        "numbers",
+        "shield",
+        "ship",
+        "ship_head",
+        "ship_head_shadow",
+        "ship_tail",
+        "spot_alpha3",
+        "symbol_l2",
+        "symbol_l_glow1",
+        "symbol_l_shadow4",
+        "symbol_r",
+        "symbol_r_glow2",
+        "symbol_r_shadow3",
+        "symbol_top_l1",
+        "symbol_top_l_glow3",
+        "symbol_top_l_shadow2",
+        "symbol_top_r",
+        "symbol_top_r_glow4",
+        "symbol_top_r_shadow1",
+        "wave_l",
+        "wave_r",
+        "win",
+        "win_shadow5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-nice-win-2926931e-b8c58f0e/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Bgg",
+        "parent": "root",
+        "x": -501.38,
+        "y": -92.49,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "PopUp",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "numbers",
+        "parent": "root",
+        "x": 4,
+        "y": -497.5,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Arrow",
+        "parent": "numbers",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "PopUp_Pivot",
+        "parent": "PopUp",
+        "x": 5.74,
+        "y": -255.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Rays",
+        "parent": "PopUp_Pivot",
+        "x": -5.74,
+        "y": 255.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Rays1",
+        "parent": "Rays",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Rays2",
+        "parent": "Rays1",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow",
+        "parent": "PopUp_Pivot",
+        "x": -5.74,
+        "y": 255.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow2",
+        "parent": "Glow",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Rays3",
+        "parent": "Rays",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 94.63,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Rays4",
+        "parent": "Rays3",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Rays5",
+        "parent": "Rays",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 104.87,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Rays6",
+        "parent": "Rays5",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Rays7",
+        "parent": "Rays",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 84.62,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Rays8",
+        "parent": "Rays7",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Ship",
+        "parent": "PopUp_Pivot",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Ship2",
+        "parent": "Ship",
+        "x": -2.28,
+        "y": 29.1,
+        "length": 432.73,
+        "rotation": 90.56,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Ship3",
+        "parent": "Ship2",
+        "x": 482.86,
+        "y": -4.93,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Ship7",
+        "parent": "Ship2",
+        "x": 259.58,
+        "y": 4.17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Ship4",
+        "parent": "Ship7",
+        "x": 33.97,
+        "y": -4.18,
+        "length": 0,
+        "rotation": 90.56,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Ship5",
+        "parent": "Ship7",
+        "x": -101.18,
+        "y": -7.54,
+        "length": 0,
+        "rotation": 90.56,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Ship9",
+        "parent": "Ship2",
+        "x": 260.44,
+        "y": -18.01,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Ship6",
+        "parent": "Ship2",
+        "x": 417.72,
+        "y": -259.65,
+        "length": 149.18,
+        "rotation": 131.17,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Ship10",
+        "parent": "Ship2",
+        "x": 428.01,
+        "y": 254.91,
+        "length": 197.16,
+        "rotation": -130.14,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "PopUp_Pivot2",
+        "parent": "PopUp_Pivot",
+        "x": 144.74,
+        "y": -30.06,
+        "length": 192.73,
+        "rotation": 16.58,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "PopUp_Pivot3",
+        "parent": "PopUp_Pivot",
+        "x": -209.14,
+        "y": -16.57,
+        "length": 146.04,
+        "rotation": 160.92,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Ship11",
+        "parent": "Ship2",
+        "x": 173.37,
+        "y": -17.16,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "VFX_Base",
+        "parent": "root",
+        "x": -506.88,
+        "y": 22.51,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "PopUp_Pivot4",
+        "parent": "PopUp_Pivot2",
+        "x": 55.47,
+        "y": 9.11,
+        "length": 25.48,
+        "rotation": 57.37,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "PopUp_Pivot5",
+        "parent": "PopUp_Pivot2",
+        "x": 133.74,
+        "y": 4,
+        "length": 62.9,
+        "rotation": 60.79,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "PopUp_Pivot6",
+        "parent": "PopUp_Pivot2",
+        "x": 179.67,
+        "y": 7.82,
+        "length": 39.87,
+        "rotation": 30.46,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "PopUp_Pivot7",
+        "parent": "PopUp_Pivot3",
+        "x": 61.29,
+        "y": -6.04,
+        "length": 40.96,
+        "rotation": -50.37,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "PopUp_Pivot8",
+        "parent": "PopUp_Pivot3",
+        "x": 119.18,
+        "y": -4.9,
+        "length": 33.11,
+        "rotation": -58.73,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Ship8",
+        "parent": "Ship",
+        "x": -31.33,
+        "y": 76.08,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Count_Bone",
+        "parent": "numbers",
+        "x": -5.32,
+        "y": 81.82,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "numbers2",
+        "parent": "numbers",
+        "x": -2.58,
+        "y": 65.82,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "splash",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "bg",
+        "bone": "Bgg",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bg_shading_2",
+        "bone": "Bgg",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bg_shading_1",
+        "bone": "Bgg",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "effect_green",
+        "bone": "Rays1",
+        "setupAttachment": "effect_green",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "effect_green3",
+        "bone": "Rays5",
+        "setupAttachment": "effect_green",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "effect_green2",
+        "bone": "Rays3",
+        "setupAttachment": "effect_green",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "effect_green4",
+        "bone": "Rays7",
+        "setupAttachment": "effect_green",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glow_ship_nice_win",
+        "bone": "Glow",
+        "setupAttachment": "glow_ship_nice_win",
+        "blend": "screen",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame",
+        "bone": "Ship2",
+        "setupAttachment": "frame",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "base",
+        "bone": "Ship2",
+        "setupAttachment": "base",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ship",
+        "bone": "Ship",
+        "setupAttachment": "ship",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ship_head_shadow",
+        "bone": "Ship",
+        "setupAttachment": "ship_head_shadow",
+        "blend": "normal",
+        "color": "6966667f"
+      },
+      {
+        "name": "ship_head",
+        "bone": "Ship",
+        "setupAttachment": "ship_head",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ship_tail",
+        "bone": "Ship",
+        "setupAttachment": "ship_tail",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_top_r_shadow1",
+        "bone": "Ship2",
+        "setupAttachment": "symbol_top_r_shadow1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_top_l_shadow2",
+        "bone": "Ship2",
+        "setupAttachment": "symbol_top_l_shadow2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_top_r",
+        "bone": "Ship2",
+        "setupAttachment": "symbol_top_r",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_top_l1",
+        "bone": "Ship2",
+        "setupAttachment": "symbol_top_l1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_l_shadow4",
+        "bone": "Ship2",
+        "setupAttachment": "symbol_l_shadow4",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_r_shadow3",
+        "bone": "Ship2",
+        "setupAttachment": "symbol_r_shadow3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_r",
+        "bone": "Ship2",
+        "setupAttachment": "symbol_r",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_top_r_glow4",
+        "bone": "Ship2",
+        "setupAttachment": "symbol_top_r_glow4",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_top_l_glow3",
+        "bone": "Ship2",
+        "setupAttachment": "symbol_top_l_glow3",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_r_glow2",
+        "bone": "Ship2",
+        "setupAttachment": "symbol_r_glow2",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_l_glow1",
+        "bone": "Ship2",
+        "setupAttachment": "symbol_l_glow1",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_l2",
+        "bone": "Ship2",
+        "setupAttachment": "symbol_l2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "shield",
+        "bone": "Ship3",
+        "setupAttachment": "shield",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "wave_r",
+        "bone": "PopUp_Pivot2",
+        "setupAttachment": "wave_r",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "wave_l",
+        "bone": "PopUp_Pivot3",
+        "setupAttachment": "wave_l",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "win_shadow5",
+        "bone": "Ship2",
+        "setupAttachment": "win_shadow5",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "nice_shadow6",
+        "bone": "Ship2",
+        "setupAttachment": "nice_shadow6",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "win",
+        "bone": "Ship5",
+        "setupAttachment": "win",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "nice",
+        "bone": "Ship4",
+        "setupAttachment": "nice",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "arrow_under_numbers",
+        "bone": "Arrow",
+        "setupAttachment": "arrow_under_numbers",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glow_arrow_under_numbers",
+        "bone": "Arrow",
+        "setupAttachment": "glow_arrow_under_numbers",
+        "blend": "screen",
+        "color": "ffffffff"
+      },
+      {
+        "name": "spot_alpha3",
+        "bone": "VFX_Base",
+        "setupAttachment": "spot_alpha",
+        "blend": "additive",
+        "color": "bdff6300"
+      },
+      {
+        "name": "Nice_00000",
+        "bone": "Ship4",
+        "setupAttachment": "Nice_00000",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Nice_00001",
+        "bone": "Ship4",
+        "setupAttachment": "Nice_00001",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Nice_00002",
+        "bone": "Ship4",
+        "setupAttachment": "Nice_00002",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Win__00000",
+        "bone": "Ship5",
+        "setupAttachment": "Win__00000",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Win__00001",
+        "bone": "Ship5",
+        "setupAttachment": "Win__00001",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Win__00002",
+        "bone": "Ship5",
+        "setupAttachment": "Win__00002",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Color1",
+        "bone": "numbers2",
+        "setupAttachment": "Color1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Color2",
+        "bone": "numbers2",
+        "setupAttachment": "Color2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "numbers",
+        "bone": "numbers2",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "splash",
+        "bone": "splash",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "arrow_under_numbers",
+        "name": "arrow_under_numbers",
+        "region": "arrow_under_numbers",
+        "type": "mesh",
+        "bone": "Arrow",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 540,
+          "height": 53
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "base",
+        "name": "base",
+        "region": "base",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 531,
+          "height": 354
+        },
+        "mesh": {
+          "uvPairs": 55,
+          "vertexNumbers": 631,
+          "triangles": 81,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Color1",
+        "name": "Color1",
+        "region": "Color1",
+        "type": "mesh",
+        "bone": "numbers2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 607,
+          "height": 173
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Color2",
+        "name": "Color2",
+        "region": "Color2",
+        "type": "mesh",
+        "bone": "numbers2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 607,
+          "height": 104
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "effect_green",
+        "name": "effect_green",
+        "region": "effect_green",
+        "type": "mesh",
+        "bone": "Rays1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 578,
+          "height": 528
+        },
+        "mesh": {
+          "uvPairs": 21,
+          "vertexNumbers": 149,
+          "triangles": 20,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "effect_green2",
+        "name": "effect_green",
+        "region": "effect_green",
+        "type": "mesh",
+        "bone": "Rays3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 578,
+          "height": 528
+        },
+        "mesh": {
+          "uvPairs": 21,
+          "vertexNumbers": 149,
+          "triangles": 20,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "effect_green3",
+        "name": "effect_green",
+        "region": "effect_green",
+        "type": "mesh",
+        "bone": "Rays5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 578,
+          "height": 528
+        },
+        "mesh": {
+          "uvPairs": 21,
+          "vertexNumbers": 149,
+          "triangles": 20,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "effect_green4",
+        "name": "effect_green",
+        "region": "effect_green",
+        "type": "mesh",
+        "bone": "Rays7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 578,
+          "height": 528
+        },
+        "mesh": {
+          "uvPairs": 21,
+          "vertexNumbers": 149,
+          "triangles": 20,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame",
+        "name": "frame",
+        "region": "frame",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 674,
+          "height": 384
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_arrow_under_numbers",
+        "name": "glow_arrow_under_numbers",
+        "region": "glow_arrow_under_numbers",
+        "type": "mesh",
+        "bone": "Arrow",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 590,
+          "height": 103
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_ship_nice_win",
+        "name": "glow_ship_nice_win",
+        "region": "glow_ship_nice_win",
+        "type": "mesh",
+        "bone": "Glow",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 356,
+          "height": 264
+        },
+        "mesh": {
+          "uvPairs": 15,
+          "vertexNumbers": 75,
+          "triangles": 14,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "nice",
+        "name": "nice",
+        "region": "nice",
+        "type": "mesh",
+        "bone": "Ship4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 284,
+          "height": 146
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Nice_00000",
+        "name": "Nice_00000",
+        "region": "Nice_00000",
+        "type": "mesh",
+        "bone": "Ship4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 283,
+          "height": 145
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Nice_00001",
+        "name": "Nice_00001",
+        "region": "Nice_00001",
+        "type": "mesh",
+        "bone": "Ship4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 283,
+          "height": 145
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Nice_00002",
+        "name": "Nice_00002",
+        "region": "Nice_00002",
+        "type": "mesh",
+        "bone": "Ship4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 283,
+          "height": 145
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "nice_shadow6",
+        "name": "nice_shadow6",
+        "region": "nice_shadow6",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 361,
+          "height": 220
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "shield",
+        "name": "shield",
+        "region": "shield",
+        "type": "mesh",
+        "bone": "Ship3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 117,
+          "height": 133
+        },
+        "mesh": {
+          "uvPairs": 9,
+          "vertexNumbers": 18,
+          "triangles": 7,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ship",
+        "name": "ship",
+        "region": "ship",
+        "type": "mesh",
+        "bone": "Ship",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 807,
+          "height": 297
+        },
+        "mesh": {
+          "uvPairs": 28,
+          "vertexNumbers": 188,
+          "triangles": 32,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ship_head",
+        "name": "ship_head",
+        "region": "ship_head",
+        "type": "mesh",
+        "bone": "Ship",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 92,
+          "height": 214
+        },
+        "mesh": {
+          "uvPairs": 7,
+          "vertexNumbers": 14,
+          "triangles": 5,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ship_head_shadow",
+        "name": "ship_head_shadow",
+        "region": "ship_head_shadow",
+        "type": "mesh",
+        "bone": "Ship",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 37,
+          "height": 135
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ship_tail",
+        "name": "ship_tail",
+        "region": "ship_tail",
+        "type": "mesh",
+        "bone": "Ship",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 73,
+          "height": 158
+        },
+        "mesh": {
+          "uvPairs": 7,
+          "vertexNumbers": 14,
+          "triangles": 5,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_00",
+        "region": "splash_seq/splash_00",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_01",
+        "region": "splash_seq/splash_01",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_02",
+        "region": "splash_seq/splash_02",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_03",
+        "region": "splash_seq/splash_03",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_04",
+        "region": "splash_seq/splash_04",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_05",
+        "region": "splash_seq/splash_05",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_06",
+        "region": "splash_seq/splash_06",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_07",
+        "region": "splash_seq/splash_07",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_08",
+        "region": "splash_seq/splash_08",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_09",
+        "region": "splash_seq/splash_09",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_10",
+        "region": "splash_seq/splash_10",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spot_alpha3",
+        "name": "spot_alpha",
+        "region": "spot_alpha",
+        "type": "mesh",
+        "bone": "VFX_Base",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 500,
+          "height": 500
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_l2",
+        "name": "symbol_l2",
+        "region": "symbol_l2",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 39,
+          "height": 66
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_l_glow1",
+        "name": "symbol_l_glow1",
+        "region": "symbol_l_glow1",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 48,
+          "height": 69
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_l_shadow4",
+        "name": "symbol_l_shadow4",
+        "region": "symbol_l_shadow4",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 48,
+          "height": 69
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_r",
+        "name": "symbol_r",
+        "region": "symbol_r",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 38,
+          "height": 65
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_r_glow2",
+        "name": "symbol_r_glow2",
+        "region": "symbol_r_glow2",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 46,
+          "height": 69
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_r_shadow3",
+        "name": "symbol_r_shadow3",
+        "region": "symbol_r_shadow3",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 46,
+          "height": 69
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_top_l1",
+        "name": "symbol_top_l1",
+        "region": "symbol_top_l1",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 21,
+          "height": 29
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_top_l_glow3",
+        "name": "symbol_top_l_glow3",
+        "region": "symbol_top_l_glow3",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 42,
+          "height": 60
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_top_l_shadow2",
+        "name": "symbol_top_l_shadow2",
+        "region": "symbol_top_l_shadow2",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 22,
+          "height": 30
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_top_r",
+        "name": "symbol_top_r",
+        "region": "symbol_top_r",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 20,
+          "height": 29
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_top_r_glow4",
+        "name": "symbol_top_r_glow4",
+        "region": "symbol_top_r_glow4",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 51,
+          "height": 61
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_top_r_shadow1",
+        "name": "symbol_top_r_shadow1",
+        "region": "symbol_top_r_shadow1",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 21,
+          "height": 29
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "wave_l",
+        "name": "wave_l",
+        "region": "wave_l",
+        "type": "mesh",
+        "bone": "PopUp_Pivot3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 190,
+          "height": 87
+        },
+        "mesh": {
+          "uvPairs": 28,
+          "vertexNumbers": 208,
+          "triangles": 26,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "wave_r",
+        "name": "wave_r",
+        "region": "wave_r",
+        "type": "mesh",
+        "bone": "PopUp_Pivot2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 259,
+          "height": 118
+        },
+        "mesh": {
+          "uvPairs": 34,
+          "vertexNumbers": 302,
+          "triangles": 35,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "win",
+        "name": "win",
+        "region": "win",
+        "type": "mesh",
+        "bone": "Ship5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 246,
+          "height": 144
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "win_shadow5",
+        "name": "win_shadow5",
+        "region": "win_shadow5",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 320,
+          "height": 220
+        },
+        "mesh": {
+          "uvPairs": 5,
+          "vertexNumbers": 10,
+          "triangles": 3,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Win__00000",
+        "name": "Win__00000",
+        "region": "Win__00000",
+        "type": "mesh",
+        "bone": "Ship5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 247,
+          "height": 145
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Win__00001",
+        "name": "Win__00001",
+        "region": "Win__00001",
+        "type": "mesh",
+        "bone": "Ship5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 247,
+          "height": 145
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Win__00002",
+        "name": "Win__00002",
+        "region": "Win__00002",
+        "type": "mesh",
+        "bone": "Ship5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 247,
+          "height": 145
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "idle",
+        "duration": 2,
+        "keyframes": 228,
+        "curvedKeys": 142,
+        "channels": [
+          {
+            "path": "slots.Color2.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.effect_green.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.effect_green2.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.effect_green3.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.effect_green4.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.glow_arrow_under_numbers.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.Nice_00000.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Nice_00001.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Nice_00002.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spot_alpha3.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_l_glow1.alpha",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.symbol_r_glow2.alpha",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.symbol_top_l_glow3.alpha",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.symbol_top_r_glow4.alpha",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.Win__00000.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Win__00001.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.Win__00002.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Glow2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Rays1.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Rays3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Rays5.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Rays7.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.PopUp_Pivot.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.PopUp_Pivot.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship.translatey",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship2.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship2.shearx",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship3.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.Ship6.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Ship10.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship9.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship9.translatex",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship9.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship9.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.PopUp_Pivot2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.PopUp_Pivot2.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.PopUp_Pivot2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.PopUp_Pivot3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.PopUp_Pivot3.translatex",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.PopUp_Pivot3.translatey",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.PopUp_Pivot3.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship11.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship11.translatex",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship11.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Rays.scalex",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Rays.scaley",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Arrow.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship7.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.PopUp_Pivot6.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.PopUp_Pivot5.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.PopUp_Pivot4.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.PopUp_Pivot7.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.PopUp_Pivot8.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship8.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.numbers2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "attachments.default.spot_alpha3.spot_alpha.deform",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "Glow2",
+          "Rays1",
+          "Rays3",
+          "Rays5",
+          "Rays7",
+          "PopUp_Pivot",
+          "Ship",
+          "Ship2",
+          "Ship3",
+          "Ship6",
+          "Ship10",
+          "Ship9",
+          "PopUp_Pivot2",
+          "PopUp_Pivot3",
+          "Ship11",
+          "Rays",
+          "Arrow",
+          "Ship7",
+          "PopUp_Pivot6",
+          "PopUp_Pivot5",
+          "PopUp_Pivot4",
+          "PopUp_Pivot7",
+          "PopUp_Pivot8",
+          "Ship8",
+          "numbers2"
+        ],
+        "animatedSlots": [
+          "Color2",
+          "effect_green",
+          "effect_green2",
+          "effect_green3",
+          "effect_green4",
+          "glow_arrow_under_numbers",
+          "Nice_00000",
+          "Nice_00001",
+          "Nice_00002",
+          "spot_alpha3",
+          "symbol_l_glow1",
+          "symbol_r_glow2",
+          "symbol_top_l_glow3",
+          "symbol_top_r_glow4",
+          "Win__00000",
+          "Win__00001",
+          "Win__00002"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "in",
+        "duration": 1.1333,
+        "keyframes": 341,
+        "curvedKeys": 206,
+        "channels": [
+          {
+            "path": "slots.arrow_under_numbers.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.base.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.bg_shading_2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Color1.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Color2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.effect_green.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.effect_green2.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.effect_green3.alpha",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.effect_green4.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow_arrow_under_numbers.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.glow_ship_nice_win.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.nice.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.nice.rgb",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.nice_shadow6.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.numbers.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.shield.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ship.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ship_head.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ship_head_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ship_tail.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.splash.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.splash.attachment",
+            "keyframes": 11
+          },
+          {
+            "path": "slots.spot_alpha3.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.symbol_l2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_l_glow1.alpha",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.symbol_l_shadow4.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_r.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_r_glow2.alpha",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.symbol_r_shadow3.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_top_l1.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_top_l_glow3.alpha",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.symbol_top_l_shadow2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_top_r.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_top_r_glow4.alpha",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.symbol_top_r_shadow1.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.wave_l.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.wave_r.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.win.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.win.rgb",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.win_shadow5.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Rays5.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Rays3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Rays1.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.PopUp_Pivot.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.PopUp_Pivot.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.PopUp_Pivot.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Glow2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship.translatey",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship2.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship2.shearx",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship3.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.Ship6.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.Ship10.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship9.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship9.translatex",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship9.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship9.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship11.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship11.translatex",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Ship11.translatey",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Rays.scalex",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Rays.scaley",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.PopUp_Pivot3.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.PopUp_Pivot3.translatex",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.PopUp_Pivot3.translatey",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.PopUp_Pivot3.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.PopUp_Pivot2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.PopUp_Pivot2.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.PopUp_Pivot2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship7.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship7.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Rays7.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Glow.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Arrow.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.PopUp_Pivot4.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.PopUp_Pivot5.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.PopUp_Pivot5.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.PopUp_Pivot5.scalex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.PopUp_Pivot5.scaley",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.PopUp_Pivot6.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.PopUp_Pivot7.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.PopUp_Pivot8.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship8.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.numbers2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.splash.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "attachments.default.spot_alpha3.spot_alpha.deform",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "Rays5",
+          "Rays3",
+          "Rays1",
+          "PopUp_Pivot",
+          "Glow2",
+          "Ship",
+          "Ship2",
+          "Ship3",
+          "Ship6",
+          "Ship10",
+          "Ship9",
+          "Ship11",
+          "Rays",
+          "PopUp_Pivot3",
+          "PopUp_Pivot2",
+          "Ship7",
+          "Rays7",
+          "Glow",
+          "Arrow",
+          "PopUp_Pivot4",
+          "PopUp_Pivot5",
+          "PopUp_Pivot6",
+          "PopUp_Pivot7",
+          "PopUp_Pivot8",
+          "Ship8",
+          "numbers2",
+          "splash"
+        ],
+        "animatedSlots": [
+          "arrow_under_numbers",
+          "base",
+          "bg_shading_2",
+          "Color1",
+          "Color2",
+          "effect_green",
+          "effect_green2",
+          "effect_green3",
+          "effect_green4",
+          "frame",
+          "glow_arrow_under_numbers",
+          "glow_ship_nice_win",
+          "nice",
+          "nice_shadow6",
+          "numbers",
+          "shield",
+          "ship",
+          "ship_head",
+          "ship_head_shadow",
+          "ship_tail",
+          "splash",
+          "spot_alpha3",
+          "symbol_l2",
+          "symbol_l_glow1",
+          "symbol_l_shadow4",
+          "symbol_r",
+          "symbol_r_glow2",
+          "symbol_r_shadow3",
+          "symbol_top_l1",
+          "symbol_top_l_glow3",
+          "symbol_top_l_shadow2",
+          "symbol_top_r",
+          "symbol_top_r_glow4",
+          "symbol_top_r_shadow1",
+          "wave_l",
+          "wave_r",
+          "win",
+          "win_shadow5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "out",
+        "duration": 0.4667,
+        "keyframes": 214,
+        "curvedKeys": 91,
+        "channels": [
+          {
+            "path": "slots.arrow_under_numbers.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.base.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.bg_shading_2.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Color1.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Color2.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.effect_green.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.effect_green2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.effect_green3.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.effect_green4.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.glow_arrow_under_numbers.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.glow_ship_nice_win.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.nice.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.nice_shadow6.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.numbers.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.shield.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.ship.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.ship_head.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.ship_head_shadow.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.ship_tail.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.spot_alpha3.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.symbol_l2.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.symbol_l_glow1.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.symbol_l_shadow4.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.symbol_r.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.symbol_r_glow2.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.symbol_r_shadow3.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.symbol_top_l1.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.symbol_top_l_glow3.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.symbol_top_l_shadow2.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.symbol_top_r.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.symbol_top_r_glow4.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.symbol_top_r_shadow1.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.wave_l.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.wave_r.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.win.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.win_shadow5.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship11.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship11.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship11.translatey",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.PopUp_Pivot3.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.PopUp_Pivot3.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.PopUp_Pivot3.translatey",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.PopUp_Pivot3.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.PopUp_Pivot2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.PopUp_Pivot2.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.PopUp_Pivot2.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship10.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship6.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship9.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship9.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship9.translatey",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship9.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship3.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship2.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship2.shearx",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship.translatey",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Glow2.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Rays.scalex",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Rays.scaley",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.PopUp_Pivot.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.PopUp_Pivot.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.PopUp_Pivot.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Arrow.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Rays7.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Rays5.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Rays3.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Rays1.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship8.translate",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "Ship11",
+          "PopUp_Pivot3",
+          "PopUp_Pivot2",
+          "Ship10",
+          "Ship6",
+          "Ship9",
+          "Ship3",
+          "Ship2",
+          "Ship",
+          "Glow2",
+          "Rays",
+          "PopUp_Pivot",
+          "Arrow",
+          "Rays7",
+          "Rays5",
+          "Rays3",
+          "Rays1",
+          "PopUp_Pivot8",
+          "PopUp_Pivot7",
+          "PopUp_Pivot6",
+          "PopUp_Pivot5",
+          "PopUp_Pivot4",
+          "Ship7",
+          "Ship8"
+        ],
+        "animatedSlots": [
+          "arrow_under_numbers",
+          "base",
+          "bg_shading_2",
+          "Color1",
+          "Color2",
+          "effect_green",
+          "effect_green2",
+          "effect_green3",
+          "effect_green4",
+          "frame",
+          "glow_arrow_under_numbers",
+          "glow_ship_nice_win",
+          "nice",
+          "nice_shadow6",
+          "numbers",
+          "shield",
+          "ship",
+          "ship_head",
+          "ship_head_shadow",
+          "ship_tail",
+          "spot_alpha3",
+          "symbol_l2",
+          "symbol_l_glow1",
+          "symbol_l_shadow4",
+          "symbol_r",
+          "symbol_r_glow2",
+          "symbol_r_shadow3",
+          "symbol_top_l1",
+          "symbol_top_l_glow3",
+          "symbol_top_l_shadow2",
+          "symbol_top_r",
+          "symbol_top_r_glow4",
+          "symbol_top_r_shadow1",
+          "wave_l",
+          "wave_r",
+          "win",
+          "win_shadow5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 39,
+      "slots": 46,
+      "attachments": 52,
+      "meshAttachments": 41,
+      "meshUvPairs": 388,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "Color1",
+      "file": "pieces/color1-532f6fb7.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "2,1426,607,173"
+      }
+    },
+    {
+      "region": "Color2",
+      "file": "pieces/color2-d2faf179.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "594,1748,607,104"
+      }
+    },
+    {
+      "region": "Nice_00000",
+      "file": "pieces/nice-00000-cb7b508f.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1710,1643,283,145"
+      }
+    },
+    {
+      "region": "Nice_00001",
+      "file": "pieces/nice-00001-393914b3.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "2,1609,283,145"
+      }
+    },
+    {
+      "region": "Nice_00002",
+      "file": "pieces/nice-00002-ca3e54b4.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "287,1609,283,145"
+      }
+    },
+    {
+      "region": "Win__00000",
+      "file": "pieces/win-00000-cdd9a7d1.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "572,1601,247,145"
+      }
+    },
+    {
+      "region": "Win__00001",
+      "file": "pieces/win-00001-9f19baa1.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "821,1601,247,145"
+      }
+    },
+    {
+      "region": "Win__00002",
+      "file": "pieces/win-00002-8b9a27b5.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1070,1567,247,145"
+      }
+    },
+    {
+      "region": "arrow_under_numbers",
+      "file": "pieces/arrow-under-numbers-7378c40a.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "793,1854,540,53"
+      }
+    },
+    {
+      "region": "base",
+      "file": "pieces/base-5d723b62.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "737,949,531,354"
+      }
+    },
+    {
+      "region": "frame",
+      "file": "pieces/frame-0611a549.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1270,784,673,384",
+        "offsets": "0,0,674,384"
+      }
+    },
+    {
+      "region": "glow_arrow_under_numbers",
+      "file": "pieces/glow-arrow-under-numbers-cfa8d2ef.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "2,1756,590,103"
+      }
+    },
+    {
+      "region": "glow_ship_nice_win",
+      "file": "pieces/glow-ship-nice-win-633778fc.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1430,1170,356,264"
+      }
+    },
+    {
+      "region": "nice",
+      "file": "pieces/nice-3f49d203.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1319,1521,284,146"
+      }
+    },
+    {
+      "region": "nice_shadow6",
+      "file": "pieces/nice-shadow6-2ade1eb8.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1070,1305,358,214",
+        "offsets": "3,3,361,220"
+      }
+    },
+    {
+      "region": "shield",
+      "file": "pieces/shield-32469bbf.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1903,1790,117,133",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ship",
+      "file": "pieces/ship-d049f087.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "2,650,807,297"
+      }
+    },
+    {
+      "region": "ship_head",
+      "file": "pieces/ship-head-33ce1434.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1687,1815,92,214",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ship_head_shadow",
+      "file": "pieces/ship-head-shadow-c29c0d94.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "127,1875,32,135",
+        "offsets": "0,0,37,135",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ship_tail",
+      "file": "pieces/ship-tail-d96c51a5.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1335,1834,73,158",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "splash_seq/splash_00",
+      "file": "pieces/splash-seq-splash-00-e6b4ad20.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "611,1386,213,213",
+        "offsets": "267,271,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_01",
+      "file": "pieces/splash-seq-splash-01-d67a23a5.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "826,1360,242,239",
+        "offsets": "251,258,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_02",
+      "file": "pieces/splash-seq-splash-02-e6925248.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "2,1107,330,317",
+        "offsets": "209,211,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_03",
+      "file": "pieces/splash-seq-splash-03-ccddf8d0.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "334,1009,401,375",
+        "offsets": "167,184,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_04",
+      "file": "pieces/splash-seq-splash-04-bfb208fb.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "811,480,467,424",
+        "offsets": "125,163,750,750",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "splash_seq/splash_05",
+      "file": "pieces/splash-seq-splash-05-1706c3ac.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1237,341,490,441",
+        "offsets": "111,156,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_06",
+      "file": "pieces/splash-seq-splash-06-04e27a14.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "2,191,514,457",
+        "offsets": "97,151,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_07",
+      "file": "pieces/splash-seq-splash-07-77e0aa02.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "518,2,528,476",
+        "offsets": "90,141,750,750"
+      }
+    },
+    {
+      "region": "symbol_l2",
+      "file": "pieces/symbol-l2-d3eaafa8.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "331,1868,39,66",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_l_glow1",
+      "file": "pieces/symbol-l-glow1-44a039f7.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "651,1859,48,69",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_l_shadow4",
+      "file": "pieces/symbol-l-shadow4-12221f80.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "722,1859,48,69",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_r",
+      "file": "pieces/symbol-r-b7b002c9.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "264,1869,38,65",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_r_glow2",
+      "file": "pieces/symbol-r-glow2-f4e8fe50.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "509,1861,46,69",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_r_shadow3",
+      "file": "pieces/symbol-r-shadow3-f5cd7de0.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "580,1861,46,69",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_top_l1",
+      "file": "pieces/symbol-top-l1-651bff5a.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "33,1886,21,29",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_top_l_glow3",
+      "file": "pieces/symbol-top-l-glow3-328e2f27.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "399,1865,42,60",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_top_l_shadow2",
+      "file": "pieces/symbol-top-l-shadow2-c0ba82f5.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "95,1885,22,30",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_top_r",
+      "file": "pieces/symbol-top-r-1d394978.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "2,1887,20,29",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_top_r_glow4",
+      "file": "pieces/symbol-top-r-glow4-161fe0dc.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "461,1863,44,46",
+        "offsets": "1,6,51,61",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_top_r_shadow1",
+      "file": "pieces/symbol-top-r-shadow1-c1f2694d.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "64,1886,21,29",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wave_l",
+      "file": "pieces/wave-l-fd02272b.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1495,1820,190,87"
+      }
+    },
+    {
+      "region": "wave_r",
+      "file": "pieces/wave-r-6f87210b.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1203,1714,257,118",
+        "offsets": "2,0,259,118"
+      }
+    },
+    {
+      "region": "win",
+      "file": "pieces/win-84dabfe2.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1462,1669,246,144"
+      }
+    },
+    {
+      "region": "win_shadow5",
+      "file": "pieces/win-shadow5-97f36d53.png",
+      "page": "nice_win.webp",
+      "properties": {
+        "bounds": "1605,1436,320,205",
+        "offsets": "0,10,320,220"
+      }
+    },
+    {
+      "region": "effect_green",
+      "file": "pieces/effect-green-b8f35801.png",
+      "page": "nice_win_2.webp",
+      "properties": {
+        "bounds": "2,44,578,528"
+      }
+    },
+    {
+      "region": "splash_seq/splash_08",
+      "file": "pieces/splash-seq-splash-08-dece638e.png",
+      "page": "nice_win_2.webp",
+      "properties": {
+        "bounds": "504,574,547,501",
+        "offsets": "81,128,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_09",
+      "file": "pieces/splash-seq-splash-09-1fdcc189.png",
+      "page": "nice_win_2.webp",
+      "properties": {
+        "bounds": "1053,552,571,523",
+        "offsets": "69,116,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_10",
+      "file": "pieces/splash-seq-splash-10-5fe1b075.png",
+      "page": "nice_win_2.webp",
+      "properties": {
+        "bounds": "582,2,600,548",
+        "offsets": "53,102,750,750"
+      }
+    },
+    {
+      "region": "spot_alpha",
+      "file": "pieces/spot-alpha-f13a1c11.png",
+      "page": "nice_win_2.webp",
+      "properties": {
+        "bounds": "2,575,500,500"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

@@ -1,0 +1,578 @@
+{
+  "id": "interrogator-animations-regular-badge-080e194d-ed8f7b31",
+  "collection": "library",
+  "name": "regular-badge",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/interrogator/animations/regular-badge-080e194d",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 7,
+    "slots": 3,
+    "attachments": 3,
+    "meshAttachments": 3,
+    "meshUvPairs": 1071,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 904092,
+    "rgbaBytesEstimate": 3616368,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 2,
+  "actions": [
+    {
+      "name": "land",
+      "duration": 0.7,
+      "keyframes": 345,
+      "curvedKeys": 84,
+      "channels": [
+        {
+          "path": "bones.sway.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.sway.translate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.plate_top.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.plate_bottom.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.star.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.star.translate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.star.scale",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.star_tip.translate",
+          "keyframes": 43
+        },
+        {
+          "path": "events",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "sway",
+        "plate_top",
+        "plate_bottom",
+        "star",
+        "star_tip"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [
+        {
+          "name": "land",
+          "time": 0.12
+        }
+      ],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "win",
+      "duration": 1.3,
+      "keyframes": 1114,
+      "curvedKeys": 455,
+      "channels": [
+        {
+          "path": "slots.star_shadow.alpha",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.sway.rotate",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.sway.translate",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.star.rotate",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.star.translate",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.star.scale",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.star_tip.translate",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.plate_top.rotate",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.plate_top.translate",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.plate_top.scale",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.plate_bottom.rotate",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.plate_bottom.translate",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.plate_bottom.scale",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.star_shadow.translate",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.star_shadow.scale",
+          "keyframes": 79
+        },
+        {
+          "path": "events",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "sway",
+        "star",
+        "star_tip",
+        "plate_top",
+        "plate_bottom",
+        "star_shadow"
+      ],
+      "animatedSlots": [
+        "star_shadow"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [
+        {
+          "name": "win_impact",
+          "time": 0.15
+        },
+        {
+          "name": "badge_slam",
+          "time": 0.82
+        }
+      ],
+      "tags": [
+        "win"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/interrogator-animations-regular-badge-080e194d-ed8f7b31/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "sway",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "plate_top",
+        "parent": "sway",
+        "x": -2.29,
+        "y": 350.73,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "plate_bottom",
+        "parent": "sway",
+        "x": -2.29,
+        "y": -336.08,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "star",
+        "parent": "sway",
+        "x": -3.21,
+        "y": 11.9,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "star_tip",
+        "parent": "star",
+        "x": 0,
+        "y": 274.73,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "star_shadow",
+        "parent": "sway",
+        "x": -3.21,
+        "y": 11.9,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "shield",
+        "bone": "root",
+        "setupAttachment": "shield",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "star_shadow",
+        "bone": "root",
+        "setupAttachment": "star_shadow",
+        "blend": "normal",
+        "color": "34261400"
+      },
+      {
+        "name": "star",
+        "bone": "root",
+        "setupAttachment": "star",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "shield",
+        "name": "shield",
+        "region": "shield",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 654,
+          "height": 768
+        },
+        "mesh": {
+          "uvPairs": 357,
+          "vertexNumbers": 3213,
+          "triangles": 640,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "star",
+        "name": "star",
+        "region": "star",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 613,
+          "height": 600
+        },
+        "mesh": {
+          "uvPairs": 357,
+          "vertexNumbers": 2533,
+          "triangles": 640,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "star_shadow",
+        "name": "star_shadow",
+        "region": "star",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 613,
+          "height": 600
+        },
+        "mesh": {
+          "uvPairs": 357,
+          "vertexNumbers": 1785,
+          "triangles": 640,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "land",
+        "duration": 0.7,
+        "keyframes": 345,
+        "curvedKeys": 84,
+        "channels": [
+          {
+            "path": "bones.sway.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.sway.translate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.plate_top.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.plate_bottom.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.star.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.star.translate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.star.scale",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.star_tip.translate",
+            "keyframes": 43
+          },
+          {
+            "path": "events",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "sway",
+          "plate_top",
+          "plate_bottom",
+          "star",
+          "star_tip"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [
+          {
+            "name": "land",
+            "time": 0.12
+          }
+        ],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "win",
+        "duration": 1.3,
+        "keyframes": 1114,
+        "curvedKeys": 455,
+        "channels": [
+          {
+            "path": "slots.star_shadow.alpha",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.sway.rotate",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.sway.translate",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.star.rotate",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.star.translate",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.star.scale",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.star_tip.translate",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.plate_top.rotate",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.plate_top.translate",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.plate_top.scale",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.plate_bottom.rotate",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.plate_bottom.translate",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.plate_bottom.scale",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.star_shadow.translate",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.star_shadow.scale",
+            "keyframes": 79
+          },
+          {
+            "path": "events",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "sway",
+          "star",
+          "star_tip",
+          "plate_top",
+          "plate_bottom",
+          "star_shadow"
+        ],
+        "animatedSlots": [
+          "star_shadow"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [
+          {
+            "name": "win_impact",
+            "time": 0.15
+          },
+          {
+            "name": "badge_slam",
+            "time": 0.82
+          }
+        ],
+        "tags": [
+          "win"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 7,
+      "slots": 3,
+      "attachments": 3,
+      "meshAttachments": 3,
+      "meshUvPairs": 1071,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "shield",
+      "file": "pieces/shield-f27449de.png",
+      "page": "regular-badge.png",
+      "properties": {
+        "bounds": "2,2,654,768",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "star",
+      "file": "pieces/star-97fadb5f.png",
+      "page": "regular-badge.png",
+      "properties": {
+        "bounds": "772,43,613,600",
+        "rotate": "90"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

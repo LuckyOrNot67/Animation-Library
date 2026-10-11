@@ -1,0 +1,208 @@
+{
+  "id": "sugar-rush-1000-animations-suru-multiplier-87a431cb-e69973e9",
+  "collection": "library",
+  "name": "suru_multiplier",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-multiplier-87a431cb",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 1,
+    "slots": 1,
+    "attachments": 1,
+    "meshAttachments": 1,
+    "meshUvPairs": 62,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 113100,
+    "rgbaBytesEstimate": 452400,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 1,
+  "actions": [
+    {
+      "name": "suru_multiplier_in",
+      "duration": 0.4,
+      "keyframes": 5,
+      "curvedKeys": 4,
+      "channels": [
+        {
+          "path": "deform.default.wraper.wraper",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [],
+      "animatedSlots": [],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "suru_multiplier_in2",
+      "duration": 0,
+      "keyframes": 1,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "slots.wraper.attachment",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [],
+      "animatedSlots": [
+        "wraper"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-multiplier-87a431cb-e69973e9/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "wraper",
+        "bone": "root",
+        "setupAttachment": "wraper",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "wraper",
+        "name": "wraper",
+        "region": "wraper",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 62,
+          "vertexNumbers": 124,
+          "triangles": 96,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "suru_multiplier_in",
+        "duration": 0.4,
+        "keyframes": 5,
+        "curvedKeys": 4,
+        "channels": [
+          {
+            "path": "deform.default.wraper.wraper",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [],
+        "animatedSlots": [],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "suru_multiplier_in2",
+        "duration": 0,
+        "keyframes": 1,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "slots.wraper.attachment",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [],
+        "animatedSlots": [
+          "wraper"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 1,
+      "slots": 1,
+      "attachments": 1,
+      "meshAttachments": 1,
+      "meshUvPairs": 62,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "wraper",
+      "file": "pieces/wraper-e5f6a33b.png",
+      "page": "suru_multiplier.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "348, 325",
+        "orig": "375, 350",
+        "offset": "14, 20",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

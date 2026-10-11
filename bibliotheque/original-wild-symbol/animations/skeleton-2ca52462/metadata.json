@@ -1,0 +1,132 @@
+{
+  "id": "animations/skeleton-2ca52462",
+  "name": "skeleton",
+  "machine": "original-wild-symbol",
+  "format": "spine-json",
+  "version": "4.2.00",
+  "skeleton": "skeleton.json",
+  "previewAtlas": "atlas-c260c8f6.atlas",
+  "pma": false,
+  "atlases": [
+    "atlas-c260c8f6.atlas"
+  ],
+  "textures": [
+    "texture.png"
+  ],
+  "animations": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "timelines": {
+        "bones": 1,
+        "slots": 1
+      }
+    },
+    {
+      "name": "anticipation",
+      "duration": 0.5,
+      "timelines": {
+        "bones": 1
+      }
+    },
+    {
+      "name": "spin",
+      "duration": 0.8,
+      "timelines": {
+        "bones": 1
+      }
+    },
+    {
+      "name": "win",
+      "duration": 0.65,
+      "timelines": {
+        "bones": 10,
+        "slots": 9
+      }
+    },
+    {
+      "name": "exit",
+      "duration": 0.6,
+      "timelines": {
+        "bones": 1,
+        "slots": 1
+      }
+    }
+  ],
+  "skins": [
+    "default"
+  ],
+  "bones": [
+    "root",
+    "body",
+    "halo",
+    "spark0",
+    "spark1",
+    "spark2",
+    "spark3",
+    "spark4",
+    "spark5",
+    "spark6",
+    "spark7"
+  ],
+  "slots": [
+    "halo",
+    "body",
+    "spark0",
+    "spark1",
+    "spark2",
+    "spark3",
+    "spark4",
+    "spark5",
+    "spark6",
+    "spark7"
+  ],
+  "pieces": [
+    {
+      "region": "body",
+      "file": "pieces/body-b52aa955.png",
+      "page": "texture.png",
+      "properties": {
+        "bounds": "0,16,128,128"
+      }
+    },
+    {
+      "region": "halo",
+      "file": "pieces/halo-a5b1366c.png",
+      "page": "texture.png",
+      "properties": {
+        "bounds": "128,0,160,160"
+      }
+    },
+    {
+      "region": "spark",
+      "file": "pieces/spark-9bd7114c.png",
+      "page": "texture.png",
+      "properties": {
+        "bounds": "294,54,52,52"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "skeleton.json",
+      "source": "skeleton.json",
+      "sha256": "2ca524628407b5bc9c474a85812aa0618b656ed2e00045d5b6bfc150bee3e405",
+      "kind": "spine-json"
+    },
+    {
+      "file": "atlas-c260c8f6.atlas",
+      "source": "texture.atlas",
+      "sha256": "c260c8f6390257f5c5a1dcca6a76edfb0c2bd7f71633b37d8ccbe29f83f2abc4",
+      "kind": "spine-atlas"
+    },
+    {
+      "file": "texture.png",
+      "source": "texture.png",
+      "sha256": "5dd72956d048451c9b660d0ef49d931eaf51f1279afabb2976180229a0db6960",
+      "kind": "image"
+    }
+  ],
+  "warnings": [],
+  "complete": true
+}

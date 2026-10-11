@@ -1,0 +1,1615 @@
+{
+  "id": "odin-s-vault-animations-bronze-ae904f3f-27bdd3a6",
+  "collection": "library",
+  "name": "bronze",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/bronze-ae904f3f",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 9,
+    "slots": 11,
+    "attachments": 9,
+    "meshAttachments": 7,
+    "meshUvPairs": 29,
+    "constraints": {
+      "ik": 0,
+      "transform": 1,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 2097152,
+    "rgbaBytesEstimate": 8388608,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 125,
+  "actions": [
+    {
+      "name": "win",
+      "duration": 1,
+      "keyframes": 19,
+      "curvedKeys": 7,
+      "channels": [
+        {
+          "path": "slots.bronze/blick_total.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.bronze/multiplier_back_glow3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.bronze/pouch_effects_02_glow_01.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.bronze/rune_bronze2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bronze_blick.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bronze_cop2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bronze_cop2.scale",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "bronze_blick",
+        "bronze_cop2"
+      ],
+      "animatedSlots": [
+        "bronze/blick_total",
+        "bronze/multiplier_back_glow3",
+        "bronze/pouch_effects_02_glow_01",
+        "bronze/rune_bronze2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "win"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-bronze-ae904f3f-27bdd3a6/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "main",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bronze",
+        "parent": "main",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bronze_cop",
+        "parent": "bronze",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bronze_rune",
+        "parent": "bronze_cop",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bronze_blick",
+        "parent": "bronze_cop",
+        "x": -55.7,
+        "y": 0.58,
+        "length": 0,
+        "rotation": -6.48,
+        "scaleX": 0.8005,
+        "scaleY": 1
+      },
+      {
+        "name": "bronze_3d",
+        "parent": "bronze_cop",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bronze_3d2",
+        "parent": "bronze_cop",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bronze_cop2",
+        "parent": "bronze_cop",
+        "x": 0,
+        "y": -0.84,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "bronze/BG_bronze",
+        "bone": "bronze",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bronze/Frame_bronze",
+        "bone": "bronze",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bronze/multiplier_back_glow3",
+        "bone": "bronze_cop",
+        "setupAttachment": "multiplier_back_glow3",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "bronze/coin_shadow_bronze",
+        "bone": "bronze_cop",
+        "setupAttachment": "coin_shadow_bronze",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bronze/pouch_effects_02_glow_01",
+        "bone": "bronze_cop2",
+        "setupAttachment": "pouch_effects_02_glow_01",
+        "blend": "additive",
+        "color": "f4981a00"
+      },
+      {
+        "name": "bronze/coin_bronze",
+        "bone": "bronze_cop",
+        "setupAttachment": "coin_bronze",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bronze/rune_base_bronze",
+        "bone": "bronze_cop",
+        "setupAttachment": "rune_base_bronze",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bronze/rune_bronze",
+        "bone": "bronze_rune",
+        "setupAttachment": "rune_bronze",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bronze/rune_bronze2",
+        "bone": "bronze_rune",
+        "setupAttachment": "rune_bronze",
+        "blend": "additive",
+        "color": "ffd2a000"
+      },
+      {
+        "name": "bronze/coin_shadow_bronze3",
+        "bone": "bronze_cop",
+        "setupAttachment": "coin_shadow_bronze3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bronze/blick_total",
+        "bone": "bronze_blick",
+        "setupAttachment": "blick_total",
+        "blend": "additive",
+        "color": "ffffff00"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "bronze/blick_total",
+        "name": "blick_total",
+        "region": "blick_total",
+        "type": "mesh",
+        "bone": "bronze_blick",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 115,
+          "height": 226
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bronze/coin_bronze",
+        "name": "coin_bronze",
+        "region": "coin_bronze",
+        "type": "mesh",
+        "bone": "bronze_cop",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 93,
+          "height": 95
+        },
+        "mesh": {
+          "uvPairs": 5,
+          "vertexNumbers": 65,
+          "triangles": 4,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bronze/coin_shadow_bronze",
+        "name": "coin_shadow_bronze",
+        "region": "coin_shadow_bronze",
+        "type": "mesh",
+        "bone": "bronze_cop",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 100,
+          "height": 103
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bronze/coin_shadow_bronze3",
+        "name": "coin_shadow_bronze3",
+        "region": "coin_shadow_bronze3",
+        "type": "clipping",
+        "bone": "bronze_cop",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bronze/multiplier_back_glow3",
+        "name": "multiplier_back_glow3",
+        "region": "multiplier_back_glow3",
+        "type": "mesh",
+        "bone": "bronze_cop",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 132,
+          "height": 133
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bronze/pouch_effects_02_glow_01",
+        "name": "pouch_effects_02_glow_01",
+        "region": "pouch_effects_02_glow_01",
+        "type": "region",
+        "bone": "bronze_cop2",
+        "transform": {
+          "x": -2.74,
+          "y": 3.65,
+          "rotation": 0,
+          "scaleX": 1.1939,
+          "scaleY": 1.1939
+        },
+        "size": {
+          "width": 160,
+          "height": 162
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bronze/rune_base_bronze",
+        "name": "rune_base_bronze",
+        "region": "rune_base_bronze",
+        "type": "mesh",
+        "bone": "bronze_cop",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 56,
+          "height": 55
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bronze/rune_bronze",
+        "name": "rune_bronze",
+        "region": "rune_bronze",
+        "type": "mesh",
+        "bone": "bronze_rune",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 33,
+          "height": 56
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bronze/rune_bronze2",
+        "name": "rune_bronze",
+        "region": "rune_bronze",
+        "type": "mesh",
+        "bone": "bronze_rune",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 33,
+          "height": 56
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "win",
+        "duration": 1,
+        "keyframes": 19,
+        "curvedKeys": 7,
+        "channels": [
+          {
+            "path": "slots.bronze/blick_total.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.bronze/multiplier_back_glow3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.bronze/pouch_effects_02_glow_01.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.bronze/rune_bronze2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bronze_blick.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bronze_cop2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bronze_cop2.scale",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "bronze_blick",
+          "bronze_cop2"
+        ],
+        "animatedSlots": [
+          "bronze/blick_total",
+          "bronze/multiplier_back_glow3",
+          "bronze/pouch_effects_02_glow_01",
+          "bronze/rune_bronze2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "win"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 9,
+      "slots": 11,
+      "attachments": 9,
+      "meshAttachments": 7,
+      "meshUvPairs": 29,
+      "constraints": {
+        "ik": 0,
+        "transform": 1,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "Crystal_max",
+      "file": "pieces/crystal-max-7f46e075.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1427,234,71,72",
+        "offsets": "1,1,73,74"
+      }
+    },
+    {
+      "region": "Decor_diamond",
+      "file": "pieces/decor-diamond-8946b13c.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1306,300,81,96",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Decor_diamond2",
+      "file": "pieces/decor-diamond2-b69c5b85.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1199,207,87,86"
+      }
+    },
+    {
+      "region": "Glow_colossal",
+      "file": "pieces/glow-colossal-f9583361.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1401,393,85,76",
+        "offsets": "8,13,100,100",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Max2_max",
+      "file": "pieces/max2-max-734c5f38.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1100,418,108,115"
+      }
+    },
+    {
+      "region": "Max_Glow_1_max",
+      "file": "pieces/max-glow-1-max-98d6324c.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "368,198,70,68"
+      }
+    },
+    {
+      "region": "Max_Glow_2_max",
+      "file": "pieces/max-glow-2-max-0d91a85b.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "367,137,65,59"
+      }
+    },
+    {
+      "region": "Max_max",
+      "file": "pieces/max-max-39c259ac.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1100,301,108,115"
+      }
+    },
+    {
+      "region": "Rune_Base_diamond",
+      "file": "pieces/rune-base-diamond-3d741880.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "440,199,67,67"
+      }
+    },
+    {
+      "region": "Rune_diamond",
+      "file": "pieces/rune-diamond-ed3b32ef.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "862,244,34,56",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Sapphire",
+      "file": "pieces/sapphire-1ab6df8f.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1404,308,82,83"
+      }
+    },
+    {
+      "region": "Shadow_Sapphire",
+      "file": "pieces/shadow-sapphire-82dfb5ae.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1441,680,98,102",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_diamond",
+      "file": "pieces/shadow-diamond-87149f42.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1222,576,99,104"
+      }
+    },
+    {
+      "region": "Shadow_max",
+      "file": "pieces/shadow-max-ac515978.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "124,21,112,122",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_ruby",
+      "file": "pieces/shadow-ruby-b6196002.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1649,681,97,101",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shine_diamond",
+      "file": "pieces/shine-diamond-b9dc0cad.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "351,739,15,15"
+      }
+    },
+    {
+      "region": "Spark_diamond",
+      "file": "pieces/spark-diamond-0a4a4a1a.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "275,867,9,17",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Sparkle_1_max",
+      "file": "pieces/sparkle-1-max-295670e6.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "812,223,48,50"
+      }
+    },
+    {
+      "region": "Sparkle_2_max",
+      "file": "pieces/sparkle-2-max-c4c71e19.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1222,682,112,96"
+      }
+    },
+    {
+      "region": "Sparks_coin1",
+      "file": "pieces/sparks-coin1-1163cc01.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1100,221,97,78",
+        "offsets": "0,22,100,100"
+      }
+    },
+    {
+      "region": "Sparks_coins4",
+      "file": "pieces/sparks-coins4-c6398eb6.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1362,223,63,75",
+        "offsets": "11,15,100,100"
+      }
+    },
+    {
+      "region": "Symbol_Max_max",
+      "file": "pieces/symbol-max-max-251464f1.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "370,65,67,70"
+      }
+    },
+    {
+      "region": "blick_total",
+      "file": "pieces/blick-total-62e7ab6a.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "2,796,115,226"
+      }
+    },
+    {
+      "region": "coin_Sapphire",
+      "file": "pieces/coin-sapphire-5411eace.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1210,390,94,95"
+      }
+    },
+    {
+      "region": "coin_bronze",
+      "file": "pieces/coin-bronze-4d54f416.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1953,605,93,95"
+      }
+    },
+    {
+      "region": "coin_gold",
+      "file": "pieces/coin-gold-3bc8bb87.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1210,295,93,94",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coin_shadow_bronze",
+      "file": "pieces/coin-shadow-bronze-28ca5096.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1336,678,100,103",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coin_shadow_gold",
+      "file": "pieces/coin-shadow-gold-4433f7e6.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1752,681,97,101",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coin_shadow_silver",
+      "file": "pieces/coin-shadow-silver-8138a0d8.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1545,680,98,102",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "coin_silver",
+      "file": "pieces/coin-silver-d933846a.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1306,383,93,95"
+      }
+    },
+    {
+      "region": "main_light_total",
+      "file": "pieces/main-light-total-61c170dd.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1323,576,100,100"
+      }
+    },
+    {
+      "region": "mist_2_empty",
+      "file": "pieces/mist-2-empty-ecd697bd.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1855,681,97,96",
+        "offsets": "2,2,106,102",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "multiplier_back_glow3",
+      "file": "pieces/multiplier-back-glow3-f6dc57c4.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "891,890,132,133",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pouch_effects_02_glow_01",
+      "file": "pieces/pouch-effects-02-glow-01-4d837029.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "119,867,154,155",
+        "offsets": "3,0,160,162"
+      }
+    },
+    {
+      "region": "rune_Sapphire",
+      "file": "pieces/rune-sapphire-5f8ded11.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "920,243,35,55",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "rune_base_Sapphire",
+      "file": "pieces/rune-base-sapphire-74436ada.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "577,208,64,65"
+      }
+    },
+    {
+      "region": "rune_base_bronze",
+      "file": "pieces/rune-base-bronze-25a247e9.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "643,218,56,55"
+      }
+    },
+    {
+      "region": "rune_base_gold",
+      "file": "pieces/rune-base-gold-e02b2174.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "701,220,54,53"
+      }
+    },
+    {
+      "region": "rune_base_ruby",
+      "file": "pieces/rune-base-ruby-0ecb78c3.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "509,207,66,66"
+      }
+    },
+    {
+      "region": "rune_base_silver",
+      "file": "pieces/rune-base-silver-38e71ed2.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "757,221,53,52"
+      }
+    },
+    {
+      "region": "rune_bronze",
+      "file": "pieces/rune-bronze-99de9844.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "977,245,33,56",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "rune_col_ruby",
+      "file": "pieces/rune-col-ruby-ae1cf88e.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1953,702,93,96"
+      }
+    },
+    {
+      "region": "rune_cos_ruby",
+      "file": "pieces/rune-cos-ruby-e488b146.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1222,487,87,99",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "rune_gold",
+      "file": "pieces/rune-gold-d49f5f8e.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "862,208,34,55",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "rune_ruby",
+      "file": "pieces/rune-ruby-8d0e6930.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "2,2,38,60"
+      }
+    },
+    {
+      "region": "rune_sha_ruby",
+      "file": "pieces/rune-sha-ruby-a56dd333.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1323,480,94,96",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "rune_silver",
+      "file": "pieces/rune-silver-9a4307d1.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1035,245,33,56",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sequence/Max_max_00",
+      "file": "pieces/sequence-max-max-00-21501631.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "2022,989,33,24",
+        "offsets": "56,127,200,200",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sequence/Max_max_01",
+      "file": "pieces/sequence-max-max-01-bf7ba32b.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1425,636,38,40",
+        "offsets": "55,115,200,200"
+      }
+    },
+    {
+      "region": "sequence/Max_max_02",
+      "file": "pieces/sequence-max-max-02-bbe1d9ca.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1288,212,81,72",
+        "offsets": "42,94,200,200",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sequence/Max_max_03",
+      "file": "pieces/sequence-max-max-03-67c136ef.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "246,739,103,126",
+        "offsets": "32,61,200,200"
+      }
+    },
+    {
+      "region": "sequence/Max_max_04",
+      "file": "pieces/sequence-max-max-04-db97bdcd.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1026,901,121,140",
+        "offsets": "28,50,200,200",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sequence/Max_max_05",
+      "file": "pieces/sequence-max-max-05-e1b9f03f.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "435,885,137,152",
+        "offsets": "30,33,200,200",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sequence/Max_max_06",
+      "file": "pieces/sequence-max-max-06-b6a75e9f.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "275,878,144,158",
+        "offsets": "31,25,200,200",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sequence/Max_max_07",
+      "file": "pieces/sequence-max-max-07-be931ec3.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "589,885,137,151",
+        "offsets": "39,19,200,200",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sequence/Max_max_08",
+      "file": "pieces/sequence-max-max-08-4acd2da4.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "742,892,130,147",
+        "offsets": "47,17,200,200",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sequence/Max_max_09",
+      "file": "pieces/sequence-max-max-09-694a6298.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "246,136,113,119",
+        "offsets": "60,18,200,200",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sequence/Max_max_10",
+      "file": "pieces/sequence-max-max-10-5096ca3b.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1937,800,93,100",
+        "offsets": "74,28,200,200"
+      }
+    },
+    {
+      "region": "sequence/Max_max_11",
+      "file": "pieces/sequence-max-max-11-fbb20940.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "42,4,72,58",
+        "offsets": "81,45,200,200"
+      }
+    },
+    {
+      "region": "sequence/Max_max_12",
+      "file": "pieces/sequence-max-max-12-ab3913a1.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "370,19,55,44",
+        "offsets": "96,47,200,200"
+      }
+    },
+    {
+      "region": "sequence/Max_max_13",
+      "file": "pieces/sequence-max-max-13-dfa72f39.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "919,203,47,38",
+        "offsets": "102,51,200,200"
+      }
+    },
+    {
+      "region": "sequence/Max_max_14",
+      "file": "pieces/sequence-max-max-14-94a33ec0.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1425,601,29,33",
+        "offsets": "120,52,200,200"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_16",
+      "file": "pieces/sequence-diamond-diamond-16-86c17a08.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1168,902,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_17",
+      "file": "pieces/sequence-diamond-diamond-17-d0319870.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1290,902,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_18",
+      "file": "pieces/sequence-diamond-diamond-18-f4cbf259.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1412,902,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_19",
+      "file": "pieces/sequence-diamond-diamond-19-c91839ed.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1534,902,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_20",
+      "file": "pieces/sequence-diamond-diamond-20-f74e6ce2.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1656,902,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_21",
+      "file": "pieces/sequence-diamond-diamond-21-8e1b8e86.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1778,902,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_22",
+      "file": "pieces/sequence-diamond-diamond-22-4e837e45.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1900,902,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_23",
+      "file": "pieces/sequence-diamond-diamond-23-c2f15c59.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "2,674,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_24",
+      "file": "pieces/sequence-diamond-diamond-24-0fc98a8c.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "2,552,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_25",
+      "file": "pieces/sequence-diamond-diamond-25-c1f3960e.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "2,430,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_26",
+      "file": "pieces/sequence-diamond-diamond-26-8e0f017b.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "2,308,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_27",
+      "file": "pieces/sequence-diamond-diamond-27-b793797b.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "2,186,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_28",
+      "file": "pieces/sequence-diamond-diamond-28-633463ee.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "2,64,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_29",
+      "file": "pieces/sequence-diamond-diamond-29-dcbf4e16.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "124,745,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_30",
+      "file": "pieces/sequence-diamond-diamond-30-35eb3138.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "124,623,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_31",
+      "file": "pieces/sequence-diamond-diamond-31-f768c37d.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "124,501,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_32",
+      "file": "pieces/sequence-diamond-diamond-32-d354581b.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "124,379,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_33",
+      "file": "pieces/sequence-diamond-diamond-33-6c82540b.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "124,257,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_34",
+      "file": "pieces/sequence-diamond-diamond-34-5e1b37cf.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "124,135,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_35",
+      "file": "pieces/sequence-diamond-diamond-35-6081f3d1.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "246,617,120,120"
+      }
+    },
+    {
+      "region": "sequence_diamond/diamond_36",
+      "file": "pieces/sequence-diamond-diamond-36-afa93422.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "246,495,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_16",
+      "file": "pieces/sequence-ruby-ruby-16-d3b8df2a.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "246,373,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_17",
+      "file": "pieces/sequence-ruby-ruby-17-660862a2.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "246,251,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_18",
+      "file": "pieces/sequence-ruby-ruby-18-3bf36011.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "248,14,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_19",
+      "file": "pieces/sequence-ruby-ruby-19-376b0865.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "351,756,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_20",
+      "file": "pieces/sequence-ruby-ruby-20-75ad00c1.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "473,763,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_21",
+      "file": "pieces/sequence-ruby-ruby-21-97662308.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "595,763,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_22",
+      "file": "pieces/sequence-ruby-ruby-22-1b5dd603.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "368,634,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_23",
+      "file": "pieces/sequence-ruby-ruby-23-40c35d89.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "368,512,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_24",
+      "file": "pieces/sequence-ruby-ruby-24-a9521fc9.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "368,390,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_25",
+      "file": "pieces/sequence-ruby-ruby-25-0844aab1.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "368,268,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_26",
+      "file": "pieces/sequence-ruby-ruby-26-d473183e.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "490,641,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_27",
+      "file": "pieces/sequence-ruby-ruby-27-c23d5caa.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "490,519,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_28",
+      "file": "pieces/sequence-ruby-ruby-28-ad2e09b7.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "490,397,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_29",
+      "file": "pieces/sequence-ruby-ruby-29-2a9bf0d4.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "490,275,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_30",
+      "file": "pieces/sequence-ruby-ruby-30-0cb9a9bf.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "612,641,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_31",
+      "file": "pieces/sequence-ruby-ruby-31-713bceb0.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "612,519,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_32",
+      "file": "pieces/sequence-ruby-ruby-32-d775de98.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "612,397,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_33",
+      "file": "pieces/sequence-ruby-ruby-33-511e30f6.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "612,275,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_34",
+      "file": "pieces/sequence-ruby-ruby-34-e06ba692.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "717,763,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_35",
+      "file": "pieces/sequence-ruby-ruby-35-6d91d2d6.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "734,641,120,120"
+      }
+    },
+    {
+      "region": "sequence_ruby/ruby_36",
+      "file": "pieces/sequence-ruby-ruby-36-5fbfb1ca.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "734,519,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_16",
+      "file": "pieces/sequence-sapphire-sapphire-16-c9ad424b.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "734,397,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_17",
+      "file": "pieces/sequence-sapphire-sapphire-17-b2f3be15.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "734,275,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_18",
+      "file": "pieces/sequence-sapphire-sapphire-18-8d613bd1.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "839,768,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_19",
+      "file": "pieces/sequence-sapphire-sapphire-19-285c3bb9.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "856,646,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_20",
+      "file": "pieces/sequence-sapphire-sapphire-20-a79eca0c.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "856,524,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_21",
+      "file": "pieces/sequence-sapphire-sapphire-21-494c4559.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "856,402,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_22",
+      "file": "pieces/sequence-sapphire-sapphire-22-1c9d749b.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "856,280,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_23",
+      "file": "pieces/sequence-sapphire-sapphire-23-e3798cac.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "961,768,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_24",
+      "file": "pieces/sequence-sapphire-sapphire-24-9cf38a59.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "978,646,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_25",
+      "file": "pieces/sequence-sapphire-sapphire-25-4b38f4be.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "978,524,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_26",
+      "file": "pieces/sequence-sapphire-sapphire-26-f57ed450.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "978,402,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_27",
+      "file": "pieces/sequence-sapphire-sapphire-27-13b6c5c2.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "978,280,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_28",
+      "file": "pieces/sequence-sapphire-sapphire-28-578a2a89.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1083,779,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_29",
+      "file": "pieces/sequence-sapphire-sapphire-29-3d7fec3f.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1205,780,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_30",
+      "file": "pieces/sequence-sapphire-sapphire-30-95d6a892.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1327,780,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_31",
+      "file": "pieces/sequence-sapphire-sapphire-31-8f2af695.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1449,780,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_32",
+      "file": "pieces/sequence-sapphire-sapphire-32-c9a280e5.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1571,780,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_33",
+      "file": "pieces/sequence-sapphire-sapphire-33-252e186b.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1693,780,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_34",
+      "file": "pieces/sequence-sapphire-sapphire-34-b52bed7b.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1815,780,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_35",
+      "file": "pieces/sequence-sapphire-sapphire-35-0b83933b.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1100,657,120,120"
+      }
+    },
+    {
+      "region": "sequence_sapphire/sapphire_36",
+      "file": "pieces/sequence-sapphire-sapphire-36-c06a11a6.png",
+      "page": "coins.webp",
+      "properties": {
+        "bounds": "1100,535,120,120"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

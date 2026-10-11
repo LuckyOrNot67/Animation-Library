@@ -1,9 +1,10 @@
 const $ = (id) => document.getElementById(id);
 let catalog = { machines: [], packages: [] };
 const asset = (p, file) =>
-  "/assets/" +
+  (p.assetBase || "/assets/") +
   (p.path + "/" + file).split("/").map(encodeURIComponent).join("/");
 function page(which) {
+  $("sources").classList.toggle("hidden", which !== "sources");
   $("guide").classList.toggle("hidden", which !== "guide");
   $("library").classList.toggle("hidden", which !== "library");
 }
@@ -74,7 +75,8 @@ function show(p) {
           JSON.stringify({
             sheet: asset(p, p.skeleton),
             assets:
-              "/assets/" + p.path.split("/").map(encodeURIComponent).join("/"),
+              (p.assetBase || "/assets/") +
+              p.path.split("/").map(encodeURIComponent).join("/"),
             pieces: p.pieces,
           }),
         )
@@ -145,3 +147,36 @@ $("machine").onchange = render;
 $("search").oninput = render;
 $("reload").onclick = load;
 load();
+
+$("sources-tab").onclick = () => {
+  page("sources");
+  loadSources();
+};
+async function loadSources() {
+  try {
+    const [sources, learning] = await Promise.all([
+      fetch("/api/sources").then((r) => r.json()),
+      fetch("/api/learning").then((r) => r.json()),
+    ]);
+    $("source-count").textContent =
+      `${sources.sources.length} dépôts vérifiés · ${learning.counts.packages || 0} packages analysés · ${learning.counts.actions || 0} actions indexées`;
+    $("source-cards").replaceChildren();
+    for (const source of sources.sources) {
+      const card = document.createElement("article");
+      card.className = "card";
+      const link = document.createElement("a");
+      link.href = source.url;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = source.repository;
+      const p = document.createElement("p");
+      p.textContent = source.description;
+      const small = document.createElement("small");
+      small.textContent = `${source.kind} · ${source.inventory.atlases} fichiers atlas · ${source.rights}`;
+      card.append(link, p, small);
+      $("source-cards").append(card);
+    }
+  } catch (e) {
+    $("source-count").textContent = e.message;
+  }
+}

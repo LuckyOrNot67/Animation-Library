@@ -1,0 +1,7784 @@
+{
+  "id": "odin-s-vault-animations-insane-win-1e7601ea-326ba26f",
+  "collection": "library",
+  "name": "insane_win",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/insane-win-1e7601ea",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 63,
+    "slots": 73,
+    "attachments": 81,
+    "meshAttachments": 57,
+    "meshUvPairs": 532,
+    "constraints": {
+      "ik": 0,
+      "transform": 5,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 2,
+  "textureBudget": {
+    "pixels": 6118500,
+    "rgbaBytesEstimate": 24474000,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 67,
+  "actions": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "keyframes": 330,
+      "curvedKeys": 127,
+      "channels": [
+        {
+          "path": "slots.base_runes_glowL.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.base_runes_glowL2.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.circle_glow.alpha",
+          "keyframes": 17
+        },
+        {
+          "path": "slots.Color1.alpha",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.glow_arrow_under_numbers.alpha",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.insane_win_glow_1.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.insane_win_glow_2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.insane_win_glow_3.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.insane_win_glow_4.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.insane_win_particles_1.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.insane_win_particles_2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.insane_win_particles_3.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.insane_win_particles_4.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.insane_win_particles_5.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.insane_win_particles_6.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.insane_win_particles_7.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.insane_win_particles_8.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.insane_win_particles_9.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.insane_win_particles_10.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.spot_alpha3.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_1_glow.alpha",
+          "keyframes": 17
+        },
+        {
+          "path": "slots.symbol_2_glow.alpha",
+          "keyframes": 17
+        },
+        {
+          "path": "bones.PopUp_Pivot.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.PopUp_Pivot.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.PopUp_Pivot.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship.translatey",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship9.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship9.translatex",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship9.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship9.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR8.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesR8.translatex",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR8.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR8.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesL.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesL.translatex",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesL.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesL.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Titles.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR5.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR6.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesR6.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesR7.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesL2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesL3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesL3.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Shield.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Shield3.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Arrow.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Glow.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesL4.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesL4.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Rays.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship6.translatey",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Rays2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ShieldM.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.PopUp_Pivot15.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.PopUp_Pivot15.translatex",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.PopUp_Pivot15.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Stars1_0.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Rays3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Rays4.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.PopUp_Pivot21.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.PopUp_Pivot22.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Stars1_1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Stars1_2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Stars1_3.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Stars1_4.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Stars1_5.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Stars1_6.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Stars1_7.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Stars1_8.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Stars1_9.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesL11.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesL11.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "attachments.default.spot_alpha3.spot_alpha.deform",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "PopUp_Pivot",
+        "Ship",
+        "Ship9",
+        "WavesR8",
+        "WavesL",
+        "Titles",
+        "WavesR5",
+        "WavesR6",
+        "WavesR7",
+        "WavesL2",
+        "WavesL3",
+        "Ship2",
+        "Shield",
+        "Shield3",
+        "Arrow",
+        "Glow",
+        "WavesL4",
+        "Rays",
+        "Ship6",
+        "Rays2",
+        "ShieldM",
+        "PopUp_Pivot15",
+        "Stars1_0",
+        "Rays3",
+        "Rays4",
+        "PopUp_Pivot21",
+        "PopUp_Pivot22",
+        "Stars1_1",
+        "Stars1_2",
+        "Stars1_3",
+        "Stars1_4",
+        "Stars1_5",
+        "Stars1_6",
+        "Stars1_7",
+        "Stars1_8",
+        "Stars1_9",
+        "Ship3",
+        "WavesL11"
+      ],
+      "animatedSlots": [
+        "base_runes_glowL",
+        "base_runes_glowL2",
+        "circle_glow",
+        "Color1",
+        "drop_l_1",
+        "drop_l_2",
+        "drop_l_3",
+        "drop_l_4",
+        "drop_l_5",
+        "drop_r_1",
+        "drop_r_2",
+        "drop_r_3",
+        "drop_r_4",
+        "drop_r_5",
+        "glow_arrow_under_numbers",
+        "insane_win_glow_1",
+        "insane_win_glow_2",
+        "insane_win_glow_3",
+        "insane_win_glow_4",
+        "insane_win_particles_1",
+        "insane_win_particles_2",
+        "insane_win_particles_3",
+        "insane_win_particles_4",
+        "insane_win_particles_5",
+        "insane_win_particles_6",
+        "insane_win_particles_7",
+        "insane_win_particles_8",
+        "insane_win_particles_9",
+        "insane_win_particles_10",
+        "spot_alpha3",
+        "symbol_1_glow",
+        "symbol_2_glow"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "in",
+      "duration": 1.1333,
+      "keyframes": 665,
+      "curvedKeys": 307,
+      "channels": [
+        {
+          "path": "slots.arrow_under_numbers.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.base.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.base_runes_glowL.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.base_runes_glowL2.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.circle.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.circle_glow.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Color1.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Color2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.corner_r.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.corner_r2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.drop_l_1.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.drop_l_2.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.drop_l_3.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.drop_l_4.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.drop_l_5.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.drop_r_1.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.drop_r_2.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.drop_r_3.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.drop_r_4.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.drop_r_5.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.frame_l.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_letters_l.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_letters_r.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_l_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_r.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_r_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_top_l.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_top_l_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_top_l_top_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_top_r.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_top_r_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_top_r_top_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_top_shadow_l.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_top_shadow_r.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow_arrow_under_numbers.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.glow_ship_insane_win.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.insane.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.insane_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.insane_win_glow_1.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.insane_win_glow_2.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.insane_win_glow_3.alpha",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.insane_win_glow_4.alpha",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.insane_win_particles_1.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.insane_win_particles_2.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.insane_win_particles_3.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.insane_win_particles_4.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.insane_win_particles_5.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.insane_win_particles_6.alpha",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.insane_win_particles_7.alpha",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.insane_win_particles_8.alpha",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.insane_win_particles_9.alpha",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.insane_win_particles_10.alpha",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.numbers.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ShieldL1.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ShieldL2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ShieldL3.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ShieldM.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ShieldR1.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ShieldR2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Ship.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.splash.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.splash.attachment",
+          "keyframes": 11
+        },
+        {
+          "path": "slots.spot_alpha3.alpha",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.symbol_1.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_1_glow.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.symbol_2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_2_glow.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.symbol_frame.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_frame_base.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.waves.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.win.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.win_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.wolf.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.PopUp_Pivot.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.PopUp_Pivot.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.PopUp_Pivot.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship.translatey",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship2.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship2.shearx",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship9.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Ship9.translatex",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship9.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship9.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Rays.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Rays.scalex",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Rays.scaley",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesL.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.WavesL.translatex",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.WavesL.translatey",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.WavesL.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesR8.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.WavesR8.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.WavesR8.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Titles.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Titles.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Glow.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Glow.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Arrow.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesR7.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR6.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR6.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.WavesR6.scalex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.WavesR6.scaley",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.WavesR5.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesL2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesL3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesL3.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.numbers2.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.numbers2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Shield.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Shield3.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Stars1.scalex",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Stars1.scaley",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesL4.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesL4.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship6.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Rays2.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Rays2.scalex",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Rays2.scaley",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.ShieldM.rotate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.bone.rotate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.PopUp_Pivot15.rotate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.PopUp_Pivot15.translatex",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.PopUp_Pivot15.translatey",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.Rays3.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Rays3.scalex",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Rays3.scaley",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Rays4.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Rays4.scalex",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Rays4.scaley",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.PopUp_Pivot21.rotate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.PopUp_Pivot22.rotate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.Stars1_0.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Stars1_1.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Stars1_2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Stars1_3.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Stars1_4.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Stars1_5.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.Stars1_6.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.Stars1_7.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.Stars1_8.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.Stars1_9.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.WavesL11.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesL11.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.WavesR4.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesR4.translatex",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR4.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR9.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesR9.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.WavesR9.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR3.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.WavesR3.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.WavesR3.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.WavesR.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.WavesR.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesR2.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.WavesR2.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.DropsL5.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.DropsL5.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.DropsL5.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.DropsL6.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.DropsL6.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.DropsL6.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.DropsL3.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.DropsL3.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.DropsL3.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.DropsL7.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.DropsL7.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.DropsL7.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.DropsL4.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.DropsL4.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.DropsL4.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.splash.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "attachments.default.spot_alpha3.spot_alpha.deform",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "PopUp_Pivot",
+        "Ship",
+        "Ship2",
+        "Ship3",
+        "Ship9",
+        "Rays",
+        "WavesL",
+        "WavesR8",
+        "Titles",
+        "Glow",
+        "Arrow",
+        "WavesR7",
+        "WavesR6",
+        "WavesR5",
+        "WavesL2",
+        "WavesL3",
+        "numbers2",
+        "Shield",
+        "Shield3",
+        "Stars1",
+        "WavesL4",
+        "Ship6",
+        "Rays2",
+        "ShieldM",
+        "bone",
+        "PopUp_Pivot15",
+        "Rays3",
+        "Rays4",
+        "PopUp_Pivot21",
+        "PopUp_Pivot22",
+        "Stars1_0",
+        "Stars1_1",
+        "Stars1_2",
+        "Stars1_3",
+        "Stars1_4",
+        "Stars1_5",
+        "Stars1_6",
+        "Stars1_7",
+        "Stars1_8",
+        "Stars1_9",
+        "WavesL11",
+        "WavesR4",
+        "WavesR9",
+        "WavesR3",
+        "WavesR",
+        "WavesR2",
+        "DropsL5",
+        "DropsL6",
+        "DropsL3",
+        "DropsL7",
+        "DropsL4",
+        "splash"
+      ],
+      "animatedSlots": [
+        "arrow_under_numbers",
+        "base",
+        "base_runes_glowL",
+        "base_runes_glowL2",
+        "circle",
+        "circle_glow",
+        "Color1",
+        "Color2",
+        "corner_r",
+        "corner_r2",
+        "drop_l_1",
+        "drop_l_2",
+        "drop_l_3",
+        "drop_l_4",
+        "drop_l_5",
+        "drop_r_1",
+        "drop_r_2",
+        "drop_r_3",
+        "drop_r_4",
+        "drop_r_5",
+        "frame_l",
+        "frame_letters_l",
+        "frame_letters_r",
+        "frame_l_shadow",
+        "frame_r",
+        "frame_r_shadow",
+        "frame_top_l",
+        "frame_top_l_shadow",
+        "frame_top_l_top_shadow",
+        "frame_top_r",
+        "frame_top_r_shadow",
+        "frame_top_r_top_shadow",
+        "frame_top_shadow_l",
+        "frame_top_shadow_r",
+        "glow_arrow_under_numbers",
+        "glow_ship_insane_win",
+        "insane",
+        "insane_shadow",
+        "insane_win_glow_1",
+        "insane_win_glow_2",
+        "insane_win_glow_3",
+        "insane_win_glow_4",
+        "insane_win_particles_1",
+        "insane_win_particles_2",
+        "insane_win_particles_3",
+        "insane_win_particles_4",
+        "insane_win_particles_5",
+        "insane_win_particles_6",
+        "insane_win_particles_7",
+        "insane_win_particles_8",
+        "insane_win_particles_9",
+        "insane_win_particles_10",
+        "numbers",
+        "ShieldL1",
+        "ShieldL2",
+        "ShieldL3",
+        "ShieldM",
+        "ShieldR1",
+        "ShieldR2",
+        "Ship",
+        "splash",
+        "spot_alpha3",
+        "symbol_1",
+        "symbol_1_glow",
+        "symbol_2",
+        "symbol_2_glow",
+        "symbol_frame",
+        "symbol_frame_base",
+        "symbol_shadow",
+        "waves",
+        "win",
+        "win_shadow",
+        "wolf"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "out",
+      "duration": 0.4667,
+      "keyframes": 399,
+      "curvedKeys": 137,
+      "channels": [
+        {
+          "path": "slots.arrow_under_numbers.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.base.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.base_runes_glowL.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.base_runes_glowL2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.circle.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.circle_glow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Color1.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Color2.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.corner_r.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.corner_r2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.drop_l_1.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.drop_l_2.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.drop_l_3.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.drop_l_4.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.drop_l_5.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.drop_r_1.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.drop_r_2.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.drop_r_3.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.drop_r_4.alpha",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.drop_r_5.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_l.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_letters_l.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_letters_r.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_l_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_r.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_r_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_top_l.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_top_l_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_top_l_top_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_top_r.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_top_r_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_top_r_top_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_top_shadow_l.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_top_shadow_r.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.glow_arrow_under_numbers.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.insane.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.insane_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.insane_win_glow_1.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.insane_win_glow_2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.insane_win_glow_3.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.insane_win_glow_4.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.insane_win_particles_1.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.insane_win_particles_2.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.insane_win_particles_3.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.insane_win_particles_4.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.insane_win_particles_5.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.insane_win_particles_6.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.insane_win_particles_7.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.insane_win_particles_8.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.insane_win_particles_9.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.insane_win_particles_10.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.numbers.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.ShieldL1.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ShieldL2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ShieldL3.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ShieldM.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ShieldR1.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ShieldR2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Ship.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spot_alpha3.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.symbol_1.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_1_glow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_2.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_2_glow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_frame.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_frame_base.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.symbol_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.waves.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.win.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.win_shadow.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.wolf.alpha",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesL.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.WavesL.translatex",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.WavesL.translatey",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.WavesL.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR8.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.WavesR8.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.WavesR8.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship9.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship9.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship9.translatey",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship9.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship3.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship2.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship2.shearx",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship.translatey",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Ship.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Rays.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Rays.scalex",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Rays.scaley",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.PopUp_Pivot.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.PopUp_Pivot.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.PopUp_Pivot.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Glow.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Glow.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Ship6.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Rays2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Rays2.scalex",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Rays2.scaley",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Rays3.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Rays3.scalex",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Rays3.scaley",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Rays4.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Rays4.scalex",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Rays4.scaley",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.DropsL7.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.DropsL7.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.DropsL7.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.DropsL6.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.DropsL6.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.DropsL6.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.DropsL5.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.DropsL5.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.DropsL5.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.DropsL4.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.DropsL4.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.DropsL4.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.DropsL3.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.DropsL3.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.DropsL3.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesR.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.WavesR.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesR3.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.WavesR3.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR4.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR4.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.WavesR4.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR9.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesR9.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.WavesR9.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.WavesR2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.WavesR2.translatex",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.WavesR2.translatey",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "WavesL",
+        "WavesR8",
+        "Ship9",
+        "Ship3",
+        "Ship2",
+        "Ship",
+        "Rays",
+        "PopUp_Pivot",
+        "WavesL3",
+        "WavesL2",
+        "WavesR5",
+        "WavesR6",
+        "WavesR7",
+        "Titles",
+        "Glow",
+        "Shield",
+        "Shield3",
+        "Arrow",
+        "WavesL4",
+        "Ship6",
+        "Rays2",
+        "ShieldM",
+        "bone",
+        "PopUp_Pivot15",
+        "Stars1_0",
+        "Stars1",
+        "Rays3",
+        "Rays4",
+        "Stars1_1",
+        "Stars1_2",
+        "Stars1_3",
+        "Stars1_4",
+        "Stars1_5",
+        "Stars1_6",
+        "Stars1_7",
+        "Stars1_8",
+        "Stars1_9",
+        "Stars2",
+        "DropsL7",
+        "DropsL6",
+        "DropsL5",
+        "DropsL4",
+        "DropsL3",
+        "WavesR",
+        "WavesR3",
+        "WavesR4",
+        "WavesR9",
+        "WavesR2"
+      ],
+      "animatedSlots": [
+        "arrow_under_numbers",
+        "base",
+        "base_runes_glowL",
+        "base_runes_glowL2",
+        "circle",
+        "circle_glow",
+        "Color1",
+        "Color2",
+        "corner_r",
+        "corner_r2",
+        "drop_l_1",
+        "drop_l_2",
+        "drop_l_3",
+        "drop_l_4",
+        "drop_l_5",
+        "drop_r_1",
+        "drop_r_2",
+        "drop_r_3",
+        "drop_r_4",
+        "drop_r_5",
+        "frame_l",
+        "frame_letters_l",
+        "frame_letters_r",
+        "frame_l_shadow",
+        "frame_r",
+        "frame_r_shadow",
+        "frame_top_l",
+        "frame_top_l_shadow",
+        "frame_top_l_top_shadow",
+        "frame_top_r",
+        "frame_top_r_shadow",
+        "frame_top_r_top_shadow",
+        "frame_top_shadow_l",
+        "frame_top_shadow_r",
+        "glow_arrow_under_numbers",
+        "insane",
+        "insane_shadow",
+        "insane_win_glow_1",
+        "insane_win_glow_2",
+        "insane_win_glow_3",
+        "insane_win_glow_4",
+        "insane_win_particles_1",
+        "insane_win_particles_2",
+        "insane_win_particles_3",
+        "insane_win_particles_4",
+        "insane_win_particles_5",
+        "insane_win_particles_6",
+        "insane_win_particles_7",
+        "insane_win_particles_8",
+        "insane_win_particles_9",
+        "insane_win_particles_10",
+        "numbers",
+        "ShieldL1",
+        "ShieldL2",
+        "ShieldL3",
+        "ShieldM",
+        "ShieldR1",
+        "ShieldR2",
+        "Ship",
+        "spot_alpha3",
+        "symbol_1",
+        "symbol_1_glow",
+        "symbol_2",
+        "symbol_2_glow",
+        "symbol_frame",
+        "symbol_frame_base",
+        "symbol_shadow",
+        "waves",
+        "win",
+        "win_shadow",
+        "wolf"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-insane-win-1e7601ea-326ba26f/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "PopUp",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "numbers",
+        "parent": "root",
+        "x": 4,
+        "y": -497.5,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Arrow",
+        "parent": "numbers",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Ship",
+        "parent": "PopUp",
+        "x": 5.74,
+        "y": -255.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "PopUp_Pivot",
+        "parent": "Ship",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Rays",
+        "parent": "PopUp",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow",
+        "parent": "PopUp",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Ship2",
+        "parent": "PopUp_Pivot",
+        "x": -2.28,
+        "y": 29.1,
+        "length": 432.73,
+        "rotation": 90.56,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Ship3",
+        "parent": "Ship2",
+        "x": 578.55,
+        "y": 0.31,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Titles",
+        "parent": "Ship2",
+        "x": 259.58,
+        "y": 4.17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Ship4",
+        "parent": "Titles",
+        "x": 33.97,
+        "y": -4.18,
+        "length": 0,
+        "rotation": 90.56,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Ship5",
+        "parent": "Titles",
+        "x": -101.18,
+        "y": -7.54,
+        "length": 0,
+        "rotation": 90.56,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Ship9",
+        "parent": "Ship2",
+        "x": 260.44,
+        "y": -18.01,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Waves",
+        "parent": "Ship",
+        "x": 0.63,
+        "y": -50.19,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "WavesR8",
+        "parent": "Waves",
+        "x": 136.32,
+        "y": 7.14,
+        "length": 192.73,
+        "rotation": 16.58,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "WavesL",
+        "parent": "Waves",
+        "x": -98.77,
+        "y": 11.51,
+        "length": 146.04,
+        "rotation": 169.09,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "VFX_Base",
+        "parent": "root",
+        "x": -506.88,
+        "y": 22.51,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "WavesR7",
+        "parent": "WavesR8",
+        "x": 171.37,
+        "y": 24.06,
+        "length": 25.48,
+        "rotation": 57.37,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "WavesR6",
+        "parent": "WavesR8",
+        "x": 311.54,
+        "y": -24.36,
+        "length": 62.9,
+        "rotation": 22.75,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "WavesR5",
+        "parent": "WavesR8",
+        "x": 311.44,
+        "y": 30.75,
+        "length": 39.87,
+        "rotation": 77.07,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "WavesL2",
+        "parent": "WavesL",
+        "x": 206.17,
+        "y": -22.26,
+        "length": 40.96,
+        "rotation": -60.53,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "WavesL3",
+        "parent": "WavesL",
+        "x": 336.01,
+        "y": -16.17,
+        "length": 90.41,
+        "rotation": -68.36,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Shield",
+        "parent": "PopUp_Pivot",
+        "x": 279.24,
+        "y": 238.46,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "WavesL4",
+        "parent": "WavesL",
+        "x": 284.75,
+        "y": 15.61,
+        "length": 121.38,
+        "rotation": 7.19,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Shield3",
+        "parent": "PopUp_Pivot",
+        "x": -325.6,
+        "y": 247.11,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "numbers2",
+        "parent": "numbers",
+        "x": -2.58,
+        "y": 65.82,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "DropsL",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "DropsL3",
+        "parent": "DropsL",
+        "x": -531.47,
+        "y": -187.31,
+        "length": 0,
+        "rotation": 227.34,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "DropsL4",
+        "parent": "DropsL",
+        "x": -541.22,
+        "y": -152.47,
+        "length": 0,
+        "rotation": 228.39,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "DropsR",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "WavesR4",
+        "parent": "DropsR",
+        "x": 530.22,
+        "y": -202.46,
+        "length": 0,
+        "rotation": 122.4,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "WavesR3",
+        "parent": "DropsR",
+        "x": 527.76,
+        "y": -152.08,
+        "length": 0,
+        "rotation": 129.3,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Stars1",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.7593,
+        "scaleY": 0.7593
+      },
+      {
+        "name": "Count_Bone",
+        "parent": "Arrow",
+        "x": -5.32,
+        "y": 81.82,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Ship6",
+        "parent": "PopUp_Pivot",
+        "x": 23.22,
+        "y": 80.52,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone",
+        "parent": "Ship3",
+        "x": -60.48,
+        "y": 2,
+        "length": 0,
+        "rotation": -90.56,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Rays2",
+        "parent": "PopUp",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ShieldM",
+        "parent": "PopUp_Pivot",
+        "x": -113,
+        "y": 364.14,
+        "length": 0,
+        "rotation": 90,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "PopUp_Pivot15",
+        "parent": "Waves",
+        "x": 6.79,
+        "y": 42.05,
+        "length": 75.13,
+        "rotation": -149.81,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "WavesR2",
+        "parent": "DropsR",
+        "x": 469.33,
+        "y": -132.29,
+        "length": 0,
+        "rotation": 170.14,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "WavesR",
+        "parent": "DropsR",
+        "x": 490.71,
+        "y": -145.57,
+        "length": 0,
+        "rotation": 136.2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Stars1_0",
+        "parent": "Stars1",
+        "x": -26.03,
+        "y": 401.78,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "DropsL5",
+        "parent": "DropsL",
+        "x": -484.11,
+        "y": -130.04,
+        "length": 0,
+        "rotation": 189.74,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "DropsL6",
+        "parent": "DropsL",
+        "x": -503.32,
+        "y": -145.12,
+        "length": 0,
+        "rotation": 217.08,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "DropsL7",
+        "parent": "DropsL",
+        "x": -544.08,
+        "y": -203.57,
+        "length": 0,
+        "rotation": 200.67,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "PopUp_Pivot21",
+        "parent": "PopUp_Pivot",
+        "x": 139.46,
+        "y": 141.48,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "PopUp_Pivot22",
+        "parent": "PopUp_Pivot",
+        "x": -153.41,
+        "y": 141.48,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Rays3",
+        "parent": "PopUp",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Rays4",
+        "parent": "PopUp",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Stars1_1",
+        "parent": "Stars1",
+        "x": 325.11,
+        "y": 106.95,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Stars1_2",
+        "parent": "Stars1",
+        "x": -302.39,
+        "y": 145.15,
+        "length": 0,
+        "rotation": -188.53,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Stars1_3",
+        "parent": "Stars1",
+        "x": -201.68,
+        "y": -264.61,
+        "length": 0,
+        "rotation": 43.65,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Stars1_4",
+        "parent": "Stars1",
+        "x": 371.29,
+        "y": -31.95,
+        "length": 0,
+        "rotation": 296.27,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Stars2",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": -36.83,
+        "scaleX": 0.702,
+        "scaleY": 0.702
+      },
+      {
+        "name": "Stars1_5",
+        "parent": "Stars2",
+        "x": -26.03,
+        "y": 401.78,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Stars1_6",
+        "parent": "Stars2",
+        "x": 325.11,
+        "y": 106.95,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Stars1_7",
+        "parent": "Stars2",
+        "x": -302.39,
+        "y": 145.15,
+        "length": 0,
+        "rotation": -188.53,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Stars1_8",
+        "parent": "Stars2",
+        "x": -201.68,
+        "y": -264.61,
+        "length": 0,
+        "rotation": 43.65,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Stars1_9",
+        "parent": "Stars2",
+        "x": 371.29,
+        "y": -31.95,
+        "length": 0,
+        "rotation": 296.27,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "WavesL11",
+        "parent": "WavesL",
+        "x": 87.62,
+        "y": -22.28,
+        "length": 58.89,
+        "rotation": -53.99,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "WavesR9",
+        "parent": "DropsR",
+        "x": 518.62,
+        "y": -185.27,
+        "length": 0,
+        "rotation": 122.4,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "splash",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "insane_win_glow_2",
+        "bone": "Rays2",
+        "setupAttachment": "insane_win_glow_2",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "insane_win_glow_3",
+        "bone": "Rays3",
+        "setupAttachment": "insane_win_glow_2",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "insane_win_glow_1",
+        "bone": "Rays",
+        "setupAttachment": "insane_win_glow_1",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "insane_win_glow_4",
+        "bone": "Rays4",
+        "setupAttachment": "insane_win_glow_1",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "insane_win_particles_2",
+        "bone": "Stars1_1",
+        "setupAttachment": "insane_win_particles_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "insane_win_particles_7",
+        "bone": "Stars1_6",
+        "setupAttachment": "insane_win_particles_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "insane_win_particles_3",
+        "bone": "Stars1_2",
+        "setupAttachment": "insane_win_particles_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "insane_win_particles_8",
+        "bone": "Stars1_7",
+        "setupAttachment": "insane_win_particles_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "insane_win_particles_4",
+        "bone": "Stars1_3",
+        "setupAttachment": "insane_win_particles_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "insane_win_particles_9",
+        "bone": "Stars1_8",
+        "setupAttachment": "insane_win_particles_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "insane_win_particles_5",
+        "bone": "Stars1_4",
+        "setupAttachment": "insane_win_particles_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "insane_win_particles_10",
+        "bone": "Stars1_9",
+        "setupAttachment": "insane_win_particles_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "insane_win_particles_1",
+        "bone": "Stars1_0",
+        "setupAttachment": "insane_win_particles_3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "insane_win_particles_6",
+        "bone": "Stars1_5",
+        "setupAttachment": "insane_win_particles_3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glow_ship_insane_win",
+        "bone": "Glow",
+        "setupAttachment": "glow_ship_insane_win",
+        "blend": "screen",
+        "color": "ffffffff"
+      },
+      {
+        "name": "base",
+        "bone": "Ship2",
+        "setupAttachment": "base",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_top_l",
+        "bone": "Ship2",
+        "setupAttachment": "frame_top_l",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "base_runes_glowL",
+        "bone": "Ship2",
+        "setupAttachment": "base_runes_glowL",
+        "blend": "screen",
+        "color": "ffffffff"
+      },
+      {
+        "name": "base_runes_glowL2",
+        "bone": "Ship2",
+        "setupAttachment": "base_runes_glowL",
+        "blend": "screen",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_l_shadow",
+        "bone": "Ship2",
+        "setupAttachment": "frame_l_shadow",
+        "blend": "multiply",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_top_l_shadow",
+        "bone": "Ship2",
+        "setupAttachment": "frame_top_l_shadow",
+        "blend": "multiply",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_top_r_shadow",
+        "bone": "Ship2",
+        "setupAttachment": "frame_top_r_shadow",
+        "blend": "multiply",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_top_l_top_shadow",
+        "bone": "Ship2",
+        "setupAttachment": "frame_top_l_top_shadow",
+        "blend": "multiply",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_top_r_top_shadow",
+        "bone": "Ship2",
+        "setupAttachment": "frame_top_r_top_shadow",
+        "blend": "multiply",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_r_shadow",
+        "bone": "Ship2",
+        "setupAttachment": "frame_r_shadow",
+        "blend": "multiply",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_top_r",
+        "bone": "Ship2",
+        "setupAttachment": "frame_top_r",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_l",
+        "bone": "Ship2",
+        "setupAttachment": "frame_l",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_r",
+        "bone": "Ship2",
+        "setupAttachment": "frame_r",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_top_shadow_r",
+        "bone": "Ship2",
+        "setupAttachment": "frame_top_shadow_r",
+        "blend": "multiply",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_top_shadow_l",
+        "bone": "Ship2",
+        "setupAttachment": "frame_top_shadow_l",
+        "blend": "multiply",
+        "color": "ffffffff"
+      },
+      {
+        "name": "corner_r",
+        "bone": "Ship2",
+        "setupAttachment": "corner_r",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "corner_r2",
+        "bone": "Ship2",
+        "setupAttachment": "corner_r",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "wolf",
+        "bone": "Ship2",
+        "setupAttachment": "wolf",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_shadow",
+        "bone": "Ship3",
+        "setupAttachment": "symbol_shadow",
+        "blend": "multiply",
+        "color": "ffffffff"
+      },
+      {
+        "name": "win_shadow",
+        "bone": "Ship5",
+        "setupAttachment": "win_shadow",
+        "blend": "multiply",
+        "color": "ffffffff"
+      },
+      {
+        "name": "insane_shadow",
+        "bone": "Ship4",
+        "setupAttachment": "insane_shadow",
+        "blend": "multiply",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_frame_base",
+        "bone": "Ship3",
+        "setupAttachment": "symbol_frame_base",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_2",
+        "bone": "bone",
+        "setupAttachment": "symbol_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_frame",
+        "bone": "Ship3",
+        "setupAttachment": "symbol_frame",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "circle",
+        "bone": "bone",
+        "setupAttachment": "circle",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_1",
+        "bone": "bone",
+        "setupAttachment": "symbol_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_2_glow",
+        "bone": "bone",
+        "setupAttachment": "symbol_2_glow",
+        "blend": "screen",
+        "color": "ffffffff"
+      },
+      {
+        "name": "circle_glow",
+        "bone": "Ship3",
+        "setupAttachment": "circle_glow",
+        "blend": "screen",
+        "color": "ffffffff"
+      },
+      {
+        "name": "symbol_1_glow",
+        "bone": "bone",
+        "setupAttachment": "symbol_1_glow",
+        "blend": "screen",
+        "color": "ffffffff"
+      },
+      {
+        "name": "insane",
+        "bone": "Ship4",
+        "setupAttachment": "insane",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "win",
+        "bone": "Ship5",
+        "setupAttachment": "win",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Ship",
+        "bone": "PopUp_Pivot",
+        "setupAttachment": "Ship",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ShieldL2",
+        "bone": "Shield",
+        "setupAttachment": "ShieldL2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ShieldL3",
+        "bone": "Shield",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ShieldL1",
+        "bone": "PopUp_Pivot21",
+        "setupAttachment": "ShieldL1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ShieldM",
+        "bone": "ShieldM",
+        "setupAttachment": "ShieldM",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ShieldR1",
+        "bone": "Shield3",
+        "setupAttachment": "ShieldL2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ShieldR2",
+        "bone": "PopUp_Pivot22",
+        "setupAttachment": "ShieldR2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_letters_r",
+        "bone": "Ship2",
+        "setupAttachment": "frame_letters_r",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_letters_l",
+        "bone": "Ship2",
+        "setupAttachment": "frame_letters_l",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "waves",
+        "bone": "root",
+        "setupAttachment": "waves",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "drop_l_5",
+        "bone": "DropsL7",
+        "setupAttachment": "drop_l_5",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "drop_l_4",
+        "bone": "DropsL3",
+        "setupAttachment": "drop_l_4",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "drop_l_3",
+        "bone": "DropsL4",
+        "setupAttachment": "drop_l_3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "drop_l_2",
+        "bone": "DropsL6",
+        "setupAttachment": "drop_l_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "drop_l_1",
+        "bone": "DropsL5",
+        "setupAttachment": "drop_l_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "drop_r_5",
+        "bone": "WavesR4",
+        "setupAttachment": "drop_r_5",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "drop_r_4",
+        "bone": "WavesR9",
+        "setupAttachment": "drop_r_4",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "drop_r_3",
+        "bone": "WavesR3",
+        "setupAttachment": "drop_r_3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "drop_r_2",
+        "bone": "WavesR",
+        "setupAttachment": "drop_r_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "drop_r_1",
+        "bone": "WavesR2",
+        "setupAttachment": "drop_r_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Color1",
+        "bone": "numbers2",
+        "setupAttachment": "Color1",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Color2",
+        "bone": "numbers2",
+        "setupAttachment": "Color2",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glow_arrow_under_numbers",
+        "bone": "Arrow",
+        "setupAttachment": "glow_arrow_under_numbers",
+        "blend": "screen",
+        "color": "ffffffff"
+      },
+      {
+        "name": "spot_alpha3",
+        "bone": "VFX_Base",
+        "setupAttachment": "spot_alpha",
+        "blend": "additive",
+        "color": "ff6883ff"
+      },
+      {
+        "name": "numbers",
+        "bone": "Count_Bone",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "arrow_under_numbers",
+        "bone": "Arrow",
+        "setupAttachment": "arrow_under_numbers",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "splash",
+        "bone": "splash",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "arrow_under_numbers",
+        "name": "arrow_under_numbers",
+        "region": "arrow_under_numbers",
+        "type": "mesh",
+        "bone": "Arrow",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 540,
+          "height": 53
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "base",
+        "name": "base",
+        "region": "base",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 438,
+          "height": 298
+        },
+        "mesh": {
+          "uvPairs": 35,
+          "vertexNumbers": 211,
+          "triangles": 48,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "base_runes_glowL",
+        "name": "base_runes_glowL",
+        "region": "base_runes_glowL",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 105,
+          "height": 380
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "base_runes_glowL2",
+        "name": "base_runes_glowL",
+        "region": "base_runes_glowL",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 105,
+          "height": 380
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "circle",
+        "name": "circle",
+        "region": "circle",
+        "type": "mesh",
+        "bone": "bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 148,
+          "height": 148
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "circle_glow",
+        "name": "circle_glow",
+        "region": "circle_glow",
+        "type": "mesh",
+        "bone": "Ship3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 160,
+          "height": 160
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Color1",
+        "name": "Color1",
+        "region": "Color1",
+        "type": "mesh",
+        "bone": "numbers2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 607,
+          "height": 173
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Color2",
+        "name": "Color2",
+        "region": "Color2",
+        "type": "mesh",
+        "bone": "numbers2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 607,
+          "height": 104
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "corner_r",
+        "name": "corner_r",
+        "region": "corner_r",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 164,
+          "height": 160
+        },
+        "mesh": {
+          "uvPairs": 6,
+          "vertexNumbers": 12,
+          "triangles": 4,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "corner_r2",
+        "name": "corner_r",
+        "region": "corner_r",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 164,
+          "height": 160
+        },
+        "mesh": {
+          "uvPairs": 6,
+          "vertexNumbers": 12,
+          "triangles": 4,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "drop_l_1",
+        "name": "drop_l_1",
+        "region": "drop_l_1",
+        "type": "mesh",
+        "bone": "DropsL5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 20,
+          "height": 33
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "drop_l_2",
+        "name": "drop_l_2",
+        "region": "drop_l_2",
+        "type": "mesh",
+        "bone": "DropsL6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 18,
+          "height": 19
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "drop_l_3",
+        "name": "drop_l_3",
+        "region": "drop_l_3",
+        "type": "mesh",
+        "bone": "DropsL4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 21,
+          "height": 20
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "drop_l_4",
+        "name": "drop_l_4",
+        "region": "drop_l_4",
+        "type": "mesh",
+        "bone": "DropsL3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 16,
+          "height": 15
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "drop_l_5",
+        "name": "drop_l_5",
+        "region": "drop_l_5",
+        "type": "mesh",
+        "bone": "DropsL7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 19,
+          "height": 22
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "drop_r_1",
+        "name": "drop_r_1",
+        "region": "drop_r_1",
+        "type": "mesh",
+        "bone": "WavesR2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 20,
+          "height": 33
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "drop_r_2",
+        "name": "drop_r_2",
+        "region": "drop_r_2",
+        "type": "mesh",
+        "bone": "WavesR",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 18,
+          "height": 19
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "drop_r_3",
+        "name": "drop_r_3",
+        "region": "drop_r_3",
+        "type": "mesh",
+        "bone": "WavesR3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 21,
+          "height": 20
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "drop_r_4",
+        "name": "drop_r_4",
+        "region": "drop_r_4",
+        "type": "mesh",
+        "bone": "WavesR9",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 16,
+          "height": 15
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "drop_r_5",
+        "name": "drop_r_5",
+        "region": "drop_r_5",
+        "type": "mesh",
+        "bone": "WavesR4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 19,
+          "height": 22
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_l",
+        "name": "frame_l",
+        "region": "frame_l",
+        "type": "region",
+        "bone": "Ship2",
+        "transform": {
+          "x": 335.39,
+          "y": 371.2,
+          "rotation": -90.56,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 78,
+          "height": 378
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_letters_l",
+        "name": "frame_letters_l",
+        "region": "frame_letters_l",
+        "type": "region",
+        "bone": "Ship2",
+        "transform": {
+          "x": 336.35,
+          "y": 366.69,
+          "rotation": -90.56,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 31,
+          "height": 144
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_letters_r",
+        "name": "frame_letters_r",
+        "region": "frame_letters_r",
+        "type": "region",
+        "bone": "Ship2",
+        "transform": {
+          "x": 328.73,
+          "y": -361.77,
+          "rotation": -90.56,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 34,
+          "height": 145
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_l_shadow",
+        "name": "frame_l_shadow",
+        "region": "frame_l_shadow",
+        "type": "region",
+        "bone": "Ship2",
+        "transform": {
+          "x": 325.17,
+          "y": 348.8,
+          "rotation": -90.56,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 41,
+          "height": 386
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_r",
+        "name": "frame_r",
+        "region": "frame_r",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 79,
+          "height": 378
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_r_shadow",
+        "name": "frame_r_shadow",
+        "region": "frame_r_shadow",
+        "type": "region",
+        "bone": "Ship2",
+        "transform": {
+          "x": 318.4,
+          "y": -345.17,
+          "rotation": -90.56,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 41,
+          "height": 386
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_top_l",
+        "name": "frame_top_l",
+        "region": "frame_top_l",
+        "type": "region",
+        "bone": "Ship2",
+        "transform": {
+          "x": 537.59,
+          "y": 287.72,
+          "rotation": -90.56,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 171,
+          "height": 74
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_top_l_shadow",
+        "name": "frame_top_l_shadow",
+        "region": "frame_top_l_shadow",
+        "type": "region",
+        "bone": "Ship2",
+        "transform": {
+          "x": 534.59,
+          "y": 287.75,
+          "rotation": -90.56,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 171,
+          "height": 74
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_top_l_top_shadow",
+        "name": "frame_top_l_top_shadow",
+        "region": "frame_top_l_top_shadow",
+        "type": "region",
+        "bone": "Ship2",
+        "transform": {
+          "x": 537.48,
+          "y": 276.72,
+          "rotation": -90.56,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 117,
+          "height": 74
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_top_r",
+        "name": "frame_top_r",
+        "region": "frame_top_r",
+        "type": "region",
+        "bone": "Ship2",
+        "transform": {
+          "x": 532.53,
+          "y": -280.76,
+          "rotation": -90.56,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 170,
+          "height": 73
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_top_r_shadow",
+        "name": "frame_top_r_shadow",
+        "region": "frame_top_r_shadow",
+        "type": "region",
+        "bone": "Ship2",
+        "transform": {
+          "x": 529.03,
+          "y": -280.72,
+          "rotation": -90.56,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 170,
+          "height": 74
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_top_r_top_shadow",
+        "name": "frame_top_r_top_shadow",
+        "region": "frame_top_r_top_shadow",
+        "type": "region",
+        "bone": "Ship2",
+        "transform": {
+          "x": 532.58,
+          "y": -276.26,
+          "rotation": -90.56,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 117,
+          "height": 73
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_top_shadow_l",
+        "name": "frame_top_shadow_l",
+        "region": "frame_top_shadow_l",
+        "type": "region",
+        "bone": "Ship2",
+        "transform": {
+          "x": 322.39,
+          "y": 371.33,
+          "rotation": -90.56,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 78,
+          "height": 352
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_top_shadow_r",
+        "name": "frame_top_shadow_r",
+        "region": "frame_top_shadow_r",
+        "type": "region",
+        "bone": "Ship2",
+        "transform": {
+          "x": 315.18,
+          "y": -367.14,
+          "rotation": -90.56,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 79,
+          "height": 352
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_arrow_under_numbers",
+        "name": "glow_arrow_under_numbers",
+        "region": "glow_arrow_under_numbers",
+        "type": "mesh",
+        "bone": "Arrow",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 590,
+          "height": 103
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_ship_insane_win",
+        "name": "glow_ship_insane_win",
+        "region": "glow_ship_insane_win",
+        "type": "mesh",
+        "bone": "Glow",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 466,
+          "height": 362
+        },
+        "mesh": {
+          "uvPairs": 13,
+          "vertexNumbers": 26,
+          "triangles": 11,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "insane",
+        "name": "insane",
+        "region": "insane",
+        "type": "mesh",
+        "bone": "Ship4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 515,
+          "height": 159
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "insane_shadow",
+        "name": "insane_shadow",
+        "region": "insane_shadow",
+        "type": "mesh",
+        "bone": "Ship4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 370,
+          "height": 120
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "insane_win_glow_1",
+        "name": "insane_win_glow_1",
+        "region": "insane_win_glow_1",
+        "type": "mesh",
+        "bone": "Rays",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 637,
+          "height": 704
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "insane_win_glow_2",
+        "name": "insane_win_glow_2",
+        "region": "insane_win_glow_2",
+        "type": "mesh",
+        "bone": "Rays2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 696,
+          "height": 565
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "insane_win_glow_3",
+        "name": "insane_win_glow_2",
+        "region": "insane_win_glow_2",
+        "type": "mesh",
+        "bone": "Rays3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 696,
+          "height": 565
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "insane_win_glow_4",
+        "name": "insane_win_glow_1",
+        "region": "insane_win_glow_1",
+        "type": "mesh",
+        "bone": "Rays4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 637,
+          "height": 704
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "insane_win_particles_1",
+        "name": "insane_win_particles_3",
+        "region": "insane_win_particles_2",
+        "type": "mesh",
+        "bone": "Stars1_0",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 676,
+          "height": 459
+        },
+        "mesh": {
+          "uvPairs": 7,
+          "vertexNumbers": 14,
+          "triangles": 5,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "insane_win_particles_2",
+        "name": "insane_win_particles_2",
+        "region": "insane_win_particles_2",
+        "type": "mesh",
+        "bone": "Stars1_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 676,
+          "height": 459
+        },
+        "mesh": {
+          "uvPairs": 7,
+          "vertexNumbers": 14,
+          "triangles": 5,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "insane_win_particles_3",
+        "name": "insane_win_particles_2",
+        "region": "insane_win_particles_2",
+        "type": "mesh",
+        "bone": "Stars1_2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 676,
+          "height": 459
+        },
+        "mesh": {
+          "uvPairs": 7,
+          "vertexNumbers": 14,
+          "triangles": 5,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "insane_win_particles_4",
+        "name": "insane_win_particles_2",
+        "region": "insane_win_particles_2",
+        "type": "mesh",
+        "bone": "Stars1_3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 676,
+          "height": 459
+        },
+        "mesh": {
+          "uvPairs": 7,
+          "vertexNumbers": 14,
+          "triangles": 5,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "insane_win_particles_5",
+        "name": "insane_win_particles_2",
+        "region": "insane_win_particles_2",
+        "type": "mesh",
+        "bone": "Stars1_4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 676,
+          "height": 459
+        },
+        "mesh": {
+          "uvPairs": 7,
+          "vertexNumbers": 14,
+          "triangles": 5,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "insane_win_particles_6",
+        "name": "insane_win_particles_3",
+        "region": "insane_win_particles_2",
+        "type": "mesh",
+        "bone": "Stars1_5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 676,
+          "height": 459
+        },
+        "mesh": {
+          "uvPairs": 7,
+          "vertexNumbers": 14,
+          "triangles": 5,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "insane_win_particles_7",
+        "name": "insane_win_particles_2",
+        "region": "insane_win_particles_2",
+        "type": "mesh",
+        "bone": "Stars1_6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 676,
+          "height": 459
+        },
+        "mesh": {
+          "uvPairs": 7,
+          "vertexNumbers": 14,
+          "triangles": 5,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "insane_win_particles_8",
+        "name": "insane_win_particles_2",
+        "region": "insane_win_particles_2",
+        "type": "mesh",
+        "bone": "Stars1_7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 676,
+          "height": 459
+        },
+        "mesh": {
+          "uvPairs": 7,
+          "vertexNumbers": 14,
+          "triangles": 5,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "insane_win_particles_9",
+        "name": "insane_win_particles_2",
+        "region": "insane_win_particles_2",
+        "type": "mesh",
+        "bone": "Stars1_8",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 676,
+          "height": 459
+        },
+        "mesh": {
+          "uvPairs": 7,
+          "vertexNumbers": 14,
+          "triangles": 5,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "insane_win_particles_10",
+        "name": "insane_win_particles_2",
+        "region": "insane_win_particles_2",
+        "type": "mesh",
+        "bone": "Stars1_9",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 676,
+          "height": 459
+        },
+        "mesh": {
+          "uvPairs": 7,
+          "vertexNumbers": 14,
+          "triangles": 5,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ShieldL1",
+        "name": "ShieldL1",
+        "region": "ShieldL1",
+        "type": "mesh",
+        "bone": "PopUp_Pivot21",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 135,
+          "height": 139
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ShieldL2",
+        "name": "ShieldL2",
+        "region": "ShieldL2",
+        "type": "mesh",
+        "bone": "Shield",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 146,
+          "height": 151
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ShieldM",
+        "name": "ShieldM",
+        "region": "ShieldM",
+        "type": "mesh",
+        "bone": "ShieldM",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 181,
+          "height": 183
+        },
+        "mesh": {
+          "uvPairs": 9,
+          "vertexNumbers": 18,
+          "triangles": 7,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ShieldR1",
+        "name": "ShieldL2",
+        "region": "ShieldL2",
+        "type": "mesh",
+        "bone": "Shield3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 146,
+          "height": 151
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ShieldR2",
+        "name": "ShieldR2",
+        "region": "ShieldR2",
+        "type": "mesh",
+        "bone": "PopUp_Pivot22",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 135,
+          "height": 139
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Ship",
+        "name": "Ship",
+        "region": "Ship",
+        "type": "mesh",
+        "bone": "PopUp_Pivot",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 961,
+          "height": 538
+        },
+        "mesh": {
+          "uvPairs": 56,
+          "vertexNumbers": 416,
+          "triangles": 73,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_00",
+        "region": "splash_seq/splash_00",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_01",
+        "region": "splash_seq/splash_01",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_02",
+        "region": "splash_seq/splash_02",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_03",
+        "region": "splash_seq/splash_03",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_04",
+        "region": "splash_seq/splash_04",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_05",
+        "region": "splash_seq/splash_05",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_06",
+        "region": "splash_seq/splash_06",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_07",
+        "region": "splash_seq/splash_07",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_08",
+        "region": "splash_seq/splash_08",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_09",
+        "region": "splash_seq/splash_09",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "splash",
+        "name": "splash_seq/splash_10",
+        "region": "splash_seq/splash_10",
+        "type": "region",
+        "bone": "splash",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 750
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spot_alpha3",
+        "name": "spot_alpha",
+        "region": "spot_alpha",
+        "type": "mesh",
+        "bone": "VFX_Base",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 300,
+          "height": 300
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_1",
+        "name": "symbol_1",
+        "region": "symbol_1",
+        "type": "mesh",
+        "bone": "bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 109,
+          "height": 130
+        },
+        "mesh": {
+          "uvPairs": 7,
+          "vertexNumbers": 14,
+          "triangles": 5,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_1_glow",
+        "name": "symbol_1_glow",
+        "region": "symbol_1_glow",
+        "type": "mesh",
+        "bone": "bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 119,
+          "height": 141
+        },
+        "mesh": {
+          "uvPairs": 6,
+          "vertexNumbers": 12,
+          "triangles": 4,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_2",
+        "name": "symbol_2",
+        "region": "symbol_2",
+        "type": "mesh",
+        "bone": "bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 125,
+          "height": 119
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_2_glow",
+        "name": "symbol_2_glow",
+        "region": "symbol_2_glow",
+        "type": "mesh",
+        "bone": "bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 137,
+          "height": 129
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_frame",
+        "name": "symbol_frame",
+        "region": "symbol_frame",
+        "type": "mesh",
+        "bone": "Ship3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 188,
+          "height": 190
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_frame_base",
+        "name": "symbol_frame_base",
+        "region": "symbol_frame_base",
+        "type": "mesh",
+        "bone": "Ship3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 87,
+          "height": 86
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "symbol_shadow",
+        "name": "symbol_shadow",
+        "region": "symbol_shadow",
+        "type": "mesh",
+        "bone": "Ship3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 75,
+          "height": 76
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "waves",
+        "name": "waves",
+        "region": "waves",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1070,
+          "height": 244
+        },
+        "mesh": {
+          "uvPairs": 97,
+          "vertexNumbers": 1081,
+          "triangles": 95,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "win",
+        "name": "win",
+        "region": "win",
+        "type": "mesh",
+        "bone": "Ship5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 266,
+          "height": 157
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "win_shadow",
+        "name": "win_shadow",
+        "region": "win_shadow",
+        "type": "mesh",
+        "bone": "Ship5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 194,
+          "height": 120
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "wolf",
+        "name": "wolf",
+        "region": "wolf",
+        "type": "mesh",
+        "bone": "Ship2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 568,
+          "height": 262
+        },
+        "mesh": {
+          "uvPairs": 59,
+          "vertexNumbers": 479,
+          "triangles": 83,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "idle",
+        "duration": 2,
+        "keyframes": 330,
+        "curvedKeys": 127,
+        "channels": [
+          {
+            "path": "slots.base_runes_glowL.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.base_runes_glowL2.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.circle_glow.alpha",
+            "keyframes": 17
+          },
+          {
+            "path": "slots.Color1.alpha",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.glow_arrow_under_numbers.alpha",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.insane_win_glow_1.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.insane_win_glow_2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.insane_win_glow_3.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.insane_win_glow_4.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.insane_win_particles_1.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.insane_win_particles_2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.insane_win_particles_3.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.insane_win_particles_4.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.insane_win_particles_5.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.insane_win_particles_6.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.insane_win_particles_7.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.insane_win_particles_8.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.insane_win_particles_9.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.insane_win_particles_10.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.spot_alpha3.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_1_glow.alpha",
+            "keyframes": 17
+          },
+          {
+            "path": "slots.symbol_2_glow.alpha",
+            "keyframes": 17
+          },
+          {
+            "path": "bones.PopUp_Pivot.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.PopUp_Pivot.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.PopUp_Pivot.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship.translatey",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship9.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship9.translatex",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship9.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship9.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR8.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesR8.translatex",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR8.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR8.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesL.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesL.translatex",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesL.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesL.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Titles.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR5.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR6.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesR6.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesR7.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesL2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesL3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesL3.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Shield.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Shield3.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Arrow.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Glow.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesL4.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesL4.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Rays.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship6.translatey",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Rays2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ShieldM.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.PopUp_Pivot15.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.PopUp_Pivot15.translatex",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.PopUp_Pivot15.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Stars1_0.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Rays3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Rays4.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.PopUp_Pivot21.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.PopUp_Pivot22.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Stars1_1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Stars1_2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Stars1_3.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Stars1_4.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Stars1_5.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Stars1_6.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Stars1_7.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Stars1_8.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Stars1_9.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesL11.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesL11.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "attachments.default.spot_alpha3.spot_alpha.deform",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "PopUp_Pivot",
+          "Ship",
+          "Ship9",
+          "WavesR8",
+          "WavesL",
+          "Titles",
+          "WavesR5",
+          "WavesR6",
+          "WavesR7",
+          "WavesL2",
+          "WavesL3",
+          "Ship2",
+          "Shield",
+          "Shield3",
+          "Arrow",
+          "Glow",
+          "WavesL4",
+          "Rays",
+          "Ship6",
+          "Rays2",
+          "ShieldM",
+          "PopUp_Pivot15",
+          "Stars1_0",
+          "Rays3",
+          "Rays4",
+          "PopUp_Pivot21",
+          "PopUp_Pivot22",
+          "Stars1_1",
+          "Stars1_2",
+          "Stars1_3",
+          "Stars1_4",
+          "Stars1_5",
+          "Stars1_6",
+          "Stars1_7",
+          "Stars1_8",
+          "Stars1_9",
+          "Ship3",
+          "WavesL11"
+        ],
+        "animatedSlots": [
+          "base_runes_glowL",
+          "base_runes_glowL2",
+          "circle_glow",
+          "Color1",
+          "drop_l_1",
+          "drop_l_2",
+          "drop_l_3",
+          "drop_l_4",
+          "drop_l_5",
+          "drop_r_1",
+          "drop_r_2",
+          "drop_r_3",
+          "drop_r_4",
+          "drop_r_5",
+          "glow_arrow_under_numbers",
+          "insane_win_glow_1",
+          "insane_win_glow_2",
+          "insane_win_glow_3",
+          "insane_win_glow_4",
+          "insane_win_particles_1",
+          "insane_win_particles_2",
+          "insane_win_particles_3",
+          "insane_win_particles_4",
+          "insane_win_particles_5",
+          "insane_win_particles_6",
+          "insane_win_particles_7",
+          "insane_win_particles_8",
+          "insane_win_particles_9",
+          "insane_win_particles_10",
+          "spot_alpha3",
+          "symbol_1_glow",
+          "symbol_2_glow"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "in",
+        "duration": 1.1333,
+        "keyframes": 665,
+        "curvedKeys": 307,
+        "channels": [
+          {
+            "path": "slots.arrow_under_numbers.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.base.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.base_runes_glowL.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.base_runes_glowL2.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.circle.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.circle_glow.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Color1.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Color2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.corner_r.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.corner_r2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.drop_l_1.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.drop_l_2.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.drop_l_3.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.drop_l_4.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.drop_l_5.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.drop_r_1.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.drop_r_2.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.drop_r_3.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.drop_r_4.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.drop_r_5.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.frame_l.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_letters_l.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_letters_r.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_l_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_r.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_r_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_top_l.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_top_l_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_top_l_top_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_top_r.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_top_r_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_top_r_top_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_top_shadow_l.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_top_shadow_r.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow_arrow_under_numbers.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.glow_ship_insane_win.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.insane.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.insane_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.insane_win_glow_1.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.insane_win_glow_2.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.insane_win_glow_3.alpha",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.insane_win_glow_4.alpha",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.insane_win_particles_1.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.insane_win_particles_2.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.insane_win_particles_3.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.insane_win_particles_4.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.insane_win_particles_5.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.insane_win_particles_6.alpha",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.insane_win_particles_7.alpha",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.insane_win_particles_8.alpha",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.insane_win_particles_9.alpha",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.insane_win_particles_10.alpha",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.numbers.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ShieldL1.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ShieldL2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ShieldL3.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ShieldM.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ShieldR1.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ShieldR2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Ship.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.splash.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.splash.attachment",
+            "keyframes": 11
+          },
+          {
+            "path": "slots.spot_alpha3.alpha",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.symbol_1.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_1_glow.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.symbol_2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_2_glow.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.symbol_frame.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_frame_base.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.waves.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.win.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.win_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.wolf.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.PopUp_Pivot.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.PopUp_Pivot.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.PopUp_Pivot.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship.translatey",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship2.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship2.shearx",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship9.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Ship9.translatex",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship9.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship9.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Rays.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Rays.scalex",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Rays.scaley",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesL.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.WavesL.translatex",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.WavesL.translatey",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.WavesL.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesR8.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.WavesR8.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.WavesR8.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Titles.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Titles.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Glow.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Glow.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Arrow.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesR7.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR6.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR6.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.WavesR6.scalex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.WavesR6.scaley",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.WavesR5.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesL2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesL3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesL3.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.numbers2.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.numbers2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Shield.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Shield3.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Stars1.scalex",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Stars1.scaley",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesL4.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesL4.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship6.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Rays2.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Rays2.scalex",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Rays2.scaley",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.ShieldM.rotate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.bone.rotate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.PopUp_Pivot15.rotate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.PopUp_Pivot15.translatex",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.PopUp_Pivot15.translatey",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.Rays3.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Rays3.scalex",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Rays3.scaley",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Rays4.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Rays4.scalex",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Rays4.scaley",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.PopUp_Pivot21.rotate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.PopUp_Pivot22.rotate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.Stars1_0.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Stars1_1.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Stars1_2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Stars1_3.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Stars1_4.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Stars1_5.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.Stars1_6.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.Stars1_7.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.Stars1_8.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.Stars1_9.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.WavesL11.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesL11.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.WavesR4.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesR4.translatex",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR4.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR9.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesR9.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.WavesR9.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR3.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.WavesR3.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.WavesR3.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.WavesR.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.WavesR.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesR2.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.WavesR2.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.DropsL5.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.DropsL5.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.DropsL5.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.DropsL6.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.DropsL6.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.DropsL6.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.DropsL3.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.DropsL3.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.DropsL3.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.DropsL7.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.DropsL7.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.DropsL7.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.DropsL4.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.DropsL4.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.DropsL4.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.splash.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "attachments.default.spot_alpha3.spot_alpha.deform",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "PopUp_Pivot",
+          "Ship",
+          "Ship2",
+          "Ship3",
+          "Ship9",
+          "Rays",
+          "WavesL",
+          "WavesR8",
+          "Titles",
+          "Glow",
+          "Arrow",
+          "WavesR7",
+          "WavesR6",
+          "WavesR5",
+          "WavesL2",
+          "WavesL3",
+          "numbers2",
+          "Shield",
+          "Shield3",
+          "Stars1",
+          "WavesL4",
+          "Ship6",
+          "Rays2",
+          "ShieldM",
+          "bone",
+          "PopUp_Pivot15",
+          "Rays3",
+          "Rays4",
+          "PopUp_Pivot21",
+          "PopUp_Pivot22",
+          "Stars1_0",
+          "Stars1_1",
+          "Stars1_2",
+          "Stars1_3",
+          "Stars1_4",
+          "Stars1_5",
+          "Stars1_6",
+          "Stars1_7",
+          "Stars1_8",
+          "Stars1_9",
+          "WavesL11",
+          "WavesR4",
+          "WavesR9",
+          "WavesR3",
+          "WavesR",
+          "WavesR2",
+          "DropsL5",
+          "DropsL6",
+          "DropsL3",
+          "DropsL7",
+          "DropsL4",
+          "splash"
+        ],
+        "animatedSlots": [
+          "arrow_under_numbers",
+          "base",
+          "base_runes_glowL",
+          "base_runes_glowL2",
+          "circle",
+          "circle_glow",
+          "Color1",
+          "Color2",
+          "corner_r",
+          "corner_r2",
+          "drop_l_1",
+          "drop_l_2",
+          "drop_l_3",
+          "drop_l_4",
+          "drop_l_5",
+          "drop_r_1",
+          "drop_r_2",
+          "drop_r_3",
+          "drop_r_4",
+          "drop_r_5",
+          "frame_l",
+          "frame_letters_l",
+          "frame_letters_r",
+          "frame_l_shadow",
+          "frame_r",
+          "frame_r_shadow",
+          "frame_top_l",
+          "frame_top_l_shadow",
+          "frame_top_l_top_shadow",
+          "frame_top_r",
+          "frame_top_r_shadow",
+          "frame_top_r_top_shadow",
+          "frame_top_shadow_l",
+          "frame_top_shadow_r",
+          "glow_arrow_under_numbers",
+          "glow_ship_insane_win",
+          "insane",
+          "insane_shadow",
+          "insane_win_glow_1",
+          "insane_win_glow_2",
+          "insane_win_glow_3",
+          "insane_win_glow_4",
+          "insane_win_particles_1",
+          "insane_win_particles_2",
+          "insane_win_particles_3",
+          "insane_win_particles_4",
+          "insane_win_particles_5",
+          "insane_win_particles_6",
+          "insane_win_particles_7",
+          "insane_win_particles_8",
+          "insane_win_particles_9",
+          "insane_win_particles_10",
+          "numbers",
+          "ShieldL1",
+          "ShieldL2",
+          "ShieldL3",
+          "ShieldM",
+          "ShieldR1",
+          "ShieldR2",
+          "Ship",
+          "splash",
+          "spot_alpha3",
+          "symbol_1",
+          "symbol_1_glow",
+          "symbol_2",
+          "symbol_2_glow",
+          "symbol_frame",
+          "symbol_frame_base",
+          "symbol_shadow",
+          "waves",
+          "win",
+          "win_shadow",
+          "wolf"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "out",
+        "duration": 0.4667,
+        "keyframes": 399,
+        "curvedKeys": 137,
+        "channels": [
+          {
+            "path": "slots.arrow_under_numbers.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.base.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.base_runes_glowL.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.base_runes_glowL2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.circle.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.circle_glow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Color1.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Color2.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.corner_r.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.corner_r2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.drop_l_1.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.drop_l_2.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.drop_l_3.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.drop_l_4.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.drop_l_5.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.drop_r_1.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.drop_r_2.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.drop_r_3.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.drop_r_4.alpha",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.drop_r_5.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_l.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_letters_l.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_letters_r.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_l_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_r.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_r_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_top_l.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_top_l_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_top_l_top_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_top_r.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_top_r_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_top_r_top_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_top_shadow_l.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_top_shadow_r.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.glow_arrow_under_numbers.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.insane.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.insane_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.insane_win_glow_1.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.insane_win_glow_2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.insane_win_glow_3.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.insane_win_glow_4.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.insane_win_particles_1.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.insane_win_particles_2.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.insane_win_particles_3.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.insane_win_particles_4.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.insane_win_particles_5.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.insane_win_particles_6.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.insane_win_particles_7.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.insane_win_particles_8.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.insane_win_particles_9.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.insane_win_particles_10.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.numbers.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.ShieldL1.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ShieldL2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ShieldL3.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ShieldM.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ShieldR1.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ShieldR2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Ship.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spot_alpha3.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.symbol_1.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_1_glow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_2.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_2_glow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_frame.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_frame_base.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.symbol_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.waves.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.win.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.win_shadow.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.wolf.alpha",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesL.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.WavesL.translatex",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.WavesL.translatey",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.WavesL.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR8.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.WavesR8.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.WavesR8.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship9.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship9.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship9.translatey",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship9.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship3.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship2.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship2.shearx",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship.translatey",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Ship.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Rays.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Rays.scalex",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Rays.scaley",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.PopUp_Pivot.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.PopUp_Pivot.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.PopUp_Pivot.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Glow.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Glow.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Ship6.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Rays2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Rays2.scalex",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Rays2.scaley",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Rays3.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Rays3.scalex",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Rays3.scaley",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Rays4.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Rays4.scalex",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Rays4.scaley",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.DropsL7.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.DropsL7.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.DropsL7.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.DropsL6.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.DropsL6.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.DropsL6.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.DropsL5.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.DropsL5.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.DropsL5.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.DropsL4.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.DropsL4.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.DropsL4.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.DropsL3.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.DropsL3.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.DropsL3.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesR.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.WavesR.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesR3.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.WavesR3.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR4.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR4.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.WavesR4.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR9.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesR9.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.WavesR9.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.WavesR2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.WavesR2.translatex",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.WavesR2.translatey",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "WavesL",
+          "WavesR8",
+          "Ship9",
+          "Ship3",
+          "Ship2",
+          "Ship",
+          "Rays",
+          "PopUp_Pivot",
+          "WavesL3",
+          "WavesL2",
+          "WavesR5",
+          "WavesR6",
+          "WavesR7",
+          "Titles",
+          "Glow",
+          "Shield",
+          "Shield3",
+          "Arrow",
+          "WavesL4",
+          "Ship6",
+          "Rays2",
+          "ShieldM",
+          "bone",
+          "PopUp_Pivot15",
+          "Stars1_0",
+          "Stars1",
+          "Rays3",
+          "Rays4",
+          "Stars1_1",
+          "Stars1_2",
+          "Stars1_3",
+          "Stars1_4",
+          "Stars1_5",
+          "Stars1_6",
+          "Stars1_7",
+          "Stars1_8",
+          "Stars1_9",
+          "Stars2",
+          "DropsL7",
+          "DropsL6",
+          "DropsL5",
+          "DropsL4",
+          "DropsL3",
+          "WavesR",
+          "WavesR3",
+          "WavesR4",
+          "WavesR9",
+          "WavesR2"
+        ],
+        "animatedSlots": [
+          "arrow_under_numbers",
+          "base",
+          "base_runes_glowL",
+          "base_runes_glowL2",
+          "circle",
+          "circle_glow",
+          "Color1",
+          "Color2",
+          "corner_r",
+          "corner_r2",
+          "drop_l_1",
+          "drop_l_2",
+          "drop_l_3",
+          "drop_l_4",
+          "drop_l_5",
+          "drop_r_1",
+          "drop_r_2",
+          "drop_r_3",
+          "drop_r_4",
+          "drop_r_5",
+          "frame_l",
+          "frame_letters_l",
+          "frame_letters_r",
+          "frame_l_shadow",
+          "frame_r",
+          "frame_r_shadow",
+          "frame_top_l",
+          "frame_top_l_shadow",
+          "frame_top_l_top_shadow",
+          "frame_top_r",
+          "frame_top_r_shadow",
+          "frame_top_r_top_shadow",
+          "frame_top_shadow_l",
+          "frame_top_shadow_r",
+          "glow_arrow_under_numbers",
+          "insane",
+          "insane_shadow",
+          "insane_win_glow_1",
+          "insane_win_glow_2",
+          "insane_win_glow_3",
+          "insane_win_glow_4",
+          "insane_win_particles_1",
+          "insane_win_particles_2",
+          "insane_win_particles_3",
+          "insane_win_particles_4",
+          "insane_win_particles_5",
+          "insane_win_particles_6",
+          "insane_win_particles_7",
+          "insane_win_particles_8",
+          "insane_win_particles_9",
+          "insane_win_particles_10",
+          "numbers",
+          "ShieldL1",
+          "ShieldL2",
+          "ShieldL3",
+          "ShieldM",
+          "ShieldR1",
+          "ShieldR2",
+          "Ship",
+          "spot_alpha3",
+          "symbol_1",
+          "symbol_1_glow",
+          "symbol_2",
+          "symbol_2_glow",
+          "symbol_frame",
+          "symbol_frame_base",
+          "symbol_shadow",
+          "waves",
+          "win",
+          "win_shadow",
+          "wolf"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 63,
+      "slots": 73,
+      "attachments": 81,
+      "meshAttachments": 57,
+      "meshUvPairs": 532,
+      "constraints": {
+        "ik": 0,
+        "transform": 5,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "Color1",
+      "file": "pieces/color1-159e3164.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1277,1067,607,173"
+      }
+    },
+    {
+      "region": "Color2",
+      "file": "pieces/color2-ab0caca6.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "374,1365,607,104"
+      }
+    },
+    {
+      "region": "ShieldL1",
+      "file": "pieces/shieldl1-d190a98c.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "983,1318,135,139",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ShieldL2",
+      "file": "pieces/shieldl2-3d4452f2.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1265,1307,146,151",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ShieldM",
+      "file": "pieces/shieldm-2e830742.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "685,1182,181,183",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "ShieldR2",
+      "file": "pieces/shieldr2-f715f269.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1124,1318,135,139",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "arrow_under_numbers",
+      "file": "pieces/arrow-under-numbers-7120bc2b.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1301,1640,540,53"
+      }
+    },
+    {
+      "region": "base",
+      "file": "pieces/base-708c6e3d.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "2,618,438,298"
+      }
+    },
+    {
+      "region": "base_runes_glowL",
+      "file": "pieces/base-runes-glowl-be8bad33.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1085,1455,105,380",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "circle",
+      "file": "pieces/circle-a2c2ce90.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1418,1296,148,148"
+      }
+    },
+    {
+      "region": "circle_glow",
+      "file": "pieces/circle-glow-74b86d82.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1836,1242,160,160"
+      }
+    },
+    {
+      "region": "corner_r",
+      "file": "pieces/corner-r-b3b4aff4.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "2,1223,164,160"
+      }
+    },
+    {
+      "region": "drop_l_1",
+      "file": "pieces/drop-l-1-3182dcc8.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "128,1673,20,33",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_l_2",
+      "file": "pieces/drop-l-2-762f2a01.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "38,1675,18,19",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_l_3",
+      "file": "pieces/drop-l-3-96ce5acf.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "163,1673,21,20"
+      }
+    },
+    {
+      "region": "drop_l_4",
+      "file": "pieces/drop-l-4-df6910f5.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "2,1678,16,15"
+      }
+    },
+    {
+      "region": "drop_l_5",
+      "file": "pieces/drop-l-5-8989aeca.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "80,1674,19,22",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_r_1",
+      "file": "pieces/drop-r-1-110d9aa6.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "186,1673,20,33",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_r_2",
+      "file": "pieces/drop-r-2-0c26f9b3.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "59,1675,18,19",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "drop_r_3",
+      "file": "pieces/drop-r-3-fbcd4329.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "221,1673,21,20"
+      }
+    },
+    {
+      "region": "drop_r_4",
+      "file": "pieces/drop-r-4-1d6a82a5.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "20,1678,16,15"
+      }
+    },
+    {
+      "region": "drop_r_5",
+      "file": "pieces/drop-r-5-b0260149.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "104,1674,19,22",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_l",
+      "file": "pieces/frame-l-cd471a8d.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "801,1576,76,376",
+        "offsets": "1,1,78,378",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_l_shadow",
+      "file": "pieces/frame-l-shadow-0b34ab21.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "529,1654,39,384",
+        "offsets": "1,1,41,386",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_letters_l",
+      "file": "pieces/frame-letters-l-0cbe5494.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "244,1666,27,140",
+        "offsets": "2,2,31,144",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_letters_r",
+      "file": "pieces/frame-letters-r-8ac27e8c.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "386,1662,31,141",
+        "offsets": "2,2,34,145",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_r",
+      "file": "pieces/frame-r-b6d75413.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "2,1507,79,378",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_r_shadow",
+      "file": "pieces/frame-r-shadow-377cd10b.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "915,1654,39,384",
+        "offsets": "1,1,41,386",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_top_l",
+      "file": "pieces/frame-top-l-f9485d67.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "289,1588,169,72",
+        "offsets": "1,1,171,74"
+      }
+    },
+    {
+      "region": "frame_top_l_shadow",
+      "file": "pieces/frame-top-l-shadow-10991025.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "460,1580,169,72",
+        "offsets": "1,1,171,74"
+      }
+    },
+    {
+      "region": "frame_top_l_top_shadow",
+      "file": "pieces/frame-top-l-top-shadow-bdd534ce.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "2,1600,115,72",
+        "offsets": "1,1,117,74"
+      }
+    },
+    {
+      "region": "frame_top_r",
+      "file": "pieces/frame-top-r-8cc583b7.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "119,1593,168,71",
+        "offsets": "1,1,170,73"
+      }
+    },
+    {
+      "region": "frame_top_r_shadow",
+      "file": "pieces/frame-top-r-shadow-ea97aafe.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "631,1580,168,72",
+        "offsets": "1,1,170,74"
+      }
+    },
+    {
+      "region": "frame_top_r_top_shadow",
+      "file": "pieces/frame-top-r-top-shadow-bbc06d37.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1920,1622,115,71",
+        "offsets": "1,1,117,73"
+      }
+    },
+    {
+      "region": "frame_top_shadow_l",
+      "file": "pieces/frame-top-shadow-l-d7a738c3.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1268,1562,76,349",
+        "offsets": "1,1,78,352",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_top_shadow_r",
+      "file": "pieces/frame-top-shadow-r-c938e303.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1619,1543,77,349",
+        "offsets": "1,1,79,352",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "glow_arrow_under_numbers",
+      "file": "pieces/glow-arrow-under-numbers-f240d944.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "493,1471,590,103"
+      }
+    },
+    {
+      "region": "glow_ship_insane_win",
+      "file": "pieces/glow-ship-insane-win-b79be050.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1455,461,465,358",
+        "offsets": "0,0,466,362"
+      }
+    },
+    {
+      "region": "insane",
+      "file": "pieces/insane-3428ff34.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "168,1204,515,159"
+      }
+    },
+    {
+      "region": "insane_shadow",
+      "file": "pieces/insane-shadow-ad126063.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "2,1385,370,120"
+      }
+    },
+    {
+      "region": "insane_win_particles_2",
+      "file": "pieces/insane-win-particles-2-3ca0cffc.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1076,481,338,377",
+        "offsets": "338,82,676,459",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "splash_seq/splash_00",
+      "file": "pieces/splash-seq-splash-00-540aeba6.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1062,1092,213,213",
+        "offsets": "267,271,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_01",
+      "file": "pieces/splash-seq-splash-01-e8a1d1bb.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "2,963,242,239",
+        "offsets": "251,258,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_02",
+      "file": "pieces/splash-seq-splash-02-2c44cc87.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "744,502,330,317",
+        "offsets": "209,211,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_03",
+      "file": "pieces/splash-seq-splash-03-5a70ff18.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "2,241,401,375",
+        "offsets": "167,184,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_04",
+      "file": "pieces/splash-seq-splash-04-94040af3.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "405,76,467,424",
+        "offsets": "125,163,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_05",
+      "file": "pieces/splash-seq-splash-05-cef2d33e.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "874,38,490,441",
+        "offsets": "111,156,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_06",
+      "file": "pieces/splash-seq-splash-06-8b155375.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1366,2,514,457",
+        "offsets": "97,151,750,750"
+      }
+    },
+    {
+      "region": "spot_alpha",
+      "file": "pieces/spot-alpha-424739e3.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "442,616,300,300"
+      }
+    },
+    {
+      "region": "symbol_1",
+      "file": "pieces/symbol-1-335c3201.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "382,1477,109,101",
+        "offsets": "0,29,109,130"
+      }
+    },
+    {
+      "region": "symbol_1_glow",
+      "file": "pieces/symbol-1-glow-688c9faf.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1467,1446,119,114",
+        "offsets": "0,27,119,141"
+      }
+    },
+    {
+      "region": "symbol_2",
+      "file": "pieces/symbol-2-7f45c242.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1588,1422,125,119"
+      }
+    },
+    {
+      "region": "symbol_2_glow",
+      "file": "pieces/symbol-2-glow-b0fac8d6.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1911,1404,137,129",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_frame",
+      "file": "pieces/symbol-frame-0224ee87.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "870,1128,188,190",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "symbol_frame_base",
+      "file": "pieces/symbol-frame-base-288f96af.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1179,1566,87,86"
+      }
+    },
+    {
+      "region": "symbol_shadow",
+      "file": "pieces/symbol-shadow-c94f1268.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1843,1638,75,55",
+        "offsets": "0,0,75,76"
+      }
+    },
+    {
+      "region": "waves",
+      "file": "pieces/waves-0b177445.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "816,821,1070,244"
+      }
+    },
+    {
+      "region": "win",
+      "file": "pieces/win-79a26e69.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1568,1262,266,157"
+      }
+    },
+    {
+      "region": "win_shadow",
+      "file": "pieces/win-shadow-806b973b.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "1715,1421,194,120"
+      }
+    },
+    {
+      "region": "wolf",
+      "file": "pieces/wolf-e29c680e.png",
+      "page": "insane_win.webp",
+      "properties": {
+        "bounds": "246,918,568,262"
+      }
+    },
+    {
+      "region": "Ship",
+      "file": "pieces/ship-cdc5b349.png",
+      "page": "insane_win_2.webp",
+      "properties": {
+        "bounds": "2,552,961,538",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "insane_win_glow_1",
+      "file": "pieces/insane-win-glow-1-35278809.png",
+      "page": "insane_win_2.webp",
+      "properties": {
+        "bounds": "542,809,637,704"
+      }
+    },
+    {
+      "region": "insane_win_glow_2",
+      "file": "pieces/insane-win-glow-2-50c7df26.png",
+      "page": "insane_win_2.webp",
+      "properties": {
+        "bounds": "604,111,696,554",
+        "offsets": "0,1,696,565",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "splash_seq/splash_07",
+      "file": "pieces/splash-seq-splash-07-8c0c635e.png",
+      "page": "insane_win_2.webp",
+      "properties": {
+        "bounds": "1160,9,528,476",
+        "offsets": "90,141,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_08",
+      "file": "pieces/splash-seq-splash-08-d2e891ae.png",
+      "page": "insane_win_2.webp",
+      "properties": {
+        "bounds": "1181,487,547,501",
+        "offsets": "81,128,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_09",
+      "file": "pieces/splash-seq-splash-09-7863203f.png",
+      "page": "insane_win_2.webp",
+      "properties": {
+        "bounds": "1181,990,571,523",
+        "offsets": "69,116,750,750"
+      }
+    },
+    {
+      "region": "splash_seq/splash_10",
+      "file": "pieces/splash-seq-splash-10-0e493613.png",
+      "page": "insane_win_2.webp",
+      "properties": {
+        "bounds": "2,2,600,548",
+        "offsets": "53,102,750,750"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

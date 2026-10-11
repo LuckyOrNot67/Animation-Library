@@ -1,0 +1,4935 @@
+{
+  "id": "odin-s-vault-animations-scatter-red-855219c7-a880108e",
+  "collection": "library",
+  "name": "scatter_red",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/scatter-red-855219c7",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 67,
+    "slots": 52,
+    "attachments": 52,
+    "meshAttachments": 50,
+    "meshUvPairs": 369,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 223321,
+    "rgbaBytesEstimate": 893284,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 42,
+  "actions": [
+    {
+      "name": "appear",
+      "duration": 1,
+      "keyframes": 257,
+      "curvedKeys": 162,
+      "channels": [
+        {
+          "path": "slots.BG.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.BG2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Body.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Body_sh.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.eye.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Frame_Gold.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Frame_Gold2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Frame_Gold2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Frame_sh1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Frame_sh2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Glow_1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.max_effects_04_glow_01.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.max_effects_05_glow_01.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.max_effects_06_glow_01.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_a.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_a2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.scatter_a2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.scatter_c.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_c2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.scatter_c2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.scatter_e.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_e2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.scatter_e2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.scatter_r.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_r2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.scatter_r2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.scatter_s.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_s2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.scatter_s2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.scatter_shadow_a.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_shadow_c.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_shadow_e.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_shadow_r.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_shadow_s.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_shadow_t1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_shadow_t2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_t1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_t2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_t3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.scatter_t3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.scatter_t4.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.scatter_t4.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.scatter_thickness_a.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_thickness_c.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_thickness_e.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_thickness_r.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_thickness_s.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_thickness_t1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.scatter_thickness_t2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.star.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Tail_1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Tail_1_sh.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Tail_2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Tail_2_sh.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Tail_3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Tongue.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Tongue_sh.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Frame_Gold.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Frame_Gold.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tail_1.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Tail_1.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Tail_2.rotate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.Tail_2.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Tail_2.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Tongue.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Tongue.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Tongue.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Body.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Body.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Glow_1.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Body7.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Body8.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Body9.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Body5.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Body10.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Body11.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Tail_3.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Tail_4.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Tail_5.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Tail_6.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Tail_7.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Tail_8.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Tail_9.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Glow_2.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Glow_3.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Glow_4.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Glow_5.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Glow_6.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Glow_7.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.scatter.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Frame_Gold2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Frame_Gold2.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.BG2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.BG2.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.BG2.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "Frame_Gold",
+        "Tail_1",
+        "Tail_2",
+        "Tongue",
+        "Body",
+        "Glow_1",
+        "Body7",
+        "Body8",
+        "Body9",
+        "Body5",
+        "Body10",
+        "Body11",
+        "Tail_3",
+        "Tail_4",
+        "Tail_5",
+        "Tail_6",
+        "Tail_7",
+        "Tail_8",
+        "Tail_9",
+        "Glow_2",
+        "Glow_3",
+        "Glow_4",
+        "Glow_5",
+        "Glow_6",
+        "Glow_7",
+        "scatter",
+        "Frame_Gold2",
+        "BG2"
+      ],
+      "animatedSlots": [
+        "BG",
+        "BG2",
+        "Body",
+        "Body_sh",
+        "eye",
+        "Frame_Gold",
+        "Frame_Gold2",
+        "Frame_sh1",
+        "Frame_sh2",
+        "Glow_0",
+        "Glow_1",
+        "Glow_2",
+        "Glow_3",
+        "max_effects_04_glow_01",
+        "max_effects_05_glow_01",
+        "max_effects_06_glow_01",
+        "scatter_a",
+        "scatter_a2",
+        "scatter_c",
+        "scatter_c2",
+        "scatter_e",
+        "scatter_e2",
+        "scatter_r",
+        "scatter_r2",
+        "scatter_s",
+        "scatter_s2",
+        "scatter_shadow_a",
+        "scatter_shadow_c",
+        "scatter_shadow_e",
+        "scatter_shadow_r",
+        "scatter_shadow_s",
+        "scatter_shadow_t1",
+        "scatter_shadow_t2",
+        "scatter_t1",
+        "scatter_t2",
+        "scatter_t3",
+        "scatter_t4",
+        "scatter_thickness_a",
+        "scatter_thickness_c",
+        "scatter_thickness_e",
+        "scatter_thickness_r",
+        "scatter_thickness_s",
+        "scatter_thickness_t1",
+        "scatter_thickness_t2",
+        "star",
+        "Tail_1",
+        "Tail_1_sh",
+        "Tail_2",
+        "Tail_2_sh",
+        "Tail_3",
+        "Tongue",
+        "Tongue_sh"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "transition"
+      ]
+    },
+    {
+      "name": "win",
+      "duration": 1.3333,
+      "keyframes": 459,
+      "curvedKeys": 328,
+      "channels": [
+        {
+          "path": "slots.Frame_Gold2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Frame_Gold2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Glow_0.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Glow_0.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Glow_1.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.Glow_2.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.Glow_3.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.max_effects_04_glow_01.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.max_effects_04_glow_01.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.max_effects_05_glow_01.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.max_effects_05_glow_01.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.max_effects_06_glow_01.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.max_effects_06_glow_01.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.scatter_a2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.scatter_a2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.scatter_c2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.scatter_c2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.scatter_e2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.scatter_e2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.scatter_r2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.scatter_r2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.scatter_s2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.scatter_s2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.scatter_t3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.scatter_t3.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.scatter_t4.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.scatter_t4.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.star.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.star.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Body2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Body3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Body4.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Body5.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Body6.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Body7.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Body8.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Body9.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tongue2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tongue3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tongue4.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tongue5.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tongue6.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tail_14.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tail_15.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tail_13.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tail_3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tail_4.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tail_5.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tail_6.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tail_7.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tail_8.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tail_10.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tail_11.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tail_12.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tail_9.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Body10.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Body10.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Body11.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Body11.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Tail_1.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tail_1.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Body.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Body.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tail_2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tail_2.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tail_2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Tongue.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Frame_Gold.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.s.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.s.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.c.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.c.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.a.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.a.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.t1.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.t1.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.e.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.e.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.r.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.r.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.t2.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.t2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.scatter_back_glow.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.scatter_back_glow.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.scatter_back_glow.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.star.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.eye.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Glow_1.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Glow_2_1.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Glow_3_1.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Glow_2.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.Glow_3.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Glow_4.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.Glow_5.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Glow_6.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.Glow_7.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Glow_2_2.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.Glow_2_3.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Glow_2_4.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.Glow_2_5.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Glow_2_6.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.Glow_3_2.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Glow_3_3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Glow_3_4.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Glow_3_5.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Glow_3_6.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "attachments.default.Body.scatter_red/Body.deform",
+          "keyframes": 4
+        },
+        {
+          "path": "attachments.default.Body_sh.scatter_red/Body_Shadow.deform",
+          "keyframes": 3
+        },
+        {
+          "path": "attachments.default.Frame_sh1.Frame_sh1.deform",
+          "keyframes": 4
+        },
+        {
+          "path": "attachments.default.Frame_sh2.Frame_sh2.deform",
+          "keyframes": 5
+        },
+        {
+          "path": "attachments.default.max_effects_04_glow_01.max_effects_04_glow_01.deform",
+          "keyframes": 2
+        },
+        {
+          "path": "attachments.default.Tail_1.scatter_red/Tail_1.deform",
+          "keyframes": 4
+        },
+        {
+          "path": "attachments.default.Tail_1_sh.scatter_red/Tail_1_Shadow.deform",
+          "keyframes": 3
+        },
+        {
+          "path": "attachments.default.Tail_2.scatter_red/Tail_2.deform",
+          "keyframes": 4
+        },
+        {
+          "path": "attachments.default.Tail_2_sh.scatter_red/Tail_2_Shadow.deform",
+          "keyframes": 4
+        },
+        {
+          "path": "attachments.default.Tongue_sh.scatter_red/Tongue_Shadow.deform",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "Body2",
+        "Body3",
+        "Body4",
+        "Body5",
+        "Body6",
+        "Body7",
+        "Body8",
+        "Body9",
+        "Tongue2",
+        "Tongue3",
+        "Tongue4",
+        "Tongue5",
+        "Tongue6",
+        "Tail_14",
+        "Tail_15",
+        "Tail_13",
+        "Tail_3",
+        "Tail_4",
+        "Tail_5",
+        "Tail_6",
+        "Tail_7",
+        "Tail_8",
+        "Tail_10",
+        "Tail_11",
+        "Tail_12",
+        "Tail_9",
+        "Body10",
+        "Body11",
+        "Tail_1",
+        "Body",
+        "Tail_2",
+        "Tongue",
+        "Frame_Gold",
+        "scatter",
+        "s",
+        "c",
+        "a",
+        "t1",
+        "e",
+        "r",
+        "t2",
+        "scatter_back_glow",
+        "star",
+        "eye",
+        "Glow_1",
+        "Glow_2_1",
+        "Glow_3_1",
+        "Glow_2",
+        "Glow_3",
+        "Glow_4",
+        "Glow_5",
+        "Glow_6",
+        "Glow_7",
+        "Glow_2_2",
+        "Glow_2_3",
+        "Glow_2_4",
+        "Glow_2_5",
+        "Glow_2_6",
+        "Glow_3_2",
+        "Glow_3_3",
+        "Glow_3_4",
+        "Glow_3_5",
+        "Glow_3_6"
+      ],
+      "animatedSlots": [
+        "Frame_Gold2",
+        "Glow_0",
+        "Glow_1",
+        "Glow_2",
+        "Glow_3",
+        "max_effects_04_glow_01",
+        "max_effects_05_glow_01",
+        "max_effects_06_glow_01",
+        "scatter_a2",
+        "scatter_c2",
+        "scatter_e2",
+        "scatter_r2",
+        "scatter_s2",
+        "scatter_t3",
+        "scatter_t4",
+        "star"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "win"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-scatter-red-855219c7-a880108e/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "main",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Frame_Gold",
+        "parent": "main",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Body",
+        "parent": "Frame_Gold",
+        "x": 40.16,
+        "y": -51.9,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Body2",
+        "parent": "Body",
+        "x": 1.48,
+        "y": 0.61,
+        "length": 20.97,
+        "rotation": 50.68,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Body3",
+        "parent": "Body2",
+        "x": 20.97,
+        "y": 0,
+        "length": 27.64,
+        "rotation": 49.62,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Body4",
+        "parent": "Body3",
+        "x": 27.64,
+        "y": 0,
+        "length": 30.82,
+        "rotation": 53.52,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Body5",
+        "parent": "Body4",
+        "x": 30.82,
+        "y": 0,
+        "length": 43.43,
+        "rotation": 44.42,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "scatter",
+        "parent": "Body5",
+        "x": 23.76,
+        "y": -0.57,
+        "length": 0,
+        "rotation": -108.65,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Body6",
+        "parent": "Body5",
+        "x": 43.43,
+        "y": 0,
+        "length": 31.67,
+        "rotation": -37.91,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Body7",
+        "parent": "Body6",
+        "x": 31.67,
+        "y": 0,
+        "length": 24.46,
+        "rotation": -80.15,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Body8",
+        "parent": "Body7",
+        "x": 24.46,
+        "y": 0,
+        "length": 29.83,
+        "rotation": -40.22,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Body9",
+        "parent": "Body8",
+        "x": 29.83,
+        "y": 0,
+        "length": 36.43,
+        "rotation": -76.68,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "eye",
+        "parent": "Body9",
+        "x": 12.2,
+        "y": 2.82,
+        "length": 0,
+        "rotation": 36.72,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tail_2",
+        "parent": "Frame_Gold",
+        "x": 50.16,
+        "y": 18.92,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tail_3",
+        "parent": "Tail_2",
+        "x": -1.36,
+        "y": -1.67,
+        "length": 19.8,
+        "rotation": -117.35,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tail_4",
+        "parent": "Tail_3",
+        "x": 19.8,
+        "y": 0,
+        "length": 22.73,
+        "rotation": -17.11,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tail_5",
+        "parent": "Tail_4",
+        "x": 22.73,
+        "y": 0,
+        "length": 17.71,
+        "rotation": -7.49,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tail_6",
+        "parent": "Tail_5",
+        "x": 17.71,
+        "y": 0,
+        "length": 14.61,
+        "rotation": -15.47,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tail_7",
+        "parent": "Tail_6",
+        "x": 14.89,
+        "y": -0.12,
+        "length": 19.5,
+        "rotation": 37.07,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tail_8",
+        "parent": "Tail_5",
+        "x": 15.77,
+        "y": -0.02,
+        "length": 14.26,
+        "rotation": 53.17,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tail_9",
+        "parent": "Tail_8",
+        "x": 14.26,
+        "y": 0,
+        "length": 14.85,
+        "rotation": 48.75,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tail_1",
+        "parent": "Frame_Gold",
+        "x": 34.28,
+        "y": -45.42,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tail_10",
+        "parent": "Tail_1",
+        "x": -2.22,
+        "y": 1.36,
+        "length": 28.13,
+        "rotation": 158.39,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tail_11",
+        "parent": "Tail_10",
+        "x": 28.13,
+        "y": 0,
+        "length": 25.16,
+        "rotation": -26.57,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tail_12",
+        "parent": "Tail_11",
+        "x": 25.16,
+        "y": 0,
+        "length": 26.23,
+        "rotation": -37.5,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tail_13",
+        "parent": "Tail_12",
+        "x": 26.46,
+        "y": -0.26,
+        "length": 24.54,
+        "rotation": -34.49,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tail_14",
+        "parent": "Tail_13",
+        "x": 24.54,
+        "y": 0,
+        "length": 25.69,
+        "rotation": -36.34,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tail_15",
+        "parent": "Tail_14",
+        "x": 25.85,
+        "y": 0.06,
+        "length": 26.96,
+        "rotation": -33.77,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tongue",
+        "parent": "Body9",
+        "x": 11.66,
+        "y": -8.59,
+        "length": 0,
+        "rotation": 36.72,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tongue2",
+        "parent": "Tongue",
+        "x": 1.19,
+        "y": -0.96,
+        "length": 17.27,
+        "rotation": -50.91,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tongue3",
+        "parent": "Tongue2",
+        "x": 17.7,
+        "y": 0.03,
+        "length": 13.53,
+        "rotation": 55.3,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tongue4",
+        "parent": "Tongue3",
+        "x": 13.53,
+        "y": 0,
+        "length": 11.71,
+        "rotation": 53.48,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tongue5",
+        "parent": "Tongue4",
+        "x": 11.71,
+        "y": 0,
+        "length": 16.38,
+        "rotation": 51.45,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Tongue6",
+        "parent": "Tongue5",
+        "x": 16.38,
+        "y": 0,
+        "length": 13.38,
+        "rotation": 27.07,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Body10",
+        "parent": "Body6",
+        "x": 22.73,
+        "y": 11.24,
+        "length": 25.89,
+        "rotation": 139.76,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Body11",
+        "parent": "Body10",
+        "x": 25.89,
+        "y": 0,
+        "length": 14.61,
+        "rotation": -47.94,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "a",
+        "parent": "scatter",
+        "x": -4.92,
+        "y": 16.59,
+        "length": 0,
+        "rotation": -89.59,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "c",
+        "parent": "scatter",
+        "x": -4.15,
+        "y": 31.57,
+        "length": 0,
+        "rotation": -89.59,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "s",
+        "parent": "scatter",
+        "x": 1.62,
+        "y": 44.13,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "t1",
+        "parent": "scatter",
+        "x": -1.55,
+        "y": 0.26,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "t2",
+        "parent": "scatter",
+        "x": 3.8,
+        "y": -14.25,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "e",
+        "parent": "scatter",
+        "x": 5.48,
+        "y": -28.12,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "r",
+        "parent": "scatter",
+        "x": -0.12,
+        "y": -42.58,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "scatter_back_glow",
+        "parent": "main",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "star",
+        "parent": "c",
+        "x": -2.18,
+        "y": 9.4,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.3,
+        "scaleY": 0.3
+      },
+      {
+        "name": "Glow_1",
+        "parent": "eye",
+        "x": -0.2,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow_2",
+        "parent": "Glow_1",
+        "x": -1.27,
+        "y": 0.63,
+        "length": 10.41,
+        "rotation": 160.14,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow_3",
+        "parent": "Glow_2",
+        "x": 10.41,
+        "y": 0,
+        "length": 8.53,
+        "rotation": -117.3,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow_4",
+        "parent": "Glow_3",
+        "x": 8.53,
+        "y": 0,
+        "length": 21.94,
+        "rotation": 131.7,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow_5",
+        "parent": "Glow_4",
+        "x": 21.94,
+        "y": 0,
+        "length": 6.84,
+        "rotation": -116.55,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow_6",
+        "parent": "Glow_5",
+        "x": 6.84,
+        "y": 0,
+        "length": 13.33,
+        "rotation": 114.98,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow_7",
+        "parent": "Glow_6",
+        "x": 13.42,
+        "y": 0.01,
+        "length": 6.22,
+        "rotation": -36.2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow_2_1",
+        "parent": "eye",
+        "x": -0.29,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow_2_2",
+        "parent": "Glow_2_1",
+        "x": -0.73,
+        "y": 1.18,
+        "length": 21.67,
+        "rotation": 168.17,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow_2_3",
+        "parent": "Glow_2_2",
+        "x": 21.67,
+        "y": 0,
+        "length": 15.65,
+        "rotation": -139.83,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow_2_4",
+        "parent": "Glow_2_3",
+        "x": 15.62,
+        "y": 0.12,
+        "length": 19.96,
+        "rotation": 149.31,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow_2_5",
+        "parent": "Glow_2_4",
+        "x": 19.96,
+        "y": 0,
+        "length": 16.45,
+        "rotation": -147.56,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow_2_6",
+        "parent": "Glow_2_5",
+        "x": 16.45,
+        "y": 0,
+        "length": 17.66,
+        "rotation": 155.2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow_3_1",
+        "parent": "eye",
+        "x": -0.11,
+        "y": 0.46,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow_3_2",
+        "parent": "Glow_3_1",
+        "x": -1.99,
+        "y": 2.27,
+        "length": 6.33,
+        "rotation": 146.08,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow_3_3",
+        "parent": "Glow_3_2",
+        "x": 6.33,
+        "y": 0,
+        "length": 16.4,
+        "rotation": 33.6,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow_3_4",
+        "parent": "Glow_3_3",
+        "x": 16.4,
+        "y": 0,
+        "length": 16.61,
+        "rotation": -137.12,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow_3_5",
+        "parent": "Glow_3_4",
+        "x": 16.61,
+        "y": 0,
+        "length": 21.57,
+        "rotation": 138.15,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow_3_6",
+        "parent": "Glow_3_5",
+        "x": 21.57,
+        "y": 0,
+        "length": 10.86,
+        "rotation": -124.15,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Frame_Gold2",
+        "parent": "Frame_Gold",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "BG2",
+        "parent": "Frame_Gold",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "BG",
+        "bone": "Frame_Gold",
+        "setupAttachment": "scatter_red/BG",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "BG2",
+        "bone": "BG2",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Tail_1_sh",
+        "bone": "Tail_1",
+        "setupAttachment": "scatter_red/Tail_1_Shadow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Tail_2_sh",
+        "bone": "Tail_2",
+        "setupAttachment": "scatter_red/Tail_2_Shadow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Tongue_sh",
+        "bone": "Tongue",
+        "setupAttachment": "scatter_red/Tongue_Shadow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Body_sh",
+        "bone": "Body",
+        "setupAttachment": "scatter_red/Body_Shadow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Frame_Gold",
+        "bone": "Frame_Gold",
+        "setupAttachment": "scatter_red/Frame_Gold",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Frame_Gold2",
+        "bone": "Frame_Gold2",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Frame_sh2",
+        "bone": "Tail_15",
+        "setupAttachment": "Frame_sh2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Frame_sh1",
+        "bone": "Body2",
+        "setupAttachment": "Frame_sh1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Tail_1",
+        "bone": "Tail_1",
+        "setupAttachment": "scatter_red/Tail_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Tail_2",
+        "bone": "Tail_2",
+        "setupAttachment": "scatter_red/Tail_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Tongue",
+        "bone": "Tongue",
+        "setupAttachment": "scatter_red/Tongue",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "max_effects_04_glow_01",
+        "bone": "scatter_back_glow",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "max_effects_06_glow_01",
+        "bone": "scatter_back_glow",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Body",
+        "bone": "Body",
+        "setupAttachment": "scatter_red/Body",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Tail_3",
+        "bone": "Tail_2",
+        "setupAttachment": "scatter_red/Tail_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "max_effects_05_glow_01",
+        "bone": "scatter_back_glow",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Glow_1",
+        "bone": "Glow_1",
+        "setupAttachment": "Glow_1",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Glow_2",
+        "bone": "Glow_2_1",
+        "setupAttachment": "Glow_2",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Glow_3",
+        "bone": "Glow_3_1",
+        "setupAttachment": "Glow_3",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Glow_0",
+        "bone": "eye",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "eye",
+        "bone": "eye",
+        "setupAttachment": "eye",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_shadow_r",
+        "bone": "r",
+        "setupAttachment": "scatter_shadow_r",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_shadow_e",
+        "bone": "e",
+        "setupAttachment": "scatter_shadow_e",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_shadow_t2",
+        "bone": "t2",
+        "setupAttachment": "scatter_shadow_t2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_shadow_t1",
+        "bone": "t1",
+        "setupAttachment": "scatter_shadow_t1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_shadow_a",
+        "bone": "a",
+        "setupAttachment": "scatter_shadow_a",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_shadow_c",
+        "bone": "c",
+        "setupAttachment": "scatter_shadow_c",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_shadow_s",
+        "bone": "s",
+        "setupAttachment": "scatter_shadow_s",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_thickness_r",
+        "bone": "r",
+        "setupAttachment": "scatter_thickness_r",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_thickness_e",
+        "bone": "e",
+        "setupAttachment": "scatter_thickness_e",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_thickness_t2",
+        "bone": "t2",
+        "setupAttachment": "scatter_thickness_t2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_thickness_t1",
+        "bone": "t1",
+        "setupAttachment": "scatter_thickness_t1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_thickness_a",
+        "bone": "a",
+        "setupAttachment": "scatter_thickness_a",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_thickness_c",
+        "bone": "c",
+        "setupAttachment": "scatter_thickness_c",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_thickness_s",
+        "bone": "s",
+        "setupAttachment": "scatter_thickness_s",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_r",
+        "bone": "r",
+        "setupAttachment": "scatter_r",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_r2",
+        "bone": "r",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_e",
+        "bone": "e",
+        "setupAttachment": "scatter_e",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_e2",
+        "bone": "e",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_t2",
+        "bone": "t2",
+        "setupAttachment": "scatter_t2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_t4",
+        "bone": "t2",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_t1",
+        "bone": "t1",
+        "setupAttachment": "scatter_t1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_t3",
+        "bone": "t1",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_a",
+        "bone": "a",
+        "setupAttachment": "scatter_a",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_a2",
+        "bone": "a",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_c",
+        "bone": "c",
+        "setupAttachment": "scatter_c",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_c2",
+        "bone": "c",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_s",
+        "bone": "s",
+        "setupAttachment": "scatter_s",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "scatter_s2",
+        "bone": "s",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "star",
+        "bone": "star",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "BG",
+        "name": "scatter_red/BG",
+        "region": "scatter_red/BG",
+        "type": "mesh",
+        "bone": "Frame_Gold",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 116,
+          "height": 116
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "BG2",
+        "name": "scatter_red/BG",
+        "region": "scatter_red/BG",
+        "type": "mesh",
+        "bone": "BG2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 116,
+          "height": 116
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Body",
+        "name": "scatter_red/Body",
+        "region": "scatter_red/Body",
+        "type": "mesh",
+        "bone": "Body",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 115,
+          "height": 110
+        },
+        "mesh": {
+          "uvPairs": 56,
+          "vertexNumbers": 576,
+          "triangles": 58,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Body_sh",
+        "name": "scatter_red/Body_Shadow",
+        "region": "scatter_red/Body_Shadow",
+        "type": "mesh",
+        "bone": "Body",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 100
+        },
+        "mesh": {
+          "uvPairs": 29,
+          "vertexNumbers": 357,
+          "triangles": 32,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "eye",
+        "name": "eye",
+        "region": "eye",
+        "type": "mesh",
+        "bone": "eye",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 9,
+          "height": 8
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Frame_Gold",
+        "name": "scatter_red/Frame_Gold",
+        "region": "scatter_red/Frame_Gold",
+        "type": "mesh",
+        "bone": "Frame_Gold",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 124,
+          "height": 125
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Frame_Gold2",
+        "name": "scatter_red/Frame_Gold",
+        "region": "scatter_red/Frame_Gold",
+        "type": "mesh",
+        "bone": "Frame_Gold2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 124,
+          "height": 125
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Frame_sh1",
+        "name": "Frame_sh1",
+        "region": "Frame_sh1",
+        "type": "mesh",
+        "bone": "Body2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 8,
+          "height": 14
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Frame_sh2",
+        "name": "Frame_sh2",
+        "region": "Frame_sh2",
+        "type": "mesh",
+        "bone": "Tail_15",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 15,
+          "height": 11
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Glow_0",
+        "name": "Glow_0",
+        "region": "Glow_0",
+        "type": "mesh",
+        "bone": "eye",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 14,
+          "height": 12
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Glow_1",
+        "name": "Glow_1",
+        "region": "Glow_1",
+        "type": "mesh",
+        "bone": "Glow_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 46,
+          "height": 28
+        },
+        "mesh": {
+          "uvPairs": 13,
+          "vertexNumbers": 177,
+          "triangles": 11,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Glow_2",
+        "name": "Glow_2",
+        "region": "Glow_2",
+        "type": "mesh",
+        "bone": "Glow_2_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 37,
+          "height": 28
+        },
+        "mesh": {
+          "uvPairs": 9,
+          "vertexNumbers": 97,
+          "triangles": 7,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Glow_3",
+        "name": "Glow_3",
+        "region": "Glow_3",
+        "type": "mesh",
+        "bone": "Glow_3_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 32
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 96,
+          "triangles": 6,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "max_effects_04_glow_01",
+        "name": "max_effects_04_glow_01",
+        "region": "max_effects_04_glow_01",
+        "type": "mesh",
+        "bone": "scatter_back_glow",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 136,
+          "height": 102
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "max_effects_05_glow_01",
+        "name": "max_effects_05_glow_01",
+        "region": "max_effects_05_glow_01",
+        "type": "region",
+        "bone": "scatter_back_glow",
+        "transform": {
+          "x": 24.52,
+          "y": -7.34,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 116,
+          "height": 142
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "max_effects_06_glow_01",
+        "name": "max_effects_06_glow_01",
+        "region": "max_effects_06_glow_01",
+        "type": "region",
+        "bone": "scatter_back_glow",
+        "transform": {
+          "x": -9.98,
+          "y": -4.34,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 107,
+          "height": 118
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_a",
+        "name": "scatter_a",
+        "region": "scatter_a",
+        "type": "mesh",
+        "bone": "a",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 20,
+          "height": 22
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_a2",
+        "name": "scatter_a",
+        "region": "scatter_a",
+        "type": "mesh",
+        "bone": "a",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 20,
+          "height": 22
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_c",
+        "name": "scatter_c",
+        "region": "scatter_c",
+        "type": "mesh",
+        "bone": "c",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 23
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_c2",
+        "name": "scatter_c",
+        "region": "scatter_c",
+        "type": "mesh",
+        "bone": "c",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 23
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_e",
+        "name": "scatter_e",
+        "region": "scatter_e",
+        "type": "mesh",
+        "bone": "e",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 18,
+          "height": 18
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_e2",
+        "name": "scatter_e",
+        "region": "scatter_e",
+        "type": "mesh",
+        "bone": "e",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 18,
+          "height": 18
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_r",
+        "name": "scatter_r",
+        "region": "scatter_r",
+        "type": "mesh",
+        "bone": "r",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 16,
+          "height": 22
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_r2",
+        "name": "scatter_r",
+        "region": "scatter_r",
+        "type": "mesh",
+        "bone": "r",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 16,
+          "height": 22
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_s",
+        "name": "scatter_s",
+        "region": "scatter_s",
+        "type": "mesh",
+        "bone": "s",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 15,
+          "height": 26
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_s2",
+        "name": "scatter_s",
+        "region": "scatter_s",
+        "type": "mesh",
+        "bone": "s",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 15,
+          "height": 26
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_shadow_a",
+        "name": "scatter_shadow_a",
+        "region": "scatter_shadow_a",
+        "type": "mesh",
+        "bone": "a",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 21,
+          "height": 30
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_shadow_c",
+        "name": "scatter_shadow_c",
+        "region": "scatter_shadow_c",
+        "type": "mesh",
+        "bone": "c",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 21,
+          "height": 31
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_shadow_e",
+        "name": "scatter_shadow_e",
+        "region": "scatter_shadow_e",
+        "type": "mesh",
+        "bone": "e",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 22,
+          "height": 25
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_shadow_r",
+        "name": "scatter_shadow_r",
+        "region": "scatter_shadow_r",
+        "type": "mesh",
+        "bone": "r",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 22,
+          "height": 29
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_shadow_s",
+        "name": "scatter_shadow_s",
+        "region": "scatter_shadow_s",
+        "type": "mesh",
+        "bone": "s",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 23,
+          "height": 35
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_shadow_t1",
+        "name": "scatter_shadow_t1",
+        "region": "scatter_shadow_t1",
+        "type": "mesh",
+        "bone": "t1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 20,
+          "height": 29
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_shadow_t2",
+        "name": "scatter_shadow_t2",
+        "region": "scatter_shadow_t2",
+        "type": "mesh",
+        "bone": "t2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 22,
+          "height": 27
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_t1",
+        "name": "scatter_t1",
+        "region": "scatter_t1",
+        "type": "mesh",
+        "bone": "t1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 19,
+          "height": 23
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_t2",
+        "name": "scatter_t2",
+        "region": "scatter_t2",
+        "type": "mesh",
+        "bone": "t2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 19,
+          "height": 19
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_t3",
+        "name": "scatter_t1",
+        "region": "scatter_t1",
+        "type": "mesh",
+        "bone": "t1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 19,
+          "height": 23
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_t4",
+        "name": "scatter_t2",
+        "region": "scatter_t2",
+        "type": "mesh",
+        "bone": "t2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 19,
+          "height": 19
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_thickness_a",
+        "name": "scatter_thickness_a",
+        "region": "scatter_thickness_a",
+        "type": "mesh",
+        "bone": "a",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 21,
+          "height": 24
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_thickness_c",
+        "name": "scatter_thickness_c",
+        "region": "scatter_thickness_c",
+        "type": "mesh",
+        "bone": "c",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 18,
+          "height": 25
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_thickness_e",
+        "name": "scatter_thickness_e",
+        "region": "scatter_thickness_e",
+        "type": "mesh",
+        "bone": "e",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 19,
+          "height": 19
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_thickness_r",
+        "name": "scatter_thickness_r",
+        "region": "scatter_thickness_r",
+        "type": "mesh",
+        "bone": "r",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 25
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_thickness_s",
+        "name": "scatter_thickness_s",
+        "region": "scatter_thickness_s",
+        "type": "mesh",
+        "bone": "s",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 18,
+          "height": 29
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_thickness_t1",
+        "name": "scatter_thickness_t1",
+        "region": "scatter_thickness_t1",
+        "type": "mesh",
+        "bone": "t1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 19,
+          "height": 24
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "scatter_thickness_t2",
+        "name": "scatter_thickness_t2",
+        "region": "scatter_thickness_t2",
+        "type": "mesh",
+        "bone": "t2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 19,
+          "height": 21
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "star",
+        "name": "star",
+        "region": "star",
+        "type": "mesh",
+        "bone": "star",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 254,
+          "height": 254
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Tail_1",
+        "name": "scatter_red/Tail_1",
+        "region": "scatter_red/Tail_1",
+        "type": "mesh",
+        "bone": "Tail_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 77,
+          "height": 98
+        },
+        "mesh": {
+          "uvPairs": 19,
+          "vertexNumbers": 179,
+          "triangles": 17,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Tail_1_sh",
+        "name": "scatter_red/Tail_1_Shadow",
+        "region": "scatter_red/Tail_1_Shadow",
+        "type": "mesh",
+        "bone": "Tail_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 77,
+          "height": 98
+        },
+        "mesh": {
+          "uvPairs": 16,
+          "vertexNumbers": 148,
+          "triangles": 14,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Tail_2",
+        "name": "scatter_red/Tail_2",
+        "region": "scatter_red/Tail_2",
+        "type": "mesh",
+        "bone": "Tail_2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 67,
+          "height": 80
+        },
+        "mesh": {
+          "uvPairs": 19,
+          "vertexNumbers": 203,
+          "triangles": 17,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Tail_2_sh",
+        "name": "scatter_red/Tail_2_Shadow",
+        "region": "scatter_red/Tail_2_Shadow",
+        "type": "mesh",
+        "bone": "Tail_2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 67,
+          "height": 80
+        },
+        "mesh": {
+          "uvPairs": 14,
+          "vertexNumbers": 166,
+          "triangles": 12,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Tail_3",
+        "name": "scatter_red/Tail_2",
+        "region": "scatter_red/Tail_2",
+        "type": "mesh",
+        "bone": "Tail_2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 67,
+          "height": 80
+        },
+        "mesh": {
+          "uvPairs": 5,
+          "vertexNumbers": 65,
+          "triangles": 3,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Tongue",
+        "name": "scatter_red/Tongue",
+        "region": "scatter_red/Tongue",
+        "type": "mesh",
+        "bone": "Tongue",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 37,
+          "height": 41
+        },
+        "mesh": {
+          "uvPairs": 17,
+          "vertexNumbers": 141,
+          "triangles": 15,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Tongue_sh",
+        "name": "scatter_red/Tongue_Shadow",
+        "region": "scatter_red/Tongue_Shadow",
+        "type": "mesh",
+        "bone": "Tongue",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 37,
+          "height": 41
+        },
+        "mesh": {
+          "uvPairs": 12,
+          "vertexNumbers": 128,
+          "triangles": 10,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "appear",
+        "duration": 1,
+        "keyframes": 257,
+        "curvedKeys": 162,
+        "channels": [
+          {
+            "path": "slots.BG.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.BG2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Body.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Body_sh.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.eye.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Frame_Gold.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Frame_Gold2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Frame_Gold2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Frame_sh1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Frame_sh2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Glow_1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.max_effects_04_glow_01.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.max_effects_05_glow_01.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.max_effects_06_glow_01.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_a.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_a2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.scatter_a2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.scatter_c.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_c2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.scatter_c2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.scatter_e.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_e2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.scatter_e2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.scatter_r.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_r2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.scatter_r2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.scatter_s.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_s2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.scatter_s2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.scatter_shadow_a.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_shadow_c.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_shadow_e.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_shadow_r.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_shadow_s.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_shadow_t1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_shadow_t2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_t1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_t2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_t3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.scatter_t3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.scatter_t4.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.scatter_t4.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.scatter_thickness_a.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_thickness_c.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_thickness_e.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_thickness_r.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_thickness_s.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_thickness_t1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.scatter_thickness_t2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.star.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Tail_1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Tail_1_sh.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Tail_2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Tail_2_sh.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Tail_3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Tongue.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Tongue_sh.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Frame_Gold.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Frame_Gold.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tail_1.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Tail_1.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Tail_2.rotate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.Tail_2.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Tail_2.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Tongue.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Tongue.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Tongue.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Body.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Body.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Glow_1.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Body7.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Body8.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Body9.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Body5.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Body10.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Body11.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Tail_3.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Tail_4.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Tail_5.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Tail_6.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Tail_7.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Tail_8.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Tail_9.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Glow_2.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Glow_3.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Glow_4.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Glow_5.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Glow_6.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Glow_7.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.scatter.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Frame_Gold2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Frame_Gold2.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.BG2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.BG2.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.BG2.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "Frame_Gold",
+          "Tail_1",
+          "Tail_2",
+          "Tongue",
+          "Body",
+          "Glow_1",
+          "Body7",
+          "Body8",
+          "Body9",
+          "Body5",
+          "Body10",
+          "Body11",
+          "Tail_3",
+          "Tail_4",
+          "Tail_5",
+          "Tail_6",
+          "Tail_7",
+          "Tail_8",
+          "Tail_9",
+          "Glow_2",
+          "Glow_3",
+          "Glow_4",
+          "Glow_5",
+          "Glow_6",
+          "Glow_7",
+          "scatter",
+          "Frame_Gold2",
+          "BG2"
+        ],
+        "animatedSlots": [
+          "BG",
+          "BG2",
+          "Body",
+          "Body_sh",
+          "eye",
+          "Frame_Gold",
+          "Frame_Gold2",
+          "Frame_sh1",
+          "Frame_sh2",
+          "Glow_0",
+          "Glow_1",
+          "Glow_2",
+          "Glow_3",
+          "max_effects_04_glow_01",
+          "max_effects_05_glow_01",
+          "max_effects_06_glow_01",
+          "scatter_a",
+          "scatter_a2",
+          "scatter_c",
+          "scatter_c2",
+          "scatter_e",
+          "scatter_e2",
+          "scatter_r",
+          "scatter_r2",
+          "scatter_s",
+          "scatter_s2",
+          "scatter_shadow_a",
+          "scatter_shadow_c",
+          "scatter_shadow_e",
+          "scatter_shadow_r",
+          "scatter_shadow_s",
+          "scatter_shadow_t1",
+          "scatter_shadow_t2",
+          "scatter_t1",
+          "scatter_t2",
+          "scatter_t3",
+          "scatter_t4",
+          "scatter_thickness_a",
+          "scatter_thickness_c",
+          "scatter_thickness_e",
+          "scatter_thickness_r",
+          "scatter_thickness_s",
+          "scatter_thickness_t1",
+          "scatter_thickness_t2",
+          "star",
+          "Tail_1",
+          "Tail_1_sh",
+          "Tail_2",
+          "Tail_2_sh",
+          "Tail_3",
+          "Tongue",
+          "Tongue_sh"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "transition"
+        ]
+      },
+      {
+        "name": "win",
+        "duration": 1.3333,
+        "keyframes": 459,
+        "curvedKeys": 328,
+        "channels": [
+          {
+            "path": "slots.Frame_Gold2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Frame_Gold2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Glow_0.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Glow_0.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Glow_1.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.Glow_2.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.Glow_3.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.max_effects_04_glow_01.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.max_effects_04_glow_01.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.max_effects_05_glow_01.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.max_effects_05_glow_01.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.max_effects_06_glow_01.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.max_effects_06_glow_01.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.scatter_a2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.scatter_a2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.scatter_c2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.scatter_c2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.scatter_e2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.scatter_e2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.scatter_r2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.scatter_r2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.scatter_s2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.scatter_s2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.scatter_t3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.scatter_t3.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.scatter_t4.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.scatter_t4.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.star.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.star.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Body2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Body3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Body4.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Body5.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Body6.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Body7.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Body8.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Body9.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tongue2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tongue3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tongue4.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tongue5.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tongue6.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tail_14.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tail_15.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tail_13.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tail_3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tail_4.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tail_5.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tail_6.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tail_7.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tail_8.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tail_10.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tail_11.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tail_12.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tail_9.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Body10.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Body10.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Body11.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Body11.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Tail_1.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tail_1.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Body.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Body.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tail_2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tail_2.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tail_2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Tongue.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Frame_Gold.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.s.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.s.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.c.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.c.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.a.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.a.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.t1.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.t1.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.e.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.e.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.r.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.r.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.t2.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.t2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.scatter_back_glow.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.scatter_back_glow.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.scatter_back_glow.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.star.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.eye.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Glow_1.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Glow_2_1.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Glow_3_1.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Glow_2.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.Glow_3.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Glow_4.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.Glow_5.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Glow_6.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.Glow_7.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Glow_2_2.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.Glow_2_3.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Glow_2_4.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.Glow_2_5.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Glow_2_6.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.Glow_3_2.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Glow_3_3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Glow_3_4.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Glow_3_5.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Glow_3_6.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "attachments.default.Body.scatter_red/Body.deform",
+            "keyframes": 4
+          },
+          {
+            "path": "attachments.default.Body_sh.scatter_red/Body_Shadow.deform",
+            "keyframes": 3
+          },
+          {
+            "path": "attachments.default.Frame_sh1.Frame_sh1.deform",
+            "keyframes": 4
+          },
+          {
+            "path": "attachments.default.Frame_sh2.Frame_sh2.deform",
+            "keyframes": 5
+          },
+          {
+            "path": "attachments.default.max_effects_04_glow_01.max_effects_04_glow_01.deform",
+            "keyframes": 2
+          },
+          {
+            "path": "attachments.default.Tail_1.scatter_red/Tail_1.deform",
+            "keyframes": 4
+          },
+          {
+            "path": "attachments.default.Tail_1_sh.scatter_red/Tail_1_Shadow.deform",
+            "keyframes": 3
+          },
+          {
+            "path": "attachments.default.Tail_2.scatter_red/Tail_2.deform",
+            "keyframes": 4
+          },
+          {
+            "path": "attachments.default.Tail_2_sh.scatter_red/Tail_2_Shadow.deform",
+            "keyframes": 4
+          },
+          {
+            "path": "attachments.default.Tongue_sh.scatter_red/Tongue_Shadow.deform",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "Body2",
+          "Body3",
+          "Body4",
+          "Body5",
+          "Body6",
+          "Body7",
+          "Body8",
+          "Body9",
+          "Tongue2",
+          "Tongue3",
+          "Tongue4",
+          "Tongue5",
+          "Tongue6",
+          "Tail_14",
+          "Tail_15",
+          "Tail_13",
+          "Tail_3",
+          "Tail_4",
+          "Tail_5",
+          "Tail_6",
+          "Tail_7",
+          "Tail_8",
+          "Tail_10",
+          "Tail_11",
+          "Tail_12",
+          "Tail_9",
+          "Body10",
+          "Body11",
+          "Tail_1",
+          "Body",
+          "Tail_2",
+          "Tongue",
+          "Frame_Gold",
+          "scatter",
+          "s",
+          "c",
+          "a",
+          "t1",
+          "e",
+          "r",
+          "t2",
+          "scatter_back_glow",
+          "star",
+          "eye",
+          "Glow_1",
+          "Glow_2_1",
+          "Glow_3_1",
+          "Glow_2",
+          "Glow_3",
+          "Glow_4",
+          "Glow_5",
+          "Glow_6",
+          "Glow_7",
+          "Glow_2_2",
+          "Glow_2_3",
+          "Glow_2_4",
+          "Glow_2_5",
+          "Glow_2_6",
+          "Glow_3_2",
+          "Glow_3_3",
+          "Glow_3_4",
+          "Glow_3_5",
+          "Glow_3_6"
+        ],
+        "animatedSlots": [
+          "Frame_Gold2",
+          "Glow_0",
+          "Glow_1",
+          "Glow_2",
+          "Glow_3",
+          "max_effects_04_glow_01",
+          "max_effects_05_glow_01",
+          "max_effects_06_glow_01",
+          "scatter_a2",
+          "scatter_c2",
+          "scatter_e2",
+          "scatter_r2",
+          "scatter_s2",
+          "scatter_t3",
+          "scatter_t4",
+          "star"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "win"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 67,
+      "slots": 52,
+      "attachments": 52,
+      "meshAttachments": 50,
+      "meshUvPairs": 369,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "Frame_sh1",
+      "file": "pieces/frame-sh1-d519e036.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "417,180,8,14"
+      }
+    },
+    {
+      "region": "Frame_sh2",
+      "file": "pieces/frame-sh2-36edcb47.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "414,428,15,11",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Glow_0",
+      "file": "pieces/glow-0-a66d8de4.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "376,293,14,12"
+      }
+    },
+    {
+      "region": "Glow_1",
+      "file": "pieces/glow-1-d2d69102.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "384,397,46,28",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Glow_2",
+      "file": "pieces/glow-2-61056476.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "298,169,37,28"
+      }
+    },
+    {
+      "region": "Glow_3",
+      "file": "pieces/glow-3-644a7749.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "256,165,40,32"
+      }
+    },
+    {
+      "region": "eye",
+      "file": "pieces/eye-9699c7a5.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "417,169,9,8",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "max_effects_04_glow_01",
+      "file": "pieces/max-effects-04-glow-01-702b843d.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "118,163,136,102"
+      }
+    },
+    {
+      "region": "max_effects_05_glow_01",
+      "file": "pieces/max-effects-05-glow-01-64023268.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "2,125,114,140",
+        "offsets": "1,1,116,142"
+      }
+    },
+    {
+      "region": "max_effects_06_glow_01",
+      "file": "pieces/max-effects-06-glow-01-da8fbf33.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "118,56,105,116",
+        "offsets": "1,1,107,118",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_a",
+      "file": "pieces/scatter-a-814d3582.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "285,27,20,22"
+      }
+    },
+    {
+      "region": "scatter_c",
+      "file": "pieces/scatter-c-80b43712.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "267,2,17,23"
+      }
+    },
+    {
+      "region": "scatter_e",
+      "file": "pieces/scatter-e-160c8beb.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "376,307,18,18"
+      }
+    },
+    {
+      "region": "scatter_r",
+      "file": "pieces/scatter-r-1f013822.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "286,3,16,22"
+      }
+    },
+    {
+      "region": "scatter_red/BG",
+      "file": "pieces/scatter-red-bg-dc9513ae.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "258,278,116,116"
+      }
+    },
+    {
+      "region": "scatter_red/Body",
+      "file": "pieces/scatter-red-body-a3667bd7.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "2,8,115,110",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_red/Body_Shadow",
+      "file": "pieces/scatter-red-body-shadow-5fcbf32f.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "236,51,110,100",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_red/Frame_Gold",
+      "file": "pieces/scatter-red-frame-gold-3d9ba111.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "258,396,124,125"
+      }
+    },
+    {
+      "region": "scatter_red/Tail_1",
+      "file": "pieces/scatter-red-tail-1-7554a3cc.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "258,199,77,98",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_red/Tail_1_Shadow",
+      "file": "pieces/scatter-red-tail-1-shadow-921bfe5a.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "338,96,77,98"
+      }
+    },
+    {
+      "region": "scatter_red/Tail_2",
+      "file": "pieces/scatter-red-tail-2-49273e9f.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "358,196,67,80"
+      }
+    },
+    {
+      "region": "scatter_red/Tail_2_Shadow",
+      "file": "pieces/scatter-red-tail-2-shadow-2916ea6a.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "338,27,67,80",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_red/Tongue",
+      "file": "pieces/scatter-red-tongue-0b12c8c0.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "384,484,37,41",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_red/Tongue_Shadow",
+      "file": "pieces/scatter-red-tongue-shadow-955f4924.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "384,445,37,41",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_s",
+      "file": "pieces/scatter-s-9a1d4998.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "114,2,15,26",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_shadow_a",
+      "file": "pieces/scatter-shadow-a-3e46b9de.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "162,24,21,30"
+      }
+    },
+    {
+      "region": "scatter_shadow_c",
+      "file": "pieces/scatter-shadow-c-bafc3bd9.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "139,23,21,31"
+      }
+    },
+    {
+      "region": "scatter_shadow_e",
+      "file": "pieces/scatter-shadow-e-3f3f12ac.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "258,27,22,25",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_shadow_r",
+      "file": "pieces/scatter-shadow-r-1f0df5d3.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "185,25,22,29"
+      }
+    },
+    {
+      "region": "scatter_shadow_s",
+      "file": "pieces/scatter-shadow-s-533454df.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "114,19,23,35"
+      }
+    },
+    {
+      "region": "scatter_shadow_t1",
+      "file": "pieces/scatter-shadow-t1-6d41065b.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "168,2,20,29",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_shadow_t2",
+      "file": "pieces/scatter-shadow-t2-a57489e4.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "229,27,22,27",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_t1",
+      "file": "pieces/scatter-t1-fba24ca0.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "246,2,19,23"
+      }
+    },
+    {
+      "region": "scatter_t2",
+      "file": "pieces/scatter-t2-08840c2e.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "376,348,19,19"
+      }
+    },
+    {
+      "region": "scatter_thickness_a",
+      "file": "pieces/scatter-thickness-a-093bc9e1.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "199,2,21,24",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_thickness_c",
+      "file": "pieces/scatter-thickness-c-45d77f26.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "307,31,18,25",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_thickness_e",
+      "file": "pieces/scatter-thickness-e-ad3c9f97.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "376,327,19,19"
+      }
+    },
+    {
+      "region": "scatter_thickness_r",
+      "file": "pieces/scatter-thickness-r-e92cf964.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "376,369,17,25"
+      }
+    },
+    {
+      "region": "scatter_thickness_s",
+      "file": "pieces/scatter-thickness-s-f2c1f7df.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "209,25,18,29"
+      }
+    },
+    {
+      "region": "scatter_thickness_t1",
+      "file": "pieces/scatter-thickness-t1-0613568b.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "142,2,19,24",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "scatter_thickness_t2",
+      "file": "pieces/scatter-thickness-t2-18668d46.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "225,2,19,21"
+      }
+    },
+    {
+      "region": "star",
+      "file": "pieces/star-cb1dabec.png",
+      "page": "scatter_red.webp",
+      "properties": {
+        "bounds": "2,267,254,254"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

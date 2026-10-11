@@ -1,0 +1,5364 @@
+{
+  "id": "odin-s-vault-animations-goldenpouch-e08ef611-c9065930",
+  "collection": "library",
+  "name": "goldenpouch",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/goldenpouch-e08ef611",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 54,
+    "slots": 65,
+    "attachments": 64,
+    "meshAttachments": 39,
+    "meshUvPairs": 292,
+    "constraints": {
+      "ik": 0,
+      "transform": 1,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 262144,
+    "rgbaBytesEstimate": 1048576,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 30,
+  "actions": [
+    {
+      "name": "collect",
+      "duration": 1,
+      "keyframes": 397,
+      "curvedKeys": 173,
+      "channels": [
+        {
+          "path": "slots.base_glowgolden_pouch.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Coin_1_golden_pouch.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Coin_1_golden_pouch2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Coin_1_golden_pouch3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Coin_2_golden_pouch.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Coin_2_golden_pouch2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Coin_2_golden_pouch3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Coin_3_golden_pouch.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Coin_3_golden_pouch2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Coin_3_golden_pouch3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Coin_4_golden_pouch.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Coin_4_golden_pouch2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Coin_4_golden_pouch3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Coin_5_golden_pouch.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Coin_5_golden_pouch2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Coin_5_golden_pouch3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Coin_6_golden_pouch.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Coin_6_golden_pouch2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Coin_6_golden_pouch3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.decor_01_golden_pouch2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Golden_coins_Shadow_golden_pouch.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.laces_l_golden_pouch2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.laces_r_golden_pouch2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.pouch_coins_glow.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Shadow_coin_2_golden_pouch.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Shadow_coin_3_golden_pouch.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Shadow_coin_4_golden_pouch.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Shadow_coin_5_golden_pouch.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Shadow_coin_6_golden_pouch.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Sparks_coin1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coin2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coin3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coin4.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coin5.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coin6.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins4.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins5.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins6.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins7.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins8.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins9.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins10.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins11.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins12.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins13.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins14.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins15.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins16.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins17.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_pouch_3d.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.golden_pouch.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.golden_pouch.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.golden_pouch.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.decor.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.laces_l4.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.laces_l5.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.laces_l6.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.laces_r7.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.laces_r8.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.laces_r9.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Handles3.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Handles4.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Coins.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Coins.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Coin2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Coin3.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Coin4.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Coin5.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Coin6.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Coin7.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Coin8.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Coin8.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Coin9.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Coin9.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Coin10.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Coin10.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Coin11.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Coin11.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Coin12.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Coin12.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Coin13.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Coin13.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks2.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks3.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks3.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks3.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks4.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks4.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks4.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks9.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks9.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks9.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.golden_sparks10.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks10.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.golden_sparks11.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks11.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks11.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.golden_sparks5.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks5.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks5.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks6.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks6.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks12.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks12.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.golden_sparks13.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks13.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks13.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.golden_sparks7.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks7.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks8.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks8.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks8.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks14.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks14.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks14.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks15.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks15.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks15.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks16.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks16.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks16.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.golden_sparks17.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks17.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.golden_sparks18.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks18.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks18.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.golden_sparks19.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks19.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks19.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks20.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks20.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks21.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks21.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.golden_sparks22.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks22.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.golden_sparks22.scale",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "golden_pouch_3d",
+        "golden_pouch",
+        "decor",
+        "laces_l4",
+        "laces_l5",
+        "laces_l6",
+        "laces_r7",
+        "laces_r8",
+        "laces_r9",
+        "Handles3",
+        "Handles4",
+        "Coins",
+        "Coin2",
+        "Coin3",
+        "Coin4",
+        "Coin5",
+        "Coin6",
+        "Coin7",
+        "golden_pouch3",
+        "Coin8",
+        "Coin9",
+        "Coin10",
+        "Coin11",
+        "Coin12",
+        "Coin13",
+        "golden_sparks",
+        "golden_sparks2",
+        "golden_sparks3",
+        "golden_sparks4",
+        "golden_sparks9",
+        "golden_sparks10",
+        "golden_sparks11",
+        "golden_sparks5",
+        "golden_sparks6",
+        "golden_sparks12",
+        "golden_sparks13",
+        "golden_sparks7",
+        "golden_sparks8",
+        "golden_sparks14",
+        "golden_sparks15",
+        "golden_sparks16",
+        "golden_sparks17",
+        "golden_sparks18",
+        "golden_sparks19",
+        "golden_sparks20",
+        "golden_sparks21",
+        "golden_sparks22"
+      ],
+      "animatedSlots": [
+        "base_glowgolden_pouch",
+        "Coin_1_golden_pouch",
+        "Coin_1_golden_pouch2",
+        "Coin_1_golden_pouch3",
+        "Coin_2_golden_pouch",
+        "Coin_2_golden_pouch2",
+        "Coin_2_golden_pouch3",
+        "Coin_3_golden_pouch",
+        "Coin_3_golden_pouch2",
+        "Coin_3_golden_pouch3",
+        "Coin_4_golden_pouch",
+        "Coin_4_golden_pouch2",
+        "Coin_4_golden_pouch3",
+        "Coin_5_golden_pouch",
+        "Coin_5_golden_pouch2",
+        "Coin_5_golden_pouch3",
+        "Coin_6_golden_pouch",
+        "Coin_6_golden_pouch2",
+        "Coin_6_golden_pouch3",
+        "decor_01_golden_pouch2",
+        "Golden_coins_Shadow_golden_pouch",
+        "laces_l_golden_pouch2",
+        "laces_r_golden_pouch2",
+        "pouch_coins_glow",
+        "Shadow_coin_2_golden_pouch",
+        "Shadow_coin_3_golden_pouch",
+        "Shadow_coin_4_golden_pouch",
+        "Shadow_coin_5_golden_pouch",
+        "Shadow_coin_6_golden_pouch",
+        "Sparks_coin1",
+        "Sparks_coin2",
+        "Sparks_coin3",
+        "Sparks_coin4",
+        "Sparks_coin5",
+        "Sparks_coin6",
+        "Sparks_coins2",
+        "Sparks_coins3",
+        "Sparks_coins4",
+        "Sparks_coins5",
+        "Sparks_coins6",
+        "Sparks_coins7",
+        "Sparks_coins8",
+        "Sparks_coins9",
+        "Sparks_coins10",
+        "Sparks_coins11",
+        "Sparks_coins12",
+        "Sparks_coins13",
+        "Sparks_coins14",
+        "Sparks_coins15",
+        "Sparks_coins16",
+        "Sparks_coins17"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "landing",
+      "duration": 0.4667,
+      "keyframes": 39,
+      "curvedKeys": 26,
+      "channels": [
+        {
+          "path": "bones.golden_pouch.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_pouch.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_pouch.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_pouch_3d.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.decor.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Handles3.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Handles4.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.laces_l4.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.laces_l5.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.laces_l6.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.laces_r7.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.laces_r8.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.laces_r9.rotate",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "golden_pouch",
+        "golden_pouch_3d",
+        "decor",
+        "Handles3",
+        "Handles4",
+        "laces_l4",
+        "laces_l5",
+        "laces_l6",
+        "laces_r7",
+        "laces_r8",
+        "laces_r9"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "win",
+      "duration": 1,
+      "keyframes": 280,
+      "curvedKeys": 185,
+      "channels": [
+        {
+          "path": "slots.base_glowgolden_pouch.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Coin_1_golden_pouch2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Coin_1_golden_pouch3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Coin_2_golden_pouch2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Coin_2_golden_pouch3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Coin_3_golden_pouch2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Coin_3_golden_pouch3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Coin_4_golden_pouch2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Coin_4_golden_pouch3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Coin_5_golden_pouch2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Coin_5_golden_pouch3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Coin_6_golden_pouch2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Coin_6_golden_pouch3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.decor_01_golden_pouch2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Golden_coins_Shadow_golden_pouch.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.laces_l_golden_pouch2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.laces_r_golden_pouch2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.pouch_coins_glow.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.pouch_effects_02_glow_01.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coin1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coin2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coin3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coin4.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coin5.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coin6.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins4.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins5.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins6.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins7.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins8.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins9.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins10.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins11.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins12.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins13.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins14.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins15.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins16.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_coins17.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_pouch_3d.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.golden_pouch.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.golden_pouch.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.golden_pouch.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.decor.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.laces_l4.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.laces_l5.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.laces_l6.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.laces_r7.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.laces_r8.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.laces_r9.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Handles3.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Handles4.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Coin8.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Coin8.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Coin9.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Coin9.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Coin10.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Coin10.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Coin11.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Coin11.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Coin12.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Coin12.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Coin13.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Coin13.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks18.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks11.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks21.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks12.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks17.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks10.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks22.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks13.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks16.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks9.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks14.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks3.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks19.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks5.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks8.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks2.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks15.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks4.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks20.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks6.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks7.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.golden_sparks.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "drawOrder",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "golden_pouch_3d",
+        "golden_pouch",
+        "decor",
+        "laces_l4",
+        "laces_l5",
+        "laces_l6",
+        "laces_r7",
+        "laces_r8",
+        "laces_r9",
+        "Handles3",
+        "Handles4",
+        "Coin8",
+        "Coin9",
+        "Coin10",
+        "Coin11",
+        "Coin12",
+        "Coin13",
+        "golden_sparks18",
+        "golden_sparks11",
+        "golden_sparks21",
+        "golden_sparks12",
+        "golden_sparks17",
+        "golden_sparks10",
+        "golden_sparks22",
+        "golden_sparks13",
+        "golden_sparks16",
+        "golden_sparks9",
+        "golden_sparks14",
+        "golden_sparks3",
+        "golden_sparks19",
+        "golden_sparks5",
+        "golden_sparks8",
+        "golden_sparks2",
+        "golden_sparks15",
+        "golden_sparks4",
+        "golden_sparks20",
+        "golden_sparks6",
+        "golden_sparks7",
+        "golden_sparks"
+      ],
+      "animatedSlots": [
+        "base_glowgolden_pouch",
+        "Coin_1_golden_pouch",
+        "Coin_1_golden_pouch2",
+        "Coin_1_golden_pouch3",
+        "Coin_2_golden_pouch",
+        "Coin_2_golden_pouch2",
+        "Coin_2_golden_pouch3",
+        "Coin_3_golden_pouch",
+        "Coin_3_golden_pouch2",
+        "Coin_3_golden_pouch3",
+        "Coin_4_golden_pouch",
+        "Coin_4_golden_pouch2",
+        "Coin_4_golden_pouch3",
+        "Coin_5_golden_pouch",
+        "Coin_5_golden_pouch2",
+        "Coin_5_golden_pouch3",
+        "Coin_6_golden_pouch",
+        "Coin_6_golden_pouch2",
+        "Coin_6_golden_pouch3",
+        "decor_01_golden_pouch2",
+        "Golden_coins_Shadow_golden_pouch",
+        "laces_l_golden_pouch2",
+        "laces_r_golden_pouch2",
+        "pouch_coins_glow",
+        "pouch_effects_02_glow_01",
+        "Sparks_coin1",
+        "Sparks_coin2",
+        "Sparks_coin3",
+        "Sparks_coin4",
+        "Sparks_coin5",
+        "Sparks_coin6",
+        "Sparks_coins2",
+        "Sparks_coins3",
+        "Sparks_coins4",
+        "Sparks_coins5",
+        "Sparks_coins6",
+        "Sparks_coins7",
+        "Sparks_coins8",
+        "Sparks_coins9",
+        "Sparks_coins10",
+        "Sparks_coins11",
+        "Sparks_coins12",
+        "Sparks_coins13",
+        "Sparks_coins14",
+        "Sparks_coins15",
+        "Sparks_coins16",
+        "Sparks_coins17"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": true,
+      "events": [],
+      "tags": [
+        "win"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-goldenpouch-e08ef611-c9065930/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Mine_golden_pouch",
+        "parent": "root",
+        "x": -1.34,
+        "y": -1.68,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_pouch",
+        "parent": "Mine_golden_pouch",
+        "x": -3.44,
+        "y": -31.48,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_pouch2",
+        "parent": "golden_pouch",
+        "x": 6.93,
+        "y": 52.19,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_pouch_3d",
+        "parent": "golden_pouch",
+        "x": 3.75,
+        "y": 31.75,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_pouch_3d2",
+        "parent": "golden_pouch",
+        "x": 3.75,
+        "y": 31.75,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Coins",
+        "parent": "golden_pouch2",
+        "x": 2.19,
+        "y": 12.45,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Coin2",
+        "parent": "Coins",
+        "x": -6.53,
+        "y": -8.79,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Coin3",
+        "parent": "Coins",
+        "x": 9.85,
+        "y": -4.74,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Coin4",
+        "parent": "Coins",
+        "x": -0.82,
+        "y": 3.72,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Coin5",
+        "parent": "Coins",
+        "x": -15.54,
+        "y": -0.05,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Coin6",
+        "parent": "Coins",
+        "x": 19.14,
+        "y": 4.55,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Coin7",
+        "parent": "Coins",
+        "x": -3.77,
+        "y": 10.62,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "decor",
+        "parent": "golden_pouch2",
+        "x": -14.98,
+        "y": -19.12,
+        "length": 30.07,
+        "rotation": -97.48,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "laces_l4",
+        "parent": "decor",
+        "x": 33.56,
+        "y": -3.53,
+        "length": 9.89,
+        "rotation": -53.55,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "laces_l5",
+        "parent": "laces_l4",
+        "x": 9.89,
+        "y": 0,
+        "length": 11.1,
+        "rotation": -20.16,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "laces_l6",
+        "parent": "laces_l5",
+        "x": 11.1,
+        "y": 0,
+        "length": 18.2,
+        "rotation": 41.01,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "laces_r7",
+        "parent": "decor",
+        "x": 33.78,
+        "y": 4.29,
+        "length": 9.47,
+        "rotation": 1.86,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "laces_r8",
+        "parent": "laces_r7",
+        "x": 9.47,
+        "y": 0,
+        "length": 9.79,
+        "rotation": -6.22,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "laces_r9",
+        "parent": "laces_r8",
+        "x": 9.79,
+        "y": 0,
+        "length": 17.04,
+        "rotation": 34.22,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Handles3",
+        "parent": "golden_pouch2",
+        "x": 50.82,
+        "y": -48.82,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Handles4",
+        "parent": "golden_pouch2",
+        "x": -61.85,
+        "y": -26.4,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_pouch3",
+        "parent": "Mine_golden_pouch",
+        "x": 3.49,
+        "y": 20.72,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Coins2",
+        "parent": "golden_pouch3",
+        "x": 2.19,
+        "y": 12.45,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Coin8",
+        "parent": "Coins2",
+        "x": -6.53,
+        "y": -8.79,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Coin9",
+        "parent": "Coins2",
+        "x": 9.85,
+        "y": -4.74,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Coin10",
+        "parent": "Coins2",
+        "x": -0.82,
+        "y": 3.72,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Coin11",
+        "parent": "Coins2",
+        "x": -15.54,
+        "y": -0.05,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Coin12",
+        "parent": "Coins2",
+        "x": 19.14,
+        "y": 4.55,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Coin13",
+        "parent": "Coins2",
+        "x": -3.77,
+        "y": 10.62,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_sparkss",
+        "parent": "Mine_golden_pouch",
+        "x": -1.41,
+        "y": 0.15,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_sparks",
+        "parent": "golden_sparkss",
+        "x": -46.6,
+        "y": 83.88,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_sparks2",
+        "parent": "golden_sparkss",
+        "x": 64.47,
+        "y": 83.88,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_sparks3",
+        "parent": "golden_sparkss",
+        "x": 64.47,
+        "y": 83.88,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_sparks4",
+        "parent": "golden_sparkss",
+        "x": -46.6,
+        "y": 83.88,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_sparks9",
+        "parent": "golden_sparkss",
+        "x": -46.6,
+        "y": 92.18,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": -1
+      },
+      {
+        "name": "golden_sparks10",
+        "parent": "golden_sparkss",
+        "x": -46.6,
+        "y": 92.18,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": -1
+      },
+      {
+        "name": "golden_sparks11",
+        "parent": "golden_sparkss",
+        "x": -46.6,
+        "y": 92.18,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": -1
+      },
+      {
+        "name": "golden_sparks5",
+        "parent": "golden_sparkss",
+        "x": 64.47,
+        "y": 83.88,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_sparks6",
+        "parent": "golden_sparkss",
+        "x": -46.6,
+        "y": 83.88,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_sparks12",
+        "parent": "golden_sparkss",
+        "x": -46.6,
+        "y": 92.18,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": -1
+      },
+      {
+        "name": "golden_sparks13",
+        "parent": "golden_sparkss",
+        "x": -46.6,
+        "y": 92.18,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": -1
+      },
+      {
+        "name": "golden_sparkss2",
+        "parent": "Mine_golden_pouch",
+        "x": -1.41,
+        "y": 0.15,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_sparks7",
+        "parent": "golden_sparkss2",
+        "x": -46.6,
+        "y": 83.88,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_sparks8",
+        "parent": "golden_sparkss2",
+        "x": 64.47,
+        "y": 83.88,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_sparks14",
+        "parent": "golden_sparkss2",
+        "x": 64.47,
+        "y": 83.88,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_sparks15",
+        "parent": "golden_sparkss2",
+        "x": -46.6,
+        "y": 83.88,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_sparks16",
+        "parent": "golden_sparkss2",
+        "x": -46.6,
+        "y": 92.18,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": -1
+      },
+      {
+        "name": "golden_sparks17",
+        "parent": "golden_sparkss2",
+        "x": -46.6,
+        "y": 92.18,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": -1
+      },
+      {
+        "name": "golden_sparks18",
+        "parent": "golden_sparkss2",
+        "x": -46.6,
+        "y": 92.18,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": -1
+      },
+      {
+        "name": "golden_sparks19",
+        "parent": "golden_sparkss2",
+        "x": 64.47,
+        "y": 83.88,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_sparks20",
+        "parent": "golden_sparkss2",
+        "x": -46.6,
+        "y": 83.88,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "golden_sparks21",
+        "parent": "golden_sparkss2",
+        "x": -46.6,
+        "y": 92.18,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": -1
+      },
+      {
+        "name": "golden_sparks22",
+        "parent": "golden_sparkss2",
+        "x": -46.6,
+        "y": 92.18,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": -1
+      }
+    ],
+    "slots": [
+      {
+        "name": "BG_golden_pouch",
+        "bone": "Mine_golden_pouch",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Shadow_1_golden_pouch",
+        "bone": "golden_pouch",
+        "setupAttachment": "Shadow_1_golden_pouch",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "pouch_effects_02_glow_01",
+        "bone": "golden_pouch",
+        "setupAttachment": "pouch_effects_02_glow_01",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "base_glowgolden_pouch",
+        "bone": "golden_pouch",
+        "setupAttachment": "base_glowgolden_pouch",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Handles_golden_down_pouch",
+        "bone": "golden_pouch",
+        "setupAttachment": "Handles_golden_down_pouch",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "base_golden_pouch",
+        "bone": "golden_pouch",
+        "setupAttachment": "base_golden_pouch",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "decor_shadow_golden_pouch",
+        "bone": "decor",
+        "setupAttachment": "decor_shadow_golden_pouch",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Golden_coins_Shadow_golden_pouch",
+        "bone": "golden_pouch",
+        "setupAttachment": "Golden_coins_Shadow_golden_pouch",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Coin_6_golden_pouch",
+        "bone": "Coin7",
+        "setupAttachment": "Coin_6_golden_pouch",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Shadow_coin_6_golden_pouch",
+        "bone": "Coin7",
+        "setupAttachment": "Shadow_coin_6_golden_pouch",
+        "blend": "multiply",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Coin_5_golden_pouch",
+        "bone": "Coin6",
+        "setupAttachment": "Coin_5_golden_pouch",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Shadow_coin_5_golden_pouch",
+        "bone": "Coin6",
+        "setupAttachment": "Shadow_coin_5_golden_pouch",
+        "blend": "multiply",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Coin_4_golden_pouch",
+        "bone": "Coin5",
+        "setupAttachment": "Coin_4_golden_pouch",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Shadow_coin_4_golden_pouch",
+        "bone": "Coin5",
+        "setupAttachment": "Shadow_coin_4_golden_pouch",
+        "blend": "multiply",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Coin_3_golden_pouch",
+        "bone": "Coin4",
+        "setupAttachment": "Coin_3_golden_pouch",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Shadow_coin_3_golden_pouch",
+        "bone": "Coin4",
+        "setupAttachment": "Shadow_coin_3_golden_pouch",
+        "blend": "multiply",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Coin_2_golden_pouch",
+        "bone": "Coin3",
+        "setupAttachment": "Coin_2_golden_pouch",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Shadow_coin_2_golden_pouch",
+        "bone": "Coin3",
+        "setupAttachment": "Shadow_coin_2_golden_pouch",
+        "blend": "multiply",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Coin_1_golden_pouch",
+        "bone": "Coin2",
+        "setupAttachment": "Coin_1_golden_pouch",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Coin_6_golden_pouch3",
+        "bone": "Coin13",
+        "setupAttachment": "Coin_6_golden_pouch",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Coin_5_golden_pouch3",
+        "bone": "Coin12",
+        "setupAttachment": "Coin_5_golden_pouch",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Coin_4_golden_pouch3",
+        "bone": "Coin11",
+        "setupAttachment": "Coin_4_golden_pouch",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Coin_3_golden_pouch3",
+        "bone": "Coin10",
+        "setupAttachment": "Coin_3_golden_pouch",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Coin_2_golden_pouch3",
+        "bone": "Coin9",
+        "setupAttachment": "Coin_2_golden_pouch",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Coin_1_golden_pouch3",
+        "bone": "Coin8",
+        "setupAttachment": "Coin_1_golden_pouch",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Coin_6_golden_pouch2",
+        "bone": "Coin13",
+        "setupAttachment": "Coin_6_golden_pouch",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Coin_5_golden_pouch2",
+        "bone": "Coin12",
+        "setupAttachment": "Coin_5_golden_pouch",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Coin_4_golden_pouch2",
+        "bone": "Coin11",
+        "setupAttachment": "Coin_4_golden_pouch",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Coin_3_golden_pouch2",
+        "bone": "Coin10",
+        "setupAttachment": "Coin_3_golden_pouch",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Coin_2_golden_pouch2",
+        "bone": "Coin9",
+        "setupAttachment": "Coin_2_golden_pouch",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Coin_1_golden_pouch2",
+        "bone": "Coin8",
+        "setupAttachment": "Coin_1_golden_pouch",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Shadow_coin_1_golden_pouch",
+        "bone": "Coin2",
+        "setupAttachment": "Shadow_coin_1_golden_pouch",
+        "blend": "multiply",
+        "color": "ffffff00"
+      },
+      {
+        "name": "base_mask_golden_pouch",
+        "bone": "golden_pouch",
+        "setupAttachment": "base_mask_golden_pouch",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "laces_l_golden_pouch",
+        "bone": "laces_l4",
+        "setupAttachment": "laces_l_golden_pouch",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "laces_l_golden_pouch2",
+        "bone": "laces_l4",
+        "setupAttachment": "laces_l_golden_pouch",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "laces_r_golden_pouch",
+        "bone": "laces_r7",
+        "setupAttachment": "laces_r_golden_pouch",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "laces_r_golden_pouch2",
+        "bone": "laces_r7",
+        "setupAttachment": "laces_r_golden_pouch",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "decor_02_golden_pouch",
+        "bone": "decor",
+        "setupAttachment": "decor_02_golden_pouch",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "decor_01_golden_pouch",
+        "bone": "decor",
+        "setupAttachment": "decor_01_golden_pouch",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "decor_01_golden_pouch2",
+        "bone": "decor",
+        "setupAttachment": "decor_01_golden_pouch",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "laces_top_golden_pouch",
+        "bone": "golden_pouch",
+        "setupAttachment": "laces_top_golden_pouch",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Handles_golden_pouch",
+        "bone": "golden_pouch",
+        "setupAttachment": "Handles_golden_pouch",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "pouch_coins_glow",
+        "bone": "golden_pouch",
+        "setupAttachment": "pouch_coins_glow",
+        "blend": "additive",
+        "color": "fff60000"
+      },
+      {
+        "name": "Sparks_coin1",
+        "bone": "golden_sparks",
+        "setupAttachment": "Sparks_coin1",
+        "blend": "additive",
+        "color": "ffa70000"
+      },
+      {
+        "name": "Sparks_coin4",
+        "bone": "golden_sparks7",
+        "setupAttachment": "Sparks_coin1",
+        "blend": "normal",
+        "color": "ffa70000"
+      },
+      {
+        "name": "Sparks_coin3",
+        "bone": "golden_sparks6",
+        "setupAttachment": "Sparks_coin1",
+        "blend": "additive",
+        "color": "ffa70000"
+      },
+      {
+        "name": "Sparks_coin6",
+        "bone": "golden_sparks20",
+        "setupAttachment": "Sparks_coin1",
+        "blend": "normal",
+        "color": "ffa70000"
+      },
+      {
+        "name": "Sparks_coin2",
+        "bone": "golden_sparks4",
+        "setupAttachment": "Sparks_coin1",
+        "blend": "additive",
+        "color": "ffa70000"
+      },
+      {
+        "name": "Sparks_coin5",
+        "bone": "golden_sparks15",
+        "setupAttachment": "Sparks_coin1",
+        "blend": "normal",
+        "color": "ffa70000"
+      },
+      {
+        "name": "Sparks_coins2",
+        "bone": "golden_sparks2",
+        "setupAttachment": "Sparks_coins2",
+        "blend": "additive",
+        "color": "ffa70000"
+      },
+      {
+        "name": "Sparks_coins5",
+        "bone": "golden_sparks8",
+        "setupAttachment": "Sparks_coins2",
+        "blend": "normal",
+        "color": "ffa70000"
+      },
+      {
+        "name": "Sparks_coins4",
+        "bone": "golden_sparks5",
+        "setupAttachment": "Sparks_coins2",
+        "blend": "additive",
+        "color": "ffa70000"
+      },
+      {
+        "name": "Sparks_coins7",
+        "bone": "golden_sparks19",
+        "setupAttachment": "Sparks_coins2",
+        "blend": "normal",
+        "color": "ffa70000"
+      },
+      {
+        "name": "Sparks_coins3",
+        "bone": "golden_sparks3",
+        "setupAttachment": "Sparks_coins2",
+        "blend": "additive",
+        "color": "ffa70000"
+      },
+      {
+        "name": "Sparks_coins6",
+        "bone": "golden_sparks14",
+        "setupAttachment": "Sparks_coins2",
+        "blend": "normal",
+        "color": "ffa70000"
+      },
+      {
+        "name": "Sparks_coins8",
+        "bone": "golden_sparks9",
+        "setupAttachment": "Sparks_coins4",
+        "blend": "additive",
+        "color": "ffecbd00"
+      },
+      {
+        "name": "Sparks_coins13",
+        "bone": "golden_sparks16",
+        "setupAttachment": "Sparks_coins4",
+        "blend": "normal",
+        "color": "ffecbd00"
+      },
+      {
+        "name": "Sparks_coins12",
+        "bone": "golden_sparks13",
+        "setupAttachment": "Sparks_coins4",
+        "blend": "additive",
+        "color": "ffecbd00"
+      },
+      {
+        "name": "Sparks_coins17",
+        "bone": "golden_sparks22",
+        "setupAttachment": "Sparks_coins4",
+        "blend": "normal",
+        "color": "ffecbd00"
+      },
+      {
+        "name": "Sparks_coins9",
+        "bone": "golden_sparks10",
+        "setupAttachment": "Sparks_coins4",
+        "blend": "additive",
+        "color": "ffecbd00"
+      },
+      {
+        "name": "Sparks_coins14",
+        "bone": "golden_sparks17",
+        "setupAttachment": "Sparks_coins4",
+        "blend": "normal",
+        "color": "ffecbd00"
+      },
+      {
+        "name": "Sparks_coins11",
+        "bone": "golden_sparks12",
+        "setupAttachment": "Sparks_coins4",
+        "blend": "additive",
+        "color": "ffecbd00"
+      },
+      {
+        "name": "Sparks_coins16",
+        "bone": "golden_sparks21",
+        "setupAttachment": "Sparks_coins4",
+        "blend": "normal",
+        "color": "ffecbd00"
+      },
+      {
+        "name": "Sparks_coins10",
+        "bone": "golden_sparks11",
+        "setupAttachment": "Sparks_coins4",
+        "blend": "additive",
+        "color": "ffecbd00"
+      },
+      {
+        "name": "Sparks_coins15",
+        "bone": "golden_sparks18",
+        "setupAttachment": "Sparks_coins4",
+        "blend": "normal",
+        "color": "ffecbd00"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "base_glowgolden_pouch",
+        "name": "base_glowgolden_pouch",
+        "region": "base_glowgolden_pouch",
+        "type": "region",
+        "bone": "golden_pouch",
+        "transform": {
+          "x": 1.96,
+          "y": 31.79,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 130,
+          "height": 155
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "base_golden_pouch",
+        "name": "base_golden_pouch",
+        "region": "base_golden_pouch",
+        "type": "mesh",
+        "bone": "golden_pouch",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 107,
+          "height": 131
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "base_mask_golden_pouch",
+        "name": "base_mask_golden_pouch",
+        "region": "base_mask_golden_pouch",
+        "type": "mesh",
+        "bone": "golden_pouch",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 89,
+          "height": 47
+        },
+        "mesh": {
+          "uvPairs": 42,
+          "vertexNumbers": 430,
+          "triangles": 55,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Coin_1_golden_pouch",
+        "name": "Coin_1_golden_pouch",
+        "region": "Coin_1_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 26,
+          "height": 24
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Coin_1_golden_pouch2",
+        "name": "Coin_1_golden_pouch",
+        "region": "Coin_1_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin8",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 26,
+          "height": 24
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Coin_1_golden_pouch3",
+        "name": "Coin_1_golden_pouch",
+        "region": "Coin_1_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin8",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 26,
+          "height": 24
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Coin_2_golden_pouch",
+        "name": "Coin_2_golden_pouch",
+        "region": "Coin_2_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 28,
+          "height": 25
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Coin_2_golden_pouch2",
+        "name": "Coin_2_golden_pouch",
+        "region": "Coin_2_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin9",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 28,
+          "height": 25
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Coin_2_golden_pouch3",
+        "name": "Coin_2_golden_pouch",
+        "region": "Coin_2_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin9",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 28,
+          "height": 25
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Coin_3_golden_pouch",
+        "name": "Coin_3_golden_pouch",
+        "region": "Coin_3_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 28,
+          "height": 27
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Coin_3_golden_pouch2",
+        "name": "Coin_3_golden_pouch",
+        "region": "Coin_3_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin10",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 28,
+          "height": 27
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Coin_3_golden_pouch3",
+        "name": "Coin_3_golden_pouch",
+        "region": "Coin_3_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin10",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 28,
+          "height": 27
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Coin_4_golden_pouch",
+        "name": "Coin_4_golden_pouch",
+        "region": "Coin_4_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 27,
+          "height": 27
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Coin_4_golden_pouch2",
+        "name": "Coin_4_golden_pouch",
+        "region": "Coin_4_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin11",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 27,
+          "height": 27
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Coin_4_golden_pouch3",
+        "name": "Coin_4_golden_pouch",
+        "region": "Coin_4_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin11",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 27,
+          "height": 27
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Coin_5_golden_pouch",
+        "name": "Coin_5_golden_pouch",
+        "region": "Coin_5_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 25,
+          "height": 24
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Coin_5_golden_pouch2",
+        "name": "Coin_5_golden_pouch",
+        "region": "Coin_5_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin12",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 25,
+          "height": 24
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Coin_5_golden_pouch3",
+        "name": "Coin_5_golden_pouch",
+        "region": "Coin_5_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin12",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 25,
+          "height": 24
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Coin_6_golden_pouch",
+        "name": "Coin_6_golden_pouch",
+        "region": "Coin_6_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 24,
+          "height": 22
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Coin_6_golden_pouch2",
+        "name": "Coin_6_golden_pouch",
+        "region": "Coin_6_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin13",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 24,
+          "height": 22
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Coin_6_golden_pouch3",
+        "name": "Coin_6_golden_pouch",
+        "region": "Coin_6_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin13",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 24,
+          "height": 22
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "decor_01_golden_pouch",
+        "name": "decor_01_golden_pouch",
+        "region": "decor_01_golden_pouch",
+        "type": "mesh",
+        "bone": "decor",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 36,
+          "height": 34
+        },
+        "mesh": {
+          "uvPairs": 13,
+          "vertexNumbers": 133,
+          "triangles": 15,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "decor_01_golden_pouch2",
+        "name": "decor_01_golden_pouch",
+        "region": "decor_01_golden_pouch",
+        "type": "mesh",
+        "bone": "decor",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 36,
+          "height": 34
+        },
+        "mesh": {
+          "uvPairs": 13,
+          "vertexNumbers": 133,
+          "triangles": 15,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "decor_02_golden_pouch",
+        "name": "decor_02_golden_pouch",
+        "region": "decor_02_golden_pouch",
+        "type": "mesh",
+        "bone": "decor",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 18,
+          "height": 12
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "decor_shadow_golden_pouch",
+        "name": "decor_shadow_golden_pouch",
+        "region": "decor_shadow_golden_pouch",
+        "type": "mesh",
+        "bone": "decor",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 44,
+          "height": 76
+        },
+        "mesh": {
+          "uvPairs": 15,
+          "vertexNumbers": 235,
+          "triangles": 13,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Golden_coins_Shadow_golden_pouch",
+        "name": "Golden_coins_Shadow_golden_pouch",
+        "region": "Golden_coins_Shadow_golden_pouch",
+        "type": "mesh",
+        "bone": "golden_pouch",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 62,
+          "height": 36
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Handles_golden_down_pouch",
+        "name": "Handles_golden_down_pouch",
+        "region": "Handles_golden_down_pouch",
+        "type": "mesh",
+        "bone": "golden_pouch",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 48,
+          "height": 48
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 64,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Handles_golden_pouch",
+        "name": "Handles_golden_pouch",
+        "region": "Handles_golden_pouch",
+        "type": "mesh",
+        "bone": "golden_pouch",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 125,
+          "height": 48
+        },
+        "mesh": {
+          "uvPairs": 28,
+          "vertexNumbers": 264,
+          "triangles": 29,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "laces_l_golden_pouch",
+        "name": "laces_l_golden_pouch",
+        "region": "laces_l_golden_pouch",
+        "type": "mesh",
+        "bone": "laces_l4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 39,
+          "height": 30
+        },
+        "mesh": {
+          "uvPairs": 13,
+          "vertexNumbers": 129,
+          "triangles": 11,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "laces_l_golden_pouch2",
+        "name": "laces_l_golden_pouch",
+        "region": "laces_l_golden_pouch",
+        "type": "mesh",
+        "bone": "laces_l4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 39,
+          "height": 30
+        },
+        "mesh": {
+          "uvPairs": 13,
+          "vertexNumbers": 129,
+          "triangles": 11,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "laces_r_golden_pouch",
+        "name": "laces_r_golden_pouch",
+        "region": "laces_r_golden_pouch",
+        "type": "mesh",
+        "bone": "laces_r7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 15,
+          "height": 39
+        },
+        "mesh": {
+          "uvPairs": 13,
+          "vertexNumbers": 141,
+          "triangles": 11,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "laces_r_golden_pouch2",
+        "name": "laces_r_golden_pouch",
+        "region": "laces_r_golden_pouch",
+        "type": "mesh",
+        "bone": "laces_r7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 15,
+          "height": 39
+        },
+        "mesh": {
+          "uvPairs": 13,
+          "vertexNumbers": 141,
+          "triangles": 11,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "laces_top_golden_pouch",
+        "name": "laces_top_golden_pouch",
+        "region": "laces_top_golden_pouch",
+        "type": "mesh",
+        "bone": "golden_pouch",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 67,
+          "height": 29
+        },
+        "mesh": {
+          "uvPairs": 13,
+          "vertexNumbers": 113,
+          "triangles": 11,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pouch_coins_glow",
+        "name": "pouch_coins_glow",
+        "region": "pouch_coins_glow",
+        "type": "region",
+        "bone": "golden_pouch",
+        "transform": {
+          "x": 14.19,
+          "y": 68.01,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 98,
+          "height": 68
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pouch_effects_02_glow_01",
+        "name": "pouch_effects_02_glow_01",
+        "region": "pouch_effects_02_glow_01",
+        "type": "region",
+        "bone": "golden_pouch",
+        "transform": {
+          "x": 5.82,
+          "y": 61.3,
+          "rotation": 0,
+          "scaleX": 1.2538,
+          "scaleY": 1.2538
+        },
+        "size": {
+          "width": 160,
+          "height": 162
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Shadow_1_golden_pouch",
+        "name": "Shadow_1_golden_pouch",
+        "region": "Shadow_1_golden_pouch",
+        "type": "mesh",
+        "bone": "golden_pouch",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 107,
+          "height": 103
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Shadow_coin_1_golden_pouch",
+        "name": "Shadow_coin_1_golden_pouch",
+        "region": "Shadow_coin_1_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 26,
+          "height": 21
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Shadow_coin_2_golden_pouch",
+        "name": "Shadow_coin_2_golden_pouch",
+        "region": "Shadow_coin_2_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 28,
+          "height": 15
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Shadow_coin_3_golden_pouch",
+        "name": "Shadow_coin_3_golden_pouch",
+        "region": "Shadow_coin_3_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 28,
+          "height": 18
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Shadow_coin_4_golden_pouch",
+        "name": "Shadow_coin_4_golden_pouch",
+        "region": "Shadow_coin_4_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 24,
+          "height": 24
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Shadow_coin_5_golden_pouch",
+        "name": "Shadow_coin_5_golden_pouch",
+        "region": "Shadow_coin_5_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 25,
+          "height": 20
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Shadow_coin_6_golden_pouch",
+        "name": "Shadow_coin_6_golden_pouch",
+        "region": "Shadow_coin_6_golden_pouch",
+        "type": "mesh",
+        "bone": "Coin7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 24,
+          "height": 13
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coin1",
+        "name": "Sparks_coin1",
+        "region": "Sparks_coin1",
+        "type": "region",
+        "bone": "golden_sparks",
+        "transform": {
+          "x": -0.02,
+          "y": -5.51,
+          "rotation": 0,
+          "scaleX": 1.0378,
+          "scaleY": 1.0378
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coin2",
+        "name": "Sparks_coin1",
+        "region": "Sparks_coin1",
+        "type": "region",
+        "bone": "golden_sparks4",
+        "transform": {
+          "x": -0.02,
+          "y": -5.51,
+          "rotation": 0,
+          "scaleX": 1.0378,
+          "scaleY": 1.0378
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coin3",
+        "name": "Sparks_coin1",
+        "region": "Sparks_coin1",
+        "type": "region",
+        "bone": "golden_sparks6",
+        "transform": {
+          "x": -0.02,
+          "y": -5.51,
+          "rotation": 0,
+          "scaleX": 1.0378,
+          "scaleY": 1.0378
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coin4",
+        "name": "Sparks_coin1",
+        "region": "Sparks_coin1",
+        "type": "region",
+        "bone": "golden_sparks7",
+        "transform": {
+          "x": -0.02,
+          "y": -5.51,
+          "rotation": 0,
+          "scaleX": 1.0378,
+          "scaleY": 1.0378
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coin5",
+        "name": "Sparks_coin1",
+        "region": "Sparks_coin1",
+        "type": "region",
+        "bone": "golden_sparks15",
+        "transform": {
+          "x": -0.02,
+          "y": -5.51,
+          "rotation": 0,
+          "scaleX": 1.0378,
+          "scaleY": 1.0378
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coin6",
+        "name": "Sparks_coin1",
+        "region": "Sparks_coin1",
+        "type": "region",
+        "bone": "golden_sparks20",
+        "transform": {
+          "x": -0.02,
+          "y": -5.51,
+          "rotation": 0,
+          "scaleX": 1.0378,
+          "scaleY": 1.0378
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coins2",
+        "name": "Sparks_coins2",
+        "region": "Sparks_coins2",
+        "type": "region",
+        "bone": "golden_sparks2",
+        "transform": {
+          "x": -21.12,
+          "y": -5.51,
+          "rotation": 0,
+          "scaleX": 1.0378,
+          "scaleY": 1.0378
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coins3",
+        "name": "Sparks_coins2",
+        "region": "Sparks_coins2",
+        "type": "region",
+        "bone": "golden_sparks3",
+        "transform": {
+          "x": -21.12,
+          "y": -5.51,
+          "rotation": 0,
+          "scaleX": 1.0378,
+          "scaleY": 1.0378
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coins4",
+        "name": "Sparks_coins2",
+        "region": "Sparks_coins2",
+        "type": "region",
+        "bone": "golden_sparks5",
+        "transform": {
+          "x": -21.12,
+          "y": -5.51,
+          "rotation": 0,
+          "scaleX": 1.0378,
+          "scaleY": 1.0378
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coins5",
+        "name": "Sparks_coins2",
+        "region": "Sparks_coins2",
+        "type": "region",
+        "bone": "golden_sparks8",
+        "transform": {
+          "x": -21.12,
+          "y": -5.51,
+          "rotation": 0,
+          "scaleX": 1.0378,
+          "scaleY": 1.0378
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coins6",
+        "name": "Sparks_coins2",
+        "region": "Sparks_coins2",
+        "type": "region",
+        "bone": "golden_sparks14",
+        "transform": {
+          "x": -21.12,
+          "y": -5.51,
+          "rotation": 0,
+          "scaleX": 1.0378,
+          "scaleY": 1.0378
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coins7",
+        "name": "Sparks_coins2",
+        "region": "Sparks_coins2",
+        "type": "region",
+        "bone": "golden_sparks19",
+        "transform": {
+          "x": -21.12,
+          "y": -5.51,
+          "rotation": 0,
+          "scaleX": 1.0378,
+          "scaleY": 1.0378
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coins8",
+        "name": "Sparks_coins4",
+        "region": "Sparks_coins4",
+        "type": "region",
+        "bone": "golden_sparks9",
+        "transform": {
+          "x": -16.44,
+          "y": 3.05,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coins9",
+        "name": "Sparks_coins4",
+        "region": "Sparks_coins4",
+        "type": "region",
+        "bone": "golden_sparks10",
+        "transform": {
+          "x": -16.44,
+          "y": 3.05,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coins10",
+        "name": "Sparks_coins4",
+        "region": "Sparks_coins4",
+        "type": "region",
+        "bone": "golden_sparks11",
+        "transform": {
+          "x": -16.44,
+          "y": 3.05,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coins11",
+        "name": "Sparks_coins4",
+        "region": "Sparks_coins4",
+        "type": "region",
+        "bone": "golden_sparks12",
+        "transform": {
+          "x": -16.44,
+          "y": 3.05,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coins12",
+        "name": "Sparks_coins4",
+        "region": "Sparks_coins4",
+        "type": "region",
+        "bone": "golden_sparks13",
+        "transform": {
+          "x": -16.44,
+          "y": 3.05,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coins13",
+        "name": "Sparks_coins4",
+        "region": "Sparks_coins4",
+        "type": "region",
+        "bone": "golden_sparks16",
+        "transform": {
+          "x": -16.44,
+          "y": 3.05,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coins14",
+        "name": "Sparks_coins4",
+        "region": "Sparks_coins4",
+        "type": "region",
+        "bone": "golden_sparks17",
+        "transform": {
+          "x": -16.44,
+          "y": 3.05,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coins15",
+        "name": "Sparks_coins4",
+        "region": "Sparks_coins4",
+        "type": "region",
+        "bone": "golden_sparks18",
+        "transform": {
+          "x": -16.44,
+          "y": 3.05,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coins16",
+        "name": "Sparks_coins4",
+        "region": "Sparks_coins4",
+        "type": "region",
+        "bone": "golden_sparks21",
+        "transform": {
+          "x": -16.44,
+          "y": 3.05,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_coins17",
+        "name": "Sparks_coins4",
+        "region": "Sparks_coins4",
+        "type": "region",
+        "bone": "golden_sparks22",
+        "transform": {
+          "x": -16.44,
+          "y": 3.05,
+          "rotation": 180,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 100,
+          "height": 100
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "collect",
+        "duration": 1,
+        "keyframes": 397,
+        "curvedKeys": 173,
+        "channels": [
+          {
+            "path": "slots.base_glowgolden_pouch.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Coin_1_golden_pouch.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Coin_1_golden_pouch2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Coin_1_golden_pouch3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Coin_2_golden_pouch.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Coin_2_golden_pouch2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Coin_2_golden_pouch3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Coin_3_golden_pouch.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Coin_3_golden_pouch2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Coin_3_golden_pouch3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Coin_4_golden_pouch.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Coin_4_golden_pouch2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Coin_4_golden_pouch3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Coin_5_golden_pouch.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Coin_5_golden_pouch2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Coin_5_golden_pouch3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Coin_6_golden_pouch.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Coin_6_golden_pouch2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Coin_6_golden_pouch3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.decor_01_golden_pouch2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Golden_coins_Shadow_golden_pouch.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.laces_l_golden_pouch2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.laces_r_golden_pouch2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.pouch_coins_glow.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Shadow_coin_2_golden_pouch.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Shadow_coin_3_golden_pouch.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Shadow_coin_4_golden_pouch.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Shadow_coin_5_golden_pouch.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Shadow_coin_6_golden_pouch.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Sparks_coin1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coin2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coin3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coin4.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coin5.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coin6.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins4.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins5.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins6.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins7.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins8.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins9.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins10.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins11.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins12.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins13.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins14.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins15.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins16.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins17.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_pouch_3d.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.golden_pouch.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.golden_pouch.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.golden_pouch.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.decor.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.laces_l4.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.laces_l5.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.laces_l6.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.laces_r7.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.laces_r8.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.laces_r9.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Handles3.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Handles4.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Coins.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Coins.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Coin2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Coin3.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Coin4.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Coin5.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Coin6.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Coin7.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Coin8.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Coin8.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Coin9.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Coin9.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Coin10.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Coin10.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Coin11.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Coin11.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Coin12.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Coin12.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Coin13.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Coin13.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks2.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks3.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks3.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks3.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks4.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks4.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks4.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks9.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks9.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks9.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.golden_sparks10.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks10.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.golden_sparks11.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks11.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks11.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.golden_sparks5.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks5.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks5.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks6.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks6.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks12.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks12.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.golden_sparks13.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks13.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks13.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.golden_sparks7.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks7.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks8.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks8.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks8.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks14.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks14.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks14.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks15.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks15.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks15.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks16.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks16.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks16.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.golden_sparks17.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks17.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.golden_sparks18.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks18.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks18.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.golden_sparks19.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks19.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks19.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks20.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks20.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks21.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks21.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.golden_sparks22.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks22.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.golden_sparks22.scale",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "golden_pouch_3d",
+          "golden_pouch",
+          "decor",
+          "laces_l4",
+          "laces_l5",
+          "laces_l6",
+          "laces_r7",
+          "laces_r8",
+          "laces_r9",
+          "Handles3",
+          "Handles4",
+          "Coins",
+          "Coin2",
+          "Coin3",
+          "Coin4",
+          "Coin5",
+          "Coin6",
+          "Coin7",
+          "golden_pouch3",
+          "Coin8",
+          "Coin9",
+          "Coin10",
+          "Coin11",
+          "Coin12",
+          "Coin13",
+          "golden_sparks",
+          "golden_sparks2",
+          "golden_sparks3",
+          "golden_sparks4",
+          "golden_sparks9",
+          "golden_sparks10",
+          "golden_sparks11",
+          "golden_sparks5",
+          "golden_sparks6",
+          "golden_sparks12",
+          "golden_sparks13",
+          "golden_sparks7",
+          "golden_sparks8",
+          "golden_sparks14",
+          "golden_sparks15",
+          "golden_sparks16",
+          "golden_sparks17",
+          "golden_sparks18",
+          "golden_sparks19",
+          "golden_sparks20",
+          "golden_sparks21",
+          "golden_sparks22"
+        ],
+        "animatedSlots": [
+          "base_glowgolden_pouch",
+          "Coin_1_golden_pouch",
+          "Coin_1_golden_pouch2",
+          "Coin_1_golden_pouch3",
+          "Coin_2_golden_pouch",
+          "Coin_2_golden_pouch2",
+          "Coin_2_golden_pouch3",
+          "Coin_3_golden_pouch",
+          "Coin_3_golden_pouch2",
+          "Coin_3_golden_pouch3",
+          "Coin_4_golden_pouch",
+          "Coin_4_golden_pouch2",
+          "Coin_4_golden_pouch3",
+          "Coin_5_golden_pouch",
+          "Coin_5_golden_pouch2",
+          "Coin_5_golden_pouch3",
+          "Coin_6_golden_pouch",
+          "Coin_6_golden_pouch2",
+          "Coin_6_golden_pouch3",
+          "decor_01_golden_pouch2",
+          "Golden_coins_Shadow_golden_pouch",
+          "laces_l_golden_pouch2",
+          "laces_r_golden_pouch2",
+          "pouch_coins_glow",
+          "Shadow_coin_2_golden_pouch",
+          "Shadow_coin_3_golden_pouch",
+          "Shadow_coin_4_golden_pouch",
+          "Shadow_coin_5_golden_pouch",
+          "Shadow_coin_6_golden_pouch",
+          "Sparks_coin1",
+          "Sparks_coin2",
+          "Sparks_coin3",
+          "Sparks_coin4",
+          "Sparks_coin5",
+          "Sparks_coin6",
+          "Sparks_coins2",
+          "Sparks_coins3",
+          "Sparks_coins4",
+          "Sparks_coins5",
+          "Sparks_coins6",
+          "Sparks_coins7",
+          "Sparks_coins8",
+          "Sparks_coins9",
+          "Sparks_coins10",
+          "Sparks_coins11",
+          "Sparks_coins12",
+          "Sparks_coins13",
+          "Sparks_coins14",
+          "Sparks_coins15",
+          "Sparks_coins16",
+          "Sparks_coins17"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "landing",
+        "duration": 0.4667,
+        "keyframes": 39,
+        "curvedKeys": 26,
+        "channels": [
+          {
+            "path": "bones.golden_pouch.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_pouch.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_pouch.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_pouch_3d.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.decor.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Handles3.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Handles4.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.laces_l4.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.laces_l5.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.laces_l6.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.laces_r7.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.laces_r8.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.laces_r9.rotate",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "golden_pouch",
+          "golden_pouch_3d",
+          "decor",
+          "Handles3",
+          "Handles4",
+          "laces_l4",
+          "laces_l5",
+          "laces_l6",
+          "laces_r7",
+          "laces_r8",
+          "laces_r9"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "win",
+        "duration": 1,
+        "keyframes": 280,
+        "curvedKeys": 185,
+        "channels": [
+          {
+            "path": "slots.base_glowgolden_pouch.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Coin_1_golden_pouch2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Coin_1_golden_pouch3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Coin_2_golden_pouch2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Coin_2_golden_pouch3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Coin_3_golden_pouch2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Coin_3_golden_pouch3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Coin_4_golden_pouch2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Coin_4_golden_pouch3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Coin_5_golden_pouch2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Coin_5_golden_pouch3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Coin_6_golden_pouch2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Coin_6_golden_pouch3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.decor_01_golden_pouch2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Golden_coins_Shadow_golden_pouch.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.laces_l_golden_pouch2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.laces_r_golden_pouch2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.pouch_coins_glow.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.pouch_effects_02_glow_01.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coin1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coin2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coin3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coin4.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coin5.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coin6.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins4.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins5.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins6.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins7.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins8.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins9.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins10.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins11.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins12.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins13.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins14.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins15.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins16.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_coins17.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_pouch_3d.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.golden_pouch.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.golden_pouch.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.golden_pouch.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.decor.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.laces_l4.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.laces_l5.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.laces_l6.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.laces_r7.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.laces_r8.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.laces_r9.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Handles3.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Handles4.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Coin8.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Coin8.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Coin9.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Coin9.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Coin10.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Coin10.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Coin11.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Coin11.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Coin12.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Coin12.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Coin13.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Coin13.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks18.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks11.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks21.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks12.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks17.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks10.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks22.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks13.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks16.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks9.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks14.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks3.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks19.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks5.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks8.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks2.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks15.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks4.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks20.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks6.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks7.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.golden_sparks.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "drawOrder",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "golden_pouch_3d",
+          "golden_pouch",
+          "decor",
+          "laces_l4",
+          "laces_l5",
+          "laces_l6",
+          "laces_r7",
+          "laces_r8",
+          "laces_r9",
+          "Handles3",
+          "Handles4",
+          "Coin8",
+          "Coin9",
+          "Coin10",
+          "Coin11",
+          "Coin12",
+          "Coin13",
+          "golden_sparks18",
+          "golden_sparks11",
+          "golden_sparks21",
+          "golden_sparks12",
+          "golden_sparks17",
+          "golden_sparks10",
+          "golden_sparks22",
+          "golden_sparks13",
+          "golden_sparks16",
+          "golden_sparks9",
+          "golden_sparks14",
+          "golden_sparks3",
+          "golden_sparks19",
+          "golden_sparks5",
+          "golden_sparks8",
+          "golden_sparks2",
+          "golden_sparks15",
+          "golden_sparks4",
+          "golden_sparks20",
+          "golden_sparks6",
+          "golden_sparks7",
+          "golden_sparks"
+        ],
+        "animatedSlots": [
+          "base_glowgolden_pouch",
+          "Coin_1_golden_pouch",
+          "Coin_1_golden_pouch2",
+          "Coin_1_golden_pouch3",
+          "Coin_2_golden_pouch",
+          "Coin_2_golden_pouch2",
+          "Coin_2_golden_pouch3",
+          "Coin_3_golden_pouch",
+          "Coin_3_golden_pouch2",
+          "Coin_3_golden_pouch3",
+          "Coin_4_golden_pouch",
+          "Coin_4_golden_pouch2",
+          "Coin_4_golden_pouch3",
+          "Coin_5_golden_pouch",
+          "Coin_5_golden_pouch2",
+          "Coin_5_golden_pouch3",
+          "Coin_6_golden_pouch",
+          "Coin_6_golden_pouch2",
+          "Coin_6_golden_pouch3",
+          "decor_01_golden_pouch2",
+          "Golden_coins_Shadow_golden_pouch",
+          "laces_l_golden_pouch2",
+          "laces_r_golden_pouch2",
+          "pouch_coins_glow",
+          "pouch_effects_02_glow_01",
+          "Sparks_coin1",
+          "Sparks_coin2",
+          "Sparks_coin3",
+          "Sparks_coin4",
+          "Sparks_coin5",
+          "Sparks_coin6",
+          "Sparks_coins2",
+          "Sparks_coins3",
+          "Sparks_coins4",
+          "Sparks_coins5",
+          "Sparks_coins6",
+          "Sparks_coins7",
+          "Sparks_coins8",
+          "Sparks_coins9",
+          "Sparks_coins10",
+          "Sparks_coins11",
+          "Sparks_coins12",
+          "Sparks_coins13",
+          "Sparks_coins14",
+          "Sparks_coins15",
+          "Sparks_coins16",
+          "Sparks_coins17"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": true,
+        "events": [],
+        "tags": [
+          "win"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 54,
+      "slots": 65,
+      "attachments": 64,
+      "meshAttachments": 39,
+      "meshUvPairs": 292,
+      "constraints": {
+        "ik": 0,
+        "transform": 1,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "Coin_1_golden_pouch",
+      "file": "pieces/coin-1-golden-pouch-ea50d0a0.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "134,322,26,24"
+      }
+    },
+    {
+      "region": "Coin_2_golden_pouch",
+      "file": "pieces/coin-2-golden-pouch-b3d967b6.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "102,44,28,25"
+      }
+    },
+    {
+      "region": "Coin_3_golden_pouch",
+      "file": "pieces/coin-3-golden-pouch-ccd36a93.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "244,349,28,27",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Coin_4_golden_pouch",
+      "file": "pieces/coin-4-golden-pouch-404de71d.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "134,251,27,27"
+      }
+    },
+    {
+      "region": "Coin_5_golden_pouch",
+      "file": "pieces/coin-5-golden-pouch-e332910b.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "102,16,25,24"
+      }
+    },
+    {
+      "region": "Coin_6_golden_pouch",
+      "file": "pieces/coin-6-golden-pouch-782705d3.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "273,322,24,22"
+      }
+    },
+    {
+      "region": "Golden_coins_Shadow_golden_pouch",
+      "file": "pieces/golden-coins-shadow-golden-pouch-48d11dde.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "111,125,62,36",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Handles_golden_down_pouch",
+      "file": "pieces/handles-golden-down-pouch-ac4de4f3.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "111,73,48,48"
+      }
+    },
+    {
+      "region": "Handles_golden_pouch",
+      "file": "pieces/handles-golden-pouch-4bff672f.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "377,464,125,48"
+      }
+    },
+    {
+      "region": "Shadow_1_golden_pouch",
+      "file": "pieces/shadow-1-golden-pouch-d6193880.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "0,84,107,103"
+      }
+    },
+    {
+      "region": "Shadow_coin_1_golden_pouch",
+      "file": "pieces/shadow-coin-1-golden-pouch-74710a43.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "477,391,26,21",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_coin_2_golden_pouch",
+      "file": "pieces/shadow-coin-2-golden-pouch-672393bb.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "301,329,28,15"
+      }
+    },
+    {
+      "region": "Shadow_coin_3_golden_pouch",
+      "file": "pieces/shadow-coin-3-golden-pouch-20a22e54.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "477,359,28,18",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_coin_4_golden_pouch",
+      "file": "pieces/shadow-coin-4-golden-pouch-cfe8788e.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "134,45,24,24"
+      }
+    },
+    {
+      "region": "Shadow_coin_5_golden_pouch",
+      "file": "pieces/shadow-coin-5-golden-pouch-4e085885.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "244,325,25,20"
+      }
+    },
+    {
+      "region": "Shadow_coin_6_golden_pouch",
+      "file": "pieces/shadow-coin-6-golden-pouch-25d56e66.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "134,191,24,13"
+      }
+    },
+    {
+      "region": "Sparks_coin1",
+      "file": "pieces/sparks-coin1-57996dcd.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "275,433,98,79",
+        "offsets": "0,21,100,100"
+      }
+    },
+    {
+      "region": "Sparks_coins2",
+      "file": "pieces/sparks-coins2-79622df8.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "367,341,73,68",
+        "offsets": "24,32,100,100"
+      }
+    },
+    {
+      "region": "Sparks_coins4",
+      "file": "pieces/sparks-coins4-66c57420.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "275,348,81,88",
+        "offsets": "4,10,100,100",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "base_glowgolden_pouch",
+      "file": "pieces/base-glowgolden-pouch-a7002dae.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "0,191,130,155"
+      }
+    },
+    {
+      "region": "base_golden_pouch",
+      "file": "pieces/base-golden-pouch-4867d917.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "164,381,107,131"
+      }
+    },
+    {
+      "region": "base_mask_golden_pouch",
+      "file": "pieces/base-mask-golden-pouch-e3f1309f.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "377,413,89,47"
+      }
+    },
+    {
+      "region": "decor_01_golden_pouch",
+      "file": "pieces/decor-01-golden-pouch-5f76b7d5.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "134,282,36,34",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "decor_02_golden_pouch",
+      "file": "pieces/decor-02-golden-pouch-1527a972.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "102,0,18,12"
+      }
+    },
+    {
+      "region": "decor_shadow_golden_pouch",
+      "file": "pieces/decor-shadow-golden-pouch-791942b9.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "164,333,44,76",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "laces_l_golden_pouch",
+      "file": "pieces/laces-l-golden-pouch-d6e4a683.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "470,421,39,30",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "laces_r_golden_pouch",
+      "file": "pieces/laces-r-golden-pouch-2afe01cd.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "134,208,15,39"
+      }
+    },
+    {
+      "region": "laces_top_golden_pouch",
+      "file": "pieces/laces-top-golden-pouch-4b019870.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "444,342,67,29",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pouch_coins_glow",
+      "file": "pieces/pouch-coins-glow-bad326b3.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "0,12,98,68"
+      }
+    },
+    {
+      "region": "pouch_effects_02_glow_01",
+      "file": "pieces/pouch-effects-02-glow-01-480784c0.png",
+      "page": "goldenpouch.webp",
+      "properties": {
+        "bounds": "0,350,160,162"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

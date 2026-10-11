@@ -1,0 +1,2329 @@
+{
+  "id": "spin-reaper-winsafe-animations-safe-bet-1fbb06f9-c9843352",
+  "collection": "library",
+  "name": "safe_bet",
+  "machine": "spin-reaper-winsafe",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/spin-reaper-winsafe/animations/safe-bet-1fbb06f9",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 19,
+    "slots": 25,
+    "attachments": 22,
+    "meshAttachments": 4,
+    "meshUvPairs": 31,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 4194304,
+    "rgbaBytesEstimate": 16777216,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 47,
+  "actions": [
+    {
+      "name": "activate",
+      "duration": 1.3333,
+      "keyframes": 142,
+      "curvedKeys": 58,
+      "channels": [
+        {
+          "path": "slots.a.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.b.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.coneglow.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.e.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.e_2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.f.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.pulse.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.pulse.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.pulse2.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.pulse2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.s.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.safebet_base.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.safebet_base2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.safebet_shine.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.safebet_sparkle1.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.safebet_sparkle2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.safebet_sparkle3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.sparkles.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.sparkles.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sparkles2.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.sparkles2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sparkles3.alpha",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.sparkles3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.t.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots._ref.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots._ref2.rgba",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.safebet_master.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.safebet_base.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.safebet_base.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.safebet_shine.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.safebet_sparkle1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.safebet_sparkle2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.safebet_sparkle3.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.s.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.a.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.f.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.e.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.b.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.e_2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.t.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.pulse.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones._ref.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.glow.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.glow.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sparkles.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "attachments.default.sparkles.sparkles_.sequence",
+          "keyframes": 2
+        },
+        {
+          "path": "attachments.default.sparkles2.sparkles_.sequence",
+          "keyframes": 2
+        },
+        {
+          "path": "attachments.default.sparkles3.sparkles_.sequence",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "safebet_master",
+        "safebet_base",
+        "safebet_shine",
+        "safebet_sparkle1",
+        "safebet_sparkle2",
+        "safebet_sparkle3",
+        "s",
+        "a",
+        "f",
+        "e",
+        "b",
+        "e_2",
+        "t",
+        "pulse",
+        "_ref",
+        "glow",
+        "sparkles"
+      ],
+      "animatedSlots": [
+        "a",
+        "b",
+        "coneglow",
+        "e",
+        "e_2",
+        "f",
+        "pulse",
+        "pulse2",
+        "s",
+        "safebet_base",
+        "safebet_base2",
+        "safebet_shine",
+        "safebet_sparkle1",
+        "safebet_sparkle2",
+        "safebet_sparkle3",
+        "sparkles",
+        "sparkles2",
+        "sparkles3",
+        "t",
+        "_ref",
+        "_ref2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "active_idle",
+      "duration": 5.7,
+      "keyframes": 88,
+      "curvedKeys": 62,
+      "channels": [
+        {
+          "path": "slots.safebet_shine.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.safebet_sparkle1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.safebet_sparkle2.rgba",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.safebet_sparkle3.rgba",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.safebet_master.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.safebet_sparkle1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.safebet_sparkle2.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.safebet_sparkle3.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.safebet_shine.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.safebet_shine.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.s.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.a.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.f.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.e.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.b.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.e_2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.t.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.glow.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.safebet_base.scale",
+          "keyframes": 13
+        }
+      ],
+      "animatedBones": [
+        "safebet_master",
+        "safebet_sparkle1",
+        "safebet_sparkle2",
+        "safebet_sparkle3",
+        "safebet_shine",
+        "s",
+        "a",
+        "f",
+        "e",
+        "b",
+        "e_2",
+        "t",
+        "glow",
+        "safebet_base"
+      ],
+      "animatedSlots": [
+        "coneglow",
+        "safebet_shine",
+        "safebet_sparkle1",
+        "safebet_sparkle2",
+        "safebet_sparkle3",
+        "sparkles",
+        "sparkles2",
+        "sparkles3"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "idle",
+      "duration": 10,
+      "keyframes": 139,
+      "curvedKeys": 107,
+      "channels": [
+        {
+          "path": "slots.safebet_shine.rgba",
+          "keyframes": 11
+        },
+        {
+          "path": "slots.safebet_sparkle1.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.safebet_sparkle2.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.safebet_sparkle3.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.safebet_master.scale",
+          "keyframes": 11
+        },
+        {
+          "path": "bones.safebet_sparkle1.scale",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.safebet_sparkle2.scale",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.safebet_sparkle3.scale",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.safebet_shine.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.safebet_shine.scale",
+          "keyframes": 11
+        },
+        {
+          "path": "bones.s.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.a.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.f.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.e.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.b.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.e_2.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.t.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "attachments.default._ref.diamond_.sequence",
+          "keyframes": 2
+        },
+        {
+          "path": "attachments.default._ref2.diamond_.sequence",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "safebet_master",
+        "safebet_sparkle1",
+        "safebet_sparkle2",
+        "safebet_sparkle3",
+        "safebet_shine",
+        "s",
+        "a",
+        "f",
+        "e",
+        "b",
+        "e_2",
+        "t"
+      ],
+      "animatedSlots": [
+        "safebet_shine",
+        "safebet_sparkle1",
+        "safebet_sparkle2",
+        "safebet_sparkle3"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/spin-reaper-winsafe-animations-safe-bet-1fbb06f9-c9843352/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "safebet_master",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "safebet_base",
+        "parent": "safebet_master",
+        "x": 0.13,
+        "y": -6,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "safebet_sparkle1",
+        "parent": "safebet_base",
+        "x": 45.75,
+        "y": 110.77,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "safebet_shine",
+        "parent": "safebet_base",
+        "x": 52.38,
+        "y": -113.62,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "safebet_safebet",
+        "parent": "safebet_base",
+        "x": 0,
+        "y": -131.75,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "t",
+        "parent": "safebet_safebet",
+        "x": 162.9,
+        "y": 56.68,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "s",
+        "parent": "safebet_safebet",
+        "x": -155.12,
+        "y": 42.88,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "f",
+        "parent": "safebet_safebet",
+        "x": -51.1,
+        "y": -33.99,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "e_2",
+        "parent": "safebet_safebet",
+        "x": 122.44,
+        "y": 7.98,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "e",
+        "parent": "safebet_safebet",
+        "x": 14.64,
+        "y": -43.05,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "b",
+        "parent": "safebet_safebet",
+        "x": 81.75,
+        "y": -29.91,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "a",
+        "parent": "safebet_safebet",
+        "x": -104.62,
+        "y": -6.18,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "safebet_sparkle2",
+        "parent": "safebet_base",
+        "x": -114.53,
+        "y": 153.97,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "safebet_sparkle3",
+        "parent": "safebet_base",
+        "x": -131.26,
+        "y": 66.17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "pulse",
+        "parent": "safebet_base",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.7858,
+        "scaleY": 0.7858
+      },
+      {
+        "name": "_ref",
+        "parent": "safebet_base",
+        "x": -2.62,
+        "y": 31.01,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "glow",
+        "parent": "safebet_base",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "sparkles",
+        "parent": "safebet_master",
+        "x": 30.11,
+        "y": -67.56,
+        "length": 759.48,
+        "rotation": -62.78,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "00_master_scale",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "00_screen_dimensions",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glow",
+        "bone": "glow",
+        "setupAttachment": "glow",
+        "blend": "normal",
+        "color": "45d6ffff"
+      },
+      {
+        "name": "coneglow",
+        "bone": "sparkles",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "49d8ff5d"
+      },
+      {
+        "name": "pulse",
+        "bone": "pulse",
+        "setupAttachment": "pulse",
+        "blend": "normal",
+        "color": "86e8ffba"
+      },
+      {
+        "name": "pulse2",
+        "bone": "pulse",
+        "setupAttachment": "pulse",
+        "blend": "normal",
+        "color": "ffffffba"
+      },
+      {
+        "name": "sparkles",
+        "bone": "sparkles",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "sparkles2",
+        "bone": "sparkles",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "cdf5ffff"
+      },
+      {
+        "name": "sparkles3",
+        "bone": "sparkles",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "e1f9ffff"
+      },
+      {
+        "name": "safebet_base",
+        "bone": "safebet_base",
+        "setupAttachment": "safebet_base",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "safebet_base2",
+        "bone": "safebet_base",
+        "setupAttachment": "safebet_base",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "_ref",
+        "bone": "_ref",
+        "setupAttachment": "diamond_",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "_ref2",
+        "bone": "_ref",
+        "setupAttachment": "diamond_",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "diamond_0",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "s",
+        "bone": "s",
+        "setupAttachment": "s",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "a",
+        "bone": "a",
+        "setupAttachment": "a",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "f",
+        "bone": "f",
+        "setupAttachment": "f",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "e",
+        "bone": "e",
+        "setupAttachment": "e",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "b",
+        "bone": "b",
+        "setupAttachment": "b",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "e_2",
+        "bone": "e_2",
+        "setupAttachment": "e_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "t",
+        "bone": "t",
+        "setupAttachment": "t",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "safebet_shine",
+        "bone": "safebet_shine",
+        "setupAttachment": "safebet_shine",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "safebet_sparkle1",
+        "bone": "safebet_sparkle1",
+        "setupAttachment": "safebet_sparkle1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "safebet_sparkle2",
+        "bone": "safebet_sparkle2",
+        "setupAttachment": "safebet_sparkle1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "safebet_sparkle3",
+        "bone": "safebet_sparkle3",
+        "setupAttachment": "safebet_sparkle1",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "a",
+        "name": "a",
+        "region": "a",
+        "type": "region",
+        "bone": "a",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 0.5,
+          "scaleY": 0.5
+        },
+        "size": {
+          "width": 117,
+          "height": 123
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "b",
+        "name": "b",
+        "region": "b",
+        "type": "region",
+        "bone": "b",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 0.5,
+          "scaleY": 0.5
+        },
+        "size": {
+          "width": 137,
+          "height": 149
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "coneglow",
+        "name": "cone",
+        "region": "cone",
+        "type": "mesh",
+        "bone": "sparkles",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 214,
+          "height": 217
+        },
+        "mesh": {
+          "uvPairs": 7,
+          "vertexNumbers": 14,
+          "triangles": 5,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "e",
+        "name": "e",
+        "region": "e",
+        "type": "region",
+        "bone": "e",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 0.5,
+          "scaleY": 0.5
+        },
+        "size": {
+          "width": 103,
+          "height": 138
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "e_2",
+        "name": "e_2",
+        "region": "e_2",
+        "type": "region",
+        "bone": "e_2",
+        "transform": {
+          "x": -3.47,
+          "y": -3.47,
+          "rotation": 0,
+          "scaleX": 0.5,
+          "scaleY": 0.5
+        },
+        "size": {
+          "width": 123,
+          "height": 153
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "f",
+        "name": "f",
+        "region": "f",
+        "type": "region",
+        "bone": "f",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 0.5,
+          "scaleY": 0.5
+        },
+        "size": {
+          "width": 155,
+          "height": 151
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow",
+        "name": "glow",
+        "region": "glow",
+        "type": "region",
+        "bone": "glow",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1.505,
+          "scaleY": 1.505
+        },
+        "size": {
+          "width": 320,
+          "height": 308
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pulse",
+        "name": "pulse",
+        "region": "pulse",
+        "type": "region",
+        "bone": "pulse",
+        "transform": {
+          "x": 1.25,
+          "y": -0.8,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 300,
+          "height": 300
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "pulse2",
+        "name": "pulse",
+        "region": "pulse",
+        "type": "region",
+        "bone": "pulse",
+        "transform": {
+          "x": 1.25,
+          "y": -0.8,
+          "rotation": 0,
+          "scaleX": 0.8316,
+          "scaleY": 0.8316
+        },
+        "size": {
+          "width": 300,
+          "height": 300
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "s",
+        "name": "s",
+        "region": "s",
+        "type": "region",
+        "bone": "s",
+        "transform": {
+          "x": 3.92,
+          "y": 2.45,
+          "rotation": 0,
+          "scaleX": 0.5,
+          "scaleY": 0.5
+        },
+        "size": {
+          "width": 182,
+          "height": 188
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "safebet_base",
+        "name": "safebet_base",
+        "region": "safebet_base",
+        "type": "region",
+        "bone": "safebet_base",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 530,
+          "height": 529
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "safebet_base2",
+        "name": "safebet_base",
+        "region": "safebet_base",
+        "type": "region",
+        "bone": "safebet_base",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 530,
+          "height": 529
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "safebet_shine",
+        "name": "safebet_shine",
+        "region": "safebet_shine",
+        "type": "region",
+        "bone": "safebet_shine",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 41,
+          "height": 41
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "safebet_sparkle1",
+        "name": "safebet_sparkle1",
+        "region": "safebet_sparkle1",
+        "type": "region",
+        "bone": "safebet_sparkle1",
+        "transform": {
+          "x": 0,
+          "y": -1.39,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 45,
+          "height": 57
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "safebet_sparkle2",
+        "name": "safebet_sparkle1",
+        "region": "safebet_sparkle1",
+        "type": "region",
+        "bone": "safebet_sparkle2",
+        "transform": {
+          "x": 0,
+          "y": -1.39,
+          "rotation": 0,
+          "scaleX": 0.5004,
+          "scaleY": 0.5004
+        },
+        "size": {
+          "width": 45,
+          "height": 57
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "safebet_sparkle3",
+        "name": "safebet_sparkle1",
+        "region": "safebet_sparkle1",
+        "type": "region",
+        "bone": "safebet_sparkle3",
+        "transform": {
+          "x": 0,
+          "y": -1.39,
+          "rotation": 0,
+          "scaleX": 1.7667,
+          "scaleY": 1.7667
+        },
+        "size": {
+          "width": 45,
+          "height": 57
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "sparkles",
+        "name": "sparkles_",
+        "region": "sparkles_",
+        "type": "mesh",
+        "bone": "sparkles",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 250,
+          "height": 400
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": {
+          "count": 17,
+          "start": 0,
+          "digits": 1
+        }
+      },
+      {
+        "skin": "default",
+        "slot": "sparkles2",
+        "name": "sparkles_",
+        "region": "sparkles_",
+        "type": "mesh",
+        "bone": "sparkles",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 250,
+          "height": 400
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": {
+          "count": 17,
+          "start": 0,
+          "digits": 1
+        }
+      },
+      {
+        "skin": "default",
+        "slot": "sparkles3",
+        "name": "sparkles_",
+        "region": "sparkles_",
+        "type": "mesh",
+        "bone": "sparkles",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 250,
+          "height": 400
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": {
+          "count": 17,
+          "start": 0,
+          "digits": 1
+        }
+      },
+      {
+        "skin": "default",
+        "slot": "t",
+        "name": "t",
+        "region": "t",
+        "type": "region",
+        "bone": "t",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 0.5,
+          "scaleY": 0.5
+        },
+        "size": {
+          "width": 148,
+          "height": 136
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "_ref",
+        "name": "diamond_",
+        "region": "diamond_",
+        "type": "region",
+        "bone": "_ref",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1.1389,
+          "scaleY": 1.1389
+        },
+        "size": {
+          "width": 400,
+          "height": 300
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": {
+          "count": 17,
+          "start": 0,
+          "digits": 1
+        }
+      },
+      {
+        "skin": "default",
+        "slot": "_ref2",
+        "name": "diamond_",
+        "region": "diamond_",
+        "type": "region",
+        "bone": "_ref",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1.1389,
+          "scaleY": 1.1389
+        },
+        "size": {
+          "width": 400,
+          "height": 300
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": {
+          "count": 17,
+          "start": 0,
+          "digits": 1
+        }
+      }
+    ],
+    "actions": [
+      {
+        "name": "activate",
+        "duration": 1.3333,
+        "keyframes": 142,
+        "curvedKeys": 58,
+        "channels": [
+          {
+            "path": "slots.a.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.b.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.coneglow.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.e.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.e_2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.f.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.pulse.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.pulse.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.pulse2.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.pulse2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.s.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.safebet_base.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.safebet_base2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.safebet_shine.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.safebet_sparkle1.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.safebet_sparkle2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.safebet_sparkle3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.sparkles.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.sparkles.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sparkles2.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.sparkles2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sparkles3.alpha",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.sparkles3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.t.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots._ref.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots._ref2.rgba",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.safebet_master.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.safebet_base.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.safebet_base.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.safebet_shine.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.safebet_sparkle1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.safebet_sparkle2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.safebet_sparkle3.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.s.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.a.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.f.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.e.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.b.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.e_2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.t.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.pulse.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones._ref.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.glow.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.glow.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sparkles.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "attachments.default.sparkles.sparkles_.sequence",
+            "keyframes": 2
+          },
+          {
+            "path": "attachments.default.sparkles2.sparkles_.sequence",
+            "keyframes": 2
+          },
+          {
+            "path": "attachments.default.sparkles3.sparkles_.sequence",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "safebet_master",
+          "safebet_base",
+          "safebet_shine",
+          "safebet_sparkle1",
+          "safebet_sparkle2",
+          "safebet_sparkle3",
+          "s",
+          "a",
+          "f",
+          "e",
+          "b",
+          "e_2",
+          "t",
+          "pulse",
+          "_ref",
+          "glow",
+          "sparkles"
+        ],
+        "animatedSlots": [
+          "a",
+          "b",
+          "coneglow",
+          "e",
+          "e_2",
+          "f",
+          "pulse",
+          "pulse2",
+          "s",
+          "safebet_base",
+          "safebet_base2",
+          "safebet_shine",
+          "safebet_sparkle1",
+          "safebet_sparkle2",
+          "safebet_sparkle3",
+          "sparkles",
+          "sparkles2",
+          "sparkles3",
+          "t",
+          "_ref",
+          "_ref2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "active_idle",
+        "duration": 5.7,
+        "keyframes": 88,
+        "curvedKeys": 62,
+        "channels": [
+          {
+            "path": "slots.safebet_shine.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.safebet_sparkle1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.safebet_sparkle2.rgba",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.safebet_sparkle3.rgba",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.safebet_master.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.safebet_sparkle1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.safebet_sparkle2.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.safebet_sparkle3.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.safebet_shine.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.safebet_shine.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.s.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.a.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.f.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.e.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.b.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.e_2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.t.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.glow.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.safebet_base.scale",
+            "keyframes": 13
+          }
+        ],
+        "animatedBones": [
+          "safebet_master",
+          "safebet_sparkle1",
+          "safebet_sparkle2",
+          "safebet_sparkle3",
+          "safebet_shine",
+          "s",
+          "a",
+          "f",
+          "e",
+          "b",
+          "e_2",
+          "t",
+          "glow",
+          "safebet_base"
+        ],
+        "animatedSlots": [
+          "coneglow",
+          "safebet_shine",
+          "safebet_sparkle1",
+          "safebet_sparkle2",
+          "safebet_sparkle3",
+          "sparkles",
+          "sparkles2",
+          "sparkles3"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "idle",
+        "duration": 10,
+        "keyframes": 139,
+        "curvedKeys": 107,
+        "channels": [
+          {
+            "path": "slots.safebet_shine.rgba",
+            "keyframes": 11
+          },
+          {
+            "path": "slots.safebet_sparkle1.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.safebet_sparkle2.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.safebet_sparkle3.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.safebet_master.scale",
+            "keyframes": 11
+          },
+          {
+            "path": "bones.safebet_sparkle1.scale",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.safebet_sparkle2.scale",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.safebet_sparkle3.scale",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.safebet_shine.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.safebet_shine.scale",
+            "keyframes": 11
+          },
+          {
+            "path": "bones.s.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.a.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.f.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.e.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.b.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.e_2.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.t.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "attachments.default._ref.diamond_.sequence",
+            "keyframes": 2
+          },
+          {
+            "path": "attachments.default._ref2.diamond_.sequence",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "safebet_master",
+          "safebet_sparkle1",
+          "safebet_sparkle2",
+          "safebet_sparkle3",
+          "safebet_shine",
+          "s",
+          "a",
+          "f",
+          "e",
+          "b",
+          "e_2",
+          "t"
+        ],
+        "animatedSlots": [
+          "safebet_shine",
+          "safebet_sparkle1",
+          "safebet_sparkle2",
+          "safebet_sparkle3"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 19,
+      "slots": 25,
+      "attachments": 22,
+      "meshAttachments": 4,
+      "meshUvPairs": 31,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "a",
+      "file": "pieces/a-fbd9cfb4.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "2,2,94,98",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "b",
+      "file": "pieces/b-7328058c.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1664,17,106,119",
+        "offsets": "0,0,110,119",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cone",
+      "file": "pieces/cone-240a5de9.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "142,15,171,174"
+      }
+    },
+    {
+      "region": "diamond_0",
+      "file": "pieces/diamond-0-8d588736.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1397,502,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_1",
+      "file": "pieces/diamond-1-cebeff1d.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1118,502,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_10",
+      "file": "pieces/diamond-10-36228f09.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "839,502,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_11",
+      "file": "pieces/diamond-11-d7f0d18c.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "560,502,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_12",
+      "file": "pieces/diamond-12-4aa16615.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "281,525,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_13",
+      "file": "pieces/diamond-13-b56887e3.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "2,556,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_14",
+      "file": "pieces/diamond-14-e8c36c51.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1821,621,277,197",
+        "offsets": "22,31,320,240",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "diamond_15",
+      "file": "pieces/diamond-15-c194d692.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1542,701,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_16",
+      "file": "pieces/diamond-16-03ba17d5.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1263,701,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_2",
+      "file": "pieces/diamond-2-9de5c13d.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "984,701,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_3",
+      "file": "pieces/diamond-3-d10d22e7.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "705,701,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_4",
+      "file": "pieces/diamond-4-b72b7fb5.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "426,724,277,197",
+        "offsets": "22,31,320,240"
+      }
+    },
+    {
+      "region": "diamond_5",
+      "file": "pieces/diamond-5-a916b521.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1705,900,277,197",
+        "offsets": "22,31,320,240",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "diamond_6",
+      "file": "pieces/diamond-6-a79bf82c.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1506,900,277,197",
+        "offsets": "22,31,320,240",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "diamond_7",
+      "file": "pieces/diamond-7-66ec7cd6.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1307,900,277,197",
+        "offsets": "22,31,320,240",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "diamond_8",
+      "file": "pieces/diamond-8-18f7ab4c.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1108,900,277,197",
+        "offsets": "22,31,320,240",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "diamond_9",
+      "file": "pieces/diamond-9-a530dd52.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "909,900,277,197",
+        "offsets": "22,31,320,240",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "e",
+      "file": "pieces/e-952932c2.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1303,8,82,110",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "e_2",
+      "file": "pieces/e-2-40d7ce5c.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "572,19,98,122",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "f",
+      "file": "pieces/f-fcc9250a.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1904,1056,124,121"
+      }
+    },
+    {
+      "region": "glow",
+      "file": "pieces/glow-a9fd71a6.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "426,923,254,243",
+        "offsets": "1,2,256,246",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "pulse",
+      "file": "pieces/pulse-213eb167.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "671,941,236,236",
+        "offsets": "1,3,240,240"
+      }
+    },
+    {
+      "region": "s",
+      "file": "pieces/s-1e20bd5a.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "2,98,146,150"
+      }
+    },
+    {
+      "region": "safebet_base",
+      "file": "pieces/safebet-base-552efdaa.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "2,755,422,422",
+        "offsets": "1,0,424,423"
+      }
+    },
+    {
+      "region": "safebet_shine",
+      "file": "pieces/safebet-shine-d361140c.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1904,912,30,31",
+        "offsets": "2,1,33,33"
+      }
+    },
+    {
+      "region": "safebet_sparkle1",
+      "file": "pieces/safebet-sparkle1-b7467521.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1676,653,36,46"
+      }
+    },
+    {
+      "region": "sparkles_0",
+      "file": "pieces/sparkles-0-41ac54ba.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "981,19,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_1",
+      "file": "pieces/sparkles-1-499d761f.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1342,34,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_10",
+      "file": "pieces/sparkles-10-2607aba0.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "625,60,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_11",
+      "file": "pieces/sparkles-11-f5d974a8.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1726,62,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_12",
+      "file": "pieces/sparkles-12-f090ac3c.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "250,71,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_13",
+      "file": "pieces/sparkles-13-a6a55e9f.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1239,160,200,320",
+        "rotate": "270"
+      }
+    },
+    {
+      "region": "sparkles_14",
+      "file": "pieces/sparkles-14-f6015af8.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "917,160,200,320",
+        "rotate": "270"
+      }
+    },
+    {
+      "region": "sparkles_15",
+      "file": "pieces/sparkles-15-77074204.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1598,179,200,320",
+        "rotate": "270"
+      }
+    },
+    {
+      "region": "sparkles_16",
+      "file": "pieces/sparkles-16-3703a6b2.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "528,189,200,320",
+        "rotate": "270"
+      }
+    },
+    {
+      "region": "sparkles_2",
+      "file": "pieces/sparkles-2-ca541c4e.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "46,206,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_3",
+      "file": "pieces/sparkles-3-d9aa3890.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1726,286,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_4",
+      "file": "pieces/sparkles-4-c0b60c28.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1290,300,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_5",
+      "file": "pieces/sparkles-5-5f7a57e3.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "968,300,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_6",
+      "file": "pieces/sparkles-6-b813c85b.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "646,300,200,320",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "sparkles_7",
+      "file": "pieces/sparkles-7-52360759.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "324,323,200,320",
+        "rotate": "270"
+      }
+    },
+    {
+      "region": "sparkles_8",
+      "file": "pieces/sparkles-8-09ff0e65.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "2,354,200,320",
+        "rotate": "270"
+      }
+    },
+    {
+      "region": "sparkles_9",
+      "file": "pieces/sparkles-9-fc098010.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1676,433,200,320",
+        "rotate": "270"
+      }
+    },
+    {
+      "region": "t",
+      "file": "pieces/t-6a56f3ca.png",
+      "page": "safe_bet.webp",
+      "properties": {
+        "bounds": "1904,945,118,109"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

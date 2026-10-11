@@ -1,0 +1,161 @@
+{
+  "id": "odin-s-vault-animations-misc-05debefd-2f2da3b2",
+  "collection": "library",
+  "name": "misc",
+  "machine": "odin-s-vault",
+  "format": "spritesheet",
+  "version": null,
+  "packagePath": "bibliotheque/odin-s-vault/animations/misc-05debefd",
+  "skeleton": "spritesheet.json",
+  "complete": false,
+  "warnings": [
+    "Frame logo.png : extract_area: bad extract area",
+    "Frame max_win.png : extract_area: bad extract area"
+  ],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": null,
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 2039912,
+    "rgbaBytesEstimate": 8159648,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 5,
+  "actions": [
+    {
+      "name": "intro",
+      "tags": [
+        "transition"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-misc-05debefd-2f2da3b2/analysis.json",
+  "exactActionVisibility": false,
+  "rig": null,
+  "atlasRegions": [
+    {
+      "region": "intro1.png",
+      "file": "pieces/intro1-png-89f1a62f.png",
+      "properties": {
+        "frame": {
+          "x": 1,
+          "y": 1,
+          "w": 848,
+          "h": 852
+        },
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {
+          "x": 6,
+          "y": 4,
+          "w": 848,
+          "h": 852
+        },
+        "sourceSize": {
+          "w": 860,
+          "h": 856
+        }
+      }
+    },
+    {
+      "region": "intro2.png",
+      "file": "pieces/intro2-png-358589de.png",
+      "properties": {
+        "frame": {
+          "x": 851,
+          "y": 1,
+          "w": 848,
+          "h": 852
+        },
+        "rotated": false,
+        "trimmed": true,
+        "spriteSourceSize": {
+          "x": 6,
+          "y": 4,
+          "w": 848,
+          "h": 852
+        },
+        "sourceSize": {
+          "w": 860,
+          "h": 856
+        }
+      }
+    },
+    {
+      "region": "loadingbar.png",
+      "file": "pieces/loadingbar-png-0a08ef9e.png",
+      "properties": {
+        "frame": {
+          "x": 908,
+          "y": 949,
+          "w": 576,
+          "h": 48
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 576,
+          "h": 48
+        },
+        "sourceSize": {
+          "w": 576,
+          "h": 48
+        }
+      }
+    },
+    {
+      "region": "loadingbar_bg.png",
+      "file": "pieces/loadingbar-bg-png-b2620837.png",
+      "properties": {
+        "frame": {
+          "x": 908,
+          "y": 855,
+          "w": 620,
+          "h": 92
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 620,
+          "h": 92
+        },
+        "sourceSize": {
+          "w": 620,
+          "h": 92
+        }
+      }
+    },
+    {
+      "region": "press_to_continue.png",
+      "file": "pieces/press-to-continue-png-a178778f.png",
+      "properties": {
+        "frame": {
+          "x": 1,
+          "y": 855,
+          "w": 905,
+          "h": 120
+        },
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0,
+          "w": 905,
+          "h": 120
+        },
+        "sourceSize": {
+          "w": 905,
+          "h": 120
+        }
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

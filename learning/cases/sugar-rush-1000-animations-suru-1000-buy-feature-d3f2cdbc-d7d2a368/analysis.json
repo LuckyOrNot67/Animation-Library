@@ -1,0 +1,570 @@
+{
+  "id": "sugar-rush-1000-animations-suru-1000-buy-feature-d3f2cdbc-d7d2a368",
+  "collection": "library",
+  "name": "suru_1000_buy_feature",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-1000-buy-feature-d3f2cdbc",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 2,
+    "slots": 9,
+    "attachments": 2,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 21120,
+    "rgbaBytesEstimate": 84480,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 1,
+  "actions": [
+    {
+      "name": "suru_1000_buy_feature_big_in",
+      "duration": 0,
+      "keyframes": 2,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "slots.red_base_small.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.red_base_small2.attachment",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [],
+      "animatedSlots": [
+        "red_base_small",
+        "red_base_small2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "suru_1000_buy_feature_big_loop",
+      "duration": 2,
+      "keyframes": 3,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "slots.red_base_small.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.red_base_small2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.small_super_buy_click.scale",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "small_super_buy_click"
+      ],
+      "animatedSlots": [
+        "red_base_small",
+        "red_base_small2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "suru_1000_buy_feature_big_right_click_out",
+      "duration": 1,
+      "keyframes": 3,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "slots.red_base_small.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.red_base_small2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.small_super_buy_click.scale",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "small_super_buy_click"
+      ],
+      "animatedSlots": [
+        "red_base_small",
+        "red_base_small2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "suru_1000_buy_feature_big_wrong_click_out",
+      "duration": 1,
+      "keyframes": 3,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "slots.red_base_small.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.red_base_small2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.small_super_buy_click.scale",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "small_super_buy_click"
+      ],
+      "animatedSlots": [
+        "red_base_small",
+        "red_base_small2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "suru_1000_buy_feature_small_click",
+      "duration": 0.3667,
+      "keyframes": 7,
+      "curvedKeys": 5,
+      "channels": [
+        {
+          "path": "slots.red_base_small2.color",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.small_super_buy_click.scale",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "small_super_buy_click"
+      ],
+      "animatedSlots": [
+        "red_base_small2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "suru_1000_buy_feature_small_loop",
+      "duration": 1,
+      "keyframes": 6,
+      "curvedKeys": 4,
+      "channels": [
+        {
+          "path": "slots.red_base_small2.color",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.small_super_buy_click.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "small_super_buy_click"
+      ],
+      "animatedSlots": [
+        "red_base_small2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-1000-buy-feature-d3f2cdbc-d7d2a368/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "small_super_buy_click",
+        "parent": "root",
+        "x": -756.28,
+        "y": 329.15,
+        "length": 121.29,
+        "rotation": -0.7,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "sugar",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "green_base_small",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "buy_text_small_2",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "super_text_small",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "spins_text_small_2",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "red_base_small",
+        "bone": "root",
+        "setupAttachment": "red_base_small",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "red_base_small2",
+        "bone": "root",
+        "setupAttachment": "red_base_small",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "spins_text_small",
+        "bone": "small_super_buy_click",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "buy_text_small",
+        "bone": "small_super_buy_click",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "red_base_small",
+        "name": "red_base_small",
+        "region": "red_base_small",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -752,
+          "y": 328,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 188,
+          "height": 106
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "red_base_small2",
+        "name": "red_base_small",
+        "region": "red_base_small",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -752,
+          "y": 328,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 188,
+          "height": 106
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "suru_1000_buy_feature_big_in",
+        "duration": 0,
+        "keyframes": 2,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "slots.red_base_small.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.red_base_small2.attachment",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [],
+        "animatedSlots": [
+          "red_base_small",
+          "red_base_small2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "suru_1000_buy_feature_big_loop",
+        "duration": 2,
+        "keyframes": 3,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "slots.red_base_small.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.red_base_small2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.small_super_buy_click.scale",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "small_super_buy_click"
+        ],
+        "animatedSlots": [
+          "red_base_small",
+          "red_base_small2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "suru_1000_buy_feature_big_right_click_out",
+        "duration": 1,
+        "keyframes": 3,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "slots.red_base_small.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.red_base_small2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.small_super_buy_click.scale",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "small_super_buy_click"
+        ],
+        "animatedSlots": [
+          "red_base_small",
+          "red_base_small2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "suru_1000_buy_feature_big_wrong_click_out",
+        "duration": 1,
+        "keyframes": 3,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "slots.red_base_small.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.red_base_small2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.small_super_buy_click.scale",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "small_super_buy_click"
+        ],
+        "animatedSlots": [
+          "red_base_small",
+          "red_base_small2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "suru_1000_buy_feature_small_click",
+        "duration": 0.3667,
+        "keyframes": 7,
+        "curvedKeys": 5,
+        "channels": [
+          {
+            "path": "slots.red_base_small2.color",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.small_super_buy_click.scale",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "small_super_buy_click"
+        ],
+        "animatedSlots": [
+          "red_base_small2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "suru_1000_buy_feature_small_loop",
+        "duration": 1,
+        "keyframes": 6,
+        "curvedKeys": 4,
+        "channels": [
+          {
+            "path": "slots.red_base_small2.color",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.small_super_buy_click.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "small_super_buy_click"
+        ],
+        "animatedSlots": [
+          "red_base_small2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 2,
+      "slots": 9,
+      "attachments": 2,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "red_base_small",
+      "file": "pieces/red-base-small-62fde966.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 2",
+        "size": "188, 106",
+        "orig": "188, 106",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

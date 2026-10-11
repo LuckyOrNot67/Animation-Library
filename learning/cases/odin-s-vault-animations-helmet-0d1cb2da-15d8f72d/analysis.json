@@ -1,0 +1,2144 @@
+{
+  "id": "odin-s-vault-animations-helmet-0d1cb2da-15d8f72d",
+  "collection": "library",
+  "name": "helmet",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/helmet-0d1cb2da",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 15,
+    "slots": 22,
+    "attachments": 22,
+    "meshAttachments": 15,
+    "meshUvPairs": 178,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 815835,
+    "rgbaBytesEstimate": 3263340,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 70,
+  "actions": [
+    {
+      "name": "transform",
+      "duration": 0.7,
+      "keyframes": 97,
+      "curvedKeys": 50,
+      "channels": [
+        {
+          "path": "slots.BG_Helmet.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.BG_Helmet2.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Frame_Helmet.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Frame_Helmet2.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Helmet.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.helmet_red.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.helmet_red.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Red_Glow_2_1_1.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Red_Glow_2_1_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Red_Glow_2_1_2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Red_Glow_2_1_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Red_Glow_2_2_1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Red_Glow_2_2_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Red_Glow_2_2_2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Red_Glow_2_2_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Red_Glow_2_3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Red_Glow_2_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Red_Glow_3_4.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Red_Glow_3_4.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Red_Glow_4_4.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Red_Glow_4_4.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Shadow_1_Helmet.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Sparks_Red_1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_Red_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Sparks_Red_2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Sparks_Red_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Sparks_Red_3_2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Sparks_Red_3_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Sparks_Red_4_2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Sparks_Red_4_2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Sparks_Red_6.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Sparks_Red_6.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.Sparks_Red_7.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Sparks_Red_7.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.Red_Glow_2_2_1.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Red_Glow_2_1_1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Red_Glow_2_3.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Sparks_Red_1.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Red_Glow_2_4.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Red_Glow_2_5.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Helmet.scale",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "Red_Glow_2_2_1",
+        "Red_Glow_2_1_1",
+        "Red_Glow_2_3",
+        "Sparks_Red_1",
+        "Red_Glow_2_4",
+        "Red_Glow_2_5",
+        "Helmet"
+      ],
+      "animatedSlots": [
+        "BG_Helmet",
+        "BG_Helmet2",
+        "Frame_Helmet",
+        "Frame_Helmet2",
+        "Helmet",
+        "helmet_red",
+        "Red_Glow_2_1_1",
+        "Red_Glow_2_1_2",
+        "Red_Glow_2_2_1",
+        "Red_Glow_2_2_2",
+        "Red_Glow_2_3",
+        "Red_Glow_3_4",
+        "Red_Glow_4_4",
+        "Shadow_1_Helmet",
+        "Sparks_Red_1",
+        "Sparks_Red_2",
+        "Sparks_Red_3_2",
+        "Sparks_Red_4_2",
+        "Sparks_Red_6",
+        "Sparks_Red_7"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "win",
+      "duration": 0.8333,
+      "keyframes": 46,
+      "curvedKeys": 21,
+      "channels": [
+        {
+          "path": "slots.BG_Helmet2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Frame_Helmet2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Helmet2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.high_effects_3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Shadow_1_Helmet.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Helmet.translatey",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Helmet.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Helmet_body3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Helmet_body3.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Helmet_3d7.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.shine4.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.shine4.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "attachments.default.high_effects_3.high_effects_3.sequence",
+          "keyframes": 1
+        },
+        {
+          "path": "drawOrder",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "Helmet",
+        "Helmet_body3",
+        "Helmet_3d7",
+        "shine4"
+      ],
+      "animatedSlots": [
+        "BG_Helmet2",
+        "Frame_Helmet2",
+        "Helmet2",
+        "high_effects_3",
+        "Red_Glow_2_1_1",
+        "Red_Glow_2_1_2",
+        "Red_Glow_2_2_1",
+        "Red_Glow_2_2_2",
+        "Red_Glow_2_3",
+        "Red_Glow_3_4",
+        "Red_Glow_4_4",
+        "Shadow_1_Helmet",
+        "Sparks_Red_1",
+        "Sparks_Red_2",
+        "Sparks_Red_3_2",
+        "Sparks_Red_4_2",
+        "Sparks_Red_6",
+        "Sparks_Red_7"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": true,
+      "events": [],
+      "tags": [
+        "win"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-helmet-0d1cb2da-15d8f72d/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mine",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Helmet",
+        "parent": "mine",
+        "x": 0,
+        "y": 1.91,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "frame4",
+        "parent": "Helmet",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Helmet_body3",
+        "parent": "Helmet",
+        "x": 4.15,
+        "y": -24.71,
+        "length": 0,
+        "rotation": 115.85,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Helmet_3d7",
+        "parent": "Helmet",
+        "x": -0.39,
+        "y": 20.14,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Helmet_3d8",
+        "parent": "Helmet",
+        "x": -0.39,
+        "y": 20.14,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "shine4",
+        "parent": "Helmet",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "main_transform",
+        "parent": "mine",
+        "x": 2.06,
+        "y": 4.99,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Red_Glow_2_1_1",
+        "parent": "main_transform",
+        "x": 1.56,
+        "y": 1.35,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.2,
+        "scaleY": 1.2
+      },
+      {
+        "name": "Red_Glow_2_2_1",
+        "parent": "main_transform",
+        "x": 2.06,
+        "y": -0.15,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.2,
+        "scaleY": 1.2
+      },
+      {
+        "name": "Red_Glow_2_3",
+        "parent": "main_transform",
+        "x": -1.44,
+        "y": 5.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Sparks_Red_1",
+        "parent": "main_transform",
+        "x": -4.44,
+        "y": -2.65,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Red_Glow_2_4",
+        "parent": "main_transform",
+        "x": -1.44,
+        "y": 5.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Red_Glow_2_5",
+        "parent": "main_transform",
+        "x": -1.44,
+        "y": 5.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "BG_Helmet",
+        "bone": "Helmet",
+        "setupAttachment": "BG_Helmet",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "BG_Helmet2",
+        "bone": "Helmet",
+        "setupAttachment": "BG_Helmet",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Frame_Helmet",
+        "bone": "Helmet",
+        "setupAttachment": "frame_metal",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Frame_Helmet2",
+        "bone": "Helmet",
+        "setupAttachment": "frame_metal",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Shadow_1_Helmet",
+        "bone": "Helmet",
+        "setupAttachment": "Shadow_1_Helmet",
+        "blend": "multiply",
+        "color": "ffffffff"
+      },
+      {
+        "name": "high_effects_3",
+        "bone": "shine4",
+        "setupAttachment": "high_effects_3",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Helmet",
+        "bone": "Helmet_body3",
+        "setupAttachment": "Helmet",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Helmet2",
+        "bone": "Helmet_body3",
+        "setupAttachment": "Helmet",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "helmet_red",
+        "bone": "Helmet",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Red_Glow_2_2_1",
+        "bone": "Red_Glow_2_2_1",
+        "setupAttachment": "Red_Glow_2_2_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Red_Glow_2_2_2",
+        "bone": "Red_Glow_2_2_1",
+        "setupAttachment": "Red_Glow_2_2_1",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Red_Glow_2_1_1",
+        "bone": "Red_Glow_2_1_1",
+        "setupAttachment": "Red_Glow_2_1_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Red_Glow_2_1_2",
+        "bone": "Red_Glow_2_1_1",
+        "setupAttachment": "Red_Glow_2_1_1",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Red_Glow_2_3",
+        "bone": "Red_Glow_2_3",
+        "setupAttachment": "Red_Glow_2_3",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Sparks_Red_1",
+        "bone": "Sparks_Red_1",
+        "setupAttachment": "Sparks_Red_1",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Sparks_Red_2",
+        "bone": "Sparks_Red_1",
+        "setupAttachment": "Sparks_Red_2",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Sparks_Red_3_2",
+        "bone": "Sparks_Red_1",
+        "setupAttachment": "Sparks_Red_3_2",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Sparks_Red_4_2",
+        "bone": "Sparks_Red_1",
+        "setupAttachment": "Sparks_Red_4_2",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Sparks_Red_6",
+        "bone": "Sparks_Red_1",
+        "setupAttachment": "Sparks_Red_6",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Sparks_Red_7",
+        "bone": "Sparks_Red_1",
+        "setupAttachment": "Sparks_Red_7",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Red_Glow_3_4",
+        "bone": "Red_Glow_2_4",
+        "setupAttachment": "Red_Glow_3_3",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Red_Glow_4_4",
+        "bone": "Red_Glow_2_5",
+        "setupAttachment": "Red_Glow_4_3",
+        "blend": "additive",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "BG_Helmet",
+        "name": "BG_Helmet",
+        "region": "BG_Helmet",
+        "type": "region",
+        "bone": "Helmet",
+        "transform": {
+          "x": -1.65,
+          "y": -5.66,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 108,
+          "height": 109
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "BG_Helmet2",
+        "name": "BG_Helmet",
+        "region": "BG_Helmet",
+        "type": "region",
+        "bone": "Helmet",
+        "transform": {
+          "x": -1.65,
+          "y": -5.66,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 108,
+          "height": 109
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Frame_Helmet",
+        "name": "frame_metal",
+        "region": "frame_metal",
+        "type": "region",
+        "bone": "Helmet",
+        "transform": {
+          "x": -1.15,
+          "y": -5.16,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 126,
+          "height": 120
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Frame_Helmet2",
+        "name": "frame_metal",
+        "region": "frame_metal",
+        "type": "region",
+        "bone": "Helmet",
+        "transform": {
+          "x": -1.15,
+          "y": -5.16,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 126,
+          "height": 120
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Helmet",
+        "name": "Helmet",
+        "region": "Helmet",
+        "type": "mesh",
+        "bone": "Helmet_body3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 121,
+          "height": 132
+        },
+        "mesh": {
+          "uvPairs": 64,
+          "vertexNumbers": 608,
+          "triangles": 93,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Helmet2",
+        "name": "Helmet",
+        "region": "Helmet",
+        "type": "mesh",
+        "bone": "Helmet_body3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 121,
+          "height": 132
+        },
+        "mesh": {
+          "uvPairs": 62,
+          "vertexNumbers": 586,
+          "triangles": 90,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "helmet_red",
+        "name": "helmet_red",
+        "region": "helmet_red",
+        "type": "region",
+        "bone": "Helmet",
+        "transform": {
+          "x": -2.1,
+          "y": -1.33,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 129,
+          "height": 131
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "high_effects_3",
+        "name": "high_effects_3",
+        "region": "high_effects_",
+        "type": "region",
+        "bone": "shine4",
+        "transform": {
+          "x": -21.44,
+          "y": -1.26,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 105,
+          "height": 116
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": {
+          "count": 3
+        }
+      },
+      {
+        "skin": "default",
+        "slot": "Red_Glow_2_1_1",
+        "name": "Red_Glow_2_1_1",
+        "region": "Red_Glow_2_1_1",
+        "type": "mesh",
+        "bone": "Red_Glow_2_1_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 83,
+          "height": 83
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Red_Glow_2_1_2",
+        "name": "Red_Glow_2_1_1",
+        "region": "Red_Glow_2_1_1",
+        "type": "mesh",
+        "bone": "Red_Glow_2_1_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 83,
+          "height": 83
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Red_Glow_2_2_1",
+        "name": "Red_Glow_2_2_1",
+        "region": "Red_Glow_2_2_1",
+        "type": "mesh",
+        "bone": "Red_Glow_2_2_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 114,
+          "height": 114
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Red_Glow_2_2_2",
+        "name": "Red_Glow_2_2_1",
+        "region": "Red_Glow_2_2_1",
+        "type": "mesh",
+        "bone": "Red_Glow_2_2_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 114,
+          "height": 114
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Red_Glow_2_3",
+        "name": "Red_Glow_2_3",
+        "region": "Red_Glow_2_3",
+        "type": "mesh",
+        "bone": "Red_Glow_2_3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 169,
+          "height": 192
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Red_Glow_3_4",
+        "name": "Red_Glow_3_3",
+        "region": "Red_Glow_3_3",
+        "type": "mesh",
+        "bone": "Red_Glow_2_4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 252,
+          "height": 255
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Red_Glow_4_4",
+        "name": "Red_Glow_4_3",
+        "region": "Red_Glow_4_3",
+        "type": "mesh",
+        "bone": "Red_Glow_2_5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 289,
+          "height": 270
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Shadow_1_Helmet",
+        "name": "Shadow_1_Helmet",
+        "region": "Shadow_1_Helmet",
+        "type": "region",
+        "bone": "Helmet",
+        "transform": {
+          "x": -3.65,
+          "y": -4.16,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 122,
+          "height": 118
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_Red_1",
+        "name": "Sparks_Red_1",
+        "region": "Sparks_Red_1",
+        "type": "mesh",
+        "bone": "Sparks_Red_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 77,
+          "height": 79
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_Red_2",
+        "name": "Sparks_Red_2",
+        "region": "Sparks_Red_2",
+        "type": "mesh",
+        "bone": "Sparks_Red_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 143,
+          "height": 133
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_Red_3_2",
+        "name": "Sparks_Red_3_2",
+        "region": "Sparks_Red_3_2",
+        "type": "mesh",
+        "bone": "Sparks_Red_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 160,
+          "height": 154
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_Red_4_2",
+        "name": "Sparks_Red_4_2",
+        "region": "Sparks_Red_4_2",
+        "type": "mesh",
+        "bone": "Sparks_Red_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 148,
+          "height": 138
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_Red_6",
+        "name": "Sparks_Red_6",
+        "region": "Sparks_Red_6",
+        "type": "mesh",
+        "bone": "Sparks_Red_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 149,
+          "height": 135
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_Red_7",
+        "name": "Sparks_Red_7",
+        "region": "Sparks_Red_7",
+        "type": "mesh",
+        "bone": "Sparks_Red_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 160,
+          "height": 151
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "transform",
+        "duration": 0.7,
+        "keyframes": 97,
+        "curvedKeys": 50,
+        "channels": [
+          {
+            "path": "slots.BG_Helmet.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.BG_Helmet2.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Frame_Helmet.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Frame_Helmet2.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Helmet.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.helmet_red.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.helmet_red.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Red_Glow_2_1_1.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Red_Glow_2_1_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Red_Glow_2_1_2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Red_Glow_2_1_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Red_Glow_2_2_1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Red_Glow_2_2_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Red_Glow_2_2_2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Red_Glow_2_2_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Red_Glow_2_3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Red_Glow_2_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Red_Glow_3_4.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Red_Glow_3_4.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Red_Glow_4_4.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Red_Glow_4_4.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Shadow_1_Helmet.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Sparks_Red_1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_Red_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Sparks_Red_2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Sparks_Red_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Sparks_Red_3_2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Sparks_Red_3_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Sparks_Red_4_2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Sparks_Red_4_2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Sparks_Red_6.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Sparks_Red_6.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.Sparks_Red_7.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Sparks_Red_7.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.Red_Glow_2_2_1.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Red_Glow_2_1_1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Red_Glow_2_3.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Sparks_Red_1.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Red_Glow_2_4.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Red_Glow_2_5.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Helmet.scale",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "Red_Glow_2_2_1",
+          "Red_Glow_2_1_1",
+          "Red_Glow_2_3",
+          "Sparks_Red_1",
+          "Red_Glow_2_4",
+          "Red_Glow_2_5",
+          "Helmet"
+        ],
+        "animatedSlots": [
+          "BG_Helmet",
+          "BG_Helmet2",
+          "Frame_Helmet",
+          "Frame_Helmet2",
+          "Helmet",
+          "helmet_red",
+          "Red_Glow_2_1_1",
+          "Red_Glow_2_1_2",
+          "Red_Glow_2_2_1",
+          "Red_Glow_2_2_2",
+          "Red_Glow_2_3",
+          "Red_Glow_3_4",
+          "Red_Glow_4_4",
+          "Shadow_1_Helmet",
+          "Sparks_Red_1",
+          "Sparks_Red_2",
+          "Sparks_Red_3_2",
+          "Sparks_Red_4_2",
+          "Sparks_Red_6",
+          "Sparks_Red_7"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "win",
+        "duration": 0.8333,
+        "keyframes": 46,
+        "curvedKeys": 21,
+        "channels": [
+          {
+            "path": "slots.BG_Helmet2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Frame_Helmet2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Helmet2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.high_effects_3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Shadow_1_Helmet.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Helmet.translatey",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Helmet.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Helmet_body3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Helmet_body3.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Helmet_3d7.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.shine4.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.shine4.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "attachments.default.high_effects_3.high_effects_3.sequence",
+            "keyframes": 1
+          },
+          {
+            "path": "drawOrder",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "Helmet",
+          "Helmet_body3",
+          "Helmet_3d7",
+          "shine4"
+        ],
+        "animatedSlots": [
+          "BG_Helmet2",
+          "Frame_Helmet2",
+          "Helmet2",
+          "high_effects_3",
+          "Red_Glow_2_1_1",
+          "Red_Glow_2_1_2",
+          "Red_Glow_2_2_1",
+          "Red_Glow_2_2_2",
+          "Red_Glow_2_3",
+          "Red_Glow_3_4",
+          "Red_Glow_4_4",
+          "Shadow_1_Helmet",
+          "Sparks_Red_1",
+          "Sparks_Red_2",
+          "Sparks_Red_3_2",
+          "Sparks_Red_4_2",
+          "Sparks_Red_6",
+          "Sparks_Red_7"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": true,
+        "events": [],
+        "tags": [
+          "win"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 15,
+      "slots": 22,
+      "attachments": 22,
+      "meshAttachments": 15,
+      "meshUvPairs": 178,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "Axe_Axe",
+      "file": "pieces/axe-axe-504eebe2.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "788,118,135,110",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Axe_Axe2",
+      "file": "pieces/axe-axe2-110f395a.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "153,2,135,125",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "BG_Axe",
+      "file": "pieces/bg-axe-ced7b130.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "687,115,100,99",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "BG_Fang",
+      "file": "pieces/bg-fang-cc837cfa.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1337,111,116,104"
+      }
+    },
+    {
+      "region": "BG_Helmet",
+      "file": "pieces/bg-helmet-a7b51ac2.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1138,2,106,107",
+        "offsets": "1,1,108,109"
+      }
+    },
+    {
+      "region": "BG_Horse",
+      "file": "pieces/bg-horse-f65aa59d.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1246,2,107,106",
+        "offsets": "1,1,109,108",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "BG_Raven",
+      "file": "pieces/bg-raven-e87aa608.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1024,2,112,107"
+      }
+    },
+    {
+      "region": "Beack_Top_Raven",
+      "file": "pieces/beack-top-raven-0ba03837.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1906,88,51,32"
+      }
+    },
+    {
+      "region": "Body_Raven",
+      "file": "pieces/body-raven-896b84e6.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1601,105,97,63"
+      }
+    },
+    {
+      "region": "Bottom_Jaw_Back_Raven",
+      "file": "pieces/bottom-jaw-back-raven-5e9b61fc.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "718,217,39,36"
+      }
+    },
+    {
+      "region": "Bottom_Jaw_Front_Raven",
+      "file": "pieces/bottom-jaw-front-raven-3f14c612.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1804,4,41,42",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Bottom_Jaw_closed_Raven",
+      "file": "pieces/bottom-jaw-closed-raven-3ff808a1.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1899,4,45,49"
+      }
+    },
+    {
+      "region": "Closed_eye_Horse",
+      "file": "pieces/closed-eye-horse-779ba8ff.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1681,88,17,15"
+      }
+    },
+    {
+      "region": "Ear_Horse",
+      "file": "pieces/ear-horse-88971781.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1024,111,19,21"
+      }
+    },
+    {
+      "region": "Eye_closed_Raven",
+      "file": "pieces/eye-closed-raven-1df91739.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1957,147,26,14"
+      }
+    },
+    {
+      "region": "Frame_Fix_1_Raven",
+      "file": "pieces/frame-fix-1-raven-ae1596b2.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1337,217,127,61"
+      }
+    },
+    {
+      "region": "Frame_Fix_2_Raven",
+      "file": "pieces/frame-fix-2-raven-2ef5b113.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1546,125,67,53",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Frame_fix_Horse",
+      "file": "pieces/frame-fix-horse-80921024.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1855,160,126,46",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Hair_1_Horse",
+      "file": "pieces/hair-1-horse-fb1be652.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1455,120,72,89",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Hair_2_Horse",
+      "file": "pieces/hair-2-horse-bd4a0683.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "759,222,22,31"
+      }
+    },
+    {
+      "region": "Hair_3_Horse",
+      "file": "pieces/hair-3-horse-2f6bcf5b.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1804,47,56,45",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Hair_4_Horse",
+      "file": "pieces/hair-4-horse-b360924f.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1249,111,52,24"
+      }
+    },
+    {
+      "region": "Hair_5_Horse",
+      "file": "pieces/hair-5-horse-b290010d.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "407,4,41,25"
+      }
+    },
+    {
+      "region": "Hair_Back_1_Horse",
+      "file": "pieces/hair-back-1-horse-0b184220.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1957,163,26,17"
+      }
+    },
+    {
+      "region": "Hair_Back_2_Horse",
+      "file": "pieces/hair-back-2-horse-8ed91dc1.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1943,55,33,31"
+      }
+    },
+    {
+      "region": "Hair_Back_Horse",
+      "file": "pieces/hair-back-horse-069c239c.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1847,106,52,57",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Hair_Shadow_1_Horse",
+      "file": "pieces/hair-shadow-1-horse-60e965fe.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1946,14,39,33",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Hair_Shadow_2_Horse",
+      "file": "pieces/hair-shadow-2-horse-51fa4f2d.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1195,116,32,52",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Hair_Shadow_3_Horse",
+      "file": "pieces/hair-shadow-3-horse-a88cd9a2.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1145,111,37,48",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Head_Horse",
+      "file": "pieces/head-horse-55026514.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1260,137,57,60",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Head_Raven",
+      "file": "pieces/head-raven-82641e16.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1260,196,78,75",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Helmet",
+      "file": "pieces/helmet-aedda4b9.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1746,288,121,132",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Neck_Horse",
+      "file": "pieces/neck-horse-2210a27b.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1903,182,76,105"
+      }
+    },
+    {
+      "region": "Neck_Raven",
+      "file": "pieces/neck-raven-e68850d9.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1589,20,90,83"
+      }
+    },
+    {
+      "region": "Red_Glow_2_1_1",
+      "file": "pieces/red-glow-2-1-1-1668d101.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1700,82,83,83"
+      }
+    },
+    {
+      "region": "Red_Glow_2_2_1",
+      "file": "pieces/red-glow-2-2-1-50624abd.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "788,2,114,114"
+      }
+    },
+    {
+      "region": "Red_Glow_2_3",
+      "file": "pieces/red-glow-2-3-0795632a.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "547,217,169,192"
+      }
+    },
+    {
+      "region": "Red_Glow_3_3",
+      "file": "pieces/red-glow-3-3-66a12c30.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "293,154,252,255"
+      }
+    },
+    {
+      "region": "Red_Glow_4_3",
+      "file": "pieces/red-glow-4-3-a9f55578.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "2,139,289,270"
+      }
+    },
+    {
+      "region": "Shadow_1_Axe",
+      "file": "pieces/shadow-1-axe-ca30b8ae.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1145,150,119,113",
+        "offsets": "3,1,124,115",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_1_Fang",
+      "file": "pieces/shadow-1-fang-4f1dc804.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1880,289,120,101",
+        "offsets": "2,16,124,118",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_1_Helmet",
+      "file": "pieces/shadow-1-helmet-f4e6c1af.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1027,136,120,116",
+        "offsets": "1,1,122,118",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_1_Horse",
+      "file": "pieces/shadow-1-horse-56b8dcae.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "656,2,116,111",
+        "offsets": "1,1,118,114"
+      }
+    },
+    {
+      "region": "Shadow_1_Raven",
+      "file": "pieces/shadow-1-raven-acc03c5b.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1472,2,116,115",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_2_Axe",
+      "file": "pieces/shadow-2-axe-8c5eaecd.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "536,2,118,111",
+        "offsets": "1,1,120,113"
+      }
+    },
+    {
+      "region": "Shadow_Fix_1_Raven",
+      "file": "pieces/shadow-fix-1-raven-ad1a43da.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1906,122,49,58"
+      }
+    },
+    {
+      "region": "Shadow_fix_1_Horse",
+      "file": "pieces/shadow-fix-1-horse-a352ab0f.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1762,4,76,40",
+        "offsets": "1,1,80,42",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Sparks_Red_1",
+      "file": "pieces/sparks-red-1-afd44f2e.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1681,3,77,79",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Sparks_Red_2",
+      "file": "pieces/sparks-red-2-1776e364.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1192,276,143,133"
+      }
+    },
+    {
+      "region": "Sparks_Red_3_2",
+      "file": "pieces/sparks-red-3-2-cb8b5c90.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "718,255,160,154"
+      }
+    },
+    {
+      "region": "Sparks_Red_4_2",
+      "file": "pieces/sparks-red-4-2-d56cdbc4.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1042,271,148,138"
+      }
+    },
+    {
+      "region": "Sparks_Red_6",
+      "file": "pieces/sparks-red-6-e5ced134.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "2,2,149,135"
+      }
+    },
+    {
+      "region": "Sparks_Red_7",
+      "file": "pieces/sparks-red-7-826b3558.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "880,258,160,151"
+      }
+    },
+    {
+      "region": "Tongue_Raven",
+      "file": "pieces/tongue-raven-64ef7386.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "450,12,25,17"
+      }
+    },
+    {
+      "region": "Top_Back_Raven",
+      "file": "pieces/top-back-raven-0dbeea90.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1895,55,46,31"
+      }
+    },
+    {
+      "region": "Wing_Raven",
+      "file": "pieces/wing-raven-a7e0378b.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1851,50,54,42",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "axe_red",
+      "file": "pieces/axe-red-9870ea02.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "280,2,135,125",
+        "offsets": "1,1,137,127",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fang",
+      "file": "pieces/fang-fe9255cf.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "547,115,138,100"
+      }
+    },
+    {
+      "region": "frame _Raven",
+      "file": "pieces/frame-raven-0653a12a.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "407,31,127,121"
+      }
+    },
+    {
+      "region": "frame_Horse",
+      "file": "pieces/frame-horse-53ae5438.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1729,167,124,119",
+        "offsets": "1,1,126,121"
+      }
+    },
+    {
+      "region": "frame_metal",
+      "file": "pieces/frame-metal-4b0b2f78.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1601,170,126,120"
+      }
+    },
+    {
+      "region": "glow_eye_Horse",
+      "file": "pieces/glow-eye-horse-b83c3710.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1851,2,46,46"
+      }
+    },
+    {
+      "region": "glow_eye_Raven",
+      "file": "pieces/glow-eye-raven-873a1b69.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1785,105,60,60"
+      }
+    },
+    {
+      "region": "helmet_red",
+      "file": "pieces/helmet-red-2b3851ac.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1337,280,127,129",
+        "offsets": "1,1,129,131"
+      }
+    },
+    {
+      "region": "high_effects_1",
+      "file": "pieces/high-effects-1-fc3e82f2.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1354,4,105,116",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "high_effects_2",
+      "file": "pieces/high-effects-2-bc28133b.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1466,295,114,140",
+        "offsets": "0,0,115,140",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "high_effects_3",
+      "file": "pieces/high-effects-3-be9e31f8.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1466,194,133,99",
+        "offsets": "1,1,134,100"
+      }
+    },
+    {
+      "region": "horse_red",
+      "file": "pieces/horse-red-0fa9fb72.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "900,134,125,122",
+        "offsets": "1,1,127,124"
+      }
+    },
+    {
+      "region": "raven_red",
+      "file": "pieces/raven-red-31ce3a2c.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "904,3,129,118",
+        "offsets": "1,1,131,120",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "wolf_fang_red",
+      "file": "pieces/wolf-fang-red-a4c80fe5.png",
+      "page": "symbols_high.webp",
+      "properties": {
+        "bounds": "1608,292,136,117",
+        "offsets": "1,1,138,119"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

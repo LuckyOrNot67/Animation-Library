@@ -1,0 +1,304 @@
+{
+  "id": "sugar-rush-1000-animations-suru-freegame-5-d4376c1e-4e150409",
+  "collection": "library",
+  "name": "suru_freegame_5",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-freegame-5-d4376c1e",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 3,
+    "slots": 4,
+    "attachments": 4,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 3168,
+    "rgbaBytesEstimate": 12672,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 2,
+  "actions": [
+    {
+      "name": "suru_freegame",
+      "duration": 3,
+      "keyframes": 25,
+      "curvedKeys": 10,
+      "channels": [
+        {
+          "path": "slots.window4.color",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.windowbutton4.color",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.fan_left2.rotate",
+          "keyframes": 13
+        }
+      ],
+      "animatedBones": [
+        "fan_left2"
+      ],
+      "animatedSlots": [
+        "window4",
+        "windowbutton4"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-freegame-5-d4376c1e-4e150409/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "left_frame2",
+        "parent": "root",
+        "x": 591.55,
+        "y": 17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      },
+      {
+        "name": "fan_left2",
+        "parent": "left_frame2",
+        "x": -47.49,
+        "y": -363.64,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "windowbutton3",
+        "bone": "left_frame2",
+        "setupAttachment": "windowbutton",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "windowbutton4",
+        "bone": "left_frame2",
+        "setupAttachment": "windowbutton",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "window3",
+        "bone": "left_frame2",
+        "setupAttachment": "window",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "window4",
+        "bone": "left_frame2",
+        "setupAttachment": "window",
+        "blend": "additive",
+        "color": "ffffff00"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "window3",
+        "name": "window",
+        "region": "window",
+        "type": "region",
+        "bone": "left_frame2",
+        "transform": {
+          "x": -109.14,
+          "y": -321.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 34
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "window4",
+        "name": "window",
+        "region": "window",
+        "type": "region",
+        "bone": "left_frame2",
+        "transform": {
+          "x": -109.14,
+          "y": -321.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 34
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "windowbutton3",
+        "name": "windowbutton",
+        "region": "windowbutton",
+        "type": "region",
+        "bone": "left_frame2",
+        "transform": {
+          "x": -116.14,
+          "y": -358.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 27,
+          "height": 28
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "windowbutton4",
+        "name": "windowbutton",
+        "region": "windowbutton",
+        "type": "region",
+        "bone": "left_frame2",
+        "transform": {
+          "x": -116.14,
+          "y": -358.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 27,
+          "height": 28
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "suru_freegame",
+        "duration": 3,
+        "keyframes": 25,
+        "curvedKeys": 10,
+        "channels": [
+          {
+            "path": "slots.window4.color",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.windowbutton4.color",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.fan_left2.rotate",
+            "keyframes": 13
+          }
+        ],
+        "animatedBones": [
+          "fan_left2"
+        ],
+        "animatedSlots": [
+          "window4",
+          "windowbutton4"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 3,
+      "slots": 4,
+      "attachments": 4,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "window",
+      "file": "pieces/window-1a912a86.png",
+      "page": "suru_freegame_5.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "0, 30",
+        "size": "57, 34",
+        "orig": "57, 34",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "windowbutton",
+      "file": "pieces/windowbutton-9da1ff40.png",
+      "page": "suru_freegame_5.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "27, 28",
+        "orig": "27, 28",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

@@ -1,0 +1,1352 @@
+{
+  "id": "spin-reaper-winsafe-animations-anticipation-c983ae59-28a8efd6",
+  "collection": "library",
+  "name": "anticipation",
+  "machine": "spin-reaper-winsafe",
+  "format": "spine-json",
+  "version": "4.1.23",
+  "packagePath": "bibliotheque/spin-reaper-winsafe/animations/anticipation-c983ae59",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 9,
+    "slots": 13,
+    "attachments": 13,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 2264302,
+    "rgbaBytesEstimate": 9057208,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 28,
+  "actions": [
+    {
+      "name": "end",
+      "duration": 1,
+      "keyframes": 39,
+      "curvedKeys": 13,
+      "channels": [
+        {
+          "path": "slots.anticipation_radial.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.anticipation_radial2.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.anticipation_radial5.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.anticipation_radial6.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_glow1.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_glow2.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_glow3.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.frame_glow4.alpha",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.fx_1.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.anticipation_radial.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.frame_glow2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.frame_glow3.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.anticipation_radial2.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "anticipation_radial",
+        "frame_glow2",
+        "frame_glow3",
+        "anticipation_radial2",
+        "anticipation_radial4"
+      ],
+      "animatedSlots": [
+        "anticipation_radial",
+        "anticipation_radial2",
+        "anticipation_radial3",
+        "anticipation_radial4",
+        "anticipation_radial5",
+        "anticipation_radial6",
+        "frame",
+        "frame_glow1",
+        "frame_glow2",
+        "frame_glow3",
+        "frame_glow4",
+        "fx_1"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "intro",
+      "duration": 1.0667,
+      "keyframes": 84,
+      "curvedKeys": 38,
+      "channels": [
+        {
+          "path": "slots.anticipation_radial.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.anticipation_radial2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.anticipation_radial3.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.anticipation_radial4.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.anticipation_radial5.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.anticipation_radial5.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.anticipation_radial6.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.anticipation_radial6.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_glow1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_glow2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.frame_glow3.alpha",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.frame_glow4.alpha",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.fx_1.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.anticipation_radial.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.frame_glow2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.frame_glow3.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.anticipation_radial2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.fx_1.scalex",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.fx_1.scaley",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.anticipation_radial3.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.anticipation_radial3.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.anticipation_radial4.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.anticipation_radial4.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "attachments.default.fx_1.fx_.sequence",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "anticipation_radial",
+        "frame_glow2",
+        "frame_glow3",
+        "anticipation_radial2",
+        "fx_1",
+        "anticipation_radial3",
+        "anticipation_radial4"
+      ],
+      "animatedSlots": [
+        "anticipation_radial",
+        "anticipation_radial2",
+        "anticipation_radial3",
+        "anticipation_radial4",
+        "anticipation_radial5",
+        "anticipation_radial6",
+        "frame",
+        "frame_glow1",
+        "frame_glow2",
+        "frame_glow3",
+        "frame_glow4",
+        "fx_1"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "transition"
+      ]
+    },
+    {
+      "name": "loop",
+      "duration": 2,
+      "keyframes": 50,
+      "curvedKeys": 32,
+      "channels": [
+        {
+          "path": "slots.frame_glow3.alpha",
+          "keyframes": 12
+        },
+        {
+          "path": "slots.frame_glow4.alpha",
+          "keyframes": 12
+        },
+        {
+          "path": "bones.anticipation_radial.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.frame_glow2.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.frame_glow3.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.anticipation_radial2.scale",
+          "keyframes": 7
+        }
+      ],
+      "animatedBones": [
+        "anticipation_radial",
+        "frame_glow2",
+        "frame_glow3",
+        "anticipation_radial2",
+        "anticipation_radial4"
+      ],
+      "animatedSlots": [
+        "anticipation_radial3",
+        "anticipation_radial4",
+        "anticipation_radial5",
+        "anticipation_radial6",
+        "frame_glow3",
+        "frame_glow4"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/spin-reaper-winsafe-animations-anticipation-c983ae59-28a8efd6/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "anticipation_radial",
+        "parent": "root",
+        "x": -240,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 8
+      },
+      {
+        "name": "frame_glow",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 200,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "frame_glow2",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 200,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "frame_glow3",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 200,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "anticipation_radial2",
+        "parent": "root",
+        "x": 240,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 8
+      },
+      {
+        "name": "fx_1",
+        "parent": "root",
+        "x": -1.13,
+        "y": -1187.29,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 5.1787,
+        "scaleY": 10.1751
+      },
+      {
+        "name": "anticipation_radial3",
+        "parent": "root",
+        "x": -1.13,
+        "y": -1196.51,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.4428,
+        "scaleY": 0.2231
+      },
+      {
+        "name": "anticipation_radial4",
+        "parent": "root",
+        "x": -1.13,
+        "y": -1196.51,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.4428,
+        "scaleY": 0.2231
+      }
+    ],
+    "slots": [
+      {
+        "name": "frame_glow2",
+        "bone": "frame_glow",
+        "setupAttachment": "frame_glow2",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_glow3",
+        "bone": "frame_glow2",
+        "setupAttachment": "frame_glow2",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "frame_glow4",
+        "bone": "frame_glow3",
+        "setupAttachment": "frame_glow2",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "frame_glow1",
+        "bone": "root",
+        "setupAttachment": "frame_glow1",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame",
+        "bone": "root",
+        "setupAttachment": "frame",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "fx_1",
+        "bone": "fx_1",
+        "setupAttachment": "fx_",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "inner_mask",
+        "bone": "root",
+        "setupAttachment": "inner_mask",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "anticipation_radial",
+        "bone": "anticipation_radial",
+        "setupAttachment": "anticipation_radial",
+        "blend": "additive",
+        "color": "62f2ffff"
+      },
+      {
+        "name": "anticipation_radial2",
+        "bone": "anticipation_radial2",
+        "setupAttachment": "anticipation_radial",
+        "blend": "additive",
+        "color": "62f2ffff"
+      },
+      {
+        "name": "anticipation_radial3",
+        "bone": "anticipation_radial3",
+        "setupAttachment": "anticipation_radial",
+        "blend": "normal",
+        "color": "1fe0ebff"
+      },
+      {
+        "name": "anticipation_radial5",
+        "bone": "anticipation_radial4",
+        "setupAttachment": "anticipation_radial",
+        "blend": "normal",
+        "color": "1fe0ebff"
+      },
+      {
+        "name": "anticipation_radial4",
+        "bone": "anticipation_radial3",
+        "setupAttachment": "anticipation_radial",
+        "blend": "additive",
+        "color": "1fe0ebff"
+      },
+      {
+        "name": "anticipation_radial6",
+        "bone": "anticipation_radial4",
+        "setupAttachment": "anticipation_radial",
+        "blend": "additive",
+        "color": "1fe0ebff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "anticipation_radial",
+        "name": "anticipation_radial",
+        "region": "anticipation_radial",
+        "type": "region",
+        "bone": "anticipation_radial",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 400,
+          "height": 400
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "anticipation_radial2",
+        "name": "anticipation_radial",
+        "region": "anticipation_radial",
+        "type": "region",
+        "bone": "anticipation_radial2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 400,
+          "height": 400
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "anticipation_radial3",
+        "name": "anticipation_radial",
+        "region": "anticipation_radial",
+        "type": "region",
+        "bone": "anticipation_radial3",
+        "transform": {
+          "x": 4.09,
+          "y": 132.34,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 400,
+          "height": 400
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "anticipation_radial4",
+        "name": "anticipation_radial",
+        "region": "anticipation_radial",
+        "type": "region",
+        "bone": "anticipation_radial3",
+        "transform": {
+          "x": 4.09,
+          "y": 132.34,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 400,
+          "height": 400
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "anticipation_radial5",
+        "name": "anticipation_radial",
+        "region": "anticipation_radial",
+        "type": "region",
+        "bone": "anticipation_radial4",
+        "transform": {
+          "x": 4.09,
+          "y": 132.34,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 400,
+          "height": 400
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "anticipation_radial6",
+        "name": "anticipation_radial",
+        "region": "anticipation_radial",
+        "type": "region",
+        "bone": "anticipation_radial4",
+        "transform": {
+          "x": 4.09,
+          "y": 132.34,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 400,
+          "height": 400
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame",
+        "name": "frame",
+        "region": "frame",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 394,
+          "height": 2392
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_glow1",
+        "name": "frame_glow1",
+        "region": "frame_glow1",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 416,
+          "height": 2414
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_glow2",
+        "name": "frame_glow2",
+        "region": "frame_glow2",
+        "type": "region",
+        "bone": "frame_glow",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 438,
+          "height": 2436
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_glow3",
+        "name": "frame_glow2",
+        "region": "frame_glow2",
+        "type": "region",
+        "bone": "frame_glow2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 438,
+          "height": 2436
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_glow4",
+        "name": "frame_glow2",
+        "region": "frame_glow2",
+        "type": "region",
+        "bone": "frame_glow3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 438,
+          "height": 2436
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_1",
+        "name": "fx_",
+        "region": "fx_",
+        "type": "region",
+        "bone": "fx_1",
+        "transform": {
+          "x": 1.52,
+          "y": 117.09,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 256,
+          "height": 256
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": {
+          "count": 24
+        }
+      },
+      {
+        "skin": "default",
+        "slot": "inner_mask",
+        "name": "inner_mask",
+        "region": "inner_mask",
+        "type": "clipping",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "end",
+        "duration": 1,
+        "keyframes": 39,
+        "curvedKeys": 13,
+        "channels": [
+          {
+            "path": "slots.anticipation_radial.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.anticipation_radial2.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.anticipation_radial5.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.anticipation_radial6.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_glow1.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_glow2.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_glow3.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.frame_glow4.alpha",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.fx_1.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.anticipation_radial.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.frame_glow2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.frame_glow3.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.anticipation_radial2.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "anticipation_radial",
+          "frame_glow2",
+          "frame_glow3",
+          "anticipation_radial2",
+          "anticipation_radial4"
+        ],
+        "animatedSlots": [
+          "anticipation_radial",
+          "anticipation_radial2",
+          "anticipation_radial3",
+          "anticipation_radial4",
+          "anticipation_radial5",
+          "anticipation_radial6",
+          "frame",
+          "frame_glow1",
+          "frame_glow2",
+          "frame_glow3",
+          "frame_glow4",
+          "fx_1"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "intro",
+        "duration": 1.0667,
+        "keyframes": 84,
+        "curvedKeys": 38,
+        "channels": [
+          {
+            "path": "slots.anticipation_radial.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.anticipation_radial2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.anticipation_radial3.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.anticipation_radial4.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.anticipation_radial5.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.anticipation_radial5.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.anticipation_radial6.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.anticipation_radial6.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_glow1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_glow2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.frame_glow3.alpha",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.frame_glow4.alpha",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.fx_1.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.anticipation_radial.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.frame_glow2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.frame_glow3.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.anticipation_radial2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.fx_1.scalex",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.fx_1.scaley",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.anticipation_radial3.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.anticipation_radial3.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.anticipation_radial4.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.anticipation_radial4.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "attachments.default.fx_1.fx_.sequence",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "anticipation_radial",
+          "frame_glow2",
+          "frame_glow3",
+          "anticipation_radial2",
+          "fx_1",
+          "anticipation_radial3",
+          "anticipation_radial4"
+        ],
+        "animatedSlots": [
+          "anticipation_radial",
+          "anticipation_radial2",
+          "anticipation_radial3",
+          "anticipation_radial4",
+          "anticipation_radial5",
+          "anticipation_radial6",
+          "frame",
+          "frame_glow1",
+          "frame_glow2",
+          "frame_glow3",
+          "frame_glow4",
+          "fx_1"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "transition"
+        ]
+      },
+      {
+        "name": "loop",
+        "duration": 2,
+        "keyframes": 50,
+        "curvedKeys": 32,
+        "channels": [
+          {
+            "path": "slots.frame_glow3.alpha",
+            "keyframes": 12
+          },
+          {
+            "path": "slots.frame_glow4.alpha",
+            "keyframes": 12
+          },
+          {
+            "path": "bones.anticipation_radial.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.frame_glow2.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.frame_glow3.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.anticipation_radial2.scale",
+            "keyframes": 7
+          }
+        ],
+        "animatedBones": [
+          "anticipation_radial",
+          "frame_glow2",
+          "frame_glow3",
+          "anticipation_radial2",
+          "anticipation_radial4"
+        ],
+        "animatedSlots": [
+          "anticipation_radial3",
+          "anticipation_radial4",
+          "anticipation_radial5",
+          "anticipation_radial6",
+          "frame_glow3",
+          "frame_glow4"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 9,
+      "slots": 13,
+      "attachments": 13,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "anticipation_radial",
+      "file": "pieces/anticipation-radial-5651f823.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1,1,297,296",
+        "offsets": "2,2,300,300"
+      }
+    },
+    {
+      "region": "frame",
+      "file": "pieces/frame-ee123cbe.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1,298,296,1794",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_glow1",
+      "file": "pieces/frame-glow1-31c26fd3.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1,595,312,1811",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "frame_glow2",
+      "file": "pieces/frame-glow2-70c40501.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1,908,329,1827",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx_1",
+      "file": "pieces/fx-1-7ce5dae7.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "299,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_10",
+      "file": "pieces/fx-10-19f6b0a7.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "366,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_11",
+      "file": "pieces/fx-11-ab50d53d.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "433,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_12",
+      "file": "pieces/fx-12-10c2d63e.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "299,44,66,186",
+        "offsets": "63,3,192,192",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx_13",
+      "file": "pieces/fx-13-e2970da4.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "500,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_14",
+      "file": "pieces/fx-14-743b75aa.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "567,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_15",
+      "file": "pieces/fx-15-f992c4ee.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "634,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_16",
+      "file": "pieces/fx-16-0d4c04ac.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "486,44,66,186",
+        "offsets": "63,3,192,192",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx_17",
+      "file": "pieces/fx-17-77e6645f.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "701,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_18",
+      "file": "pieces/fx-18-612d2ed8.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "768,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_19",
+      "file": "pieces/fx-19-e5ff8b9e.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "835,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_2",
+      "file": "pieces/fx-2-12a0d00d.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "673,44,66,186",
+        "offsets": "63,3,192,192",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx_20",
+      "file": "pieces/fx-20-559ba81b.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "902,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_21",
+      "file": "pieces/fx-21-1329cc50.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "969,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_22",
+      "file": "pieces/fx-22-f79fd1bf.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1036,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_23",
+      "file": "pieces/fx-23-67a53966.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "860,44,66,186",
+        "offsets": "63,3,192,192",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx_24",
+      "file": "pieces/fx-24-151def44.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1103,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_3",
+      "file": "pieces/fx-3-d9099853.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1170,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_4",
+      "file": "pieces/fx-4-cba7cc32.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1047,44,66,186",
+        "offsets": "63,3,192,192",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx_5",
+      "file": "pieces/fx-5-0faf0040.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1237,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_6",
+      "file": "pieces/fx-6-bd82435a.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1304,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_7",
+      "file": "pieces/fx-7-8e7e2ee9.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1371,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    },
+    {
+      "region": "fx_8",
+      "file": "pieces/fx-8-738ae97d.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1234,44,66,186",
+        "offsets": "63,3,192,192",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx_9",
+      "file": "pieces/fx-9-48587523.png",
+      "page": "anticipation.webp",
+      "properties": {
+        "bounds": "1438,111,66,186",
+        "offsets": "63,3,192,192"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

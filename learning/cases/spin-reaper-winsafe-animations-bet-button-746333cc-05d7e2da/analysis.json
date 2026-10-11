@@ -1,0 +1,778 @@
+{
+  "id": "spin-reaper-winsafe-animations-bet-button-746333cc-05d7e2da",
+  "collection": "library",
+  "name": "bet-button",
+  "machine": "spin-reaper-winsafe",
+  "format": "spine-json",
+  "version": "4.1.24",
+  "packagePath": "bibliotheque/spin-reaper-winsafe/animations/bet-button-746333cc",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 4,
+    "slots": 8,
+    "attachments": 8,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 587322,
+    "rgbaBytesEstimate": 2349288,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 8,
+  "actions": [
+    {
+      "name": "disabled_spin",
+      "duration": 0.6667,
+      "keyframes": 16,
+      "curvedKeys": 4,
+      "channels": [
+        {
+          "path": "slots.base_disabled.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_spin-active.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_spin-active.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_stop-disabled.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.icon_spin-active.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.icon_spin-active.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.icon_stop-disabled.scale",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "icon_spin-active",
+        "icon_stop-disabled"
+      ],
+      "animatedSlots": [
+        "base_disabled",
+        "icon_spin-active",
+        "icon_stop-disabled"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "spin"
+      ]
+    },
+    {
+      "name": "spin_stop",
+      "duration": 0.7667,
+      "keyframes": 26,
+      "curvedKeys": 9,
+      "channels": [
+        {
+          "path": "slots.icon_spin-active.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_spin-active_blur.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.icon_spin-active_blur.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.icon_spin-active_blur2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.icon_spin-active_blur2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.icon_stop-active.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_stop-active.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.icon_spin-active.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.icon_spin-active.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.icon_stop-active.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "icon_spin-active",
+        "icon_stop-active"
+      ],
+      "animatedSlots": [
+        "icon_spin-active",
+        "icon_spin-active_blur",
+        "icon_spin-active_blur2",
+        "icon_stop-active"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "spin"
+      ]
+    },
+    {
+      "name": "stop_spin",
+      "duration": 0.7,
+      "keyframes": 40,
+      "curvedKeys": 12,
+      "channels": [
+        {
+          "path": "slots.icon_spin-active.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_spin-active.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_spin-active_blur.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.icon_spin-active_blur.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_spin-active_blur2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.icon_spin-active_blur2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_stop-active.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.icon_stop-active.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.icon_spin-active.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.icon_spin-active.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.icon_stop-active.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.icon_stop-active.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "icon_spin-active",
+        "icon_stop-active"
+      ],
+      "animatedSlots": [
+        "icon_spin-active",
+        "icon_spin-active_blur",
+        "icon_spin-active_blur2",
+        "icon_stop-active"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "spin"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/spin-reaper-winsafe-animations-bet-button-746333cc-05d7e2da/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "icon_spin-active",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "icon_stop-active",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "icon_stop-disabled",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "base_active",
+        "bone": "root",
+        "setupAttachment": "base_active",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "base_disabled",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "icon_stop-disabled",
+        "bone": "icon_stop-disabled",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "icon_spin-active",
+        "bone": "icon_spin-active",
+        "setupAttachment": "icon_spin-active",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "icon_spin-active_blur",
+        "bone": "icon_spin-active",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "icon_spin-active_blur2",
+        "bone": "icon_spin-active",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "icon_spin-disabled",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "icon_stop-active",
+        "bone": "icon_stop-active",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "base_active",
+        "name": "base_active",
+        "region": "base_active",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 401,
+          "height": 401
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "base_disabled",
+        "name": "base_disabled",
+        "region": "base_disabled",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 401,
+          "height": 401
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "icon_spin-active",
+        "name": "icon_spin-active",
+        "region": "icon_spin-active",
+        "type": "region",
+        "bone": "icon_spin-active",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 245,
+          "height": 239
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "icon_spin-active_blur",
+        "name": "icon_spin-active_blur",
+        "region": "icon_spin-active_blur",
+        "type": "region",
+        "bone": "icon_spin-active",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 245,
+          "height": 239
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "icon_spin-active_blur2",
+        "name": "icon_spin-active_blur2",
+        "region": "icon_spin-active_blur2",
+        "type": "region",
+        "bone": "icon_spin-active",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 155,
+          "height": 154
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "icon_spin-disabled",
+        "name": "icon_spin-disabled",
+        "region": "icon_spin-disabled",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 245,
+          "height": 239
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "icon_stop-active",
+        "name": "icon_stop-active",
+        "region": "icon_stop-active",
+        "type": "region",
+        "bone": "icon_stop-active",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 155,
+          "height": 154
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "icon_stop-disabled",
+        "name": "icon_stop-disabled",
+        "region": "icon_stop-disabled",
+        "type": "region",
+        "bone": "icon_stop-disabled",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 155,
+          "height": 154
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "disabled_spin",
+        "duration": 0.6667,
+        "keyframes": 16,
+        "curvedKeys": 4,
+        "channels": [
+          {
+            "path": "slots.base_disabled.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_spin-active.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_spin-active.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_stop-disabled.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.icon_spin-active.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.icon_spin-active.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.icon_stop-disabled.scale",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "icon_spin-active",
+          "icon_stop-disabled"
+        ],
+        "animatedSlots": [
+          "base_disabled",
+          "icon_spin-active",
+          "icon_stop-disabled"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "spin"
+        ]
+      },
+      {
+        "name": "spin_stop",
+        "duration": 0.7667,
+        "keyframes": 26,
+        "curvedKeys": 9,
+        "channels": [
+          {
+            "path": "slots.icon_spin-active.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_spin-active_blur.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.icon_spin-active_blur.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.icon_spin-active_blur2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.icon_spin-active_blur2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.icon_stop-active.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_stop-active.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.icon_spin-active.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.icon_spin-active.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.icon_stop-active.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "icon_spin-active",
+          "icon_stop-active"
+        ],
+        "animatedSlots": [
+          "icon_spin-active",
+          "icon_spin-active_blur",
+          "icon_spin-active_blur2",
+          "icon_stop-active"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "spin"
+        ]
+      },
+      {
+        "name": "stop_spin",
+        "duration": 0.7,
+        "keyframes": 40,
+        "curvedKeys": 12,
+        "channels": [
+          {
+            "path": "slots.icon_spin-active.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_spin-active.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_spin-active_blur.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.icon_spin-active_blur.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_spin-active_blur2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.icon_spin-active_blur2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_stop-active.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.icon_stop-active.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.icon_spin-active.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.icon_spin-active.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.icon_stop-active.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.icon_stop-active.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "icon_spin-active",
+          "icon_stop-active"
+        ],
+        "animatedSlots": [
+          "icon_spin-active",
+          "icon_spin-active_blur",
+          "icon_spin-active_blur2",
+          "icon_stop-active"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "spin"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 4,
+      "slots": 8,
+      "attachments": 8,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "base_active",
+      "file": "pieces/base-active-f2909926.png",
+      "page": "bet-button.webp",
+      "properties": {
+        "bounds": "1,402,401,401"
+      }
+    },
+    {
+      "region": "base_disabled",
+      "file": "pieces/base-disabled-2f92880c.png",
+      "page": "bet-button.webp",
+      "properties": {
+        "bounds": "1,804,401,401"
+      }
+    },
+    {
+      "region": "icon_spin-active",
+      "file": "pieces/icon-spin-active-f523a4ad.png",
+      "page": "bet-button.webp",
+      "properties": {
+        "bounds": "247,156,245,239",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "icon_spin-active_blur",
+      "file": "pieces/icon-spin-active-blur-e21cccc4.png",
+      "page": "bet-button.webp",
+      "properties": {
+        "bounds": "247,156,245,239",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "icon_spin-active_blur2",
+      "file": "pieces/icon-spin-active-blur2-7e504d6b.png",
+      "page": "bet-button.webp",
+      "properties": {
+        "bounds": "157,1,155,154"
+      }
+    },
+    {
+      "region": "icon_stop-active",
+      "file": "pieces/icon-stop-active-94897b16.png",
+      "page": "bet-button.webp",
+      "properties": {
+        "bounds": "157,1,155,154"
+      }
+    },
+    {
+      "region": "icon_spin-disabled",
+      "file": "pieces/icon-spin-disabled-538ca578.png",
+      "page": "bet-button.webp",
+      "properties": {
+        "bounds": "1,162,245,239"
+      }
+    },
+    {
+      "region": "icon_stop-disabled",
+      "file": "pieces/icon-stop-disabled-63037ba1.png",
+      "page": "bet-button.webp",
+      "properties": {
+        "bounds": "1,7,155,154"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

@@ -1,0 +1,3249 @@
+{
+  "id": "odin-s-vault-animations-multiplier-6b1d7743-75747b98",
+  "collection": "library",
+  "name": "multiplier",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/multiplier-6b1d7743",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 31,
+    "slots": 24,
+    "attachments": 21,
+    "meshAttachments": 20,
+    "meshUvPairs": 156,
+    "constraints": {
+      "ik": 0,
+      "transform": 1,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 524288,
+    "rgbaBytesEstimate": 2097152,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 39,
+  "actions": [
+    {
+      "name": "appear",
+      "duration": 1,
+      "keyframes": 117,
+      "curvedKeys": 59,
+      "channels": [
+        {
+          "path": "slots.BG_multiplier.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Bottom_Green_multiplier.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Bottom_Silver_multiplier.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Flame_multiplier.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Glow_multiplier.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Left_Green_multiplier.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Left_Silver_multiplier.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Middle_Green_multiplier.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Middle_Silver_multiplier.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Outer rim_multiplier.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Outer rim_multiplier2.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Right_Green_multiplier.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Right_Silver_multiplier.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Shadow_2_multiplier.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_multiplier.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Top_Green_multiplier.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Top_Silver_multiplier.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Wood_multiplier.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.X_multiplier.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.X_multiplier_add.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.multiplier.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_3d.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire10.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.multiplier_fire10.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.multiplier_fire3.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire6.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire9.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire2.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire4.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire7.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire5.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire8.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.text.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.text.scale",
+          "keyframes": 6
+        }
+      ],
+      "animatedBones": [
+        "multiplier",
+        "multiplier_3d",
+        "multiplier_fire10",
+        "multiplier_fire3",
+        "multiplier_fire6",
+        "multiplier_fire9",
+        "multiplier_fire2",
+        "multiplier_fire4",
+        "multiplier_fire7",
+        "multiplier_fire5",
+        "multiplier_fire8",
+        "multiplier_fire",
+        "text"
+      ],
+      "animatedSlots": [
+        "BG_multiplier",
+        "Bottom_Green_multiplier",
+        "Bottom_Silver_multiplier",
+        "Flame_multiplier",
+        "Glow_multiplier",
+        "Left_Green_multiplier",
+        "Left_Silver_multiplier",
+        "Middle_Green_multiplier",
+        "Middle_Silver_multiplier",
+        "Outer rim_multiplier",
+        "Outer rim_multiplier2",
+        "Right_Green_multiplier",
+        "Right_Silver_multiplier",
+        "Shadow_2_multiplier",
+        "Sparks_multiplier",
+        "Top_Green_multiplier",
+        "Top_Silver_multiplier",
+        "Wood_multiplier",
+        "X_multiplier",
+        "X_multiplier_add"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "transition"
+      ]
+    },
+    {
+      "name": "collect",
+      "duration": 1,
+      "keyframes": 409,
+      "curvedKeys": 307,
+      "channels": [
+        {
+          "path": "slots.Flame_multiplier.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.multiplier_19.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.shield_fire_01_multiplier.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.shield_fire_02_multiplier.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.shield_fire_03_multiplier.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_multiplier.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.multiplier.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_3d.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire_01.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.multiplier_fire_01.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire_02.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire_02.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire_03.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.multiplier_fire2.rotate",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.multiplier_fire2.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.multiplier_fire2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire3.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.multiplier_fire3.translate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.multiplier_fire3.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.multiplier_fire4.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.multiplier_fire4.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.multiplier_fire4.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire5.rotate",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.multiplier_fire5.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.multiplier_fire5.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire6.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.multiplier_fire6.translate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.multiplier_fire6.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.multiplier_fire7.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.multiplier_fire7.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire7.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire8.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.multiplier_fire8.translate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.multiplier_fire8.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.multiplier_fire9.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire9.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.multiplier_fire9.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire21.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire21.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire15.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire15.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire12.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire12.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire12.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire20.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire20.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire20.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire17.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire17.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire17.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire14.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire14.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.multiplier_fire14.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire19.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire19.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire19.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire16.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire16.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire16.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire13.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire13.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire13.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire11.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire11.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.multiplier_fire11.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire18.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire18.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.multiplier_fire18.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "attachments.default.multiplier_19.multi_sequence/multiplier_.sequence",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "multiplier",
+        "multiplier3",
+        "multiplier_3d",
+        "multiplier_fire",
+        "multiplier_fire_01",
+        "multiplier_fire_02",
+        "multiplier_fire_03",
+        "multiplier_fire2",
+        "multiplier_fire3",
+        "multiplier_fire4",
+        "multiplier_fire5",
+        "multiplier_fire6",
+        "multiplier_fire7",
+        "multiplier_fire8",
+        "multiplier_fire9",
+        "multiplier_fire21",
+        "multiplier_fire15",
+        "multiplier_fire12",
+        "multiplier_fire20",
+        "multiplier_fire17",
+        "multiplier_fire14",
+        "multiplier_fire19",
+        "multiplier_fire16",
+        "multiplier_fire13",
+        "multiplier_fire11",
+        "multiplier_fire18"
+      ],
+      "animatedSlots": [
+        "Flame_multiplier",
+        "multiplier_19",
+        "shield_fire_01_multiplier",
+        "shield_fire_02_multiplier",
+        "shield_fire_03_multiplier",
+        "Sparks_multiplier"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "win",
+      "duration": 1.1333,
+      "keyframes": 429,
+      "curvedKeys": 323,
+      "channels": [
+        {
+          "path": "slots.Flame_multiplier.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.multiplier_19.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.shield_fire_01_multiplier.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.shield_fire_02_multiplier.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.shield_fire_03_multiplier.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Sparks_multiplier.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.X_multiplier_add.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.multiplier.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_3d.translatex",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_3d.translatey",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_3d.shear",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire_01.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.multiplier_fire_01.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire_02.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire_02.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire_03.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.multiplier_fire2.rotate",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.multiplier_fire2.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.multiplier_fire2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire3.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.multiplier_fire3.translate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.multiplier_fire3.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.multiplier_fire4.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.multiplier_fire4.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.multiplier_fire4.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire5.rotate",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.multiplier_fire5.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.multiplier_fire5.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire6.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.multiplier_fire6.translate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.multiplier_fire6.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.multiplier_fire7.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.multiplier_fire7.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire7.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire8.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.multiplier_fire8.translate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.multiplier_fire8.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.multiplier_fire9.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire9.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.multiplier_fire9.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire21.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire21.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire15.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire15.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire12.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire12.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire12.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire20.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire20.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire20.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire17.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire17.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire17.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire14.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire14.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.multiplier_fire14.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire19.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire19.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire19.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire16.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire16.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.multiplier_fire16.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire13.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire13.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire13.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire11.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire11.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.multiplier_fire11.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier_fire18.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.multiplier_fire18.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.multiplier_fire18.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.multiplier3.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.text.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.text.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "attachments.default.multiplier_19.multi_sequence/multiplier_.sequence",
+          "keyframes": 1
+        },
+        {
+          "path": "drawOrder",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "multiplier",
+        "multiplier_3d",
+        "multiplier_fire",
+        "multiplier_fire_01",
+        "multiplier_fire_02",
+        "multiplier_fire_03",
+        "multiplier_fire2",
+        "multiplier_fire3",
+        "multiplier_fire4",
+        "multiplier_fire5",
+        "multiplier_fire6",
+        "multiplier_fire7",
+        "multiplier_fire8",
+        "multiplier_fire9",
+        "multiplier_fire21",
+        "multiplier_fire15",
+        "multiplier_fire12",
+        "multiplier_fire20",
+        "multiplier_fire17",
+        "multiplier_fire14",
+        "multiplier_fire19",
+        "multiplier_fire16",
+        "multiplier_fire13",
+        "multiplier_fire11",
+        "multiplier_fire18",
+        "multiplier3",
+        "text"
+      ],
+      "animatedSlots": [
+        "Flame_multiplier",
+        "multiplier_19",
+        "shield_fire_01_multiplier",
+        "shield_fire_02_multiplier",
+        "shield_fire_03_multiplier",
+        "Sparks_multiplier",
+        "X_multiplier",
+        "X_multiplier_add"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": true,
+      "events": [],
+      "tags": [
+        "win"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-multiplier-6b1d7743-75747b98/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Mine_multiplier",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier",
+        "parent": "Mine_multiplier",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0.13,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier3",
+        "parent": "multiplier",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire",
+        "parent": "Mine_multiplier",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire2",
+        "parent": "multiplier_fire",
+        "x": -52.61,
+        "y": -32.94,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire3",
+        "parent": "multiplier_fire",
+        "x": -56.05,
+        "y": 17.66,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire4",
+        "parent": "multiplier_fire",
+        "x": -48.13,
+        "y": 41.58,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire5",
+        "parent": "multiplier_fire",
+        "x": -32.47,
+        "y": 54.83,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire6",
+        "parent": "multiplier_fire",
+        "x": -2.18,
+        "y": 62.06,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire7",
+        "parent": "multiplier_fire",
+        "x": 33.27,
+        "y": 51.05,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire8",
+        "parent": "multiplier_fire",
+        "x": 46.35,
+        "y": 34.18,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire9",
+        "parent": "multiplier_fire",
+        "x": 58.05,
+        "y": -2.13,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_3d",
+        "parent": "multiplier",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_3d2",
+        "parent": "multiplier",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire_01",
+        "parent": "multiplier_fire",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire_02",
+        "parent": "multiplier_fire",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire_03",
+        "parent": "multiplier_fire",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire10",
+        "parent": "multiplier",
+        "x": -0.58,
+        "y": 0.24,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire11",
+        "parent": "multiplier_fire",
+        "x": -74.4,
+        "y": 39.44,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire12",
+        "parent": "multiplier_fire",
+        "x": -51.98,
+        "y": 78.2,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire13",
+        "parent": "multiplier_fire",
+        "x": -5.85,
+        "y": 96.78,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire14",
+        "parent": "multiplier_fire",
+        "x": -9.7,
+        "y": 128.81,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire15",
+        "parent": "multiplier_fire",
+        "x": 30.98,
+        "y": 101.9,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire16",
+        "parent": "multiplier_fire",
+        "x": 38.35,
+        "y": 82.36,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire17",
+        "parent": "multiplier_fire",
+        "x": 60.13,
+        "y": 51.29,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire18",
+        "parent": "multiplier_fire",
+        "x": 75.19,
+        "y": 69.87,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire19",
+        "parent": "multiplier_fire",
+        "x": 63.33,
+        "y": 99.66,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire20",
+        "parent": "multiplier_fire",
+        "x": -56.14,
+        "y": 95.82,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "multiplier_fire21",
+        "parent": "multiplier_fire",
+        "x": 74.23,
+        "y": 24.39,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "text",
+        "parent": "Mine_multiplier",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "BG_multiplier",
+        "bone": "Mine_multiplier",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Shadow_2_multiplier",
+        "bone": "multiplier",
+        "setupAttachment": "Shadow_2_multiplier",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "shield_fire_01_multiplier",
+        "bone": "multiplier_fire_01",
+        "setupAttachment": "shield_fire_01_multiplier",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "shield_fire_02_multiplier",
+        "bone": "multiplier_fire_02",
+        "setupAttachment": "shield_fire_02_multiplier",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "shield_fire_03_multiplier",
+        "bone": "multiplier_fire_03",
+        "setupAttachment": "shield_fire_03_multiplier",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Flame_multiplier",
+        "bone": "multiplier_fire",
+        "setupAttachment": "Flame_multiplier",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Sparks_multiplier",
+        "bone": "multiplier_fire",
+        "setupAttachment": "Sparks_multiplier",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Glow_multiplier",
+        "bone": "multiplier_fire10",
+        "setupAttachment": "Glow_multiplier",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Outer rim_multiplier2",
+        "bone": "multiplier",
+        "setupAttachment": "Outer rim_multiplier",
+        "blend": "normal",
+        "color": "a9a9a9ff"
+      },
+      {
+        "name": "Outer rim_multiplier",
+        "bone": "multiplier",
+        "setupAttachment": "Outer rim_multiplier",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Wood_multiplier",
+        "bone": "multiplier",
+        "setupAttachment": "Wood_multiplier",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Bottom_Silver_multiplier",
+        "bone": "multiplier3",
+        "setupAttachment": "Bottom_Silver_multiplier",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Bottom_Green_multiplier",
+        "bone": "multiplier3",
+        "setupAttachment": "Bottom_Green_multiplier",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Left_Silver_multiplier",
+        "bone": "multiplier3",
+        "setupAttachment": "Left_Silver_multiplier",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Left_Green_multiplier",
+        "bone": "multiplier3",
+        "setupAttachment": "Left_Green_multiplier",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Right_Silver_multiplier",
+        "bone": "multiplier3",
+        "setupAttachment": "Right_Silver_multiplier",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Right_Green_multiplier",
+        "bone": "multiplier3",
+        "setupAttachment": "Right_Green_multiplier",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Top_Silver_multiplier",
+        "bone": "multiplier3",
+        "setupAttachment": "Top_Silver_multiplier",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Top_Green_multiplier",
+        "bone": "multiplier3",
+        "setupAttachment": "Top_Green_multiplier",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Middle_Silver_multiplier",
+        "bone": "multiplier",
+        "setupAttachment": "Middle_Silver_multiplier",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Middle_Green_multiplier",
+        "bone": "multiplier",
+        "setupAttachment": "Middle_Green_multiplier",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "multiplier_19",
+        "bone": "Mine_multiplier",
+        "setupAttachment": "multi_sequence/multiplier_",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "X_multiplier",
+        "bone": "text",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "X_multiplier_add",
+        "bone": "text",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffff00"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "Bottom_Green_multiplier",
+        "name": "Bottom_Green_multiplier",
+        "region": "Bottom_Green_multiplier",
+        "type": "mesh",
+        "bone": "multiplier3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 28
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Bottom_Silver_multiplier",
+        "name": "Bottom_Silver_multiplier",
+        "region": "Bottom_Silver_multiplier",
+        "type": "mesh",
+        "bone": "multiplier3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 60,
+          "height": 46
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Flame_multiplier",
+        "name": "Flame_multiplier",
+        "region": "Flame_multiplier",
+        "type": "mesh",
+        "bone": "multiplier_fire",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 142,
+          "height": 140
+        },
+        "mesh": {
+          "uvPairs": 26,
+          "vertexNumbers": 386,
+          "triangles": 38,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Glow_multiplier",
+        "name": "Glow_multiplier",
+        "region": "Glow_multiplier",
+        "type": "mesh",
+        "bone": "multiplier_fire10",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 116,
+          "height": 118
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 52,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Left_Green_multiplier",
+        "name": "Left_Green_multiplier",
+        "region": "Left_Green_multiplier",
+        "type": "mesh",
+        "bone": "multiplier3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 28,
+          "height": 41
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 20,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Left_Silver_multiplier",
+        "name": "Left_Silver_multiplier",
+        "region": "Left_Silver_multiplier",
+        "type": "mesh",
+        "bone": "multiplier3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 45,
+          "height": 63
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 44,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Middle_Green_multiplier",
+        "name": "Middle_Green_multiplier",
+        "region": "Middle_Green_multiplier",
+        "type": "mesh",
+        "bone": "multiplier",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 34,
+          "height": 33
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Middle_Silver_multiplier",
+        "name": "Middle_Silver_multiplier",
+        "region": "Middle_Silver_multiplier",
+        "type": "mesh",
+        "bone": "multiplier",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 41
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "multiplier_19",
+        "name": "multi_sequence/multiplier_",
+        "region": "multi_sequence/multiplier_",
+        "type": "region",
+        "bone": "Mine_multiplier",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1.1222,
+          "scaleY": 1.1222
+        },
+        "size": {
+          "width": 92,
+          "height": 94
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": {
+          "count": 20,
+          "start": 0,
+          "digits": 2
+        }
+      },
+      {
+        "skin": "default",
+        "slot": "Outer rim_multiplier",
+        "name": "Outer rim_multiplier",
+        "region": "Outer rim_multiplier",
+        "type": "mesh",
+        "bone": "multiplier",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 106,
+          "height": 107
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 44,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Outer rim_multiplier2",
+        "name": "Outer rim_multiplier",
+        "region": "Outer rim_multiplier",
+        "type": "mesh",
+        "bone": "multiplier",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 106,
+          "height": 107
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Right_Green_multiplier",
+        "name": "Right_Green_multiplier",
+        "region": "Right_Green_multiplier",
+        "type": "mesh",
+        "bone": "multiplier3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 28,
+          "height": 41
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Right_Silver_multiplier",
+        "name": "Right_Silver_multiplier",
+        "region": "Right_Silver_multiplier",
+        "type": "mesh",
+        "bone": "multiplier3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 45,
+          "height": 63
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Shadow_2_multiplier",
+        "name": "Shadow_2_multiplier",
+        "region": "Shadow_2_multiplier",
+        "type": "mesh",
+        "bone": "multiplier",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 108,
+          "height": 103
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "shield_fire_01_multiplier",
+        "name": "shield_fire_01_multiplier",
+        "region": "shield_fire_01_multiplier",
+        "type": "mesh",
+        "bone": "multiplier_fire_01",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 141,
+          "height": 139
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 48,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "shield_fire_02_multiplier",
+        "name": "shield_fire_02_multiplier",
+        "region": "shield_fire_02_multiplier",
+        "type": "mesh",
+        "bone": "multiplier_fire_02",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 132,
+          "height": 143
+        },
+        "mesh": {
+          "uvPairs": 28,
+          "vertexNumbers": 548,
+          "triangles": 43,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "shield_fire_03_multiplier",
+        "name": "shield_fire_03_multiplier",
+        "region": "shield_fire_03_multiplier",
+        "type": "mesh",
+        "bone": "multiplier_fire_03",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 169,
+          "height": 194
+        },
+        "mesh": {
+          "uvPairs": 34,
+          "vertexNumbers": 638,
+          "triangles": 40,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_multiplier",
+        "name": "Sparks_multiplier",
+        "region": "Sparks_multiplier",
+        "type": "mesh",
+        "bone": "multiplier_fire",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 124,
+          "height": 116
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Top_Green_multiplier",
+        "name": "Top_Green_multiplier",
+        "region": "Top_Green_multiplier",
+        "type": "mesh",
+        "bone": "multiplier3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 28
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Top_Silver_multiplier",
+        "name": "Top_Silver_multiplier",
+        "region": "Top_Silver_multiplier",
+        "type": "mesh",
+        "bone": "multiplier3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 62,
+          "height": 46
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Wood_multiplier",
+        "name": "Wood_multiplier",
+        "region": "Wood_multiplier",
+        "type": "mesh",
+        "bone": "multiplier",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 94,
+          "height": 94
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 20,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "appear",
+        "duration": 1,
+        "keyframes": 117,
+        "curvedKeys": 59,
+        "channels": [
+          {
+            "path": "slots.BG_multiplier.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Bottom_Green_multiplier.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Bottom_Silver_multiplier.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Flame_multiplier.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Glow_multiplier.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Left_Green_multiplier.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Left_Silver_multiplier.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Middle_Green_multiplier.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Middle_Silver_multiplier.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Outer rim_multiplier.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Outer rim_multiplier2.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Right_Green_multiplier.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Right_Silver_multiplier.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Shadow_2_multiplier.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_multiplier.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Top_Green_multiplier.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Top_Silver_multiplier.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Wood_multiplier.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.X_multiplier.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.X_multiplier_add.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.multiplier.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_3d.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire10.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.multiplier_fire10.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.multiplier_fire3.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire6.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire9.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire2.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire4.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire7.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire5.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire8.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.text.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.text.scale",
+            "keyframes": 6
+          }
+        ],
+        "animatedBones": [
+          "multiplier",
+          "multiplier_3d",
+          "multiplier_fire10",
+          "multiplier_fire3",
+          "multiplier_fire6",
+          "multiplier_fire9",
+          "multiplier_fire2",
+          "multiplier_fire4",
+          "multiplier_fire7",
+          "multiplier_fire5",
+          "multiplier_fire8",
+          "multiplier_fire",
+          "text"
+        ],
+        "animatedSlots": [
+          "BG_multiplier",
+          "Bottom_Green_multiplier",
+          "Bottom_Silver_multiplier",
+          "Flame_multiplier",
+          "Glow_multiplier",
+          "Left_Green_multiplier",
+          "Left_Silver_multiplier",
+          "Middle_Green_multiplier",
+          "Middle_Silver_multiplier",
+          "Outer rim_multiplier",
+          "Outer rim_multiplier2",
+          "Right_Green_multiplier",
+          "Right_Silver_multiplier",
+          "Shadow_2_multiplier",
+          "Sparks_multiplier",
+          "Top_Green_multiplier",
+          "Top_Silver_multiplier",
+          "Wood_multiplier",
+          "X_multiplier",
+          "X_multiplier_add"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "transition"
+        ]
+      },
+      {
+        "name": "collect",
+        "duration": 1,
+        "keyframes": 409,
+        "curvedKeys": 307,
+        "channels": [
+          {
+            "path": "slots.Flame_multiplier.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.multiplier_19.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.shield_fire_01_multiplier.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.shield_fire_02_multiplier.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.shield_fire_03_multiplier.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_multiplier.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.multiplier.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_3d.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire_01.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.multiplier_fire_01.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire_02.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire_02.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire_03.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.multiplier_fire2.rotate",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.multiplier_fire2.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.multiplier_fire2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire3.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.multiplier_fire3.translate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.multiplier_fire3.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.multiplier_fire4.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.multiplier_fire4.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.multiplier_fire4.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire5.rotate",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.multiplier_fire5.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.multiplier_fire5.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire6.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.multiplier_fire6.translate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.multiplier_fire6.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.multiplier_fire7.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.multiplier_fire7.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire7.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire8.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.multiplier_fire8.translate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.multiplier_fire8.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.multiplier_fire9.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire9.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.multiplier_fire9.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire21.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire21.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire15.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire15.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire12.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire12.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire12.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire20.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire20.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire20.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire17.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire17.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire17.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire14.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire14.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.multiplier_fire14.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire19.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire19.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire19.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire16.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire16.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire16.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire13.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire13.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire13.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire11.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire11.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.multiplier_fire11.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire18.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire18.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.multiplier_fire18.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "attachments.default.multiplier_19.multi_sequence/multiplier_.sequence",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "multiplier",
+          "multiplier3",
+          "multiplier_3d",
+          "multiplier_fire",
+          "multiplier_fire_01",
+          "multiplier_fire_02",
+          "multiplier_fire_03",
+          "multiplier_fire2",
+          "multiplier_fire3",
+          "multiplier_fire4",
+          "multiplier_fire5",
+          "multiplier_fire6",
+          "multiplier_fire7",
+          "multiplier_fire8",
+          "multiplier_fire9",
+          "multiplier_fire21",
+          "multiplier_fire15",
+          "multiplier_fire12",
+          "multiplier_fire20",
+          "multiplier_fire17",
+          "multiplier_fire14",
+          "multiplier_fire19",
+          "multiplier_fire16",
+          "multiplier_fire13",
+          "multiplier_fire11",
+          "multiplier_fire18"
+        ],
+        "animatedSlots": [
+          "Flame_multiplier",
+          "multiplier_19",
+          "shield_fire_01_multiplier",
+          "shield_fire_02_multiplier",
+          "shield_fire_03_multiplier",
+          "Sparks_multiplier"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "win",
+        "duration": 1.1333,
+        "keyframes": 429,
+        "curvedKeys": 323,
+        "channels": [
+          {
+            "path": "slots.Flame_multiplier.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.multiplier_19.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.shield_fire_01_multiplier.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.shield_fire_02_multiplier.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.shield_fire_03_multiplier.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Sparks_multiplier.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.X_multiplier_add.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.multiplier.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_3d.translatex",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_3d.translatey",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_3d.shear",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire_01.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.multiplier_fire_01.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire_02.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire_02.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire_03.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.multiplier_fire2.rotate",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.multiplier_fire2.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.multiplier_fire2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire3.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.multiplier_fire3.translate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.multiplier_fire3.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.multiplier_fire4.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.multiplier_fire4.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.multiplier_fire4.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire5.rotate",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.multiplier_fire5.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.multiplier_fire5.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire6.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.multiplier_fire6.translate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.multiplier_fire6.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.multiplier_fire7.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.multiplier_fire7.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire7.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire8.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.multiplier_fire8.translate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.multiplier_fire8.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.multiplier_fire9.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire9.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.multiplier_fire9.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire21.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire21.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire15.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire15.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire12.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire12.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire12.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire20.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire20.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire20.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire17.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire17.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire17.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire14.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire14.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.multiplier_fire14.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire19.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire19.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire19.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire16.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire16.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.multiplier_fire16.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire13.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire13.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire13.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire11.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire11.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.multiplier_fire11.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier_fire18.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.multiplier_fire18.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.multiplier_fire18.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.multiplier3.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.text.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.text.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "attachments.default.multiplier_19.multi_sequence/multiplier_.sequence",
+            "keyframes": 1
+          },
+          {
+            "path": "drawOrder",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "multiplier",
+          "multiplier_3d",
+          "multiplier_fire",
+          "multiplier_fire_01",
+          "multiplier_fire_02",
+          "multiplier_fire_03",
+          "multiplier_fire2",
+          "multiplier_fire3",
+          "multiplier_fire4",
+          "multiplier_fire5",
+          "multiplier_fire6",
+          "multiplier_fire7",
+          "multiplier_fire8",
+          "multiplier_fire9",
+          "multiplier_fire21",
+          "multiplier_fire15",
+          "multiplier_fire12",
+          "multiplier_fire20",
+          "multiplier_fire17",
+          "multiplier_fire14",
+          "multiplier_fire19",
+          "multiplier_fire16",
+          "multiplier_fire13",
+          "multiplier_fire11",
+          "multiplier_fire18",
+          "multiplier3",
+          "text"
+        ],
+        "animatedSlots": [
+          "Flame_multiplier",
+          "multiplier_19",
+          "shield_fire_01_multiplier",
+          "shield_fire_02_multiplier",
+          "shield_fire_03_multiplier",
+          "Sparks_multiplier",
+          "X_multiplier",
+          "X_multiplier_add"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": true,
+        "events": [],
+        "tags": [
+          "win"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 31,
+      "slots": 24,
+      "attachments": 21,
+      "meshAttachments": 20,
+      "meshUvPairs": 156,
+      "constraints": {
+        "ik": 0,
+        "transform": 1,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "Bottom_Green_multiplier",
+      "file": "pieces/bottom-green-multiplier-91e96f1e.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1427,67,40,28"
+      }
+    },
+    {
+      "region": "Bottom_Silver_multiplier",
+      "file": "pieces/bottom-silver-multiplier-c44a7a25.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1449,99,60,46"
+      }
+    },
+    {
+      "region": "Flame_multiplier",
+      "file": "pieces/flame-multiplier-a4e2823d.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "173,103,142,140"
+      }
+    },
+    {
+      "region": "Glow_multiplier",
+      "file": "pieces/glow-multiplier-47878177.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "739,127,116,118",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Left_Green_multiplier",
+      "file": "pieces/left-green-multiplier-4e65aefb.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "134,4,28,41"
+      }
+    },
+    {
+      "region": "Left_Silver_multiplier",
+      "file": "pieces/left-silver-multiplier-8afd8ea3.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "0,0,45,63",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Middle_Green_multiplier",
+      "file": "pieces/middle-green-multiplier-48d8c140.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1471,62,34,33"
+      }
+    },
+    {
+      "region": "Middle_Silver_multiplier",
+      "file": "pieces/middle-silver-multiplier-ebd0291e.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1383,54,40,41"
+      }
+    },
+    {
+      "region": "Outer rim_multiplier",
+      "file": "pieces/outer-rim-multiplier-b496b7a3.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "861,136,106,107"
+      }
+    },
+    {
+      "region": "Right_Green_multiplier",
+      "file": "pieces/right-green-multiplier-2a945a57.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1513,104,28,41"
+      }
+    },
+    {
+      "region": "Right_Silver_multiplier",
+      "file": "pieces/right-silver-multiplier-cfa27d94.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "67,0,45,63",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Shadow_2_multiplier",
+      "file": "pieces/shadow-2-multiplier-8ee6a202.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "971,140,108,103"
+      }
+    },
+    {
+      "region": "Sparks_multiplier",
+      "file": "pieces/sparks-multiplier-e42318eb.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "611,127,124,116"
+      }
+    },
+    {
+      "region": "Top_Green_multiplier",
+      "file": "pieces/top-green-multiplier-cfe96d32.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1545,117,40,28"
+      }
+    },
+    {
+      "region": "Top_Silver_multiplier",
+      "file": "pieces/top-silver-multiplier-b8e4467d.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1383,99,62,46"
+      }
+    },
+    {
+      "region": "Wood_multiplier",
+      "file": "pieces/wood-multiplier-b69f68f0.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1083,149,94,94"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_00",
+      "file": "pieces/multi-sequence-multiplier-00-756711fb.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1181,149,92,94"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_01",
+      "file": "pieces/multi-sequence-multiplier-01-02cf95a8.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1277,149,92,94"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_02",
+      "file": "pieces/multi-sequence-multiplier-02-56884970.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1373,149,92,94"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_03",
+      "file": "pieces/multi-sequence-multiplier-03-311b36fe.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1469,149,92,94"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_04",
+      "file": "pieces/multi-sequence-multiplier-04-c1170c28.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1565,149,92,94"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_05",
+      "file": "pieces/multi-sequence-multiplier-05-30d761b5.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1661,149,92,94"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_06",
+      "file": "pieces/multi-sequence-multiplier-06-d69c638e.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1757,149,92,94"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_07",
+      "file": "pieces/multi-sequence-multiplier-07-38336006.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1853,149,92,94"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_08",
+      "file": "pieces/multi-sequence-multiplier-08-d93122db.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1949,149,92,94"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_09",
+      "file": "pieces/multi-sequence-multiplier-09-ce838b86.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "173,7,92,94",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_10",
+      "file": "pieces/multi-sequence-multiplier-10-81bc704c.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "271,5,92,94"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_11",
+      "file": "pieces/multi-sequence-multiplier-11-c4a3a58f.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "367,6,92,94"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_12",
+      "file": "pieces/multi-sequence-multiplier-12-36359eee.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "611,31,92,94",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_13",
+      "file": "pieces/multi-sequence-multiplier-13-61025e47.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "709,31,92,94",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_14",
+      "file": "pieces/multi-sequence-multiplier-14-77cfe2c0.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "807,29,92,94"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_15",
+      "file": "pieces/multi-sequence-multiplier-15-77df274b.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "903,38,92,94"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_16",
+      "file": "pieces/multi-sequence-multiplier-16-63fe83f3.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "999,42,92,94"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_17",
+      "file": "pieces/multi-sequence-multiplier-17-c830a6dd.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1095,51,92,94"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_18",
+      "file": "pieces/multi-sequence-multiplier-18-ca04ab45.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1191,51,92,94"
+      }
+    },
+    {
+      "region": "multi_sequence/multiplier_19",
+      "file": "pieces/multi-sequence-multiplier-19-1780a884.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "1287,51,92,94"
+      }
+    },
+    {
+      "region": "shield_fire_01_multiplier",
+      "file": "pieces/shield-fire-01-multiplier-9e62773f.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "319,104,141,139"
+      }
+    },
+    {
+      "region": "shield_fire_02_multiplier",
+      "file": "pieces/shield-fire-02-multiplier-bfc31c34.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "464,111,132,143",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "shield_fire_03_multiplier",
+      "file": "pieces/shield-fire-03-multiplier-60173245.png",
+      "page": "multiplier.webp",
+      "properties": {
+        "bounds": "0,49,169,194"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

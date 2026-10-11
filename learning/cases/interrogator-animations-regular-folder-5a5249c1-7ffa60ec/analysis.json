@@ -1,0 +1,577 @@
+{
+  "id": "interrogator-animations-regular-folder-5a5249c1-7ffa60ec",
+  "collection": "library",
+  "name": "regular-folder",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/interrogator/animations/regular-folder-5a5249c1",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 12,
+    "slots": 2,
+    "attachments": 3,
+    "meshAttachments": 3,
+    "meshUvPairs": 1071,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 1179616,
+    "rgbaBytesEstimate": 4718464,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 2,
+  "actions": [
+    {
+      "name": "land",
+      "duration": 0.7,
+      "keyframes": 431,
+      "curvedKeys": 42,
+      "channels": [
+        {
+          "path": "bones.sway.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.sway.translate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.paper_left_tip.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.paper_left_tip.translate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.paper_tip_left.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.paper_tip_left.translate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.paper_tip_right.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.paper_tip_right.translate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.lip_left.translate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.lip_right.translate",
+          "keyframes": 43
+        },
+        {
+          "path": "events",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "sway",
+        "paper_left_tip",
+        "paper_tip_left",
+        "paper_tip_right",
+        "lip_left",
+        "lip_right"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [
+        {
+          "name": "land",
+          "time": 0.12
+        }
+      ],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "win",
+      "duration": 1.3,
+      "keyframes": 635,
+      "curvedKeys": 84,
+      "channels": [
+        {
+          "path": "slots.front_cover.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.sway.rotate",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.sway.translate",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.sway.scale",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.paper_tip_left.rotate",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.paper_tip_left.translate",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.paper_tip_right.rotate",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.paper_tip_right.translate",
+          "keyframes": 79
+        },
+        {
+          "path": "bones.cover_fold_edge.translate",
+          "keyframes": 79
+        },
+        {
+          "path": "events",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "sway",
+        "paper_tip_left",
+        "paper_tip_right",
+        "cover_fold_edge"
+      ],
+      "animatedSlots": [
+        "front_cover"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [
+        {
+          "name": "win_impact",
+          "time": 0.45
+        }
+      ],
+      "tags": [
+        "win"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/interrogator-animations-regular-folder-5a5249c1-7ffa60ec/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "sway",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "paper_left",
+        "parent": "sway",
+        "x": -313.04,
+        "y": 108.26,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "paper_left_tip",
+        "parent": "paper_left",
+        "x": -20.87,
+        "y": 191.3,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "paper",
+        "parent": "sway",
+        "x": -76.52,
+        "y": 183.04,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "paper_tip_left",
+        "parent": "paper",
+        "x": -176.52,
+        "y": 160.87,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "paper_tip_right",
+        "parent": "paper",
+        "x": 188.7,
+        "y": 244.35,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cover",
+        "parent": "sway",
+        "x": -279.13,
+        "y": -438.7,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "lip_left",
+        "parent": "cover",
+        "x": 39.13,
+        "y": 558.26,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "lip_right",
+        "parent": "cover",
+        "x": 622.61,
+        "y": 697.39,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cover_hinge",
+        "parent": "sway",
+        "x": -310.43,
+        "y": -465.65,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cover_fold_edge",
+        "parent": "cover_hinge",
+        "x": 379.13,
+        "y": 721.74,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "interior",
+        "bone": "root",
+        "setupAttachment": "interior",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "front_cover",
+        "bone": "root",
+        "setupAttachment": "front_cover",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "front_cover",
+        "name": "front_cover",
+        "region": "front_cover",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 760,
+          "height": 768
+        },
+        "mesh": {
+          "uvPairs": 357,
+          "vertexNumbers": 4141,
+          "triangles": 640,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "front_cover",
+        "name": "front_cover_open",
+        "region": "front_cover",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 760,
+          "height": 768
+        },
+        "mesh": {
+          "uvPairs": 357,
+          "vertexNumbers": 3065,
+          "triangles": 640,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "interior",
+        "name": "interior",
+        "region": "interior",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 762,
+          "height": 768
+        },
+        "mesh": {
+          "uvPairs": 357,
+          "vertexNumbers": 2685,
+          "triangles": 640,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "land",
+        "duration": 0.7,
+        "keyframes": 431,
+        "curvedKeys": 42,
+        "channels": [
+          {
+            "path": "bones.sway.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.sway.translate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.paper_left_tip.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.paper_left_tip.translate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.paper_tip_left.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.paper_tip_left.translate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.paper_tip_right.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.paper_tip_right.translate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.lip_left.translate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.lip_right.translate",
+            "keyframes": 43
+          },
+          {
+            "path": "events",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "sway",
+          "paper_left_tip",
+          "paper_tip_left",
+          "paper_tip_right",
+          "lip_left",
+          "lip_right"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [
+          {
+            "name": "land",
+            "time": 0.12
+          }
+        ],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "win",
+        "duration": 1.3,
+        "keyframes": 635,
+        "curvedKeys": 84,
+        "channels": [
+          {
+            "path": "slots.front_cover.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.sway.rotate",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.sway.translate",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.sway.scale",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.paper_tip_left.rotate",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.paper_tip_left.translate",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.paper_tip_right.rotate",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.paper_tip_right.translate",
+            "keyframes": 79
+          },
+          {
+            "path": "bones.cover_fold_edge.translate",
+            "keyframes": 79
+          },
+          {
+            "path": "events",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "sway",
+          "paper_tip_left",
+          "paper_tip_right",
+          "cover_fold_edge"
+        ],
+        "animatedSlots": [
+          "front_cover"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [
+          {
+            "name": "win_impact",
+            "time": 0.45
+          }
+        ],
+        "tags": [
+          "win"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 12,
+      "slots": 2,
+      "attachments": 3,
+      "meshAttachments": 3,
+      "meshUvPairs": 1071,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "front_cover",
+      "file": "pieces/front-cover-29c86f50.png",
+      "page": "regular-folder.png",
+      "properties": {
+        "bounds": "766,2,760,768"
+      }
+    },
+    {
+      "region": "interior",
+      "file": "pieces/interior-9d3a35cd.png",
+      "page": "regular-folder.png",
+      "properties": {
+        "bounds": "2,2,762,768"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

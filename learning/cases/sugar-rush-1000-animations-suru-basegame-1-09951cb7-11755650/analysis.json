@@ -1,0 +1,332 @@
+{
+  "id": "sugar-rush-1000-animations-suru-basegame-1-09951cb7-11755650",
+  "collection": "library",
+  "name": "suru_basegame_1",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-basegame-1-09951cb7",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 5,
+    "slots": 3,
+    "attachments": 3,
+    "meshAttachments": 2,
+    "meshUvPairs": 37,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 26950,
+    "rgbaBytesEstimate": 107800,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 3,
+  "actions": [
+    {
+      "name": "suru_basegame",
+      "duration": 6,
+      "keyframes": 41,
+      "curvedKeys": 11,
+      "channels": [
+        {
+          "path": "slots.choco_drop.color",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.fan_left.rotate",
+          "keyframes": 13
+        },
+        {
+          "path": "bones.fan_left2.rotate",
+          "keyframes": 13
+        },
+        {
+          "path": "deform.default.choco_drop.choco_drop",
+          "keyframes": 5
+        },
+        {
+          "path": "deform.default.chocolate.chocolate",
+          "keyframes": 6
+        }
+      ],
+      "animatedBones": [
+        "fan_left",
+        "fan_left2"
+      ],
+      "animatedSlots": [
+        "choco_drop"
+      ],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-basegame-1-09951cb7-11755650/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "left_frame",
+        "parent": "root",
+        "x": -619.2,
+        "y": 17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "fan_left",
+        "parent": "left_frame",
+        "x": -47.49,
+        "y": -363.64,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "right_frame",
+        "parent": "root",
+        "x": 592.99,
+        "y": 17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      },
+      {
+        "name": "fan_left2",
+        "parent": "right_frame",
+        "x": -47.49,
+        "y": -363.64,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "chocolate_shadow",
+        "bone": "root",
+        "setupAttachment": "chocolate_shadow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "chocolate",
+        "bone": "root",
+        "setupAttachment": "chocolate",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "choco_drop",
+        "bone": "root",
+        "setupAttachment": "choco_drop",
+        "blend": "normal",
+        "color": "ffffff00"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "choco_drop",
+        "name": "choco_drop",
+        "region": "choco_drop",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "chocolate",
+        "name": "chocolate",
+        "region": "chocolate",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 33,
+          "vertexNumbers": 66,
+          "triangles": 45,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "chocolate_shadow",
+        "name": "chocolate_shadow",
+        "region": "chocolate_shadow",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -842.5,
+          "y": -12.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 121,
+          "height": 101
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "suru_basegame",
+        "duration": 6,
+        "keyframes": 41,
+        "curvedKeys": 11,
+        "channels": [
+          {
+            "path": "slots.choco_drop.color",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.fan_left.rotate",
+            "keyframes": 13
+          },
+          {
+            "path": "bones.fan_left2.rotate",
+            "keyframes": 13
+          },
+          {
+            "path": "deform.default.choco_drop.choco_drop",
+            "keyframes": 5
+          },
+          {
+            "path": "deform.default.chocolate.chocolate",
+            "keyframes": 6
+          }
+        ],
+        "animatedBones": [
+          "fan_left",
+          "fan_left2"
+        ],
+        "animatedSlots": [
+          "choco_drop"
+        ],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 5,
+      "slots": 3,
+      "attachments": 3,
+      "meshAttachments": 2,
+      "meshUvPairs": 37,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "choco_drop",
+      "file": "pieces/choco-drop-d2ce7fc4.png",
+      "page": "suru_basegame_1.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "123, 0",
+        "size": "15, 54",
+        "orig": "15, 54",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "chocolate",
+      "file": "pieces/chocolate-a3e68e1d.png",
+      "page": "suru_basegame_1.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "123, 17",
+        "size": "122, 93",
+        "orig": "122, 93",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "chocolate_shadow",
+      "file": "pieces/chocolate-shadow-e91b8845.png",
+      "page": "suru_basegame_1.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 9",
+        "size": "121, 101",
+        "orig": "121, 101",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

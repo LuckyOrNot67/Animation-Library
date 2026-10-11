@@ -1,0 +1,4022 @@
+{
+  "id": "interrogator-animations-bonus-7d23adc8-7b722b1f",
+  "collection": "library",
+  "name": "bonus",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/interrogator/animations/bonus-7d23adc8",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 74,
+    "slots": 23,
+    "attachments": 23,
+    "meshAttachments": 10,
+    "meshUvPairs": 1290,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 5,
+  "textureBudget": {
+    "pixels": 3423701,
+    "rgbaBytesEstimate": 13694804,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 62,
+  "actions": [
+    {
+      "name": "hit",
+      "duration": 2.2,
+      "keyframes": 7165,
+      "curvedKeys": 2616,
+      "channels": [
+        {
+          "path": "bones.bottle.rotate",
+          "keyframes": 133
+        },
+        {
+          "path": "bones.bottle.translate",
+          "keyframes": 133
+        },
+        {
+          "path": "bones.bottle.scale",
+          "keyframes": 133
+        },
+        {
+          "path": "bones.lettering.scale",
+          "keyframes": 133
+        },
+        {
+          "path": "bones.liquid_fill.rotate",
+          "keyframes": 133
+        },
+        {
+          "path": "bones.liquid_fill.translate",
+          "keyframes": 133
+        },
+        {
+          "path": "bones.surface_left.translate",
+          "keyframes": 133
+        },
+        {
+          "path": "bones.surface_middle.translate",
+          "keyframes": 133
+        },
+        {
+          "path": "bones.surface_right.translate",
+          "keyframes": 133
+        },
+        {
+          "path": "bones.cork.rotate",
+          "keyframes": 133
+        },
+        {
+          "path": "bones.cork.translate",
+          "keyframes": 133
+        },
+        {
+          "path": "bones.liquid_feed_top.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.liquid_feed_top.scale",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.liquid_drop_0.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.liquid_drop_0.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.liquid_drop_0.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.liquid_drop_1.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.liquid_drop_1.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.liquid_drop_1.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.liquid_drop_2.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.liquid_drop_2.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.liquid_drop_2.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.liquid_drop_3.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.liquid_drop_3.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.liquid_drop_3.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.liquid_drop_4.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.liquid_drop_4.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.liquid_drop_4.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.liquid_drop_5.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.liquid_drop_5.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.liquid_drop_5.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.liquid_drop_6.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.liquid_drop_6.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.liquid_drop_6.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.liquid_drop_7.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.liquid_drop_7.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.liquid_drop_7.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.liquid_drop_8.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.liquid_drop_8.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.liquid_drop_8.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.letter_B.rotate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_B.translate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_B.scale",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_B_tip.rotate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_B_tip.translate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_B_tip.scale",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_O.rotate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_O.translate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_O.scale",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_O_tip.rotate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_O_tip.translate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_O_tip.scale",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_N.rotate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_N.translate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_N.scale",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_N_tip.rotate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_N_tip.translate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_N_tip.scale",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_U.rotate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_U.translate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_U.scale",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_U_tip.rotate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_U_tip.translate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_U_tip.scale",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_S.rotate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_S.translate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_S.scale",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_S_tip.rotate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_S_tip.translate",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.letter_S_tip.scale",
+          "keyframes": 100
+        },
+        {
+          "path": "bones.reel_L_spin.rotate",
+          "keyframes": 67
+        },
+        {
+          "path": "bones.reel_R_spin.rotate",
+          "keyframes": 67
+        },
+        {
+          "path": "bones.tape_L0.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L0.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L1.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L1.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L2.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L2.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L3.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L3.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L4.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L4.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L5.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L5.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L6.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L6.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L7.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L7.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L8.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L8.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L9.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L9.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L10.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L10.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L11.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L11.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L12.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L12.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L13.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L13.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L14.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L14.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L15.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_L15.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R0.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R0.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R1.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R1.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R2.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R2.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R3.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R3.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R4.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R4.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R5.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R5.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R6.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R6.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R7.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R7.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R8.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R8.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R9.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R9.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R10.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R10.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R11.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R11.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R12.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R12.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R13.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R13.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R14.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R14.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R15.rotate",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.tape_R15.scale",
+          "keyframes": 36
+        },
+        {
+          "path": "bones.rec_lamp.scale",
+          "keyframes": 44
+        },
+        {
+          "path": "events",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.tape_L.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.tape_R.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.rec_glow.rgba",
+          "keyframes": 45
+        }
+      ],
+      "animatedBones": [
+        "bottle",
+        "lettering",
+        "liquid_fill",
+        "surface_left",
+        "surface_middle",
+        "surface_right",
+        "cork",
+        "liquid_feed_top",
+        "liquid_drop_0",
+        "liquid_drop_1",
+        "liquid_drop_2",
+        "liquid_drop_3",
+        "liquid_drop_4",
+        "liquid_drop_5",
+        "liquid_drop_6",
+        "liquid_drop_7",
+        "liquid_drop_8",
+        "letter_B",
+        "letter_B_tip",
+        "letter_O",
+        "letter_O_tip",
+        "letter_N",
+        "letter_N_tip",
+        "letter_U",
+        "letter_U_tip",
+        "letter_S",
+        "letter_S_tip",
+        "reel_L_spin",
+        "reel_R_spin",
+        "tape_L0",
+        "tape_L1",
+        "tape_L2",
+        "tape_L3",
+        "tape_L4",
+        "tape_L5",
+        "tape_L6",
+        "tape_L7",
+        "tape_L8",
+        "tape_L9",
+        "tape_L10",
+        "tape_L11",
+        "tape_L12",
+        "tape_L13",
+        "tape_L14",
+        "tape_L15",
+        "tape_R0",
+        "tape_R1",
+        "tape_R2",
+        "tape_R3",
+        "tape_R4",
+        "tape_R5",
+        "tape_R6",
+        "tape_R7",
+        "tape_R8",
+        "tape_R9",
+        "tape_R10",
+        "tape_R11",
+        "tape_R12",
+        "tape_R13",
+        "tape_R14",
+        "tape_R15",
+        "rec_lamp"
+      ],
+      "animatedSlots": [
+        "tape_L",
+        "tape_R",
+        "rec_glow"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [
+        {
+          "name": "burst",
+          "time": 0.68
+        }
+      ],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "idle",
+      "duration": 3,
+      "keyframes": 7421,
+      "curvedKeys": 3973,
+      "channels": [
+        {
+          "path": "bones.liquid_left.translate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.liquid_right.translate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.bottle.rotate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.bottle.translate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.liquid_fill.rotate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.liquid_fill.translate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.surface_left.translate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.surface_middle.translate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.surface_right.translate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.cork.rotate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.cork.translate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_B.rotate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_B.translate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_B.scale",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_B_tip.rotate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_B_tip.translate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_B_tip.scale",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_O.rotate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_O.translate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_O.scale",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_O_tip.rotate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_O_tip.translate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_O_tip.scale",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_N.rotate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_N.translate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_N.scale",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_N_tip.rotate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_N_tip.translate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_N_tip.scale",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_U.rotate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_U.translate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_U.scale",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_U_tip.rotate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_U_tip.translate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_U_tip.scale",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_S.rotate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_S.translate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_S.scale",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_S_tip.rotate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_S_tip.translate",
+          "keyframes": 181
+        },
+        {
+          "path": "bones.letter_S_tip.scale",
+          "keyframes": 181
+        }
+      ],
+      "animatedBones": [
+        "liquid_left",
+        "liquid_right",
+        "bottle",
+        "liquid_fill",
+        "surface_left",
+        "surface_middle",
+        "surface_right",
+        "cork",
+        "letter_B",
+        "letter_B_tip",
+        "letter_O",
+        "letter_O_tip",
+        "letter_N",
+        "letter_N_tip",
+        "letter_U",
+        "letter_U_tip",
+        "letter_S",
+        "letter_S_tip"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "land",
+      "duration": 0.8,
+      "keyframes": 1275,
+      "curvedKeys": 433,
+      "channels": [
+        {
+          "path": "bones.bottle.translate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.bottle.scale",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.liquid_left.translate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.liquid_right.translate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.lettering.translate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.liquid_fill.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.surface_left.translate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.surface_middle.translate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.surface_right.translate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.cork.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.cork.translate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.letter_B.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.letter_B.translate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.letter_B.scale",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.letter_O.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.letter_O.translate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.letter_O.scale",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.letter_N.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.letter_N.translate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.letter_N.scale",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.letter_U.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.letter_U.translate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.letter_U.scale",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.letter_S.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.letter_S.translate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.letter_S.scale",
+          "keyframes": 49
+        },
+        {
+          "path": "events",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "bottle",
+        "liquid_left",
+        "liquid_right",
+        "lettering",
+        "liquid_fill",
+        "surface_left",
+        "surface_middle",
+        "surface_right",
+        "cork",
+        "letter_B",
+        "letter_O",
+        "letter_N",
+        "letter_U",
+        "letter_S"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [
+        {
+          "name": "land",
+          "time": 0.1
+        }
+      ],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/interrogator-animations-bonus-7d23adc8-7b722b1f/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bottle",
+        "parent": "root",
+        "x": 0,
+        "y": -470,
+        "length": 50,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cork",
+        "parent": "bottle",
+        "x": 0,
+        "y": 805,
+        "length": 50,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "liquid_left",
+        "parent": "bottle",
+        "x": -240,
+        "y": 500,
+        "length": 50,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "liquid_right",
+        "parent": "bottle",
+        "x": 240,
+        "y": 500,
+        "length": 50,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "lettering",
+        "parent": "bottle",
+        "x": 0,
+        "y": 235,
+        "length": 50,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "liquid_fill",
+        "parent": "bottle",
+        "x": -13.22,
+        "y": 334.63,
+        "length": 65,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "surface_left",
+        "parent": "liquid_fill",
+        "x": -388.33,
+        "y": 255.97,
+        "length": 65,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "surface_middle",
+        "parent": "liquid_fill",
+        "x": 0,
+        "y": 255.97,
+        "length": 65,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "surface_right",
+        "parent": "liquid_fill",
+        "x": 388.33,
+        "y": 255.97,
+        "length": 65,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cork_sprite",
+        "parent": "cork",
+        "x": -13.67,
+        "y": 44.67,
+        "length": 65,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "liquid_mouth",
+        "parent": "bottle",
+        "x": -13.22,
+        "y": 815.57,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "liquid_drop_0",
+        "parent": "liquid_mouth",
+        "x": -60,
+        "y": 84,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "liquid_drop_1",
+        "parent": "liquid_mouth",
+        "x": 81,
+        "y": 84,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "liquid_drop_2",
+        "parent": "liquid_mouth",
+        "x": -102,
+        "y": 84,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "liquid_drop_3",
+        "parent": "liquid_mouth",
+        "x": 123,
+        "y": 84,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "liquid_drop_4",
+        "parent": "liquid_mouth",
+        "x": -144,
+        "y": 84,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "liquid_drop_5",
+        "parent": "liquid_mouth",
+        "x": 165,
+        "y": 84,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "liquid_drop_6",
+        "parent": "liquid_mouth",
+        "x": -186,
+        "y": 84,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "liquid_drop_7",
+        "parent": "liquid_mouth",
+        "x": 207,
+        "y": 84,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "liquid_drop_8",
+        "parent": "liquid_mouth",
+        "x": -228,
+        "y": 84,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "liquid_feed_base",
+        "parent": "liquid_fill",
+        "x": 0,
+        "y": 168.36,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "liquid_feed_top",
+        "parent": "liquid_mouth",
+        "x": 0,
+        "y": 0,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "letter_B",
+        "parent": "lettering",
+        "x": -391.52,
+        "y": -8.39,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "letter_B_tip",
+        "parent": "letter_B",
+        "x": 0,
+        "y": 111.99,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "letter_O",
+        "parent": "lettering",
+        "x": -193.25,
+        "y": -12.95,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "letter_O_tip",
+        "parent": "letter_O",
+        "x": 0,
+        "y": 103.69,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "letter_N",
+        "parent": "lettering",
+        "x": 10.03,
+        "y": -4.74,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "letter_N_tip",
+        "parent": "letter_N",
+        "x": 0,
+        "y": 109.43,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "letter_U",
+        "parent": "lettering",
+        "x": 206.47,
+        "y": -8.85,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "letter_U_tip",
+        "parent": "letter_U",
+        "x": 0,
+        "y": 107.2,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "letter_S",
+        "parent": "lettering",
+        "x": 397.9,
+        "y": -15.68,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "letter_S_tip",
+        "parent": "letter_S",
+        "x": 0,
+        "y": 105.61,
+        "length": 55,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "reel_L_face",
+        "parent": "bottle",
+        "x": -255.7,
+        "y": 782.67,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 0.65
+      },
+      {
+        "name": "reel_L_rec",
+        "parent": "reel_L_face",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "reel_L_spin",
+        "parent": "reel_L_rec",
+        "x": 0,
+        "y": 0,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "reel_R_face",
+        "parent": "bottle",
+        "x": 231.99,
+        "y": 780.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 0.65
+      },
+      {
+        "name": "reel_R_rec",
+        "parent": "reel_R_face",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "reel_R_spin",
+        "parent": "reel_R_rec",
+        "x": 0,
+        "y": 0,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_L0",
+        "parent": "bottle",
+        "x": -470.149,
+        "y": 825.286,
+        "length": 62,
+        "rotation": 112,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_L1",
+        "parent": "tape_L0",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": 23,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_L2",
+        "parent": "tape_L1",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": 30,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_L3",
+        "parent": "tape_L2",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": 35,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_L4",
+        "parent": "tape_L3",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": 36,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_L5",
+        "parent": "tape_L4",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": 26,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_L6",
+        "parent": "tape_L5",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": 14,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_L7",
+        "parent": "tape_L6",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": -8,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_L8",
+        "parent": "tape_L7",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": -13,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_L9",
+        "parent": "tape_L8",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": 7,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_L10",
+        "parent": "tape_L9",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": 16,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_L11",
+        "parent": "tape_L10",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": 7,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_L12",
+        "parent": "tape_L11",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": -23,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_L13",
+        "parent": "tape_L12",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": -40,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_L14",
+        "parent": "tape_L13",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": -47,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_L15",
+        "parent": "tape_L14",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": -40,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_R0",
+        "parent": "bottle",
+        "x": 446.439,
+        "y": 823.466,
+        "length": 62,
+        "rotation": 68,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_R1",
+        "parent": "tape_R0",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": -23,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_R2",
+        "parent": "tape_R1",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": -30,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_R3",
+        "parent": "tape_R2",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": -35,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_R4",
+        "parent": "tape_R3",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": -36,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_R5",
+        "parent": "tape_R4",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": -26,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_R6",
+        "parent": "tape_R5",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": -14,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_R7",
+        "parent": "tape_R6",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": 8,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_R8",
+        "parent": "tape_R7",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": 13,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_R9",
+        "parent": "tape_R8",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": -7,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_R10",
+        "parent": "tape_R9",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": -16,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_R11",
+        "parent": "tape_R10",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": -7,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_R12",
+        "parent": "tape_R11",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": 23,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_R13",
+        "parent": "tape_R12",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": 40,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_R14",
+        "parent": "tape_R13",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": 47,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tape_R15",
+        "parent": "tape_R14",
+        "x": 62,
+        "y": 0,
+        "length": 62,
+        "rotation": 40,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "rec_lamp",
+        "parent": "bottle",
+        "x": 312.21,
+        "y": 136.82,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "glint_L",
+        "parent": "bottle",
+        "x": -366.002,
+        "y": 600.875,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "glint_R",
+        "parent": "bottle",
+        "x": 100.724,
+        "y": 553.367,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "bottle",
+        "bone": "root",
+        "setupAttachment": "bottle",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "band_L",
+        "bone": "bottle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "band_R",
+        "bone": "bottle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glint_L",
+        "bone": "glint_L",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glint_R",
+        "bone": "glint_R",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "disc_L",
+        "bone": "reel_L_spin",
+        "setupAttachment": "disc_L",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "disc_R",
+        "bone": "reel_R_spin",
+        "setupAttachment": "disc_R",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "hub_L",
+        "bone": "bottle",
+        "setupAttachment": "hub_L",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "hub_R",
+        "bone": "bottle",
+        "setupAttachment": "hub_R",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "tape_L",
+        "bone": "tape_L0",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "tape_R",
+        "bone": "tape_R0",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "rec_glow",
+        "bone": "rec_lamp",
+        "setupAttachment": "rec_glow",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "vu_0",
+        "bone": "bottle",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "vu_1",
+        "bone": "bottle",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "vu_2",
+        "bone": "bottle",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "vu_3",
+        "bone": "bottle",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "vu_4",
+        "bone": "bottle",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "vu_5",
+        "bone": "bottle",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "letter_B",
+        "bone": "root",
+        "setupAttachment": "letter_B",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "letter_O",
+        "bone": "root",
+        "setupAttachment": "letter_O",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "letter_N",
+        "bone": "root",
+        "setupAttachment": "letter_N",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "letter_U",
+        "bone": "root",
+        "setupAttachment": "letter_U",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "letter_S",
+        "bone": "root",
+        "setupAttachment": "letter_S",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "bottle",
+        "name": "bottle",
+        "region": "bottle",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1254,
+          "height": 1254
+        },
+        "mesh": {
+          "uvPairs": 783,
+          "vertexNumbers": 3915,
+          "triangles": 1456,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "letter_B",
+        "name": "letter_B",
+        "region": "letter_B",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1000,
+          "height": 1215
+        },
+        "mesh": {
+          "uvPairs": 63,
+          "vertexNumbers": 539,
+          "triangles": 96,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "letter_N",
+        "name": "letter_N",
+        "region": "letter_N",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1170,
+          "height": 1272
+        },
+        "mesh": {
+          "uvPairs": 63,
+          "vertexNumbers": 539,
+          "triangles": 96,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "letter_O",
+        "name": "letter_O",
+        "region": "letter_O",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1134,
+          "height": 1242
+        },
+        "mesh": {
+          "uvPairs": 63,
+          "vertexNumbers": 539,
+          "triangles": 96,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "letter_S",
+        "name": "letter_S",
+        "region": "letter_S",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 977,
+          "height": 1196
+        },
+        "mesh": {
+          "uvPairs": 63,
+          "vertexNumbers": 539,
+          "triangles": 96,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "letter_U",
+        "name": "letter_U",
+        "region": "letter_U",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1151,
+          "height": 1203
+        },
+        "mesh": {
+          "uvPairs": 63,
+          "vertexNumbers": 539,
+          "triangles": 96,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "disc_L",
+        "name": "disc_L",
+        "region": "disc_L",
+        "type": "region",
+        "bone": "reel_L_spin",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 412.03,
+          "height": 412.03
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "hub_L",
+        "name": "hub_L",
+        "region": "hub_L",
+        "type": "region",
+        "bone": "bottle",
+        "transform": {
+          "x": -250.23,
+          "y": 776.29,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 100.27,
+          "height": 78.4
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "disc_R",
+        "name": "disc_R",
+        "region": "disc_R",
+        "type": "region",
+        "bone": "reel_R_spin",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 412.03,
+          "height": 412.03
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "hub_R",
+        "name": "hub_R",
+        "region": "hub_R",
+        "type": "region",
+        "bone": "bottle",
+        "transform": {
+          "x": 237.46,
+          "y": 772.65,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 98.45,
+          "height": 82.04
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "rec_glow",
+        "name": "rec_glow",
+        "region": "rec_glow",
+        "type": "region",
+        "bone": "rec_lamp",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 437.56,
+          "height": 437.56
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "tape_L",
+        "name": "tape_L",
+        "region": "tape",
+        "type": "mesh",
+        "bone": "tape_L0",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1088,
+          "height": 40
+        },
+        "mesh": {
+          "uvPairs": 66,
+          "vertexNumbers": 450,
+          "triangles": 64,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "tape_R",
+        "name": "tape_R",
+        "region": "tape",
+        "type": "mesh",
+        "bone": "tape_R0",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1088,
+          "height": 40
+        },
+        "mesh": {
+          "uvPairs": 66,
+          "vertexNumbers": 450,
+          "triangles": 64,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "band_L",
+        "name": "band_L",
+        "region": "band_L_",
+        "type": "mesh",
+        "bone": "bottle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 238.83,
+          "height": 29.17
+        },
+        "mesh": {
+          "uvPairs": 30,
+          "vertexNumbers": 60,
+          "triangles": 28,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": {
+          "count": 24,
+          "start": 0,
+          "digits": 2,
+          "setupIndex": 0
+        }
+      },
+      {
+        "skin": "default",
+        "slot": "glint_L",
+        "name": "band_glint",
+        "region": "band_glint",
+        "type": "region",
+        "bone": "glint_L",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 116.68,
+          "height": 36.46
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "band_R",
+        "name": "band_R",
+        "region": "band_R_",
+        "type": "mesh",
+        "bone": "bottle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 257.06,
+          "height": 29.17
+        },
+        "mesh": {
+          "uvPairs": 30,
+          "vertexNumbers": 60,
+          "triangles": 28,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": {
+          "count": 24,
+          "start": 0,
+          "digits": 2,
+          "setupIndex": 0
+        }
+      },
+      {
+        "skin": "default",
+        "slot": "glint_R",
+        "name": "band_glint",
+        "region": "band_glint",
+        "type": "region",
+        "bone": "glint_R",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 116.68,
+          "height": 36.46
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "vu_0",
+        "name": "key_glow",
+        "region": "key_glow",
+        "type": "region",
+        "bone": "bottle",
+        "transform": {
+          "x": -351.417,
+          "y": 145.028,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 124.56,
+          "height": 86.64
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "vu_1",
+        "name": "key_glow",
+        "region": "key_glow",
+        "type": "region",
+        "bone": "bottle",
+        "transform": {
+          "x": -229.266,
+          "y": 145.028,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 117.88,
+          "height": 86.64
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "vu_2",
+        "name": "key_glow",
+        "region": "key_glow",
+        "type": "region",
+        "bone": "bottle",
+        "transform": {
+          "x": -118.054,
+          "y": 145.94,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 117.88,
+          "height": 86.64
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "vu_3",
+        "name": "key_glow",
+        "region": "key_glow",
+        "type": "region",
+        "bone": "bottle",
+        "transform": {
+          "x": -7.754,
+          "y": 145.028,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 111.21,
+          "height": 86.64
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "vu_4",
+        "name": "key_glow",
+        "region": "key_glow",
+        "type": "region",
+        "bone": "bottle",
+        "transform": {
+          "x": 99.812,
+          "y": 145.94,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 107.88,
+          "height": 86.64
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "vu_5",
+        "name": "key_glow",
+        "region": "key_glow",
+        "type": "region",
+        "bone": "bottle",
+        "transform": {
+          "x": 204.643,
+          "y": 145.94,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 106.76,
+          "height": 86.64
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "hit",
+        "duration": 2.2,
+        "keyframes": 7165,
+        "curvedKeys": 2616,
+        "channels": [
+          {
+            "path": "bones.bottle.rotate",
+            "keyframes": 133
+          },
+          {
+            "path": "bones.bottle.translate",
+            "keyframes": 133
+          },
+          {
+            "path": "bones.bottle.scale",
+            "keyframes": 133
+          },
+          {
+            "path": "bones.lettering.scale",
+            "keyframes": 133
+          },
+          {
+            "path": "bones.liquid_fill.rotate",
+            "keyframes": 133
+          },
+          {
+            "path": "bones.liquid_fill.translate",
+            "keyframes": 133
+          },
+          {
+            "path": "bones.surface_left.translate",
+            "keyframes": 133
+          },
+          {
+            "path": "bones.surface_middle.translate",
+            "keyframes": 133
+          },
+          {
+            "path": "bones.surface_right.translate",
+            "keyframes": 133
+          },
+          {
+            "path": "bones.cork.rotate",
+            "keyframes": 133
+          },
+          {
+            "path": "bones.cork.translate",
+            "keyframes": 133
+          },
+          {
+            "path": "bones.liquid_feed_top.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.liquid_feed_top.scale",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.liquid_drop_0.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.liquid_drop_0.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.liquid_drop_0.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.liquid_drop_1.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.liquid_drop_1.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.liquid_drop_1.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.liquid_drop_2.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.liquid_drop_2.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.liquid_drop_2.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.liquid_drop_3.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.liquid_drop_3.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.liquid_drop_3.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.liquid_drop_4.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.liquid_drop_4.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.liquid_drop_4.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.liquid_drop_5.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.liquid_drop_5.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.liquid_drop_5.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.liquid_drop_6.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.liquid_drop_6.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.liquid_drop_6.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.liquid_drop_7.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.liquid_drop_7.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.liquid_drop_7.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.liquid_drop_8.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.liquid_drop_8.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.liquid_drop_8.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.letter_B.rotate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_B.translate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_B.scale",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_B_tip.rotate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_B_tip.translate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_B_tip.scale",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_O.rotate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_O.translate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_O.scale",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_O_tip.rotate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_O_tip.translate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_O_tip.scale",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_N.rotate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_N.translate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_N.scale",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_N_tip.rotate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_N_tip.translate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_N_tip.scale",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_U.rotate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_U.translate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_U.scale",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_U_tip.rotate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_U_tip.translate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_U_tip.scale",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_S.rotate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_S.translate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_S.scale",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_S_tip.rotate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_S_tip.translate",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.letter_S_tip.scale",
+            "keyframes": 100
+          },
+          {
+            "path": "bones.reel_L_spin.rotate",
+            "keyframes": 67
+          },
+          {
+            "path": "bones.reel_R_spin.rotate",
+            "keyframes": 67
+          },
+          {
+            "path": "bones.tape_L0.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L0.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L1.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L1.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L2.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L2.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L3.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L3.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L4.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L4.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L5.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L5.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L6.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L6.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L7.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L7.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L8.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L8.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L9.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L9.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L10.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L10.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L11.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L11.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L12.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L12.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L13.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L13.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L14.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L14.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L15.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_L15.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R0.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R0.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R1.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R1.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R2.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R2.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R3.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R3.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R4.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R4.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R5.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R5.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R6.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R6.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R7.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R7.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R8.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R8.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R9.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R9.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R10.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R10.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R11.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R11.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R12.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R12.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R13.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R13.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R14.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R14.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R15.rotate",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.tape_R15.scale",
+            "keyframes": 36
+          },
+          {
+            "path": "bones.rec_lamp.scale",
+            "keyframes": 44
+          },
+          {
+            "path": "events",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.tape_L.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.tape_R.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.rec_glow.rgba",
+            "keyframes": 45
+          }
+        ],
+        "animatedBones": [
+          "bottle",
+          "lettering",
+          "liquid_fill",
+          "surface_left",
+          "surface_middle",
+          "surface_right",
+          "cork",
+          "liquid_feed_top",
+          "liquid_drop_0",
+          "liquid_drop_1",
+          "liquid_drop_2",
+          "liquid_drop_3",
+          "liquid_drop_4",
+          "liquid_drop_5",
+          "liquid_drop_6",
+          "liquid_drop_7",
+          "liquid_drop_8",
+          "letter_B",
+          "letter_B_tip",
+          "letter_O",
+          "letter_O_tip",
+          "letter_N",
+          "letter_N_tip",
+          "letter_U",
+          "letter_U_tip",
+          "letter_S",
+          "letter_S_tip",
+          "reel_L_spin",
+          "reel_R_spin",
+          "tape_L0",
+          "tape_L1",
+          "tape_L2",
+          "tape_L3",
+          "tape_L4",
+          "tape_L5",
+          "tape_L6",
+          "tape_L7",
+          "tape_L8",
+          "tape_L9",
+          "tape_L10",
+          "tape_L11",
+          "tape_L12",
+          "tape_L13",
+          "tape_L14",
+          "tape_L15",
+          "tape_R0",
+          "tape_R1",
+          "tape_R2",
+          "tape_R3",
+          "tape_R4",
+          "tape_R5",
+          "tape_R6",
+          "tape_R7",
+          "tape_R8",
+          "tape_R9",
+          "tape_R10",
+          "tape_R11",
+          "tape_R12",
+          "tape_R13",
+          "tape_R14",
+          "tape_R15",
+          "rec_lamp"
+        ],
+        "animatedSlots": [
+          "tape_L",
+          "tape_R",
+          "rec_glow"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [
+          {
+            "name": "burst",
+            "time": 0.68
+          }
+        ],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "idle",
+        "duration": 3,
+        "keyframes": 7421,
+        "curvedKeys": 3973,
+        "channels": [
+          {
+            "path": "bones.liquid_left.translate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.liquid_right.translate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.bottle.rotate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.bottle.translate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.liquid_fill.rotate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.liquid_fill.translate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.surface_left.translate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.surface_middle.translate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.surface_right.translate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.cork.rotate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.cork.translate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_B.rotate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_B.translate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_B.scale",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_B_tip.rotate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_B_tip.translate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_B_tip.scale",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_O.rotate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_O.translate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_O.scale",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_O_tip.rotate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_O_tip.translate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_O_tip.scale",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_N.rotate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_N.translate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_N.scale",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_N_tip.rotate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_N_tip.translate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_N_tip.scale",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_U.rotate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_U.translate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_U.scale",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_U_tip.rotate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_U_tip.translate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_U_tip.scale",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_S.rotate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_S.translate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_S.scale",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_S_tip.rotate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_S_tip.translate",
+            "keyframes": 181
+          },
+          {
+            "path": "bones.letter_S_tip.scale",
+            "keyframes": 181
+          }
+        ],
+        "animatedBones": [
+          "liquid_left",
+          "liquid_right",
+          "bottle",
+          "liquid_fill",
+          "surface_left",
+          "surface_middle",
+          "surface_right",
+          "cork",
+          "letter_B",
+          "letter_B_tip",
+          "letter_O",
+          "letter_O_tip",
+          "letter_N",
+          "letter_N_tip",
+          "letter_U",
+          "letter_U_tip",
+          "letter_S",
+          "letter_S_tip"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "land",
+        "duration": 0.8,
+        "keyframes": 1275,
+        "curvedKeys": 433,
+        "channels": [
+          {
+            "path": "bones.bottle.translate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.bottle.scale",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.liquid_left.translate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.liquid_right.translate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.lettering.translate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.liquid_fill.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.surface_left.translate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.surface_middle.translate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.surface_right.translate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.cork.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.cork.translate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.letter_B.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.letter_B.translate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.letter_B.scale",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.letter_O.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.letter_O.translate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.letter_O.scale",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.letter_N.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.letter_N.translate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.letter_N.scale",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.letter_U.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.letter_U.translate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.letter_U.scale",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.letter_S.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.letter_S.translate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.letter_S.scale",
+            "keyframes": 49
+          },
+          {
+            "path": "events",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "bottle",
+          "liquid_left",
+          "liquid_right",
+          "lettering",
+          "liquid_fill",
+          "surface_left",
+          "surface_middle",
+          "surface_right",
+          "cork",
+          "letter_B",
+          "letter_O",
+          "letter_N",
+          "letter_U",
+          "letter_S"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [
+          {
+            "name": "land",
+            "time": 0.1
+          }
+        ],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 74,
+      "slots": 23,
+      "attachments": 23,
+      "meshAttachments": 10,
+      "meshUvPairs": 1290,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "bottle",
+      "file": "pieces/bottle-aaf9d45e.png",
+      "page": "bonus.png",
+      "properties": {
+        "bounds": "1,1,627,627"
+      }
+    },
+    {
+      "region": "letter_B",
+      "file": "pieces/letter-b-d372e6fd.png",
+      "page": "bonus_2.png",
+      "properties": {
+        "bounds": "622,1,500,607"
+      }
+    },
+    {
+      "region": "letter_N",
+      "file": "pieces/letter-n-6dbdbc28.png",
+      "page": "bonus_3.png",
+      "properties": {
+        "bounds": "1,1,585,636"
+      }
+    },
+    {
+      "region": "letter_O",
+      "file": "pieces/letter-o-805ee820.png",
+      "page": "bonus_3.png",
+      "properties": {
+        "bounds": "588,1,567,620",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "letter_S",
+      "file": "pieces/letter-s-d4430795.png",
+      "page": "bonus_3.png",
+      "properties": {
+        "bounds": "1,639,489,598",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "letter_U",
+      "file": "pieces/letter-u-08b4b32a.png",
+      "page": "bonus_3.png",
+      "properties": {
+        "bounds": "601,639,576,601",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "disc_L",
+      "file": "pieces/disc-l-462ec72e.png",
+      "page": "bonus_4.png",
+      "properties": {
+        "bounds": "1,1,226,226"
+      }
+    },
+    {
+      "region": "disc_R",
+      "file": "pieces/disc-r-7547353b.png",
+      "page": "bonus_4.png",
+      "properties": {
+        "bounds": "229,1,226,226"
+      }
+    },
+    {
+      "region": "hub_L",
+      "file": "pieces/hub-l-1d9901c0.png",
+      "page": "bonus_4.png",
+      "properties": {
+        "bounds": "1,229,55,43"
+      }
+    },
+    {
+      "region": "hub_R",
+      "file": "pieces/hub-r-2f645dfd.png",
+      "page": "bonus_4.png",
+      "properties": {
+        "bounds": "58,229,54,45"
+      }
+    },
+    {
+      "region": "rec_glow",
+      "file": "pieces/rec-glow-234fb464.png",
+      "page": "bonus_4.png",
+      "properties": {
+        "bounds": "114,229,240,240"
+      }
+    },
+    {
+      "region": "tape",
+      "file": "pieces/tape-76910026.png",
+      "page": "bonus_4.png",
+      "properties": {
+        "bounds": "1,471,544,20"
+      }
+    },
+    {
+      "region": "band_L_00",
+      "file": "pieces/band-l-00-34fd91f2.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "1,1,131,16"
+      }
+    },
+    {
+      "region": "band_L_01",
+      "file": "pieces/band-l-01-7a2ddd6f.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "134,1,131,16"
+      }
+    },
+    {
+      "region": "band_L_02",
+      "file": "pieces/band-l-02-f4e71057.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "267,1,131,16"
+      }
+    },
+    {
+      "region": "band_L_03",
+      "file": "pieces/band-l-03-d5b9adfb.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "400,1,131,16"
+      }
+    },
+    {
+      "region": "band_L_04",
+      "file": "pieces/band-l-04-90754da6.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "533,1,131,16"
+      }
+    },
+    {
+      "region": "band_L_05",
+      "file": "pieces/band-l-05-61b7d4a8.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "666,1,131,16"
+      }
+    },
+    {
+      "region": "band_L_06",
+      "file": "pieces/band-l-06-5c141f22.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "799,1,131,16"
+      }
+    },
+    {
+      "region": "band_L_07",
+      "file": "pieces/band-l-07-8744810c.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "1,19,131,16"
+      }
+    },
+    {
+      "region": "band_L_08",
+      "file": "pieces/band-l-08-1e3c6c7d.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "134,19,131,16"
+      }
+    },
+    {
+      "region": "band_L_09",
+      "file": "pieces/band-l-09-c6b5fd44.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "267,19,131,16"
+      }
+    },
+    {
+      "region": "band_L_10",
+      "file": "pieces/band-l-10-e95d0dc6.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "400,19,131,16"
+      }
+    },
+    {
+      "region": "band_L_11",
+      "file": "pieces/band-l-11-95a56c1a.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "533,19,131,16"
+      }
+    },
+    {
+      "region": "band_L_12",
+      "file": "pieces/band-l-12-c6eec59e.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "666,19,131,16"
+      }
+    },
+    {
+      "region": "band_L_13",
+      "file": "pieces/band-l-13-8311a88f.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "799,19,131,16"
+      }
+    },
+    {
+      "region": "band_L_14",
+      "file": "pieces/band-l-14-9c4efe53.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "1,37,131,16"
+      }
+    },
+    {
+      "region": "band_L_15",
+      "file": "pieces/band-l-15-7cb09c62.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "134,37,131,16"
+      }
+    },
+    {
+      "region": "band_L_16",
+      "file": "pieces/band-l-16-afad6e3c.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "267,37,131,16"
+      }
+    },
+    {
+      "region": "band_L_17",
+      "file": "pieces/band-l-17-bb510f8d.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "400,37,131,16"
+      }
+    },
+    {
+      "region": "band_L_18",
+      "file": "pieces/band-l-18-ba97ce99.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "533,37,131,16"
+      }
+    },
+    {
+      "region": "band_L_19",
+      "file": "pieces/band-l-19-270f60b2.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "666,37,131,16"
+      }
+    },
+    {
+      "region": "band_L_20",
+      "file": "pieces/band-l-20-7a23a6d7.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "799,37,131,16"
+      }
+    },
+    {
+      "region": "band_L_21",
+      "file": "pieces/band-l-21-8a641dd0.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "1,55,131,16"
+      }
+    },
+    {
+      "region": "band_L_22",
+      "file": "pieces/band-l-22-c5a5bc05.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "134,55,131,16"
+      }
+    },
+    {
+      "region": "band_L_23",
+      "file": "pieces/band-l-23-adb05ea2.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "267,55,131,16"
+      }
+    },
+    {
+      "region": "band_R_00",
+      "file": "pieces/band-r-00-622803a7.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "400,55,141,16"
+      }
+    },
+    {
+      "region": "band_R_01",
+      "file": "pieces/band-r-01-0227e45c.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "543,55,141,16"
+      }
+    },
+    {
+      "region": "band_R_02",
+      "file": "pieces/band-r-02-ab236739.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "686,55,141,16"
+      }
+    },
+    {
+      "region": "band_R_03",
+      "file": "pieces/band-r-03-b8c6c06b.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "829,55,141,16"
+      }
+    },
+    {
+      "region": "band_R_04",
+      "file": "pieces/band-r-04-7569de5d.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "1,73,141,16"
+      }
+    },
+    {
+      "region": "band_R_05",
+      "file": "pieces/band-r-05-a93b68dd.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "144,73,141,16"
+      }
+    },
+    {
+      "region": "band_R_06",
+      "file": "pieces/band-r-06-e063d231.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "287,73,141,16"
+      }
+    },
+    {
+      "region": "band_R_07",
+      "file": "pieces/band-r-07-1bb194d1.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "430,73,141,16"
+      }
+    },
+    {
+      "region": "band_R_08",
+      "file": "pieces/band-r-08-6e41f743.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "573,73,141,16"
+      }
+    },
+    {
+      "region": "band_R_09",
+      "file": "pieces/band-r-09-82939c8e.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "716,73,141,16"
+      }
+    },
+    {
+      "region": "band_R_10",
+      "file": "pieces/band-r-10-f67957b0.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "859,73,141,16"
+      }
+    },
+    {
+      "region": "band_R_11",
+      "file": "pieces/band-r-11-8664d010.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "1,91,141,16"
+      }
+    },
+    {
+      "region": "band_R_12",
+      "file": "pieces/band-r-12-496edb1e.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "144,91,141,16"
+      }
+    },
+    {
+      "region": "band_R_13",
+      "file": "pieces/band-r-13-36c8e7b3.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "287,91,141,16"
+      }
+    },
+    {
+      "region": "band_R_14",
+      "file": "pieces/band-r-14-7ae4a8d9.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "430,91,141,16"
+      }
+    },
+    {
+      "region": "band_R_15",
+      "file": "pieces/band-r-15-c24c892a.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "573,91,141,16"
+      }
+    },
+    {
+      "region": "band_R_16",
+      "file": "pieces/band-r-16-0670f34f.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "716,91,141,16"
+      }
+    },
+    {
+      "region": "band_R_17",
+      "file": "pieces/band-r-17-d653d56e.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "859,91,141,16"
+      }
+    },
+    {
+      "region": "band_R_18",
+      "file": "pieces/band-r-18-b88968ba.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "1,109,141,16"
+      }
+    },
+    {
+      "region": "band_R_19",
+      "file": "pieces/band-r-19-65d9c041.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "144,109,141,16"
+      }
+    },
+    {
+      "region": "band_R_20",
+      "file": "pieces/band-r-20-2adaebc1.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "287,109,141,16"
+      }
+    },
+    {
+      "region": "band_R_21",
+      "file": "pieces/band-r-21-ada15fa8.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "430,109,141,16"
+      }
+    },
+    {
+      "region": "band_R_22",
+      "file": "pieces/band-r-22-df64314e.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "573,109,141,16"
+      }
+    },
+    {
+      "region": "band_R_23",
+      "file": "pieces/band-r-23-c3ee56ef.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "716,109,141,16"
+      }
+    },
+    {
+      "region": "band_glint",
+      "file": "pieces/band-glint-7caaf56b.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "859,109,64,20"
+      }
+    },
+    {
+      "region": "key_glow",
+      "file": "pieces/key-glow-7ce745d0.png",
+      "page": "bonus_5.png",
+      "properties": {
+        "bounds": "925,109,64,48"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

@@ -1,0 +1,976 @@
+{
+  "id": "sugar-rush-1000-animations-suru-basegame-3-c7b7177f-78c04351",
+  "collection": "library",
+  "name": "suru_basegame_3",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-basegame-3-c7b7177f",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 3,
+    "slots": 16,
+    "attachments": 16,
+    "meshAttachments": 16,
+    "meshUvPairs": 64,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 26752,
+    "rgbaBytesEstimate": 107008,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 16,
+  "actions": [
+    {
+      "name": "suru_basegame",
+      "duration": 6,
+      "keyframes": 285,
+      "curvedKeys": 230,
+      "channels": [
+        {
+          "path": "bones.fan_left2.rotate",
+          "keyframes": 13
+        },
+        {
+          "path": "deform.default.candy_17.candy_16",
+          "keyframes": 16
+        },
+        {
+          "path": "deform.default.candy_18.candy_15",
+          "keyframes": 15
+        },
+        {
+          "path": "deform.default.candy_19.candy_14",
+          "keyframes": 20
+        },
+        {
+          "path": "deform.default.candy_20.candy_13",
+          "keyframes": 13
+        },
+        {
+          "path": "deform.default.candy_21.candy_12",
+          "keyframes": 12
+        },
+        {
+          "path": "deform.default.candy_22.candy_11",
+          "keyframes": 17
+        },
+        {
+          "path": "deform.default.candy_23.candy_10",
+          "keyframes": 10
+        },
+        {
+          "path": "deform.default.candy_24.candy_9",
+          "keyframes": 23
+        },
+        {
+          "path": "deform.default.candy_25.candy_8",
+          "keyframes": 22
+        },
+        {
+          "path": "deform.default.candy_26.candy_7",
+          "keyframes": 21
+        },
+        {
+          "path": "deform.default.candy_27.candy_6",
+          "keyframes": 19
+        },
+        {
+          "path": "deform.default.candy_28.candy_5",
+          "keyframes": 19
+        },
+        {
+          "path": "deform.default.candy_29.candy_4",
+          "keyframes": 18
+        },
+        {
+          "path": "deform.default.candy_30.candy_3",
+          "keyframes": 17
+        },
+        {
+          "path": "deform.default.candy_31.candy_2",
+          "keyframes": 15
+        },
+        {
+          "path": "deform.default.candy_32.candy_1",
+          "keyframes": 15
+        }
+      ],
+      "animatedBones": [
+        "fan_left2"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-basegame-3-c7b7177f-78c04351/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "right_frame",
+        "parent": "root",
+        "x": 592.99,
+        "y": 17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      },
+      {
+        "name": "fan_left2",
+        "parent": "right_frame",
+        "x": -47.49,
+        "y": -363.64,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "candy_17",
+        "bone": "right_frame",
+        "setupAttachment": "candy_16",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_18",
+        "bone": "right_frame",
+        "setupAttachment": "candy_15",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_19",
+        "bone": "right_frame",
+        "setupAttachment": "candy_14",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_20",
+        "bone": "right_frame",
+        "setupAttachment": "candy_13",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_21",
+        "bone": "right_frame",
+        "setupAttachment": "candy_12",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_22",
+        "bone": "right_frame",
+        "setupAttachment": "candy_11",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_23",
+        "bone": "right_frame",
+        "setupAttachment": "candy_10",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_24",
+        "bone": "right_frame",
+        "setupAttachment": "candy_9",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_25",
+        "bone": "right_frame",
+        "setupAttachment": "candy_8",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_26",
+        "bone": "right_frame",
+        "setupAttachment": "candy_7",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_27",
+        "bone": "right_frame",
+        "setupAttachment": "candy_6",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_28",
+        "bone": "right_frame",
+        "setupAttachment": "candy_5",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_29",
+        "bone": "right_frame",
+        "setupAttachment": "candy_4",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_30",
+        "bone": "right_frame",
+        "setupAttachment": "candy_3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_31",
+        "bone": "right_frame",
+        "setupAttachment": "candy_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "candy_32",
+        "bone": "right_frame",
+        "setupAttachment": "candy_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "candy_17",
+        "name": "candy_16",
+        "region": "candy_16",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_18",
+        "name": "candy_15",
+        "region": "candy_15",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_19",
+        "name": "candy_14",
+        "region": "candy_14",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_20",
+        "name": "candy_13",
+        "region": "candy_13",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_21",
+        "name": "candy_12",
+        "region": "candy_12",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_22",
+        "name": "candy_11",
+        "region": "candy_11",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_23",
+        "name": "candy_10",
+        "region": "candy_10",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_24",
+        "name": "candy_9",
+        "region": "candy_9",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_25",
+        "name": "candy_8",
+        "region": "candy_8",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_26",
+        "name": "candy_7",
+        "region": "candy_7",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_27",
+        "name": "candy_6",
+        "region": "candy_6",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_28",
+        "name": "candy_5",
+        "region": "candy_5",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_29",
+        "name": "candy_4",
+        "region": "candy_4",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_30",
+        "name": "candy_3",
+        "region": "candy_3",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_31",
+        "name": "candy_2",
+        "region": "candy_2",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "candy_32",
+        "name": "candy_1",
+        "region": "candy_1",
+        "type": "mesh",
+        "bone": "right_frame",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "suru_basegame",
+        "duration": 6,
+        "keyframes": 285,
+        "curvedKeys": 230,
+        "channels": [
+          {
+            "path": "bones.fan_left2.rotate",
+            "keyframes": 13
+          },
+          {
+            "path": "deform.default.candy_17.candy_16",
+            "keyframes": 16
+          },
+          {
+            "path": "deform.default.candy_18.candy_15",
+            "keyframes": 15
+          },
+          {
+            "path": "deform.default.candy_19.candy_14",
+            "keyframes": 20
+          },
+          {
+            "path": "deform.default.candy_20.candy_13",
+            "keyframes": 13
+          },
+          {
+            "path": "deform.default.candy_21.candy_12",
+            "keyframes": 12
+          },
+          {
+            "path": "deform.default.candy_22.candy_11",
+            "keyframes": 17
+          },
+          {
+            "path": "deform.default.candy_23.candy_10",
+            "keyframes": 10
+          },
+          {
+            "path": "deform.default.candy_24.candy_9",
+            "keyframes": 23
+          },
+          {
+            "path": "deform.default.candy_25.candy_8",
+            "keyframes": 22
+          },
+          {
+            "path": "deform.default.candy_26.candy_7",
+            "keyframes": 21
+          },
+          {
+            "path": "deform.default.candy_27.candy_6",
+            "keyframes": 19
+          },
+          {
+            "path": "deform.default.candy_28.candy_5",
+            "keyframes": 19
+          },
+          {
+            "path": "deform.default.candy_29.candy_4",
+            "keyframes": 18
+          },
+          {
+            "path": "deform.default.candy_30.candy_3",
+            "keyframes": 17
+          },
+          {
+            "path": "deform.default.candy_31.candy_2",
+            "keyframes": 15
+          },
+          {
+            "path": "deform.default.candy_32.candy_1",
+            "keyframes": 15
+          }
+        ],
+        "animatedBones": [
+          "fan_left2"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 3,
+      "slots": 16,
+      "attachments": 16,
+      "meshAttachments": 16,
+      "meshUvPairs": 64,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "candy_1",
+      "file": "pieces/candy-1-3c909261.png",
+      "page": "suru_basegame_3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "42, 41",
+        "size": "46, 46",
+        "orig": "46, 46",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_10",
+      "file": "pieces/candy-10-e82f6ca8.png",
+      "page": "suru_basegame_3.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "90, 41",
+        "size": "46, 42",
+        "orig": "46, 42",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_11",
+      "file": "pieces/candy-11-07b4156b.png",
+      "page": "suru_basegame_3.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "0, 38",
+        "size": "49, 40",
+        "orig": "49, 40",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_12",
+      "file": "pieces/candy-12-68492474.png",
+      "page": "suru_basegame_3.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "0, 0",
+        "size": "36, 35",
+        "orig": "36, 35",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_13",
+      "file": "pieces/candy-13-c904444b.png",
+      "page": "suru_basegame_3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "271, 25",
+        "size": "30, 29",
+        "orig": "30, 29",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_14",
+      "file": "pieces/candy-14-e76d50ec.png",
+      "page": "suru_basegame_3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "201, 52",
+        "size": "34, 35",
+        "orig": "34, 35",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_15",
+      "file": "pieces/candy-15-70c61d8c.png",
+      "page": "suru_basegame_3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "161, 49",
+        "size": "38, 38",
+        "orig": "38, 38",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_16",
+      "file": "pieces/candy-16-a8eb547a.png",
+      "page": "suru_basegame_3.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "134, 42",
+        "size": "45, 25",
+        "orig": "45, 25",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_2",
+      "file": "pieces/candy-2-48d82206.png",
+      "page": "suru_basegame_3.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "73, 0",
+        "size": "39, 40",
+        "orig": "39, 40",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_3",
+      "file": "pieces/candy-3-7372ddea.png",
+      "page": "suru_basegame_3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "115, 0",
+        "size": "40, 39",
+        "orig": "40, 39",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_4",
+      "file": "pieces/candy-4-01c7c271.png",
+      "page": "suru_basegame_3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "197, 9",
+        "size": "37, 38",
+        "orig": "37, 38",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_5",
+      "file": "pieces/candy-5-d4a06635.png",
+      "page": "suru_basegame_3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "271, 56",
+        "size": "31, 31",
+        "orig": "31, 31",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_6",
+      "file": "pieces/candy-6-68b7f73d.png",
+      "page": "suru_basegame_3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "236, 18",
+        "size": "32, 32",
+        "orig": "32, 32",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_7",
+      "file": "pieces/candy-7-568060b3.png",
+      "page": "suru_basegame_3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "157, 2",
+        "size": "38, 38",
+        "orig": "38, 38",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_8",
+      "file": "pieces/candy-8-151105da.png",
+      "page": "suru_basegame_3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "37, 1",
+        "size": "34, 35",
+        "orig": "34, 35",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "candy_9",
+      "file": "pieces/candy-9-a3857dd5.png",
+      "page": "suru_basegame_3.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "237, 55",
+        "size": "32, 32",
+        "orig": "32, 32",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

@@ -151,6 +151,7 @@
     <nav>
       <button id="home">Mode d’emploi</button>
       <button id="gallery">Bibliothèque</button>
+      <button id="sources-tab">Sources GitHub / Claude</button>
     </nav>
   </header>
   <main>
@@ -210,6 +211,23 @@
         textures sont nécessaires pour l’aperçu. Les autres formats restent
         consultables comme sources.
       </p>
+    </section>
+    <section id="sources" class="hidden">
+      <h2>Références pour Claude Code</h2>
+      <p id="source-count"></p>
+      <p>
+        Importer : <code>npm run sources:fetch</code>, puis analyser :
+        <code>npm run learn</code>. Les références téléchargées restent locales.
+        Leurs restrictions sont indiquées par source. Le nombre de fichiers
+        atlas ne représente pas le nombre d’animations uniques.
+      </p>
+      <p>
+        Créer les exemples originaux : <code>npm run create:demo</code>. Donner
+        à Claude <code>CLAUDE.md</code> et <code>docs/GUIDE-CLAUDE.md</code> ;
+        rechercher des actions avec
+        <code>npm run reference:search -- win</code>.
+      </p>
+      <div id="source-cards" class="cards"></div>
     </section>
     <section id="library" class="hidden">
       <h2>Explorer la bibliothèque</h2>

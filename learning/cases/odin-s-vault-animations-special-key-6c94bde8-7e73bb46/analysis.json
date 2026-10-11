@@ -1,0 +1,722 @@
+{
+  "id": "odin-s-vault-animations-special-key-6c94bde8-7e73bb46",
+  "collection": "library",
+  "name": "special_key",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/special-key-6c94bde8",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 7,
+    "slots": 9,
+    "attachments": 8,
+    "meshAttachments": 8,
+    "meshUvPairs": 133,
+    "constraints": {
+      "ik": 0,
+      "transform": 2,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 65536,
+    "rgbaBytesEstimate": 262144,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 6,
+  "actions": [
+    {
+      "name": "collect",
+      "duration": 1,
+      "keyframes": 31,
+      "curvedKeys": 15,
+      "channels": [
+        {
+          "path": "slots.Glow_03_key.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.raven_eyes_key.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Shadow_1_key.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.key.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.key.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.key.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.key_3d.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.key_3d(2).translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.key_3d(2).scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "key",
+        "key_3d",
+        "key_3d(2)"
+      ],
+      "animatedSlots": [
+        "Glow_03_key",
+        "raven_eyes_key",
+        "Shadow_1_key"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "win",
+      "duration": 1,
+      "keyframes": 35,
+      "curvedKeys": 18,
+      "channels": [
+        {
+          "path": "slots.Glow_03_key.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.key_key2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.raven_eyes_key.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Shadow_1_key.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.key.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.key.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.key.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.key_3d.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.key_3d(2).translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.key_3d(2).scale",
+          "keyframes": 3
+        },
+        {
+          "path": "drawOrder",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "key",
+        "key_3d",
+        "key_3d(2)"
+      ],
+      "animatedSlots": [
+        "Glow_03_key",
+        "key_key2",
+        "raven_eyes_key",
+        "Shadow_1_key"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": true,
+      "events": [],
+      "tags": [
+        "win"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-special-key-6c94bde8-7e73bb46/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Mine_key",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "key",
+        "parent": "Mine_key",
+        "x": -4.51,
+        "y": 2.07,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "key_3d",
+        "parent": "key",
+        "x": -3.55,
+        "y": 1.86,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "key_3d2",
+        "parent": "key",
+        "x": -3.55,
+        "y": 1.86,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "key_3d(2)",
+        "parent": "key",
+        "x": -5.29,
+        "y": 38.88,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "key_3d(2)2",
+        "parent": "key",
+        "x": -5.29,
+        "y": 38.88,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "BG_key",
+        "bone": "Mine_key",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Shadow_2_key",
+        "bone": "key",
+        "setupAttachment": "Shadow_2_key",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Shadow_1_key",
+        "bone": "Mine_key",
+        "setupAttachment": "Shadow_1_key",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Glow_03_key",
+        "bone": "key",
+        "setupAttachment": "Glow_03_key",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "key_1_key",
+        "bone": "key",
+        "setupAttachment": "key_1_key",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "key_key2",
+        "bone": "key",
+        "setupAttachment": "key_key",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "key_key",
+        "bone": "key",
+        "setupAttachment": "key_key",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "key_key3",
+        "bone": "key",
+        "setupAttachment": "key_key",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "raven_eyes_key",
+        "bone": "key",
+        "setupAttachment": "raven_eyes_key",
+        "blend": "additive",
+        "color": "ffffff00"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "Glow_03_key",
+        "name": "Glow_03_key",
+        "region": "Glow_03_key",
+        "type": "mesh",
+        "bone": "key",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 128,
+          "height": 144
+        },
+        "mesh": {
+          "uvPairs": 16,
+          "vertexNumbers": 252,
+          "triangles": 17,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "key_1_key",
+        "name": "key_1_key",
+        "region": "key_1_key",
+        "type": "mesh",
+        "bone": "key",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 36,
+          "height": 39
+        },
+        "mesh": {
+          "uvPairs": 24,
+          "vertexNumbers": 276,
+          "triangles": 30,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "key_key",
+        "name": "key_key",
+        "region": "key_key",
+        "type": "mesh",
+        "bone": "key",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 91,
+          "height": 107
+        },
+        "mesh": {
+          "uvPairs": 49,
+          "vertexNumbers": 481,
+          "triangles": 68,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "key_key2",
+        "name": "key_key",
+        "region": "key_key",
+        "type": "mesh",
+        "bone": "key",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 91,
+          "height": 107
+        },
+        "mesh": {
+          "uvPairs": 12,
+          "vertexNumbers": 156,
+          "triangles": 12,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "key_key3",
+        "name": "key_key",
+        "region": "key_key",
+        "type": "mesh",
+        "bone": "key",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 91,
+          "height": 107
+        },
+        "mesh": {
+          "uvPairs": 13,
+          "vertexNumbers": 153,
+          "triangles": 14,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "raven_eyes_key",
+        "name": "raven_eyes_key",
+        "region": "raven_eyes_key",
+        "type": "mesh",
+        "bone": "key",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 24,
+          "height": 21
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 20,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Shadow_1_key",
+        "name": "Shadow_1_key",
+        "region": "Shadow_1_key",
+        "type": "mesh",
+        "bone": "Mine_key",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 97,
+          "height": 108
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Shadow_2_key",
+        "name": "Shadow_2_key",
+        "region": "Shadow_2_key",
+        "type": "mesh",
+        "bone": "key",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 92,
+          "height": 102
+        },
+        "mesh": {
+          "uvPairs": 11,
+          "vertexNumbers": 83,
+          "triangles": 9,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "collect",
+        "duration": 1,
+        "keyframes": 31,
+        "curvedKeys": 15,
+        "channels": [
+          {
+            "path": "slots.Glow_03_key.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.raven_eyes_key.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Shadow_1_key.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.key.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.key.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.key.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.key_3d.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.key_3d(2).translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.key_3d(2).scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "key",
+          "key_3d",
+          "key_3d(2)"
+        ],
+        "animatedSlots": [
+          "Glow_03_key",
+          "raven_eyes_key",
+          "Shadow_1_key"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "win",
+        "duration": 1,
+        "keyframes": 35,
+        "curvedKeys": 18,
+        "channels": [
+          {
+            "path": "slots.Glow_03_key.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.key_key2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.raven_eyes_key.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Shadow_1_key.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.key.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.key.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.key.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.key_3d.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.key_3d(2).translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.key_3d(2).scale",
+            "keyframes": 3
+          },
+          {
+            "path": "drawOrder",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "key",
+          "key_3d",
+          "key_3d(2)"
+        ],
+        "animatedSlots": [
+          "Glow_03_key",
+          "key_key2",
+          "raven_eyes_key",
+          "Shadow_1_key"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": true,
+        "events": [],
+        "tags": [
+          "win"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 7,
+      "slots": 9,
+      "attachments": 8,
+      "meshAttachments": 8,
+      "meshUvPairs": 133,
+      "constraints": {
+        "ik": 0,
+        "transform": 2,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "Glow_03_key",
+      "file": "pieces/glow-03-key-074c9e4b.png",
+      "page": "special_key.webp",
+      "properties": {
+        "bounds": "0,112,128,144"
+      }
+    },
+    {
+      "region": "Shadow_1_key",
+      "file": "pieces/shadow-1-key-a9ea2880.png",
+      "page": "special_key.webp",
+      "properties": {
+        "bounds": "0,0,97,108"
+      }
+    },
+    {
+      "region": "Shadow_2_key",
+      "file": "pieces/shadow-2-key-9c9e18d1.png",
+      "page": "special_key.webp",
+      "properties": {
+        "bounds": "101,6,92,102"
+      }
+    },
+    {
+      "region": "key_1_key",
+      "file": "pieces/key-1-key-b78b9b3f.png",
+      "page": "special_key.webp",
+      "properties": {
+        "bounds": "197,107,36,38",
+        "offsets": "0,0,36,39"
+      }
+    },
+    {
+      "region": "key_key",
+      "file": "pieces/key-key-094406f7.png",
+      "page": "special_key.webp",
+      "properties": {
+        "bounds": "132,149,91,107"
+      }
+    },
+    {
+      "region": "raven_eyes_key",
+      "file": "pieces/raven-eyes-key-a7a35ff4.png",
+      "page": "special_key.webp",
+      "properties": {
+        "bounds": "227,235,24,21"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

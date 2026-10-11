@@ -1,0 +1,544 @@
+{
+  "id": "interrogator-animations-regular-cuffs-69590218-0a9f41af",
+  "collection": "library",
+  "name": "regular-cuffs",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/interrogator/animations/regular-cuffs-69590218",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 9,
+    "slots": 3,
+    "attachments": 3,
+    "meshAttachments": 3,
+    "meshUvPairs": 952,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 994821,
+    "rgbaBytesEstimate": 3979284,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 3,
+  "actions": [
+    {
+      "name": "land",
+      "duration": 0.7,
+      "keyframes": 345,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "bones.sway.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.sway.translate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.left_cuff.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.chain_0.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.chain_1.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.chain_2.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.chain_3.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.right_cuff.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "events",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "sway",
+        "left_cuff",
+        "chain_0",
+        "chain_1",
+        "chain_2",
+        "chain_3",
+        "right_cuff"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [
+        {
+          "name": "land",
+          "time": 0.12
+        }
+      ],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "win",
+      "duration": 0.8,
+      "keyframes": 393,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "bones.sway.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.sway.translate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.left_cuff.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.chain_0.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.chain_1.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.chain_2.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.chain_3.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.right_cuff.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "events",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "sway",
+        "left_cuff",
+        "chain_0",
+        "chain_1",
+        "chain_2",
+        "chain_3",
+        "right_cuff"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [
+        {
+          "name": "win_impact",
+          "time": 0.27
+        }
+      ],
+      "tags": [
+        "win"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/interrogator-animations-regular-cuffs-69590218-0a9f41af/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "sway",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "left_cuff",
+        "parent": "sway",
+        "x": -53.78,
+        "y": 358.22,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "chain_0",
+        "parent": "left_cuff",
+        "x": 94.22,
+        "y": -70.22,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "chain_1",
+        "parent": "chain_0",
+        "x": 96.89,
+        "y": -80,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "chain_2",
+        "parent": "chain_1",
+        "x": 103.11,
+        "y": -79.11,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "chain_3",
+        "parent": "chain_2",
+        "x": 32,
+        "y": -48.89,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "right_cuff",
+        "parent": "chain_3",
+        "x": 0,
+        "y": 0,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "right_ring",
+        "parent": "right_cuff",
+        "x": 0,
+        "y": -264,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "left_cuff",
+        "bone": "root",
+        "setupAttachment": "left_cuff",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "chain",
+        "bone": "root",
+        "setupAttachment": "chain",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "right_cuff",
+        "bone": "root",
+        "setupAttachment": "right_cuff",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "chain",
+        "name": "chain",
+        "region": "chain",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 423,
+          "height": 573
+        },
+        "mesh": {
+          "uvPairs": 238,
+          "vertexNumbers": 1922,
+          "triangles": 416,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "left_cuff",
+        "name": "left_cuff",
+        "region": "left_cuff",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 585,
+          "height": 624
+        },
+        "mesh": {
+          "uvPairs": 357,
+          "vertexNumbers": 1785,
+          "triangles": 640,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "right_cuff",
+        "name": "right_cuff",
+        "region": "right_cuff",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 577,
+          "height": 634
+        },
+        "mesh": {
+          "uvPairs": 357,
+          "vertexNumbers": 1785,
+          "triangles": 640,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "land",
+        "duration": 0.7,
+        "keyframes": 345,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "bones.sway.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.sway.translate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.left_cuff.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.chain_0.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.chain_1.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.chain_2.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.chain_3.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.right_cuff.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "events",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "sway",
+          "left_cuff",
+          "chain_0",
+          "chain_1",
+          "chain_2",
+          "chain_3",
+          "right_cuff"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [
+          {
+            "name": "land",
+            "time": 0.12
+          }
+        ],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "win",
+        "duration": 0.8,
+        "keyframes": 393,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "bones.sway.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.sway.translate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.left_cuff.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.chain_0.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.chain_1.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.chain_2.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.chain_3.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.right_cuff.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "events",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "sway",
+          "left_cuff",
+          "chain_0",
+          "chain_1",
+          "chain_2",
+          "chain_3",
+          "right_cuff"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [
+          {
+            "name": "win_impact",
+            "time": 0.27
+          }
+        ],
+        "tags": [
+          "win"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 9,
+      "slots": 3,
+      "attachments": 3,
+      "meshAttachments": 3,
+      "meshUvPairs": 952,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "chain",
+      "file": "pieces/chain-d6a5f76c.png",
+      "page": "regular-cuffs.png",
+      "properties": {
+        "bounds": "1264,14,423,573"
+      }
+    },
+    {
+      "region": "left_cuff",
+      "file": "pieces/left-cuff-05129768.png",
+      "page": "regular-cuffs.png",
+      "properties": {
+        "bounds": "638,2,585,624",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "right_cuff",
+      "file": "pieces/right-cuff-a91c97f9.png",
+      "page": "regular-cuffs.png",
+      "properties": {
+        "bounds": "2,10,577,634",
+        "rotate": "90"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

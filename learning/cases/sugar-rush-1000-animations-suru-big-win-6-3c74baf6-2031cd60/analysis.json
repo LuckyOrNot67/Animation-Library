@@ -1,0 +1,1408 @@
+{
+  "id": "sugar-rush-1000-animations-suru-big-win-6-3c74baf6-2031cd60",
+  "collection": "library",
+  "name": "suru_big_win_6",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-big-win-6-3c74baf6",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 5,
+    "slots": 1,
+    "attachments": 1,
+    "meshAttachments": 1,
+    "meshUvPairs": 4,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 101430,
+    "rgbaBytesEstimate": 405720,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 1,
+  "actions": [
+    {
+      "name": "mega_in",
+      "duration": 1,
+      "keyframes": 28,
+      "curvedKeys": 19,
+      "channels": [
+        {
+          "path": "slots.rays_2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "deform.default.rays_2.rays_2",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "rays_2"
+      ],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "mega_loop",
+      "duration": 1.5,
+      "keyframes": 19,
+      "curvedKeys": 11,
+      "channels": [
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.rays_2.rays_2",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "mega_out",
+      "duration": 0.5,
+      "keyframes": 18,
+      "curvedKeys": 6,
+      "channels": [
+        {
+          "path": "slots.rays_2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "deform.default.rays_2.rays_2",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "rays_2"
+      ],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "nice_in",
+      "duration": 1,
+      "keyframes": 28,
+      "curvedKeys": 19,
+      "channels": [
+        {
+          "path": "slots.rays_2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "deform.default.rays_2.rays_2",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "rays_2"
+      ],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "nice_loop",
+      "duration": 1.5,
+      "keyframes": 19,
+      "curvedKeys": 11,
+      "channels": [
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.rays_2.rays_2",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "nice_out",
+      "duration": 0.5,
+      "keyframes": 18,
+      "curvedKeys": 6,
+      "channels": [
+        {
+          "path": "slots.rays_2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "deform.default.rays_2.rays_2",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "rays_2"
+      ],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "sesnational_in",
+      "duration": 1,
+      "keyframes": 28,
+      "curvedKeys": 19,
+      "channels": [
+        {
+          "path": "slots.rays_2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "deform.default.rays_2.rays_2",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "rays_2"
+      ],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "sesnational_loop",
+      "duration": 1.5,
+      "keyframes": 19,
+      "curvedKeys": 11,
+      "channels": [
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.rays_2.rays_2",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "sesnational_out",
+      "duration": 0.5,
+      "keyframes": 18,
+      "curvedKeys": 6,
+      "channels": [
+        {
+          "path": "slots.rays_2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "deform.default.rays_2.rays_2",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "rays_2"
+      ],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "superb_in",
+      "duration": 1,
+      "keyframes": 28,
+      "curvedKeys": 19,
+      "channels": [
+        {
+          "path": "slots.rays_2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "deform.default.rays_2.rays_2",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "rays_2"
+      ],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "superb_loop",
+      "duration": 1.5,
+      "keyframes": 19,
+      "curvedKeys": 11,
+      "channels": [
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "deform.default.rays_2.rays_2",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "superb_out",
+      "duration": 0.5,
+      "keyframes": 19,
+      "curvedKeys": 6,
+      "channels": [
+        {
+          "path": "slots.rays_2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "deform.default.rays_2.rays_2",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "rays_2"
+      ],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-big-win-6-3c74baf6-2031cd60/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "sensational",
+        "parent": "root",
+        "x": 2.92,
+        "y": 285.62,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "numbers",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "stars",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "big_star",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "rays_2",
+        "bone": "root",
+        "setupAttachment": "rays_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "rays_2",
+        "name": "rays_2",
+        "region": "rays_2",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "mega_in",
+        "duration": 1,
+        "keyframes": 28,
+        "curvedKeys": 19,
+        "channels": [
+          {
+            "path": "slots.rays_2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "deform.default.rays_2.rays_2",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "rays_2"
+        ],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "mega_loop",
+        "duration": 1.5,
+        "keyframes": 19,
+        "curvedKeys": 11,
+        "channels": [
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.rays_2.rays_2",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "mega_out",
+        "duration": 0.5,
+        "keyframes": 18,
+        "curvedKeys": 6,
+        "channels": [
+          {
+            "path": "slots.rays_2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "deform.default.rays_2.rays_2",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "rays_2"
+        ],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "nice_in",
+        "duration": 1,
+        "keyframes": 28,
+        "curvedKeys": 19,
+        "channels": [
+          {
+            "path": "slots.rays_2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "deform.default.rays_2.rays_2",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "rays_2"
+        ],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "nice_loop",
+        "duration": 1.5,
+        "keyframes": 19,
+        "curvedKeys": 11,
+        "channels": [
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.rays_2.rays_2",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "nice_out",
+        "duration": 0.5,
+        "keyframes": 18,
+        "curvedKeys": 6,
+        "channels": [
+          {
+            "path": "slots.rays_2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "deform.default.rays_2.rays_2",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "rays_2"
+        ],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "sesnational_in",
+        "duration": 1,
+        "keyframes": 28,
+        "curvedKeys": 19,
+        "channels": [
+          {
+            "path": "slots.rays_2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "deform.default.rays_2.rays_2",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "rays_2"
+        ],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "sesnational_loop",
+        "duration": 1.5,
+        "keyframes": 19,
+        "curvedKeys": 11,
+        "channels": [
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.rays_2.rays_2",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "sesnational_out",
+        "duration": 0.5,
+        "keyframes": 18,
+        "curvedKeys": 6,
+        "channels": [
+          {
+            "path": "slots.rays_2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "deform.default.rays_2.rays_2",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "rays_2"
+        ],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "superb_in",
+        "duration": 1,
+        "keyframes": 28,
+        "curvedKeys": 19,
+        "channels": [
+          {
+            "path": "slots.rays_2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "deform.default.rays_2.rays_2",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "rays_2"
+        ],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "superb_loop",
+        "duration": 1.5,
+        "keyframes": 19,
+        "curvedKeys": 11,
+        "channels": [
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "deform.default.rays_2.rays_2",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "superb_out",
+        "duration": 0.5,
+        "keyframes": 19,
+        "curvedKeys": 6,
+        "channels": [
+          {
+            "path": "slots.rays_2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "deform.default.rays_2.rays_2",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "rays_2"
+        ],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 5,
+      "slots": 1,
+      "attachments": 1,
+      "meshAttachments": 1,
+      "meshUvPairs": 4,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "rays_2",
+      "file": "pieces/rays-2-faa383bf.png",
+      "page": "suru_big_win_6.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "441, 230",
+        "orig": "441, 230",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

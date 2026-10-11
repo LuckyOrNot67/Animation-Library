@@ -1,0 +1,1424 @@
+{
+  "id": "sugar-rush-1000-animations-suru-big-win-7-8155078d-b4eb40ae",
+  "collection": "library",
+  "name": "suru_big_win_7",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-big-win-7-8155078d",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 5,
+    "slots": 2,
+    "attachments": 2,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 849920,
+    "rgbaBytesEstimate": 3399680,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 2,
+  "actions": [
+    {
+      "name": "mega_in",
+      "duration": 1,
+      "keyframes": 21,
+      "curvedKeys": 14,
+      "channels": [
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "mega_loop",
+      "duration": 1.5,
+      "keyframes": 20,
+      "curvedKeys": 11,
+      "channels": [
+        {
+          "path": "slots.stars_left.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.stars_right.color",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "stars_left",
+        "stars_right"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "mega_out",
+      "duration": 0.5,
+      "keyframes": 17,
+      "curvedKeys": 5,
+      "channels": [
+        {
+          "path": "slots.stars_left.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.stars_right.color",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.root.scale",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star",
+        "root"
+      ],
+      "animatedSlots": [
+        "stars_left",
+        "stars_right"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "nice_in",
+      "duration": 1,
+      "keyframes": 21,
+      "curvedKeys": 14,
+      "channels": [
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "nice_loop",
+      "duration": 1.5,
+      "keyframes": 20,
+      "curvedKeys": 11,
+      "channels": [
+        {
+          "path": "slots.stars_left.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.stars_right.color",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "stars_left",
+        "stars_right"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "nice_out",
+      "duration": 0.5,
+      "keyframes": 17,
+      "curvedKeys": 5,
+      "channels": [
+        {
+          "path": "slots.stars_left.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.stars_right.color",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.root.scale",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star",
+        "root"
+      ],
+      "animatedSlots": [
+        "stars_left",
+        "stars_right"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "sesnational_in",
+      "duration": 1,
+      "keyframes": 21,
+      "curvedKeys": 14,
+      "channels": [
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "sesnational_loop",
+      "duration": 1.5,
+      "keyframes": 20,
+      "curvedKeys": 11,
+      "channels": [
+        {
+          "path": "slots.stars_left.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.stars_right.color",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "stars_left",
+        "stars_right"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "sesnational_out",
+      "duration": 0.5,
+      "keyframes": 17,
+      "curvedKeys": 5,
+      "channels": [
+        {
+          "path": "slots.stars_left.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.stars_right.color",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.root.scale",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star",
+        "root"
+      ],
+      "animatedSlots": [
+        "stars_left",
+        "stars_right"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "superb_in",
+      "duration": 1,
+      "keyframes": 21,
+      "curvedKeys": 14,
+      "channels": [
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "superb_loop",
+      "duration": 1.5,
+      "keyframes": 20,
+      "curvedKeys": 11,
+      "channels": [
+        {
+          "path": "slots.stars_left.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.stars_right.color",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "sensational",
+        "stars",
+        "big_star"
+      ],
+      "animatedSlots": [
+        "stars_left",
+        "stars_right"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "superb_out",
+      "duration": 0.5,
+      "keyframes": 18,
+      "curvedKeys": 5,
+      "channels": [
+        {
+          "path": "slots.stars_left.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.stars_right.color",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.numbers.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.sensational.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.stars.translate",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.stars.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.big_star.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.root.scale",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "numbers",
+        "sensational",
+        "stars",
+        "big_star",
+        "root"
+      ],
+      "animatedSlots": [
+        "stars_left",
+        "stars_right"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-big-win-7-8155078d-b4eb40ae/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "sensational",
+        "parent": "root",
+        "x": 2.92,
+        "y": 285.62,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "numbers",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "stars",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "big_star",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "stars_left",
+        "bone": "stars",
+        "setupAttachment": "stars_left",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "stars_right",
+        "bone": "stars",
+        "setupAttachment": "stars_right",
+        "blend": "additive",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "stars_left",
+        "name": "stars_left",
+        "region": "stars_left",
+        "type": "region",
+        "bone": "stars",
+        "transform": {
+          "x": -585.09,
+          "y": -57.49,
+          "rotation": 0,
+          "scaleX": 1.034,
+          "scaleY": 1.034
+        },
+        "size": {
+          "width": 540,
+          "height": 640
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_right",
+        "name": "stars_right",
+        "region": "stars_right",
+        "type": "region",
+        "bone": "stars",
+        "transform": {
+          "x": 388.93,
+          "y": -60.88,
+          "rotation": 0,
+          "scaleX": 1.034,
+          "scaleY": 1.034
+        },
+        "size": {
+          "width": 786,
+          "height": 638
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "mega_in",
+        "duration": 1,
+        "keyframes": 21,
+        "curvedKeys": 14,
+        "channels": [
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "mega_loop",
+        "duration": 1.5,
+        "keyframes": 20,
+        "curvedKeys": 11,
+        "channels": [
+          {
+            "path": "slots.stars_left.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.stars_right.color",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "stars_left",
+          "stars_right"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "mega_out",
+        "duration": 0.5,
+        "keyframes": 17,
+        "curvedKeys": 5,
+        "channels": [
+          {
+            "path": "slots.stars_left.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.stars_right.color",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.root.scale",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star",
+          "root"
+        ],
+        "animatedSlots": [
+          "stars_left",
+          "stars_right"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "nice_in",
+        "duration": 1,
+        "keyframes": 21,
+        "curvedKeys": 14,
+        "channels": [
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "nice_loop",
+        "duration": 1.5,
+        "keyframes": 20,
+        "curvedKeys": 11,
+        "channels": [
+          {
+            "path": "slots.stars_left.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.stars_right.color",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "stars_left",
+          "stars_right"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "nice_out",
+        "duration": 0.5,
+        "keyframes": 17,
+        "curvedKeys": 5,
+        "channels": [
+          {
+            "path": "slots.stars_left.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.stars_right.color",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.root.scale",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star",
+          "root"
+        ],
+        "animatedSlots": [
+          "stars_left",
+          "stars_right"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "sesnational_in",
+        "duration": 1,
+        "keyframes": 21,
+        "curvedKeys": 14,
+        "channels": [
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "sesnational_loop",
+        "duration": 1.5,
+        "keyframes": 20,
+        "curvedKeys": 11,
+        "channels": [
+          {
+            "path": "slots.stars_left.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.stars_right.color",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "stars_left",
+          "stars_right"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "sesnational_out",
+        "duration": 0.5,
+        "keyframes": 17,
+        "curvedKeys": 5,
+        "channels": [
+          {
+            "path": "slots.stars_left.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.stars_right.color",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.root.scale",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star",
+          "root"
+        ],
+        "animatedSlots": [
+          "stars_left",
+          "stars_right"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "superb_in",
+        "duration": 1,
+        "keyframes": 21,
+        "curvedKeys": 14,
+        "channels": [
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "superb_loop",
+        "duration": 1.5,
+        "keyframes": 20,
+        "curvedKeys": 11,
+        "channels": [
+          {
+            "path": "slots.stars_left.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.stars_right.color",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "sensational",
+          "stars",
+          "big_star"
+        ],
+        "animatedSlots": [
+          "stars_left",
+          "stars_right"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "superb_out",
+        "duration": 0.5,
+        "keyframes": 18,
+        "curvedKeys": 5,
+        "channels": [
+          {
+            "path": "slots.stars_left.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.stars_right.color",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.numbers.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.sensational.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.stars.translate",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.stars.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.big_star.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.root.scale",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "numbers",
+          "sensational",
+          "stars",
+          "big_star",
+          "root"
+        ],
+        "animatedSlots": [
+          "stars_left",
+          "stars_right"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 5,
+      "slots": 2,
+      "attachments": 2,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "stars_left",
+      "file": "pieces/stars-left-9dcb8977.png",
+      "page": "suru_big_win_7.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "788, 0",
+        "size": "540, 640",
+        "orig": "540, 640",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "stars_right",
+      "file": "pieces/stars-right-543f9f72.png",
+      "page": "suru_big_win_7.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 2",
+        "size": "786, 638",
+        "orig": "786, 638",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

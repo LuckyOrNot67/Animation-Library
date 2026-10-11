@@ -1,0 +1,1752 @@
+{
+  "id": "sugar-rush-1000-animations-volatility-indicator-11473525-66930307",
+  "collection": "library",
+  "name": "volatility_indicator",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.9.1",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/volatility-indicator-11473525",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 9,
+    "slots": 14,
+    "attachments": 14,
+    "meshAttachments": 1,
+    "meshUvPairs": 8,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 482664,
+    "rgbaBytesEstimate": 1930656,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 11,
+  "actions": [
+    {
+      "name": "volatility_high",
+      "duration": 1.3333,
+      "keyframes": 26,
+      "curvedKeys": 1,
+      "channels": [
+        {
+          "path": "slots.container.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.icon_highvolatility.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_highvolatility_glow.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.icon_highvolatility_off.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_highvolatility_off2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_lowvolatility_off.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_midvolatility_off.color",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bone_right.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bone_left.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.high.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.high.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.text_holder.translate",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "bone_right",
+        "bone_left",
+        "high",
+        "text_holder"
+      ],
+      "animatedSlots": [
+        "container",
+        "icon_highvolatility",
+        "icon_highvolatility_glow",
+        "icon_highvolatility_off",
+        "icon_highvolatility_off2",
+        "icon_lowvolatility_off",
+        "icon_midvolatility_off"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "volatility_high_paytable",
+      "duration": 1.3333,
+      "keyframes": 27,
+      "curvedKeys": 1,
+      "channels": [
+        {
+          "path": "slots.container.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.container_holder.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.icon_highvolatility.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_highvolatility_glow.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.icon_highvolatility_off.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_highvolatility_off2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_lowvolatility_off.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_midvolatility_off.color",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bone_right.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bone_left.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.high.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.high.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.text_holder.translate",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "bone_right",
+        "bone_left",
+        "high",
+        "text_holder"
+      ],
+      "animatedSlots": [
+        "container",
+        "container_holder",
+        "icon_highvolatility",
+        "icon_highvolatility_glow",
+        "icon_highvolatility_off",
+        "icon_highvolatility_off2",
+        "icon_lowvolatility_off",
+        "icon_midvolatility_off"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "volatility_low",
+      "duration": 1.3333,
+      "keyframes": 29,
+      "curvedKeys": 1,
+      "channels": [
+        {
+          "path": "slots.container.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.icon_highvolatility_off.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_highvolatility_off2.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.icon_highvolatility_off2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.icon_lowvolatility.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_lowvolatility_glow.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.icon_lowvolatility_off.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_lowvolatility_off2.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.icon_lowvolatility_off2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_midvolatility_off.color",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bone_right.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bone_left.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.low.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.text_holder.translate",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "bone_right",
+        "bone_left",
+        "low",
+        "text_holder"
+      ],
+      "animatedSlots": [
+        "container",
+        "icon_highvolatility_off",
+        "icon_highvolatility_off2",
+        "icon_lowvolatility",
+        "icon_lowvolatility_glow",
+        "icon_lowvolatility_off",
+        "icon_lowvolatility_off2",
+        "icon_midvolatility_off"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "volatility_low_paytable",
+      "duration": 1.3333,
+      "keyframes": 30,
+      "curvedKeys": 1,
+      "channels": [
+        {
+          "path": "slots.container.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.container_holder.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.icon_highvolatility_off.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_highvolatility_off2.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.icon_highvolatility_off2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.icon_lowvolatility.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_lowvolatility_glow.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.icon_lowvolatility_off.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_lowvolatility_off2.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.icon_lowvolatility_off2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_midvolatility_off.color",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bone_right.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bone_left.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.low.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.text_holder.translate",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "bone_right",
+        "bone_left",
+        "low",
+        "text_holder"
+      ],
+      "animatedSlots": [
+        "container",
+        "container_holder",
+        "icon_highvolatility_off",
+        "icon_highvolatility_off2",
+        "icon_lowvolatility",
+        "icon_lowvolatility_glow",
+        "icon_lowvolatility_off",
+        "icon_lowvolatility_off2",
+        "icon_midvolatility_off"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "volatility_mid",
+      "duration": 1.3333,
+      "keyframes": 29,
+      "curvedKeys": 1,
+      "channels": [
+        {
+          "path": "slots.container.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.icon_highvolatility_off.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_highvolatility_off2.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.icon_highvolatility_off2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.icon_lowvolatility_off.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_midvolatility.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_midvolatility_glow.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.icon_midvolatility_off.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_midvolatility_off2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_midvolatility_off2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.bone_right.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bone_left.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.mid.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.mid.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.text_holder.translate",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "bone_right",
+        "bone_left",
+        "mid",
+        "text_holder"
+      ],
+      "animatedSlots": [
+        "container",
+        "icon_highvolatility_off",
+        "icon_highvolatility_off2",
+        "icon_lowvolatility_off",
+        "icon_midvolatility",
+        "icon_midvolatility_glow",
+        "icon_midvolatility_off",
+        "icon_midvolatility_off2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "volatility_mid_paytable",
+      "duration": 1.3333,
+      "keyframes": 30,
+      "curvedKeys": 1,
+      "channels": [
+        {
+          "path": "slots.container.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.container_holder.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.icon_highvolatility_off.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_highvolatility_off2.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.icon_highvolatility_off2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.icon_lowvolatility_off.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_midvolatility.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_midvolatility_glow.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.icon_midvolatility_off.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_midvolatility_off2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.icon_midvolatility_off2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.bone_right.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bone_left.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.mid.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.mid.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.text_holder.translate",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "bone_right",
+        "bone_left",
+        "mid",
+        "text_holder"
+      ],
+      "animatedSlots": [
+        "container",
+        "container_holder",
+        "icon_highvolatility_off",
+        "icon_highvolatility_off2",
+        "icon_lowvolatility_off",
+        "icon_midvolatility",
+        "icon_midvolatility_glow",
+        "icon_midvolatility_off",
+        "icon_midvolatility_off2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-volatility-indicator-11473525-66930307/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone_left",
+        "parent": "root",
+        "x": -111.6,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "container_holder",
+        "parent": "bone_left",
+        "x": 111.6,
+        "y": -1.56,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "low",
+        "parent": "container_holder",
+        "x": -116.94,
+        "y": 1.56,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mid",
+        "parent": "container_holder",
+        "x": 1.06,
+        "y": 1.56,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "high",
+        "parent": "container_holder",
+        "x": 117.29,
+        "y": 1.56,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "text",
+        "parent": "container_holder",
+        "x": 252.4,
+        "y": 1.56,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone_right",
+        "parent": "root",
+        "x": 125.1,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "text_holder",
+        "parent": "bone_right",
+        "x": 33.57,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "container",
+        "bone": "root",
+        "setupAttachment": "container",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "container_holder",
+        "bone": "root",
+        "setupAttachment": "container_small",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "icon_lowvolatility",
+        "bone": "low",
+        "setupAttachment": "icon_lowvolatility",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "icon_lowvolatility_off",
+        "bone": "low",
+        "setupAttachment": "icon_lowvolatility_off",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "icon_lowvolatility_off2",
+        "bone": "low",
+        "setupAttachment": "icon_lowvolatility_off",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "icon_midvolatility",
+        "bone": "mid",
+        "setupAttachment": "icon_midvolatility",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "icon_midvolatility_off",
+        "bone": "mid",
+        "setupAttachment": "icon_midvolatility_off",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "icon_midvolatility_off2",
+        "bone": "mid",
+        "setupAttachment": "icon_midvolatility_off",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "icon_highvolatility",
+        "bone": "high",
+        "setupAttachment": "icon_highvolatility",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "icon_highvolatility_off",
+        "bone": "high",
+        "setupAttachment": "icon_highvolatility_off",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "icon_highvolatility_off2",
+        "bone": "high",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "icon_lowvolatility_glow",
+        "bone": "low",
+        "setupAttachment": "icon_lowvolatility_glow",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "icon_midvolatility_glow",
+        "bone": "mid",
+        "setupAttachment": "icon_midvolatility_glow",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "icon_highvolatility_glow",
+        "bone": "high",
+        "setupAttachment": "icon_highvolatility_glow",
+        "blend": "additive",
+        "color": "ffffff00"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "container",
+        "name": "container",
+        "region": "container",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 1.03,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 880,
+          "height": 142
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "container_holder",
+        "name": "container_small",
+        "region": "container_small",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 540,
+          "height": 340
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 48,
+          "triangles": 6,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "icon_highvolatility",
+        "name": "icon_highvolatility",
+        "region": "icon_highvolatility",
+        "type": "region",
+        "bone": "high",
+        "transform": {
+          "x": 0.5,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 104,
+          "height": 104
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "icon_highvolatility_glow",
+        "name": "icon_highvolatility_glow",
+        "region": "icon_highvolatility_glow",
+        "type": "region",
+        "bone": "high",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 128,
+          "height": 128
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "icon_highvolatility_off",
+        "name": "icon_highvolatility_off",
+        "region": "icon_highvolatility_off",
+        "type": "region",
+        "bone": "high",
+        "transform": {
+          "x": 0.5,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 104,
+          "height": 104
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "icon_highvolatility_off2",
+        "name": "icon_highvolatility_off",
+        "region": "icon_highvolatility_off",
+        "type": "region",
+        "bone": "high",
+        "transform": {
+          "x": 0.5,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 104,
+          "height": 104
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "icon_lowvolatility",
+        "name": "icon_lowvolatility",
+        "region": "icon_lowvolatility",
+        "type": "region",
+        "bone": "low",
+        "transform": {
+          "x": 0.5,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 104,
+          "height": 104
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "icon_lowvolatility_glow",
+        "name": "icon_lowvolatility_glow",
+        "region": "icon_lowvolatility_glow",
+        "type": "region",
+        "bone": "low",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 128,
+          "height": 128
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "icon_lowvolatility_off",
+        "name": "icon_lowvolatility_off",
+        "region": "icon_lowvolatility_off",
+        "type": "region",
+        "bone": "low",
+        "transform": {
+          "x": 0.5,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 104,
+          "height": 104
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "icon_lowvolatility_off2",
+        "name": "icon_lowvolatility_off",
+        "region": "icon_lowvolatility_off",
+        "type": "region",
+        "bone": "low",
+        "transform": {
+          "x": 0.5,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 104,
+          "height": 104
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "icon_midvolatility",
+        "name": "icon_midvolatility",
+        "region": "icon_midvolatility",
+        "type": "region",
+        "bone": "mid",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 104,
+          "height": 104
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "icon_midvolatility_glow",
+        "name": "icon_midvolatility_glow",
+        "region": "icon_midvolatility_glow",
+        "type": "region",
+        "bone": "mid",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 128,
+          "height": 128
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "icon_midvolatility_off",
+        "name": "icon_midvolatility_off",
+        "region": "icon_midvolatility_off",
+        "type": "region",
+        "bone": "mid",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 104,
+          "height": 104
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "icon_midvolatility_off2",
+        "name": "icon_midvolatility_off",
+        "region": "icon_midvolatility_off",
+        "type": "region",
+        "bone": "mid",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 104,
+          "height": 104
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "volatility_high",
+        "duration": 1.3333,
+        "keyframes": 26,
+        "curvedKeys": 1,
+        "channels": [
+          {
+            "path": "slots.container.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.icon_highvolatility.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_highvolatility_glow.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.icon_highvolatility_off.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_highvolatility_off2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_lowvolatility_off.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_midvolatility_off.color",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bone_right.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bone_left.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.high.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.high.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.text_holder.translate",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "bone_right",
+          "bone_left",
+          "high",
+          "text_holder"
+        ],
+        "animatedSlots": [
+          "container",
+          "icon_highvolatility",
+          "icon_highvolatility_glow",
+          "icon_highvolatility_off",
+          "icon_highvolatility_off2",
+          "icon_lowvolatility_off",
+          "icon_midvolatility_off"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "volatility_high_paytable",
+        "duration": 1.3333,
+        "keyframes": 27,
+        "curvedKeys": 1,
+        "channels": [
+          {
+            "path": "slots.container.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.container_holder.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.icon_highvolatility.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_highvolatility_glow.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.icon_highvolatility_off.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_highvolatility_off2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_lowvolatility_off.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_midvolatility_off.color",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bone_right.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bone_left.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.high.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.high.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.text_holder.translate",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "bone_right",
+          "bone_left",
+          "high",
+          "text_holder"
+        ],
+        "animatedSlots": [
+          "container",
+          "container_holder",
+          "icon_highvolatility",
+          "icon_highvolatility_glow",
+          "icon_highvolatility_off",
+          "icon_highvolatility_off2",
+          "icon_lowvolatility_off",
+          "icon_midvolatility_off"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "volatility_low",
+        "duration": 1.3333,
+        "keyframes": 29,
+        "curvedKeys": 1,
+        "channels": [
+          {
+            "path": "slots.container.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.icon_highvolatility_off.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_highvolatility_off2.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.icon_highvolatility_off2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.icon_lowvolatility.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_lowvolatility_glow.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.icon_lowvolatility_off.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_lowvolatility_off2.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.icon_lowvolatility_off2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_midvolatility_off.color",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bone_right.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bone_left.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.low.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.text_holder.translate",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "bone_right",
+          "bone_left",
+          "low",
+          "text_holder"
+        ],
+        "animatedSlots": [
+          "container",
+          "icon_highvolatility_off",
+          "icon_highvolatility_off2",
+          "icon_lowvolatility",
+          "icon_lowvolatility_glow",
+          "icon_lowvolatility_off",
+          "icon_lowvolatility_off2",
+          "icon_midvolatility_off"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "volatility_low_paytable",
+        "duration": 1.3333,
+        "keyframes": 30,
+        "curvedKeys": 1,
+        "channels": [
+          {
+            "path": "slots.container.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.container_holder.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.icon_highvolatility_off.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_highvolatility_off2.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.icon_highvolatility_off2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.icon_lowvolatility.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_lowvolatility_glow.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.icon_lowvolatility_off.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_lowvolatility_off2.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.icon_lowvolatility_off2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_midvolatility_off.color",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bone_right.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bone_left.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.low.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.text_holder.translate",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "bone_right",
+          "bone_left",
+          "low",
+          "text_holder"
+        ],
+        "animatedSlots": [
+          "container",
+          "container_holder",
+          "icon_highvolatility_off",
+          "icon_highvolatility_off2",
+          "icon_lowvolatility",
+          "icon_lowvolatility_glow",
+          "icon_lowvolatility_off",
+          "icon_lowvolatility_off2",
+          "icon_midvolatility_off"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "volatility_mid",
+        "duration": 1.3333,
+        "keyframes": 29,
+        "curvedKeys": 1,
+        "channels": [
+          {
+            "path": "slots.container.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.icon_highvolatility_off.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_highvolatility_off2.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.icon_highvolatility_off2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.icon_lowvolatility_off.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_midvolatility.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_midvolatility_glow.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.icon_midvolatility_off.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_midvolatility_off2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_midvolatility_off2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.bone_right.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bone_left.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.mid.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.mid.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.text_holder.translate",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "bone_right",
+          "bone_left",
+          "mid",
+          "text_holder"
+        ],
+        "animatedSlots": [
+          "container",
+          "icon_highvolatility_off",
+          "icon_highvolatility_off2",
+          "icon_lowvolatility_off",
+          "icon_midvolatility",
+          "icon_midvolatility_glow",
+          "icon_midvolatility_off",
+          "icon_midvolatility_off2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "volatility_mid_paytable",
+        "duration": 1.3333,
+        "keyframes": 30,
+        "curvedKeys": 1,
+        "channels": [
+          {
+            "path": "slots.container.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.container_holder.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.icon_highvolatility_off.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_highvolatility_off2.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.icon_highvolatility_off2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.icon_lowvolatility_off.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_midvolatility.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_midvolatility_glow.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.icon_midvolatility_off.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_midvolatility_off2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.icon_midvolatility_off2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.bone_right.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bone_left.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.mid.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.mid.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.text_holder.translate",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "bone_right",
+          "bone_left",
+          "mid",
+          "text_holder"
+        ],
+        "animatedSlots": [
+          "container",
+          "container_holder",
+          "icon_highvolatility_off",
+          "icon_highvolatility_off2",
+          "icon_lowvolatility_off",
+          "icon_midvolatility",
+          "icon_midvolatility_glow",
+          "icon_midvolatility_off",
+          "icon_midvolatility_off2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 9,
+      "slots": 14,
+      "attachments": 14,
+      "meshAttachments": 1,
+      "meshUvPairs": 8,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "container",
+      "file": "pieces/container-5c70591b.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 402",
+        "size": "880, 142",
+        "orig": "880, 142",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "container_small",
+      "file": "pieces/container-small-89e19d7b.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 60",
+        "size": "540, 340",
+        "orig": "540, 340",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "icon_highvolatility",
+      "file": "pieces/icon-highvolatility-30101d01.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "658, 302",
+        "size": "98, 98",
+        "orig": "104, 104",
+        "offset": "3, 3",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "icon_highvolatility_glow",
+      "file": "pieces/icon-highvolatility-glow-3298b43a.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "544, 288",
+        "size": "112, 112",
+        "orig": "128, 128",
+        "offset": "8, 8",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "icon_highvolatility_off",
+      "file": "pieces/icon-highvolatility-off-494afa83.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "658, 202",
+        "size": "98, 98",
+        "orig": "104, 104",
+        "offset": "3, 3",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "icon_lowvolatility",
+      "file": "pieces/icon-lowvolatility-ef532139.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "658, 102",
+        "size": "98, 98",
+        "orig": "104, 104",
+        "offset": "3, 3",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "icon_lowvolatility_glow",
+      "file": "pieces/icon-lowvolatility-glow-00dfe1c9.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "544, 174",
+        "size": "112, 112",
+        "orig": "128, 128",
+        "offset": "8, 8",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "icon_lowvolatility_off",
+      "file": "pieces/icon-lowvolatility-off-14b28687.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "658, 2",
+        "size": "98, 98",
+        "orig": "104, 104",
+        "offset": "3, 3",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "icon_midvolatility",
+      "file": "pieces/icon-midvolatility-b8353f04.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "758, 302",
+        "size": "98, 98",
+        "orig": "104, 104",
+        "offset": "3, 3",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "icon_midvolatility_glow",
+      "file": "pieces/icon-midvolatility-glow-7afd7139.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "544, 60",
+        "size": "112, 112",
+        "orig": "128, 128",
+        "offset": "8, 8",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "icon_midvolatility_off",
+      "file": "pieces/icon-midvolatility-off-79223567.png",
+      "page": "volatility_indicator.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "758, 202",
+        "size": "98, 98",
+        "orig": "104, 104",
+        "offset": "3, 3",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

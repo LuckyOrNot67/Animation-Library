@@ -1,0 +1,684 @@
+{
+  "id": "wicked-grin-animations-tv-0d6d19df-eafc39ef",
+  "collection": "library",
+  "name": "tv",
+  "machine": "wicked-grin",
+  "format": "spine-json",
+  "version": "4.0.64",
+  "packagePath": "bibliotheque/wicked-grin/animations/tv-0d6d19df",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 2,
+    "slots": 3,
+    "attachments": 16,
+    "meshAttachments": 3,
+    "meshUvPairs": 12,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 1048576,
+    "rgbaBytesEstimate": 4194304,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 16,
+  "actions": [
+    {
+      "name": "noise",
+      "duration": 0.9,
+      "keyframes": 32,
+      "curvedKeys": 3,
+      "channels": [
+        {
+          "path": "slots.noise_00.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.noise_00.attachment",
+          "keyframes": 28
+        }
+      ],
+      "animatedBones": [],
+      "animatedSlots": [
+        "noise_00"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "setup",
+      "duration": 0,
+      "keyframes": 0,
+      "curvedKeys": 0,
+      "channels": [],
+      "animatedBones": [],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/wicked-grin-animations-tv-0d6d19df-eafc39ef/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "scale_all_bone",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "tv_bg",
+        "bone": "scale_all_bone",
+        "setupAttachment": "tv_bg",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "noise_00",
+        "bone": "scale_all_bone",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "tv_frame",
+        "bone": "scale_all_bone",
+        "setupAttachment": "tv_frame",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "noise_00",
+        "name": "noise_00",
+        "region": "noise_00",
+        "type": "mesh",
+        "bone": "scale_all_bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 154
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise_00",
+        "name": "noise_01",
+        "region": "noise_01",
+        "type": "linkedmesh",
+        "bone": "scale_all_bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 154
+        },
+        "mesh": null,
+        "parent": "noise_00",
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise_00",
+        "name": "noise_02",
+        "region": "noise_02",
+        "type": "linkedmesh",
+        "bone": "scale_all_bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 154
+        },
+        "mesh": null,
+        "parent": "noise_00",
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise_00",
+        "name": "noise_03",
+        "region": "noise_03",
+        "type": "linkedmesh",
+        "bone": "scale_all_bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 154
+        },
+        "mesh": null,
+        "parent": "noise_00",
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise_00",
+        "name": "noise_04",
+        "region": "noise_04",
+        "type": "linkedmesh",
+        "bone": "scale_all_bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 154
+        },
+        "mesh": null,
+        "parent": "noise_00",
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise_00",
+        "name": "noise_05",
+        "region": "noise_05",
+        "type": "linkedmesh",
+        "bone": "scale_all_bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 154
+        },
+        "mesh": null,
+        "parent": "noise_00",
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise_00",
+        "name": "noise_06",
+        "region": "noise_06",
+        "type": "linkedmesh",
+        "bone": "scale_all_bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 154
+        },
+        "mesh": null,
+        "parent": "noise_00",
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise_00",
+        "name": "noise_07",
+        "region": "noise_07",
+        "type": "linkedmesh",
+        "bone": "scale_all_bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 154
+        },
+        "mesh": null,
+        "parent": "noise_00",
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise_00",
+        "name": "noise_08",
+        "region": "noise_08",
+        "type": "linkedmesh",
+        "bone": "scale_all_bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 154
+        },
+        "mesh": null,
+        "parent": "noise_00",
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise_00",
+        "name": "noise_09",
+        "region": "noise_09",
+        "type": "linkedmesh",
+        "bone": "scale_all_bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 154
+        },
+        "mesh": null,
+        "parent": "noise_00",
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise_00",
+        "name": "noise_10",
+        "region": "noise_10",
+        "type": "linkedmesh",
+        "bone": "scale_all_bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 154
+        },
+        "mesh": null,
+        "parent": "noise_00",
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise_00",
+        "name": "noise_11",
+        "region": "noise_11",
+        "type": "linkedmesh",
+        "bone": "scale_all_bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 154
+        },
+        "mesh": null,
+        "parent": "noise_00",
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise_00",
+        "name": "noise_12",
+        "region": "noise_12",
+        "type": "linkedmesh",
+        "bone": "scale_all_bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 154
+        },
+        "mesh": null,
+        "parent": "noise_00",
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "noise_00",
+        "name": "noise_13",
+        "region": "noise_13",
+        "type": "linkedmesh",
+        "bone": "scale_all_bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 154
+        },
+        "mesh": null,
+        "parent": "noise_00",
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "tv_bg",
+        "name": "tv_bg",
+        "region": "tv_bg",
+        "type": "mesh",
+        "bone": "scale_all_bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 154
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "tv_frame",
+        "name": "tv_frame",
+        "region": "tv_frame",
+        "type": "mesh",
+        "bone": "scale_all_bone",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 212,
+          "height": 238
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "noise",
+        "duration": 0.9,
+        "keyframes": 32,
+        "curvedKeys": 3,
+        "channels": [
+          {
+            "path": "slots.noise_00.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.noise_00.attachment",
+            "keyframes": 28
+          }
+        ],
+        "animatedBones": [],
+        "animatedSlots": [
+          "noise_00"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "setup",
+        "duration": 0,
+        "keyframes": 0,
+        "curvedKeys": 0,
+        "channels": [],
+        "animatedBones": [],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 2,
+      "slots": 3,
+      "attachments": 16,
+      "meshAttachments": 3,
+      "meshUvPairs": 12,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "noise_00",
+      "file": "pieces/noise-00-e3d2fdef.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "2,542,187,154"
+      }
+    },
+    {
+      "region": "noise_01",
+      "file": "pieces/noise-01-84032312.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "191,542,187,154"
+      }
+    },
+    {
+      "region": "noise_02",
+      "file": "pieces/noise-02-acc6135a.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "216,782,187,154"
+      }
+    },
+    {
+      "region": "noise_03",
+      "file": "pieces/noise-03-d7f950dc.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "380,626,187,154"
+      }
+    },
+    {
+      "region": "noise_04",
+      "file": "pieces/noise-04-a4104823.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "405,782,187,154"
+      }
+    },
+    {
+      "region": "noise_05",
+      "file": "pieces/noise-05-c37ea82f.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "380,470,187,154"
+      }
+    },
+    {
+      "region": "noise_06",
+      "file": "pieces/noise-06-1e462946.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "2,386,187,154"
+      }
+    },
+    {
+      "region": "noise_07",
+      "file": "pieces/noise-07-b2e066b5.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "191,386,187,154"
+      }
+    },
+    {
+      "region": "noise_08",
+      "file": "pieces/noise-08-d0ef9b77.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "380,314,187,154"
+      }
+    },
+    {
+      "region": "noise_09",
+      "file": "pieces/noise-09-b8b86a19.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "2,230,187,154"
+      }
+    },
+    {
+      "region": "noise_10",
+      "file": "pieces/noise-10-4eb2b529.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "191,230,187,154"
+      }
+    },
+    {
+      "region": "noise_11",
+      "file": "pieces/noise-11-5f20a3d3.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "380,158,187,154"
+      }
+    },
+    {
+      "region": "noise_12",
+      "file": "pieces/noise-12-d7732f49.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "2,74,187,154"
+      }
+    },
+    {
+      "region": "noise_13",
+      "file": "pieces/noise-13-806bd241.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "191,74,187,154"
+      }
+    },
+    {
+      "region": "tv_bg",
+      "file": "pieces/tv-bg-b88e067f.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "380,2,187,154"
+      }
+    },
+    {
+      "region": "tv_frame",
+      "file": "pieces/tv-frame-090b17b4.png",
+      "page": "tv.png",
+      "properties": {
+        "bounds": "2,698,212,238"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

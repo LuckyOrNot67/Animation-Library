@@ -1,0 +1,1461 @@
+{
+  "id": "sugar-rush-1000-animations-suru-1000-banner-2245d2a2-8f59440e",
+  "collection": "library",
+  "name": "suru_1000_banner",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-1000-banner-2245d2a2",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 13,
+    "slots": 38,
+    "attachments": 6,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 5018016,
+    "rgbaBytesEstimate": 20072064,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 3,
+  "actions": [
+    {
+      "name": "suru_1000_banner_in",
+      "duration": 0.8,
+      "keyframes": 61,
+      "curvedKeys": 30,
+      "channels": [
+        {
+          "path": "slots.colour_effect_2.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.colour_effect_3.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.congratulations2.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.congratulations_depth2.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.meter_glow_2.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.particals.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.particals2.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.particals3.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.particals4.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.shape_1_p_2.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.shape_1_p_3.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.shape_2_p_11.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.shape_2_p_12.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.stars_1.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.stars_3.color",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.123456789.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.congratulation.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.you have win.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.credit.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.rec.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.rec1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.ray.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.ray2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star01.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.star3.scale",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "123456789",
+        "congratulation",
+        "you have win",
+        "credit",
+        "rec",
+        "rec1",
+        "ray",
+        "ray2",
+        "star1",
+        "star2",
+        "star01",
+        "star3"
+      ],
+      "animatedSlots": [
+        "colour_effect_2",
+        "colour_effect_3",
+        "congratulations2",
+        "congratulations_depth2",
+        "meter_glow_2",
+        "particals",
+        "particals2",
+        "particals3",
+        "particals4",
+        "shape_1_p_2",
+        "shape_1_p_3",
+        "shape_2_p_11",
+        "shape_2_p_12",
+        "stars_1",
+        "stars_3"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "suru_1000_banner_loop",
+      "duration": 1.9,
+      "keyframes": 70,
+      "curvedKeys": 48,
+      "channels": [
+        {
+          "path": "slots.congratulations2.color",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.congratulations_depth2.color",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.meter_glow_2.color",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.particals.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.particals2.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.particals3.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.particals4.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.stars_1.color",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.stars_3.color",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.congratulation.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.star01.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.star3.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ray2.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.ray.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star1.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.rec.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star2.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.rec1.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "congratulation",
+        "star01",
+        "star3",
+        "ray2",
+        "ray",
+        "star1",
+        "rec",
+        "star2",
+        "rec1"
+      ],
+      "animatedSlots": [
+        "congratulations2",
+        "congratulations_depth2",
+        "meter_glow_2",
+        "particals",
+        "particals2",
+        "particals3",
+        "particals4",
+        "stars_1",
+        "stars_3"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "suru_1000_banner_out",
+      "duration": 0.8,
+      "keyframes": 48,
+      "curvedKeys": 17,
+      "channels": [
+        {
+          "path": "slots.colour_effect_2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.colour_effect_3.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.congratulations2.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.congratulations_depth2.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.meter_glow_2.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.particals.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.particals2.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.particals3.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.particals4.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.shape_1_p_2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.shape_1_p_3.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.shape_2_p_11.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.shape_2_p_12.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.stars_1.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.stars_3.color",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.123456789.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.ray2.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.star1.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.congratulation.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star2.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.star01.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.you have win.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.credit.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.rec.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.rec1.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ray.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.star3.scale",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "123456789",
+        "ray2",
+        "star1",
+        "congratulation",
+        "star2",
+        "star01",
+        "you have win",
+        "credit",
+        "rec",
+        "rec1",
+        "ray",
+        "star3"
+      ],
+      "animatedSlots": [
+        "colour_effect_2",
+        "colour_effect_3",
+        "congratulations2",
+        "congratulations_depth2",
+        "meter_glow_2",
+        "particals",
+        "particals2",
+        "particals3",
+        "particals4",
+        "shape_1_p_2",
+        "shape_1_p_3",
+        "shape_2_p_11",
+        "shape_2_p_12",
+        "stars_1",
+        "stars_3"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-1000-banner-2245d2a2-8f59440e/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "congratulation",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "you have win",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "123456789",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "credit",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "rec",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "rec1",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ray",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ray2",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "star1",
+        "parent": "root",
+        "x": 563.76,
+        "y": 251.86,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "star2",
+        "parent": "root",
+        "x": -577.99,
+        "y": 251.86,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      },
+      {
+        "name": "star01",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "star3",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "colour_effect_3",
+        "bone": "root",
+        "setupAttachment": "colour_effect_3_n",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "colour_effect_2",
+        "bone": "root",
+        "setupAttachment": "colour_effect_2_n",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "rays_2",
+        "bone": "ray",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "shape_2_p_11",
+        "bone": "rec1",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "shape_2_p_12",
+        "bone": "rec1",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "shape_1_p_2",
+        "bone": "rec",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "shape_1_p_3",
+        "bone": "rec",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "stars_1",
+        "bone": "star01",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "stars_3",
+        "bone": "star3",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "rays_4",
+        "bone": "ray2",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particals",
+        "bone": "root",
+        "setupAttachment": "particals",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particals4",
+        "bone": "root",
+        "setupAttachment": "particals",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particals2",
+        "bone": "root",
+        "setupAttachment": "particals",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particals3",
+        "bone": "root",
+        "setupAttachment": "particals",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "left_star_1_motion",
+        "bone": "star1",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "left_star_1_motion2",
+        "bone": "star2",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "left_star_1",
+        "bone": "star1",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "left_star_2",
+        "bone": "star2",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "meter_glow_1",
+        "bone": "123456789",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "meter_glow_2",
+        "bone": "123456789",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "meter_shadow",
+        "bone": "123456789",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "meter",
+        "bone": "123456789",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glow",
+        "bone": "congratulation",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "congratulations_base",
+        "bone": "congratulation",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "white",
+        "bone": "congratulation",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "congratulations_depth",
+        "bone": "congratulation",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "congratulations_depth2",
+        "bone": "congratulation",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "congratulations",
+        "bone": "congratulation",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "congratulations2",
+        "bone": "congratulation",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "high_light_2",
+        "bone": "congratulation",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "high_light_3",
+        "bone": "congratulation",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "high_light_4",
+        "bone": "congratulation",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "high_light_5",
+        "bone": "congratulation",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "high_light_6",
+        "bone": "congratulation",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "you_have_won_depth",
+        "bone": "you have win",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "you_have_won",
+        "bone": "you have win",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "credits_text_shadow",
+        "bone": "credit",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "credits_text",
+        "bone": "credit",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "colour_effect_2",
+        "name": "colour_effect_2_n",
+        "region": "colour_effect_2_n",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2500,
+          "height": 999
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "colour_effect_3",
+        "name": "colour_effect_3_n",
+        "region": "colour_effect_3_n",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0.5,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 2123,
+          "height": 999
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particals",
+        "name": "particals",
+        "region": "particals",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 619.58,
+          "y": 122.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 322,
+          "height": 378
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particals2",
+        "name": "particals",
+        "region": "particals",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 619.58,
+          "y": 122.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 322,
+          "height": 378
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particals3",
+        "name": "particals",
+        "region": "particals",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -640.76,
+          "y": 122.5,
+          "rotation": 0,
+          "scaleX": -1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 322,
+          "height": 378
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particals4",
+        "name": "particals",
+        "region": "particals",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -640.76,
+          "y": 122.5,
+          "rotation": 0,
+          "scaleX": -1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 322,
+          "height": 378
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "suru_1000_banner_in",
+        "duration": 0.8,
+        "keyframes": 61,
+        "curvedKeys": 30,
+        "channels": [
+          {
+            "path": "slots.colour_effect_2.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.colour_effect_3.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.congratulations2.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.congratulations_depth2.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.meter_glow_2.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.particals.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.particals2.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.particals3.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.particals4.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.shape_1_p_2.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.shape_1_p_3.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.shape_2_p_11.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.shape_2_p_12.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.stars_1.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.stars_3.color",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.123456789.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.congratulation.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.you have win.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.credit.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.rec.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.rec1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.ray.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.ray2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star01.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.star3.scale",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "123456789",
+          "congratulation",
+          "you have win",
+          "credit",
+          "rec",
+          "rec1",
+          "ray",
+          "ray2",
+          "star1",
+          "star2",
+          "star01",
+          "star3"
+        ],
+        "animatedSlots": [
+          "colour_effect_2",
+          "colour_effect_3",
+          "congratulations2",
+          "congratulations_depth2",
+          "meter_glow_2",
+          "particals",
+          "particals2",
+          "particals3",
+          "particals4",
+          "shape_1_p_2",
+          "shape_1_p_3",
+          "shape_2_p_11",
+          "shape_2_p_12",
+          "stars_1",
+          "stars_3"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "suru_1000_banner_loop",
+        "duration": 1.9,
+        "keyframes": 70,
+        "curvedKeys": 48,
+        "channels": [
+          {
+            "path": "slots.congratulations2.color",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.congratulations_depth2.color",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.meter_glow_2.color",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.particals.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.particals2.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.particals3.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.particals4.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.stars_1.color",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.stars_3.color",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.congratulation.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.star01.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.star3.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ray2.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.ray.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star1.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.rec.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star2.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.rec1.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "congratulation",
+          "star01",
+          "star3",
+          "ray2",
+          "ray",
+          "star1",
+          "rec",
+          "star2",
+          "rec1"
+        ],
+        "animatedSlots": [
+          "congratulations2",
+          "congratulations_depth2",
+          "meter_glow_2",
+          "particals",
+          "particals2",
+          "particals3",
+          "particals4",
+          "stars_1",
+          "stars_3"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "suru_1000_banner_out",
+        "duration": 0.8,
+        "keyframes": 48,
+        "curvedKeys": 17,
+        "channels": [
+          {
+            "path": "slots.colour_effect_2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.colour_effect_3.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.congratulations2.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.congratulations_depth2.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.meter_glow_2.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.particals.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.particals2.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.particals3.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.particals4.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.shape_1_p_2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.shape_1_p_3.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.shape_2_p_11.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.shape_2_p_12.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.stars_1.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.stars_3.color",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.123456789.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.ray2.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.star1.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.congratulation.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star2.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.star01.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.you have win.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.credit.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.rec.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.rec1.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ray.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.star3.scale",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "123456789",
+          "ray2",
+          "star1",
+          "congratulation",
+          "star2",
+          "star01",
+          "you have win",
+          "credit",
+          "rec",
+          "rec1",
+          "ray",
+          "star3"
+        ],
+        "animatedSlots": [
+          "colour_effect_2",
+          "colour_effect_3",
+          "congratulations2",
+          "congratulations_depth2",
+          "meter_glow_2",
+          "particals",
+          "particals2",
+          "particals3",
+          "particals4",
+          "shape_1_p_2",
+          "shape_1_p_3",
+          "shape_2_p_11",
+          "shape_2_p_12",
+          "stars_1",
+          "stars_3"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 13,
+      "slots": 38,
+      "attachments": 6,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "colour_effect_2_n",
+      "file": "pieces/colour-effect-2-n-508ce11d.png",
+      "page": "suru_1000_banner.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 1003",
+        "size": "2500, 999",
+        "orig": "2500, 999",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "colour_effect_3_n",
+      "file": "pieces/colour-effect-3-n-bf8bcfc5.png",
+      "page": "suru_1000_banner.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 2",
+        "size": "2123, 999",
+        "orig": "2123, 999",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "particals",
+      "file": "pieces/particals-2c22cf52.png",
+      "page": "suru_1000_banner.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2127, 623",
+        "size": "322, 378",
+        "orig": "322, 378",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

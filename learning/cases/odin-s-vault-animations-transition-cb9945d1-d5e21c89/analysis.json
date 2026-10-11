@@ -1,0 +1,2410 @@
+{
+  "id": "odin-s-vault-animations-transition-cb9945d1-d5e21c89",
+  "collection": "library",
+  "name": "transition",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/transition-cb9945d1",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 15,
+    "slots": 14,
+    "attachments": 55,
+    "meshAttachments": 55,
+    "meshUvPairs": 394,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 2320000,
+    "rgbaBytesEstimate": 9280000,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 15,
+  "actions": [
+    {
+      "name": "transition",
+      "duration": 1,
+      "keyframes": 222,
+      "curvedKeys": 58,
+      "channels": [
+        {
+          "path": "slots.Clouds_0.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Clouds_1.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Clouds_2.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.Clouds_3.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.Clouds_4.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.Raven.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Raven.attachment",
+          "keyframes": 20
+        },
+        {
+          "path": "slots.Raven2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Raven2.attachment",
+          "keyframes": 20
+        },
+        {
+          "path": "slots.Raven3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Raven3.attachment",
+          "keyframes": 19
+        },
+        {
+          "path": "slots.Raven4.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Raven4.attachment",
+          "keyframes": 20
+        },
+        {
+          "path": "slots.Raven5.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Raven5.attachment",
+          "keyframes": 20
+        },
+        {
+          "path": "bones.Raven.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Raven.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Raven.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Clouds_2.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Clouds_3.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Clouds_3.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Clouds_4.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.clouds_main.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.clouds_main.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Clouds_fog.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Clouds_fog.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Clouds_0.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Clouds_0.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Clouds_1.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Clouds_1.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Raven2.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Raven2.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Raven2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Raven3.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Raven3.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Raven3.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Raven4.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Raven4.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Raven4.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Raven5.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Raven5.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Raven5.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "attachments.default.Raven.Raven_8.deform",
+          "keyframes": 1
+        },
+        {
+          "path": "attachments.default.Raven2.Raven_8.deform",
+          "keyframes": 1
+        },
+        {
+          "path": "attachments.default.Raven3.Raven_8.deform",
+          "keyframes": 1
+        },
+        {
+          "path": "attachments.default.Raven4.Raven_8.deform",
+          "keyframes": 1
+        },
+        {
+          "path": "attachments.default.Raven5.Raven_8.deform",
+          "keyframes": 1
+        },
+        {
+          "path": "drawOrder",
+          "keyframes": 2
+        },
+        {
+          "path": "events",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "Raven",
+        "Clouds_2",
+        "Clouds_3",
+        "Clouds_4",
+        "clouds_main",
+        "Clouds_fog",
+        "Clouds_0",
+        "Clouds_1",
+        "Raven2",
+        "Raven3",
+        "Raven4",
+        "Raven5"
+      ],
+      "animatedSlots": [
+        "background",
+        "Clouds_0",
+        "Clouds_1",
+        "Clouds_2",
+        "Clouds_3",
+        "Clouds_4",
+        "Raven",
+        "Raven2",
+        "Raven3",
+        "Raven4",
+        "Raven5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": true,
+      "events": [
+        {
+          "name": "transition",
+          "time": 0.8667
+        }
+      ],
+      "tags": [
+        "transition"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-transition-cb9945d1-d5e21c89/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Raven",
+        "parent": "Main",
+        "x": 0,
+        "y": 281.74,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "clouds_main",
+        "parent": "Main",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Clouds_4",
+        "parent": "clouds_main",
+        "x": 54.51,
+        "y": 69.56,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Clouds_2",
+        "parent": "clouds_main",
+        "x": 26.59,
+        "y": -140.35,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Clouds_fog",
+        "parent": "Main",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Clouds_0",
+        "parent": "Clouds_fog",
+        "x": -102.08,
+        "y": -8.89,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Clouds_3",
+        "parent": "clouds_main",
+        "x": 2.3,
+        "y": -198.29,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Clouds_1",
+        "parent": "Clouds_fog",
+        "x": -116.13,
+        "y": -118.36,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mask",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Raven2",
+        "parent": "Main",
+        "x": -86.21,
+        "y": 120.68,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.4532,
+        "scaleY": 0.4532
+      },
+      {
+        "name": "Raven3",
+        "parent": "Main",
+        "x": 137.15,
+        "y": 17.96,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.5763,
+        "scaleY": 0.5763
+      },
+      {
+        "name": "Raven4",
+        "parent": "Main",
+        "x": -269.76,
+        "y": 17.96,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.2978,
+        "scaleY": 0.2978
+      },
+      {
+        "name": "Raven5",
+        "parent": "Main",
+        "x": -12.79,
+        "y": -78.58,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.5763,
+        "scaleY": 0.5763
+      }
+    ],
+    "slots": [
+      {
+        "name": "bg_preview",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "background",
+        "bone": "Main",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mask",
+        "bone": "mask",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Clouds_0",
+        "bone": "Clouds_0",
+        "setupAttachment": "Clouds_0",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Clouds_1",
+        "bone": "Clouds_1",
+        "setupAttachment": "Clouds_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Clouds_2",
+        "bone": "Clouds_2",
+        "setupAttachment": "Clouds_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Clouds_3",
+        "bone": "Clouds_3",
+        "setupAttachment": "Clouds_3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Clouds_4",
+        "bone": "Clouds_4",
+        "setupAttachment": "Clouds_4",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Raven3",
+        "bone": "Raven3",
+        "setupAttachment": "Raven_7",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Raven5",
+        "bone": "Raven5",
+        "setupAttachment": "Raven_7",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Raven4",
+        "bone": "Raven4",
+        "setupAttachment": "Raven_7",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Raven2",
+        "bone": "Raven2",
+        "setupAttachment": "Raven_7",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Raven",
+        "bone": "Raven",
+        "setupAttachment": "Raven_7",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "safezone_01",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "Clouds_0",
+        "name": "Clouds_0",
+        "region": "Clouds_0",
+        "type": "mesh",
+        "bone": "Clouds_0",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 95
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Clouds_1",
+        "name": "Clouds_1",
+        "region": "Clouds_1",
+        "type": "mesh",
+        "bone": "Clouds_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 95,
+          "height": 76
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Clouds_2",
+        "name": "Clouds_2",
+        "region": "Clouds_2",
+        "type": "mesh",
+        "bone": "Clouds_2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 391,
+          "height": 146
+        },
+        "mesh": {
+          "uvPairs": 50,
+          "vertexNumbers": 100,
+          "triangles": 51,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Clouds_3",
+        "name": "Clouds_3",
+        "region": "Clouds_3",
+        "type": "mesh",
+        "bone": "Clouds_3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 455,
+          "height": 180
+        },
+        "mesh": {
+          "uvPairs": 64,
+          "vertexNumbers": 128,
+          "triangles": 84,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Clouds_4",
+        "name": "Clouds_4",
+        "region": "Clouds_4",
+        "type": "mesh",
+        "bone": "Clouds_4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 564,
+          "height": 192
+        },
+        "mesh": {
+          "uvPairs": 72,
+          "vertexNumbers": 144,
+          "triangles": 91,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven",
+        "name": "Raven_1",
+        "region": "Raven_1",
+        "type": "mesh",
+        "bone": "Raven",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 900,
+          "height": 212
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven",
+        "name": "Raven_2",
+        "region": "Raven_2",
+        "type": "mesh",
+        "bone": "Raven",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 220
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven",
+        "name": "Raven_3",
+        "region": "Raven_3",
+        "type": "mesh",
+        "bone": "Raven",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 666,
+          "height": 264
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven",
+        "name": "Raven_4",
+        "region": "Raven_4",
+        "type": "mesh",
+        "bone": "Raven",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 576,
+          "height": 322
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven",
+        "name": "Raven_5",
+        "region": "Raven_5",
+        "type": "mesh",
+        "bone": "Raven",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 420,
+          "height": 340
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven",
+        "name": "Raven_6",
+        "region": "Raven_6",
+        "type": "mesh",
+        "bone": "Raven",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 490,
+          "height": 388
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven",
+        "name": "Raven_7",
+        "region": "Raven_7",
+        "type": "mesh",
+        "bone": "Raven",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 880,
+          "height": 286
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven",
+        "name": "Raven_8",
+        "region": "Raven_8",
+        "type": "mesh",
+        "bone": "Raven",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 918,
+          "height": 154
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven",
+        "name": "Raven_9",
+        "region": "Raven_9",
+        "type": "mesh",
+        "bone": "Raven",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 902,
+          "height": 192
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven",
+        "name": "Raven_10",
+        "region": "Raven_10",
+        "type": "mesh",
+        "bone": "Raven",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 876,
+          "height": 312
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven2",
+        "name": "Raven_1",
+        "region": "Raven_1",
+        "type": "mesh",
+        "bone": "Raven2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 900,
+          "height": 212
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven2",
+        "name": "Raven_2",
+        "region": "Raven_2",
+        "type": "mesh",
+        "bone": "Raven2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 220
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven2",
+        "name": "Raven_3",
+        "region": "Raven_3",
+        "type": "mesh",
+        "bone": "Raven2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 666,
+          "height": 264
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven2",
+        "name": "Raven_4",
+        "region": "Raven_4",
+        "type": "mesh",
+        "bone": "Raven2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 576,
+          "height": 322
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven2",
+        "name": "Raven_5",
+        "region": "Raven_5",
+        "type": "mesh",
+        "bone": "Raven2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 420,
+          "height": 340
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven2",
+        "name": "Raven_6",
+        "region": "Raven_6",
+        "type": "mesh",
+        "bone": "Raven2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 490,
+          "height": 388
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven2",
+        "name": "Raven_7",
+        "region": "Raven_7",
+        "type": "mesh",
+        "bone": "Raven2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 880,
+          "height": 286
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven2",
+        "name": "Raven_8",
+        "region": "Raven_8",
+        "type": "mesh",
+        "bone": "Raven2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 918,
+          "height": 154
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven2",
+        "name": "Raven_9",
+        "region": "Raven_9",
+        "type": "mesh",
+        "bone": "Raven2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 902,
+          "height": 192
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven2",
+        "name": "Raven_10",
+        "region": "Raven_10",
+        "type": "mesh",
+        "bone": "Raven2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 876,
+          "height": 312
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven3",
+        "name": "Raven_1",
+        "region": "Raven_1",
+        "type": "mesh",
+        "bone": "Raven3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 900,
+          "height": 212
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven3",
+        "name": "Raven_2",
+        "region": "Raven_2",
+        "type": "mesh",
+        "bone": "Raven3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 220
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven3",
+        "name": "Raven_3",
+        "region": "Raven_3",
+        "type": "mesh",
+        "bone": "Raven3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 666,
+          "height": 264
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven3",
+        "name": "Raven_4",
+        "region": "Raven_4",
+        "type": "mesh",
+        "bone": "Raven3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 576,
+          "height": 322
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven3",
+        "name": "Raven_5",
+        "region": "Raven_5",
+        "type": "mesh",
+        "bone": "Raven3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 420,
+          "height": 340
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven3",
+        "name": "Raven_6",
+        "region": "Raven_6",
+        "type": "mesh",
+        "bone": "Raven3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 490,
+          "height": 388
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven3",
+        "name": "Raven_7",
+        "region": "Raven_7",
+        "type": "mesh",
+        "bone": "Raven3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 880,
+          "height": 286
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven3",
+        "name": "Raven_8",
+        "region": "Raven_8",
+        "type": "mesh",
+        "bone": "Raven3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 918,
+          "height": 154
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven3",
+        "name": "Raven_9",
+        "region": "Raven_9",
+        "type": "mesh",
+        "bone": "Raven3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 902,
+          "height": 192
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven3",
+        "name": "Raven_10",
+        "region": "Raven_10",
+        "type": "mesh",
+        "bone": "Raven3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 876,
+          "height": 312
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven4",
+        "name": "Raven_1",
+        "region": "Raven_1",
+        "type": "mesh",
+        "bone": "Raven4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 900,
+          "height": 212
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven4",
+        "name": "Raven_2",
+        "region": "Raven_2",
+        "type": "mesh",
+        "bone": "Raven4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 220
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven4",
+        "name": "Raven_3",
+        "region": "Raven_3",
+        "type": "mesh",
+        "bone": "Raven4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 666,
+          "height": 264
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven4",
+        "name": "Raven_4",
+        "region": "Raven_4",
+        "type": "mesh",
+        "bone": "Raven4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 576,
+          "height": 322
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven4",
+        "name": "Raven_5",
+        "region": "Raven_5",
+        "type": "mesh",
+        "bone": "Raven4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 420,
+          "height": 340
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven4",
+        "name": "Raven_6",
+        "region": "Raven_6",
+        "type": "mesh",
+        "bone": "Raven4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 490,
+          "height": 388
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven4",
+        "name": "Raven_7",
+        "region": "Raven_7",
+        "type": "mesh",
+        "bone": "Raven4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 880,
+          "height": 286
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven4",
+        "name": "Raven_8",
+        "region": "Raven_8",
+        "type": "mesh",
+        "bone": "Raven4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 918,
+          "height": 154
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven4",
+        "name": "Raven_9",
+        "region": "Raven_9",
+        "type": "mesh",
+        "bone": "Raven4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 902,
+          "height": 192
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven4",
+        "name": "Raven_10",
+        "region": "Raven_10",
+        "type": "mesh",
+        "bone": "Raven4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 876,
+          "height": 312
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven5",
+        "name": "Raven_1",
+        "region": "Raven_1",
+        "type": "mesh",
+        "bone": "Raven5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 900,
+          "height": 212
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven5",
+        "name": "Raven_2",
+        "region": "Raven_2",
+        "type": "mesh",
+        "bone": "Raven5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 220
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven5",
+        "name": "Raven_3",
+        "region": "Raven_3",
+        "type": "mesh",
+        "bone": "Raven5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 666,
+          "height": 264
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven5",
+        "name": "Raven_4",
+        "region": "Raven_4",
+        "type": "mesh",
+        "bone": "Raven5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 576,
+          "height": 322
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven5",
+        "name": "Raven_5",
+        "region": "Raven_5",
+        "type": "mesh",
+        "bone": "Raven5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 420,
+          "height": 340
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven5",
+        "name": "Raven_6",
+        "region": "Raven_6",
+        "type": "mesh",
+        "bone": "Raven5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 490,
+          "height": 388
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven5",
+        "name": "Raven_7",
+        "region": "Raven_7",
+        "type": "mesh",
+        "bone": "Raven5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 880,
+          "height": 286
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven5",
+        "name": "Raven_8",
+        "region": "Raven_8",
+        "type": "mesh",
+        "bone": "Raven5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 918,
+          "height": 154
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven5",
+        "name": "Raven_9",
+        "region": "Raven_9",
+        "type": "mesh",
+        "bone": "Raven5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 902,
+          "height": 192
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Raven5",
+        "name": "Raven_10",
+        "region": "Raven_10",
+        "type": "mesh",
+        "bone": "Raven5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 876,
+          "height": 312
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "transition",
+        "duration": 1,
+        "keyframes": 222,
+        "curvedKeys": 58,
+        "channels": [
+          {
+            "path": "slots.Clouds_0.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Clouds_1.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Clouds_2.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.Clouds_3.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.Clouds_4.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.Raven.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Raven.attachment",
+            "keyframes": 20
+          },
+          {
+            "path": "slots.Raven2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Raven2.attachment",
+            "keyframes": 20
+          },
+          {
+            "path": "slots.Raven3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Raven3.attachment",
+            "keyframes": 19
+          },
+          {
+            "path": "slots.Raven4.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Raven4.attachment",
+            "keyframes": 20
+          },
+          {
+            "path": "slots.Raven5.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Raven5.attachment",
+            "keyframes": 20
+          },
+          {
+            "path": "bones.Raven.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Raven.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Raven.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Clouds_2.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Clouds_3.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Clouds_3.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Clouds_4.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.clouds_main.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.clouds_main.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Clouds_fog.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Clouds_fog.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Clouds_0.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Clouds_0.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Clouds_1.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Clouds_1.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Raven2.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Raven2.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Raven2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Raven3.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Raven3.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Raven3.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Raven4.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Raven4.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Raven4.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Raven5.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Raven5.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Raven5.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "attachments.default.Raven.Raven_8.deform",
+            "keyframes": 1
+          },
+          {
+            "path": "attachments.default.Raven2.Raven_8.deform",
+            "keyframes": 1
+          },
+          {
+            "path": "attachments.default.Raven3.Raven_8.deform",
+            "keyframes": 1
+          },
+          {
+            "path": "attachments.default.Raven4.Raven_8.deform",
+            "keyframes": 1
+          },
+          {
+            "path": "attachments.default.Raven5.Raven_8.deform",
+            "keyframes": 1
+          },
+          {
+            "path": "drawOrder",
+            "keyframes": 2
+          },
+          {
+            "path": "events",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "Raven",
+          "Clouds_2",
+          "Clouds_3",
+          "Clouds_4",
+          "clouds_main",
+          "Clouds_fog",
+          "Clouds_0",
+          "Clouds_1",
+          "Raven2",
+          "Raven3",
+          "Raven4",
+          "Raven5"
+        ],
+        "animatedSlots": [
+          "background",
+          "Clouds_0",
+          "Clouds_1",
+          "Clouds_2",
+          "Clouds_3",
+          "Clouds_4",
+          "Raven",
+          "Raven2",
+          "Raven3",
+          "Raven4",
+          "Raven5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": true,
+        "events": [
+          {
+            "name": "transition",
+            "time": 0.8667
+          }
+        ],
+        "tags": [
+          "transition"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 15,
+      "slots": 14,
+      "attachments": 55,
+      "meshAttachments": 55,
+      "meshUvPairs": 394,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "Clouds_0",
+      "file": "pieces/clouds-0-f1bfeffe.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "1422,203,110,95"
+      }
+    },
+    {
+      "region": "Clouds_1",
+      "file": "pieces/clouds-1-4060241c.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "1422,125,95,76"
+      }
+    },
+    {
+      "region": "Clouds_2",
+      "file": "pieces/clouds-2-f3d06992.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "1590,494,391,146"
+      }
+    },
+    {
+      "region": "Clouds_3",
+      "file": "pieces/clouds-3-db3443b6.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "1168,703,455,180",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Clouds_4",
+      "file": "pieces/clouds-4-131d55b7.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "1422,642,564,192"
+      }
+    },
+    {
+      "region": "Raven_1",
+      "file": "pieces/raven-1-a7f95f4c.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "352,258,900,212",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Raven_10",
+      "file": "pieces/raven-10-e6987afd.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "854,282,876,312",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Raven_2",
+      "file": "pieces/raven-2-ebc4febe.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "2,18,750,220"
+      }
+    },
+    {
+      "region": "Raven_3",
+      "file": "pieces/raven-3-815e863d.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "754,12,666,264"
+      }
+    },
+    {
+      "region": "Raven_4",
+      "file": "pieces/raven-4-268605e9.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "1422,836,576,322"
+      }
+    },
+    {
+      "region": "Raven_5",
+      "file": "pieces/raven-5-10a84de9.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "1168,300,420,340"
+      }
+    },
+    {
+      "region": "Raven_6",
+      "file": "pieces/raven-6-d94c5a8a.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "1590,2,490,388",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Raven_7",
+      "file": "pieces/raven-7-0a7c984f.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "566,278,880,286",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Raven_8",
+      "file": "pieces/raven-8-131f500b.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "2,240,918,154",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Raven_9",
+      "file": "pieces/raven-9-b8cee663.png",
+      "page": "transition.webp",
+      "properties": {
+        "bounds": "158,256,902,192",
+        "rotate": "90"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

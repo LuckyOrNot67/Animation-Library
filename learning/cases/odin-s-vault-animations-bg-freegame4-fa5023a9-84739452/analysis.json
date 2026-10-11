@@ -1,0 +1,5244 @@
+{
+  "id": "odin-s-vault-animations-bg-freegame4-fa5023a9-84739452",
+  "collection": "library",
+  "name": "bg_freegame4",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/bg-freegame4-fa5023a9",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 172,
+    "slots": 64,
+    "attachments": 63,
+    "meshAttachments": 58,
+    "meshUvPairs": 738,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 70
+    }
+  },
+  "textureCount": 2,
+  "textureBudget": {
+    "pixels": 4389584,
+    "rgbaBytesEstimate": 17558336,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 26,
+  "actions": [
+    {
+      "name": "idle",
+      "duration": 5.3333,
+      "keyframes": 899,
+      "curvedKeys": 678,
+      "channels": [
+        {
+          "path": "slots.fire_ember_2.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.fire_ember_3.rgba",
+          "keyframes": 11
+        },
+        {
+          "path": "slots.fire_ember_4.rgba",
+          "keyframes": 11
+        },
+        {
+          "path": "slots.fire_ember_5.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.fire_ember_6.rgba",
+          "keyframes": 11
+        },
+        {
+          "path": "slots.fire_ember_7.rgba",
+          "keyframes": 11
+        },
+        {
+          "path": "slots.glow_0.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.glow_1.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.glow_2.rgba",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.glow_3.rgba",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.light-canopy-middle.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.p1.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.p2.rgba",
+          "keyframes": 11
+        },
+        {
+          "path": "slots.p3.rgba",
+          "keyframes": 11
+        },
+        {
+          "path": "slots.p4.rgba",
+          "keyframes": 11
+        },
+        {
+          "path": "slots.p5.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.p6.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.p7.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.p8.rgba",
+          "keyframes": 11
+        },
+        {
+          "path": "slots.p9.rgba",
+          "keyframes": 11
+        },
+        {
+          "path": "slots.p10.rgba",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.p11.rgba",
+          "keyframes": 11
+        },
+        {
+          "path": "slots.p12.rgba",
+          "keyframes": 13
+        },
+        {
+          "path": "slots.p13.rgba",
+          "keyframes": 13
+        },
+        {
+          "path": "slots.p14.rgba",
+          "keyframes": 13
+        },
+        {
+          "path": "slots.p15.rgba",
+          "keyframes": 11
+        },
+        {
+          "path": "slots.p16.rgba",
+          "keyframes": 11
+        },
+        {
+          "path": "slots.p17.rgba",
+          "keyframes": 11
+        },
+        {
+          "path": "slots.p18.rgba",
+          "keyframes": 13
+        },
+        {
+          "path": "slots.p19.rgba",
+          "keyframes": 13
+        },
+        {
+          "path": "slots.p20.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.rune_1_a2.rgba",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.rune_1_b2.rgba",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.rune_2_a2.rgba",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.rune_2_b2.rgba",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.Tree-light-FX.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.tree2.rgba",
+          "keyframes": 7
+        },
+        {
+          "path": "slots.tree3.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.tree4.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.tree5.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.tree6.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.water-reflection.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.water-reflection2.rgba",
+          "keyframes": 11
+        },
+        {
+          "path": "bones.water-reflection.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.water-reflection2.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.waterlight_water2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.branches-back-R2.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.branches-back-R5.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.branches-back-R8.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.branches-back-R11.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.branches-back-L2.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.branches-back-L5.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.branches-back-L7.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.fire_ember_2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.fire_ember_3.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.fire_ember_4.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.fire_ember_5.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.fire_ember_6.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.fire_ember_7.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.p1.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.p2.translate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.p3.translate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.p4.translate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.p5.translate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.p6.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.p7.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.p8.translate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.p9.translate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.p10.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.p11.translate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.p12.translate",
+          "keyframes": 11
+        },
+        {
+          "path": "bones.p13.translate",
+          "keyframes": 11
+        },
+        {
+          "path": "bones.p14.translate",
+          "keyframes": 11
+        },
+        {
+          "path": "bones.p15.translate",
+          "keyframes": 11
+        },
+        {
+          "path": "bones.p16.translate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.p17.translate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.p18.translate",
+          "keyframes": 11
+        },
+        {
+          "path": "bones.p19.translate",
+          "keyframes": 11
+        },
+        {
+          "path": "bones.p20.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.leaf_l_2.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.leaf_l_5.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.leaf_l_8.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.leaf_l_13.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.leaf_l_18.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.leaf_l_22.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.leaf_l_27.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.leaf_l_30.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.leaf_l_34.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.leaf_l_38.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.leaf_l_41.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.leaf_l_44.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.leaf_l_48.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.leaf_l_51.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.leaf_l_56.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.leaf_l_59.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.leaf_l_62.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.leaf_l_67.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.leaf_l_72.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.leaf_l_76.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.leaf_l_81.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.leaf_l_84.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.leaf_l_88.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.leaf_l_92.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.leaf_l_95.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.leaf_l_98.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.leaf_l_102.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.leaf_l_105.rotate",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.Portal.rotate",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "water-reflection",
+        "water-reflection2",
+        "waterlight_water2",
+        "branches-back-R2",
+        "branches-back-R5",
+        "branches-back-R8",
+        "branches-back-R11",
+        "branches-back-L2",
+        "branches-back-L5",
+        "branches-back-L7",
+        "fire_ember_2",
+        "fire_ember_3",
+        "fire_ember_4",
+        "fire_ember_5",
+        "fire_ember_6",
+        "fire_ember_7",
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7",
+        "p8",
+        "p9",
+        "p10",
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15",
+        "p16",
+        "p17",
+        "p18",
+        "p19",
+        "p20",
+        "leaf_l_2",
+        "leaf_l_5",
+        "leaf_l_8",
+        "leaf_l_13",
+        "leaf_l_18",
+        "leaf_l_22",
+        "leaf_l_27",
+        "leaf_l_30",
+        "leaf_l_34",
+        "leaf_l_38",
+        "leaf_l_41",
+        "leaf_l_44",
+        "leaf_l_48",
+        "leaf_l_51",
+        "leaf_l_56",
+        "leaf_l_59",
+        "leaf_l_62",
+        "leaf_l_67",
+        "leaf_l_72",
+        "leaf_l_76",
+        "leaf_l_81",
+        "leaf_l_84",
+        "leaf_l_88",
+        "leaf_l_92",
+        "leaf_l_95",
+        "leaf_l_98",
+        "leaf_l_102",
+        "leaf_l_105",
+        "Portal"
+      ],
+      "animatedSlots": [
+        "fire_ember_2",
+        "fire_ember_3",
+        "fire_ember_4",
+        "fire_ember_5",
+        "fire_ember_6",
+        "fire_ember_7",
+        "glow_0",
+        "glow_1",
+        "glow_2",
+        "glow_3",
+        "light-canopy-middle",
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7",
+        "p8",
+        "p9",
+        "p10",
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15",
+        "p16",
+        "p17",
+        "p18",
+        "p19",
+        "p20",
+        "rune_1_a2",
+        "rune_1_b2",
+        "rune_2_a2",
+        "rune_2_b2",
+        "Tree-light-FX",
+        "tree2",
+        "tree3",
+        "tree4",
+        "tree5",
+        "tree6",
+        "water-reflection",
+        "water-reflection2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-bg-freegame4-fa5023a9-84739452/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "water-reflection",
+        "parent": "root",
+        "x": 9,
+        "y": -355.28,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.9,
+        "scaleY": 0.9
+      },
+      {
+        "name": "water-reflection2",
+        "parent": "root",
+        "x": 9,
+        "y": -355.28,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -0.9,
+        "scaleY": 0.9
+      },
+      {
+        "name": "waterlight_water",
+        "parent": "root",
+        "x": -6.5,
+        "y": -266.5,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "waterlight_water2",
+        "parent": "waterlight_water",
+        "x": 0,
+        "y": 251.87,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "rune",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-R",
+        "parent": "root",
+        "x": 231.96,
+        "y": 242.55,
+        "length": 260.06,
+        "rotation": 13.5,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-R2",
+        "parent": "branches-back-R",
+        "x": 242.16,
+        "y": -9.57,
+        "length": 84.44,
+        "rotation": -100.06,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-R3",
+        "parent": "branches-back-R2",
+        "x": 84.39,
+        "y": -0.84,
+        "length": 66.18,
+        "rotation": 3.15,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-R4",
+        "parent": "branches-back-R3",
+        "x": 66.09,
+        "y": -0.84,
+        "length": 62.43,
+        "rotation": -4.26,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-R5",
+        "parent": "branches-back-R",
+        "x": 151.25,
+        "y": -14.41,
+        "length": 50.96,
+        "rotation": -101.16,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-R6",
+        "parent": "branches-back-R5",
+        "x": 50.96,
+        "y": 0,
+        "length": 41.69,
+        "rotation": 1.95,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-R7",
+        "parent": "branches-back-R6",
+        "x": 41.69,
+        "y": 0,
+        "length": 39.25,
+        "rotation": 2.55,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-R8",
+        "parent": "branches-back-R",
+        "x": 66.89,
+        "y": -23.02,
+        "length": 63.91,
+        "rotation": -103.03,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-R9",
+        "parent": "branches-back-R8",
+        "x": 63.91,
+        "y": -0.52,
+        "length": 51.05,
+        "rotation": 3.62,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-R10",
+        "parent": "branches-back-R9",
+        "x": 51.05,
+        "y": 0,
+        "length": 53.37,
+        "rotation": 2.62,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-R11",
+        "parent": "branches-back-R",
+        "x": 15.23,
+        "y": -11.16,
+        "length": 43.24,
+        "rotation": -99.36,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-R12",
+        "parent": "branches-back-R11",
+        "x": 43.24,
+        "y": 0,
+        "length": 41.6,
+        "rotation": -6.28,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-R13",
+        "parent": "branches-back-R12",
+        "x": 41.6,
+        "y": 0,
+        "length": 36.41,
+        "rotation": -0.31,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-L",
+        "parent": "root",
+        "x": -179.85,
+        "y": 231.05,
+        "length": 328.43,
+        "rotation": 164.66,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-L2",
+        "parent": "branches-back-L",
+        "x": 2.25,
+        "y": 13.41,
+        "length": 51.72,
+        "rotation": 105.97,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-L3",
+        "parent": "branches-back-L2",
+        "x": 51.72,
+        "y": 0,
+        "length": 45.47,
+        "rotation": -1.35,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-L4",
+        "parent": "branches-back-L3",
+        "x": 45.47,
+        "y": 0,
+        "length": 40.5,
+        "rotation": -4.11,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-L5",
+        "parent": "branches-back-L",
+        "x": 107.98,
+        "y": 8.24,
+        "length": 43.8,
+        "rotation": 107.58,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-L6",
+        "parent": "branches-back-L5",
+        "x": 43.8,
+        "y": 0,
+        "length": 49.45,
+        "rotation": -1.57,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-L7",
+        "parent": "branches-back-L",
+        "x": 227.11,
+        "y": 14.41,
+        "length": 76.98,
+        "rotation": 121.64,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-L8",
+        "parent": "branches-back-L7",
+        "x": 76.98,
+        "y": 0,
+        "length": 64.22,
+        "rotation": -16.29,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-L9",
+        "parent": "branches-back-L8",
+        "x": 61.38,
+        "y": 0,
+        "length": 50.1,
+        "rotation": -3.25,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "branches-back-L10",
+        "parent": "branches-back-L9",
+        "x": 50.1,
+        "y": 0,
+        "length": 48.64,
+        "rotation": -3.46,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "glow",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "fire_embber_a",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "fire_ember_2",
+        "parent": "fire_embber_a",
+        "x": -918.5,
+        "y": -738.81,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "fire_ember_3",
+        "parent": "fire_embber_a",
+        "x": -887.84,
+        "y": -712.38,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      },
+      {
+        "name": "fire_ember_4",
+        "parent": "fire_embber_a",
+        "x": -918.5,
+        "y": -738.81,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "fire_embber_a2",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      },
+      {
+        "name": "fire_ember_5",
+        "parent": "fire_embber_a2",
+        "x": -918.5,
+        "y": -738.81,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "fire_ember_6",
+        "parent": "fire_embber_a2",
+        "x": -887.84,
+        "y": -712.38,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      },
+      {
+        "name": "fire_ember_7",
+        "parent": "fire_embber_a2",
+        "x": -918.5,
+        "y": -738.81,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "part_A",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "p1",
+        "parent": "part_A",
+        "x": -790,
+        "y": -388.56,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "p2",
+        "parent": "part_A",
+        "x": -674.06,
+        "y": -415.75,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.2369,
+        "scaleY": 1.2369
+      },
+      {
+        "name": "p3",
+        "parent": "part_A",
+        "x": -571.31,
+        "y": -393.42,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.7349,
+        "scaleY": 0.7349
+      },
+      {
+        "name": "p4",
+        "parent": "part_A",
+        "x": -459.15,
+        "y": -448.01,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.2525,
+        "scaleY": 1.2525
+      },
+      {
+        "name": "p5",
+        "parent": "part_A",
+        "x": -244.61,
+        "y": -429.91,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.859,
+        "scaleY": 0.859
+      },
+      {
+        "name": "p6",
+        "parent": "part_A",
+        "x": -79.18,
+        "y": -476.44,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.3113,
+        "scaleY": 1.3113
+      },
+      {
+        "name": "p7",
+        "parent": "part_A",
+        "x": 29.38,
+        "y": -515.21,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.6154,
+        "scaleY": 0.6154
+      },
+      {
+        "name": "p8",
+        "parent": "part_A",
+        "x": 168.96,
+        "y": -435.08,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.2739,
+        "scaleY": 1.2739
+      },
+      {
+        "name": "p9",
+        "parent": "part_A",
+        "x": 458.45,
+        "y": -388.56,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.4522,
+        "scaleY": 1.4522
+      },
+      {
+        "name": "p10",
+        "parent": "part_A",
+        "x": 680.75,
+        "y": -396.31,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.5428,
+        "scaleY": 1.5428
+      },
+      {
+        "name": "part_A2",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "p11",
+        "parent": "part_A2",
+        "x": -728.73,
+        "y": -359.38,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.248,
+        "scaleY": 1.248
+      },
+      {
+        "name": "p12",
+        "parent": "part_A2",
+        "x": -608.41,
+        "y": -376.36,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.7284,
+        "scaleY": 0.7284
+      },
+      {
+        "name": "p13",
+        "parent": "part_A2",
+        "x": -515.87,
+        "y": -406.55,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.1224,
+        "scaleY": 1.1224
+      },
+      {
+        "name": "p14",
+        "parent": "part_A2",
+        "x": -397.87,
+        "y": -345.88,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.811,
+        "scaleY": 0.811
+      },
+      {
+        "name": "p15",
+        "parent": "part_A2",
+        "x": -174.58,
+        "y": -371.56,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.294,
+        "scaleY": 1.294
+      },
+      {
+        "name": "p16",
+        "parent": "part_A2",
+        "x": -22.29,
+        "y": -419.54,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1.3113,
+        "scaleY": 1.3113
+      },
+      {
+        "name": "p17",
+        "parent": "part_A2",
+        "x": 92.11,
+        "y": -477.28,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.8577,
+        "scaleY": 0.8577
+      },
+      {
+        "name": "p18",
+        "parent": "part_A2",
+        "x": 243.36,
+        "y": -414.66,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.6192,
+        "scaleY": 0.6192
+      },
+      {
+        "name": "p19",
+        "parent": "part_A2",
+        "x": 550.36,
+        "y": -414.82,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.8797,
+        "scaleY": 0.8797
+      },
+      {
+        "name": "p20",
+        "parent": "part_A2",
+        "x": 712.84,
+        "y": -359.84,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 0.6857,
+        "scaleY": 0.6857
+      },
+      {
+        "name": "leaf_l",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_1",
+        "parent": "leaf_l",
+        "x": -142.57,
+        "y": 1002.12,
+        "length": 314.88,
+        "rotation": 179.57,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_2",
+        "parent": "leaf_l_1",
+        "x": 11.42,
+        "y": 35.94,
+        "length": 120.83,
+        "rotation": 89.32,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_3",
+        "parent": "leaf_l_2",
+        "x": 120.83,
+        "y": 0,
+        "length": 114.63,
+        "rotation": -0.84,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_4",
+        "parent": "leaf_l_3",
+        "x": 114.63,
+        "y": 0,
+        "length": 100.73,
+        "rotation": -1.6,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_5",
+        "parent": "leaf_l_1",
+        "x": 207.73,
+        "y": 49.87,
+        "length": 87.71,
+        "rotation": 84.82,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_6",
+        "parent": "leaf_l_5",
+        "x": 87.71,
+        "y": 0,
+        "length": 90.62,
+        "rotation": 1.66,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_7",
+        "parent": "leaf_l_6",
+        "x": 91.4,
+        "y": 0.05,
+        "length": 86.57,
+        "rotation": 6.01,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_8",
+        "parent": "leaf_l_1",
+        "x": 349.5,
+        "y": 61.05,
+        "length": 146.52,
+        "rotation": 90.12,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_9",
+        "parent": "leaf_l_8",
+        "x": 146.53,
+        "y": -0.78,
+        "length": 124.76,
+        "rotation": -1.49,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_10",
+        "parent": "leaf_l_9",
+        "x": 124.76,
+        "y": 0,
+        "length": 99.5,
+        "rotation": -4.05,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_11",
+        "parent": "leaf_l_10",
+        "x": 99.5,
+        "y": 0,
+        "length": 64.99,
+        "rotation": 0.34,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_12",
+        "parent": "leaf_l",
+        "x": -334.7,
+        "y": 946.56,
+        "length": 250.73,
+        "rotation": 170.59,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_13",
+        "parent": "leaf_l_12",
+        "x": 70.92,
+        "y": 28.39,
+        "length": 134.67,
+        "rotation": 86.14,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_14",
+        "parent": "leaf_l_13",
+        "x": 134.83,
+        "y": -0.65,
+        "length": 169.55,
+        "rotation": 7.59,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_15",
+        "parent": "leaf_l_14",
+        "x": 169.55,
+        "y": 0,
+        "length": 155.82,
+        "rotation": -3.25,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_16",
+        "parent": "leaf_l_15",
+        "x": 155.82,
+        "y": 0,
+        "length": 134.19,
+        "rotation": 4.34,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_17",
+        "parent": "leaf_l_16",
+        "x": -496.31,
+        "y": -25.07,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_18",
+        "parent": "leaf_l_12",
+        "x": 155.45,
+        "y": 19.94,
+        "length": 186.19,
+        "rotation": 84.77,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_19",
+        "parent": "leaf_l_18",
+        "x": 186.19,
+        "y": 0,
+        "length": 152.72,
+        "rotation": 5.01,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_20",
+        "parent": "leaf_l_19",
+        "x": 152.6,
+        "y": 0.66,
+        "length": 149.61,
+        "rotation": 5.51,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_21",
+        "parent": "leaf_l_20",
+        "x": 149.61,
+        "y": 0,
+        "length": 113.26,
+        "rotation": 8.55,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_22",
+        "parent": "leaf_l_12",
+        "x": 213.71,
+        "y": 46.63,
+        "length": 172.47,
+        "rotation": 75.74,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_23",
+        "parent": "leaf_l_22",
+        "x": 172.47,
+        "y": 0,
+        "length": 137.92,
+        "rotation": 9.56,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_24",
+        "parent": "leaf_l_23",
+        "x": 137.92,
+        "y": 0,
+        "length": 122.4,
+        "rotation": 7.8,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_25",
+        "parent": "leaf_l_24",
+        "x": 123.07,
+        "y": 0.07,
+        "length": 76.7,
+        "rotation": 3.79,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_26",
+        "parent": "leaf_l",
+        "x": -262.9,
+        "y": 915.8,
+        "length": 439.7,
+        "rotation": -154.59,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_27",
+        "parent": "leaf_l_26",
+        "x": 30.46,
+        "y": 45.69,
+        "length": 114.64,
+        "rotation": 66.07,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_28",
+        "parent": "leaf_l_27",
+        "x": 114.64,
+        "y": 0,
+        "length": 107.59,
+        "rotation": 5.9,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_29",
+        "parent": "leaf_l_28",
+        "x": 107.59,
+        "y": 0,
+        "length": 103.29,
+        "rotation": 7.58,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_30",
+        "parent": "leaf_l_26",
+        "x": 296.22,
+        "y": 45.57,
+        "length": 153.49,
+        "rotation": 48.13,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_31",
+        "parent": "leaf_l_30",
+        "x": 153.49,
+        "y": 0,
+        "length": 152.88,
+        "rotation": 5.65,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_32",
+        "parent": "leaf_l_31",
+        "x": 153.85,
+        "y": 0.19,
+        "length": 157.33,
+        "rotation": 7.56,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_33",
+        "parent": "leaf_l_32",
+        "x": 157.33,
+        "y": 0,
+        "length": 122.42,
+        "rotation": 10.19,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_34",
+        "parent": "leaf_l_26",
+        "x": 426.94,
+        "y": 28.31,
+        "length": 173.06,
+        "rotation": 52.06,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_35",
+        "parent": "leaf_l_34",
+        "x": 173.06,
+        "y": 0,
+        "length": 158.22,
+        "rotation": 10.02,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_36",
+        "parent": "leaf_l_35",
+        "x": 158.18,
+        "y": 0.99,
+        "length": 158.44,
+        "rotation": 6.44,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_37",
+        "parent": "leaf_l",
+        "x": -277.76,
+        "y": 1000.08,
+        "length": 402.75,
+        "rotation": -154.21,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_38",
+        "parent": "leaf_l_37",
+        "x": 110.89,
+        "y": 55.1,
+        "length": 133.47,
+        "rotation": 53.73,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_39",
+        "parent": "leaf_l_38",
+        "x": 133.47,
+        "y": 0,
+        "length": 141.43,
+        "rotation": 3.39,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_40",
+        "parent": "leaf_l_39",
+        "x": 141.43,
+        "y": 0,
+        "length": 126.76,
+        "rotation": 0.56,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_41",
+        "parent": "leaf_l_37",
+        "x": 314.87,
+        "y": 31.47,
+        "length": 175.19,
+        "rotation": 44.2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_42",
+        "parent": "leaf_l_41",
+        "x": 175.19,
+        "y": 0,
+        "length": 166.98,
+        "rotation": 14.27,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_43",
+        "parent": "leaf_l_42",
+        "x": 166.98,
+        "y": 0,
+        "length": 153.25,
+        "rotation": 6.02,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_44",
+        "parent": "leaf_l_37",
+        "x": 446.65,
+        "y": 0.79,
+        "length": 169.35,
+        "rotation": 39.02,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_45",
+        "parent": "leaf_l_44",
+        "x": 170.03,
+        "y": 0.32,
+        "length": 176.61,
+        "rotation": 16.29,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_46",
+        "parent": "leaf_l_45",
+        "x": 176.61,
+        "y": 0,
+        "length": 166.64,
+        "rotation": 4.46,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_47",
+        "parent": "leaf_l",
+        "x": -251.25,
+        "y": 844.08,
+        "length": 499.31,
+        "rotation": -165.34,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_48",
+        "parent": "leaf_l_47",
+        "x": 158.34,
+        "y": 22.31,
+        "length": 170.3,
+        "rotation": 65.44,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_49",
+        "parent": "leaf_l_48",
+        "x": 170.3,
+        "y": 0,
+        "length": 187.4,
+        "rotation": 2.78,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_50",
+        "parent": "leaf_l_49",
+        "x": 187.52,
+        "y": -1,
+        "length": 154.63,
+        "rotation": 7.87,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_51",
+        "parent": "leaf_l_47",
+        "x": 444.95,
+        "y": 27.8,
+        "length": 154.23,
+        "rotation": 62.86,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_52",
+        "parent": "leaf_l_51",
+        "x": 154.23,
+        "y": 0,
+        "length": 172.38,
+        "rotation": 7.78,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_53",
+        "parent": "leaf_l_52",
+        "x": 172.38,
+        "y": 0,
+        "length": 121.54,
+        "rotation": 0.89,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_54",
+        "parent": "leaf_l_53",
+        "x": 121.54,
+        "y": 0,
+        "length": 140.49,
+        "rotation": 4.64,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tree2",
+        "parent": "root",
+        "x": -14,
+        "y": 231,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l2",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_55",
+        "parent": "leaf_l2",
+        "x": -142.57,
+        "y": 1002.12,
+        "length": 314.88,
+        "rotation": 179.57,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_56",
+        "parent": "leaf_l_55",
+        "x": 11.42,
+        "y": 35.94,
+        "length": 120.83,
+        "rotation": 89.32,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_57",
+        "parent": "leaf_l_56",
+        "x": 120.83,
+        "y": 0,
+        "length": 114.63,
+        "rotation": -0.84,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_58",
+        "parent": "leaf_l_57",
+        "x": 114.63,
+        "y": 0,
+        "length": 100.73,
+        "rotation": -1.6,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_59",
+        "parent": "leaf_l_55",
+        "x": 207.73,
+        "y": 49.87,
+        "length": 87.71,
+        "rotation": 84.82,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_60",
+        "parent": "leaf_l_59",
+        "x": 87.71,
+        "y": 0,
+        "length": 90.62,
+        "rotation": 1.66,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_61",
+        "parent": "leaf_l_60",
+        "x": 91.4,
+        "y": 0.05,
+        "length": 86.57,
+        "rotation": 6.01,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_62",
+        "parent": "leaf_l_55",
+        "x": 349.5,
+        "y": 61.05,
+        "length": 146.52,
+        "rotation": 90.12,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_63",
+        "parent": "leaf_l_62",
+        "x": 146.53,
+        "y": -0.78,
+        "length": 124.76,
+        "rotation": -1.49,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_64",
+        "parent": "leaf_l_63",
+        "x": 124.76,
+        "y": 0,
+        "length": 99.5,
+        "rotation": -4.05,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_65",
+        "parent": "leaf_l_64",
+        "x": 99.5,
+        "y": 0,
+        "length": 64.99,
+        "rotation": 0.34,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_66",
+        "parent": "leaf_l2",
+        "x": -334.7,
+        "y": 946.56,
+        "length": 250.73,
+        "rotation": 170.59,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_67",
+        "parent": "leaf_l_66",
+        "x": 70.92,
+        "y": 28.39,
+        "length": 134.67,
+        "rotation": 86.14,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_68",
+        "parent": "leaf_l_67",
+        "x": 134.83,
+        "y": -0.65,
+        "length": 169.55,
+        "rotation": 7.59,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_69",
+        "parent": "leaf_l_68",
+        "x": 169.55,
+        "y": 0,
+        "length": 155.82,
+        "rotation": -3.25,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_70",
+        "parent": "leaf_l_69",
+        "x": 155.82,
+        "y": 0,
+        "length": 134.19,
+        "rotation": 4.34,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_71",
+        "parent": "leaf_l_70",
+        "x": -496.31,
+        "y": -25.07,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_72",
+        "parent": "leaf_l_66",
+        "x": 155.45,
+        "y": 19.94,
+        "length": 186.19,
+        "rotation": 84.77,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_73",
+        "parent": "leaf_l_72",
+        "x": 186.19,
+        "y": 0,
+        "length": 152.72,
+        "rotation": 5.01,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_74",
+        "parent": "leaf_l_73",
+        "x": 152.6,
+        "y": 0.66,
+        "length": 149.61,
+        "rotation": 5.51,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_75",
+        "parent": "leaf_l_74",
+        "x": 149.61,
+        "y": 0,
+        "length": 113.26,
+        "rotation": 8.55,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_76",
+        "parent": "leaf_l_66",
+        "x": 213.71,
+        "y": 46.63,
+        "length": 172.47,
+        "rotation": 75.74,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_77",
+        "parent": "leaf_l_76",
+        "x": 172.47,
+        "y": 0,
+        "length": 137.92,
+        "rotation": 9.56,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_78",
+        "parent": "leaf_l_77",
+        "x": 137.92,
+        "y": 0,
+        "length": 122.4,
+        "rotation": 7.8,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_79",
+        "parent": "leaf_l_78",
+        "x": 123.07,
+        "y": 0.07,
+        "length": 76.7,
+        "rotation": 3.79,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_80",
+        "parent": "leaf_l2",
+        "x": -262.9,
+        "y": 915.8,
+        "length": 439.7,
+        "rotation": -154.59,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_81",
+        "parent": "leaf_l_80",
+        "x": 30.46,
+        "y": 45.69,
+        "length": 114.64,
+        "rotation": 66.07,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_82",
+        "parent": "leaf_l_81",
+        "x": 114.64,
+        "y": 0,
+        "length": 107.59,
+        "rotation": 5.9,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_83",
+        "parent": "leaf_l_82",
+        "x": 107.59,
+        "y": 0,
+        "length": 103.29,
+        "rotation": 7.58,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_84",
+        "parent": "leaf_l_80",
+        "x": 296.22,
+        "y": 45.57,
+        "length": 153.49,
+        "rotation": 48.13,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_85",
+        "parent": "leaf_l_84",
+        "x": 153.49,
+        "y": 0,
+        "length": 152.88,
+        "rotation": 5.65,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_86",
+        "parent": "leaf_l_85",
+        "x": 153.85,
+        "y": 0.19,
+        "length": 157.33,
+        "rotation": 7.56,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_87",
+        "parent": "leaf_l_86",
+        "x": 157.33,
+        "y": 0,
+        "length": 122.42,
+        "rotation": 10.19,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_88",
+        "parent": "leaf_l_80",
+        "x": 426.94,
+        "y": 28.31,
+        "length": 173.06,
+        "rotation": 52.06,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_89",
+        "parent": "leaf_l_88",
+        "x": 173.06,
+        "y": 0,
+        "length": 158.22,
+        "rotation": 10.02,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_90",
+        "parent": "leaf_l_89",
+        "x": 158.18,
+        "y": 0.99,
+        "length": 158.44,
+        "rotation": 6.44,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_91",
+        "parent": "leaf_l2",
+        "x": -277.76,
+        "y": 1000.08,
+        "length": 402.75,
+        "rotation": -154.21,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_92",
+        "parent": "leaf_l_91",
+        "x": 110.89,
+        "y": 55.1,
+        "length": 133.47,
+        "rotation": 53.73,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_93",
+        "parent": "leaf_l_92",
+        "x": 133.47,
+        "y": 0,
+        "length": 141.43,
+        "rotation": 3.39,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_94",
+        "parent": "leaf_l_93",
+        "x": 141.43,
+        "y": 0,
+        "length": 126.76,
+        "rotation": 0.56,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_95",
+        "parent": "leaf_l_91",
+        "x": 314.87,
+        "y": 31.47,
+        "length": 175.19,
+        "rotation": 44.2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_96",
+        "parent": "leaf_l_95",
+        "x": 175.19,
+        "y": 0,
+        "length": 166.98,
+        "rotation": 14.27,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_97",
+        "parent": "leaf_l_96",
+        "x": 166.98,
+        "y": 0,
+        "length": 153.25,
+        "rotation": 6.02,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_98",
+        "parent": "leaf_l_91",
+        "x": 446.65,
+        "y": 0.79,
+        "length": 169.35,
+        "rotation": 39.02,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_99",
+        "parent": "leaf_l_98",
+        "x": 170.03,
+        "y": 0.32,
+        "length": 176.61,
+        "rotation": 16.29,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_100",
+        "parent": "leaf_l_99",
+        "x": 176.61,
+        "y": 0,
+        "length": 166.64,
+        "rotation": 4.46,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_101",
+        "parent": "leaf_l2",
+        "x": -251.25,
+        "y": 844.08,
+        "length": 499.31,
+        "rotation": -165.34,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_102",
+        "parent": "leaf_l_101",
+        "x": 158.34,
+        "y": 22.31,
+        "length": 170.3,
+        "rotation": 65.44,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_103",
+        "parent": "leaf_l_102",
+        "x": 170.3,
+        "y": 0,
+        "length": 187.4,
+        "rotation": 2.78,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_104",
+        "parent": "leaf_l_103",
+        "x": 187.52,
+        "y": -1,
+        "length": 154.63,
+        "rotation": 7.87,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_105",
+        "parent": "leaf_l_101",
+        "x": 444.95,
+        "y": 27.8,
+        "length": 154.23,
+        "rotation": 62.86,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_106",
+        "parent": "leaf_l_105",
+        "x": 154.23,
+        "y": 0,
+        "length": 172.38,
+        "rotation": 7.78,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_107",
+        "parent": "leaf_l_106",
+        "x": 172.38,
+        "y": 0,
+        "length": 121.54,
+        "rotation": 0.89,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "leaf_l_108",
+        "parent": "leaf_l_107",
+        "x": 121.54,
+        "y": 0,
+        "length": 140.49,
+        "rotation": 4.64,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Portal",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "background",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Portal",
+        "bone": "Portal",
+        "setupAttachment": "Portal",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "fire_ember_2",
+        "bone": "fire_ember_2",
+        "setupAttachment": "fire_ember_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "fire_ember_5",
+        "bone": "fire_ember_5",
+        "setupAttachment": "fire_ember_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "fire_ember_4",
+        "bone": "fire_ember_4",
+        "setupAttachment": "fire_ember_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "fire_ember_7",
+        "bone": "fire_ember_7",
+        "setupAttachment": "fire_ember_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "fire_ember_3",
+        "bone": "fire_ember_3",
+        "setupAttachment": "fire_ember_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "fire_ember_6",
+        "bone": "fire_ember_6",
+        "setupAttachment": "fire_ember_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "rune_2_b",
+        "bone": "rune",
+        "setupAttachment": "rune_2_b",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "rune_2_b2",
+        "bone": "rune",
+        "setupAttachment": "rune_2_b",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "rune_2_a",
+        "bone": "rune",
+        "setupAttachment": "rune_2_a",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "rune_2_a2",
+        "bone": "rune",
+        "setupAttachment": "rune_2_a",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "rune_1_b",
+        "bone": "rune",
+        "setupAttachment": "rune_1_b",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "rune_1_b2",
+        "bone": "rune",
+        "setupAttachment": "rune_1_b",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "rune_1_a",
+        "bone": "rune",
+        "setupAttachment": "rune_1_a",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "rune_1_a2",
+        "bone": "rune",
+        "setupAttachment": "rune_1_a",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Tree-light-FX",
+        "bone": "root",
+        "setupAttachment": "Tree-light-FX",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "branches-back-R",
+        "bone": "branches-back-R",
+        "setupAttachment": "branches-back-R",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "branches-back-L",
+        "bone": "branches-back-L",
+        "setupAttachment": "branches-back-L",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "tree",
+        "bone": "root",
+        "setupAttachment": "tree",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "tree2",
+        "bone": "tree2",
+        "setupAttachment": "tree_0",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "tree3",
+        "bone": "tree2",
+        "setupAttachment": "tree_1",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "tree4",
+        "bone": "tree2",
+        "setupAttachment": "tree_2",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "tree5",
+        "bone": "tree2",
+        "setupAttachment": "tree_3",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "tree6",
+        "bone": "tree2",
+        "setupAttachment": "tree_4",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "light-canopy-middle",
+        "bone": "root",
+        "setupAttachment": "light-canopy-middle",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "leaf_l_5",
+        "bone": "leaf_l_47",
+        "setupAttachment": "leaf_l_5",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "leaf_l_10",
+        "bone": "leaf_l_101",
+        "setupAttachment": "leaf_l_5",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "leaf_l_4",
+        "bone": "leaf_l_37",
+        "setupAttachment": "leaf_l_4",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "leaf_l_9",
+        "bone": "leaf_l_91",
+        "setupAttachment": "leaf_l_4",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "leaf_l_3",
+        "bone": "leaf_l_26",
+        "setupAttachment": "leaf_l_3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "leaf_l_8",
+        "bone": "leaf_l_80",
+        "setupAttachment": "leaf_l_3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "leaf_l_2",
+        "bone": "leaf_l_12",
+        "setupAttachment": "leaf_l_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "leaf_l_7",
+        "bone": "leaf_l_66",
+        "setupAttachment": "leaf_l_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "leaf_l_1",
+        "bone": "leaf_l_1",
+        "setupAttachment": "leaf_l_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "leaf_l_6",
+        "bone": "leaf_l_55",
+        "setupAttachment": "leaf_l_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "water",
+        "bone": "root",
+        "setupAttachment": "water",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "water-reflection",
+        "bone": "water-reflection",
+        "setupAttachment": "water-reflection",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "water-reflection2",
+        "bone": "water-reflection2",
+        "setupAttachment": "water-reflection",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "waterlight_water",
+        "bone": "waterlight_water",
+        "setupAttachment": "waterlight_water",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p1",
+        "bone": "p1",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p11",
+        "bone": "p11",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p10",
+        "bone": "p10",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p20",
+        "bone": "p20",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p9",
+        "bone": "p9",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p19",
+        "bone": "p19",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p8",
+        "bone": "p8",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p18",
+        "bone": "p18",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p7",
+        "bone": "p7",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p17",
+        "bone": "p17",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p6",
+        "bone": "p6",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p16",
+        "bone": "p16",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p5",
+        "bone": "p5",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p15",
+        "bone": "p15",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p4",
+        "bone": "p4",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p14",
+        "bone": "p14",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p3",
+        "bone": "p3",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p13",
+        "bone": "p13",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p2",
+        "bone": "p2",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "p12",
+        "bone": "p12",
+        "setupAttachment": "p1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glow_0",
+        "bone": "glow",
+        "setupAttachment": "glow_0",
+        "blend": "additive",
+        "color": "ff2d00ff"
+      },
+      {
+        "name": "glow_1",
+        "bone": "glow",
+        "setupAttachment": "glow_0",
+        "blend": "additive",
+        "color": "ff2d00ff"
+      },
+      {
+        "name": "glow_2",
+        "bone": "glow",
+        "setupAttachment": "glow_0",
+        "blend": "additive",
+        "color": "ff2d00ff"
+      },
+      {
+        "name": "glow_3",
+        "bone": "glow",
+        "setupAttachment": "glow_0",
+        "blend": "additive",
+        "color": "ff2d00ff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "branches-back-L",
+        "name": "branches-back-L",
+        "region": "branches-back-L",
+        "type": "mesh",
+        "bone": "branches-back-L",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 350,
+          "height": 320
+        },
+        "mesh": {
+          "uvPairs": 42,
+          "vertexNumbers": 418,
+          "triangles": 49,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "branches-back-R",
+        "name": "branches-back-R",
+        "region": "branches-back-R",
+        "type": "mesh",
+        "bone": "branches-back-R",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 295,
+          "height": 267
+        },
+        "mesh": {
+          "uvPairs": 40,
+          "vertexNumbers": 396,
+          "triangles": 38,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fire_ember_2",
+        "name": "fire_ember_2",
+        "region": "fire_ember_2",
+        "type": "mesh",
+        "bone": "fire_ember_2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 108
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fire_ember_3",
+        "name": "fire_ember_2",
+        "region": "fire_ember_2",
+        "type": "mesh",
+        "bone": "fire_ember_3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 108
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fire_ember_4",
+        "name": "fire_ember_2",
+        "region": "fire_ember_2",
+        "type": "mesh",
+        "bone": "fire_ember_4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 108
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fire_ember_5",
+        "name": "fire_ember_2",
+        "region": "fire_ember_2",
+        "type": "mesh",
+        "bone": "fire_ember_5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 108
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fire_ember_6",
+        "name": "fire_ember_2",
+        "region": "fire_ember_2",
+        "type": "mesh",
+        "bone": "fire_ember_6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 108
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fire_ember_7",
+        "name": "fire_ember_2",
+        "region": "fire_ember_2",
+        "type": "mesh",
+        "bone": "fire_ember_7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 108
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_0",
+        "name": "glow_0",
+        "region": "glow_0",
+        "type": "region",
+        "bone": "glow",
+        "transform": {
+          "x": -920.54,
+          "y": -726.9,
+          "rotation": 0,
+          "scaleX": 7.5491,
+          "scaleY": 7.5491
+        },
+        "size": {
+          "width": 64,
+          "height": 64
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_1",
+        "name": "glow_0",
+        "region": "glow_0",
+        "type": "region",
+        "bone": "glow",
+        "transform": {
+          "x": 919.8,
+          "y": -741.12,
+          "rotation": 0,
+          "scaleX": 7.5491,
+          "scaleY": 7.5491
+        },
+        "size": {
+          "width": 64,
+          "height": 64
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_2",
+        "name": "glow_0",
+        "region": "glow_0",
+        "type": "region",
+        "bone": "glow",
+        "transform": {
+          "x": 363.23,
+          "y": -117.51,
+          "rotation": 0,
+          "scaleX": 3.1763,
+          "scaleY": 3.1763
+        },
+        "size": {
+          "width": 64,
+          "height": 64
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_3",
+        "name": "glow_0",
+        "region": "glow_0",
+        "type": "region",
+        "bone": "glow",
+        "transform": {
+          "x": -363.97,
+          "y": -123.61,
+          "rotation": 0,
+          "scaleX": 3.1763,
+          "scaleY": 3.1763
+        },
+        "size": {
+          "width": 64,
+          "height": 64
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "leaf_l_1",
+        "name": "leaf_l_1",
+        "region": "leaf_l_1",
+        "type": "mesh",
+        "bone": "leaf_l_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 246,
+          "height": 326
+        },
+        "mesh": {
+          "uvPairs": 53,
+          "vertexNumbers": 573,
+          "triangles": 62,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "leaf_l_2",
+        "name": "leaf_l_2",
+        "region": "leaf_l_2",
+        "type": "mesh",
+        "bone": "leaf_l_12",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 238,
+          "height": 449
+        },
+        "mesh": {
+          "uvPairs": 48,
+          "vertexNumbers": 392,
+          "triangles": 51,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "leaf_l_3",
+        "name": "leaf_l_3",
+        "region": "leaf_l_3",
+        "type": "mesh",
+        "bone": "leaf_l_26",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 323,
+          "height": 527
+        },
+        "mesh": {
+          "uvPairs": 38,
+          "vertexNumbers": 302,
+          "triangles": 36,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "leaf_l_4",
+        "name": "leaf_l_4",
+        "region": "leaf_l_4",
+        "type": "mesh",
+        "bone": "leaf_l_37",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 369,
+          "height": 457
+        },
+        "mesh": {
+          "uvPairs": 55,
+          "vertexNumbers": 391,
+          "triangles": 53,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "leaf_l_5",
+        "name": "leaf_l_5",
+        "region": "leaf_l_5",
+        "type": "mesh",
+        "bone": "leaf_l_47",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 413,
+          "height": 567
+        },
+        "mesh": {
+          "uvPairs": 41,
+          "vertexNumbers": 469,
+          "triangles": 56,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "leaf_l_6",
+        "name": "leaf_l_1",
+        "region": "leaf_l_1",
+        "type": "mesh",
+        "bone": "leaf_l_55",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 246,
+          "height": 326
+        },
+        "mesh": {
+          "uvPairs": 53,
+          "vertexNumbers": 573,
+          "triangles": 62,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "leaf_l_7",
+        "name": "leaf_l_2",
+        "region": "leaf_l_2",
+        "type": "mesh",
+        "bone": "leaf_l_66",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 238,
+          "height": 449
+        },
+        "mesh": {
+          "uvPairs": 48,
+          "vertexNumbers": 392,
+          "triangles": 51,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "leaf_l_8",
+        "name": "leaf_l_3",
+        "region": "leaf_l_3",
+        "type": "mesh",
+        "bone": "leaf_l_80",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 323,
+          "height": 527
+        },
+        "mesh": {
+          "uvPairs": 38,
+          "vertexNumbers": 302,
+          "triangles": 36,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "leaf_l_9",
+        "name": "leaf_l_4",
+        "region": "leaf_l_4",
+        "type": "mesh",
+        "bone": "leaf_l_91",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 369,
+          "height": 457
+        },
+        "mesh": {
+          "uvPairs": 55,
+          "vertexNumbers": 391,
+          "triangles": 53,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "leaf_l_10",
+        "name": "leaf_l_5",
+        "region": "leaf_l_5",
+        "type": "mesh",
+        "bone": "leaf_l_101",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 413,
+          "height": 567
+        },
+        "mesh": {
+          "uvPairs": 41,
+          "vertexNumbers": 469,
+          "triangles": 56,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "light-canopy-middle",
+        "name": "light-canopy-middle",
+        "region": "light-canopy-middle",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 213,
+          "height": 157
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p1",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p2",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p3",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p4",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p5",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p6",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p7",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p8",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p8",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p9",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p9",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p10",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p10",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p11",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p11",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p12",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p12",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p13",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p13",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p14",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p14",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p15",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p15",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p16",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p16",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p17",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p17",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p18",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p18",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p19",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p19",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "p20",
+        "name": "p1",
+        "region": "p1",
+        "type": "mesh",
+        "bone": "p20",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 52,
+          "height": 51
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Portal",
+        "name": "Portal",
+        "region": "Portal",
+        "type": "region",
+        "bone": "Portal",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 417,
+          "height": 396
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "rune_1_a",
+        "name": "rune_1_a",
+        "region": "rune_1_a",
+        "type": "mesh",
+        "bone": "rune",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 268,
+          "height": 112
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "rune_1_a2",
+        "name": "rune_1_a",
+        "region": "rune_1_a",
+        "type": "mesh",
+        "bone": "rune",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 268,
+          "height": 112
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "rune_1_b",
+        "name": "rune_1_b",
+        "region": "rune_1_b",
+        "type": "mesh",
+        "bone": "rune",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 279,
+          "height": 111
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "rune_1_b2",
+        "name": "rune_1_b",
+        "region": "rune_1_b",
+        "type": "mesh",
+        "bone": "rune",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 279,
+          "height": 111
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "rune_2_a",
+        "name": "rune_2_a",
+        "region": "rune_2_a",
+        "type": "mesh",
+        "bone": "rune",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 262,
+          "height": 280
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "rune_2_a2",
+        "name": "rune_2_a",
+        "region": "rune_2_a",
+        "type": "mesh",
+        "bone": "rune",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 262,
+          "height": 280
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "rune_2_b",
+        "name": "rune_2_b",
+        "region": "rune_2_b",
+        "type": "mesh",
+        "bone": "rune",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 132,
+          "height": 141
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "rune_2_b2",
+        "name": "rune_2_b",
+        "region": "rune_2_b",
+        "type": "mesh",
+        "bone": "rune",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 132,
+          "height": 141
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "tree",
+        "name": "tree",
+        "region": "tree",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 750,
+          "height": 714
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Tree-light-FX",
+        "name": "Tree-light-FX",
+        "region": "Tree-light-FX",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 609,
+          "height": 520
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "tree2",
+        "name": "tree_0",
+        "region": "tree_0",
+        "type": "mesh",
+        "bone": "tree2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 500,
+          "height": 476
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "tree3",
+        "name": "tree_1",
+        "region": "tree_1",
+        "type": "mesh",
+        "bone": "tree2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 500,
+          "height": 476
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "tree4",
+        "name": "tree_2",
+        "region": "tree_2",
+        "type": "mesh",
+        "bone": "tree2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 500,
+          "height": 476
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "tree5",
+        "name": "tree_3",
+        "region": "tree_3",
+        "type": "mesh",
+        "bone": "tree2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 500,
+          "height": 476
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "tree6",
+        "name": "tree_4",
+        "region": "tree_4",
+        "type": "mesh",
+        "bone": "tree2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 500,
+          "height": 476
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "water",
+        "name": "water",
+        "region": "water",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 801,
+          "height": 227
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "water-reflection",
+        "name": "water-reflection",
+        "region": "water-reflection",
+        "type": "mesh",
+        "bone": "water-reflection",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 733,
+          "height": 137
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "water-reflection2",
+        "name": "water-reflection",
+        "region": "water-reflection",
+        "type": "mesh",
+        "bone": "water-reflection2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 733,
+          "height": 137
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "waterlight_water",
+        "name": "waterlight_water",
+        "region": "waterlight_water",
+        "type": "mesh",
+        "bone": "waterlight_water",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 854,
+          "height": 294
+        },
+        "mesh": {
+          "uvPairs": 6,
+          "vertexNumbers": 30,
+          "triangles": 4,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "idle",
+        "duration": 5.3333,
+        "keyframes": 899,
+        "curvedKeys": 678,
+        "channels": [
+          {
+            "path": "slots.fire_ember_2.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.fire_ember_3.rgba",
+            "keyframes": 11
+          },
+          {
+            "path": "slots.fire_ember_4.rgba",
+            "keyframes": 11
+          },
+          {
+            "path": "slots.fire_ember_5.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.fire_ember_6.rgba",
+            "keyframes": 11
+          },
+          {
+            "path": "slots.fire_ember_7.rgba",
+            "keyframes": 11
+          },
+          {
+            "path": "slots.glow_0.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.glow_1.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.glow_2.rgba",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.glow_3.rgba",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.light-canopy-middle.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.p1.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.p2.rgba",
+            "keyframes": 11
+          },
+          {
+            "path": "slots.p3.rgba",
+            "keyframes": 11
+          },
+          {
+            "path": "slots.p4.rgba",
+            "keyframes": 11
+          },
+          {
+            "path": "slots.p5.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.p6.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.p7.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.p8.rgba",
+            "keyframes": 11
+          },
+          {
+            "path": "slots.p9.rgba",
+            "keyframes": 11
+          },
+          {
+            "path": "slots.p10.rgba",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.p11.rgba",
+            "keyframes": 11
+          },
+          {
+            "path": "slots.p12.rgba",
+            "keyframes": 13
+          },
+          {
+            "path": "slots.p13.rgba",
+            "keyframes": 13
+          },
+          {
+            "path": "slots.p14.rgba",
+            "keyframes": 13
+          },
+          {
+            "path": "slots.p15.rgba",
+            "keyframes": 11
+          },
+          {
+            "path": "slots.p16.rgba",
+            "keyframes": 11
+          },
+          {
+            "path": "slots.p17.rgba",
+            "keyframes": 11
+          },
+          {
+            "path": "slots.p18.rgba",
+            "keyframes": 13
+          },
+          {
+            "path": "slots.p19.rgba",
+            "keyframes": 13
+          },
+          {
+            "path": "slots.p20.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.rune_1_a2.rgba",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.rune_1_b2.rgba",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.rune_2_a2.rgba",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.rune_2_b2.rgba",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.Tree-light-FX.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.tree2.rgba",
+            "keyframes": 7
+          },
+          {
+            "path": "slots.tree3.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.tree4.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.tree5.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.tree6.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.water-reflection.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.water-reflection2.rgba",
+            "keyframes": 11
+          },
+          {
+            "path": "bones.water-reflection.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.water-reflection2.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.waterlight_water2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.branches-back-R2.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.branches-back-R5.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.branches-back-R8.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.branches-back-R11.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.branches-back-L2.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.branches-back-L5.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.branches-back-L7.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.fire_ember_2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.fire_ember_3.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.fire_ember_4.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.fire_ember_5.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.fire_ember_6.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.fire_ember_7.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.p1.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.p2.translate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.p3.translate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.p4.translate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.p5.translate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.p6.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.p7.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.p8.translate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.p9.translate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.p10.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.p11.translate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.p12.translate",
+            "keyframes": 11
+          },
+          {
+            "path": "bones.p13.translate",
+            "keyframes": 11
+          },
+          {
+            "path": "bones.p14.translate",
+            "keyframes": 11
+          },
+          {
+            "path": "bones.p15.translate",
+            "keyframes": 11
+          },
+          {
+            "path": "bones.p16.translate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.p17.translate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.p18.translate",
+            "keyframes": 11
+          },
+          {
+            "path": "bones.p19.translate",
+            "keyframes": 11
+          },
+          {
+            "path": "bones.p20.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.leaf_l_2.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.leaf_l_5.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.leaf_l_8.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.leaf_l_13.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.leaf_l_18.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.leaf_l_22.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.leaf_l_27.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.leaf_l_30.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.leaf_l_34.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.leaf_l_38.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.leaf_l_41.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.leaf_l_44.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.leaf_l_48.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.leaf_l_51.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.leaf_l_56.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.leaf_l_59.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.leaf_l_62.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.leaf_l_67.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.leaf_l_72.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.leaf_l_76.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.leaf_l_81.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.leaf_l_84.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.leaf_l_88.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.leaf_l_92.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.leaf_l_95.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.leaf_l_98.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.leaf_l_102.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.leaf_l_105.rotate",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.Portal.rotate",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "water-reflection",
+          "water-reflection2",
+          "waterlight_water2",
+          "branches-back-R2",
+          "branches-back-R5",
+          "branches-back-R8",
+          "branches-back-R11",
+          "branches-back-L2",
+          "branches-back-L5",
+          "branches-back-L7",
+          "fire_ember_2",
+          "fire_ember_3",
+          "fire_ember_4",
+          "fire_ember_5",
+          "fire_ember_6",
+          "fire_ember_7",
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "p10",
+          "p11",
+          "p12",
+          "p13",
+          "p14",
+          "p15",
+          "p16",
+          "p17",
+          "p18",
+          "p19",
+          "p20",
+          "leaf_l_2",
+          "leaf_l_5",
+          "leaf_l_8",
+          "leaf_l_13",
+          "leaf_l_18",
+          "leaf_l_22",
+          "leaf_l_27",
+          "leaf_l_30",
+          "leaf_l_34",
+          "leaf_l_38",
+          "leaf_l_41",
+          "leaf_l_44",
+          "leaf_l_48",
+          "leaf_l_51",
+          "leaf_l_56",
+          "leaf_l_59",
+          "leaf_l_62",
+          "leaf_l_67",
+          "leaf_l_72",
+          "leaf_l_76",
+          "leaf_l_81",
+          "leaf_l_84",
+          "leaf_l_88",
+          "leaf_l_92",
+          "leaf_l_95",
+          "leaf_l_98",
+          "leaf_l_102",
+          "leaf_l_105",
+          "Portal"
+        ],
+        "animatedSlots": [
+          "fire_ember_2",
+          "fire_ember_3",
+          "fire_ember_4",
+          "fire_ember_5",
+          "fire_ember_6",
+          "fire_ember_7",
+          "glow_0",
+          "glow_1",
+          "glow_2",
+          "glow_3",
+          "light-canopy-middle",
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "p10",
+          "p11",
+          "p12",
+          "p13",
+          "p14",
+          "p15",
+          "p16",
+          "p17",
+          "p18",
+          "p19",
+          "p20",
+          "rune_1_a2",
+          "rune_1_b2",
+          "rune_2_a2",
+          "rune_2_b2",
+          "Tree-light-FX",
+          "tree2",
+          "tree3",
+          "tree4",
+          "tree5",
+          "tree6",
+          "water-reflection",
+          "water-reflection2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 172,
+      "slots": 64,
+      "attachments": 63,
+      "meshAttachments": 58,
+      "meshUvPairs": 738,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 70
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "Portal",
+      "file": "pieces/portal-bbc1531a.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "461,625,417,396"
+      }
+    },
+    {
+      "region": "branches-back-L",
+      "file": "pieces/branches-back-l-22b8ed7b.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "299,1041,350,320"
+      }
+    },
+    {
+      "region": "branches-back-R",
+      "file": "pieces/branches-back-r-a3cd4b00.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "2,1094,295,267"
+      }
+    },
+    {
+      "region": "fire_ember_2",
+      "file": "pieces/fire-ember-2-06c013ff.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "112,1596,187,108"
+      }
+    },
+    {
+      "region": "glow_0",
+      "file": "pieces/glow-0-414d59d4.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "56,1650,54,54",
+        "offsets": "5,5,64,64"
+      }
+    },
+    {
+      "region": "leaf_l_1",
+      "file": "pieces/leaf-l-1-3355d96b.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "1250,1319,246,326",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "leaf_l_2",
+      "file": "pieces/leaf-l-2-ad84e5ee.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "805,1327,238,443",
+        "offsets": "0,6,238,449",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "leaf_l_3",
+      "file": "pieces/leaf-l-3-3b615b10.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "1507,958,323,527",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "leaf_l_4",
+      "file": "pieces/leaf-l-4-3f7dd7bb.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "2,670,369,457",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "leaf_l_5",
+      "file": "pieces/leaf-l-5-3a4d132b.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "880,608,413,567",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "light-canopy-middle",
+      "file": "pieces/light-canopy-middle-90f4dff6.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "1730,1547,213,157"
+      }
+    },
+    {
+      "region": "p1",
+      "file": "pieces/p1-2f4c56bb.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "2,1653,52,51"
+      }
+    },
+    {
+      "region": "rune_1_a",
+      "file": "pieces/rune-1-a-10c3f2fc.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "582,1592,268,112"
+      }
+    },
+    {
+      "region": "rune_1_b",
+      "file": "pieces/rune-1-b-5422517d.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "301,1593,279,111"
+      }
+    },
+    {
+      "region": "rune_2_a",
+      "file": "pieces/rune-2-a-d4e15067.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "1578,1283,262,280",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "rune_2_b",
+      "file": "pieces/rune-2-b-48a46ece.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "852,1572,132,141",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "tree_0",
+      "file": "pieces/tree-0-77291d7e.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "1449,480,500,476"
+      }
+    },
+    {
+      "region": "tree_1",
+      "file": "pieces/tree-1-1bbb0072.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "2,147,500,476"
+      }
+    },
+    {
+      "region": "tree_2",
+      "file": "pieces/tree-2-c2dd9c26.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "504,130,500,476"
+      }
+    },
+    {
+      "region": "tree_3",
+      "file": "pieces/tree-3-44922deb.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "1006,2,500,476"
+      }
+    },
+    {
+      "region": "tree_4",
+      "file": "pieces/tree-4-9234595b.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "1508,2,500,476"
+      }
+    },
+    {
+      "region": "water",
+      "file": "pieces/water-40998548.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "2,1363,801,227"
+      }
+    },
+    {
+      "region": "water-reflection",
+      "file": "pieces/water-reflection-282042b5.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "995,1567,733,137"
+      }
+    },
+    {
+      "region": "waterlight_water",
+      "file": "pieces/waterlight-water-00229487.png",
+      "page": "bg_freegame4.webp",
+      "properties": {
+        "bounds": "651,1023,854,294"
+      }
+    },
+    {
+      "region": "Tree-light-FX",
+      "file": "pieces/tree-light-fx-e643d162.png",
+      "page": "bg_freegame4_2.webp",
+      "properties": {
+        "bounds": "754,107,609,520",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "tree",
+      "file": "pieces/tree-917de5aa.png",
+      "page": "bg_freegame4_2.webp",
+      "properties": {
+        "bounds": "2,2,750,714"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

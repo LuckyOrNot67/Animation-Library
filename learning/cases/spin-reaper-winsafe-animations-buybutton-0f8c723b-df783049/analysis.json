@@ -1,0 +1,3139 @@
+{
+  "id": "spin-reaper-winsafe-animations-buybutton-0f8c723b-df783049",
+  "collection": "library",
+  "name": "buybutton",
+  "machine": "spin-reaper-winsafe",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/spin-reaper-winsafe/animations/buybutton-0f8c723b",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 15,
+    "slots": 22,
+    "attachments": 27,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 4194304,
+    "rgbaBytesEstimate": 16777216,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 20,
+  "actions": [
+    {
+      "name": "buy_button_active_click",
+      "duration": 0.5,
+      "keyframes": 27,
+      "curvedKeys": 9,
+      "channels": [
+        {
+          "path": "slots.base2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.buybonus_text.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.front2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.text.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.text.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.buttonfront.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.buttonfront.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.button_main.translate",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "text",
+        "buttonfront",
+        "button_main"
+      ],
+      "animatedSlots": [
+        "base",
+        "base2",
+        "buybonus_text",
+        "buybonus_texthl",
+        "front2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "buy_button_active_disabled",
+      "duration": 0,
+      "keyframes": 0,
+      "curvedKeys": 0,
+      "channels": [],
+      "animatedBones": [],
+      "animatedSlots": [
+        "base",
+        "bbtn_shine_bottom",
+        "bbtn_shine_top",
+        "buybonus_text",
+        "buybonus_texthl",
+        "front"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "buy_button_active_hover",
+      "duration": 1,
+      "keyframes": 39,
+      "curvedKeys": 9,
+      "channels": [
+        {
+          "path": "slots.buybonus_text.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.fx_ringshine_1.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.fx_ringshine_2.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.fx_ringshine_3.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.fx_ringshine_4.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.fx_ringshine_5.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.text.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.buttonfront.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "text",
+        "buttonfront"
+      ],
+      "animatedSlots": [
+        "base2",
+        "buybonus_text",
+        "buybonus_texthl",
+        "fx_ringshine_1",
+        "fx_ringshine_2",
+        "fx_ringshine_3",
+        "fx_ringshine_4",
+        "fx_ringshine_5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "buy_button_active_idle",
+      "duration": 5.3333,
+      "keyframes": 33,
+      "curvedKeys": 4,
+      "channels": [
+        {
+          "path": "slots.base2.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.bbtn_star1.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.bbtn_star2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.front2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.fx_baseshine_1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.fx_baseshine_2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.fx_baseshine_3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.fx_baseshine_4.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.fx_baseshine_5.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bbtn_stars.rotate",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "bbtn_stars"
+      ],
+      "animatedSlots": [
+        "base2",
+        "bbtn_star1",
+        "bbtn_star2",
+        "buybonus_text",
+        "buybonus_texthl",
+        "front2",
+        "fx_baseshine_1",
+        "fx_baseshine_2",
+        "fx_baseshine_3",
+        "fx_baseshine_4",
+        "fx_baseshine_5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "buy_button_active_intro",
+      "duration": 0.6667,
+      "keyframes": 10,
+      "curvedKeys": 4,
+      "channels": [
+        {
+          "path": "slots.buybonus_text.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.buybonus_text.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.buybonus_texthl.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.buttonfront.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "buttonfront"
+      ],
+      "animatedSlots": [
+        "bbtn_star1",
+        "bbtn_star2",
+        "buybonus_text",
+        "buybonus_texthl",
+        "fx_baseshine_1",
+        "fx_baseshine_2",
+        "fx_baseshine_3",
+        "fx_baseshine_4",
+        "fx_baseshine_5",
+        "fx_ringshine_1",
+        "fx_ringshine_2",
+        "fx_ringshine_3",
+        "fx_ringshine_4",
+        "fx_ringshine_5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "transition"
+      ]
+    },
+    {
+      "name": "buy_button_active_outro",
+      "duration": 0.6667,
+      "keyframes": 10,
+      "curvedKeys": 4,
+      "channels": [
+        {
+          "path": "slots.buybonus_text.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.buybonus_text.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.buybonus_texthl.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.buttonfront.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "buttonfront"
+      ],
+      "animatedSlots": [
+        "bbtn_star1",
+        "bbtn_star2",
+        "buybonus_text",
+        "buybonus_texthl",
+        "fx_baseshine_1",
+        "fx_baseshine_2",
+        "fx_baseshine_3",
+        "fx_baseshine_4",
+        "fx_baseshine_5",
+        "fx_ringshine_1",
+        "fx_ringshine_2",
+        "fx_ringshine_3",
+        "fx_ringshine_4",
+        "fx_ringshine_5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "transition"
+      ]
+    },
+    {
+      "name": "buy_button_click",
+      "duration": 0.5,
+      "keyframes": 27,
+      "curvedKeys": 9,
+      "channels": [
+        {
+          "path": "slots.base2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.buybonus_text.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.front2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.text.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.text.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.button_main.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.buttonfront.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.buttonfront.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "text",
+        "button_main",
+        "buttonfront"
+      ],
+      "animatedSlots": [
+        "base",
+        "base2",
+        "buybonus_text",
+        "buybonus_texthl",
+        "front2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "buy_button_disabled",
+      "duration": 0,
+      "keyframes": 0,
+      "curvedKeys": 0,
+      "channels": [],
+      "animatedBones": [],
+      "animatedSlots": [
+        "base",
+        "bbtn_shine_bottom",
+        "bbtn_shine_top",
+        "buybonus_text",
+        "front"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "buy_button_hover",
+      "duration": 1,
+      "keyframes": 41,
+      "curvedKeys": 9,
+      "channels": [
+        {
+          "path": "slots.buybonus_text.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.fx_ringshine_1.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.fx_ringshine_2.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.fx_ringshine_3.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.fx_ringshine_4.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.fx_ringshine_5.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.buttonfront.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.text.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "buttonfront",
+        "text"
+      ],
+      "animatedSlots": [
+        "base2",
+        "buybonus_text",
+        "buybonus_texthl",
+        "fx_ringshine_1",
+        "fx_ringshine_2",
+        "fx_ringshine_3",
+        "fx_ringshine_4",
+        "fx_ringshine_5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "buy_button_idle",
+      "duration": 5.3333,
+      "keyframes": 59,
+      "curvedKeys": 7,
+      "channels": [
+        {
+          "path": "slots.base2.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.bbtn_star1.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.bbtn_star2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.buybonus_text.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.buybonus_texthl.rgba",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.fx_baseshine_1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.fx_baseshine_2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.fx_baseshine_3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.fx_baseshine_4.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.fx_baseshine_5.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.fx_ringshine_1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.fx_ringshine_2.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.fx_ringshine_3.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.fx_ringshine_4.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.fx_ringshine_5.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.text.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bbtn_stars.rotate",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "text",
+        "bbtn_stars"
+      ],
+      "animatedSlots": [
+        "base2",
+        "bbtn_star1",
+        "bbtn_star2",
+        "buybonus_text",
+        "buybonus_texthl",
+        "fx_baseshine_1",
+        "fx_baseshine_2",
+        "fx_baseshine_3",
+        "fx_baseshine_4",
+        "fx_baseshine_5",
+        "fx_ringshine_1",
+        "fx_ringshine_2",
+        "fx_ringshine_3",
+        "fx_ringshine_4",
+        "fx_ringshine_5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "buy_button_intro",
+      "duration": 0.6,
+      "keyframes": 14,
+      "curvedKeys": 6,
+      "channels": [
+        {
+          "path": "slots.buybonus_text.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.buybonus_texthl.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.text.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.text.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.buttonfront.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "text",
+        "buttonfront"
+      ],
+      "animatedSlots": [
+        "bbtn_star1",
+        "bbtn_star2",
+        "buybonus_text",
+        "buybonus_texthl",
+        "fx_baseshine_1",
+        "fx_baseshine_2",
+        "fx_baseshine_3",
+        "fx_baseshine_4",
+        "fx_baseshine_5",
+        "fx_ringshine_1",
+        "fx_ringshine_2",
+        "fx_ringshine_3",
+        "fx_ringshine_4",
+        "fx_ringshine_5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "transition"
+      ]
+    },
+    {
+      "name": "buy_button_play_active_intro",
+      "duration": 0.6667,
+      "keyframes": 10,
+      "curvedKeys": 4,
+      "channels": [
+        {
+          "path": "slots.buybonus_text.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.buybonus_text.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.buybonus_texthl.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.buttonfront.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "buttonfront"
+      ],
+      "animatedSlots": [
+        "bbtn_star1",
+        "bbtn_star2",
+        "buybonus_text",
+        "buybonus_texthl",
+        "fx_baseshine_1",
+        "fx_baseshine_2",
+        "fx_baseshine_3",
+        "fx_baseshine_4",
+        "fx_baseshine_5",
+        "fx_ringshine_1",
+        "fx_ringshine_2",
+        "fx_ringshine_3",
+        "fx_ringshine_4",
+        "fx_ringshine_5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "transition"
+      ]
+    },
+    {
+      "name": "buy_button_play_active_outro",
+      "duration": 0.6667,
+      "keyframes": 10,
+      "curvedKeys": 4,
+      "channels": [
+        {
+          "path": "slots.buybonus_text.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.buybonus_text.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.buybonus_texthl.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.buttonfront.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "buttonfront"
+      ],
+      "animatedSlots": [
+        "bbtn_star1",
+        "bbtn_star2",
+        "buybonus_text",
+        "buybonus_texthl",
+        "fx_baseshine_1",
+        "fx_baseshine_2",
+        "fx_baseshine_3",
+        "fx_baseshine_4",
+        "fx_baseshine_5",
+        "fx_ringshine_1",
+        "fx_ringshine_2",
+        "fx_ringshine_3",
+        "fx_ringshine_4",
+        "fx_ringshine_5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "transition"
+      ]
+    },
+    {
+      "name": "buy_button_play_click",
+      "duration": 0.5,
+      "keyframes": 27,
+      "curvedKeys": 9,
+      "channels": [
+        {
+          "path": "slots.base2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.buybonus_text.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.front2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.text.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.text.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.button_main.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.buttonfront.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.buttonfront.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "text",
+        "button_main",
+        "buttonfront"
+      ],
+      "animatedSlots": [
+        "base",
+        "base2",
+        "buybonus_text",
+        "buybonus_texthl",
+        "front2"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "buy_button_play_disabled",
+      "duration": 0,
+      "keyframes": 0,
+      "curvedKeys": 0,
+      "channels": [],
+      "animatedBones": [],
+      "animatedSlots": [
+        "base",
+        "bbtn_shine_bottom",
+        "bbtn_shine_top",
+        "buybonus_text",
+        "front"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "buy_button_play_hover",
+      "duration": 1,
+      "keyframes": 41,
+      "curvedKeys": 9,
+      "channels": [
+        {
+          "path": "slots.buybonus_text.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.fx_ringshine_1.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.fx_ringshine_2.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.fx_ringshine_3.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.fx_ringshine_4.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.fx_ringshine_5.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.buttonfront.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.text.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "buttonfront",
+        "text"
+      ],
+      "animatedSlots": [
+        "base2",
+        "buybonus_text",
+        "buybonus_texthl",
+        "fx_ringshine_1",
+        "fx_ringshine_2",
+        "fx_ringshine_3",
+        "fx_ringshine_4",
+        "fx_ringshine_5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "buy_button_play_idle",
+      "duration": 5.3333,
+      "keyframes": 59,
+      "curvedKeys": 7,
+      "channels": [
+        {
+          "path": "slots.base2.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.bbtn_star1.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.bbtn_star2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.buybonus_text.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.buybonus_texthl.rgba",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.fx_baseshine_1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.fx_baseshine_2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.fx_baseshine_3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.fx_baseshine_4.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.fx_baseshine_5.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.fx_ringshine_1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.fx_ringshine_2.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.fx_ringshine_3.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.fx_ringshine_4.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.fx_ringshine_5.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.text.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bbtn_stars.rotate",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "text",
+        "bbtn_stars"
+      ],
+      "animatedSlots": [
+        "base2",
+        "bbtn_star1",
+        "bbtn_star2",
+        "buybonus_text",
+        "buybonus_texthl",
+        "fx_baseshine_1",
+        "fx_baseshine_2",
+        "fx_baseshine_3",
+        "fx_baseshine_4",
+        "fx_baseshine_5",
+        "fx_ringshine_1",
+        "fx_ringshine_2",
+        "fx_ringshine_3",
+        "fx_ringshine_4",
+        "fx_ringshine_5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "buy_button_play_intro",
+      "duration": 0.6,
+      "keyframes": 14,
+      "curvedKeys": 6,
+      "channels": [
+        {
+          "path": "slots.buybonus_text.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.buybonus_texthl.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.text.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.text.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.buttonfront.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "text",
+        "buttonfront"
+      ],
+      "animatedSlots": [
+        "bbtn_star1",
+        "bbtn_star2",
+        "buybonus_text",
+        "buybonus_texthl",
+        "fx_baseshine_1",
+        "fx_baseshine_2",
+        "fx_baseshine_3",
+        "fx_baseshine_4",
+        "fx_baseshine_5",
+        "fx_ringshine_1",
+        "fx_ringshine_2",
+        "fx_ringshine_3",
+        "fx_ringshine_4",
+        "fx_ringshine_5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "transition"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/spin-reaper-winsafe-animations-buybutton-0f8c723b-df783049/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "buybutton_master",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "button_main",
+        "parent": "buybutton_master",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "buttonfront",
+        "parent": "button_main",
+        "x": 0,
+        "y": -20.61,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bbtn_stars",
+        "parent": "buttonfront",
+        "x": 0,
+        "y": -24.15,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "text",
+        "parent": "buttonfront",
+        "x": 0,
+        "y": 10.61,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "fx_ringshine",
+        "parent": "buttonfront",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "fx_baseshine",
+        "parent": "buttonfront",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "base",
+        "parent": "button_main",
+        "x": 0,
+        "y": -44.76,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bbtn_star1",
+        "parent": "bbtn_stars",
+        "x": -285.02,
+        "y": 620.26,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bbtn_star2",
+        "parent": "bbtn_stars",
+        "x": 235.42,
+        "y": -398.23,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bbtn_baseshines",
+        "parent": "buttonfront",
+        "x": 0,
+        "y": 20.61,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bbtn_shine_bottom",
+        "parent": "bbtn_baseshines",
+        "x": 11.38,
+        "y": -43.37,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bbtn_shine_top",
+        "parent": "bbtn_baseshines",
+        "x": -159.31,
+        "y": 275.24,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "shadow",
+        "parent": "buybutton_master",
+        "x": 0,
+        "y": -20.61,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "guide",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "shadow",
+        "bone": "shadow",
+        "setupAttachment": "base",
+        "blend": "normal",
+        "color": "00000077"
+      },
+      {
+        "name": "base",
+        "bone": "base",
+        "setupAttachment": "base",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "base2",
+        "bone": "base",
+        "setupAttachment": "base",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "front",
+        "bone": "buttonfront",
+        "setupAttachment": "front",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "front2",
+        "bone": "buttonfront",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "bbtn_shine_top",
+        "bone": "bbtn_shine_top",
+        "setupAttachment": "bbtn_shine_top",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bbtn_shine_bottom",
+        "bone": "bbtn_shine_bottom",
+        "setupAttachment": "bbtn_shine_bottom",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "buybonus_text",
+        "bone": "text",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "buybonus_texthl",
+        "bone": "text",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "fx_baseshine_1",
+        "bone": "fx_baseshine",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "fx_baseshine_2",
+        "bone": "fx_baseshine",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "fx_baseshine_3",
+        "bone": "fx_baseshine",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "fx_baseshine_4",
+        "bone": "fx_baseshine",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "fx_baseshine_5",
+        "bone": "fx_baseshine",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "fx_ringshine_1",
+        "bone": "fx_ringshine",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "fx_ringshine_2",
+        "bone": "fx_ringshine",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "fx_ringshine_3",
+        "bone": "fx_ringshine",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "fx_ringshine_4",
+        "bone": "fx_ringshine",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "fx_ringshine_5",
+        "bone": "fx_ringshine",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "bbtn_star2",
+        "bone": "bbtn_star2",
+        "setupAttachment": "bbtn_star2",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "bbtn_star1",
+        "bone": "bbtn_star1",
+        "setupAttachment": "bbtn_star1",
+        "blend": "normal",
+        "color": "ffffff00"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "base",
+        "name": "base",
+        "region": "base",
+        "type": "region",
+        "bone": "base",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1349,
+          "height": 1349
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "base2",
+        "name": "base",
+        "region": "base",
+        "type": "region",
+        "bone": "base",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1349,
+          "height": 1349
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bbtn_shine_bottom",
+        "name": "bbtn_shine_bottom",
+        "region": "bbtn_shine_bottom",
+        "type": "region",
+        "bone": "bbtn_shine_bottom",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 959,
+          "height": 969
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bbtn_shine_top",
+        "name": "bbtn_shine_top",
+        "region": "bbtn_shine_top",
+        "type": "region",
+        "bone": "bbtn_shine_top",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 864,
+          "height": 651
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bbtn_star1",
+        "name": "bbtn_star1",
+        "region": "bbtn_star1",
+        "type": "region",
+        "bone": "bbtn_star1",
+        "transform": {
+          "x": 544,
+          "y": -1008.25,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 461,
+          "height": 291
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bbtn_star2",
+        "name": "bbtn_star2",
+        "region": "bbtn_star2",
+        "type": "region",
+        "bone": "bbtn_star2",
+        "transform": {
+          "x": -486.93,
+          "y": 1014.24,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 461,
+          "height": 291
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "buybonus_text",
+        "name": "buybonus_base",
+        "region": "buybonus_base",
+        "type": "region",
+        "bone": "text",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 816,
+          "height": 447
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "buybonus_text",
+        "name": "buybonus_pressed",
+        "region": "buybonus_pressed",
+        "type": "region",
+        "bone": "text",
+        "transform": {
+          "x": -1.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 816,
+          "height": 447
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "buybonus_text",
+        "name": "DISABLE",
+        "region": "DISABLE",
+        "type": "region",
+        "bone": "text",
+        "transform": {
+          "x": 0,
+          "y": -29.51,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 885,
+          "height": 218
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "buybonus_text",
+        "name": "PLAY BONUS",
+        "region": "PLAY BONUS",
+        "type": "region",
+        "bone": "text",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 819,
+          "height": 462
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "buybonus_texthl",
+        "name": "buybonus_base",
+        "region": "buybonus_base",
+        "type": "region",
+        "bone": "text",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 816,
+          "height": 447
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "buybonus_texthl",
+        "name": "buybonus_pressed",
+        "region": "buybonus_pressed",
+        "type": "region",
+        "bone": "text",
+        "transform": {
+          "x": -1.5,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 816,
+          "height": 447
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "buybonus_texthl",
+        "name": "DISABLE",
+        "region": "DISABLE",
+        "type": "region",
+        "bone": "text",
+        "transform": {
+          "x": 0,
+          "y": -29.51,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 885,
+          "height": 218
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "buybonus_texthl",
+        "name": "PLAY BONUS",
+        "region": "PLAY BONUS",
+        "type": "region",
+        "bone": "text",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 819,
+          "height": 462
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "front",
+        "name": "front",
+        "region": "front",
+        "type": "region",
+        "bone": "buttonfront",
+        "transform": {
+          "x": 0,
+          "y": -3.79,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1264,
+          "height": 1264
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "front2",
+        "name": "front",
+        "region": "front",
+        "type": "region",
+        "bone": "buttonfront",
+        "transform": {
+          "x": 0,
+          "y": -3.79,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1264,
+          "height": 1264
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_baseshine_1",
+        "name": "fx_baseshine_1",
+        "region": "fx_baseshine_1",
+        "type": "region",
+        "bone": "fx_baseshine",
+        "transform": {
+          "x": -61.85,
+          "y": 195.51,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 805,
+          "height": 536
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_baseshine_2",
+        "name": "fx_baseshine_2",
+        "region": "fx_baseshine_2",
+        "type": "region",
+        "bone": "fx_baseshine",
+        "transform": {
+          "x": -1.85,
+          "y": 6.26,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 919,
+          "height": 909
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_baseshine_3",
+        "name": "fx_baseshine_3",
+        "region": "fx_baseshine_3",
+        "type": "region",
+        "bone": "fx_baseshine",
+        "transform": {
+          "x": -0.6,
+          "y": -91.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 917,
+          "height": 708
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_baseshine_4",
+        "name": "fx_baseshine_4",
+        "region": "fx_baseshine_4",
+        "type": "region",
+        "bone": "fx_baseshine",
+        "transform": {
+          "x": 41.9,
+          "y": -208.24,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 832,
+          "height": 493
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_baseshine_5",
+        "name": "fx_baseshine_5",
+        "region": "fx_baseshine_5",
+        "type": "region",
+        "bone": "fx_baseshine",
+        "transform": {
+          "x": 82.65,
+          "y": -275.74,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 725,
+          "height": 358
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_ringshine_1",
+        "name": "fx_ringshine_1",
+        "region": "fx_ringshine_1",
+        "type": "region",
+        "bone": "fx_ringshine",
+        "transform": {
+          "x": -197.1,
+          "y": 321.15,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 819,
+          "height": 608
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_ringshine_2",
+        "name": "fx_ringshine_2",
+        "region": "fx_ringshine_2",
+        "type": "region",
+        "bone": "fx_ringshine",
+        "transform": {
+          "x": -62.1,
+          "y": 124.65,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1143,
+          "height": 1001
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_ringshine_3",
+        "name": "fx_ringshine_3",
+        "region": "fx_ringshine_3",
+        "type": "region",
+        "bone": "fx_ringshine",
+        "transform": {
+          "x": -2.35,
+          "y": -5.85,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1263,
+          "height": 1230
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_ringshine_4",
+        "name": "fx_ringshine_4",
+        "region": "fx_ringshine_4",
+        "type": "region",
+        "bone": "fx_ringshine",
+        "transform": {
+          "x": 68.9,
+          "y": -104.35,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1120,
+          "height": 1066
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "fx_ringshine_5",
+        "name": "fx_ringshine_5",
+        "region": "fx_ringshine_5",
+        "type": "region",
+        "bone": "fx_ringshine",
+        "transform": {
+          "x": 251.65,
+          "y": -368.85,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 702,
+          "height": 537
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "shadow",
+        "name": "base",
+        "region": "base",
+        "type": "region",
+        "bone": "shadow",
+        "transform": {
+          "x": 0,
+          "y": -54.3,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1349,
+          "height": 1349
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "buy_button_active_click",
+        "duration": 0.5,
+        "keyframes": 27,
+        "curvedKeys": 9,
+        "channels": [
+          {
+            "path": "slots.base2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.buybonus_text.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.front2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.text.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.text.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.buttonfront.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.buttonfront.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.button_main.translate",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "text",
+          "buttonfront",
+          "button_main"
+        ],
+        "animatedSlots": [
+          "base",
+          "base2",
+          "buybonus_text",
+          "buybonus_texthl",
+          "front2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "buy_button_active_disabled",
+        "duration": 0,
+        "keyframes": 0,
+        "curvedKeys": 0,
+        "channels": [],
+        "animatedBones": [],
+        "animatedSlots": [
+          "base",
+          "bbtn_shine_bottom",
+          "bbtn_shine_top",
+          "buybonus_text",
+          "buybonus_texthl",
+          "front"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "buy_button_active_hover",
+        "duration": 1,
+        "keyframes": 39,
+        "curvedKeys": 9,
+        "channels": [
+          {
+            "path": "slots.buybonus_text.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.fx_ringshine_1.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.fx_ringshine_2.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.fx_ringshine_3.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.fx_ringshine_4.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.fx_ringshine_5.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.text.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.buttonfront.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "text",
+          "buttonfront"
+        ],
+        "animatedSlots": [
+          "base2",
+          "buybonus_text",
+          "buybonus_texthl",
+          "fx_ringshine_1",
+          "fx_ringshine_2",
+          "fx_ringshine_3",
+          "fx_ringshine_4",
+          "fx_ringshine_5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "buy_button_active_idle",
+        "duration": 5.3333,
+        "keyframes": 33,
+        "curvedKeys": 4,
+        "channels": [
+          {
+            "path": "slots.base2.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.bbtn_star1.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.bbtn_star2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.front2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.fx_baseshine_1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.fx_baseshine_2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.fx_baseshine_3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.fx_baseshine_4.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.fx_baseshine_5.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bbtn_stars.rotate",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "bbtn_stars"
+        ],
+        "animatedSlots": [
+          "base2",
+          "bbtn_star1",
+          "bbtn_star2",
+          "buybonus_text",
+          "buybonus_texthl",
+          "front2",
+          "fx_baseshine_1",
+          "fx_baseshine_2",
+          "fx_baseshine_3",
+          "fx_baseshine_4",
+          "fx_baseshine_5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "buy_button_active_intro",
+        "duration": 0.6667,
+        "keyframes": 10,
+        "curvedKeys": 4,
+        "channels": [
+          {
+            "path": "slots.buybonus_text.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.buybonus_text.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.buybonus_texthl.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.buttonfront.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "buttonfront"
+        ],
+        "animatedSlots": [
+          "bbtn_star1",
+          "bbtn_star2",
+          "buybonus_text",
+          "buybonus_texthl",
+          "fx_baseshine_1",
+          "fx_baseshine_2",
+          "fx_baseshine_3",
+          "fx_baseshine_4",
+          "fx_baseshine_5",
+          "fx_ringshine_1",
+          "fx_ringshine_2",
+          "fx_ringshine_3",
+          "fx_ringshine_4",
+          "fx_ringshine_5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "transition"
+        ]
+      },
+      {
+        "name": "buy_button_active_outro",
+        "duration": 0.6667,
+        "keyframes": 10,
+        "curvedKeys": 4,
+        "channels": [
+          {
+            "path": "slots.buybonus_text.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.buybonus_text.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.buybonus_texthl.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.buttonfront.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "buttonfront"
+        ],
+        "animatedSlots": [
+          "bbtn_star1",
+          "bbtn_star2",
+          "buybonus_text",
+          "buybonus_texthl",
+          "fx_baseshine_1",
+          "fx_baseshine_2",
+          "fx_baseshine_3",
+          "fx_baseshine_4",
+          "fx_baseshine_5",
+          "fx_ringshine_1",
+          "fx_ringshine_2",
+          "fx_ringshine_3",
+          "fx_ringshine_4",
+          "fx_ringshine_5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "transition"
+        ]
+      },
+      {
+        "name": "buy_button_click",
+        "duration": 0.5,
+        "keyframes": 27,
+        "curvedKeys": 9,
+        "channels": [
+          {
+            "path": "slots.base2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.buybonus_text.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.front2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.text.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.text.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.button_main.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.buttonfront.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.buttonfront.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "text",
+          "button_main",
+          "buttonfront"
+        ],
+        "animatedSlots": [
+          "base",
+          "base2",
+          "buybonus_text",
+          "buybonus_texthl",
+          "front2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "buy_button_disabled",
+        "duration": 0,
+        "keyframes": 0,
+        "curvedKeys": 0,
+        "channels": [],
+        "animatedBones": [],
+        "animatedSlots": [
+          "base",
+          "bbtn_shine_bottom",
+          "bbtn_shine_top",
+          "buybonus_text",
+          "front"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "buy_button_hover",
+        "duration": 1,
+        "keyframes": 41,
+        "curvedKeys": 9,
+        "channels": [
+          {
+            "path": "slots.buybonus_text.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.fx_ringshine_1.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.fx_ringshine_2.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.fx_ringshine_3.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.fx_ringshine_4.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.fx_ringshine_5.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.buttonfront.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.text.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "buttonfront",
+          "text"
+        ],
+        "animatedSlots": [
+          "base2",
+          "buybonus_text",
+          "buybonus_texthl",
+          "fx_ringshine_1",
+          "fx_ringshine_2",
+          "fx_ringshine_3",
+          "fx_ringshine_4",
+          "fx_ringshine_5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "buy_button_idle",
+        "duration": 5.3333,
+        "keyframes": 59,
+        "curvedKeys": 7,
+        "channels": [
+          {
+            "path": "slots.base2.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.bbtn_star1.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.bbtn_star2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.buybonus_text.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.buybonus_texthl.rgba",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.fx_baseshine_1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.fx_baseshine_2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.fx_baseshine_3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.fx_baseshine_4.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.fx_baseshine_5.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.fx_ringshine_1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.fx_ringshine_2.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.fx_ringshine_3.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.fx_ringshine_4.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.fx_ringshine_5.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.text.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bbtn_stars.rotate",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "text",
+          "bbtn_stars"
+        ],
+        "animatedSlots": [
+          "base2",
+          "bbtn_star1",
+          "bbtn_star2",
+          "buybonus_text",
+          "buybonus_texthl",
+          "fx_baseshine_1",
+          "fx_baseshine_2",
+          "fx_baseshine_3",
+          "fx_baseshine_4",
+          "fx_baseshine_5",
+          "fx_ringshine_1",
+          "fx_ringshine_2",
+          "fx_ringshine_3",
+          "fx_ringshine_4",
+          "fx_ringshine_5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "buy_button_intro",
+        "duration": 0.6,
+        "keyframes": 14,
+        "curvedKeys": 6,
+        "channels": [
+          {
+            "path": "slots.buybonus_text.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.buybonus_texthl.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.text.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.text.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.buttonfront.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "text",
+          "buttonfront"
+        ],
+        "animatedSlots": [
+          "bbtn_star1",
+          "bbtn_star2",
+          "buybonus_text",
+          "buybonus_texthl",
+          "fx_baseshine_1",
+          "fx_baseshine_2",
+          "fx_baseshine_3",
+          "fx_baseshine_4",
+          "fx_baseshine_5",
+          "fx_ringshine_1",
+          "fx_ringshine_2",
+          "fx_ringshine_3",
+          "fx_ringshine_4",
+          "fx_ringshine_5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "transition"
+        ]
+      },
+      {
+        "name": "buy_button_play_active_intro",
+        "duration": 0.6667,
+        "keyframes": 10,
+        "curvedKeys": 4,
+        "channels": [
+          {
+            "path": "slots.buybonus_text.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.buybonus_text.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.buybonus_texthl.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.buttonfront.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "buttonfront"
+        ],
+        "animatedSlots": [
+          "bbtn_star1",
+          "bbtn_star2",
+          "buybonus_text",
+          "buybonus_texthl",
+          "fx_baseshine_1",
+          "fx_baseshine_2",
+          "fx_baseshine_3",
+          "fx_baseshine_4",
+          "fx_baseshine_5",
+          "fx_ringshine_1",
+          "fx_ringshine_2",
+          "fx_ringshine_3",
+          "fx_ringshine_4",
+          "fx_ringshine_5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "transition"
+        ]
+      },
+      {
+        "name": "buy_button_play_active_outro",
+        "duration": 0.6667,
+        "keyframes": 10,
+        "curvedKeys": 4,
+        "channels": [
+          {
+            "path": "slots.buybonus_text.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.buybonus_text.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.buybonus_texthl.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.buttonfront.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "buttonfront"
+        ],
+        "animatedSlots": [
+          "bbtn_star1",
+          "bbtn_star2",
+          "buybonus_text",
+          "buybonus_texthl",
+          "fx_baseshine_1",
+          "fx_baseshine_2",
+          "fx_baseshine_3",
+          "fx_baseshine_4",
+          "fx_baseshine_5",
+          "fx_ringshine_1",
+          "fx_ringshine_2",
+          "fx_ringshine_3",
+          "fx_ringshine_4",
+          "fx_ringshine_5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "transition"
+        ]
+      },
+      {
+        "name": "buy_button_play_click",
+        "duration": 0.5,
+        "keyframes": 27,
+        "curvedKeys": 9,
+        "channels": [
+          {
+            "path": "slots.base2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.buybonus_text.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.front2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.text.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.text.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.button_main.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.buttonfront.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.buttonfront.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "text",
+          "button_main",
+          "buttonfront"
+        ],
+        "animatedSlots": [
+          "base",
+          "base2",
+          "buybonus_text",
+          "buybonus_texthl",
+          "front2"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "buy_button_play_disabled",
+        "duration": 0,
+        "keyframes": 0,
+        "curvedKeys": 0,
+        "channels": [],
+        "animatedBones": [],
+        "animatedSlots": [
+          "base",
+          "bbtn_shine_bottom",
+          "bbtn_shine_top",
+          "buybonus_text",
+          "front"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "buy_button_play_hover",
+        "duration": 1,
+        "keyframes": 41,
+        "curvedKeys": 9,
+        "channels": [
+          {
+            "path": "slots.buybonus_text.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.fx_ringshine_1.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.fx_ringshine_2.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.fx_ringshine_3.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.fx_ringshine_4.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.fx_ringshine_5.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.buttonfront.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.text.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "buttonfront",
+          "text"
+        ],
+        "animatedSlots": [
+          "base2",
+          "buybonus_text",
+          "buybonus_texthl",
+          "fx_ringshine_1",
+          "fx_ringshine_2",
+          "fx_ringshine_3",
+          "fx_ringshine_4",
+          "fx_ringshine_5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "buy_button_play_idle",
+        "duration": 5.3333,
+        "keyframes": 59,
+        "curvedKeys": 7,
+        "channels": [
+          {
+            "path": "slots.base2.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.bbtn_star1.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.bbtn_star2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.buybonus_text.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.buybonus_texthl.rgba",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.fx_baseshine_1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.fx_baseshine_2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.fx_baseshine_3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.fx_baseshine_4.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.fx_baseshine_5.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.fx_ringshine_1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.fx_ringshine_2.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.fx_ringshine_3.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.fx_ringshine_4.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.fx_ringshine_5.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.text.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bbtn_stars.rotate",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "text",
+          "bbtn_stars"
+        ],
+        "animatedSlots": [
+          "base2",
+          "bbtn_star1",
+          "bbtn_star2",
+          "buybonus_text",
+          "buybonus_texthl",
+          "fx_baseshine_1",
+          "fx_baseshine_2",
+          "fx_baseshine_3",
+          "fx_baseshine_4",
+          "fx_baseshine_5",
+          "fx_ringshine_1",
+          "fx_ringshine_2",
+          "fx_ringshine_3",
+          "fx_ringshine_4",
+          "fx_ringshine_5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "buy_button_play_intro",
+        "duration": 0.6,
+        "keyframes": 14,
+        "curvedKeys": 6,
+        "channels": [
+          {
+            "path": "slots.buybonus_text.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.buybonus_texthl.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.text.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.text.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.buttonfront.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "text",
+          "buttonfront"
+        ],
+        "animatedSlots": [
+          "bbtn_star1",
+          "bbtn_star2",
+          "buybonus_text",
+          "buybonus_texthl",
+          "fx_baseshine_1",
+          "fx_baseshine_2",
+          "fx_baseshine_3",
+          "fx_baseshine_4",
+          "fx_baseshine_5",
+          "fx_ringshine_1",
+          "fx_ringshine_2",
+          "fx_ringshine_3",
+          "fx_ringshine_4",
+          "fx_ringshine_5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "transition"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 15,
+      "slots": 22,
+      "attachments": 27,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "DISABLE",
+      "file": "pieces/disable-b6d5e2e5.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "2,1227,354,87"
+      }
+    },
+    {
+      "region": "PLAY BONUS",
+      "file": "pieces/play-bonus-c525c784.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "2,206,328,185"
+      }
+    },
+    {
+      "region": "base",
+      "file": "pieces/base-33bf15df.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "358,774,540,540"
+      }
+    },
+    {
+      "region": "bbtn_shine_bottom",
+      "file": "pieces/bbtn-shine-bottom-5cbefe08.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "2,393,380,386",
+        "offsets": "4,0,384,388",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "bbtn_shine_top",
+      "file": "pieces/bbtn-shine-top-169b4a6d.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "760,169,336,254",
+        "offsets": "2,6,346,260"
+      }
+    },
+    {
+      "region": "bbtn_star1",
+      "file": "pieces/bbtn-star1-49c598be.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "1098,80,168,115",
+        "offsets": "8,1,184,116"
+      }
+    },
+    {
+      "region": "bbtn_star2",
+      "file": "pieces/bbtn-star2-627b9824.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "1098,80,168,115",
+        "offsets": "8,1,184,116"
+      }
+    },
+    {
+      "region": "buybonus_base",
+      "file": "pieces/buybonus-base-6ce2087b.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "1863,153,326,179",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "buybonus_pressed",
+      "file": "pieces/buybonus-pressed-e2ed3f38.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "1864,481,326,179",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "front",
+      "file": "pieces/front-ad075864.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "900,808,506,506"
+      }
+    },
+    {
+      "region": "fx_baseshine_1",
+      "file": "pieces/fx-baseshine-1-c070741f.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "1098,197,318,212",
+        "offsets": "0,2,322,214"
+      }
+    },
+    {
+      "region": "fx_baseshine_2",
+      "file": "pieces/fx-baseshine-2-33281adb.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "390,412,368,360",
+        "offsets": "0,1,368,364"
+      }
+    },
+    {
+      "region": "fx_baseshine_3",
+      "file": "pieces/fx-baseshine-3-83266e40.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "2,859,366,281",
+        "offsets": "1,1,367,283",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx_baseshine_4",
+      "file": "pieces/fx-baseshine-4-4e663105.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "1418,215,329,194",
+        "offsets": "4,0,333,197"
+      }
+    },
+    {
+      "region": "fx_baseshine_5",
+      "file": "pieces/fx-baseshine-5-808d014d.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "2,63,281,141",
+        "offsets": "8,0,290,143"
+      }
+    },
+    {
+      "region": "fx_ringshine_1",
+      "file": "pieces/fx-ringshine-1-f0059eb4.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "390,172,321,238",
+        "offsets": "2,5,328,243"
+      }
+    },
+    {
+      "region": "fx_ringshine_2",
+      "file": "pieces/fx-ringshine-2-845f7c09.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "1408,411,454,396",
+        "offsets": "0,4,457,400"
+      }
+    },
+    {
+      "region": "fx_ringshine_3",
+      "file": "pieces/fx-ringshine-3-417c27a4.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "1408,809,505,488",
+        "offsets": "0,2,505,492",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "fx_ringshine_4",
+      "file": "pieces/fx-ringshine-4-78b973d1.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "900,425,444,381",
+        "offsets": "4,0,448,426"
+      }
+    },
+    {
+      "region": "fx_ringshine_5",
+      "file": "pieces/fx-ringshine-5-46a45664.png",
+      "page": "buybutton.webp",
+      "properties": {
+        "bounds": "1418,2,274,211",
+        "offsets": "5,0,281,215"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

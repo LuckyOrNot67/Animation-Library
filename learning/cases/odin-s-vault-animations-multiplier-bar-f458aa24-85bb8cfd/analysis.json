@@ -1,0 +1,949 @@
+{
+  "id": "odin-s-vault-animations-multiplier-bar-f458aa24-85bb8cfd",
+  "collection": "library",
+  "name": "multiplier_bar",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/multiplier-bar-f458aa24",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 9,
+    "slots": 18,
+    "attachments": 16,
+    "meshAttachments": 2,
+    "meshUvPairs": 16,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 10784,
+    "rgbaBytesEstimate": 43136,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 10,
+  "actions": [
+    {
+      "name": "spin",
+      "duration": 1.3333,
+      "keyframes": 65,
+      "curvedKeys": 51,
+      "channels": [
+        {
+          "path": "slots.cylinder_1.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.cylinder_blure_1.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.muliplyer_value.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.digit_4.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.digit_5.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.digit_1.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.digit_2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.digit_3.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.digit_6.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "attachments.default.cylinder_1.cylinder_1.deform",
+          "keyframes": 5
+        },
+        {
+          "path": "attachments.default.cylinder_blure_1.cylinder_blure_1.deform",
+          "keyframes": 13
+        },
+        {
+          "path": "events",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "muliplyer_value",
+        "digit_4",
+        "digit_5",
+        "digit_1",
+        "digit_2",
+        "digit_3",
+        "digit_6"
+      ],
+      "animatedSlots": [
+        "b_digit_2",
+        "b_digit_4",
+        "b_digit_5",
+        "b_digit_6",
+        "b_digit_7",
+        "b_digit_8",
+        "b_x",
+        "b_x2",
+        "b_x3",
+        "b_x4",
+        "b_x5",
+        "b_x6",
+        "cylinder_1",
+        "cylinder_blure_1"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [
+        {
+          "name": "set",
+          "time": 0.4333
+        }
+      ],
+      "tags": [
+        "spin"
+      ]
+    },
+    {
+      "name": "static",
+      "duration": 0,
+      "keyframes": 0,
+      "curvedKeys": 0,
+      "channels": [],
+      "animatedBones": [],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-multiplier-bar-f458aa24-85bb8cfd/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "cylinder 1",
+        "parent": "root",
+        "x": 0,
+        "y": 1.74,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "muliplyer_value",
+        "parent": "cylinder 1",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "digit_1",
+        "parent": "cylinder 1",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "digit_2",
+        "parent": "cylinder 1",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "digit_3",
+        "parent": "cylinder 1",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "digit_4",
+        "parent": "cylinder 1",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "digit_5",
+        "parent": "cylinder 1",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "digit_6",
+        "parent": "cylinder 1",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "cylinder_1_back",
+        "bone": "cylinder 1",
+        "setupAttachment": "cylinder_1_back",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cylinder_mask",
+        "bone": "cylinder 1",
+        "setupAttachment": "cylinder_mask",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cylinder_1",
+        "bone": "cylinder 1",
+        "setupAttachment": "cylinder_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cylinder_blure_1",
+        "bone": "cylinder 1",
+        "setupAttachment": "cylinder_blure_1",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "x",
+        "bone": "muliplyer_value",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "digit_1",
+        "bone": "muliplyer_value",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "b_x",
+        "bone": "digit_1",
+        "setupAttachment": "b_x",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "b_x2",
+        "bone": "digit_2",
+        "setupAttachment": "b_x",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "b_x3",
+        "bone": "digit_3",
+        "setupAttachment": "b_x",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "b_x4",
+        "bone": "digit_4",
+        "setupAttachment": "b_x",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "b_x5",
+        "bone": "digit_5",
+        "setupAttachment": "b_x",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "b_x6",
+        "bone": "digit_6",
+        "setupAttachment": "b_x",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "b_digit_8",
+        "bone": "digit_5",
+        "setupAttachment": "b_digit_8",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "b_digit_7",
+        "bone": "digit_4",
+        "setupAttachment": "b_digit_7",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "b_digit_6",
+        "bone": "digit_6",
+        "setupAttachment": "b_digit_6",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "b_digit_5",
+        "bone": "digit_3",
+        "setupAttachment": "b_digit_5",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "b_digit_4",
+        "bone": "digit_2",
+        "setupAttachment": "b_digit_4",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "b_digit_2",
+        "bone": "digit_1",
+        "setupAttachment": "b_digit_2",
+        "blend": "normal",
+        "color": "ffffff00"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "b_digit_2",
+        "name": "b_digit_2",
+        "region": "b_digit_2",
+        "type": "region",
+        "bone": "digit_1",
+        "transform": {
+          "x": 4.3,
+          "y": 0.38,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 13,
+          "height": 31
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "b_digit_4",
+        "name": "b_digit_4",
+        "region": "b_digit_4",
+        "type": "region",
+        "bone": "digit_2",
+        "transform": {
+          "x": 3.48,
+          "y": -0.12,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 16,
+          "height": 30
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "b_digit_5",
+        "name": "b_digit_5",
+        "region": "b_digit_5",
+        "type": "region",
+        "bone": "digit_3",
+        "transform": {
+          "x": 4.58,
+          "y": -0.62,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 14,
+          "height": 31
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "b_digit_6",
+        "name": "b_digit_6",
+        "region": "b_digit_6",
+        "type": "region",
+        "bone": "digit_6",
+        "transform": {
+          "x": 3.31,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 16,
+          "height": 30
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "b_digit_7",
+        "name": "b_digit_7",
+        "region": "b_digit_7",
+        "type": "region",
+        "bone": "digit_4",
+        "transform": {
+          "x": 3.47,
+          "y": -0.62,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 14,
+          "height": 29
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "b_digit_8",
+        "name": "b_digit_8",
+        "region": "b_digit_8",
+        "type": "region",
+        "bone": "digit_5",
+        "transform": {
+          "x": 3.88,
+          "y": -0.12,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 30
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "b_x",
+        "name": "b_x",
+        "region": "b_x",
+        "type": "region",
+        "bone": "digit_1",
+        "transform": {
+          "x": -8.7,
+          "y": -0.12,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 15,
+          "height": 30
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "b_x2",
+        "name": "b_x",
+        "region": "b_x",
+        "type": "region",
+        "bone": "digit_2",
+        "transform": {
+          "x": -9.02,
+          "y": -0.12,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 15,
+          "height": 30
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "b_x3",
+        "name": "b_x",
+        "region": "b_x",
+        "type": "region",
+        "bone": "digit_3",
+        "transform": {
+          "x": -8.92,
+          "y": -0.12,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 15,
+          "height": 30
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "b_x4",
+        "name": "b_x",
+        "region": "b_x",
+        "type": "region",
+        "bone": "digit_4",
+        "transform": {
+          "x": -9.03,
+          "y": -0.12,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 15,
+          "height": 30
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "b_x5",
+        "name": "b_x",
+        "region": "b_x",
+        "type": "region",
+        "bone": "digit_5",
+        "transform": {
+          "x": -9.12,
+          "y": -0.12,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 15,
+          "height": 30
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "b_x6",
+        "name": "b_x",
+        "region": "b_x",
+        "type": "region",
+        "bone": "digit_6",
+        "transform": {
+          "x": -9.19,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 15,
+          "height": 30
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cylinder_1",
+        "name": "cylinder_1",
+        "region": "cylinder_1",
+        "type": "mesh",
+        "bone": "cylinder 1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 74,
+          "height": 26
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cylinder_1_back",
+        "name": "cylinder_1_back",
+        "region": "cylinder_1_back",
+        "type": "region",
+        "bone": "cylinder 1",
+        "transform": {
+          "x": -2.27,
+          "y": -1.12,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 78,
+          "height": 30
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cylinder_blure_1",
+        "name": "cylinder_blure_1",
+        "region": "cylinder_blure_1",
+        "type": "mesh",
+        "bone": "cylinder 1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 74,
+          "height": 26
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cylinder_mask",
+        "name": "cylinder_mask",
+        "region": "cylinder_mask",
+        "type": "clipping",
+        "bone": "cylinder 1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "spin",
+        "duration": 1.3333,
+        "keyframes": 65,
+        "curvedKeys": 51,
+        "channels": [
+          {
+            "path": "slots.cylinder_1.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.cylinder_blure_1.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.muliplyer_value.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.digit_4.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.digit_5.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.digit_1.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.digit_2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.digit_3.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.digit_6.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "attachments.default.cylinder_1.cylinder_1.deform",
+            "keyframes": 5
+          },
+          {
+            "path": "attachments.default.cylinder_blure_1.cylinder_blure_1.deform",
+            "keyframes": 13
+          },
+          {
+            "path": "events",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "muliplyer_value",
+          "digit_4",
+          "digit_5",
+          "digit_1",
+          "digit_2",
+          "digit_3",
+          "digit_6"
+        ],
+        "animatedSlots": [
+          "b_digit_2",
+          "b_digit_4",
+          "b_digit_5",
+          "b_digit_6",
+          "b_digit_7",
+          "b_digit_8",
+          "b_x",
+          "b_x2",
+          "b_x3",
+          "b_x4",
+          "b_x5",
+          "b_x6",
+          "cylinder_1",
+          "cylinder_blure_1"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [
+          {
+            "name": "set",
+            "time": 0.4333
+          }
+        ],
+        "tags": [
+          "spin"
+        ]
+      },
+      {
+        "name": "static",
+        "duration": 0,
+        "keyframes": 0,
+        "curvedKeys": 0,
+        "channels": [],
+        "animatedBones": [],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 9,
+      "slots": 18,
+      "attachments": 16,
+      "meshAttachments": 2,
+      "meshUvPairs": 16,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "b_digit_2",
+      "file": "pieces/b-digit-2-d60e0945.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "232,2,11,28",
+        "offsets": "1,1,13,31",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "b_digit_4",
+      "file": "pieces/b-digit-4-4415dacb.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "292,17,13,28",
+        "offsets": "2,1,16,30",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "b_digit_5",
+      "file": "pieces/b-digit-5-ac97fe9d.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "292,4,11,29",
+        "offsets": "1,1,14,31",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "b_digit_6",
+      "file": "pieces/b-digit-6-1ba3a034.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "262,16,14,28",
+        "offsets": "1,1,16,30",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "b_digit_7",
+      "file": "pieces/b-digit-7-e2dbc488.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "323,3,12,27",
+        "offsets": "1,1,14,29"
+      }
+    },
+    {
+      "region": "b_digit_8",
+      "file": "pieces/b-digit-8-5d18b4c6.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "232,15,15,28",
+        "offsets": "1,1,17,30",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "b_x",
+      "file": "pieces/b-x-124d5234.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "262,2,12,28",
+        "offsets": "1,1,15,30",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "cylinder_1",
+      "file": "pieces/cylinder-1-b464c621.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "80,4,74,26"
+      }
+    },
+    {
+      "region": "cylinder_1_back",
+      "file": "pieces/cylinder-1-back-ec11ea56.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "2,2,76,28",
+        "offsets": "1,1,78,30"
+      }
+    },
+    {
+      "region": "cylinder_blure_1",
+      "file": "pieces/cylinder-blure-1-c085cde1.png",
+      "page": "multiplier_bar.webp",
+      "properties": {
+        "bounds": "156,4,74,26"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

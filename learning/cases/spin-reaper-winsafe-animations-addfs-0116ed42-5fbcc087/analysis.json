@@ -1,0 +1,6900 @@
+{
+  "id": "spin-reaper-winsafe-animations-addfs-0116ed42-5fbcc087",
+  "collection": "library",
+  "name": "addfs",
+  "machine": "spin-reaper-winsafe",
+  "format": "spine-json",
+  "version": "4.1.23",
+  "packagePath": "bibliotheque/spin-reaper-winsafe/animations/addfs-0116ed42",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 103,
+    "slots": 53,
+    "attachments": 101,
+    "meshAttachments": 4,
+    "meshUvPairs": 152,
+    "constraints": {
+      "ik": 0,
+      "transform": 1,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 2048804,
+    "rgbaBytesEstimate": 8195216,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 21,
+  "actions": [
+    {
+      "name": "popup",
+      "duration": 2.7,
+      "keyframes": 873,
+      "curvedKeys": 429,
+      "channels": [
+        {
+          "path": "slots.addfs_ui.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.H1_backhood.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.H1_backhood.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.H1_eyes.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.H1_eyes.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.H1_eyesglow.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.H1_eyesglow2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.H1_eyesglow2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.H1_hand.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.H1_hand.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.H1_hand2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.H1_hand2.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.H1_hood.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.H1_hood.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.H1_skull.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.H1_skull.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.mockup_freespins.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.particle_medium.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium2.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_medium2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium3.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium3.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium5.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_medium5.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium6.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_medium6.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium8.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium8.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium9.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium9.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium11.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium11.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium13.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium13.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium14.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_medium14.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium15.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_medium15.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium17.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium17.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium19.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium19.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium20.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium20.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium21.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_medium21.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium22.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_medium22.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium23.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium23.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium25.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_medium25.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_small.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small2.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_small2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small3.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small3.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small4.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_small4.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small6.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small6.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small7.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_small7.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small8.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_small8.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small9.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small9.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small11.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_small11.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small12.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small12.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small13.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_small13.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small15.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_small15.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small16.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small16.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small17.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small17.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small19.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small19.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small20.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small20.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small21.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_small21.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small24.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_small24.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small25.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small25.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small26.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_small26.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small28.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small28.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small29.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_small29.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small31.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small31.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small32.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_small32.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.slot_addfsnum.rgba2",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.addfs_ui.translatey",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.mockup_addfsnum.scale",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.addfs_ui2.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.addfs_ui2.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.reaper.translatey",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.hood2.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.eye_glow.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.weapon.translate",
+          "keyframes": 14
+        },
+        {
+          "path": "bones.hood4.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.hood5.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.skull.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.particle_small.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium2.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium3.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium5.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium6.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium8.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium9.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium11.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium13.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium14.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium15.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium17.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium19.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium20.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium21.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium22.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium23.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium25.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small2.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small3.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small4.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small6.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small7.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small8.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small9.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small11.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small12.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small13.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small15.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small16.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small17.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small19.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.particle_small20.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small21.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small24.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small25.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small26.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small28.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small29.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small31.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small32.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particles.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "drawOrder",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "addfs_ui",
+        "mockup_addfsnum",
+        "addfs_ui2",
+        "reaper",
+        "hood2",
+        "eye_glow",
+        "weapon",
+        "hood4",
+        "hood5",
+        "skull",
+        "particle_small",
+        "particle_medium",
+        "particle_medium2",
+        "particle_medium3",
+        "particle_medium5",
+        "particle_medium6",
+        "particle_medium8",
+        "particle_medium9",
+        "particle_medium11",
+        "particle_medium13",
+        "particle_medium14",
+        "particle_medium15",
+        "particle_medium17",
+        "particle_medium19",
+        "particle_medium20",
+        "particle_medium21",
+        "particle_medium22",
+        "particle_medium23",
+        "particle_medium25",
+        "particle_small2",
+        "particle_small3",
+        "particle_small4",
+        "particle_small6",
+        "particle_small7",
+        "particle_small8",
+        "particle_small9",
+        "particle_small11",
+        "particle_small12",
+        "particle_small13",
+        "particle_small15",
+        "particle_small16",
+        "particle_small17",
+        "particle_small19",
+        "particle_small20",
+        "particle_small21",
+        "particle_small24",
+        "particle_small25",
+        "particle_small26",
+        "particle_small28",
+        "particle_small29",
+        "particle_small31",
+        "particle_small32",
+        "particles"
+      ],
+      "animatedSlots": [
+        "addfs_ui",
+        "H1_backhood",
+        "H1_eyes",
+        "H1_eyesglow",
+        "H1_eyesglow2",
+        "H1_hand",
+        "H1_hand2",
+        "H1_hood",
+        "H1_skull",
+        "mockup_freespins",
+        "particle_medium",
+        "particle_medium2",
+        "particle_medium3",
+        "particle_medium5",
+        "particle_medium6",
+        "particle_medium8",
+        "particle_medium9",
+        "particle_medium11",
+        "particle_medium13",
+        "particle_medium14",
+        "particle_medium15",
+        "particle_medium17",
+        "particle_medium19",
+        "particle_medium20",
+        "particle_medium21",
+        "particle_medium22",
+        "particle_medium23",
+        "particle_medium25",
+        "particle_small",
+        "particle_small2",
+        "particle_small3",
+        "particle_small4",
+        "particle_small6",
+        "particle_small7",
+        "particle_small8",
+        "particle_small9",
+        "particle_small11",
+        "particle_small12",
+        "particle_small13",
+        "particle_small15",
+        "particle_small16",
+        "particle_small17",
+        "particle_small19",
+        "particle_small20",
+        "particle_small21",
+        "particle_small24",
+        "particle_small25",
+        "particle_small26",
+        "particle_small28",
+        "particle_small29",
+        "particle_small31",
+        "particle_small32",
+        "slot_addfsnum"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": true,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "popup_super",
+      "duration": 2.7,
+      "keyframes": 875,
+      "curvedKeys": 429,
+      "channels": [
+        {
+          "path": "slots.addfs_ui.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.addfs_ui.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.H1_backhood.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.H1_backhood.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.H1_eyes.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.H1_eyes.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.H1_eyesglow.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.H1_eyesglow2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.H1_eyesglow2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.H1_hand.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.H1_hand.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.H1_hand2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.H1_hand2.attachment",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.H1_hood.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.H1_hood.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.H1_skull.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.H1_skull.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.mockup_freespins.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.mockup_freespins.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.particle_medium.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium2.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_medium2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium3.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium3.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium5.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_medium5.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium6.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_medium6.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium8.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium8.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium9.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium9.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium11.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium11.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium13.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium13.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium14.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_medium14.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium15.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_medium15.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium17.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium17.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium19.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium19.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium20.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium20.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium21.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_medium21.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium22.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_medium22.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium23.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_medium23.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_medium25.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_medium25.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_small.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small2.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_small2.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small3.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small3.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small4.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_small4.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small6.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small6.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small7.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_small7.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small8.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_small8.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small9.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small9.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small11.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_small11.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small12.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small12.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small13.rgba",
+          "keyframes": 8
+        },
+        {
+          "path": "slots.particle_small13.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small15.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_small15.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small16.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small16.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small17.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small17.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small19.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small19.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small20.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small20.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small21.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_small21.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small24.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_small24.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small25.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small25.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small26.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_small26.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small28.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small28.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small29.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_small29.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small31.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.particle_small31.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.particle_small32.rgba",
+          "keyframes": 10
+        },
+        {
+          "path": "slots.particle_small32.attachment",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.slot_addfsnum.rgba2",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.addfs_ui.translatey",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.mockup_addfsnum.scale",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.addfs_ui2.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.addfs_ui2.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.reaper.translatey",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.hood2.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.eye_glow.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.weapon.translate",
+          "keyframes": 14
+        },
+        {
+          "path": "bones.hood4.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.hood5.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.skull.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.particle_small.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium2.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium3.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium5.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium6.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium8.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium9.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium11.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium13.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium14.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium15.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium17.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium19.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium20.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium21.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium22.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium23.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_medium25.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small2.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small3.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small4.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small6.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small7.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small8.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small9.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small11.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small12.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small13.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small15.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small16.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small17.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small19.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.particle_small20.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small21.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small24.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small25.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small26.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small28.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small29.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small31.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particle_small32.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.particles.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "drawOrder",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "addfs_ui",
+        "mockup_addfsnum",
+        "addfs_ui2",
+        "reaper",
+        "hood2",
+        "eye_glow",
+        "weapon",
+        "hood4",
+        "hood5",
+        "skull",
+        "particle_small",
+        "particle_medium",
+        "particle_medium2",
+        "particle_medium3",
+        "particle_medium5",
+        "particle_medium6",
+        "particle_medium8",
+        "particle_medium9",
+        "particle_medium11",
+        "particle_medium13",
+        "particle_medium14",
+        "particle_medium15",
+        "particle_medium17",
+        "particle_medium19",
+        "particle_medium20",
+        "particle_medium21",
+        "particle_medium22",
+        "particle_medium23",
+        "particle_medium25",
+        "particle_small2",
+        "particle_small3",
+        "particle_small4",
+        "particle_small6",
+        "particle_small7",
+        "particle_small8",
+        "particle_small9",
+        "particle_small11",
+        "particle_small12",
+        "particle_small13",
+        "particle_small15",
+        "particle_small16",
+        "particle_small17",
+        "particle_small19",
+        "particle_small20",
+        "particle_small21",
+        "particle_small24",
+        "particle_small25",
+        "particle_small26",
+        "particle_small28",
+        "particle_small29",
+        "particle_small31",
+        "particle_small32",
+        "particles"
+      ],
+      "animatedSlots": [
+        "addfs_ui",
+        "H1_backhood",
+        "H1_eyes",
+        "H1_eyesglow",
+        "H1_eyesglow2",
+        "H1_hand",
+        "H1_hand2",
+        "H1_hood",
+        "H1_skull",
+        "mockup_freespins",
+        "particle_medium",
+        "particle_medium2",
+        "particle_medium3",
+        "particle_medium5",
+        "particle_medium6",
+        "particle_medium8",
+        "particle_medium9",
+        "particle_medium11",
+        "particle_medium13",
+        "particle_medium14",
+        "particle_medium15",
+        "particle_medium17",
+        "particle_medium19",
+        "particle_medium20",
+        "particle_medium21",
+        "particle_medium22",
+        "particle_medium23",
+        "particle_medium25",
+        "particle_small",
+        "particle_small2",
+        "particle_small3",
+        "particle_small4",
+        "particle_small6",
+        "particle_small7",
+        "particle_small8",
+        "particle_small9",
+        "particle_small11",
+        "particle_small12",
+        "particle_small13",
+        "particle_small15",
+        "particle_small16",
+        "particle_small17",
+        "particle_small19",
+        "particle_small20",
+        "particle_small21",
+        "particle_small24",
+        "particle_small25",
+        "particle_small26",
+        "particle_small28",
+        "particle_small29",
+        "particle_small31",
+        "particle_small32",
+        "slot_addfsnum"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": true,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/spin-reaper-winsafe-animations-addfs-0116ed42-5fbcc087/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "addfs_popup",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "addfs_ui",
+        "parent": "addfs_popup",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "addfs_ui2",
+        "parent": "addfs_ui",
+        "x": 1.11,
+        "y": 146.96,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "addfs_ui3",
+        "parent": "addfs_ui",
+        "x": 7.79,
+        "y": -76.28,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mockup_freespins",
+        "parent": "addfs_ui",
+        "x": -2.58,
+        "y": -99.93,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mockup_addfsnum",
+        "parent": "addfs_popup",
+        "x": -25.57,
+        "y": 127.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "reaper",
+        "parent": "addfs_popup",
+        "x": 0,
+        "y": 0,
+        "length": 216.72,
+        "rotation": 90,
+        "scaleX": 0.7451,
+        "scaleY": 0.7451
+      },
+      {
+        "name": "weapon",
+        "parent": "reaper",
+        "x": 5.59,
+        "y": 277.33,
+        "length": 0,
+        "rotation": -90,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "scythe",
+        "parent": "weapon",
+        "x": 32.27,
+        "y": -31.12,
+        "length": 411.66,
+        "rotation": 11.6,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "hood",
+        "parent": "reaper",
+        "x": 412.03,
+        "y": 14.39,
+        "length": 123.45,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "skull",
+        "parent": "reaper",
+        "x": 152.15,
+        "y": -21.34,
+        "length": 116.95,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "eye_glow",
+        "parent": "skull",
+        "x": 34.23,
+        "y": 48.01,
+        "length": 72.86,
+        "rotation": 2.12,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "backing",
+        "parent": "reaper",
+        "x": -60.3,
+        "y": -2.49,
+        "length": 51.42,
+        "rotation": 1.91,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "hood2",
+        "parent": "hood",
+        "x": -34.94,
+        "y": -4.45,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "hood4",
+        "parent": "hood2",
+        "x": 179.42,
+        "y": -31.31,
+        "length": 164.87,
+        "rotation": -109.18,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "hood5",
+        "parent": "hood4",
+        "x": 164.87,
+        "y": 0,
+        "length": 133.01,
+        "rotation": 37.73,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "scythe2",
+        "parent": "weapon",
+        "x": 541.4,
+        "y": -17.95,
+        "length": 411.66,
+        "rotation": -7.13,
+        "scaleX": -1,
+        "scaleY": 1
+      },
+      {
+        "name": "particles",
+        "parent": "addfs_ui",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont",
+        "parent": "particles",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small",
+        "parent": "particle_small_cont",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_med_cont",
+        "parent": "particles",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_medium",
+        "parent": "particle_med_cont",
+        "x": 505.21,
+        "y": 364.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_med_cont2",
+        "parent": "particles",
+        "x": -51.43,
+        "y": 42.43,
+        "length": 0,
+        "rotation": 6.49,
+        "scaleX": 0.8511,
+        "scaleY": 0.8511
+      },
+      {
+        "name": "particle_medium2",
+        "parent": "particle_med_cont2",
+        "x": 505.21,
+        "y": 364.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_med_cont3",
+        "parent": "particles",
+        "x": -168.43,
+        "y": -81,
+        "length": 0,
+        "rotation": 57.26,
+        "scaleX": 0.8511,
+        "scaleY": 0.8511
+      },
+      {
+        "name": "particle_medium3",
+        "parent": "particle_med_cont3",
+        "x": 505.21,
+        "y": 364.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_med_cont5",
+        "parent": "particles",
+        "x": -277.72,
+        "y": -74.57,
+        "length": 0,
+        "rotation": 81.71,
+        "scaleX": 0.8775,
+        "scaleY": 0.8775
+      },
+      {
+        "name": "particle_medium5",
+        "parent": "particle_med_cont5",
+        "x": 505.21,
+        "y": 364.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_med_cont6",
+        "parent": "particles",
+        "x": -284.15,
+        "y": -110.57,
+        "length": 0,
+        "rotation": 95.27,
+        "scaleX": 0.8775,
+        "scaleY": 0.8775
+      },
+      {
+        "name": "particle_medium6",
+        "parent": "particle_med_cont6",
+        "x": 505.21,
+        "y": 364.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_med_cont8",
+        "parent": "particles",
+        "x": -277.72,
+        "y": -21.86,
+        "length": 0,
+        "rotation": 128.41,
+        "scaleX": 0.8775,
+        "scaleY": 0.8775
+      },
+      {
+        "name": "particle_medium8",
+        "parent": "particle_med_cont8",
+        "x": 505.21,
+        "y": 364.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_med_cont9",
+        "parent": "particles",
+        "x": -248.15,
+        "y": -158.15,
+        "length": 0,
+        "rotation": 137.53,
+        "scaleX": 0.8775,
+        "scaleY": 0.8775
+      },
+      {
+        "name": "particle_medium9",
+        "parent": "particle_med_cont9",
+        "x": 505.21,
+        "y": 364.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_med_cont11",
+        "parent": "particles",
+        "x": -122.14,
+        "y": -208.29,
+        "length": 0,
+        "rotation": 164.63,
+        "scaleX": 0.8775,
+        "scaleY": 0.8775
+      },
+      {
+        "name": "particle_medium11",
+        "parent": "particle_med_cont11",
+        "x": 505.21,
+        "y": 364.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_med_cont13",
+        "parent": "particles",
+        "x": 52.72,
+        "y": -149.15,
+        "length": 0,
+        "rotation": -179.12,
+        "scaleX": 0.8775,
+        "scaleY": 0.8775
+      },
+      {
+        "name": "particle_medium13",
+        "parent": "particle_med_cont13",
+        "x": 505.21,
+        "y": 364.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_med_cont14",
+        "parent": "particles",
+        "x": 252.01,
+        "y": -43.71,
+        "length": 0,
+        "rotation": -165.43,
+        "scaleX": 0.8775,
+        "scaleY": 0.8775
+      },
+      {
+        "name": "particle_medium14",
+        "parent": "particle_med_cont14",
+        "x": 505.21,
+        "y": 364.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_med_cont15",
+        "parent": "particles",
+        "x": 312.44,
+        "y": 15.43,
+        "length": 0,
+        "rotation": -156.75,
+        "scaleX": 0.8775,
+        "scaleY": 0.8775
+      },
+      {
+        "name": "particle_medium15",
+        "parent": "particle_med_cont15",
+        "x": 505.21,
+        "y": 364.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_med_cont17",
+        "parent": "particles",
+        "x": 416.09,
+        "y": 126.54,
+        "length": 0,
+        "rotation": -126.4,
+        "scaleX": 0.8775,
+        "scaleY": 0.8775
+      },
+      {
+        "name": "particle_medium17",
+        "parent": "particle_med_cont17",
+        "x": 505.21,
+        "y": 364.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_med_cont19",
+        "parent": "particles",
+        "x": 423.25,
+        "y": 65.68,
+        "length": 0,
+        "rotation": -105.76,
+        "scaleX": 0.8775,
+        "scaleY": 0.8775
+      },
+      {
+        "name": "particle_medium19",
+        "parent": "particle_med_cont19",
+        "x": 505.21,
+        "y": 364.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_med_cont20",
+        "parent": "particles",
+        "x": 400.58,
+        "y": 82.39,
+        "length": 0,
+        "rotation": -99.08,
+        "scaleX": 0.8775,
+        "scaleY": 0.8775
+      },
+      {
+        "name": "particle_medium20",
+        "parent": "particle_med_cont20",
+        "x": 505.21,
+        "y": 364.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_med_cont21",
+        "parent": "particles",
+        "x": 405.35,
+        "y": 144.45,
+        "length": 0,
+        "rotation": -90.73,
+        "scaleX": 0.8775,
+        "scaleY": 0.8775
+      },
+      {
+        "name": "particle_medium21",
+        "parent": "particle_med_cont21",
+        "x": 505.21,
+        "y": 364.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_med_cont22",
+        "parent": "particles",
+        "x": 333.75,
+        "y": 214.86,
+        "length": 0,
+        "rotation": -84.9,
+        "scaleX": 0.8775,
+        "scaleY": 0.8775
+      },
+      {
+        "name": "particle_medium22",
+        "parent": "particle_med_cont22",
+        "x": 505.21,
+        "y": 364.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_med_cont23",
+        "parent": "particles",
+        "x": 354.03,
+        "y": 243.5,
+        "length": 0,
+        "rotation": -79.89,
+        "scaleX": 0.8775,
+        "scaleY": 0.8775
+      },
+      {
+        "name": "particle_medium23",
+        "parent": "particle_med_cont23",
+        "x": 505.21,
+        "y": 364.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_med_cont25",
+        "parent": "particles",
+        "x": 290.78,
+        "y": 307.95,
+        "length": 0,
+        "rotation": -60.04,
+        "scaleX": 0.8775,
+        "scaleY": 0.8775
+      },
+      {
+        "name": "particle_medium25",
+        "parent": "particle_med_cont25",
+        "x": 505.21,
+        "y": 364.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont2",
+        "parent": "particles",
+        "x": 35.8,
+        "y": -34.61,
+        "length": 0,
+        "rotation": -1.77,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small2",
+        "parent": "particle_small_cont2",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont3",
+        "parent": "particles",
+        "x": 121.73,
+        "y": -14.32,
+        "length": 0,
+        "rotation": -3.47,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small3",
+        "parent": "particle_small_cont3",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont4",
+        "parent": "particles",
+        "x": 137.25,
+        "y": -13.13,
+        "length": 0,
+        "rotation": -4.47,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small4",
+        "parent": "particle_small_cont4",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont6",
+        "parent": "particles",
+        "x": 192.15,
+        "y": -132.47,
+        "length": 0,
+        "rotation": -10.8,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small6",
+        "parent": "particle_small_cont6",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont7",
+        "parent": "particles",
+        "x": 143.21,
+        "y": -195.73,
+        "length": 0,
+        "rotation": -18.41,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small7",
+        "parent": "particle_small_cont7",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont8",
+        "parent": "particles",
+        "x": 103.83,
+        "y": -199.31,
+        "length": 0,
+        "rotation": -22.21,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small8",
+        "parent": "particle_small_cont8",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont9",
+        "parent": "particles",
+        "x": 81.16,
+        "y": -327.01,
+        "length": 0,
+        "rotation": -22.21,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small9",
+        "parent": "particle_small_cont9",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont11",
+        "parent": "particles",
+        "x": -11.93,
+        "y": -232.72,
+        "length": 0,
+        "rotation": -48.61,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small11",
+        "parent": "particle_small_cont11",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont12",
+        "parent": "particles",
+        "x": -137.25,
+        "y": -276.88,
+        "length": 0,
+        "rotation": -48.61,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small12",
+        "parent": "particle_small_cont12",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont13",
+        "parent": "particles",
+        "x": -263.75,
+        "y": -69.22,
+        "length": 0,
+        "rotation": -67.76,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small13",
+        "parent": "particle_small_cont13",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont15",
+        "parent": "particles",
+        "x": -324.62,
+        "y": 133.67,
+        "length": 0,
+        "rotation": -93.97,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small15",
+        "parent": "particle_small_cont15",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont16",
+        "parent": "particles",
+        "x": -295.98,
+        "y": 134.86,
+        "length": 0,
+        "rotation": -102.45,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small16",
+        "parent": "particle_small_cont16",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont17",
+        "parent": "particles",
+        "x": -455.9,
+        "y": 195.73,
+        "length": 0,
+        "rotation": -111.2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small17",
+        "parent": "particle_small_cont17",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont19",
+        "parent": "particles",
+        "x": -458.29,
+        "y": 236.3,
+        "length": 0,
+        "rotation": -134.68,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small19",
+        "parent": "particle_small_cont19",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont20",
+        "parent": "particles",
+        "x": -443.97,
+        "y": 257.79,
+        "length": 0,
+        "rotation": -143.79,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small20",
+        "parent": "particle_small_cont20",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont21",
+        "parent": "particles",
+        "x": -463.06,
+        "y": 325.81,
+        "length": 0,
+        "rotation": -150.98,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small21",
+        "parent": "particle_small_cont21",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont24",
+        "parent": "particles",
+        "x": -393.84,
+        "y": 543.02,
+        "length": 0,
+        "rotation": -159.21,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small24",
+        "parent": "particle_small_cont24",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont25",
+        "parent": "particles",
+        "x": -332.97,
+        "y": 569.28,
+        "length": 0,
+        "rotation": -165.67,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small25",
+        "parent": "particle_small_cont25",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont26",
+        "parent": "particles",
+        "x": -269.72,
+        "y": 606.28,
+        "length": 0,
+        "rotation": -173.78,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small26",
+        "parent": "particle_small_cont26",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont28",
+        "parent": "particles",
+        "x": 85.93,
+        "y": 581.21,
+        "length": 0,
+        "rotation": 164.92,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small28",
+        "parent": "particle_small_cont28",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont29",
+        "parent": "particles",
+        "x": 249.43,
+        "y": 559.73,
+        "length": 0,
+        "rotation": 159.12,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small29",
+        "parent": "particle_small_cont29",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont31",
+        "parent": "particles",
+        "x": 484.54,
+        "y": 509.61,
+        "length": 0,
+        "rotation": 151.2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small31",
+        "parent": "particle_small_cont31",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small_cont32",
+        "parent": "particles",
+        "x": 720.85,
+        "y": 460.67,
+        "length": 0,
+        "rotation": 145.05,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "particle_small32",
+        "parent": "particle_small_cont32",
+        "x": 548.81,
+        "y": 367.71,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "H1_backhood",
+        "bone": "backing",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "H1_skull",
+        "bone": "skull",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "H1_eyes",
+        "bone": "eye_glow",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "H1_eyesglow",
+        "bone": "eye_glow",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "H1_eyesglow2",
+        "bone": "eye_glow",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "H1_hood",
+        "bone": "hood",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "H1_hand",
+        "bone": "scythe",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "H1_hand2",
+        "bone": "scythe2",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "addfs_ui",
+        "bone": "addfs_ui",
+        "setupAttachment": "addfs_popupui",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mockup_freespins",
+        "bone": "mockup_freespins",
+        "setupAttachment": "mockup_freespins",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "slot_addfsnum",
+        "bone": "mockup_addfsnum",
+        "setupAttachment": "mockup_addfsnum",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_medium",
+        "bone": "particle_medium",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_medium2",
+        "bone": "particle_medium2",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_medium3",
+        "bone": "particle_medium3",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_medium5",
+        "bone": "particle_medium5",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_medium6",
+        "bone": "particle_medium6",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_medium8",
+        "bone": "particle_medium8",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_medium9",
+        "bone": "particle_medium9",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_medium11",
+        "bone": "particle_medium11",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_medium13",
+        "bone": "particle_medium13",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_medium14",
+        "bone": "particle_medium14",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_medium15",
+        "bone": "particle_medium15",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_medium17",
+        "bone": "particle_medium17",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_medium19",
+        "bone": "particle_medium19",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_medium20",
+        "bone": "particle_medium20",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_medium21",
+        "bone": "particle_medium21",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_medium22",
+        "bone": "particle_medium22",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_medium23",
+        "bone": "particle_medium23",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_medium25",
+        "bone": "particle_medium25",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small",
+        "bone": "particle_small",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small2",
+        "bone": "particle_small2",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small3",
+        "bone": "particle_small3",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small4",
+        "bone": "particle_small4",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small6",
+        "bone": "particle_small6",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small7",
+        "bone": "particle_small7",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small8",
+        "bone": "particle_small8",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small9",
+        "bone": "particle_small9",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small11",
+        "bone": "particle_small11",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small12",
+        "bone": "particle_small12",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small13",
+        "bone": "particle_small13",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small15",
+        "bone": "particle_small15",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small16",
+        "bone": "particle_small16",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small17",
+        "bone": "particle_small17",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small19",
+        "bone": "particle_small19",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small20",
+        "bone": "particle_small20",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small21",
+        "bone": "particle_small21",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small24",
+        "bone": "particle_small24",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small25",
+        "bone": "particle_small25",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small26",
+        "bone": "particle_small26",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small28",
+        "bone": "particle_small28",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small29",
+        "bone": "particle_small29",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small31",
+        "bone": "particle_small31",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "particle_small32",
+        "bone": "particle_small32",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "addfs_ui",
+        "name": "addfs_popupui",
+        "region": "addfs_popupui",
+        "type": "mesh",
+        "bone": "addfs_ui",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 40,
+          "vertexNumbers": 292,
+          "triangles": 74,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "addfs_ui",
+        "name": "addfs_popupui_super",
+        "region": "addfs_popupui_super",
+        "type": "mesh",
+        "bone": "addfs_ui",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 40,
+          "vertexNumbers": 292,
+          "triangles": 74,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "H1_backhood",
+        "name": "H1_backhood",
+        "region": "H1_backhood",
+        "type": "region",
+        "bone": "backing",
+        "transform": {
+          "x": 236.63,
+          "y": -9.04,
+          "rotation": -91.91,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 624,
+          "height": 572
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "H1_eyes",
+        "name": "H1_eyes",
+        "region": "H1_eyes",
+        "type": "region",
+        "bone": "eye_glow",
+        "transform": {
+          "x": 4.3,
+          "y": -35.99,
+          "rotation": -92.12,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 513,
+          "height": 267
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "H1_eyesglow",
+        "name": "H1_eyesglow",
+        "region": "H1_eyesglow",
+        "type": "region",
+        "bone": "eye_glow",
+        "transform": {
+          "x": 4.3,
+          "y": -35.99,
+          "rotation": -92.12,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 513,
+          "height": 267
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "H1_eyesglow",
+        "name": "H1_eyesglow_super",
+        "region": "H1_eyesglow_super",
+        "type": "region",
+        "bone": "eye_glow",
+        "transform": {
+          "x": 4.3,
+          "y": -35.99,
+          "rotation": -92.12,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 513,
+          "height": 267
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "H1_eyesglow2",
+        "name": "H1_eyesglow",
+        "region": "H1_eyesglow",
+        "type": "region",
+        "bone": "eye_glow",
+        "transform": {
+          "x": 4.3,
+          "y": -35.99,
+          "rotation": -92.12,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 513,
+          "height": 267
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "H1_eyesglow2",
+        "name": "H1_eyesglow_super",
+        "region": "H1_eyesglow_super",
+        "type": "region",
+        "bone": "eye_glow",
+        "transform": {
+          "x": 4.3,
+          "y": -35.99,
+          "rotation": -92.12,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 513,
+          "height": 267
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "H1_hand",
+        "name": "H1_hand",
+        "region": "H1_hand",
+        "type": "region",
+        "bone": "scythe",
+        "transform": {
+          "x": 64.4,
+          "y": 17.29,
+          "rotation": -142.74,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 124,
+          "height": 118
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "H1_hand2",
+        "name": "H1_hand",
+        "region": "H1_hand",
+        "type": "region",
+        "bone": "scythe2",
+        "transform": {
+          "x": 64.4,
+          "y": 17.29,
+          "rotation": -142.74,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 124,
+          "height": 118
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "H1_hood",
+        "name": "H1_hood",
+        "region": "H1_hood",
+        "type": "mesh",
+        "bone": "hood",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 36,
+          "vertexNumbers": 316,
+          "triangles": 39,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "H1_hood",
+        "name": "H1_hood_super",
+        "region": "H1_hood_super",
+        "type": "mesh",
+        "bone": "hood",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 36,
+          "vertexNumbers": 316,
+          "triangles": 39,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "H1_skull",
+        "name": "H1_skull",
+        "region": "H1_skull",
+        "type": "region",
+        "bone": "skull",
+        "transform": {
+          "x": 54.36,
+          "y": 15.7,
+          "rotation": -90,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 488,
+          "height": 410
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "H1_skull",
+        "name": "H1_skull_super",
+        "region": "H1_skull_super",
+        "type": "region",
+        "bone": "skull",
+        "transform": {
+          "x": 54.36,
+          "y": 15.7,
+          "rotation": -90,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 488,
+          "height": 410
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mockup_freespins",
+        "name": "mockup_freespins",
+        "region": "mockup_freespins",
+        "type": "region",
+        "bone": "mockup_freespins",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1127,
+          "height": 156
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mockup_freespins",
+        "name": "mockup_freespins_super",
+        "region": "mockup_freespins_super",
+        "type": "region",
+        "bone": "mockup_freespins",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1127,
+          "height": 156
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium",
+        "name": "particle_medium",
+        "region": "particle_medium",
+        "type": "region",
+        "bone": "particle_medium",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium",
+        "name": "particle_medium_super",
+        "region": "particle_medium_super",
+        "type": "region",
+        "bone": "particle_medium",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium2",
+        "name": "particle_medium",
+        "region": "particle_medium",
+        "type": "region",
+        "bone": "particle_medium2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium2",
+        "name": "particle_medium_super",
+        "region": "particle_medium_super",
+        "type": "region",
+        "bone": "particle_medium2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium3",
+        "name": "particle_medium",
+        "region": "particle_medium",
+        "type": "region",
+        "bone": "particle_medium3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium3",
+        "name": "particle_medium_super",
+        "region": "particle_medium_super",
+        "type": "region",
+        "bone": "particle_medium3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium5",
+        "name": "particle_medium",
+        "region": "particle_medium",
+        "type": "region",
+        "bone": "particle_medium5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium5",
+        "name": "particle_medium_super",
+        "region": "particle_medium_super",
+        "type": "region",
+        "bone": "particle_medium5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium6",
+        "name": "particle_medium",
+        "region": "particle_medium",
+        "type": "region",
+        "bone": "particle_medium6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium6",
+        "name": "particle_medium_super",
+        "region": "particle_medium_super",
+        "type": "region",
+        "bone": "particle_medium6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium8",
+        "name": "particle_medium",
+        "region": "particle_medium",
+        "type": "region",
+        "bone": "particle_medium8",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium8",
+        "name": "particle_medium_super",
+        "region": "particle_medium_super",
+        "type": "region",
+        "bone": "particle_medium8",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium9",
+        "name": "particle_medium",
+        "region": "particle_medium",
+        "type": "region",
+        "bone": "particle_medium9",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium9",
+        "name": "particle_medium_super",
+        "region": "particle_medium_super",
+        "type": "region",
+        "bone": "particle_medium9",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium11",
+        "name": "particle_medium",
+        "region": "particle_medium",
+        "type": "region",
+        "bone": "particle_medium11",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium11",
+        "name": "particle_medium_super",
+        "region": "particle_medium_super",
+        "type": "region",
+        "bone": "particle_medium11",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium13",
+        "name": "particle_medium",
+        "region": "particle_medium",
+        "type": "region",
+        "bone": "particle_medium13",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium13",
+        "name": "particle_medium_super",
+        "region": "particle_medium_super",
+        "type": "region",
+        "bone": "particle_medium13",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium14",
+        "name": "particle_medium",
+        "region": "particle_medium",
+        "type": "region",
+        "bone": "particle_medium14",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium14",
+        "name": "particle_medium_super",
+        "region": "particle_medium_super",
+        "type": "region",
+        "bone": "particle_medium14",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium15",
+        "name": "particle_medium",
+        "region": "particle_medium",
+        "type": "region",
+        "bone": "particle_medium15",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium15",
+        "name": "particle_medium_super",
+        "region": "particle_medium_super",
+        "type": "region",
+        "bone": "particle_medium15",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium17",
+        "name": "particle_medium",
+        "region": "particle_medium",
+        "type": "region",
+        "bone": "particle_medium17",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium17",
+        "name": "particle_medium_super",
+        "region": "particle_medium_super",
+        "type": "region",
+        "bone": "particle_medium17",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium19",
+        "name": "particle_medium",
+        "region": "particle_medium",
+        "type": "region",
+        "bone": "particle_medium19",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium19",
+        "name": "particle_medium_super",
+        "region": "particle_medium_super",
+        "type": "region",
+        "bone": "particle_medium19",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium20",
+        "name": "particle_medium",
+        "region": "particle_medium",
+        "type": "region",
+        "bone": "particle_medium20",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium20",
+        "name": "particle_medium_super",
+        "region": "particle_medium_super",
+        "type": "region",
+        "bone": "particle_medium20",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium21",
+        "name": "particle_medium",
+        "region": "particle_medium",
+        "type": "region",
+        "bone": "particle_medium21",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium21",
+        "name": "particle_medium_super",
+        "region": "particle_medium_super",
+        "type": "region",
+        "bone": "particle_medium21",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium22",
+        "name": "particle_medium",
+        "region": "particle_medium",
+        "type": "region",
+        "bone": "particle_medium22",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium22",
+        "name": "particle_medium_super",
+        "region": "particle_medium_super",
+        "type": "region",
+        "bone": "particle_medium22",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium23",
+        "name": "particle_medium",
+        "region": "particle_medium",
+        "type": "region",
+        "bone": "particle_medium23",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium23",
+        "name": "particle_medium_super",
+        "region": "particle_medium_super",
+        "type": "region",
+        "bone": "particle_medium23",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium25",
+        "name": "particle_medium",
+        "region": "particle_medium",
+        "type": "region",
+        "bone": "particle_medium25",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_medium25",
+        "name": "particle_medium_super",
+        "region": "particle_medium_super",
+        "type": "region",
+        "bone": "particle_medium25",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 17,
+          "height": 18
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small2",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small2",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small3",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small3",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small4",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small4",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small6",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small6",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small7",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small7",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small8",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small8",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small8",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small8",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small9",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small9",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small9",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small9",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small11",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small11",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small11",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small11",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small12",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small12",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small12",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small12",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small13",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small13",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small13",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small13",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small15",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small15",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small15",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small15",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small16",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small16",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small16",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small16",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small17",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small17",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small17",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small17",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small19",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small19",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small19",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small19",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small20",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small20",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small20",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small20",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small21",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small21",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small21",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small21",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small24",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small24",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small24",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small24",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small25",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small25",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small25",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small25",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small26",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small26",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small26",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small26",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small28",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small28",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small28",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small28",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small29",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small29",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small29",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small29",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small31",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small31",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small31",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small31",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small32",
+        "name": "particle_small",
+        "region": "particle_small",
+        "type": "region",
+        "bone": "particle_small32",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "particle_small32",
+        "name": "particle_small_super",
+        "region": "particle_small_super",
+        "type": "region",
+        "bone": "particle_small32",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": -172.87,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 10,
+          "height": 10
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "slot_addfsnum",
+        "name": "mockup_addfsnum",
+        "region": "mockup_addfsnum",
+        "type": "region",
+        "bone": "mockup_addfsnum",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 324,
+          "height": 231
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "popup",
+        "duration": 2.7,
+        "keyframes": 873,
+        "curvedKeys": 429,
+        "channels": [
+          {
+            "path": "slots.addfs_ui.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.H1_backhood.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.H1_backhood.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.H1_eyes.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.H1_eyes.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.H1_eyesglow.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.H1_eyesglow2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.H1_eyesglow2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.H1_hand.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.H1_hand.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.H1_hand2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.H1_hand2.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.H1_hood.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.H1_hood.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.H1_skull.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.H1_skull.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.mockup_freespins.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.particle_medium.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium2.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_medium2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium3.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium3.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium5.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_medium5.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium6.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_medium6.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium8.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium8.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium9.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium9.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium11.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium11.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium13.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium13.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium14.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_medium14.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium15.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_medium15.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium17.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium17.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium19.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium19.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium20.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium20.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium21.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_medium21.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium22.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_medium22.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium23.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium23.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium25.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_medium25.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_small.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small2.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_small2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small3.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small3.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small4.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_small4.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small6.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small6.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small7.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_small7.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small8.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_small8.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small9.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small9.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small11.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_small11.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small12.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small12.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small13.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_small13.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small15.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_small15.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small16.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small16.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small17.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small17.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small19.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small19.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small20.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small20.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small21.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_small21.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small24.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_small24.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small25.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small25.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small26.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_small26.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small28.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small28.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small29.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_small29.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small31.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small31.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small32.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_small32.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.slot_addfsnum.rgba2",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.addfs_ui.translatey",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.mockup_addfsnum.scale",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.addfs_ui2.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.addfs_ui2.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.reaper.translatey",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.hood2.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.eye_glow.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.weapon.translate",
+            "keyframes": 14
+          },
+          {
+            "path": "bones.hood4.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.hood5.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.skull.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.particle_small.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium2.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium3.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium5.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium6.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium8.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium9.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium11.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium13.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium14.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium15.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium17.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium19.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium20.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium21.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium22.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium23.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium25.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small2.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small3.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small4.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small6.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small7.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small8.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small9.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small11.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small12.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small13.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small15.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small16.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small17.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small19.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.particle_small20.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small21.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small24.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small25.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small26.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small28.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small29.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small31.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small32.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particles.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "drawOrder",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "addfs_ui",
+          "mockup_addfsnum",
+          "addfs_ui2",
+          "reaper",
+          "hood2",
+          "eye_glow",
+          "weapon",
+          "hood4",
+          "hood5",
+          "skull",
+          "particle_small",
+          "particle_medium",
+          "particle_medium2",
+          "particle_medium3",
+          "particle_medium5",
+          "particle_medium6",
+          "particle_medium8",
+          "particle_medium9",
+          "particle_medium11",
+          "particle_medium13",
+          "particle_medium14",
+          "particle_medium15",
+          "particle_medium17",
+          "particle_medium19",
+          "particle_medium20",
+          "particle_medium21",
+          "particle_medium22",
+          "particle_medium23",
+          "particle_medium25",
+          "particle_small2",
+          "particle_small3",
+          "particle_small4",
+          "particle_small6",
+          "particle_small7",
+          "particle_small8",
+          "particle_small9",
+          "particle_small11",
+          "particle_small12",
+          "particle_small13",
+          "particle_small15",
+          "particle_small16",
+          "particle_small17",
+          "particle_small19",
+          "particle_small20",
+          "particle_small21",
+          "particle_small24",
+          "particle_small25",
+          "particle_small26",
+          "particle_small28",
+          "particle_small29",
+          "particle_small31",
+          "particle_small32",
+          "particles"
+        ],
+        "animatedSlots": [
+          "addfs_ui",
+          "H1_backhood",
+          "H1_eyes",
+          "H1_eyesglow",
+          "H1_eyesglow2",
+          "H1_hand",
+          "H1_hand2",
+          "H1_hood",
+          "H1_skull",
+          "mockup_freespins",
+          "particle_medium",
+          "particle_medium2",
+          "particle_medium3",
+          "particle_medium5",
+          "particle_medium6",
+          "particle_medium8",
+          "particle_medium9",
+          "particle_medium11",
+          "particle_medium13",
+          "particle_medium14",
+          "particle_medium15",
+          "particle_medium17",
+          "particle_medium19",
+          "particle_medium20",
+          "particle_medium21",
+          "particle_medium22",
+          "particle_medium23",
+          "particle_medium25",
+          "particle_small",
+          "particle_small2",
+          "particle_small3",
+          "particle_small4",
+          "particle_small6",
+          "particle_small7",
+          "particle_small8",
+          "particle_small9",
+          "particle_small11",
+          "particle_small12",
+          "particle_small13",
+          "particle_small15",
+          "particle_small16",
+          "particle_small17",
+          "particle_small19",
+          "particle_small20",
+          "particle_small21",
+          "particle_small24",
+          "particle_small25",
+          "particle_small26",
+          "particle_small28",
+          "particle_small29",
+          "particle_small31",
+          "particle_small32",
+          "slot_addfsnum"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": true,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "popup_super",
+        "duration": 2.7,
+        "keyframes": 875,
+        "curvedKeys": 429,
+        "channels": [
+          {
+            "path": "slots.addfs_ui.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.addfs_ui.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.H1_backhood.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.H1_backhood.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.H1_eyes.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.H1_eyes.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.H1_eyesglow.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.H1_eyesglow2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.H1_eyesglow2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.H1_hand.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.H1_hand.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.H1_hand2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.H1_hand2.attachment",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.H1_hood.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.H1_hood.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.H1_skull.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.H1_skull.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.mockup_freespins.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.mockup_freespins.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.particle_medium.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium2.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_medium2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium3.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium3.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium5.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_medium5.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium6.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_medium6.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium8.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium8.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium9.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium9.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium11.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium11.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium13.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium13.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium14.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_medium14.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium15.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_medium15.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium17.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium17.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium19.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium19.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium20.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium20.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium21.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_medium21.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium22.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_medium22.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium23.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_medium23.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_medium25.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_medium25.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_small.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small2.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_small2.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small3.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small3.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small4.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_small4.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small6.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small6.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small7.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_small7.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small8.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_small8.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small9.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small9.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small11.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_small11.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small12.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small12.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small13.rgba",
+            "keyframes": 8
+          },
+          {
+            "path": "slots.particle_small13.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small15.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_small15.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small16.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small16.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small17.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small17.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small19.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small19.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small20.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small20.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small21.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_small21.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small24.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_small24.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small25.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small25.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small26.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_small26.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small28.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small28.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small29.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_small29.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small31.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.particle_small31.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.particle_small32.rgba",
+            "keyframes": 10
+          },
+          {
+            "path": "slots.particle_small32.attachment",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.slot_addfsnum.rgba2",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.addfs_ui.translatey",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.mockup_addfsnum.scale",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.addfs_ui2.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.addfs_ui2.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.reaper.translatey",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.hood2.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.eye_glow.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.weapon.translate",
+            "keyframes": 14
+          },
+          {
+            "path": "bones.hood4.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.hood5.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.skull.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.particle_small.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium2.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium3.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium5.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium6.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium8.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium9.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium11.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium13.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium14.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium15.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium17.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium19.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium20.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium21.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium22.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium23.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_medium25.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small2.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small3.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small4.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small6.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small7.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small8.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small9.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small11.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small12.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small13.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small15.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small16.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small17.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small19.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.particle_small20.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small21.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small24.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small25.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small26.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small28.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small29.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small31.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particle_small32.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.particles.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "drawOrder",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "addfs_ui",
+          "mockup_addfsnum",
+          "addfs_ui2",
+          "reaper",
+          "hood2",
+          "eye_glow",
+          "weapon",
+          "hood4",
+          "hood5",
+          "skull",
+          "particle_small",
+          "particle_medium",
+          "particle_medium2",
+          "particle_medium3",
+          "particle_medium5",
+          "particle_medium6",
+          "particle_medium8",
+          "particle_medium9",
+          "particle_medium11",
+          "particle_medium13",
+          "particle_medium14",
+          "particle_medium15",
+          "particle_medium17",
+          "particle_medium19",
+          "particle_medium20",
+          "particle_medium21",
+          "particle_medium22",
+          "particle_medium23",
+          "particle_medium25",
+          "particle_small2",
+          "particle_small3",
+          "particle_small4",
+          "particle_small6",
+          "particle_small7",
+          "particle_small8",
+          "particle_small9",
+          "particle_small11",
+          "particle_small12",
+          "particle_small13",
+          "particle_small15",
+          "particle_small16",
+          "particle_small17",
+          "particle_small19",
+          "particle_small20",
+          "particle_small21",
+          "particle_small24",
+          "particle_small25",
+          "particle_small26",
+          "particle_small28",
+          "particle_small29",
+          "particle_small31",
+          "particle_small32",
+          "particles"
+        ],
+        "animatedSlots": [
+          "addfs_ui",
+          "H1_backhood",
+          "H1_eyes",
+          "H1_eyesglow",
+          "H1_eyesglow2",
+          "H1_hand",
+          "H1_hand2",
+          "H1_hood",
+          "H1_skull",
+          "mockup_freespins",
+          "particle_medium",
+          "particle_medium2",
+          "particle_medium3",
+          "particle_medium5",
+          "particle_medium6",
+          "particle_medium8",
+          "particle_medium9",
+          "particle_medium11",
+          "particle_medium13",
+          "particle_medium14",
+          "particle_medium15",
+          "particle_medium17",
+          "particle_medium19",
+          "particle_medium20",
+          "particle_medium21",
+          "particle_medium22",
+          "particle_medium23",
+          "particle_medium25",
+          "particle_small",
+          "particle_small2",
+          "particle_small3",
+          "particle_small4",
+          "particle_small6",
+          "particle_small7",
+          "particle_small8",
+          "particle_small9",
+          "particle_small11",
+          "particle_small12",
+          "particle_small13",
+          "particle_small15",
+          "particle_small16",
+          "particle_small17",
+          "particle_small19",
+          "particle_small20",
+          "particle_small21",
+          "particle_small24",
+          "particle_small25",
+          "particle_small26",
+          "particle_small28",
+          "particle_small29",
+          "particle_small31",
+          "particle_small32",
+          "slot_addfsnum"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": true,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 103,
+      "slots": 53,
+      "attachments": 101,
+      "meshAttachments": 4,
+      "meshUvPairs": 152,
+      "constraints": {
+        "ik": 0,
+        "transform": 1,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "H1_backhood",
+      "file": "pieces/h1-backhood-2c215e80.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "888,144,309,286",
+        "offsets": "0,0,312,286"
+      }
+    },
+    {
+      "region": "H1_eyes",
+      "file": "pieces/h1-eyes-8ad5b7cd.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1784,279,255,130",
+        "offsets": "1,2,257,134",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "H1_eyesglow",
+      "file": "pieces/h1-eyesglow-1224ce7f.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1861,22,255,130",
+        "offsets": "1,2,257,134",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "H1_eyesglow_super",
+      "file": "pieces/h1-eyesglow-super-2ca86601.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1199,23,255,130",
+        "offsets": "1,2,257,134"
+      }
+    },
+    {
+      "region": "H1_hand",
+      "file": "pieces/h1-hand-dadb2f33.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1916,472,62,59",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "H1_hood",
+      "file": "pieces/h1-hood-f52586b6.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1199,155,329,275"
+      }
+    },
+    {
+      "region": "H1_hood_super",
+      "file": "pieces/h1-hood-super-b95feb91.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1530,2,329,275"
+      }
+    },
+    {
+      "region": "H1_skull",
+      "file": "pieces/h1-skull-27546d36.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1784,782,244,205",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "H1_skull_super",
+      "file": "pieces/h1-skull-super-b0803dfb.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1784,536,244,205",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "addfs_popupui",
+      "file": "pieces/addfs-popupui-09e384c6.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "2,432,889,594",
+        "offsets": "7,8,902,609"
+      }
+    },
+    {
+      "region": "addfs_popupui_super",
+      "file": "pieces/addfs-popupui-super-ccbc1111.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "893,432,889,594",
+        "offsets": "7,8,902,609"
+      }
+    },
+    {
+      "region": "addfs_ui",
+      "file": "pieces/addfs-ui-58afcfc5.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "2,101,441,329"
+      }
+    },
+    {
+      "region": "addfs_ui_super",
+      "file": "pieces/addfs-ui-super-9c098c7a.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "445,101,441,329"
+      }
+    },
+    {
+      "region": "mockup_addfsnum",
+      "file": "pieces/mockup-addfsnum-03823c96.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1916,433,1,1"
+      }
+    },
+    {
+      "region": "mockup_num1",
+      "file": "pieces/mockup-num1-34628f9a.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1916,433,1,1"
+      }
+    },
+    {
+      "region": "mockup_freespins",
+      "file": "pieces/mockup-freespins-cb93f707.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "2,21,564,78"
+      }
+    },
+    {
+      "region": "mockup_freespins_super",
+      "file": "pieces/mockup-freespins-super-cd70cea5.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "568,21,564,78"
+      }
+    },
+    {
+      "region": "particle_medium",
+      "file": "pieces/particle-medium-1f662fe2.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1916,461,9,9"
+      }
+    },
+    {
+      "region": "particle_medium_super",
+      "file": "pieces/particle-medium-super-6c3c1289.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1916,450,9,9"
+      }
+    },
+    {
+      "region": "particle_small",
+      "file": "pieces/particle-small-adde7f63.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1916,443,5,5"
+      }
+    },
+    {
+      "region": "particle_small_super",
+      "file": "pieces/particle-small-super-58057642.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1916,436,5,5"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

@@ -1,0 +1,1729 @@
+{
+  "id": "odin-s-vault-animations-multiply-lock-bd8ab85d-329940c2",
+  "collection": "library",
+  "name": "multiply_lock",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/multiply-lock-bd8ab85d",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 19,
+    "slots": 23,
+    "attachments": 23,
+    "meshAttachments": 17,
+    "meshUvPairs": 350,
+    "constraints": {
+      "ik": 0,
+      "transform": 1,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 53320,
+    "rgbaBytesEstimate": 213280,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 20,
+  "actions": [
+    {
+      "name": "open",
+      "duration": 1.1667,
+      "keyframes": 178,
+      "curvedKeys": 124,
+      "channels": [
+        {
+          "path": "slots.chain_1.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.chain_1_shadow.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.chain_2.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.chain_2_shadow.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.chain_3.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.chain_3_shadow.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.chain_4.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.chain_4_shadow.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.key.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.key_glow.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.lock.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.lock_add.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.lock_ark.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.lock_ark_shadow.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.lock_mask.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.lock_mask_add.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.lock_shadow.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.stroke_chain_1.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.stroke_chain_2.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.stroke_chain_3.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.stroke_chain_4.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.stroke_lock.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.stroke_lock_ark.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.key.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.key.translate",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.key.scale",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.key.shear",
+          "keyframes": 9
+        },
+        {
+          "path": "bones.lock.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.lock.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.lock.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.Lock_3d_front.translatex",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Lock_3d_front.translatey",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.chain_4_mid.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.chain_1_mid.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.chain_3_mid.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.chain_2_mid.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.lock_ark.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.lock_ark.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.chain_2.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.chain_2.translatex",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.chain_2.translatey",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.chain_1.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.chain_1.translatex",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.chain_1.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.chain_4.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.chain_4.translatex",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.chain_4.translatey",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.chain_3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.chain_3.translatex",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.chain_3.translatey",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "key",
+        "lock",
+        "Lock_3d_front",
+        "chain_4_mid",
+        "chain_1_mid",
+        "chain_3_mid",
+        "chain_2_mid",
+        "lock_ark",
+        "chain_2",
+        "chain_1",
+        "chain_4",
+        "chain_3"
+      ],
+      "animatedSlots": [
+        "chain_1",
+        "chain_1_shadow",
+        "chain_2",
+        "chain_2_shadow",
+        "chain_3",
+        "chain_3_shadow",
+        "chain_4",
+        "chain_4_shadow",
+        "key",
+        "key_glow",
+        "lock",
+        "lock_add",
+        "lock_ark",
+        "lock_ark_shadow",
+        "lock_mask",
+        "lock_mask_add",
+        "lock_shadow",
+        "stroke_chain_1",
+        "stroke_chain_2",
+        "stroke_chain_3",
+        "stroke_chain_4",
+        "stroke_lock",
+        "stroke_lock_ark"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "static",
+      "duration": 0,
+      "keyframes": 0,
+      "curvedKeys": 0,
+      "channels": [],
+      "animatedBones": [],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-multiply-lock-bd8ab85d-329940c2/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Lock_all",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "key",
+        "parent": "Lock_all",
+        "x": 21.04,
+        "y": 4.93,
+        "length": 25.79,
+        "rotation": -166.96,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "lock",
+        "parent": "Lock_all",
+        "x": 0,
+        "y": 0,
+        "length": 17.51,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "lock_ark",
+        "parent": "lock",
+        "x": -11.62,
+        "y": 12.59,
+        "length": 17.98,
+        "rotation": 89.16,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "chain_2",
+        "parent": "lock",
+        "x": 15.41,
+        "y": 25.98,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "chain_4",
+        "parent": "lock",
+        "x": 10.79,
+        "y": 20.38,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "chain_1",
+        "parent": "lock",
+        "x": -8.85,
+        "y": 23.53,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "chain_3",
+        "parent": "lock",
+        "x": -7.32,
+        "y": 25.68,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "chain_3_back",
+        "parent": "Lock_all",
+        "x": -26.82,
+        "y": 60.81,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "chain_1_back",
+        "parent": "Lock_all",
+        "x": -16.33,
+        "y": -28.07,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "chain_4_back",
+        "parent": "Lock_all",
+        "x": 33.31,
+        "y": -29.3,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "chain_2_back",
+        "parent": "Lock_all",
+        "x": 32.19,
+        "y": 63.91,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "chain_2_mid",
+        "parent": "chain_2",
+        "x": 18.89,
+        "y": 15.24,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "chain_4_mid",
+        "parent": "chain_4",
+        "x": 20.45,
+        "y": -23.88,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "chain_1_mid",
+        "parent": "chain_1",
+        "x": -18.64,
+        "y": -30.89,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "chain_3_mid",
+        "parent": "chain_3",
+        "x": -29.91,
+        "y": 13.97,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Lock_3d_front",
+        "parent": "lock",
+        "x": 21.74,
+        "y": -14.53,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Lock_3d_back",
+        "parent": "lock",
+        "x": -32.09,
+        "y": 16.14,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "lock_ark_shadow",
+        "bone": "lock_ark",
+        "setupAttachment": "lock_ark_shadow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "chain_3_shadow",
+        "bone": "chain_3",
+        "setupAttachment": "chain_3_shadow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "chain_2_shadow",
+        "bone": "chain_2",
+        "setupAttachment": "chain_2_shadow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "chain_1_shadow",
+        "bone": "chain_1",
+        "setupAttachment": "chain_1_shadow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "lock_shadow",
+        "bone": "lock",
+        "setupAttachment": "lock_shadow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "chain_4_shadow",
+        "bone": "chain_4",
+        "setupAttachment": "chain_4_shadow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "stroke_lock_ark",
+        "bone": "lock_ark",
+        "setupAttachment": "stroke_lock_ark",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "stroke_chain_3",
+        "bone": "chain_3",
+        "setupAttachment": "stroke_chain_3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "stroke_chain_2",
+        "bone": "chain_2",
+        "setupAttachment": "stroke_chain_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "stroke_chain_1",
+        "bone": "chain_1",
+        "setupAttachment": "stroke_chain_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "stroke_lock",
+        "bone": "lock",
+        "setupAttachment": "stroke_lock",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "stroke_chain_4",
+        "bone": "chain_4",
+        "setupAttachment": "stroke_chain_4",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "lock_ark",
+        "bone": "lock_ark",
+        "setupAttachment": "lock_ark",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "chain_3",
+        "bone": "chain_3",
+        "setupAttachment": "chain_3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "chain_2",
+        "bone": "chain_2",
+        "setupAttachment": "chain_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "chain_1",
+        "bone": "chain_1",
+        "setupAttachment": "chain_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "lock",
+        "bone": "lock",
+        "setupAttachment": "lock",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "lock_add",
+        "bone": "lock",
+        "setupAttachment": "lock",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "chain_4",
+        "bone": "chain_4",
+        "setupAttachment": "chain_4",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "key_glow",
+        "bone": "key",
+        "setupAttachment": "key_glow",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "key",
+        "bone": "key",
+        "setupAttachment": "key",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "lock_mask",
+        "bone": "lock",
+        "setupAttachment": "lock",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "lock_mask_add",
+        "bone": "lock",
+        "setupAttachment": "lock",
+        "blend": "additive",
+        "color": "ffffff00"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "chain_1",
+        "name": "chain_1",
+        "region": "chain_1",
+        "type": "mesh",
+        "bone": "chain_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 35,
+          "height": 68
+        },
+        "mesh": {
+          "uvPairs": 22,
+          "vertexNumbers": 222,
+          "triangles": 20,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "chain_1_shadow",
+        "name": "chain_1_shadow",
+        "region": "chain_1_shadow",
+        "type": "mesh",
+        "bone": "chain_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 39,
+          "height": 72
+        },
+        "mesh": {
+          "uvPairs": 16,
+          "vertexNumbers": 156,
+          "triangles": 14,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "chain_2",
+        "name": "chain_2",
+        "region": "chain_2",
+        "type": "mesh",
+        "bone": "chain_2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 45,
+          "height": 58
+        },
+        "mesh": {
+          "uvPairs": 19,
+          "vertexNumbers": 179,
+          "triangles": 17,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "chain_2_shadow",
+        "name": "chain_2_shadow",
+        "region": "chain_2_shadow",
+        "type": "mesh",
+        "bone": "chain_2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 49,
+          "height": 62
+        },
+        "mesh": {
+          "uvPairs": 15,
+          "vertexNumbers": 131,
+          "triangles": 13,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "chain_3",
+        "name": "chain_3",
+        "region": "chain_3",
+        "type": "mesh",
+        "bone": "chain_3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 47,
+          "height": 55
+        },
+        "mesh": {
+          "uvPairs": 28,
+          "vertexNumbers": 252,
+          "triangles": 26,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "chain_3_shadow",
+        "name": "chain_3_shadow",
+        "region": "chain_3_shadow",
+        "type": "mesh",
+        "bone": "chain_3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 51,
+          "height": 59
+        },
+        "mesh": {
+          "uvPairs": 15,
+          "vertexNumbers": 131,
+          "triangles": 13,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "chain_4",
+        "name": "chain_4",
+        "region": "chain_4",
+        "type": "mesh",
+        "bone": "chain_4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 61,
+          "height": 62
+        },
+        "mesh": {
+          "uvPairs": 25,
+          "vertexNumbers": 249,
+          "triangles": 23,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "chain_4_shadow",
+        "name": "chain_4_shadow",
+        "region": "chain_4_shadow",
+        "type": "mesh",
+        "bone": "chain_4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 46,
+          "height": 66
+        },
+        "mesh": {
+          "uvPairs": 17,
+          "vertexNumbers": 189,
+          "triangles": 15,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "key",
+        "name": "key",
+        "region": "key",
+        "type": "mesh",
+        "bone": "key",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 33,
+          "height": 47
+        },
+        "mesh": {
+          "uvPairs": 13,
+          "vertexNumbers": 26,
+          "triangles": 11,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "key_glow",
+        "name": "key_glow",
+        "region": "key_glow",
+        "type": "region",
+        "bone": "key",
+        "transform": {
+          "x": 14.69,
+          "y": 0.55,
+          "rotation": 166.96,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 40,
+          "height": 54
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "lock",
+        "name": "lock",
+        "region": "lock",
+        "type": "mesh",
+        "bone": "lock",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 39,
+          "height": 41
+        },
+        "mesh": {
+          "uvPairs": 36,
+          "vertexNumbers": 360,
+          "triangles": 55,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "lock_add",
+        "name": "lock",
+        "region": "lock",
+        "type": "mesh",
+        "bone": "lock",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 39,
+          "height": 41
+        },
+        "mesh": {
+          "uvPairs": 36,
+          "vertexNumbers": 360,
+          "triangles": 55,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "lock_ark",
+        "name": "lock_ark",
+        "region": "lock_ark",
+        "type": "region",
+        "bone": "lock_ark",
+        "transform": {
+          "x": 12.18,
+          "y": -11.43,
+          "rotation": -88.41,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 33,
+          "height": 27
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "lock_ark_shadow",
+        "name": "lock_ark_shadow",
+        "region": "lock_ark_shadow",
+        "type": "region",
+        "bone": "lock_ark",
+        "transform": {
+          "x": 8.68,
+          "y": -11.52,
+          "rotation": -88.41,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 37,
+          "height": 32
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "lock_mask",
+        "name": "lock",
+        "region": "lock",
+        "type": "mesh",
+        "bone": "lock",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 39,
+          "height": 41
+        },
+        "mesh": {
+          "uvPairs": 22,
+          "vertexNumbers": 222,
+          "triangles": 25,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "lock_mask_add",
+        "name": "lock",
+        "region": "lock",
+        "type": "mesh",
+        "bone": "lock",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 39,
+          "height": 41
+        },
+        "mesh": {
+          "uvPairs": 22,
+          "vertexNumbers": 222,
+          "triangles": 25,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "lock_shadow",
+        "name": "lock_shadow",
+        "region": "lock_shadow",
+        "type": "region",
+        "bone": "lock",
+        "transform": {
+          "x": 0.37,
+          "y": -4.9,
+          "rotation": 0.75,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 43,
+          "height": 46
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stroke_chain_1",
+        "name": "stroke_chain_1",
+        "region": "stroke_chain_1",
+        "type": "mesh",
+        "bone": "chain_1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 36,
+          "height": 68
+        },
+        "mesh": {
+          "uvPairs": 15,
+          "vertexNumbers": 151,
+          "triangles": 13,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stroke_chain_2",
+        "name": "stroke_chain_2",
+        "region": "stroke_chain_2",
+        "type": "mesh",
+        "bone": "chain_2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 47,
+          "height": 60
+        },
+        "mesh": {
+          "uvPairs": 17,
+          "vertexNumbers": 165,
+          "triangles": 15,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stroke_chain_3",
+        "name": "stroke_chain_3",
+        "region": "stroke_chain_3",
+        "type": "mesh",
+        "bone": "chain_3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 49,
+          "height": 55
+        },
+        "mesh": {
+          "uvPairs": 16,
+          "vertexNumbers": 164,
+          "triangles": 14,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stroke_chain_4",
+        "name": "stroke_chain_4",
+        "region": "stroke_chain_4",
+        "type": "mesh",
+        "bone": "chain_4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 44,
+          "height": 63
+        },
+        "mesh": {
+          "uvPairs": 16,
+          "vertexNumbers": 160,
+          "triangles": 14,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stroke_lock",
+        "name": "stroke_lock",
+        "region": "stroke_lock",
+        "type": "region",
+        "bone": "lock",
+        "transform": {
+          "x": 0.33,
+          "y": -2.4,
+          "rotation": 0.75,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 41,
+          "height": 43
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stroke_lock_ark",
+        "name": "stroke_lock_ark",
+        "region": "stroke_lock_ark",
+        "type": "region",
+        "bone": "lock_ark",
+        "transform": {
+          "x": 12.16,
+          "y": -10.93,
+          "rotation": -88.41,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 34,
+          "height": 29
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "open",
+        "duration": 1.1667,
+        "keyframes": 178,
+        "curvedKeys": 124,
+        "channels": [
+          {
+            "path": "slots.chain_1.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.chain_1_shadow.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.chain_2.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.chain_2_shadow.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.chain_3.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.chain_3_shadow.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.chain_4.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.chain_4_shadow.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.key.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.key_glow.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.lock.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.lock_add.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.lock_ark.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.lock_ark_shadow.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.lock_mask.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.lock_mask_add.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.lock_shadow.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.stroke_chain_1.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.stroke_chain_2.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.stroke_chain_3.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.stroke_chain_4.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.stroke_lock.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.stroke_lock_ark.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.key.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.key.translate",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.key.scale",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.key.shear",
+            "keyframes": 9
+          },
+          {
+            "path": "bones.lock.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.lock.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.lock.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.Lock_3d_front.translatex",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Lock_3d_front.translatey",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.chain_4_mid.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.chain_1_mid.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.chain_3_mid.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.chain_2_mid.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.lock_ark.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.lock_ark.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.chain_2.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.chain_2.translatex",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.chain_2.translatey",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.chain_1.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.chain_1.translatex",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.chain_1.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.chain_4.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.chain_4.translatex",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.chain_4.translatey",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.chain_3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.chain_3.translatex",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.chain_3.translatey",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "key",
+          "lock",
+          "Lock_3d_front",
+          "chain_4_mid",
+          "chain_1_mid",
+          "chain_3_mid",
+          "chain_2_mid",
+          "lock_ark",
+          "chain_2",
+          "chain_1",
+          "chain_4",
+          "chain_3"
+        ],
+        "animatedSlots": [
+          "chain_1",
+          "chain_1_shadow",
+          "chain_2",
+          "chain_2_shadow",
+          "chain_3",
+          "chain_3_shadow",
+          "chain_4",
+          "chain_4_shadow",
+          "key",
+          "key_glow",
+          "lock",
+          "lock_add",
+          "lock_ark",
+          "lock_ark_shadow",
+          "lock_mask",
+          "lock_mask_add",
+          "lock_shadow",
+          "stroke_chain_1",
+          "stroke_chain_2",
+          "stroke_chain_3",
+          "stroke_chain_4",
+          "stroke_lock",
+          "stroke_lock_ark"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "static",
+        "duration": 0,
+        "keyframes": 0,
+        "curvedKeys": 0,
+        "channels": [],
+        "animatedBones": [],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 19,
+      "slots": 23,
+      "attachments": 23,
+      "meshAttachments": 17,
+      "meshUvPairs": 350,
+      "constraints": {
+        "ik": 0,
+        "transform": 1,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "chain_1",
+      "file": "pieces/chain-1-5cff7fa6.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "2,314,35,67",
+        "offsets": "0,0,35,68",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "chain_1_shadow",
+      "file": "pieces/chain-1-shadow-00ec2fc8.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "2,389,39,72",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "chain_2",
+      "file": "pieces/chain-2-3b30990b.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "64,151,45,58",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "chain_2_shadow",
+      "file": "pieces/chain-2-shadow-8372c80c.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "72,298,49,62"
+      }
+    },
+    {
+      "region": "chain_3",
+      "file": "pieces/chain-3-95ba312f.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "66,198,47,55",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "chain_3_shadow",
+      "file": "pieces/chain-3-shadow-a8babb2b.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "2,122,51,59",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "chain_4",
+      "file": "pieces/chain-4-530c07b1.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "2,224,42,62",
+        "offsets": "19,0,61,62",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "chain_4_shadow",
+      "file": "pieces/chain-4-shadow-fecbb49c.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "76,362,46,66"
+      }
+    },
+    {
+      "region": "key",
+      "file": "pieces/key-4faff236.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "2,87,33,47",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "key_glow",
+      "file": "pieces/key-glow-9618d694.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "63,111,38,51",
+        "offsets": "1,2,40,54",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "lock",
+      "file": "pieces/lock-de0468da.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "2,46,39,41",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "lock_ark",
+      "file": "pieces/lock-ark-3129ac5f.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "97,78,31,25",
+        "offsets": "1,1,33,27",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "lock_ark_shadow",
+      "file": "pieces/lock-ark-shadow-5d52f7de.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "88,2,35,30",
+        "offsets": "1,1,37,32",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "lock_shadow",
+      "file": "pieces/lock-shadow-b9d90bec.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "51,68,41,44",
+        "offsets": "1,1,43,46",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "stroke_chain_1",
+      "file": "pieces/stroke-chain-1-e55dd669.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "2,351,36,68",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "stroke_chain_2",
+      "file": "pieces/stroke-chain-2-653ada66.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "2,175,47,60",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "stroke_chain_3",
+      "file": "pieces/stroke-chain-3-9dbe408d.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "67,247,49,55",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "stroke_chain_4",
+      "file": "pieces/stroke-chain-4-8daf920b.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "2,268,44,63",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "stroke_lock",
+      "file": "pieces/stroke-lock-c7e63480.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "45,27,39,41",
+        "offsets": "1,1,41,43",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "stroke_lock_ark",
+      "file": "pieces/stroke-lock-ark-c752a680.png",
+      "page": "multiply_lock.webp",
+      "properties": {
+        "bounds": "88,39,32,27",
+        "offsets": "1,1,34,29"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

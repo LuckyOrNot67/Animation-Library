@@ -1,0 +1,562 @@
+{
+  "schemaVersion": 1,
+  "description": "Fichiers inventoriés ≠ animations uniques. Pas de promesse de 500 000 animations. Les licences des assets et du code sont distinctes.",
+  "sources": [
+    {
+      "repository": "Diew/Nikke-db.github.io",
+      "branch": "main",
+      "commit": "3adbdb0fd4009a79cdba6d31fde6b0a759e1f9cf",
+      "url": "https://github.com/Diew/Nikke-db.github.io",
+      "license": null,
+      "id": "diew-nikke-db-github-io",
+      "kind": "game-archive",
+      "description": "Collection communautaire : références techniques ; droits sur les assets non vérifiés.",
+      "rights": "unverified-assets",
+      "enabled": false,
+      "assetPrefixes": [
+        ""
+      ],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 9318,
+        "atlases": 1785,
+        "binarySkeletons": 1785,
+        "jsonFiles": 17,
+        "images": 5478,
+        "treeTruncated": false
+      },
+      "guides": [
+        "README.md"
+      ]
+    },
+    {
+      "repository": "EsotericSoftware/spine-runtimes",
+      "branch": "4.2",
+      "commit": "e7dc1435fa4a0083ab431f1b28e083c14a1f5c68",
+      "url": "https://github.com/EsotericSoftware/spine-runtimes",
+      "license": "NOASSERTION",
+      "id": "spine-official",
+      "kind": "examples",
+      "description": "Exemples officiels : rigs, meshes, IK, coins et principes d’animation.",
+      "rights": "evaluation-only",
+      "enabled": true,
+      "assetPrefixes": [
+        "examples/"
+      ],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 5724,
+        "atlases": 235,
+        "binarySkeletons": 138,
+        "jsonFiles": 247,
+        "images": 1539,
+        "treeTruncated": false
+      },
+      "guides": [
+        "LICENSE",
+        "README.md"
+      ]
+    },
+    {
+      "repository": "EsotericSoftware/spine-superspineboy",
+      "branch": "master",
+      "commit": "c3d1901e2fc8f01812878fd1837aca24fe485ae3",
+      "url": "https://github.com/EsotericSoftware/spine-superspineboy",
+      "license": "NOASSERTION",
+      "id": "super-spineboy",
+      "kind": "examples",
+      "description": "Exemple complet de jeu utilisant actions, transitions et logique de personnage.",
+      "rights": "evaluation-only",
+      "enabled": false,
+      "assetPrefixes": [
+        "assets/"
+      ],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 167,
+        "atlases": 3,
+        "binarySkeletons": 0,
+        "jsonFiles": 9,
+        "images": 122,
+        "treeTruncated": false
+      },
+      "guides": [
+        "LICENSE",
+        "README.md"
+      ]
+    },
+    {
+      "repository": "GenielabsOpenSource/spine-animation-ai",
+      "branch": "main",
+      "commit": "702b71689cac826efee942ee4564fef9560d6ef8",
+      "url": "https://github.com/GenielabsOpenSource/spine-animation-ai",
+      "license": "NOASSERTION",
+      "id": "spine-animation-ai",
+      "kind": "authoring",
+      "description": "Rigging et génération Spine 4.2 avec une IA ; usage non commercial.",
+      "rights": "noncommercial",
+      "enabled": false,
+      "assetPrefixes": [
+        "examples/"
+      ],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 176,
+        "atlases": 2,
+        "binarySkeletons": 0,
+        "jsonFiles": 7,
+        "images": 3,
+        "treeTruncated": false
+      },
+      "guides": [
+        "LICENSE",
+        "README.md",
+        "SKILL.md",
+        "SKILL.template.md"
+      ]
+    },
+    {
+      "repository": "Nikke-db/Nikke-db.github.io",
+      "branch": "main",
+      "commit": "29c8792d506960997588b20b93c75b8488975039",
+      "url": "https://github.com/Nikke-db/Nikke-db.github.io",
+      "license": null,
+      "id": "nikke-db-nikke-db-github-io",
+      "kind": "game-archive",
+      "description": "Collection communautaire : références techniques ; droits sur les assets non vérifiés.",
+      "rights": "unverified-assets",
+      "enabled": false,
+      "assetPrefixes": [
+        ""
+      ],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 7259,
+        "atlases": 1533,
+        "binarySkeletons": 1533,
+        "jsonFiles": 14,
+        "images": 3928,
+        "treeTruncated": false
+      },
+      "guides": [
+        "README.md"
+      ]
+    },
+    {
+      "repository": "OldBernhardt/langrisser-spiner-db",
+      "branch": "master",
+      "commit": "3b074b1ed36d4081e0b980685d372063646181b0",
+      "url": "https://github.com/OldBernhardt/langrisser-spiner-db",
+      "license": null,
+      "id": "oldbernhardt-langrisser-spiner-db",
+      "kind": "game-archive",
+      "description": "Collection communautaire : références techniques ; droits sur les assets non vérifiés.",
+      "rights": "unverified-assets",
+      "enabled": false,
+      "assetPrefixes": [
+        ""
+      ],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 4647,
+        "atlases": 1282,
+        "binarySkeletons": 2062,
+        "jsonFiles": 6,
+        "images": 1281,
+        "treeTruncated": false
+      },
+      "guides": []
+    },
+    {
+      "repository": "PuppiizSunniiz/Arknights-Spines",
+      "branch": "main",
+      "commit": "9eaaf8d14ca8c4910a2a1897964bdc1cd7749e31",
+      "url": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+      "license": null,
+      "id": "puppiizsunniiz-arknights-spines",
+      "kind": "game-archive",
+      "description": "Collection communautaire : références techniques ; droits sur les assets non vérifiés.",
+      "rights": "unverified-assets",
+      "enabled": false,
+      "assetPrefixes": [
+        ""
+      ],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 12029,
+        "atlases": 3974,
+        "binarySkeletons": 3959,
+        "jsonFiles": 22,
+        "images": 4070,
+        "treeTruncated": false
+      },
+      "guides": []
+    },
+    {
+      "repository": "RevStudio/Rev2D",
+      "branch": "main",
+      "commit": "f144581cdf1f12d781379c4df90d262b8c2dfa3d",
+      "url": "https://github.com/RevStudio/Rev2D",
+      "license": "MIT",
+      "id": "rev2d",
+      "kind": "authoring",
+      "description": "Rig JSON, rendu headless, CLI/MCP et export Spine ; format propre distinct du JSON Spine.",
+      "rights": "mit-code-assets-review",
+      "enabled": false,
+      "assetPrefixes": [],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 717,
+        "atlases": 2,
+        "binarySkeletons": 0,
+        "jsonFiles": 17,
+        "images": 19,
+        "treeTruncated": false
+      },
+      "guides": [
+        "LICENSE",
+        "README.md"
+      ]
+    },
+    {
+      "repository": "SunsetMkt/blue-archive-spine-production",
+      "branch": "resourceless",
+      "commit": "4e5a385033835db836cd3832d7ea5b43668be0b8",
+      "url": "https://github.com/SunsetMkt/blue-archive-spine-production",
+      "license": null,
+      "id": "sunsetmkt-blue-archive-spine-production",
+      "kind": "game-archive",
+      "description": "Collection communautaire : références techniques ; droits sur les assets non vérifiés.",
+      "rights": "unverified-assets",
+      "enabled": false,
+      "assetPrefixes": [
+        ""
+      ],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 19,
+        "atlases": 0,
+        "binarySkeletons": 0,
+        "jsonFiles": 0,
+        "images": 0,
+        "treeTruncated": false
+      },
+      "guides": [
+        "README.md"
+      ]
+    },
+    {
+      "repository": "Zormolo/Brown-Dust-2-Assets",
+      "branch": "main",
+      "commit": "94a3ac97b8fab7ee054e0826de7d912de0a233ef",
+      "url": "https://github.com/Zormolo/Brown-Dust-2-Assets",
+      "license": "MIT",
+      "id": "zormolo-brown-dust-2-assets",
+      "kind": "game-archive",
+      "description": "Collection communautaire : références techniques ; droits sur les assets non vérifiés.",
+      "rights": "unverified-assets",
+      "enabled": false,
+      "assetPrefixes": [
+        ""
+      ],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 0,
+        "atlases": 0,
+        "binarySkeletons": 0,
+        "jsonFiles": 0,
+        "images": 0,
+        "treeTruncated": false
+      },
+      "guides": [],
+      "availability": "Git tree unavailable during verification; catalog link only"
+    },
+    {
+      "repository": "bungaku-moe/DaiblosCoreAssets",
+      "branch": "main",
+      "commit": "3c672a0f11cc70fee35432b1a28522d7d74068c2",
+      "url": "https://github.com/bungaku-moe/DaiblosCoreAssets",
+      "license": null,
+      "id": "bungaku-moe-daibloscoreassets",
+      "kind": "game-archive",
+      "description": "Collection communautaire : références techniques ; droits sur les assets non vérifiés.",
+      "rights": "unverified-assets",
+      "enabled": false,
+      "assetPrefixes": [
+        ""
+      ],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 1947,
+        "atlases": 420,
+        "binarySkeletons": 0,
+        "jsonFiles": 655,
+        "images": 853,
+        "treeTruncated": false
+      },
+      "guides": [
+        "README.md"
+      ]
+    },
+    {
+      "repository": "cambacodes/spine-catalog",
+      "branch": "main",
+      "commit": "4fff4ac21b16af41b4f0e2d099627ec1d55aa735",
+      "url": "https://github.com/cambacodes/spine-catalog",
+      "license": null,
+      "id": "spine-catalog",
+      "kind": "catalog",
+      "description": "Index de collections multi-jeux et relations skeleton/atlas/textures.",
+      "rights": "unverified-assets",
+      "enabled": false,
+      "assetPrefixes": [],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 71,
+        "atlases": 0,
+        "binarySkeletons": 0,
+        "jsonFiles": 28,
+        "images": 0,
+        "treeTruncated": false
+      },
+      "guides": [
+        "README.md"
+      ]
+    },
+    {
+      "repository": "cambacodes/spine-thing",
+      "branch": "main",
+      "commit": "2ec7cf343ae6d54496f25713e3c5aea7ac458067",
+      "url": "https://github.com/cambacodes/spine-thing",
+      "license": "MIT",
+      "id": "spine-thing",
+      "kind": "viewer",
+      "description": "Viewer, conversions JSON/SKEL et exports ; analyser ses limites de version.",
+      "rights": "mit-code-assets-review",
+      "enabled": false,
+      "assetPrefixes": [],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 151,
+        "atlases": 0,
+        "binarySkeletons": 0,
+        "jsonFiles": 10,
+        "images": 0,
+        "treeTruncated": false
+      },
+      "guides": [
+        "LICENSE",
+        "README.md"
+      ]
+    },
+    {
+      "repository": "firejune/rigc",
+      "branch": "main",
+      "commit": "df9180bb3ab6d1e6c23c6e2b899f79df80d56ed8",
+      "url": "https://github.com/rig-c/core",
+      "license": "NOASSERTION",
+      "id": "rigc",
+      "kind": "authoring",
+      "description": "Compilateur de rigs déclaratifs et vérification ; lire les sources pour créer sans éditeur.",
+      "rights": "mixed-mit-third-party",
+      "enabled": true,
+      "assetPrefixes": [
+        "bench/runs/"
+      ],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 2587,
+        "atlases": 28,
+        "binarySkeletons": 0,
+        "jsonFiles": 309,
+        "images": 1422,
+        "treeTruncated": false
+      },
+      "guides": [
+        "LICENSE",
+        "NOTICE.md",
+        "README.md",
+        "docs/AUTHORING.md",
+        "docs/BENCHMARK.md",
+        "docs/CASES.md",
+        "docs/COMPILED_MODEL.md",
+        "docs/FACE.md",
+        "docs/GATE.md",
+        "docs/GENERATIONS.md",
+        "docs/INGEST.md",
+        "docs/LADDER.md",
+        "docs/MESH_REDUCTION.md",
+        "docs/MOTION.md",
+        "docs/PILOT.md",
+        "docs/PROMPTING.md",
+        "docs/RIGGING.md",
+        "docs/SECOND_ORACLE.md",
+        "docs/SPEC_COVERAGE.md",
+        "docs/SURVEY_2026-08-22.md",
+        "docs/pilot/rung3-evaluator.md",
+        "docs/pilot/rung3-runner-prompt.md",
+        "docs/pilot/verdicts/2026-08-24-rung3-1.md"
+      ]
+    },
+    {
+      "repository": "firejune/spine-html",
+      "branch": "main",
+      "commit": "ce437edf2c3399a20a20890807061bc15cfce5ee",
+      "url": "https://github.com/rig-c/play",
+      "license": "MIT",
+      "id": "spine-html",
+      "kind": "runtime",
+      "description": "Lecture DOM/canvas et suivi de poses.",
+      "rights": "mit-code-assets-review",
+      "enabled": false,
+      "assetPrefixes": [],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 90,
+        "atlases": 1,
+        "binarySkeletons": 0,
+        "jsonFiles": 12,
+        "images": 22,
+        "treeTruncated": false
+      },
+      "guides": [
+        "LICENSE",
+        "NOTICE.md",
+        "README.md"
+      ]
+    },
+    {
+      "repository": "isHarryh/Ark-Models",
+      "branch": "main",
+      "commit": "8a3857c250a5c271429aefa82c660ff35803166e",
+      "url": "https://github.com/isHarryh/Ark-Models",
+      "license": null,
+      "id": "isharryh-ark-models",
+      "kind": "game-archive",
+      "description": "Collection communautaire : références techniques ; droits sur les assets non vérifiés.",
+      "rights": "unverified-assets",
+      "enabled": false,
+      "assetPrefixes": [
+        ""
+      ],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 9362,
+        "atlases": 3109,
+        "binarySkeletons": 3095,
+        "jsonFiles": 1,
+        "images": 3137,
+        "treeTruncated": false
+      },
+      "guides": [
+        "README.md"
+      ]
+    },
+    {
+      "repository": "phaserjs/examples",
+      "branch": "master",
+      "commit": "68140eca72525d5034b783a262270715ddc17b78",
+      "url": "https://github.com/phaserjs/examples",
+      "license": null,
+      "id": "phaser-examples",
+      "kind": "examples",
+      "description": "Exemples de rendu web dont Spine, textures et animations de jeu.",
+      "rights": "mixed-assets-review",
+      "enabled": false,
+      "assetPrefixes": [
+        "public/assets/spine/",
+        "public/assets/spine4.1/"
+      ],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 27127,
+        "atlases": 228,
+        "binarySkeletons": 27,
+        "jsonFiles": 842,
+        "images": 12681,
+        "treeTruncated": false
+      },
+      "guides": [
+        "README.md"
+      ]
+    },
+    {
+      "repository": "pixijs/spine",
+      "branch": "master",
+      "commit": "1c2ee012f0595301d232c0ad560a25346aae07ed",
+      "url": "https://github.com/pixijs-userland/spine",
+      "license": "NOASSERTION",
+      "id": "pixi-spine",
+      "kind": "runtime",
+      "description": "Intégration PixiJS, pistes et rendu GPU ; vérifier la version.",
+      "rights": "runtime-license",
+      "enabled": false,
+      "assetPrefixes": [],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 303,
+        "atlases": 0,
+        "binarySkeletons": 0,
+        "jsonFiles": 63,
+        "images": 0,
+        "treeTruncated": false
+      },
+      "guides": [
+        "README.md"
+      ]
+    },
+    {
+      "repository": "playcanvas/playcanvas-spine",
+      "branch": "main",
+      "commit": "d3789a01768c8c1945491a736d4d5c5913241d69",
+      "url": "https://github.com/playcanvas/playcanvas-spine",
+      "license": "MIT",
+      "id": "playcanvas-spine",
+      "kind": "runtime",
+      "description": "Intégration et exemples web PlayCanvas.",
+      "rights": "mit-code-assets-review",
+      "enabled": false,
+      "assetPrefixes": [],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 118,
+        "atlases": 12,
+        "binarySkeletons": 4,
+        "jsonFiles": 16,
+        "images": 20,
+        "treeTruncated": false
+      },
+      "guides": [
+        "LICENSE",
+        "README.md"
+      ]
+    },
+    {
+      "repository": "respectZ/blue-archive-viewer",
+      "branch": "main",
+      "commit": "3f7d3e4514d96e6616f9805043bce9dd7d6f02b6",
+      "url": "https://github.com/respectZ/blue-archive-viewer",
+      "license": null,
+      "id": "respectz-blue-archive-viewer",
+      "kind": "game-archive",
+      "description": "Collection communautaire : références techniques ; droits sur les assets non vérifiés.",
+      "rights": "unverified-assets",
+      "enabled": false,
+      "assetPrefixes": [
+        ""
+      ],
+      "verifiedOn": "2026-10-11",
+      "inventory": {
+        "files": 23500,
+        "atlases": 252,
+        "binarySkeletons": 253,
+        "jsonFiles": 28,
+        "images": 4023,
+        "treeTruncated": false
+      },
+      "guides": [
+        "README.md"
+      ]
+    }
+  ]
+}

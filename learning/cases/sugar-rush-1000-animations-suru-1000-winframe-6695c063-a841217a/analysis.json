@@ -1,0 +1,652 @@
+{
+  "id": "sugar-rush-1000-animations-suru-1000-winframe-6695c063-a841217a",
+  "collection": "library",
+  "name": "suru_1000_winframe",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-1000-winframe-6695c063",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 1,
+    "slots": 1,
+    "attachments": 15,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 570798,
+    "rgbaBytesEstimate": 2283192,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 15,
+  "actions": [
+    {
+      "name": "suru_1000_winframe",
+      "duration": 0.4667,
+      "keyframes": 15,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "slots.suru_winframe_00000.attachment",
+          "keyframes": 15
+        }
+      ],
+      "animatedBones": [],
+      "animatedSlots": [
+        "suru_winframe_00000"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "win"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-1000-winframe-6695c063-a841217a/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "suru_winframe_00000",
+        "bone": "root",
+        "setupAttachment": "suru_winframe_00014",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "suru_winframe_00000",
+        "name": "suru_winframe_00000",
+        "region": "suru_winframe_00000",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 226,
+          "height": 181
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "suru_winframe_00000",
+        "name": "suru_winframe_00001",
+        "region": "suru_winframe_00001",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 226,
+          "height": 181
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "suru_winframe_00000",
+        "name": "suru_winframe_00002",
+        "region": "suru_winframe_00002",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 226,
+          "height": 181
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "suru_winframe_00000",
+        "name": "suru_winframe_00003",
+        "region": "suru_winframe_00003",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 226,
+          "height": 181
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "suru_winframe_00000",
+        "name": "suru_winframe_00004",
+        "region": "suru_winframe_00004",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 226,
+          "height": 181
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "suru_winframe_00000",
+        "name": "suru_winframe_00005",
+        "region": "suru_winframe_00005",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 226,
+          "height": 181
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "suru_winframe_00000",
+        "name": "suru_winframe_00006",
+        "region": "suru_winframe_00006",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 226,
+          "height": 181
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "suru_winframe_00000",
+        "name": "suru_winframe_00007",
+        "region": "suru_winframe_00007",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 226,
+          "height": 181
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "suru_winframe_00000",
+        "name": "suru_winframe_00008",
+        "region": "suru_winframe_00008",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 226,
+          "height": 181
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "suru_winframe_00000",
+        "name": "suru_winframe_00009",
+        "region": "suru_winframe_00009",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 226,
+          "height": 181
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "suru_winframe_00000",
+        "name": "suru_winframe_00010",
+        "region": "suru_winframe_00010",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 226,
+          "height": 181
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "suru_winframe_00000",
+        "name": "suru_winframe_00011",
+        "region": "suru_winframe_00011",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 226,
+          "height": 181
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "suru_winframe_00000",
+        "name": "suru_winframe_00012",
+        "region": "suru_winframe_00012",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 226,
+          "height": 181
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "suru_winframe_00000",
+        "name": "suru_winframe_00013",
+        "region": "suru_winframe_00013",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 226,
+          "height": 181
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "suru_winframe_00000",
+        "name": "suru_winframe_00014",
+        "region": "suru_winframe_00014",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 226,
+          "height": 181
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "suru_1000_winframe",
+        "duration": 0.4667,
+        "keyframes": 15,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "slots.suru_winframe_00000.attachment",
+            "keyframes": 15
+          }
+        ],
+        "animatedBones": [],
+        "animatedSlots": [
+          "suru_winframe_00000"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "win"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 1,
+      "slots": 1,
+      "attachments": 15,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "suru_winframe_00000",
+      "file": "pieces/suru-winframe-00000-25dd707d.png",
+      "page": "suru_1000_winframe.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "642, 173",
+        "size": "213, 169",
+        "orig": "226, 181",
+        "offset": "6, 8",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "suru_winframe_00001",
+      "file": "pieces/suru-winframe-00001-8a888de5.png",
+      "page": "suru_1000_winframe.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "857, 173",
+        "size": "213, 169",
+        "orig": "226, 181",
+        "offset": "6, 8",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "suru_winframe_00002",
+      "file": "pieces/suru-winframe-00002-5dc7a8e0.png",
+      "page": "suru_1000_winframe.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1072, 173",
+        "size": "213, 169",
+        "orig": "226, 181",
+        "offset": "6, 8",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "suru_winframe_00003",
+      "file": "pieces/suru-winframe-00003-a5abd16a.png",
+      "page": "suru_1000_winframe.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 174",
+        "size": "212, 168",
+        "orig": "226, 181",
+        "offset": "7, 8",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "suru_winframe_00004",
+      "file": "pieces/suru-winframe-00004-c1eeda3b.png",
+      "page": "suru_1000_winframe.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "214, 174",
+        "size": "212, 168",
+        "orig": "226, 181",
+        "offset": "7, 8",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "suru_winframe_00005",
+      "file": "pieces/suru-winframe-00005-a2bc41d8.png",
+      "page": "suru_1000_winframe.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "428, 174",
+        "size": "212, 168",
+        "orig": "226, 181",
+        "offset": "7, 8",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "suru_winframe_00006",
+      "file": "pieces/suru-winframe-00006-be4852d1.png",
+      "page": "suru_1000_winframe.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1287, 173",
+        "size": "211, 169",
+        "orig": "226, 181",
+        "offset": "7, 8",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "suru_winframe_00007",
+      "file": "pieces/suru-winframe-00007-420dec3a.png",
+      "page": "suru_1000_winframe.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1500, 131",
+        "size": "211, 169",
+        "orig": "226, 181",
+        "offset": "8, 4",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "suru_winframe_00008",
+      "file": "pieces/suru-winframe-00008-0b8e23ce.png",
+      "page": "suru_1000_winframe.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 3",
+        "size": "211, 169",
+        "orig": "226, 181",
+        "offset": "7, 8",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "suru_winframe_00009",
+      "file": "pieces/suru-winframe-00009-3f3f450d.png",
+      "page": "suru_1000_winframe.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "213, 2",
+        "size": "212, 170",
+        "orig": "226, 181",
+        "offset": "7, 7",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "suru_winframe_00010",
+      "file": "pieces/suru-winframe-00010-9a4d287a.png",
+      "page": "suru_1000_winframe.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "427, 2",
+        "size": "212, 170",
+        "orig": "226, 181",
+        "offset": "7, 7",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "suru_winframe_00011",
+      "file": "pieces/suru-winframe-00011-25ba94ed.png",
+      "page": "suru_1000_winframe.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "641, 1",
+        "size": "212, 170",
+        "orig": "226, 181",
+        "offset": "7, 7",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "suru_winframe_00012",
+      "file": "pieces/suru-winframe-00012-a3137719.png",
+      "page": "suru_1000_winframe.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1070, 0",
+        "size": "213, 171",
+        "orig": "226, 181",
+        "offset": "6, 7",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "suru_winframe_00013",
+      "file": "pieces/suru-winframe-00013-8e4dda7b.png",
+      "page": "suru_1000_winframe.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "1285, 0",
+        "size": "213, 171",
+        "orig": "226, 181",
+        "offset": "6, 7",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "suru_winframe_00014",
+      "file": "pieces/suru-winframe-00014-875f55bd.png",
+      "page": "suru_1000_winframe.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "855, 0",
+        "size": "213, 171",
+        "orig": "226, 181",
+        "offset": "6, 7",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

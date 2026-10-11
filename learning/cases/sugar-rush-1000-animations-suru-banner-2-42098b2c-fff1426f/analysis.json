@@ -1,0 +1,781 @@
+{
+  "id": "sugar-rush-1000-animations-suru-banner-2-42098b2c-fff1426f",
+  "collection": "library",
+  "name": "suru_banner_2",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-banner-2-42098b2c",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 13,
+    "slots": 2,
+    "attachments": 2,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 388512,
+    "rgbaBytesEstimate": 1554048,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 1,
+  "actions": [
+    {
+      "name": "suru_banner_in",
+      "duration": 0.8,
+      "keyframes": 38,
+      "curvedKeys": 24,
+      "channels": [
+        {
+          "path": "slots.stars_1.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.stars_3.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.123456789.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.congratulation.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.you have win.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.credit.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.rec.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.rec1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.ray.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.ray2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star01.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.star3.scale",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "123456789",
+        "congratulation",
+        "you have win",
+        "credit",
+        "rec",
+        "rec1",
+        "ray",
+        "ray2",
+        "star1",
+        "star2",
+        "star01",
+        "star3"
+      ],
+      "animatedSlots": [
+        "stars_1",
+        "stars_3"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "suru_banner_loop",
+      "duration": 1.9,
+      "keyframes": 41,
+      "curvedKeys": 28,
+      "channels": [
+        {
+          "path": "slots.stars_1.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.stars_3.color",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.congratulation.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.rec.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.rec1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.ray.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.ray2.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star1.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.star2.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.star01.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.star3.scale",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "congratulation",
+        "rec",
+        "rec1",
+        "ray",
+        "ray2",
+        "star1",
+        "star2",
+        "star01",
+        "star3"
+      ],
+      "animatedSlots": [
+        "stars_1",
+        "stars_3"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "suru_banner_out",
+      "duration": 0.6,
+      "keyframes": 34,
+      "curvedKeys": 18,
+      "channels": [
+        {
+          "path": "slots.stars_1.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.stars_3.color",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.123456789.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.congratulation.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.you have win.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.credit.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.rec.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.rec1.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ray.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ray.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ray2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ray2.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.star1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.star01.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.star3.scale",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "123456789",
+        "congratulation",
+        "you have win",
+        "credit",
+        "rec",
+        "rec1",
+        "ray",
+        "ray2",
+        "star1",
+        "star2",
+        "star01",
+        "star3"
+      ],
+      "animatedSlots": [
+        "stars_1",
+        "stars_3"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-banner-2-42098b2c-fff1426f/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "congratulation",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "you have win",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "123456789",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "credit",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "rec",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "rec1",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ray",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ray2",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "star1",
+        "parent": "root",
+        "x": 563.76,
+        "y": 251.86,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "star2",
+        "parent": "root",
+        "x": -577.99,
+        "y": 251.86,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      },
+      {
+        "name": "star01",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "star3",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "stars_1",
+        "bone": "star01",
+        "setupAttachment": "stars_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "stars_3",
+        "bone": "star3",
+        "setupAttachment": "stars_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "stars_1",
+        "name": "stars_1",
+        "region": "stars_1",
+        "type": "region",
+        "bone": "star01",
+        "transform": {
+          "x": 534,
+          "y": -1,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 622,
+          "height": 724
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "stars_3",
+        "name": "stars_1",
+        "region": "stars_1",
+        "type": "region",
+        "bone": "star3",
+        "transform": {
+          "x": 534,
+          "y": -1,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 622,
+          "height": 724
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "suru_banner_in",
+        "duration": 0.8,
+        "keyframes": 38,
+        "curvedKeys": 24,
+        "channels": [
+          {
+            "path": "slots.stars_1.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.stars_3.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.123456789.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.congratulation.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.you have win.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.credit.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.rec.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.rec1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.ray.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.ray2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star01.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.star3.scale",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "123456789",
+          "congratulation",
+          "you have win",
+          "credit",
+          "rec",
+          "rec1",
+          "ray",
+          "ray2",
+          "star1",
+          "star2",
+          "star01",
+          "star3"
+        ],
+        "animatedSlots": [
+          "stars_1",
+          "stars_3"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "suru_banner_loop",
+        "duration": 1.9,
+        "keyframes": 41,
+        "curvedKeys": 28,
+        "channels": [
+          {
+            "path": "slots.stars_1.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.stars_3.color",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.congratulation.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.rec.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.rec1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.ray.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.ray2.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star1.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.star2.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.star01.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.star3.scale",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "congratulation",
+          "rec",
+          "rec1",
+          "ray",
+          "ray2",
+          "star1",
+          "star2",
+          "star01",
+          "star3"
+        ],
+        "animatedSlots": [
+          "stars_1",
+          "stars_3"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "suru_banner_out",
+        "duration": 0.6,
+        "keyframes": 34,
+        "curvedKeys": 18,
+        "channels": [
+          {
+            "path": "slots.stars_1.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.stars_3.color",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.123456789.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.congratulation.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.you have win.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.credit.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.rec.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.rec1.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ray.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ray.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ray2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ray2.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.star1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.star01.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.star3.scale",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "123456789",
+          "congratulation",
+          "you have win",
+          "credit",
+          "rec",
+          "rec1",
+          "ray",
+          "ray2",
+          "star1",
+          "star2",
+          "star01",
+          "star3"
+        ],
+        "animatedSlots": [
+          "stars_1",
+          "stars_3"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 13,
+      "slots": 2,
+      "attachments": 2,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "stars_1",
+      "file": "pieces/stars-1-f5bd399f.png",
+      "page": "suru_banner_2.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 0",
+        "size": "567, 684",
+        "orig": "622, 724",
+        "offset": "30, 36",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

@@ -1,0 +1,454 @@
+{
+  "id": "interrogator-animations-regular-knife-07519ac8-a85b4f1b",
+  "collection": "library",
+  "name": "regular-knife",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/interrogator/animations/regular-knife-07519ac8",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 6,
+    "slots": 3,
+    "attachments": 3,
+    "meshAttachments": 3,
+    "meshUvPairs": 1071,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 1099860,
+    "rgbaBytesEstimate": 4399440,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 3,
+  "actions": [
+    {
+      "name": "land",
+      "duration": 0.7,
+      "keyframes": 216,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "bones.sway.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.sway.translate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.grip.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.guard.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.blade_tip.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "events",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "sway",
+        "grip",
+        "guard",
+        "blade_tip"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [
+        {
+          "name": "land",
+          "time": 0.12
+        }
+      ],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "win",
+      "duration": 0.8,
+      "keyframes": 246,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "bones.sway.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.sway.translate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.grip.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.guard.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.blade_tip.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "events",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "sway",
+        "grip",
+        "guard",
+        "blade_tip"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [
+        {
+          "name": "win_impact",
+          "time": 0.27
+        }
+      ],
+      "tags": [
+        "win"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/interrogator-animations-regular-knife-07519ac8-a85b4f1b/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "sway",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "grip",
+        "parent": "sway",
+        "x": 292.32,
+        "y": -296.25,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "guard",
+        "parent": "grip",
+        "x": -232.98,
+        "y": 225.13,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "blade",
+        "parent": "guard",
+        "x": -44.5,
+        "y": 35.78,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "blade_tip",
+        "parent": "blade",
+        "x": -369.98,
+        "y": 346.42,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "handle",
+        "bone": "root",
+        "setupAttachment": "handle",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "blade",
+        "bone": "root",
+        "setupAttachment": "blade",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "guard",
+        "bone": "root",
+        "setupAttachment": "guard",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "blade",
+        "name": "blade",
+        "region": "blade",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 686,
+          "height": 736
+        },
+        "mesh": {
+          "uvPairs": 357,
+          "vertexNumbers": 2913,
+          "triangles": 640,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "guard",
+        "name": "guard",
+        "region": "guard",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 236,
+          "height": 250
+        },
+        "mesh": {
+          "uvPairs": 357,
+          "vertexNumbers": 1785,
+          "triangles": 640,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "handle",
+        "name": "handle",
+        "region": "handle",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 639,
+          "height": 614
+        },
+        "mesh": {
+          "uvPairs": 357,
+          "vertexNumbers": 1785,
+          "triangles": 640,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "land",
+        "duration": 0.7,
+        "keyframes": 216,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "bones.sway.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.sway.translate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.grip.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.guard.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.blade_tip.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "events",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "sway",
+          "grip",
+          "guard",
+          "blade_tip"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [
+          {
+            "name": "land",
+            "time": 0.12
+          }
+        ],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "win",
+        "duration": 0.8,
+        "keyframes": 246,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "bones.sway.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.sway.translate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.grip.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.guard.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.blade_tip.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "events",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "sway",
+          "grip",
+          "guard",
+          "blade_tip"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [
+          {
+            "name": "win_impact",
+            "time": 0.27
+          }
+        ],
+        "tags": [
+          "win"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 6,
+      "slots": 3,
+      "attachments": 3,
+      "meshAttachments": 3,
+      "meshUvPairs": 1071,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "blade",
+      "file": "pieces/blade-20a8626a.png",
+      "page": "regular-knife.png",
+      "properties": {
+        "bounds": "2,2,686,736",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "guard",
+      "file": "pieces/guard-8a7a6729.png",
+      "page": "regular-knife.png",
+      "properties": {
+        "bounds": "1356,438,236,250"
+      }
+    },
+    {
+      "region": "handle",
+      "file": "pieces/handle-8491866b.png",
+      "page": "regular-knife.png",
+      "properties": {
+        "bounds": "740,49,639,614",
+        "rotate": "90"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

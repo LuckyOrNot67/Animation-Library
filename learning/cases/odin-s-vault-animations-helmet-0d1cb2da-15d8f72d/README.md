@@ -1,0 +1,23 @@
+# odin-s-vault / helmet
+
+Source : bibliotheque/odin-s-vault/animations/helmet-0d1cb2da. Format spine-json, version 4.2.43.
+
+Droits : user-provided-unverified. Aucun avertissement structurel.
+
+## Lecture du rig
+
+15 os, 22 slots, 22 attachments, 15 meshes.
+
+## Actions
+
+- transform : 0.7 s, tags unclassified, 97 clés.
+- win : 0.8333 s, tags win, 46 clés.
+
+## Fichiers utiles
+
+- Skeleton : bibliotheque/odin-s-vault/animations/helmet-0d1cb2da/skeleton.json
+- Atlas : bibliotheque/odin-s-vault/animations/helmet-0d1cb2da/atlas-7d3eb105.atlas
+- Pièces : bibliotheque/odin-s-vault/animations/helmet-0d1cb2da/pieces/
+- analysis.json relie attachment → slot → bone et région → page de texture.
+
+Les noms suggèrent une intention ; les tags sont heuristiques, pas une annotation certifiée.

@@ -1,0 +1,1004 @@
+{
+  "id": "original-coin-burst-animations-skeleton-2ca52462-3f836518",
+  "collection": "library",
+  "name": "skeleton",
+  "machine": "original-coin-burst",
+  "format": "spine-json",
+  "version": "4.2.00",
+  "packagePath": "bibliotheque/original-coin-burst/animations/skeleton-2ca52462",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "original-procedural"
+  },
+  "complexity": {
+    "bones": 11,
+    "slots": 10,
+    "attachments": 10,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 61440,
+    "rgbaBytesEstimate": 245760,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 3,
+  "actions": [
+    {
+      "name": "idle",
+      "duration": 2,
+      "keyframes": 6,
+      "curvedKeys": 2,
+      "channels": [
+        {
+          "path": "bones.body.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.halo.rgba",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "body"
+      ],
+      "animatedSlots": [
+        "halo"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "anticipation",
+      "duration": 0.5,
+      "keyframes": 8,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "bones.body.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.body.rotate",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "body"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "anticipation"
+      ]
+    },
+    {
+      "name": "spin",
+      "duration": 0.8,
+      "keyframes": 7,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "bones.body.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.body.scale",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "body"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "spin"
+      ]
+    },
+    {
+      "name": "win",
+      "duration": 0.65,
+      "keyframes": 74,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "bones.body.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.halo.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.spark0.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.spark0.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.spark1.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.spark1.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.spark2.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.spark2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.spark3.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.spark3.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.spark4.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.spark4.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.spark5.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.spark5.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.spark6.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.spark6.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.spark7.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.spark7.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.halo.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spark0.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spark1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spark2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spark3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spark4.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spark5.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spark6.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spark7.rgba",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "body",
+        "halo",
+        "spark0",
+        "spark1",
+        "spark2",
+        "spark3",
+        "spark4",
+        "spark5",
+        "spark6",
+        "spark7"
+      ],
+      "animatedSlots": [
+        "halo",
+        "spark0",
+        "spark1",
+        "spark2",
+        "spark3",
+        "spark4",
+        "spark5",
+        "spark6",
+        "spark7"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "win"
+      ]
+    },
+    {
+      "name": "exit",
+      "duration": 0.6,
+      "keyframes": 7,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "bones.root.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.root.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.body.rgba",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "root"
+      ],
+      "animatedSlots": [
+        "body"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "transition"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/original-coin-burst-animations-skeleton-2ca52462-3f836518/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "body",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "halo",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "spark0",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "spark1",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 45,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "spark2",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 90,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "spark3",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 135,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "spark4",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 180,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "spark5",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 225,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "spark6",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 270,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "spark7",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 315,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "halo",
+        "bone": "halo",
+        "setupAttachment": "halo",
+        "blend": "additive",
+        "color": "ffffff60"
+      },
+      {
+        "name": "body",
+        "bone": "body",
+        "setupAttachment": "body",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "spark0",
+        "bone": "spark0",
+        "setupAttachment": "spark",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "spark1",
+        "bone": "spark1",
+        "setupAttachment": "spark",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "spark2",
+        "bone": "spark2",
+        "setupAttachment": "spark",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "spark3",
+        "bone": "spark3",
+        "setupAttachment": "spark",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "spark4",
+        "bone": "spark4",
+        "setupAttachment": "spark",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "spark5",
+        "bone": "spark5",
+        "setupAttachment": "spark",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "spark6",
+        "bone": "spark6",
+        "setupAttachment": "spark",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "spark7",
+        "bone": "spark7",
+        "setupAttachment": "spark",
+        "blend": "additive",
+        "color": "ffffff00"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "halo",
+        "name": "halo",
+        "region": "halo",
+        "type": "region",
+        "bone": "halo",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 160,
+          "height": 160
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "body",
+        "name": "body",
+        "region": "body",
+        "type": "region",
+        "bone": "body",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 128,
+          "height": 128
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spark0",
+        "name": "spark",
+        "region": "spark",
+        "type": "region",
+        "bone": "spark0",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 20,
+          "height": 20
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spark1",
+        "name": "spark",
+        "region": "spark",
+        "type": "region",
+        "bone": "spark1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 20,
+          "height": 20
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spark2",
+        "name": "spark",
+        "region": "spark",
+        "type": "region",
+        "bone": "spark2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 20,
+          "height": 20
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spark3",
+        "name": "spark",
+        "region": "spark",
+        "type": "region",
+        "bone": "spark3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 20,
+          "height": 20
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spark4",
+        "name": "spark",
+        "region": "spark",
+        "type": "region",
+        "bone": "spark4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 20,
+          "height": 20
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spark5",
+        "name": "spark",
+        "region": "spark",
+        "type": "region",
+        "bone": "spark5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 20,
+          "height": 20
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spark6",
+        "name": "spark",
+        "region": "spark",
+        "type": "region",
+        "bone": "spark6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 20,
+          "height": 20
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "spark7",
+        "name": "spark",
+        "region": "spark",
+        "type": "region",
+        "bone": "spark7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 20,
+          "height": 20
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "idle",
+        "duration": 2,
+        "keyframes": 6,
+        "curvedKeys": 2,
+        "channels": [
+          {
+            "path": "bones.body.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.halo.rgba",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "body"
+        ],
+        "animatedSlots": [
+          "halo"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "anticipation",
+        "duration": 0.5,
+        "keyframes": 8,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "bones.body.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.body.rotate",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "body"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "anticipation"
+        ]
+      },
+      {
+        "name": "spin",
+        "duration": 0.8,
+        "keyframes": 7,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "bones.body.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.body.scale",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "body"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "spin"
+        ]
+      },
+      {
+        "name": "win",
+        "duration": 0.65,
+        "keyframes": 74,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "bones.body.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.halo.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.spark0.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.spark0.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.spark1.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.spark1.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.spark2.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.spark2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.spark3.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.spark3.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.spark4.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.spark4.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.spark5.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.spark5.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.spark6.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.spark6.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.spark7.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.spark7.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.halo.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spark0.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spark1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spark2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spark3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spark4.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spark5.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spark6.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spark7.rgba",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "body",
+          "halo",
+          "spark0",
+          "spark1",
+          "spark2",
+          "spark3",
+          "spark4",
+          "spark5",
+          "spark6",
+          "spark7"
+        ],
+        "animatedSlots": [
+          "halo",
+          "spark0",
+          "spark1",
+          "spark2",
+          "spark3",
+          "spark4",
+          "spark5",
+          "spark6",
+          "spark7"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "win"
+        ]
+      },
+      {
+        "name": "exit",
+        "duration": 0.6,
+        "keyframes": 7,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "bones.root.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.root.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.body.rgba",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "root"
+        ],
+        "animatedSlots": [
+          "body"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "transition"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 11,
+      "slots": 10,
+      "attachments": 10,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "body",
+      "file": "pieces/body-b52aa955.png",
+      "page": "texture.png",
+      "properties": {
+        "bounds": "0,16,128,128"
+      }
+    },
+    {
+      "region": "halo",
+      "file": "pieces/halo-a5b1366c.png",
+      "page": "texture.png",
+      "properties": {
+        "bounds": "128,0,160,160"
+      }
+    },
+    {
+      "region": "spark",
+      "file": "pieces/spark-9bd7114c.png",
+      "page": "texture.png",
+      "properties": {
+        "bounds": "294,54,52,52"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

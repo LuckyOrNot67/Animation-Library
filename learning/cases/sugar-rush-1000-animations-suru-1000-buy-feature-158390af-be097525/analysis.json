@@ -1,0 +1,1917 @@
+{
+  "id": "sugar-rush-1000-animations-suru-1000-buy-feature-158390af-be097525",
+  "collection": "library",
+  "name": "suru_1000_buy_feature",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-1000-buy-feature-158390af",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 7,
+    "slots": 33,
+    "attachments": 20,
+    "meshAttachments": 7,
+    "meshUvPairs": 28,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 2454096,
+    "rgbaBytesEstimate": 9816384,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 13,
+  "actions": [
+    {
+      "name": "suru_1000_buy_feature_big_in",
+      "duration": 0.5,
+      "keyframes": 40,
+      "curvedKeys": 23,
+      "channels": [
+        {
+          "path": "slots.base_glow.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.base_glow2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.base_glow_5.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.base_glow_6.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.buy_text.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.buy_text_big.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.free_text.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.free_text_big.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.green_base_small.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.multipliers_text.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.red_base_small.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.red_base_small2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.spins_text.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spins_text_big.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.sugar.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.super_text_big.color",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone2.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "bone2"
+      ],
+      "animatedSlots": [
+        "base_glow",
+        "base_glow2",
+        "base_glow_5",
+        "base_glow_6",
+        "buy_text",
+        "buy_text_big",
+        "free_text",
+        "free_text_big",
+        "green_base_small",
+        "multipliers_text",
+        "red_base_small",
+        "red_base_small2",
+        "spins_text",
+        "spins_text_big",
+        "sugar",
+        "super_text_big"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "suru_1000_buy_feature_big_loop",
+      "duration": 2,
+      "keyframes": 13,
+      "curvedKeys": 6,
+      "channels": [
+        {
+          "path": "slots.base_glow2.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.base_glow_6.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.green_base_small.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.red_base_small.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.red_base_small2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.sugar.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.bone2.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "bone2"
+      ],
+      "animatedSlots": [
+        "base_glow2",
+        "base_glow_6",
+        "green_base_small",
+        "red_base_small",
+        "red_base_small2",
+        "sugar"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "suru_1000_buy_feature_big_right_click_out",
+      "duration": 0.6333,
+      "keyframes": 26,
+      "curvedKeys": 13,
+      "channels": [
+        {
+          "path": "slots.base_glow2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.base_glow_6.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.cross_sing.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.cross_sing_defth_shadow.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.green_base_small.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.green_button_big2.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.red_base_small.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.red_base_small2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.red_button_big.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.red_button_big2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.sugar.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.bone2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.click_right.scale",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "bone2",
+        "click_right"
+      ],
+      "animatedSlots": [
+        "base_glow2",
+        "base_glow_6",
+        "cross_sing",
+        "cross_sing_defth_shadow",
+        "green_base_small",
+        "green_button_big2",
+        "red_base_small",
+        "red_base_small2",
+        "red_button_big",
+        "red_button_big2",
+        "sugar"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "suru_1000_buy_feature_big_wrong_click_out",
+      "duration": 0.6333,
+      "keyframes": 26,
+      "curvedKeys": 13,
+      "channels": [
+        {
+          "path": "slots.base_glow2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.base_glow_6.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.green_base_small.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.green_button_big.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.green_button_big2.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.red_base_small.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.red_base_small2.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.red_button_big2.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.right_defth_shadow.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.right_sing.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.sugar.attachment",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.bone2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bone3.scale",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "bone2",
+        "bone3"
+      ],
+      "animatedSlots": [
+        "base_glow2",
+        "base_glow_6",
+        "green_base_small",
+        "green_button_big",
+        "green_button_big2",
+        "red_base_small",
+        "red_base_small2",
+        "red_button_big2",
+        "right_defth_shadow",
+        "right_sing",
+        "sugar"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "suru_1000_buy_feature_small_click",
+      "duration": 0.3667,
+      "keyframes": 11,
+      "curvedKeys": 6,
+      "channels": [
+        {
+          "path": "slots.buy_text_big.color",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.red_base_small2.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.super_text_big.color",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.small_super_buy_click.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bone2.scale",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "small_super_buy_click",
+        "bone2"
+      ],
+      "animatedSlots": [
+        "buy_text_big",
+        "red_base_small2",
+        "super_text_big"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "suru_1000_buy_feature_small_loop",
+      "duration": 1,
+      "keyframes": 18,
+      "curvedKeys": 4,
+      "channels": [
+        {
+          "path": "slots.base_glow.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.base_glow_2.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.base_glow_5.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.buy_text.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.buy_text_big.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.free_text.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.free_text_big.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.multipliers_text.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.red_base_small2.color",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.spins_text.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.spins_text_big.color",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.super_text_big.color",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.bone2.scale",
+          "keyframes": 1
+        },
+        {
+          "path": "bones.small_super_buy_click.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "bone2",
+        "small_super_buy_click"
+      ],
+      "animatedSlots": [
+        "base_glow",
+        "base_glow_2",
+        "base_glow_5",
+        "buy_text",
+        "buy_text_big",
+        "free_text",
+        "free_text_big",
+        "multipliers_text",
+        "red_base_small2",
+        "spins_text",
+        "spins_text_big",
+        "super_text_big"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-1000-buy-feature-158390af-be097525/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "small_super_buy_click",
+        "parent": "root",
+        "x": -756.28,
+        "y": 329.15,
+        "length": 121.29,
+        "rotation": -0.7,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone2",
+        "parent": "root",
+        "x": -1,
+        "y": 40,
+        "length": 422.99,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "big_super_buy_free_spins",
+        "parent": "bone2",
+        "x": 2.83,
+        "y": -105.21,
+        "length": 309.12,
+        "rotation": 89.69,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "doller",
+        "parent": "bone2",
+        "x": -13.87,
+        "y": -113.44,
+        "length": 153.57,
+        "rotation": -0.65,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "click_right",
+        "parent": "bone2",
+        "x": 217.93,
+        "y": -183.11,
+        "length": 109.8,
+        "rotation": -0.88,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone3",
+        "parent": "bone2",
+        "x": -307.63,
+        "y": -185.97,
+        "length": 141.92,
+        "rotation": -1.36,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "base_glow_2",
+        "bone": "bone2",
+        "setupAttachment": "base_glow_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "base_glow_3",
+        "bone": "bone2",
+        "setupAttachment": "base_glow_2",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "multipliers_text",
+        "bone": "big_super_buy_free_spins",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "buy_text_big",
+        "bone": "big_super_buy_free_spins",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "free_text_big",
+        "bone": "big_super_buy_free_spins",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "spins_text_big",
+        "bone": "big_super_buy_free_spins",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "super_text_big",
+        "bone": "big_super_buy_free_spins",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "sugar",
+        "bone": "root",
+        "setupAttachment": "sugar",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "green_base_small",
+        "bone": "root",
+        "setupAttachment": "green_base_small",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "buy_text_small_2",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "super_text_small",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "spins_text_small_2",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "red_base_small",
+        "bone": "root",
+        "setupAttachment": "red_base_small",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "red_base_small2",
+        "bone": "root",
+        "setupAttachment": "red_base_small",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "spins_text_small",
+        "bone": "small_super_buy_click",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "buy_text_small",
+        "bone": "small_super_buy_click",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "base_glow_5",
+        "bone": "bone2",
+        "setupAttachment": "base_glow_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "base_glow_6",
+        "bone": "bone2",
+        "setupAttachment": "base_glow_2",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "base_glow",
+        "bone": "bone2",
+        "setupAttachment": "base_glow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "base_glow2",
+        "bone": "bone2",
+        "setupAttachment": "base_glow",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "base_2",
+        "bone": "bone2",
+        "setupAttachment": "base_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "doller_button_light",
+        "bone": "doller",
+        "setupAttachment": "doller_button_light",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "buy_text",
+        "bone": "bone2",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "free_text",
+        "bone": "bone2",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "spins_text",
+        "bone": "bone2",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "red_button_big",
+        "bone": "bone3",
+        "setupAttachment": "red_button_big",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "red_button_big2",
+        "bone": "bone3",
+        "setupAttachment": "red_button_big",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "cross_sing_defth_shadow",
+        "bone": "bone3",
+        "setupAttachment": "cross_sing_defth_shadow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cross_sing",
+        "bone": "bone3",
+        "setupAttachment": "cross_sing",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "green_button_big",
+        "bone": "click_right",
+        "setupAttachment": "green_button_big",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "green_button_big2",
+        "bone": "click_right",
+        "setupAttachment": "green_button_big",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "right_defth_shadow",
+        "bone": "click_right",
+        "setupAttachment": "right_defth_shadow",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "right_sing",
+        "bone": "click_right",
+        "setupAttachment": "right_sing",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "base_2",
+        "name": "base_2",
+        "region": "base_2",
+        "type": "region",
+        "bone": "bone2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 985,
+          "height": 598
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "base_glow",
+        "name": "base_glow",
+        "region": "base_glow",
+        "type": "region",
+        "bone": "bone2",
+        "transform": {
+          "x": -3.07,
+          "y": -1.01,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1000,
+          "height": 618
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "base_glow2",
+        "name": "base_glow",
+        "region": "base_glow",
+        "type": "region",
+        "bone": "bone2",
+        "transform": {
+          "x": -3.07,
+          "y": -1.01,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1000,
+          "height": 618
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "base_glow_2",
+        "name": "base_glow_2",
+        "region": "base_glow_2",
+        "type": "region",
+        "bone": "bone2",
+        "transform": {
+          "x": -3,
+          "y": 1,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1154,
+          "height": 773
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "base_glow_3",
+        "name": "base_glow_2",
+        "region": "base_glow_2",
+        "type": "region",
+        "bone": "bone2",
+        "transform": {
+          "x": -3,
+          "y": 1,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1154,
+          "height": 773
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "base_glow_5",
+        "name": "base_glow_2",
+        "region": "base_glow_2",
+        "type": "region",
+        "bone": "bone2",
+        "transform": {
+          "x": 0.84,
+          "y": -4.21,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1154,
+          "height": 773
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "base_glow_6",
+        "name": "base_glow_2",
+        "region": "base_glow_2",
+        "type": "region",
+        "bone": "bone2",
+        "transform": {
+          "x": 0.84,
+          "y": -4.21,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1154,
+          "height": 773
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cross_sing",
+        "name": "cross_sing",
+        "region": "cross_sing",
+        "type": "mesh",
+        "bone": "bone3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 72,
+          "height": 69
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cross_sing_defth_shadow",
+        "name": "cross_sing_defth_shadow",
+        "region": "cross_sing_defth_shadow",
+        "type": "mesh",
+        "bone": "bone3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 75,
+          "height": 73
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "doller_button_light",
+        "name": "doller_button_light",
+        "region": "doller_button_light",
+        "type": "region",
+        "bone": "doller",
+        "transform": {
+          "x": 21.49,
+          "y": -5.5,
+          "rotation": 0.65,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 289,
+          "height": 128
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "green_base_small",
+        "name": "green_base_small",
+        "region": "green_base_small",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 188,
+          "height": 137
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "green_button_big",
+        "name": "green_button_big",
+        "region": "green_button_big",
+        "type": "region",
+        "bone": "click_right",
+        "transform": {
+          "x": 58.9,
+          "y": 2.57,
+          "rotation": 0.88,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 231,
+          "height": 120
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "green_button_big2",
+        "name": "green_button_big",
+        "region": "green_button_big",
+        "type": "region",
+        "bone": "click_right",
+        "transform": {
+          "x": 53.62,
+          "y": -2.59,
+          "rotation": 0.88,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 231,
+          "height": 120
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "red_base_small",
+        "name": "red_base_small",
+        "region": "red_base_small",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 188,
+          "height": 106
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "red_base_small2",
+        "name": "red_base_small",
+        "region": "red_base_small",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 188,
+          "height": 106
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "red_button_big",
+        "name": "red_button_big",
+        "region": "red_button_big",
+        "type": "mesh",
+        "bone": "bone3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 231,
+          "height": 120
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "red_button_big2",
+        "name": "red_button_big",
+        "region": "red_button_big",
+        "type": "mesh",
+        "bone": "bone3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 231,
+          "height": 120
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "right_defth_shadow",
+        "name": "right_defth_shadow",
+        "region": "right_defth_shadow",
+        "type": "region",
+        "bone": "click_right",
+        "transform": {
+          "x": 58.91,
+          "y": 2.07,
+          "rotation": 0.88,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 101,
+          "height": 77
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "right_sing",
+        "name": "right_sing",
+        "region": "right_sing",
+        "type": "region",
+        "bone": "click_right",
+        "transform": {
+          "x": 58.86,
+          "y": 5.07,
+          "rotation": -359.12,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 97,
+          "height": 73
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "sugar",
+        "name": "sugar",
+        "region": "sugar",
+        "type": "region",
+        "bone": "root",
+        "transform": {
+          "x": -744.5,
+          "y": 270.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 253,
+          "height": 327
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "suru_1000_buy_feature_big_in",
+        "duration": 0.5,
+        "keyframes": 40,
+        "curvedKeys": 23,
+        "channels": [
+          {
+            "path": "slots.base_glow.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.base_glow2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.base_glow_5.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.base_glow_6.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.buy_text.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.buy_text_big.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.free_text.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.free_text_big.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.green_base_small.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.multipliers_text.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.red_base_small.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.red_base_small2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.spins_text.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spins_text_big.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.sugar.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.super_text_big.color",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone2.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "bone2"
+        ],
+        "animatedSlots": [
+          "base_glow",
+          "base_glow2",
+          "base_glow_5",
+          "base_glow_6",
+          "buy_text",
+          "buy_text_big",
+          "free_text",
+          "free_text_big",
+          "green_base_small",
+          "multipliers_text",
+          "red_base_small",
+          "red_base_small2",
+          "spins_text",
+          "spins_text_big",
+          "sugar",
+          "super_text_big"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "suru_1000_buy_feature_big_loop",
+        "duration": 2,
+        "keyframes": 13,
+        "curvedKeys": 6,
+        "channels": [
+          {
+            "path": "slots.base_glow2.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.base_glow_6.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.green_base_small.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.red_base_small.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.red_base_small2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.sugar.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.bone2.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "bone2"
+        ],
+        "animatedSlots": [
+          "base_glow2",
+          "base_glow_6",
+          "green_base_small",
+          "red_base_small",
+          "red_base_small2",
+          "sugar"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "suru_1000_buy_feature_big_right_click_out",
+        "duration": 0.6333,
+        "keyframes": 26,
+        "curvedKeys": 13,
+        "channels": [
+          {
+            "path": "slots.base_glow2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.base_glow_6.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.cross_sing.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.cross_sing_defth_shadow.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.green_base_small.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.green_button_big2.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.red_base_small.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.red_base_small2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.red_button_big.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.red_button_big2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.sugar.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.bone2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.click_right.scale",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "bone2",
+          "click_right"
+        ],
+        "animatedSlots": [
+          "base_glow2",
+          "base_glow_6",
+          "cross_sing",
+          "cross_sing_defth_shadow",
+          "green_base_small",
+          "green_button_big2",
+          "red_base_small",
+          "red_base_small2",
+          "red_button_big",
+          "red_button_big2",
+          "sugar"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "suru_1000_buy_feature_big_wrong_click_out",
+        "duration": 0.6333,
+        "keyframes": 26,
+        "curvedKeys": 13,
+        "channels": [
+          {
+            "path": "slots.base_glow2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.base_glow_6.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.green_base_small.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.green_button_big.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.green_button_big2.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.red_base_small.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.red_base_small2.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.red_button_big2.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.right_defth_shadow.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.right_sing.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.sugar.attachment",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.bone2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bone3.scale",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "bone2",
+          "bone3"
+        ],
+        "animatedSlots": [
+          "base_glow2",
+          "base_glow_6",
+          "green_base_small",
+          "green_button_big",
+          "green_button_big2",
+          "red_base_small",
+          "red_base_small2",
+          "red_button_big2",
+          "right_defth_shadow",
+          "right_sing",
+          "sugar"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "suru_1000_buy_feature_small_click",
+        "duration": 0.3667,
+        "keyframes": 11,
+        "curvedKeys": 6,
+        "channels": [
+          {
+            "path": "slots.buy_text_big.color",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.red_base_small2.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.super_text_big.color",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.small_super_buy_click.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bone2.scale",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "small_super_buy_click",
+          "bone2"
+        ],
+        "animatedSlots": [
+          "buy_text_big",
+          "red_base_small2",
+          "super_text_big"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "suru_1000_buy_feature_small_loop",
+        "duration": 1,
+        "keyframes": 18,
+        "curvedKeys": 4,
+        "channels": [
+          {
+            "path": "slots.base_glow.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.base_glow_2.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.base_glow_5.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.buy_text.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.buy_text_big.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.free_text.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.free_text_big.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.multipliers_text.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.red_base_small2.color",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.spins_text.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.spins_text_big.color",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.super_text_big.color",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.bone2.scale",
+            "keyframes": 1
+          },
+          {
+            "path": "bones.small_super_buy_click.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "bone2",
+          "small_super_buy_click"
+        ],
+        "animatedSlots": [
+          "base_glow",
+          "base_glow_2",
+          "base_glow_5",
+          "buy_text",
+          "buy_text_big",
+          "free_text",
+          "free_text_big",
+          "multipliers_text",
+          "red_base_small2",
+          "spins_text",
+          "spins_text_big",
+          "super_text_big"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 7,
+      "slots": 33,
+      "attachments": 20,
+      "meshAttachments": 7,
+      "meshUvPairs": 28,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "base_2",
+      "file": "pieces/base-2-a737d491.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1778, 45",
+        "size": "985, 598",
+        "orig": "985, 598",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "base_glow",
+      "file": "pieces/base-glow-56a6d357.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "1158, 30",
+        "size": "1000, 618",
+        "orig": "1000, 618",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "base_glow_2",
+      "file": "pieces/base-glow-2-658284b5.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "2, 257",
+        "size": "1154, 773",
+        "orig": "1154, 773",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cross_sing",
+      "file": "pieces/cross-sing-1e17902e.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "987, 106",
+        "size": "72, 69",
+        "orig": "72, 69",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cross_sing_defth_shadow",
+      "file": "pieces/cross-sing-defth-shadow-b79cb7b3.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "966, 180",
+        "size": "75, 73",
+        "orig": "75, 73",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "doller_button_light",
+      "file": "pieces/doller-button-light-71a30cb8.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "331, 127",
+        "size": "289, 128",
+        "orig": "289, 128",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "green_base_small",
+      "file": "pieces/green-base-small-7c14bb62.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "797, 10",
+        "size": "188, 137",
+        "orig": "188, 137",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "green_button_big",
+      "file": "pieces/green-button-big-23718bd0.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "331, 5",
+        "size": "231, 120",
+        "orig": "231, 120",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "red_base_small",
+      "file": "pieces/red-base-small-91975182.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "622, 149",
+        "size": "188, 106",
+        "orig": "188, 106",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "red_button_big",
+      "file": "pieces/red-button-big-73d72243.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "564, 5",
+        "size": "231, 120",
+        "orig": "231, 120",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "right_defth_shadow",
+      "file": "pieces/right-defth-shadow-e68e3b1a.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "812, 154",
+        "size": "101, 77",
+        "orig": "101, 77",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "right_sing",
+      "file": "pieces/right-sing-92c45ce0.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "891, 158",
+        "size": "97, 73",
+        "orig": "97, 73",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "sugar",
+      "file": "pieces/sugar-7e904ce2.png",
+      "page": "suru_1000_buy_feature.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "2, 2",
+        "size": "253, 327",
+        "orig": "253, 327",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

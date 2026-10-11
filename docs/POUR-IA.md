@@ -1,5 +1,7 @@
 # Lire une animation comme référence
 
+Commencer par ../CLAUDE.md et GUIDE-CLAUDE.md. `npm run prepare:claude` importe la sélection GitHub et génère learning/index.json ; `npm run reference:search -- win` retrouve les actions sans charger tout le corpus.
+
 1. Lire bibliotheque/catalogue.json : machines, packages, formats, versions et actions.
 2. Ouvrir metadata.json du package : os, slots, skins, textures, régions et warnings. Ne pas considérer une association incertaine comme une correspondance garantie.
 3. Ouvrir skeleton.json : hiérarchie des bones, attachments, contraintes, meshes, animations et courbes. Les vertices/weights/UV expliquent comment les morceaux sont déformés.

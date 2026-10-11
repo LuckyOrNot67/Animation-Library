@@ -1,0 +1,3167 @@
+{
+  "id": "odin-s-vault-animations-redrop-df181265-f50568f5",
+  "collection": "library",
+  "name": "redrop",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/redrop-df181265",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 33,
+    "slots": 29,
+    "attachments": 28,
+    "meshAttachments": 23,
+    "meshUvPairs": 441,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 262144,
+    "rgbaBytesEstimate": 1048576,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 22,
+  "actions": [
+    {
+      "name": "collect",
+      "duration": 1,
+      "keyframes": 367,
+      "curvedKeys": 262,
+      "channels": [
+        {
+          "path": "slots.Arrow_1_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Arrow_2_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.BG_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Collar_1_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Collar_2_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Eye_1_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Eye_1_redrop2.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.Eye_2_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Eye_2_redrop2.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.Eye_glow_redrop.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Eye_glow_redrop2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Flame_glow_redrop.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Flame_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Glow_redrop.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Golden_lip_1_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Golden_lip_2_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Head_1_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Head_2_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Ring_04_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Shadow_1_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Sparks_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.redrop.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.redrop.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.redrop.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.redrop_r.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.redrop_r.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.redrop_r.scale",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.redrop_l.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop_l.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.redrop_l.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.redrop_l2.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop_l2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.redrop_l3.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop_l3.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.redrop2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.redrop3.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop3.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.redrop3.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.redrop6.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop6.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.redrop6.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.redrop9.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop9.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.redrop9.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.redrop12.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop12.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.redrop12.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.redrop4.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop4.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.redrop4.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop7.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop7.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.redrop7.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop10.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop10.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.redrop10.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop13.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop13.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.redrop13.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop5.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop5.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop5.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop8.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop8.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop8.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop11.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop11.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop11.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop14.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop14.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop14.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop15.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.redrop_r2.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop_r2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.redrop_r3.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop_r3.scale",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "redrop",
+        "redrop_r",
+        "redrop_l",
+        "redrop_l2",
+        "redrop_l3",
+        "redrop2",
+        "redrop3",
+        "redrop6",
+        "redrop9",
+        "redrop12",
+        "redrop4",
+        "redrop7",
+        "redrop10",
+        "redrop13",
+        "redrop5",
+        "redrop8",
+        "redrop11",
+        "redrop14",
+        "redrop15",
+        "redrop_r2",
+        "redrop_r3"
+      ],
+      "animatedSlots": [
+        "Arrow_1_redrop",
+        "Arrow_2_redrop",
+        "BG_redrop",
+        "Collar_1_redrop",
+        "Collar_2_redrop",
+        "Eye_1_redrop",
+        "Eye_1_redrop2",
+        "Eye_2_redrop",
+        "Eye_2_redrop2",
+        "Eye_glow_redrop",
+        "Eye_glow_redrop2",
+        "Flame_glow_redrop",
+        "Flame_redrop",
+        "Glow_redrop",
+        "Golden_lip_1_redrop",
+        "Golden_lip_2_redrop",
+        "Head_1_redrop",
+        "Head_2_redrop",
+        "Ring_04_redrop",
+        "Shadow_1_redrop",
+        "Sparks_redrop"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "win",
+      "duration": 1,
+      "keyframes": 446,
+      "curvedKeys": 319,
+      "channels": [
+        {
+          "path": "slots.Arrow_1_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Arrow_2_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.BG_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Collar_1_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Collar_2_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Eye_1_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Eye_1_redrop2.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.Eye_2_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Eye_2_redrop2.rgba",
+          "keyframes": 6
+        },
+        {
+          "path": "slots.Eye_glow_redrop.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Eye_glow_redrop2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Flame_glow_redrop.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.Flame_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Glow_redrop.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.Golden_lip_1_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Golden_lip_2_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Head_1_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Head_2_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.head_inner.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.head_inner_add.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.head_low.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.head_low_add.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.head_top.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.head_top_add.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.part_l.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.part_r.rgba",
+          "keyframes": 5
+        },
+        {
+          "path": "slots.Ring_04_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Shadow_1_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.Sparks_redrop.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.redrop.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.redrop.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.redrop.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop_r.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.redrop_r.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.redrop_r.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop_l.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.redrop_l.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.redrop_l.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.redrop_l2.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.redrop_l2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.redrop_l3.rotate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.redrop_l3.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.redrop2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.redrop3.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop3.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.redrop3.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.redrop6.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop6.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.redrop6.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.redrop9.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop9.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.redrop9.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.redrop12.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop12.translate",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.redrop12.scale",
+          "keyframes": 7
+        },
+        {
+          "path": "bones.redrop4.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop4.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.redrop4.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop7.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop7.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.redrop7.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop10.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop10.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.redrop10.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop13.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop13.translate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.redrop13.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop5.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop5.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop5.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop8.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop8.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop8.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop11.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop11.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop11.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop14.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop14.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.redrop14.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.redrop15.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.redrop_r2.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.redrop_r2.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.redrop_r3.rotate",
+          "keyframes": 8
+        },
+        {
+          "path": "bones.redrop_r3.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.redrop_l4.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.redrop_r4.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.head_top.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.head_top.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.Head.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.Head.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.Head.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.head_low2.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.head_top2.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.head_top2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "attachments.default.head_top.head_top.deform",
+          "keyframes": 2
+        },
+        {
+          "path": "attachments.default.head_top_add.head_top.deform",
+          "keyframes": 2
+        },
+        {
+          "path": "drawOrder",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "redrop",
+        "redrop_r",
+        "redrop_l",
+        "redrop_l2",
+        "redrop_l3",
+        "redrop2",
+        "redrop3",
+        "redrop6",
+        "redrop9",
+        "redrop12",
+        "redrop4",
+        "redrop7",
+        "redrop10",
+        "redrop13",
+        "redrop5",
+        "redrop8",
+        "redrop11",
+        "redrop14",
+        "redrop15",
+        "redrop_r2",
+        "redrop_r3",
+        "redrop_l4",
+        "redrop_r4",
+        "head_top",
+        "Head",
+        "head_low2",
+        "head_top2"
+      ],
+      "animatedSlots": [
+        "Arrow_1_redrop",
+        "Arrow_2_redrop",
+        "BG_redrop",
+        "Collar_1_redrop",
+        "Collar_2_redrop",
+        "Eye_1_redrop",
+        "Eye_1_redrop2",
+        "Eye_2_redrop",
+        "Eye_2_redrop2",
+        "Eye_glow_redrop",
+        "Eye_glow_redrop2",
+        "Flame_glow_redrop",
+        "Flame_redrop",
+        "Glow_redrop",
+        "Golden_lip_1_redrop",
+        "Golden_lip_2_redrop",
+        "Head_1_redrop",
+        "Head_2_redrop",
+        "head_inner",
+        "head_inner_add",
+        "head_low",
+        "head_low_add",
+        "head_top",
+        "head_top_add",
+        "part_l",
+        "part_r",
+        "Ring_04_redrop",
+        "Shadow_1_redrop",
+        "Sparks_redrop"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": true,
+      "events": [],
+      "tags": [
+        "win"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-redrop-df181265-f50568f5/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Mine_redrop",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop",
+        "parent": "Mine_redrop",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop_r",
+        "parent": "redrop",
+        "x": 35.14,
+        "y": -16.07,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop_l",
+        "parent": "redrop",
+        "x": -31.5,
+        "y": 23.07,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop_r2",
+        "parent": "redrop_r",
+        "x": -1.47,
+        "y": -4.09,
+        "length": 14.3,
+        "rotation": -105.95,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop_l2",
+        "parent": "redrop_l",
+        "x": 1.64,
+        "y": 4.26,
+        "length": 20.66,
+        "rotation": 64.65,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop_l3",
+        "parent": "redrop_l",
+        "x": 5.4,
+        "y": -4.26,
+        "length": 16.7,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop_r3",
+        "parent": "redrop_r",
+        "x": -5.08,
+        "y": 0,
+        "length": 16.75,
+        "rotation": -175.52,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop2",
+        "parent": "redrop",
+        "x": 0.02,
+        "y": 0.42,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop3",
+        "parent": "redrop2",
+        "x": 29.39,
+        "y": 46.44,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop4",
+        "parent": "redrop2",
+        "x": 47.25,
+        "y": 26.13,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop5",
+        "parent": "redrop2",
+        "x": 55.57,
+        "y": -10.32,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop6",
+        "parent": "redrop2",
+        "x": 41.87,
+        "y": -40.41,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop7",
+        "parent": "redrop2",
+        "x": 28.17,
+        "y": -50.68,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop8",
+        "parent": "redrop2",
+        "x": -41.8,
+        "y": -35.03,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop9",
+        "parent": "redrop2",
+        "x": -54.27,
+        "y": 4.11,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop10",
+        "parent": "redrop2",
+        "x": -45.95,
+        "y": 28.09,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop11",
+        "parent": "redrop2",
+        "x": -19.04,
+        "y": 7.78,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop12",
+        "parent": "redrop2",
+        "x": 18.38,
+        "y": 11.94,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop13",
+        "parent": "redrop2",
+        "x": 13.98,
+        "y": -15.46,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop14",
+        "parent": "redrop2",
+        "x": -12.19,
+        "y": -17.17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop15",
+        "parent": "redrop",
+        "x": -0.11,
+        "y": 0.2,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop_l4",
+        "parent": "redrop_l",
+        "x": 15.68,
+        "y": 8.85,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "redrop_r4",
+        "parent": "redrop_r",
+        "x": -14.67,
+        "y": -15.53,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "snake_head",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Head",
+        "parent": "snake_head",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "head_top",
+        "parent": "Head",
+        "x": 0.53,
+        "y": 115.12,
+        "length": 15.3,
+        "rotation": -90,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "head_top2",
+        "parent": "Head",
+        "x": 0.53,
+        "y": 63.49,
+        "length": 0,
+        "rotation": -90,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "head_low",
+        "parent": "Head",
+        "x": 0.72,
+        "y": -115.72,
+        "length": 10.8,
+        "rotation": 90,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "head_low2",
+        "parent": "Head",
+        "x": 0.72,
+        "y": -95.09,
+        "length": 0,
+        "rotation": 90,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "part_l",
+        "parent": "Head",
+        "x": -100.06,
+        "y": 39.25,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "part_r",
+        "parent": "Head",
+        "x": 105.12,
+        "y": 41.72,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "BG_redrop",
+        "bone": "Mine_redrop",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Shadow_1_redrop",
+        "bone": "Mine_redrop",
+        "setupAttachment": "Shadow_1_redrop",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "head_inner",
+        "bone": "Head",
+        "setupAttachment": "head_inner",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "head_inner_add",
+        "bone": "Head",
+        "setupAttachment": "head_inner",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "head_top",
+        "bone": "head_top",
+        "setupAttachment": "head_top",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "head_top_add",
+        "bone": "head_top",
+        "setupAttachment": "head_top",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "head_low",
+        "bone": "head_low",
+        "setupAttachment": "head_low",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "head_low_add",
+        "bone": "head_low",
+        "setupAttachment": "head_low",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "part_l",
+        "bone": "part_l",
+        "setupAttachment": "part_l",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "part_r",
+        "bone": "part_r",
+        "setupAttachment": "part_r",
+        "blend": "normal",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Flame_glow_redrop",
+        "bone": "redrop15",
+        "setupAttachment": "Flame_glow_redrop",
+        "blend": "additive",
+        "color": "9cff8800"
+      },
+      {
+        "name": "Flame_redrop",
+        "bone": "redrop2",
+        "setupAttachment": "Flame_redrop",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Glow_redrop",
+        "bone": "redrop2",
+        "setupAttachment": "Glow_redrop",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Sparks_redrop",
+        "bone": "redrop2",
+        "setupAttachment": "Sparks_redrop",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Ring_04_redrop",
+        "bone": "redrop",
+        "setupAttachment": "Ring_04_redrop",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Collar_2_redrop",
+        "bone": "redrop_l",
+        "setupAttachment": "Collar_2_redrop",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Head_2_redrop",
+        "bone": "redrop_l",
+        "setupAttachment": "Head_2_redrop",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Eye_2_redrop",
+        "bone": "redrop_l",
+        "setupAttachment": "Eye_2_redrop",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Eye_2_redrop2",
+        "bone": "redrop_l",
+        "setupAttachment": "Eye_2_redrop",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Golden_lip_2_redrop",
+        "bone": "redrop_l",
+        "setupAttachment": "Golden_lip_2_redrop",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Arrow_2_redrop",
+        "bone": "redrop_l",
+        "setupAttachment": "Arrow_2_redrop",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Collar_1_redrop",
+        "bone": "redrop_r",
+        "setupAttachment": "Collar_1_redrop",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Head_1_redrop",
+        "bone": "redrop_r",
+        "setupAttachment": "Head_1_redrop",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Eye_1_redrop",
+        "bone": "redrop_r",
+        "setupAttachment": "Eye_1_redrop",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Eye_1_redrop2",
+        "bone": "redrop_r",
+        "setupAttachment": "Eye_1_redrop",
+        "blend": "additive",
+        "color": "ffffff00"
+      },
+      {
+        "name": "Golden_lip_1_redrop",
+        "bone": "redrop_r",
+        "setupAttachment": "Golden_lip_1_redrop",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Arrow_1_redrop",
+        "bone": "redrop_r",
+        "setupAttachment": "Arrow_1_redrop",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "Eye_glow_redrop",
+        "bone": "redrop_l",
+        "setupAttachment": "Eye_glow_redrop",
+        "blend": "additive",
+        "color": "ff000000"
+      },
+      {
+        "name": "Eye_glow_redrop2",
+        "bone": "redrop_r",
+        "setupAttachment": "Eye_glow_redrop",
+        "blend": "additive",
+        "color": "ff000000"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "Arrow_1_redrop",
+        "name": "Arrow_1_redrop",
+        "region": "Arrow_1_redrop",
+        "type": "mesh",
+        "bone": "redrop_r",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 28,
+          "height": 27
+        },
+        "mesh": {
+          "uvPairs": 6,
+          "vertexNumbers": 54,
+          "triangles": 4,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Arrow_2_redrop",
+        "name": "Arrow_2_redrop",
+        "region": "Arrow_2_redrop",
+        "type": "mesh",
+        "bone": "redrop_l",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 28,
+          "height": 27
+        },
+        "mesh": {
+          "uvPairs": 6,
+          "vertexNumbers": 54,
+          "triangles": 4,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Collar_1_redrop",
+        "name": "Collar_1_redrop",
+        "region": "Collar_1_redrop",
+        "type": "mesh",
+        "bone": "redrop_r",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 30,
+          "height": 15
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Collar_2_redrop",
+        "name": "Collar_2_redrop",
+        "region": "Collar_2_redrop",
+        "type": "mesh",
+        "bone": "redrop_l",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 30,
+          "height": 17
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 36,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Eye_1_redrop",
+        "name": "Eye_1_redrop",
+        "region": "Eye_1_redrop",
+        "type": "mesh",
+        "bone": "redrop_r",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 8,
+          "height": 8
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 20,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Eye_1_redrop2",
+        "name": "Eye_1_redrop",
+        "region": "Eye_1_redrop",
+        "type": "mesh",
+        "bone": "redrop_r",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 8,
+          "height": 8
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 20,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Eye_2_redrop",
+        "name": "Eye_2_redrop",
+        "region": "Eye_2_redrop",
+        "type": "mesh",
+        "bone": "redrop_l",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 8,
+          "height": 8
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 20,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Eye_2_redrop2",
+        "name": "Eye_2_redrop",
+        "region": "Eye_2_redrop",
+        "type": "mesh",
+        "bone": "redrop_l",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 8,
+          "height": 8
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 20,
+          "triangles": 2,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Eye_glow_redrop",
+        "name": "Eye_glow_redrop",
+        "region": "Eye_glow_redrop",
+        "type": "region",
+        "bone": "redrop_l",
+        "transform": {
+          "x": 0.4,
+          "y": 8.26,
+          "rotation": 0,
+          "scaleX": 1.3019,
+          "scaleY": 1.3019
+        },
+        "size": {
+          "width": 13,
+          "height": 13
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Eye_glow_redrop2",
+        "name": "Eye_glow_redrop",
+        "region": "Eye_glow_redrop",
+        "type": "region",
+        "bone": "redrop_r",
+        "transform": {
+          "x": -2.21,
+          "y": -14.51,
+          "rotation": 0,
+          "scaleX": 1.3019,
+          "scaleY": 1.3019
+        },
+        "size": {
+          "width": 13,
+          "height": 13
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Flame_glow_redrop",
+        "name": "Flame_glow_redrop",
+        "region": "Flame_glow_redrop",
+        "type": "region",
+        "bone": "redrop15",
+        "transform": {
+          "x": 4.02,
+          "y": -1.55,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 200,
+          "height": 200
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Flame_redrop",
+        "name": "Flame_redrop",
+        "region": "Flame_redrop",
+        "type": "mesh",
+        "bone": "redrop2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 128,
+          "height": 120
+        },
+        "mesh": {
+          "uvPairs": 42,
+          "vertexNumbers": 718,
+          "triangles": 60,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Glow_redrop",
+        "name": "Glow_redrop",
+        "region": "Glow_redrop",
+        "type": "mesh",
+        "bone": "redrop2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 121,
+          "height": 105
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Golden_lip_1_redrop",
+        "name": "Golden_lip_1_redrop",
+        "region": "Golden_lip_1_redrop",
+        "type": "mesh",
+        "bone": "redrop_r",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 26,
+          "height": 38
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 52,
+          "triangles": 6,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Golden_lip_2_redrop",
+        "name": "Golden_lip_2_redrop",
+        "region": "Golden_lip_2_redrop",
+        "type": "mesh",
+        "bone": "redrop_l",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 25,
+          "height": 38
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 60,
+          "triangles": 6,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Head_1_redrop",
+        "name": "Head_1_redrop",
+        "region": "Head_1_redrop",
+        "type": "mesh",
+        "bone": "redrop_r",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 46,
+          "height": 45
+        },
+        "mesh": {
+          "uvPairs": 14,
+          "vertexNumbers": 130,
+          "triangles": 12,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Head_2_redrop",
+        "name": "Head_2_redrop",
+        "region": "Head_2_redrop",
+        "type": "mesh",
+        "bone": "redrop_l",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 46,
+          "height": 45
+        },
+        "mesh": {
+          "uvPairs": 11,
+          "vertexNumbers": 123,
+          "triangles": 9,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "head_inner",
+        "name": "head_inner",
+        "region": "head_inner",
+        "type": "mesh",
+        "bone": "Head",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 142,
+          "height": 155
+        },
+        "mesh": {
+          "uvPairs": 37,
+          "vertexNumbers": 305,
+          "triangles": 56,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "head_inner_add",
+        "name": "head_inner",
+        "region": "head_inner",
+        "type": "mesh",
+        "bone": "Head",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 142,
+          "height": 155
+        },
+        "mesh": {
+          "uvPairs": 37,
+          "vertexNumbers": 305,
+          "triangles": 56,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "head_low",
+        "name": "head_low",
+        "region": "head_low",
+        "type": "mesh",
+        "bone": "head_low",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 193,
+          "height": 141
+        },
+        "mesh": {
+          "uvPairs": 42,
+          "vertexNumbers": 250,
+          "triangles": 52,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "head_low_add",
+        "name": "head_low",
+        "region": "head_low",
+        "type": "mesh",
+        "bone": "head_low",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 193,
+          "height": 141
+        },
+        "mesh": {
+          "uvPairs": 42,
+          "vertexNumbers": 250,
+          "triangles": 52,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "head_top",
+        "name": "head_top",
+        "region": "head_top",
+        "type": "mesh",
+        "bone": "head_top",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 186,
+          "height": 123
+        },
+        "mesh": {
+          "uvPairs": 74,
+          "vertexNumbers": 634,
+          "triangles": 119,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "head_top_add",
+        "name": "head_top",
+        "region": "head_top",
+        "type": "mesh",
+        "bone": "head_top",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 186,
+          "height": 123
+        },
+        "mesh": {
+          "uvPairs": 74,
+          "vertexNumbers": 634,
+          "triangles": 119,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "part_l",
+        "name": "part_l",
+        "region": "part_l",
+        "type": "region",
+        "bone": "part_l",
+        "transform": {
+          "x": 0.42,
+          "y": 10.65,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 58,
+          "height": 88
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "part_r",
+        "name": "part_r",
+        "region": "part_r",
+        "type": "region",
+        "bone": "part_r",
+        "transform": {
+          "x": -3.94,
+          "y": 8.18,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 89
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Ring_04_redrop",
+        "name": "Ring_04_redrop",
+        "region": "Ring_04_redrop",
+        "type": "mesh",
+        "bone": "redrop",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 94,
+          "height": 94
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Shadow_1_redrop",
+        "name": "Shadow_1_redrop",
+        "region": "Shadow_1_redrop",
+        "type": "mesh",
+        "bone": "Mine_redrop",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 108,
+          "height": 103
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "Sparks_redrop",
+        "name": "Sparks_redrop",
+        "region": "Sparks_redrop",
+        "type": "mesh",
+        "bone": "redrop2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 123,
+          "height": 111
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "collect",
+        "duration": 1,
+        "keyframes": 367,
+        "curvedKeys": 262,
+        "channels": [
+          {
+            "path": "slots.Arrow_1_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Arrow_2_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.BG_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Collar_1_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Collar_2_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Eye_1_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Eye_1_redrop2.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.Eye_2_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Eye_2_redrop2.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.Eye_glow_redrop.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Eye_glow_redrop2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Flame_glow_redrop.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Flame_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Glow_redrop.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Golden_lip_1_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Golden_lip_2_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Head_1_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Head_2_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Ring_04_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Shadow_1_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Sparks_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.redrop.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.redrop.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.redrop.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.redrop_r.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.redrop_r.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.redrop_r.scale",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.redrop_l.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop_l.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.redrop_l.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.redrop_l2.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop_l2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.redrop_l3.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop_l3.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.redrop2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.redrop3.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop3.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.redrop3.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.redrop6.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop6.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.redrop6.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.redrop9.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop9.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.redrop9.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.redrop12.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop12.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.redrop12.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.redrop4.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop4.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.redrop4.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop7.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop7.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.redrop7.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop10.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop10.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.redrop10.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop13.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop13.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.redrop13.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop5.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop5.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop5.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop8.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop8.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop8.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop11.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop11.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop11.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop14.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop14.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop14.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop15.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.redrop_r2.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop_r2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.redrop_r3.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop_r3.scale",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "redrop",
+          "redrop_r",
+          "redrop_l",
+          "redrop_l2",
+          "redrop_l3",
+          "redrop2",
+          "redrop3",
+          "redrop6",
+          "redrop9",
+          "redrop12",
+          "redrop4",
+          "redrop7",
+          "redrop10",
+          "redrop13",
+          "redrop5",
+          "redrop8",
+          "redrop11",
+          "redrop14",
+          "redrop15",
+          "redrop_r2",
+          "redrop_r3"
+        ],
+        "animatedSlots": [
+          "Arrow_1_redrop",
+          "Arrow_2_redrop",
+          "BG_redrop",
+          "Collar_1_redrop",
+          "Collar_2_redrop",
+          "Eye_1_redrop",
+          "Eye_1_redrop2",
+          "Eye_2_redrop",
+          "Eye_2_redrop2",
+          "Eye_glow_redrop",
+          "Eye_glow_redrop2",
+          "Flame_glow_redrop",
+          "Flame_redrop",
+          "Glow_redrop",
+          "Golden_lip_1_redrop",
+          "Golden_lip_2_redrop",
+          "Head_1_redrop",
+          "Head_2_redrop",
+          "Ring_04_redrop",
+          "Shadow_1_redrop",
+          "Sparks_redrop"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "win",
+        "duration": 1,
+        "keyframes": 446,
+        "curvedKeys": 319,
+        "channels": [
+          {
+            "path": "slots.Arrow_1_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Arrow_2_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.BG_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Collar_1_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Collar_2_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Eye_1_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Eye_1_redrop2.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.Eye_2_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Eye_2_redrop2.rgba",
+            "keyframes": 6
+          },
+          {
+            "path": "slots.Eye_glow_redrop.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Eye_glow_redrop2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Flame_glow_redrop.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.Flame_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Glow_redrop.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.Golden_lip_1_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Golden_lip_2_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Head_1_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Head_2_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.head_inner.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.head_inner_add.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.head_low.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.head_low_add.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.head_top.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.head_top_add.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.part_l.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.part_r.rgba",
+            "keyframes": 5
+          },
+          {
+            "path": "slots.Ring_04_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Shadow_1_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.Sparks_redrop.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.redrop.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.redrop.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.redrop.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop_r.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.redrop_r.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.redrop_r.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop_l.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.redrop_l.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.redrop_l.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.redrop_l2.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.redrop_l2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.redrop_l3.rotate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.redrop_l3.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.redrop2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.redrop3.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop3.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.redrop3.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.redrop6.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop6.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.redrop6.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.redrop9.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop9.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.redrop9.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.redrop12.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop12.translate",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.redrop12.scale",
+            "keyframes": 7
+          },
+          {
+            "path": "bones.redrop4.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop4.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.redrop4.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop7.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop7.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.redrop7.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop10.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop10.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.redrop10.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop13.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop13.translate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.redrop13.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop5.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop5.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop5.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop8.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop8.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop8.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop11.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop11.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop11.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop14.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop14.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.redrop14.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.redrop15.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.redrop_r2.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.redrop_r2.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.redrop_r3.rotate",
+            "keyframes": 8
+          },
+          {
+            "path": "bones.redrop_r3.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.redrop_l4.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.redrop_r4.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.head_top.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.head_top.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.Head.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.Head.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.Head.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.head_low2.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.head_top2.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.head_top2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "attachments.default.head_top.head_top.deform",
+            "keyframes": 2
+          },
+          {
+            "path": "attachments.default.head_top_add.head_top.deform",
+            "keyframes": 2
+          },
+          {
+            "path": "drawOrder",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "redrop",
+          "redrop_r",
+          "redrop_l",
+          "redrop_l2",
+          "redrop_l3",
+          "redrop2",
+          "redrop3",
+          "redrop6",
+          "redrop9",
+          "redrop12",
+          "redrop4",
+          "redrop7",
+          "redrop10",
+          "redrop13",
+          "redrop5",
+          "redrop8",
+          "redrop11",
+          "redrop14",
+          "redrop15",
+          "redrop_r2",
+          "redrop_r3",
+          "redrop_l4",
+          "redrop_r4",
+          "head_top",
+          "Head",
+          "head_low2",
+          "head_top2"
+        ],
+        "animatedSlots": [
+          "Arrow_1_redrop",
+          "Arrow_2_redrop",
+          "BG_redrop",
+          "Collar_1_redrop",
+          "Collar_2_redrop",
+          "Eye_1_redrop",
+          "Eye_1_redrop2",
+          "Eye_2_redrop",
+          "Eye_2_redrop2",
+          "Eye_glow_redrop",
+          "Eye_glow_redrop2",
+          "Flame_glow_redrop",
+          "Flame_redrop",
+          "Glow_redrop",
+          "Golden_lip_1_redrop",
+          "Golden_lip_2_redrop",
+          "Head_1_redrop",
+          "Head_2_redrop",
+          "head_inner",
+          "head_inner_add",
+          "head_low",
+          "head_low_add",
+          "head_top",
+          "head_top_add",
+          "part_l",
+          "part_r",
+          "Ring_04_redrop",
+          "Shadow_1_redrop",
+          "Sparks_redrop"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": true,
+        "events": [],
+        "tags": [
+          "win"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 33,
+      "slots": 29,
+      "attachments": 28,
+      "meshAttachments": 23,
+      "meshUvPairs": 441,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "Arrow_1_redrop",
+      "file": "pieces/arrow-1-redrop-83512c62.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "275,25,28,27",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Arrow_2_redrop",
+      "file": "pieces/arrow-2-redrop-9e61e350.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "304,81,28,27",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Collar_1_redrop",
+      "file": "pieces/collar-1-redrop-003767e6.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "497,358,30,15",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Collar_2_redrop",
+      "file": "pieces/collar-2-redrop-8255606b.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "304,113,30,17",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Eye_1_redrop",
+      "file": "pieces/eye-1-redrop-8ce808d1.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "389,380,8,8"
+      }
+    },
+    {
+      "region": "Eye_2_redrop",
+      "file": "pieces/eye-2-redrop-667abc23.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "401,380,8,8"
+      }
+    },
+    {
+      "region": "Eye_glow_redrop",
+      "file": "pieces/eye-glow-redrop-6ab11d93.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "146,147,13,13"
+      }
+    },
+    {
+      "region": "Flame_glow_redrop",
+      "file": "pieces/flame-glow-redrop-02b756ff.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "0,309,195,194",
+        "offsets": "2,5,200,200"
+      }
+    },
+    {
+      "region": "Flame_redrop",
+      "file": "pieces/flame-redrop-4a52e28d.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "199,256,128,120"
+      }
+    },
+    {
+      "region": "Glow_redrop",
+      "file": "pieces/glow-redrop-274fa300.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "197,147,121,105"
+      }
+    },
+    {
+      "region": "Golden_lip_1_redrop",
+      "file": "pieces/golden-lip-1-redrop-8b42bc82.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "438,272,26,38",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Golden_lip_2_redrop",
+      "file": "pieces/golden-lip-2-redrop-be899650.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "246,15,25,38"
+      }
+    },
+    {
+      "region": "Head_1_redrop",
+      "file": "pieces/head-1-redrop-8f203927.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "146,0,46,45"
+      }
+    },
+    {
+      "region": "Head_2_redrop",
+      "file": "pieces/head-2-redrop-d07f57c0.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "196,0,46,45"
+      }
+    },
+    {
+      "region": "Ring_04_redrop",
+      "file": "pieces/ring-04-redrop-6d2ec834.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "146,49,94,94"
+      }
+    },
+    {
+      "region": "Shadow_1_redrop",
+      "file": "pieces/shadow-1-redrop-609ea3b1.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "331,268,108,103",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "Sparks_redrop",
+      "file": "pieces/sparks-redrop-a741a6b1.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "389,392,123,111"
+      }
+    },
+    {
+      "region": "head_inner",
+      "file": "pieces/head-inner-903af559.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "0,5,142,155"
+      }
+    },
+    {
+      "region": "head_low",
+      "file": "pieces/head-low-88106474.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "0,164,193,141"
+      }
+    },
+    {
+      "region": "head_top",
+      "file": "pieces/head-top-20589f86.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "199,380,186,123"
+      }
+    },
+    {
+      "region": "part_l",
+      "file": "pieces/part-l-4ae724c7.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "244,57,56,86",
+        "offsets": "1,1,58,88"
+      }
+    },
+    {
+      "region": "part_r",
+      "file": "pieces/part-r-0691a1f5.png",
+      "page": "redrop.webp",
+      "properties": {
+        "bounds": "438,302,55,86",
+        "offsets": "1,2,57,89"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

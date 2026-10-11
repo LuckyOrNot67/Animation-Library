@@ -1,0 +1,6026 @@
+{
+  "id": "wicked-grin-animations-wintiers-5142087d-2ae6efd8",
+  "collection": "library",
+  "name": "wintiers",
+  "machine": "wicked-grin",
+  "format": "spine-json",
+  "version": "4.0.64",
+  "packagePath": "bibliotheque/wicked-grin/animations/wintiers-5142087d",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 88,
+    "slots": 57,
+    "attachments": 57,
+    "meshAttachments": 57,
+    "meshUvPairs": 228,
+    "constraints": {
+      "ik": 0,
+      "transform": 25,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 1048576,
+    "rgbaBytesEstimate": 4194304,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 57,
+  "actions": [
+    {
+      "name": "bw_idle",
+      "duration": 0,
+      "keyframes": 0,
+      "curvedKeys": 0,
+      "channels": [],
+      "animatedBones": [],
+      "animatedSlots": [
+        "bw_shadow1",
+        "bw_shadow2",
+        "bw_shadow3",
+        "bw_shadow4",
+        "bw_shadow5",
+        "bw_shadow6",
+        "bw_txt1",
+        "bw_txt2",
+        "bw_txt3",
+        "bw_txt4",
+        "bw_txt5",
+        "bw_txt6"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "bw_trigger",
+      "duration": 1.3333,
+      "keyframes": 90,
+      "curvedKeys": 71,
+      "channels": [
+        {
+          "path": "bones.bw_txt1.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bw_txt1.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bw_txt1.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bw_txt2.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt2.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt3.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt3.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt3.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt4.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt4.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt4.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt5.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt5.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt5.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt6.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt6.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt6.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "bw_txt1",
+        "bw_txt2",
+        "bw_txt3",
+        "bw_txt4",
+        "bw_txt5",
+        "bw_txt6",
+        "bw"
+      ],
+      "animatedSlots": [
+        "bw_shadow1",
+        "bw_shadow2",
+        "bw_shadow3",
+        "bw_shadow4",
+        "bw_shadow5",
+        "bw_shadow6",
+        "bw_txt1",
+        "bw_txt2",
+        "bw_txt3",
+        "bw_txt4",
+        "bw_txt5",
+        "bw_txt6"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "ew_idle",
+      "duration": 0,
+      "keyframes": 0,
+      "curvedKeys": 0,
+      "channels": [],
+      "animatedBones": [
+        "bw_txt1",
+        "bw_txt2",
+        "bw_txt3",
+        "bw_txt4",
+        "bw_txt5",
+        "bw_txt6",
+        "mw_txt1",
+        "mw_txt2",
+        "mw_txt3",
+        "mw_txt4",
+        "bw",
+        "mw",
+        "smw_txt1",
+        "smw_txt2",
+        "smw_txt3",
+        "smw_txt4",
+        "smw_txt5",
+        "smw",
+        "scale_all_bone"
+      ],
+      "animatedSlots": [
+        "bw_shadow1",
+        "bw_shadow2",
+        "bw_shadow3",
+        "bw_shadow4",
+        "bw_shadow5",
+        "bw_shadow6",
+        "bw_txt1",
+        "bw_txt2",
+        "bw_txt3",
+        "bw_txt4",
+        "bw_txt5",
+        "bw_txt6",
+        "ew_glow1",
+        "ew_glow2",
+        "ew_glow3",
+        "ew_glow4",
+        "ew_glow5",
+        "ew_glow6",
+        "ew_glow7",
+        "ew_shadow1",
+        "ew_shadow2",
+        "ew_shadow3",
+        "ew_shadow4",
+        "ew_shadow5",
+        "ew_shadow6",
+        "ew_shadow7",
+        "ew_txt1",
+        "ew_txt2",
+        "ew_txt3",
+        "ew_txt4",
+        "ew_txt5",
+        "ew_txt6",
+        "ew_txt7",
+        "mw_shadow1",
+        "mw_shadow2",
+        "mw_shadow3",
+        "mw_shadow4",
+        "mw_txt1",
+        "mw_txt2",
+        "mw_txt3",
+        "mw_txt4",
+        "s_shadow1",
+        "s_shadow2",
+        "s_shadow3",
+        "s_shadow4",
+        "s_shadow5",
+        "s_txt1",
+        "s_txt2",
+        "s_txt3",
+        "s_txt4",
+        "s_txt5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "ew_trigger",
+      "duration": 1.5,
+      "keyframes": 152,
+      "curvedKeys": 110,
+      "channels": [
+        {
+          "path": "slots.ew_glow1.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ew_glow2.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ew_glow3.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ew_glow4.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ew_glow5.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ew_glow6.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.ew_glow7.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.bw_txt4.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bw_txt5.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bw_txt6.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.mw_txt1.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.mw_txt2.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.mw_txt3.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.mw_txt4.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.smw_txt1.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.smw_txt2.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.smw_txt3.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.smw_txt4.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.smw_txt5.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt7.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt7.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt7.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt6.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt6.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt6.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt5.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt5.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt5.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt4.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt4.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt4.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt3.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt3.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt3.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt2.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt2.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt1.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.ew_txt1.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.ew_txt1.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.ew.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.scale_all_bone.translate",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "bw_txt1",
+        "bw_txt2",
+        "bw_txt3",
+        "bw_txt4",
+        "bw_txt5",
+        "bw_txt6",
+        "mw_txt1",
+        "mw_txt2",
+        "mw_txt3",
+        "mw_txt4",
+        "bw",
+        "mw",
+        "smw_txt1",
+        "smw_txt2",
+        "smw_txt3",
+        "smw_txt4",
+        "smw_txt5",
+        "smw",
+        "ew_txt7",
+        "ew_txt6",
+        "ew_txt5",
+        "ew_txt4",
+        "ew_txt3",
+        "ew_txt2",
+        "ew_txt1",
+        "ew",
+        "scale_all_bone"
+      ],
+      "animatedSlots": [
+        "bw_shadow1",
+        "bw_shadow2",
+        "bw_shadow3",
+        "bw_shadow4",
+        "bw_shadow5",
+        "bw_shadow6",
+        "bw_txt1",
+        "bw_txt2",
+        "bw_txt3",
+        "bw_txt4",
+        "bw_txt5",
+        "bw_txt6",
+        "ew_glow1",
+        "ew_glow2",
+        "ew_glow3",
+        "ew_glow4",
+        "ew_glow5",
+        "ew_glow6",
+        "ew_glow7",
+        "ew_shadow1",
+        "ew_shadow2",
+        "ew_shadow3",
+        "ew_shadow4",
+        "ew_shadow5",
+        "ew_shadow6",
+        "ew_shadow7",
+        "ew_txt1",
+        "ew_txt2",
+        "ew_txt3",
+        "ew_txt4",
+        "ew_txt5",
+        "ew_txt6",
+        "ew_txt7",
+        "mw_shadow1",
+        "mw_shadow2",
+        "mw_shadow3",
+        "mw_shadow4",
+        "mw_txt1",
+        "mw_txt2",
+        "mw_txt3",
+        "mw_txt4",
+        "s_shadow1",
+        "s_shadow2",
+        "s_shadow3",
+        "s_shadow4",
+        "s_shadow5",
+        "s_txt1",
+        "s_txt2",
+        "s_txt3",
+        "s_txt4",
+        "s_txt5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "idle",
+      "duration": 1.3333,
+      "keyframes": 217,
+      "curvedKeys": 167,
+      "channels": [
+        {
+          "path": "bones.bw_txt6_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt6_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bw_txt5_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt5_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bw_txt4_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt4_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bw_txt3_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt3_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bw_txt2_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt2_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bw_txt1_idle.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bw_txt1_idle.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.ew_txt1_idle.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.ew_txt1_idle.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.ew_txt2_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt2_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.ew_txt3_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt3_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.ew_txt4_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt4_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.ew_txt5_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt5_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.ew_txt6_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt6_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.ew_txt7_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.ew_txt7_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.mw_txt1_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt1_idle.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.mw_txt2_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt2_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.mw_txt3_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt3_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.mw_txt4_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt4_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.mw_txt5_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt5_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.mw_txt6_idle.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.mw_txt6_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.mw_txt7_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt7_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.smw_txt1_idle.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.smw_txt1_idle.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.smw_txt2_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.smw_txt2_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.smw_txt3_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.smw_txt3_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.smw_txt4_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.smw_txt4_idle.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.smw_txt5_idle.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.smw_txt5_idle.scale",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "bw_txt6_idle",
+        "bw_txt5_idle",
+        "bw_txt4_idle",
+        "bw_txt3_idle",
+        "bw_txt2_idle",
+        "bw_txt1_idle",
+        "ew_txt1_idle",
+        "ew_txt2_idle",
+        "ew_txt3_idle",
+        "ew_txt4_idle",
+        "ew_txt5_idle",
+        "ew_txt6_idle",
+        "ew_txt7_idle",
+        "mw_txt1_idle",
+        "mw_txt2_idle",
+        "mw_txt3_idle",
+        "mw_txt4_idle",
+        "mw_txt5_idle",
+        "mw_txt6_idle",
+        "mw_txt7_idle",
+        "smw_txt1_idle",
+        "smw_txt2_idle",
+        "smw_txt3_idle",
+        "smw_txt4_idle",
+        "smw_txt5_idle"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "mw_idle",
+      "duration": 0,
+      "keyframes": 0,
+      "curvedKeys": 0,
+      "channels": [],
+      "animatedBones": [
+        "bw_txt1",
+        "bw_txt2",
+        "bw_txt3",
+        "scale_all_bone"
+      ],
+      "animatedSlots": [
+        "bw_shadow1",
+        "bw_shadow2",
+        "bw_shadow3",
+        "bw_shadow4",
+        "bw_shadow5",
+        "bw_shadow6",
+        "bw_txt1",
+        "bw_txt2",
+        "bw_txt3",
+        "bw_txt4",
+        "bw_txt5",
+        "bw_txt6",
+        "mw_shadow1",
+        "mw_shadow2",
+        "mw_shadow3",
+        "mw_shadow4",
+        "mw_txt1",
+        "mw_txt2",
+        "mw_txt3",
+        "mw_txt4"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "mw_trigger",
+      "duration": 1.3,
+      "keyframes": 113,
+      "curvedKeys": 86,
+      "channels": [
+        {
+          "path": "bones.bw_txt1.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bw_txt2.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bw_txt3.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bw_txt4.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bw_txt4.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt4.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt5.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bw_txt5.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt5.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt6.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bw_txt6.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt6.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt1.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.mw_txt1.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.mw_txt1.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.mw_txt2.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt2.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt3.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt3.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt3.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt4.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt4.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt4.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.mw.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.scale_all_bone.translate",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "bw_txt1",
+        "bw_txt2",
+        "bw_txt3",
+        "bw_txt4",
+        "bw_txt5",
+        "bw_txt6",
+        "mw_txt1",
+        "mw_txt2",
+        "mw_txt3",
+        "mw_txt4",
+        "bw",
+        "mw",
+        "scale_all_bone"
+      ],
+      "animatedSlots": [
+        "bw_shadow1",
+        "bw_shadow2",
+        "bw_shadow3",
+        "bw_shadow4",
+        "bw_shadow5",
+        "bw_shadow6",
+        "bw_txt1",
+        "bw_txt2",
+        "bw_txt3",
+        "bw_txt4",
+        "bw_txt5",
+        "bw_txt6",
+        "mw_shadow1",
+        "mw_shadow2",
+        "mw_shadow3",
+        "mw_shadow4",
+        "mw_txt1",
+        "mw_txt2",
+        "mw_txt3",
+        "mw_txt4"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "smw_idle",
+      "duration": 0,
+      "keyframes": 0,
+      "curvedKeys": 0,
+      "channels": [],
+      "animatedBones": [
+        "bw_txt1",
+        "bw_txt2",
+        "bw_txt3",
+        "bw",
+        "mw",
+        "smw",
+        "ew_txt7",
+        "ew_txt6",
+        "ew_txt5",
+        "ew_txt4",
+        "ew_txt3",
+        "ew_txt2",
+        "ew_txt1",
+        "scale_all_bone"
+      ],
+      "animatedSlots": [
+        "bw_shadow1",
+        "bw_shadow2",
+        "bw_shadow3",
+        "bw_shadow4",
+        "bw_shadow5",
+        "bw_shadow6",
+        "bw_txt1",
+        "bw_txt2",
+        "bw_txt3",
+        "bw_txt4",
+        "bw_txt5",
+        "bw_txt6",
+        "ew_glow1",
+        "ew_glow2",
+        "ew_glow3",
+        "ew_glow4",
+        "ew_glow5",
+        "ew_glow6",
+        "ew_glow7",
+        "mw_shadow1",
+        "mw_shadow2",
+        "mw_shadow3",
+        "mw_shadow4",
+        "mw_txt1",
+        "mw_txt2",
+        "mw_txt3",
+        "mw_txt4",
+        "s_shadow1",
+        "s_shadow2",
+        "s_shadow3",
+        "s_shadow4",
+        "s_shadow5",
+        "s_txt1",
+        "s_txt2",
+        "s_txt3",
+        "s_txt4",
+        "s_txt5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "smw_trigger",
+      "duration": 1.5333,
+      "keyframes": 217,
+      "curvedKeys": 145,
+      "channels": [
+        {
+          "path": "slots.ew_glow1.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.ew_glow2.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.ew_glow3.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.ew_glow4.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.ew_glow5.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.ew_glow6.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.ew_glow7.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bw_txt4.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bw_txt4.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt4.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt5.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bw_txt5.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt5.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt6.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.bw_txt6.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw_txt6.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt1.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.mw_txt1.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt1.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt2.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.mw_txt2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt2.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt3.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.mw_txt3.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt3.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt4.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.mw_txt4.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.mw_txt4.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.bw.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.bw.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.mw.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.mw.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.smw_txt1.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.smw_txt1.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.smw_txt2.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.smw_txt2.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.smw_txt3.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.smw_txt3.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.smw_txt4.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.smw_txt4.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.smw_txt5.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.smw_txt5.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.smw.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.smw.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.ew_txt7.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt7.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt7.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt6.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt6.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt6.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt5.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt5.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt5.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt4.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt4.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt4.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt3.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt3.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt3.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt2.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt2.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt2.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt1.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt1.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.ew_txt1.scale",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "bw_txt1",
+        "bw_txt2",
+        "bw_txt3",
+        "bw_txt4",
+        "bw_txt5",
+        "bw_txt6",
+        "mw_txt1",
+        "mw_txt2",
+        "mw_txt3",
+        "mw_txt4",
+        "bw",
+        "mw",
+        "smw_txt1",
+        "smw_txt2",
+        "smw_txt3",
+        "smw_txt4",
+        "smw_txt5",
+        "smw",
+        "ew_txt7",
+        "ew_txt6",
+        "ew_txt5",
+        "ew_txt4",
+        "ew_txt3",
+        "ew_txt2",
+        "ew_txt1",
+        "scale_all_bone"
+      ],
+      "animatedSlots": [
+        "bw_shadow1",
+        "bw_shadow2",
+        "bw_shadow3",
+        "bw_shadow4",
+        "bw_shadow5",
+        "bw_shadow6",
+        "bw_txt1",
+        "bw_txt2",
+        "bw_txt3",
+        "bw_txt4",
+        "bw_txt5",
+        "bw_txt6",
+        "ew_glow1",
+        "ew_glow2",
+        "ew_glow3",
+        "ew_glow4",
+        "ew_glow5",
+        "ew_glow6",
+        "ew_glow7",
+        "mw_shadow1",
+        "mw_shadow2",
+        "mw_shadow3",
+        "mw_shadow4",
+        "mw_txt1",
+        "mw_txt2",
+        "mw_txt3",
+        "mw_txt4",
+        "s_shadow1",
+        "s_shadow2",
+        "s_shadow3",
+        "s_shadow4",
+        "s_shadow5",
+        "s_txt1",
+        "s_txt2",
+        "s_txt3",
+        "s_txt4",
+        "s_txt5"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/wicked-grin-animations-wintiers-5142087d-2ae6efd8/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "scale_all_bone",
+        "parent": "root",
+        "x": 18.9,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw",
+        "parent": "scale_all_bone",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw",
+        "parent": "scale_all_bone",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "smw",
+        "parent": "scale_all_bone",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew",
+        "parent": "scale_all_bone",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw_txt1",
+        "parent": "bw",
+        "x": -195.91,
+        "y": 3.29,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw_txt2",
+        "parent": "bw",
+        "x": -126.95,
+        "y": 3.29,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw_txt3",
+        "parent": "bw",
+        "x": -71.03,
+        "y": -1.68,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw_txt4",
+        "parent": "bw",
+        "x": 69.38,
+        "y": 10.13,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw_txt5",
+        "parent": "bw",
+        "x": 132.75,
+        "y": 5.16,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw_txt6",
+        "parent": "bw",
+        "x": 183.7,
+        "y": -4.16,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw_shadow6",
+        "parent": "bw",
+        "x": 183.7,
+        "y": -20.32,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw_shadow5",
+        "parent": "bw",
+        "x": 132.75,
+        "y": -11,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw_shadow4",
+        "parent": "bw",
+        "x": 69.38,
+        "y": -6.03,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw_shadow3",
+        "parent": "bw",
+        "x": -71.03,
+        "y": -17.83,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw_shadow2",
+        "parent": "bw",
+        "x": -126.95,
+        "y": -12.86,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw_shadow1",
+        "parent": "bw",
+        "x": -195.91,
+        "y": -12.86,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_txt1",
+        "parent": "mw",
+        "x": -284.73,
+        "y": 12.53,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_txt2",
+        "parent": "mw",
+        "x": -197.91,
+        "y": 7.96,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_txt3",
+        "parent": "mw",
+        "x": -129.36,
+        "y": 1.11,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_txt4",
+        "parent": "mw",
+        "x": -54.73,
+        "y": 0.34,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_txt5",
+        "parent": "mw",
+        "x": 91.5,
+        "y": 14.05,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_txt6",
+        "parent": "mw",
+        "x": 150.91,
+        "y": 9.48,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_txt7",
+        "parent": "mw",
+        "x": 208.03,
+        "y": 4.91,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_shadow7",
+        "parent": "mw",
+        "x": 235.84,
+        "y": -53.82,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_shadow6",
+        "parent": "mw",
+        "x": 178.72,
+        "y": -49.26,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_shadow5",
+        "parent": "mw",
+        "x": 119.32,
+        "y": -44.69,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_shadow4",
+        "parent": "mw",
+        "x": -26.91,
+        "y": -58.39,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_shadow3",
+        "parent": "mw",
+        "x": -101.55,
+        "y": -57.63,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_shadow2",
+        "parent": "mw",
+        "x": -170.09,
+        "y": -50.78,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_shadow1",
+        "parent": "mw",
+        "x": -256.91,
+        "y": -46.21,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "smw_txt1",
+        "parent": "smw",
+        "x": -160.84,
+        "y": 119.92,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "smw_txt2",
+        "parent": "smw",
+        "x": -83.46,
+        "y": 119.92,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "smw_txt3",
+        "parent": "smw",
+        "x": -13.21,
+        "y": 116.87,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "smw_txt4",
+        "parent": "smw",
+        "x": 57.03,
+        "y": 127.05,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "smw_txt5",
+        "parent": "smw",
+        "x": 106.92,
+        "y": 118.91,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "smw_shadow1",
+        "parent": "smw",
+        "x": -146.45,
+        "y": 55.81,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "smw_shadow2",
+        "parent": "smw",
+        "x": -69.08,
+        "y": 55.81,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "smw_shadow3",
+        "parent": "smw",
+        "x": 1.17,
+        "y": 52.76,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "smw_shadow4",
+        "parent": "smw",
+        "x": 71.42,
+        "y": 62.94,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "smw_shadow5",
+        "parent": "smw",
+        "x": 121.31,
+        "y": 54.79,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_txt1",
+        "parent": "ew",
+        "x": -284.17,
+        "y": -3.75,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_txt2",
+        "parent": "ew",
+        "x": -169.34,
+        "y": -11.21,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_txt3",
+        "parent": "ew",
+        "x": -111.18,
+        "y": 3.7,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_txt4",
+        "parent": "ew",
+        "x": -50.04,
+        "y": -3.75,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_txt5",
+        "parent": "ew",
+        "x": 133.39,
+        "y": 3.7,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_txt6",
+        "parent": "ew",
+        "x": 215.42,
+        "y": 3.7,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_txt7",
+        "parent": "ew",
+        "x": 284.02,
+        "y": -6.73,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_shadow7",
+        "parent": "ew",
+        "x": 284.02,
+        "y": -53.49,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_shadow6",
+        "parent": "ew",
+        "x": 215.42,
+        "y": -43.05,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_shadow5",
+        "parent": "ew",
+        "x": 133.39,
+        "y": -43.05,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_shadow4",
+        "parent": "ew",
+        "x": -50.04,
+        "y": -50.51,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_shadow3",
+        "parent": "ew",
+        "x": -111.18,
+        "y": -43.05,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_shadow2",
+        "parent": "ew",
+        "x": -169.34,
+        "y": -57.97,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_shadow1",
+        "parent": "ew",
+        "x": -284.17,
+        "y": -50.51,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_txt1_idle",
+        "parent": "ew_txt1",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_glow1",
+        "parent": "ew_txt1_idle",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_txt2_idle",
+        "parent": "ew_txt2",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_glow2",
+        "parent": "ew_txt2_idle",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_txt3_idle",
+        "parent": "ew_txt3",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_glow3",
+        "parent": "ew_txt3_idle",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_txt4_idle",
+        "parent": "ew_txt4",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_glow4",
+        "parent": "ew_txt4_idle",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_txt5_idle",
+        "parent": "ew_txt5",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_glow5",
+        "parent": "ew_txt5_idle",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_txt6_idle",
+        "parent": "ew_txt6",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_glow6",
+        "parent": "ew_txt6_idle",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_txt7_idle",
+        "parent": "ew_txt7",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "ew_glow7",
+        "parent": "ew_txt7_idle",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw_txt1_idle",
+        "parent": "bw_txt1",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw_txt2_idle",
+        "parent": "bw_txt2",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw_txt3_idle",
+        "parent": "bw_txt3",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw_txt4_idle",
+        "parent": "bw_txt4",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw_txt5_idle",
+        "parent": "bw_txt5",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bw_txt6_idle",
+        "parent": "bw_txt6",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_txt1_idle",
+        "parent": "mw_txt1",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_txt2_idle",
+        "parent": "mw_txt2",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_txt3_idle",
+        "parent": "mw_txt3",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_txt4_idle",
+        "parent": "mw_txt4",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_txt5_idle",
+        "parent": "mw_txt5",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_txt6_idle",
+        "parent": "mw_txt6",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mw_txt7_idle",
+        "parent": "mw_txt7",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "smw_txt1_idle",
+        "parent": "smw_txt1",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "smw_txt2_idle",
+        "parent": "smw_txt2",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "smw_txt3_idle",
+        "parent": "smw_txt3",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "smw_txt4_idle",
+        "parent": "smw_txt4",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "smw_txt5_idle",
+        "parent": "smw_txt5",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "bw_shadow1",
+        "bone": "bw_shadow1",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bw_shadow2",
+        "bone": "bw_shadow2",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bw_shadow3",
+        "bone": "bw_shadow3",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bw_shadow4",
+        "bone": "bw_shadow4",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bw_shadow5",
+        "bone": "bw_shadow5",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bw_shadow6",
+        "bone": "bw_shadow6",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bw_txt1",
+        "bone": "bw_txt1_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bw_txt2",
+        "bone": "bw_txt2_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bw_txt3",
+        "bone": "bw_txt3_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bw_txt4",
+        "bone": "bw_txt4_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bw_txt5",
+        "bone": "bw_txt5_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "bw_txt6",
+        "bone": "bw_txt6_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mw_shadow1",
+        "bone": "mw_shadow1",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mw_shadow2",
+        "bone": "mw_shadow2",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mw_shadow3",
+        "bone": "mw_shadow3",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mw_shadow4",
+        "bone": "mw_shadow4",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mw_shadow5",
+        "bone": "mw_shadow5",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mw_shadow6",
+        "bone": "mw_shadow6",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mw_shadow7",
+        "bone": "mw_shadow7",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mw_txt1",
+        "bone": "mw_txt1_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mw_txt2",
+        "bone": "mw_txt2_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mw_txt3",
+        "bone": "mw_txt3_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mw_txt4",
+        "bone": "mw_txt4_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mw_txt5",
+        "bone": "mw_txt5_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mw_txt6",
+        "bone": "mw_txt6_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "mw_txt7",
+        "bone": "mw_txt7_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "s_shadow1",
+        "bone": "smw_shadow1",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "s_shadow2",
+        "bone": "smw_shadow2",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "s_shadow3",
+        "bone": "smw_shadow3",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "s_shadow4",
+        "bone": "smw_shadow4",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "s_shadow5",
+        "bone": "smw_shadow5",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "s_txt1",
+        "bone": "smw_txt1_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "s_txt2",
+        "bone": "smw_txt2_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "s_txt3",
+        "bone": "smw_txt3_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "s_txt4",
+        "bone": "smw_txt4_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "s_txt5",
+        "bone": "smw_txt5_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_shadow1",
+        "bone": "ew_shadow1",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_shadow2",
+        "bone": "ew_shadow2",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_shadow3",
+        "bone": "ew_shadow3",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_shadow4",
+        "bone": "ew_shadow4",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_shadow5",
+        "bone": "ew_shadow5",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_shadow6",
+        "bone": "ew_shadow6",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_shadow7",
+        "bone": "ew_shadow7",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_txt1",
+        "bone": "ew_txt1_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_txt2",
+        "bone": "ew_txt2_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_txt3",
+        "bone": "ew_txt3_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_txt4",
+        "bone": "ew_txt4_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_txt5",
+        "bone": "ew_txt5_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_txt6",
+        "bone": "ew_txt6_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_txt7",
+        "bone": "ew_txt7_idle",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_glow1",
+        "bone": "ew_glow1",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_glow2",
+        "bone": "ew_glow2",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_glow3",
+        "bone": "ew_glow3",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_glow4",
+        "bone": "ew_glow4",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_glow5",
+        "bone": "ew_glow5",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_glow6",
+        "bone": "ew_glow6",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "ew_glow7",
+        "bone": "ew_glow7",
+        "setupAttachment": null,
+        "blend": "additive",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "bw_shadow1",
+        "name": "bw_shadow1",
+        "region": "bw_shadow1",
+        "type": "mesh",
+        "bone": "bw_shadow1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 153,
+          "height": 202
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bw_shadow2",
+        "name": "bw_shadow2",
+        "region": "bw_shadow2",
+        "type": "mesh",
+        "bone": "bw_shadow2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 75,
+          "height": 144
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bw_shadow3",
+        "name": "bw_shadow3",
+        "region": "bw_shadow3",
+        "type": "mesh",
+        "bone": "bw_shadow3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 112,
+          "height": 167
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bw_shadow4",
+        "name": "bw_shadow4",
+        "region": "bw_shadow4",
+        "type": "mesh",
+        "bone": "bw_shadow4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 151,
+          "height": 156
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bw_shadow5",
+        "name": "bw_shadow5",
+        "region": "bw_shadow5",
+        "type": "mesh",
+        "bone": "bw_shadow5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 75,
+          "height": 144
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bw_shadow6",
+        "name": "bw_shadow6",
+        "region": "bw_shadow6",
+        "type": "mesh",
+        "bone": "bw_shadow6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 114,
+          "height": 111
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bw_txt1",
+        "name": "bw_txt1",
+        "region": "bw_txt1",
+        "type": "mesh",
+        "bone": "bw_txt1_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 112,
+          "height": 161
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bw_txt2",
+        "name": "bw_txt2",
+        "region": "bw_txt2",
+        "type": "mesh",
+        "bone": "bw_txt2_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 35,
+          "height": 105
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bw_txt3",
+        "name": "bw_txt3",
+        "region": "bw_txt3",
+        "type": "mesh",
+        "bone": "bw_txt3_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 71,
+          "height": 126
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bw_txt4",
+        "name": "bw_txt4",
+        "region": "bw_txt4",
+        "type": "mesh",
+        "bone": "bw_txt4_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 112,
+          "height": 116
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bw_txt5",
+        "name": "bw_txt5",
+        "region": "bw_txt5",
+        "type": "mesh",
+        "bone": "bw_txt5_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 35,
+          "height": 105
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "bw_txt6",
+        "name": "bw_txt6",
+        "region": "bw_txt6",
+        "type": "mesh",
+        "bone": "bw_txt6_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 74,
+          "height": 70
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_glow1",
+        "name": "ew_glow1",
+        "region": "ew_glow1",
+        "type": "mesh",
+        "bone": "ew_glow1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 238
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_glow2",
+        "name": "ew_glow2",
+        "region": "ew_glow2",
+        "type": "mesh",
+        "bone": "ew_glow2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 140,
+          "height": 179
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_glow3",
+        "name": "ew_glow3",
+        "region": "ew_glow3",
+        "type": "mesh",
+        "bone": "ew_glow3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 93,
+          "height": 186
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_glow4",
+        "name": "ew_glow4",
+        "region": "ew_glow4",
+        "type": "mesh",
+        "bone": "ew_glow4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 125,
+          "height": 150
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_glow5",
+        "name": "ew_glow5",
+        "region": "ew_glow5",
+        "type": "mesh",
+        "bone": "ew_glow5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 196,
+          "height": 200
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_glow6",
+        "name": "ew_glow6",
+        "region": "ew_glow6",
+        "type": "mesh",
+        "bone": "ew_glow6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 93,
+          "height": 186
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_glow7",
+        "name": "ew_glow7",
+        "region": "ew_glow7",
+        "type": "mesh",
+        "bone": "ew_glow7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 146,
+          "height": 141
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_shadow1",
+        "name": "ew_shadow1",
+        "region": "ew_shadow1",
+        "type": "mesh",
+        "bone": "ew_shadow1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 179,
+          "height": 299
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_shadow2",
+        "name": "ew_shadow2",
+        "region": "ew_shadow2",
+        "type": "mesh",
+        "bone": "ew_shadow2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 131,
+          "height": 171
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_shadow3",
+        "name": "ew_shadow3",
+        "region": "ew_shadow3",
+        "type": "mesh",
+        "bone": "ew_shadow3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 85,
+          "height": 177
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_shadow4",
+        "name": "ew_shadow4",
+        "region": "ew_shadow4",
+        "type": "mesh",
+        "bone": "ew_shadow4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 117,
+          "height": 140
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_shadow5",
+        "name": "ew_shadow5",
+        "region": "ew_shadow5",
+        "type": "mesh",
+        "bone": "ew_shadow5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 187,
+          "height": 193
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_shadow6",
+        "name": "ew_shadow6",
+        "region": "ew_shadow6",
+        "type": "mesh",
+        "bone": "ew_shadow6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 85,
+          "height": 177
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_shadow7",
+        "name": "ew_shadow7",
+        "region": "ew_shadow7",
+        "type": "mesh",
+        "bone": "ew_shadow7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 138,
+          "height": 133
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_txt1",
+        "name": "ew_txt1",
+        "region": "ew_txt1",
+        "type": "mesh",
+        "bone": "ew_txt1_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 138,
+          "height": 187
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_txt2",
+        "name": "ew_txt2",
+        "region": "ew_txt2",
+        "type": "mesh",
+        "bone": "ew_txt2_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 89,
+          "height": 132
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_txt3",
+        "name": "ew_txt3",
+        "region": "ew_txt3",
+        "type": "mesh",
+        "bone": "ew_txt3_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 44,
+          "height": 138
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_txt4",
+        "name": "ew_txt4",
+        "region": "ew_txt4",
+        "type": "mesh",
+        "bone": "ew_txt4_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 77,
+          "height": 100
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_txt5",
+        "name": "ew_txt5",
+        "region": "ew_txt5",
+        "type": "mesh",
+        "bone": "ew_txt5_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 148,
+          "height": 153
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_txt6",
+        "name": "ew_txt6",
+        "region": "ew_txt6",
+        "type": "mesh",
+        "bone": "ew_txt6_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 44,
+          "height": 138
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "ew_txt7",
+        "name": "ew_txt7",
+        "region": "ew_txt7",
+        "type": "mesh",
+        "bone": "ew_txt7_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 97,
+          "height": 92
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mw_shadow1",
+        "name": "mw_shadow1",
+        "region": "mw_shadow1",
+        "type": "mesh",
+        "bone": "mw_shadow1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 149,
+          "height": 155
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mw_shadow2",
+        "name": "mw_shadow2",
+        "region": "mw_shadow2",
+        "type": "mesh",
+        "bone": "mw_shadow2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 105,
+          "height": 122
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mw_shadow3",
+        "name": "mw_shadow3",
+        "region": "mw_shadow3",
+        "type": "mesh",
+        "bone": "mw_shadow3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 112,
+          "height": 167
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mw_shadow4",
+        "name": "mw_shadow4",
+        "region": "mw_shadow4",
+        "type": "mesh",
+        "bone": "mw_shadow4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 117,
+          "height": 115
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mw_shadow5",
+        "name": "mw_shadow5",
+        "region": "mw_shadow5",
+        "type": "mesh",
+        "bone": "mw_shadow5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 151,
+          "height": 156
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mw_shadow6",
+        "name": "mw_shadow6",
+        "region": "mw_shadow6",
+        "type": "mesh",
+        "bone": "mw_shadow6",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 75,
+          "height": 144
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mw_shadow7",
+        "name": "mw_shadow7",
+        "region": "mw_shadow7",
+        "type": "mesh",
+        "bone": "mw_shadow7",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 114,
+          "height": 111
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mw_txt1",
+        "name": "mw_txt1",
+        "region": "mw_txt1",
+        "type": "mesh",
+        "bone": "mw_txt1_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 108,
+          "height": 114
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mw_txt2",
+        "name": "mw_txt2",
+        "region": "mw_txt2",
+        "type": "mesh",
+        "bone": "mw_txt2_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 64,
+          "height": 82
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mw_txt3",
+        "name": "mw_txt3",
+        "region": "mw_txt3",
+        "type": "mesh",
+        "bone": "mw_txt3_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 71,
+          "height": 126
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mw_txt4",
+        "name": "mw_txt4",
+        "region": "mw_txt4",
+        "type": "mesh",
+        "bone": "mw_txt4_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 77,
+          "height": 75
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mw_txt5",
+        "name": "mw_txt5",
+        "region": "mw_txt5",
+        "type": "mesh",
+        "bone": "mw_txt5_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 112,
+          "height": 116
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mw_txt6",
+        "name": "mw_txt6",
+        "region": "mw_txt6",
+        "type": "mesh",
+        "bone": "mw_txt6_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 35,
+          "height": 105
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "mw_txt7",
+        "name": "mw_txt7",
+        "region": "mw_txt7",
+        "type": "mesh",
+        "bone": "mw_txt7_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 74,
+          "height": 70
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "s_shadow1",
+        "name": "s_shadow1",
+        "region": "s_shadow1",
+        "type": "mesh",
+        "bone": "smw_shadow1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 145,
+          "height": 172
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "s_shadow2",
+        "name": "s_shadow2",
+        "region": "s_shadow2",
+        "type": "mesh",
+        "bone": "smw_shadow2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 105,
+          "height": 112
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "s_shadow3",
+        "name": "s_shadow3",
+        "region": "s_shadow3",
+        "type": "mesh",
+        "bone": "smw_shadow3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 140
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "s_shadow4",
+        "name": "s_shadow4",
+        "region": "s_shadow4",
+        "type": "mesh",
+        "bone": "smw_shadow4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 105,
+          "height": 122
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "s_shadow5",
+        "name": "s_shadow5",
+        "region": "s_shadow5",
+        "type": "mesh",
+        "bone": "smw_shadow5",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 98,
+          "height": 110
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "s_txt1",
+        "name": "s_txt1",
+        "region": "s_txt1",
+        "type": "mesh",
+        "bone": "smw_txt1_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 104,
+          "height": 132
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "s_txt2",
+        "name": "s_txt2",
+        "region": "s_txt2",
+        "type": "mesh",
+        "bone": "smw_txt2_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 64,
+          "height": 73
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "s_txt3",
+        "name": "s_txt3",
+        "region": "s_txt3",
+        "type": "mesh",
+        "bone": "smw_txt3_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 68,
+          "height": 100
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "s_txt4",
+        "name": "s_txt4",
+        "region": "s_txt4",
+        "type": "mesh",
+        "bone": "smw_txt4_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 64,
+          "height": 82
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "s_txt5",
+        "name": "s_txt5",
+        "region": "s_txt5",
+        "type": "mesh",
+        "bone": "smw_txt5_idle",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 57,
+          "height": 70
+        },
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "bw_idle",
+        "duration": 0,
+        "keyframes": 0,
+        "curvedKeys": 0,
+        "channels": [],
+        "animatedBones": [],
+        "animatedSlots": [
+          "bw_shadow1",
+          "bw_shadow2",
+          "bw_shadow3",
+          "bw_shadow4",
+          "bw_shadow5",
+          "bw_shadow6",
+          "bw_txt1",
+          "bw_txt2",
+          "bw_txt3",
+          "bw_txt4",
+          "bw_txt5",
+          "bw_txt6"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "bw_trigger",
+        "duration": 1.3333,
+        "keyframes": 90,
+        "curvedKeys": 71,
+        "channels": [
+          {
+            "path": "bones.bw_txt1.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bw_txt1.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bw_txt1.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bw_txt2.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt2.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt3.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt3.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt3.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt4.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt4.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt4.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt5.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt5.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt5.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt6.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt6.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt6.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "bw_txt1",
+          "bw_txt2",
+          "bw_txt3",
+          "bw_txt4",
+          "bw_txt5",
+          "bw_txt6",
+          "bw"
+        ],
+        "animatedSlots": [
+          "bw_shadow1",
+          "bw_shadow2",
+          "bw_shadow3",
+          "bw_shadow4",
+          "bw_shadow5",
+          "bw_shadow6",
+          "bw_txt1",
+          "bw_txt2",
+          "bw_txt3",
+          "bw_txt4",
+          "bw_txt5",
+          "bw_txt6"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "ew_idle",
+        "duration": 0,
+        "keyframes": 0,
+        "curvedKeys": 0,
+        "channels": [],
+        "animatedBones": [
+          "bw_txt1",
+          "bw_txt2",
+          "bw_txt3",
+          "bw_txt4",
+          "bw_txt5",
+          "bw_txt6",
+          "mw_txt1",
+          "mw_txt2",
+          "mw_txt3",
+          "mw_txt4",
+          "bw",
+          "mw",
+          "smw_txt1",
+          "smw_txt2",
+          "smw_txt3",
+          "smw_txt4",
+          "smw_txt5",
+          "smw",
+          "scale_all_bone"
+        ],
+        "animatedSlots": [
+          "bw_shadow1",
+          "bw_shadow2",
+          "bw_shadow3",
+          "bw_shadow4",
+          "bw_shadow5",
+          "bw_shadow6",
+          "bw_txt1",
+          "bw_txt2",
+          "bw_txt3",
+          "bw_txt4",
+          "bw_txt5",
+          "bw_txt6",
+          "ew_glow1",
+          "ew_glow2",
+          "ew_glow3",
+          "ew_glow4",
+          "ew_glow5",
+          "ew_glow6",
+          "ew_glow7",
+          "ew_shadow1",
+          "ew_shadow2",
+          "ew_shadow3",
+          "ew_shadow4",
+          "ew_shadow5",
+          "ew_shadow6",
+          "ew_shadow7",
+          "ew_txt1",
+          "ew_txt2",
+          "ew_txt3",
+          "ew_txt4",
+          "ew_txt5",
+          "ew_txt6",
+          "ew_txt7",
+          "mw_shadow1",
+          "mw_shadow2",
+          "mw_shadow3",
+          "mw_shadow4",
+          "mw_txt1",
+          "mw_txt2",
+          "mw_txt3",
+          "mw_txt4",
+          "s_shadow1",
+          "s_shadow2",
+          "s_shadow3",
+          "s_shadow4",
+          "s_shadow5",
+          "s_txt1",
+          "s_txt2",
+          "s_txt3",
+          "s_txt4",
+          "s_txt5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "ew_trigger",
+        "duration": 1.5,
+        "keyframes": 152,
+        "curvedKeys": 110,
+        "channels": [
+          {
+            "path": "slots.ew_glow1.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ew_glow2.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ew_glow3.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ew_glow4.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ew_glow5.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ew_glow6.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.ew_glow7.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.bw_txt4.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bw_txt5.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bw_txt6.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.mw_txt1.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.mw_txt2.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.mw_txt3.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.mw_txt4.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.smw_txt1.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.smw_txt2.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.smw_txt3.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.smw_txt4.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.smw_txt5.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt7.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt7.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt7.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt6.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt6.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt6.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt5.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt5.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt5.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt4.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt4.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt4.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt3.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt3.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt3.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt2.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt2.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt1.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.ew_txt1.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.ew_txt1.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.ew.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.scale_all_bone.translate",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "bw_txt1",
+          "bw_txt2",
+          "bw_txt3",
+          "bw_txt4",
+          "bw_txt5",
+          "bw_txt6",
+          "mw_txt1",
+          "mw_txt2",
+          "mw_txt3",
+          "mw_txt4",
+          "bw",
+          "mw",
+          "smw_txt1",
+          "smw_txt2",
+          "smw_txt3",
+          "smw_txt4",
+          "smw_txt5",
+          "smw",
+          "ew_txt7",
+          "ew_txt6",
+          "ew_txt5",
+          "ew_txt4",
+          "ew_txt3",
+          "ew_txt2",
+          "ew_txt1",
+          "ew",
+          "scale_all_bone"
+        ],
+        "animatedSlots": [
+          "bw_shadow1",
+          "bw_shadow2",
+          "bw_shadow3",
+          "bw_shadow4",
+          "bw_shadow5",
+          "bw_shadow6",
+          "bw_txt1",
+          "bw_txt2",
+          "bw_txt3",
+          "bw_txt4",
+          "bw_txt5",
+          "bw_txt6",
+          "ew_glow1",
+          "ew_glow2",
+          "ew_glow3",
+          "ew_glow4",
+          "ew_glow5",
+          "ew_glow6",
+          "ew_glow7",
+          "ew_shadow1",
+          "ew_shadow2",
+          "ew_shadow3",
+          "ew_shadow4",
+          "ew_shadow5",
+          "ew_shadow6",
+          "ew_shadow7",
+          "ew_txt1",
+          "ew_txt2",
+          "ew_txt3",
+          "ew_txt4",
+          "ew_txt5",
+          "ew_txt6",
+          "ew_txt7",
+          "mw_shadow1",
+          "mw_shadow2",
+          "mw_shadow3",
+          "mw_shadow4",
+          "mw_txt1",
+          "mw_txt2",
+          "mw_txt3",
+          "mw_txt4",
+          "s_shadow1",
+          "s_shadow2",
+          "s_shadow3",
+          "s_shadow4",
+          "s_shadow5",
+          "s_txt1",
+          "s_txt2",
+          "s_txt3",
+          "s_txt4",
+          "s_txt5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "idle",
+        "duration": 1.3333,
+        "keyframes": 217,
+        "curvedKeys": 167,
+        "channels": [
+          {
+            "path": "bones.bw_txt6_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt6_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bw_txt5_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt5_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bw_txt4_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt4_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bw_txt3_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt3_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bw_txt2_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt2_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bw_txt1_idle.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bw_txt1_idle.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.ew_txt1_idle.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.ew_txt1_idle.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.ew_txt2_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt2_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.ew_txt3_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt3_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.ew_txt4_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt4_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.ew_txt5_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt5_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.ew_txt6_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt6_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.ew_txt7_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.ew_txt7_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.mw_txt1_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt1_idle.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.mw_txt2_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt2_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.mw_txt3_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt3_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.mw_txt4_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt4_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.mw_txt5_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt5_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.mw_txt6_idle.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.mw_txt6_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.mw_txt7_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt7_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.smw_txt1_idle.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.smw_txt1_idle.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.smw_txt2_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.smw_txt2_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.smw_txt3_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.smw_txt3_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.smw_txt4_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.smw_txt4_idle.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.smw_txt5_idle.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.smw_txt5_idle.scale",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "bw_txt6_idle",
+          "bw_txt5_idle",
+          "bw_txt4_idle",
+          "bw_txt3_idle",
+          "bw_txt2_idle",
+          "bw_txt1_idle",
+          "ew_txt1_idle",
+          "ew_txt2_idle",
+          "ew_txt3_idle",
+          "ew_txt4_idle",
+          "ew_txt5_idle",
+          "ew_txt6_idle",
+          "ew_txt7_idle",
+          "mw_txt1_idle",
+          "mw_txt2_idle",
+          "mw_txt3_idle",
+          "mw_txt4_idle",
+          "mw_txt5_idle",
+          "mw_txt6_idle",
+          "mw_txt7_idle",
+          "smw_txt1_idle",
+          "smw_txt2_idle",
+          "smw_txt3_idle",
+          "smw_txt4_idle",
+          "smw_txt5_idle"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "mw_idle",
+        "duration": 0,
+        "keyframes": 0,
+        "curvedKeys": 0,
+        "channels": [],
+        "animatedBones": [
+          "bw_txt1",
+          "bw_txt2",
+          "bw_txt3",
+          "scale_all_bone"
+        ],
+        "animatedSlots": [
+          "bw_shadow1",
+          "bw_shadow2",
+          "bw_shadow3",
+          "bw_shadow4",
+          "bw_shadow5",
+          "bw_shadow6",
+          "bw_txt1",
+          "bw_txt2",
+          "bw_txt3",
+          "bw_txt4",
+          "bw_txt5",
+          "bw_txt6",
+          "mw_shadow1",
+          "mw_shadow2",
+          "mw_shadow3",
+          "mw_shadow4",
+          "mw_txt1",
+          "mw_txt2",
+          "mw_txt3",
+          "mw_txt4"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "mw_trigger",
+        "duration": 1.3,
+        "keyframes": 113,
+        "curvedKeys": 86,
+        "channels": [
+          {
+            "path": "bones.bw_txt1.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bw_txt2.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bw_txt3.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bw_txt4.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bw_txt4.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt4.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt5.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bw_txt5.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt5.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt6.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bw_txt6.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt6.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt1.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.mw_txt1.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.mw_txt1.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.mw_txt2.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt2.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt3.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt3.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt3.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt4.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt4.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt4.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.mw.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.scale_all_bone.translate",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "bw_txt1",
+          "bw_txt2",
+          "bw_txt3",
+          "bw_txt4",
+          "bw_txt5",
+          "bw_txt6",
+          "mw_txt1",
+          "mw_txt2",
+          "mw_txt3",
+          "mw_txt4",
+          "bw",
+          "mw",
+          "scale_all_bone"
+        ],
+        "animatedSlots": [
+          "bw_shadow1",
+          "bw_shadow2",
+          "bw_shadow3",
+          "bw_shadow4",
+          "bw_shadow5",
+          "bw_shadow6",
+          "bw_txt1",
+          "bw_txt2",
+          "bw_txt3",
+          "bw_txt4",
+          "bw_txt5",
+          "bw_txt6",
+          "mw_shadow1",
+          "mw_shadow2",
+          "mw_shadow3",
+          "mw_shadow4",
+          "mw_txt1",
+          "mw_txt2",
+          "mw_txt3",
+          "mw_txt4"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "smw_idle",
+        "duration": 0,
+        "keyframes": 0,
+        "curvedKeys": 0,
+        "channels": [],
+        "animatedBones": [
+          "bw_txt1",
+          "bw_txt2",
+          "bw_txt3",
+          "bw",
+          "mw",
+          "smw",
+          "ew_txt7",
+          "ew_txt6",
+          "ew_txt5",
+          "ew_txt4",
+          "ew_txt3",
+          "ew_txt2",
+          "ew_txt1",
+          "scale_all_bone"
+        ],
+        "animatedSlots": [
+          "bw_shadow1",
+          "bw_shadow2",
+          "bw_shadow3",
+          "bw_shadow4",
+          "bw_shadow5",
+          "bw_shadow6",
+          "bw_txt1",
+          "bw_txt2",
+          "bw_txt3",
+          "bw_txt4",
+          "bw_txt5",
+          "bw_txt6",
+          "ew_glow1",
+          "ew_glow2",
+          "ew_glow3",
+          "ew_glow4",
+          "ew_glow5",
+          "ew_glow6",
+          "ew_glow7",
+          "mw_shadow1",
+          "mw_shadow2",
+          "mw_shadow3",
+          "mw_shadow4",
+          "mw_txt1",
+          "mw_txt2",
+          "mw_txt3",
+          "mw_txt4",
+          "s_shadow1",
+          "s_shadow2",
+          "s_shadow3",
+          "s_shadow4",
+          "s_shadow5",
+          "s_txt1",
+          "s_txt2",
+          "s_txt3",
+          "s_txt4",
+          "s_txt5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "smw_trigger",
+        "duration": 1.5333,
+        "keyframes": 217,
+        "curvedKeys": 145,
+        "channels": [
+          {
+            "path": "slots.ew_glow1.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.ew_glow2.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.ew_glow3.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.ew_glow4.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.ew_glow5.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.ew_glow6.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.ew_glow7.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bw_txt4.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bw_txt4.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt4.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt5.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bw_txt5.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt5.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt6.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.bw_txt6.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw_txt6.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt1.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.mw_txt1.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt1.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt2.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.mw_txt2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt2.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt3.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.mw_txt3.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt3.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt4.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.mw_txt4.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.mw_txt4.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.bw.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.bw.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.mw.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.mw.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.smw_txt1.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.smw_txt1.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.smw_txt2.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.smw_txt2.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.smw_txt3.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.smw_txt3.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.smw_txt4.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.smw_txt4.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.smw_txt5.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.smw_txt5.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.smw.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.smw.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.ew_txt7.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt7.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt7.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt6.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt6.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt6.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt5.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt5.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt5.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt4.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt4.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt4.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt3.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt3.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt3.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt2.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt2.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt2.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt1.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt1.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.ew_txt1.scale",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "bw_txt1",
+          "bw_txt2",
+          "bw_txt3",
+          "bw_txt4",
+          "bw_txt5",
+          "bw_txt6",
+          "mw_txt1",
+          "mw_txt2",
+          "mw_txt3",
+          "mw_txt4",
+          "bw",
+          "mw",
+          "smw_txt1",
+          "smw_txt2",
+          "smw_txt3",
+          "smw_txt4",
+          "smw_txt5",
+          "smw",
+          "ew_txt7",
+          "ew_txt6",
+          "ew_txt5",
+          "ew_txt4",
+          "ew_txt3",
+          "ew_txt2",
+          "ew_txt1",
+          "scale_all_bone"
+        ],
+        "animatedSlots": [
+          "bw_shadow1",
+          "bw_shadow2",
+          "bw_shadow3",
+          "bw_shadow4",
+          "bw_shadow5",
+          "bw_shadow6",
+          "bw_txt1",
+          "bw_txt2",
+          "bw_txt3",
+          "bw_txt4",
+          "bw_txt5",
+          "bw_txt6",
+          "ew_glow1",
+          "ew_glow2",
+          "ew_glow3",
+          "ew_glow4",
+          "ew_glow5",
+          "ew_glow6",
+          "ew_glow7",
+          "mw_shadow1",
+          "mw_shadow2",
+          "mw_shadow3",
+          "mw_shadow4",
+          "mw_txt1",
+          "mw_txt2",
+          "mw_txt3",
+          "mw_txt4",
+          "s_shadow1",
+          "s_shadow2",
+          "s_shadow3",
+          "s_shadow4",
+          "s_shadow5",
+          "s_txt1",
+          "s_txt2",
+          "s_txt3",
+          "s_txt4",
+          "s_txt5"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 88,
+      "slots": 57,
+      "attachments": 57,
+      "meshAttachments": 57,
+      "meshUvPairs": 228,
+      "constraints": {
+        "ik": 0,
+        "transform": 25,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "bw_shadow1",
+      "file": "pieces/bw-shadow1-aa537c3e.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "2,79,153,202"
+      }
+    },
+    {
+      "region": "bw_shadow2",
+      "file": "pieces/bw-shadow2-635b48b2.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "767,363,75,144"
+      }
+    },
+    {
+      "region": "bw_shadow5",
+      "file": "pieces/bw-shadow5-7695a214.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "767,363,75,144"
+      }
+    },
+    {
+      "region": "mw_shadow6",
+      "file": "pieces/mw-shadow6-4abc16bd.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "767,363,75,144"
+      }
+    },
+    {
+      "region": "bw_shadow3",
+      "file": "pieces/bw-shadow3-34dafbb2.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "544,120,112,167"
+      }
+    },
+    {
+      "region": "mw_shadow3",
+      "file": "pieces/mw-shadow3-2954a712.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "544,120,112,167"
+      }
+    },
+    {
+      "region": "bw_shadow4",
+      "file": "pieces/bw-shadow4-7a2a9701.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "333,584,151,156"
+      }
+    },
+    {
+      "region": "mw_shadow5",
+      "file": "pieces/mw-shadow5-3d6db8eb.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "333,584,151,156"
+      }
+    },
+    {
+      "region": "bw_shadow6",
+      "file": "pieces/bw-shadow6-68151b75.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "500,749,114,111"
+      }
+    },
+    {
+      "region": "bw_txt1",
+      "file": "pieces/bw-txt1-cc634d7c.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "486,447,112,161"
+      }
+    },
+    {
+      "region": "bw_txt2",
+      "file": "pieces/bw-txt2-d79c254b.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "830,778,35,105"
+      }
+    },
+    {
+      "region": "bw_txt3",
+      "file": "pieces/bw-txt3-297e6b14.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "716,509,71,126"
+      }
+    },
+    {
+      "region": "bw_txt4",
+      "file": "pieces/bw-txt4-299d21d6.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "297,95,112,116"
+      }
+    },
+    {
+      "region": "bw_txt5",
+      "file": "pieces/bw-txt5-2b193bde.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "830,671,35,105"
+      }
+    },
+    {
+      "region": "bw_txt6",
+      "file": "pieces/bw-txt6-97d86aa1.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "81,7,74,70"
+      }
+    },
+    {
+      "region": "ew_glow1",
+      "file": "pieces/ew-glow1-8e5e1350.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "2,478,187,238"
+      }
+    },
+    {
+      "region": "ew_glow2",
+      "file": "pieces/ew-glow2-a20fa118.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "191,542,140,179"
+      }
+    },
+    {
+      "region": "ew_glow3",
+      "file": "pieces/ew-glow3-c0d32090.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "658,125,93,186"
+      }
+    },
+    {
+      "region": "ew_glow6",
+      "file": "pieces/ew-glow6-1077e0cd.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "658,125,93,186"
+      }
+    },
+    {
+      "region": "ew_glow4",
+      "file": "pieces/ew-glow4-a238560b.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "447,289,125,150"
+      }
+    },
+    {
+      "region": "ew_glow5",
+      "file": "pieces/ew-glow5-ad7f9a32.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "183,817,196,200"
+      }
+    },
+    {
+      "region": "ew_glow7",
+      "file": "pieces/ew-glow7-d2fb2c59.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "338,441,146,141"
+      }
+    },
+    {
+      "region": "ew_shadow1",
+      "file": "pieces/ew-shadow1-c88e2328.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "2,718,179,299"
+      }
+    },
+    {
+      "region": "ew_shadow2",
+      "file": "pieces/ew-shadow2-a539f76d.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "411,40,131,171"
+      }
+    },
+    {
+      "region": "ew_shadow3",
+      "file": "pieces/ew-shadow3-46c1571e.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "680,318,85,177"
+      }
+    },
+    {
+      "region": "ew_shadow4",
+      "file": "pieces/ew-shadow4-163ed840.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "532,877,117,140"
+      }
+    },
+    {
+      "region": "ew_shadow5",
+      "file": "pieces/ew-shadow5-999accbf.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "2,283,187,193"
+      }
+    },
+    {
+      "region": "ew_shadow6",
+      "file": "pieces/ew-shadow6-c9856bcb.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "753,139,85,177"
+      }
+    },
+    {
+      "region": "ew_shadow7",
+      "file": "pieces/ew-shadow7-557395b8.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "486,610,138,133"
+      }
+    },
+    {
+      "region": "ew_txt1",
+      "file": "pieces/ew-txt1-bf21ff23.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "157,94,138,187"
+      }
+    },
+    {
+      "region": "ew_txt2",
+      "file": "pieces/ew-txt2-1cacd047.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "763,885,89,132"
+      }
+    },
+    {
+      "region": "ew_txt3",
+      "file": "pieces/ew-txt3-b8ec3ca7.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "789,521,44,138"
+      }
+    },
+    {
+      "region": "ew_txt4",
+      "file": "pieces/ew-txt4-79bcb30f.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "736,661,77,100"
+      }
+    },
+    {
+      "region": "ew_txt5",
+      "file": "pieces/ew-txt5-c37b50a7.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "297,213,148,153"
+      }
+    },
+    {
+      "region": "ew_txt6",
+      "file": "pieces/ew-txt6-e1a00f9c.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "840,223,44,138"
+      }
+    },
+    {
+      "region": "ew_txt7",
+      "file": "pieces/ew-txt7-391acbd0.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "183,723,97,92"
+      }
+    },
+    {
+      "region": "mw_shadow1",
+      "file": "pieces/mw-shadow1-82fc3896.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "381,862,149,155"
+      }
+    },
+    {
+      "region": "mw_shadow2",
+      "file": "pieces/mw-shadow2-fcf1852b.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "616,753,105,122"
+      }
+    },
+    {
+      "region": "s_shadow4",
+      "file": "pieces/s-shadow4-8dae66df.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "616,753,105,122"
+      }
+    },
+    {
+      "region": "mw_shadow4",
+      "file": "pieces/mw-shadow4-c9b29d85.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "381,745,117,115"
+      }
+    },
+    {
+      "region": "mw_shadow7",
+      "file": "pieces/mw-shadow7-7c7865d7.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "600,497,114,111"
+      }
+    },
+    {
+      "region": "mw_txt1",
+      "file": "pieces/mw-txt1-928937e0.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "626,637,108,114"
+      }
+    },
+    {
+      "region": "mw_txt2",
+      "file": "pieces/mw-txt2-8c9a55d0.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "157,10,64,82"
+      }
+    },
+    {
+      "region": "mw_txt3",
+      "file": "pieces/mw-txt3-c43eab64.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "758,11,71,126"
+      }
+    },
+    {
+      "region": "mw_txt4",
+      "file": "pieces/mw-txt4-fa391bdb.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "2,2,77,75"
+      }
+    },
+    {
+      "region": "mw_txt5",
+      "file": "pieces/mw-txt5-e2005d5c.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "544,2,112,116"
+      }
+    },
+    {
+      "region": "mw_txt6",
+      "file": "pieces/mw-txt6-c1eba659.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "854,912,35,105"
+      }
+    },
+    {
+      "region": "mw_txt7",
+      "file": "pieces/mw-txt7-03263492.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "289,22,74,70"
+      }
+    },
+    {
+      "region": "s_shadow1",
+      "file": "pieces/s-shadow1-eef538f7.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "191,368,145,172"
+      }
+    },
+    {
+      "region": "s_shadow2",
+      "file": "pieces/s-shadow2-5c93c816.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "723,763,105,112"
+      }
+    },
+    {
+      "region": "s_shadow3",
+      "file": "pieces/s-shadow3-051f2e3a.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "651,877,110,140"
+      }
+    },
+    {
+      "region": "s_shadow5",
+      "file": "pieces/s-shadow5-7850d507.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "658,13,98,110"
+      }
+    },
+    {
+      "region": "s_txt1",
+      "file": "pieces/s-txt1-f051b8a7.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "574,313,104,132"
+      }
+    },
+    {
+      "region": "s_txt2",
+      "file": "pieces/s-txt2-6aca4fc3.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "282,742,64,73"
+      }
+    },
+    {
+      "region": "s_txt3",
+      "file": "pieces/s-txt3-b471bfd9.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "831,37,68,100"
+      }
+    },
+    {
+      "region": "s_txt4",
+      "file": "pieces/s-txt4-c085236b.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "223,10,64,82"
+      }
+    },
+    {
+      "region": "s_txt5",
+      "file": "pieces/s-txt5-5374ec6a.png",
+      "page": "wintiers.png",
+      "properties": {
+        "bounds": "191,296,57,70"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

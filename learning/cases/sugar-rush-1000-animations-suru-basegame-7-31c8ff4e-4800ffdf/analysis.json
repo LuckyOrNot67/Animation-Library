@@ -1,0 +1,224 @@
+{
+  "id": "sugar-rush-1000-animations-suru-basegame-7-31c8ff4e-4800ffdf",
+  "collection": "library",
+  "name": "suru_basegame_7",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-basegame-7-31c8ff4e",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 3,
+    "slots": 2,
+    "attachments": 2,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 26288,
+    "rgbaBytesEstimate": 105152,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 2,
+  "actions": [
+    {
+      "name": "suru_basegame",
+      "duration": 6,
+      "keyframes": 13,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "bones.fan_left2.rotate",
+          "keyframes": 13
+        }
+      ],
+      "animatedBones": [
+        "fan_left2"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-basegame-7-31c8ff4e-4800ffdf/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "right_frame",
+        "parent": "root",
+        "x": 592.99,
+        "y": 17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      },
+      {
+        "name": "fan_left2",
+        "parent": "right_frame",
+        "x": -47.49,
+        "y": -363.64,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "jar_top_candy2",
+        "bone": "right_frame",
+        "setupAttachment": "jar_top_candy",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "jar_top_sugar2",
+        "bone": "right_frame",
+        "setupAttachment": "jar_top_sugar",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "jar_top_candy2",
+        "name": "jar_top_candy",
+        "region": "jar_top_candy",
+        "type": "region",
+        "bone": "right_frame",
+        "transform": {
+          "x": -73.14,
+          "y": 34.51,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 119,
+          "height": 123
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "jar_top_sugar2",
+        "name": "jar_top_sugar",
+        "region": "jar_top_sugar",
+        "type": "region",
+        "bone": "right_frame",
+        "transform": {
+          "x": -72.14,
+          "y": 37.01,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 109,
+          "height": 90
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "suru_basegame",
+        "duration": 6,
+        "keyframes": 13,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "bones.fan_left2.rotate",
+            "keyframes": 13
+          }
+        ],
+        "animatedBones": [
+          "fan_left2"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 3,
+      "slots": 2,
+      "attachments": 2,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "jar_top_candy",
+      "file": "pieces/jar-top-candy-c8006a84.png",
+      "page": "suru_basegame_7.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "0, 0",
+        "size": "119, 123",
+        "orig": "119, 123",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "jar_top_sugar",
+      "file": "pieces/jar-top-sugar-3241736c.png",
+      "page": "suru_basegame_7.png",
+      "properties": {
+        "rotate": "false",
+        "xy": "0, 121",
+        "size": "109, 90",
+        "orig": "109, 90",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

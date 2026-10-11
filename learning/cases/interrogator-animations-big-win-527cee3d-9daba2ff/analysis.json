@@ -1,0 +1,2339 @@
+{
+  "id": "interrogator-animations-big-win-527cee3d-9daba2ff",
+  "collection": "library",
+  "name": "big_win",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/interrogator/animations/big-win-527cee3d",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 19,
+    "slots": 23,
+    "attachments": 24,
+    "meshAttachments": 2,
+    "meshUvPairs": 25,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 1048576,
+    "rgbaBytesEstimate": 4194304,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 16,
+  "actions": [
+    {
+      "name": "in",
+      "duration": 2,
+      "keyframes": 187,
+      "curvedKeys": 142,
+      "channels": [
+        {
+          "path": "slots.folder2.rgba",
+          "keyframes": 9
+        },
+        {
+          "path": "slots.frame_add.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.glass.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.glass_add.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.i_1_add.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.magnifying_glass.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.n_add.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.slime_1.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.slime_2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.slime_3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.slime_4.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.slime_5.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.w_add.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.elements.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.slime_3.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.slime_2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.slime_5.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.slime_1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.slime_4.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.w.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.w.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.i_1.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.i_1.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.n.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.n.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.b.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.b.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.i_2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.i_2.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.g.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.g.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.folder.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.folder.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.folder.scale",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.magnifying_glass.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.magnifying_glass.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.magnifying_glass.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.text.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.glow_add.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "attachments.default.folder2.folder.deform",
+          "keyframes": 10
+        }
+      ],
+      "animatedBones": [
+        "elements",
+        "slime_3",
+        "slime_2",
+        "slime_5",
+        "slime_1",
+        "slime_4",
+        "w",
+        "i_1",
+        "n",
+        "b",
+        "i_2",
+        "g",
+        "folder",
+        "magnifying_glass",
+        "text",
+        "glow_add"
+      ],
+      "animatedSlots": [
+        "folder2",
+        "frame_add",
+        "glass",
+        "glass_add",
+        "i_1_add",
+        "magnifying_glass",
+        "n_add",
+        "slime_1",
+        "slime_2",
+        "slime_3",
+        "slime_4",
+        "slime_5",
+        "w_add"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "loop",
+      "duration": 2,
+      "keyframes": 102,
+      "curvedKeys": 63,
+      "channels": [
+        {
+          "path": "slots.folder2.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_add.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.glass.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.glass_add.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.i_1_add.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.magnifying_glass.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.n_add.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.slime_1.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.slime_2.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.slime_3.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.slime_4.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.slime_5.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.w_add.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.elements.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.slime_3.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.slime_2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.slime_5.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.slime_1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.slime_4.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.w.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.w.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.i_1.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.i_1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.n.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.n.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.b.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.b.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.i_2.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.i_2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.g.translate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.g.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.folder.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.folder.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.folder.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.magnifying_glass.rotate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.magnifying_glass.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.magnifying_glass.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.text.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.glow_add.scale",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "elements",
+        "slime_3",
+        "slime_2",
+        "slime_5",
+        "slime_1",
+        "slime_4",
+        "w",
+        "i_1",
+        "n",
+        "b",
+        "i_2",
+        "g",
+        "folder",
+        "magnifying_glass",
+        "folder2",
+        "text",
+        "glow_add"
+      ],
+      "animatedSlots": [
+        "folder2",
+        "frame_add",
+        "glass",
+        "glass_add",
+        "i_1_add",
+        "magnifying_glass",
+        "n_add",
+        "slime_1",
+        "slime_2",
+        "slime_3",
+        "slime_4",
+        "slime_5",
+        "w_add"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "out",
+      "duration": 1,
+      "keyframes": 155,
+      "curvedKeys": 110,
+      "channels": [
+        {
+          "path": "slots.folder.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.folder2.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.frame_add.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.glass.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.glass_add.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.i_1_add.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.magnifying_glass.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.n_add.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.slime_1.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.slime_2.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.slime_3.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.slime_4.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "slots.slime_5.rgba",
+          "keyframes": 3
+        },
+        {
+          "path": "slots.w_add.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.elements.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.slime_3.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.slime_2.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.slime_5.scale",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.slime_1.scale",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.slime_4.translate",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.w.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.w.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.i_1.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.i_1.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.n.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.n.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.b.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.b.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.i_2.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.i_2.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.g.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.g.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.folder.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.folder.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.folder.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.magnifying_glass.rotate",
+          "keyframes": 2
+        },
+        {
+          "path": "bones.magnifying_glass.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.magnifying_glass.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.text.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.glow_add.scale",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "elements",
+        "slime_3",
+        "slime_2",
+        "slime_5",
+        "slime_1",
+        "slime_4",
+        "w",
+        "i_1",
+        "n",
+        "b",
+        "i_2",
+        "g",
+        "folder",
+        "magnifying_glass",
+        "text",
+        "glow_add"
+      ],
+      "animatedSlots": [
+        "folder",
+        "folder2",
+        "frame_add",
+        "glass",
+        "glass_add",
+        "i_1_add",
+        "magnifying_glass",
+        "n_add",
+        "slime_1",
+        "slime_2",
+        "slime_3",
+        "slime_4",
+        "slime_5",
+        "w_add"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/interrogator-animations-big-win-527cee3d-9daba2ff/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "big_win",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "elements",
+        "parent": "big_win",
+        "x": -5.66,
+        "y": 10.82,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "text",
+        "parent": "big_win",
+        "x": -5.62,
+        "y": -11.87,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "slime_2",
+        "parent": "elements",
+        "x": -139.14,
+        "y": 221.12,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "slime_5",
+        "parent": "elements",
+        "x": 144.89,
+        "y": 210.16,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "slime_1",
+        "parent": "elements",
+        "x": 139.8,
+        "y": -151.62,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "slime_4",
+        "parent": "elements",
+        "x": 85.66,
+        "y": 147.18,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "slime_3",
+        "parent": "elements",
+        "x": -54.84,
+        "y": 135.68,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "b",
+        "parent": "text",
+        "x": -69.38,
+        "y": 74.5,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "g",
+        "parent": "text",
+        "x": 64.62,
+        "y": 77.57,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "i_1",
+        "parent": "text",
+        "x": 17.17,
+        "y": -37.81,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "i_2",
+        "parent": "text",
+        "x": -3.88,
+        "y": 77.55,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "n",
+        "parent": "text",
+        "x": 83.12,
+        "y": -38.1,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "w",
+        "parent": "text",
+        "x": -67.88,
+        "y": -40.78,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "magnifying_glass",
+        "parent": "elements",
+        "x": -102.45,
+        "y": -214.48,
+        "length": 200,
+        "rotation": 117.95,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "folder",
+        "parent": "elements",
+        "x": 164.15,
+        "y": -120.03,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "folder2",
+        "parent": "folder",
+        "x": 5.36,
+        "y": 30.02,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "glow_add",
+        "parent": "big_win",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "back",
+        "bone": "root",
+        "setupAttachment": null,
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glow_add",
+        "bone": "glow_add",
+        "setupAttachment": "glow_add",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame",
+        "bone": "elements",
+        "setupAttachment": "frame",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "frame_add",
+        "bone": "elements",
+        "setupAttachment": "frame",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "slime_1",
+        "bone": "slime_1",
+        "setupAttachment": "slime_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "folder",
+        "bone": "folder",
+        "setupAttachment": "folder",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "folder2",
+        "bone": "folder2",
+        "setupAttachment": "folder",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glass",
+        "bone": "magnifying_glass",
+        "setupAttachment": "glass",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glass_add",
+        "bone": "magnifying_glass",
+        "setupAttachment": "glass",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "magnifying_glass",
+        "bone": "magnifying_glass",
+        "setupAttachment": "magnifying_glass",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "slime_2",
+        "bone": "slime_2",
+        "setupAttachment": "slime_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "slime_3",
+        "bone": "slime_3",
+        "setupAttachment": "slime_3",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "slime_4",
+        "bone": "slime_4",
+        "setupAttachment": "slime_4",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "slime_5",
+        "bone": "slime_5",
+        "setupAttachment": "slime_5",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "g",
+        "bone": "g",
+        "setupAttachment": "g",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "i_2",
+        "bone": "i_2",
+        "setupAttachment": "i_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "b",
+        "bone": "b",
+        "setupAttachment": "b",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "n",
+        "bone": "n",
+        "setupAttachment": "n",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "n_add",
+        "bone": "n",
+        "setupAttachment": "n",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "w",
+        "bone": "w",
+        "setupAttachment": "w",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "w_add",
+        "bone": "w",
+        "setupAttachment": "w",
+        "blend": "additive",
+        "color": "ffffffff"
+      },
+      {
+        "name": "i_1",
+        "bone": "i_1",
+        "setupAttachment": "i_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "i_1_add",
+        "bone": "i_1",
+        "setupAttachment": "i_1",
+        "blend": "additive",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "b",
+        "name": "b",
+        "region": "b",
+        "type": "region",
+        "bone": "b",
+        "transform": {
+          "x": 0,
+          "y": -11.64,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 114,
+          "height": 146
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "folder",
+        "name": "folder",
+        "region": "folder",
+        "type": "region",
+        "bone": "folder",
+        "transform": {
+          "x": -4.49,
+          "y": -5.3,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 202,
+          "height": 229
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "folder2",
+        "name": "folder",
+        "region": "folder",
+        "type": "mesh",
+        "bone": "folder2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 202,
+          "height": 229
+        },
+        "mesh": {
+          "uvPairs": 8,
+          "vertexNumbers": 16,
+          "triangles": 6,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame",
+        "name": "frame",
+        "region": "frame",
+        "type": "region",
+        "bone": "elements",
+        "transform": {
+          "x": -5.34,
+          "y": -4.82,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 426,
+          "height": 458
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "frame_add",
+        "name": "frame",
+        "region": "frame",
+        "type": "region",
+        "bone": "elements",
+        "transform": {
+          "x": -5.34,
+          "y": -4.82,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 426,
+          "height": 458
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "g",
+        "name": "g",
+        "region": "g",
+        "type": "region",
+        "bone": "g",
+        "transform": {
+          "x": 0,
+          "y": -7.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 110,
+          "height": 145
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glass",
+        "name": "glass",
+        "region": "glass",
+        "type": "region",
+        "bone": "magnifying_glass",
+        "transform": {
+          "x": 166.94,
+          "y": -0.41,
+          "rotation": -117.95,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 104,
+          "height": 106
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glass_add",
+        "name": "glass",
+        "region": "glass",
+        "type": "region",
+        "bone": "magnifying_glass",
+        "transform": {
+          "x": 166.94,
+          "y": -0.41,
+          "rotation": -117.95,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 104,
+          "height": 106
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "glow_add",
+        "name": "glow_add",
+        "region": "glow_add",
+        "type": "region",
+        "bone": "glow_add",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 7.1429,
+          "scaleY": 7.1429
+        },
+        "size": {
+          "width": 126,
+          "height": 126
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "i_1",
+        "name": "i_1",
+        "region": "i_1",
+        "type": "region",
+        "bone": "i_1",
+        "transform": {
+          "x": -5.54,
+          "y": -3.32,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 66,
+          "height": 140
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "i_1_add",
+        "name": "i_1",
+        "region": "i_1",
+        "type": "region",
+        "bone": "i_1",
+        "transform": {
+          "x": -5.54,
+          "y": -3.32,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 66,
+          "height": 140
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "i_2",
+        "name": "i_2",
+        "region": "i_2",
+        "type": "region",
+        "bone": "i_2",
+        "transform": {
+          "x": 0,
+          "y": -17.18,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 63,
+          "height": 161
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "magnifying_glass",
+        "name": "magnifying_glass",
+        "region": "magnifying_glass",
+        "type": "region",
+        "bone": "magnifying_glass",
+        "transform": {
+          "x": 113.92,
+          "y": 8.48,
+          "rotation": -117.95,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 172,
+          "height": 236
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "n",
+        "name": "n",
+        "region": "n",
+        "type": "region",
+        "bone": "n",
+        "transform": {
+          "x": 0,
+          "y": -10.53,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 105,
+          "height": 155
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "n_add",
+        "name": "n",
+        "region": "n",
+        "type": "region",
+        "bone": "n",
+        "transform": {
+          "x": 0,
+          "y": -10.53,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 105,
+          "height": 155
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "slime_1",
+        "name": "slime_1",
+        "region": "slime_1",
+        "type": "region",
+        "bone": "slime_1",
+        "transform": {
+          "x": -41.65,
+          "y": -46.2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 181,
+          "height": 144
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "slime_2",
+        "name": "slime_2",
+        "region": "slime_2",
+        "type": "mesh",
+        "bone": "slime_2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 166,
+          "height": 189
+        },
+        "mesh": {
+          "uvPairs": 17,
+          "vertexNumbers": 34,
+          "triangles": 15,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "slime_3",
+        "name": "slime_3",
+        "region": "slime_3",
+        "type": "region",
+        "bone": "slime_3",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 21,
+          "height": 33
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "slime_4",
+        "name": "slime_4",
+        "region": "slime_4",
+        "type": "region",
+        "bone": "slime_4",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 30,
+          "height": 44
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "slime_5",
+        "name": "slime_5",
+        "region": "slime_5",
+        "type": "region",
+        "bone": "slime_5",
+        "transform": {
+          "x": -15.23,
+          "y": -67.99,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 176,
+          "height": 176
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "w",
+        "name": "w",
+        "region": "w",
+        "type": "region",
+        "bone": "w",
+        "transform": {
+          "x": 0,
+          "y": -13.85,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 137,
+          "height": 165
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "w",
+        "name": "w2",
+        "region": "w",
+        "type": "region",
+        "bone": "w",
+        "transform": {
+          "x": 0,
+          "y": -13.85,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 137,
+          "height": 165
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "w_add",
+        "name": "w",
+        "region": "w",
+        "type": "region",
+        "bone": "w",
+        "transform": {
+          "x": 0,
+          "y": -13.85,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 137,
+          "height": 165
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "w_add",
+        "name": "w_add",
+        "region": "w",
+        "type": "region",
+        "bone": "w",
+        "transform": {
+          "x": 0,
+          "y": -13.85,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 137,
+          "height": 165
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "in",
+        "duration": 2,
+        "keyframes": 187,
+        "curvedKeys": 142,
+        "channels": [
+          {
+            "path": "slots.folder2.rgba",
+            "keyframes": 9
+          },
+          {
+            "path": "slots.frame_add.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.glass.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.glass_add.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.i_1_add.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.magnifying_glass.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.n_add.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.slime_1.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.slime_2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.slime_3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.slime_4.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.slime_5.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.w_add.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.elements.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.slime_3.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.slime_2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.slime_5.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.slime_1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.slime_4.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.w.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.w.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.i_1.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.i_1.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.n.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.n.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.b.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.b.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.i_2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.i_2.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.g.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.g.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.folder.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.folder.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.folder.scale",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.magnifying_glass.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.magnifying_glass.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.magnifying_glass.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.text.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.glow_add.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "attachments.default.folder2.folder.deform",
+            "keyframes": 10
+          }
+        ],
+        "animatedBones": [
+          "elements",
+          "slime_3",
+          "slime_2",
+          "slime_5",
+          "slime_1",
+          "slime_4",
+          "w",
+          "i_1",
+          "n",
+          "b",
+          "i_2",
+          "g",
+          "folder",
+          "magnifying_glass",
+          "text",
+          "glow_add"
+        ],
+        "animatedSlots": [
+          "folder2",
+          "frame_add",
+          "glass",
+          "glass_add",
+          "i_1_add",
+          "magnifying_glass",
+          "n_add",
+          "slime_1",
+          "slime_2",
+          "slime_3",
+          "slime_4",
+          "slime_5",
+          "w_add"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "loop",
+        "duration": 2,
+        "keyframes": 102,
+        "curvedKeys": 63,
+        "channels": [
+          {
+            "path": "slots.folder2.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_add.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.glass.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.glass_add.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.i_1_add.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.magnifying_glass.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.n_add.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.slime_1.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.slime_2.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.slime_3.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.slime_4.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.slime_5.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.w_add.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.elements.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.slime_3.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.slime_2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.slime_5.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.slime_1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.slime_4.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.w.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.w.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.i_1.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.i_1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.n.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.n.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.b.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.b.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.i_2.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.i_2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.g.translate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.g.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.folder.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.folder.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.folder.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.magnifying_glass.rotate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.magnifying_glass.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.magnifying_glass.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.text.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.glow_add.scale",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "elements",
+          "slime_3",
+          "slime_2",
+          "slime_5",
+          "slime_1",
+          "slime_4",
+          "w",
+          "i_1",
+          "n",
+          "b",
+          "i_2",
+          "g",
+          "folder",
+          "magnifying_glass",
+          "folder2",
+          "text",
+          "glow_add"
+        ],
+        "animatedSlots": [
+          "folder2",
+          "frame_add",
+          "glass",
+          "glass_add",
+          "i_1_add",
+          "magnifying_glass",
+          "n_add",
+          "slime_1",
+          "slime_2",
+          "slime_3",
+          "slime_4",
+          "slime_5",
+          "w_add"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "out",
+        "duration": 1,
+        "keyframes": 155,
+        "curvedKeys": 110,
+        "channels": [
+          {
+            "path": "slots.folder.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.folder2.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.frame_add.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.glass.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.glass_add.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.i_1_add.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.magnifying_glass.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.n_add.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.slime_1.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.slime_2.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.slime_3.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.slime_4.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "slots.slime_5.rgba",
+            "keyframes": 3
+          },
+          {
+            "path": "slots.w_add.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.elements.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.slime_3.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.slime_2.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.slime_5.scale",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.slime_1.scale",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.slime_4.translate",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.w.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.w.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.i_1.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.i_1.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.n.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.n.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.b.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.b.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.i_2.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.i_2.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.g.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.g.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.folder.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.folder.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.folder.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.magnifying_glass.rotate",
+            "keyframes": 2
+          },
+          {
+            "path": "bones.magnifying_glass.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.magnifying_glass.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.text.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.glow_add.scale",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "elements",
+          "slime_3",
+          "slime_2",
+          "slime_5",
+          "slime_1",
+          "slime_4",
+          "w",
+          "i_1",
+          "n",
+          "b",
+          "i_2",
+          "g",
+          "folder",
+          "magnifying_glass",
+          "text",
+          "glow_add"
+        ],
+        "animatedSlots": [
+          "folder",
+          "folder2",
+          "frame_add",
+          "glass",
+          "glass_add",
+          "i_1_add",
+          "magnifying_glass",
+          "n_add",
+          "slime_1",
+          "slime_2",
+          "slime_3",
+          "slime_4",
+          "slime_5",
+          "w_add"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 19,
+      "slots": 23,
+      "attachments": 24,
+      "meshAttachments": 2,
+      "meshUvPairs": 25,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "b",
+      "file": "pieces/b-031b32ba.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "734,881,110,143",
+        "offsets": "2,2,114,146"
+      }
+    },
+    {
+      "region": "folder",
+      "file": "pieces/folder-a565a883.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "0,339,200,227",
+        "offsets": "1,1,202,229"
+      }
+    },
+    {
+      "region": "frame",
+      "file": "pieces/frame-0cca43b8.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "0,568,424,456",
+        "offsets": "1,1,426,458"
+      }
+    },
+    {
+      "region": "g",
+      "file": "pieces/g-7399607f.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "846,881,107,143",
+        "offsets": "2,1,110,145"
+      }
+    },
+    {
+      "region": "glass",
+      "file": "pieces/glass-955ed46e.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "282,226,101,102",
+        "offsets": "2,1,104,106"
+      }
+    },
+    {
+      "region": "glow_add",
+      "file": "pieces/glow-add-3697bec3.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "168,216,112,112",
+        "offsets": "7,7,126,126"
+      }
+    },
+    {
+      "region": "i_1",
+      "file": "pieces/i-1-b5aa5bbb.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "955,887,62,137",
+        "offsets": "2,2,66,140"
+      }
+    },
+    {
+      "region": "i_2",
+      "file": "pieces/i-2-f28ab6cf.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "202,330,60,159",
+        "offsets": "1,1,63,161",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "magnifying_glass",
+      "file": "pieces/magnifying-glass-ce09d8d5.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "426,790,170,234",
+        "offsets": "1,1,172,236"
+      }
+    },
+    {
+      "region": "n",
+      "file": "pieces/n-2a621f31.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "0,44,102,152",
+        "offsets": "1,2,105,155",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "slime_1",
+      "file": "pieces/slime-1-d437eb19.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "426,609,179,142",
+        "offsets": "1,1,181,144",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "slime_2",
+      "file": "pieces/slime-2-16a5f164.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "0,148,166,189"
+      }
+    },
+    {
+      "region": "slime_3",
+      "file": "pieces/slime-3-17b30238.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "426,576,19,31",
+        "offsets": "1,1,21,33"
+      }
+    },
+    {
+      "region": "slime_4",
+      "file": "pieces/slime-4-912cd744.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "0,0,28,42",
+        "offsets": "1,1,30,44"
+      }
+    },
+    {
+      "region": "slime_5",
+      "file": "pieces/slime-5-24e0a0a1.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "202,392,174,174",
+        "offsets": "1,1,176,176"
+      }
+    },
+    {
+      "region": "w",
+      "file": "pieces/w-c38992cb.png",
+      "page": "big_win.png",
+      "properties": {
+        "bounds": "598,861,134,163",
+        "offsets": "2,1,137,165"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

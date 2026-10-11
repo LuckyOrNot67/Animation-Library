@@ -1,0 +1,472 @@
+{
+  "id": "odin-s-vault-animations-explosion-e91163e7-af324039",
+  "collection": "library",
+  "name": "explosion",
+  "machine": "odin-s-vault",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/odin-s-vault/animations/explosion-e91163e7",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 2,
+    "slots": 1,
+    "attachments": 10,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 493830,
+    "rgbaBytesEstimate": 1975320,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 10,
+  "actions": [
+    {
+      "name": "remove",
+      "duration": 0.4,
+      "keyframes": 14,
+      "curvedKeys": 2,
+      "channels": [
+        {
+          "path": "slots.smoke_01.rgba",
+          "keyframes": 2
+        },
+        {
+          "path": "slots.smoke_01.attachment",
+          "keyframes": 10
+        },
+        {
+          "path": "bones.smoke_01.scale",
+          "keyframes": 2
+        }
+      ],
+      "animatedBones": [
+        "smoke_01"
+      ],
+      "animatedSlots": [
+        "smoke_01"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/odin-s-vault-animations-explosion-e91163e7-af324039/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "smoke_01",
+        "parent": "root",
+        "x": 0.67,
+        "y": -1.26,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "smoke_01",
+        "bone": "smoke_01",
+        "setupAttachment": "smoke_01",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "smoke_01",
+        "name": "smoke_01",
+        "region": "smoke_01",
+        "type": "region",
+        "bone": "smoke_01",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 185,
+          "height": 164
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "smoke_01",
+        "name": "smoke_02",
+        "region": "smoke_02",
+        "type": "region",
+        "bone": "smoke_01",
+        "transform": {
+          "x": -0.5,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 206,
+          "height": 183
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "smoke_01",
+        "name": "smoke_03",
+        "region": "smoke_03",
+        "type": "region",
+        "bone": "smoke_01",
+        "transform": {
+          "x": -1,
+          "y": 0.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 227,
+          "height": 203
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "smoke_01",
+        "name": "smoke_04",
+        "region": "smoke_04",
+        "type": "region",
+        "bone": "smoke_01",
+        "transform": {
+          "x": -2,
+          "y": 2.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 243,
+          "height": 215
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "smoke_01",
+        "name": "smoke_05",
+        "region": "smoke_05",
+        "type": "region",
+        "bone": "smoke_01",
+        "transform": {
+          "x": -4,
+          "y": 3,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 249,
+          "height": 224
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "smoke_01",
+        "name": "smoke_06",
+        "region": "smoke_06",
+        "type": "region",
+        "bone": "smoke_01",
+        "transform": {
+          "x": -5.5,
+          "y": 6.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 248,
+          "height": 233
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "smoke_01",
+        "name": "smoke_07",
+        "region": "smoke_07",
+        "type": "region",
+        "bone": "smoke_01",
+        "transform": {
+          "x": -1.5,
+          "y": 10,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 258,
+          "height": 236
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "smoke_01",
+        "name": "smoke_08",
+        "region": "smoke_08",
+        "type": "region",
+        "bone": "smoke_01",
+        "transform": {
+          "x": -1,
+          "y": 19.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 255,
+          "height": 229
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "smoke_01",
+        "name": "smoke_09",
+        "region": "smoke_09",
+        "type": "region",
+        "bone": "smoke_01",
+        "transform": {
+          "x": 3,
+          "y": 16.5,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 243,
+          "height": 171
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "smoke_01",
+        "name": "smoke_10",
+        "region": "smoke_10",
+        "type": "region",
+        "bone": "smoke_01",
+        "transform": {
+          "x": -15,
+          "y": 2,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 107,
+          "height": 94
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "remove",
+        "duration": 0.4,
+        "keyframes": 14,
+        "curvedKeys": 2,
+        "channels": [
+          {
+            "path": "slots.smoke_01.rgba",
+            "keyframes": 2
+          },
+          {
+            "path": "slots.smoke_01.attachment",
+            "keyframes": 10
+          },
+          {
+            "path": "bones.smoke_01.scale",
+            "keyframes": 2
+          }
+        ],
+        "animatedBones": [
+          "smoke_01"
+        ],
+        "animatedSlots": [
+          "smoke_01"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 2,
+      "slots": 1,
+      "attachments": 10,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "smoke_01",
+      "file": "pieces/smoke-01-e8ff7958.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "226,2,183,162",
+        "offsets": "1,1,185,164"
+      }
+    },
+    {
+      "region": "smoke_02",
+      "file": "pieces/smoke-02-aa2481df.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "226,166,204,181",
+        "offsets": "1,1,206,183"
+      }
+    },
+    {
+      "region": "smoke_03",
+      "file": "pieces/smoke-03-7dc60d4a.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "260,835,225,201",
+        "offsets": "1,1,227,203",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "smoke_04",
+      "file": "pieces/smoke-04-92cf6ed6.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "250,349,241,213",
+        "offsets": "1,1,243,215",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "smoke_05",
+      "file": "pieces/smoke-05-643a8d0d.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "2,115,247,222",
+        "offsets": "1,1,249,224",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "smoke_06",
+      "file": "pieces/smoke-06-48dfc1b3.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "2,364,246,231",
+        "offsets": "1,1,248,233"
+      }
+    },
+    {
+      "region": "smoke_07",
+      "file": "pieces/smoke-07-33244f10.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "2,826,256,234",
+        "offsets": "1,1,258,236"
+      }
+    },
+    {
+      "region": "smoke_08",
+      "file": "pieces/smoke-08-bf166561.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "2,597,253,227",
+        "offsets": "1,1,255,229"
+      }
+    },
+    {
+      "region": "smoke_09",
+      "file": "pieces/smoke-09-30d39d66.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "260,592,241,169",
+        "offsets": "1,1,243,171",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "smoke_10",
+      "file": "pieces/smoke-10-ee8d8ff8.png",
+      "page": "explosion.webp",
+      "properties": {
+        "bounds": "2,10,103,92",
+        "offsets": "1,1,107,94",
+        "rotate": "90"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

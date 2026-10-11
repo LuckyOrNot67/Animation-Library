@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Bibliothèque locale de références d’animations, depuis des captures déposées par machine",
+  "description": "Corpus de références Spine et création par code pour animations originales de casino, lisible par Claude Code",
   "engines": {
     "node": ">=20"
   },
@@ -11,7 +11,13 @@
     "build": "node src/cli.js",
     "start": "node src/server.js",
     "test": "node --test test/*.test.js",
-    "check": "node src/check.js"
+    "check": "node src/check.js",
+    "sources:list": "node src/sources.js list",
+    "sources:fetch": "node src/sources.js",
+    "learn": "node src/learn.js",
+    "create:demo": "node src/create-demo.js",
+    "reference:search": "node src/search-references.js",
+    "prepare:claude": "node src/prepare.js"
   },
   "dependencies": {
     "sharp": "^0.35.5"

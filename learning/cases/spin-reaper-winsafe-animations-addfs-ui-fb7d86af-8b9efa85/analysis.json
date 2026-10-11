@@ -1,0 +1,638 @@
+{
+  "id": "spin-reaper-winsafe-animations-addfs-ui-fb7d86af-8b9efa85",
+  "collection": "library",
+  "name": "addfs_ui",
+  "machine": "spin-reaper-winsafe",
+  "format": "spine-json",
+  "version": "4.1.23",
+  "packagePath": "bibliotheque/spin-reaper-winsafe/animations/addfs-ui-fb7d86af",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 3,
+    "slots": 3,
+    "attachments": 4,
+    "meshAttachments": 0,
+    "meshUvPairs": 0,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 2048804,
+    "rgbaBytesEstimate": 8195216,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 21,
+  "actions": [
+    {
+      "name": "increment",
+      "duration": 0.5667,
+      "keyframes": 12,
+      "curvedKeys": 5,
+      "channels": [
+        {
+          "path": "slots.slot_fscount.rgba",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.slot_fscount_white.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.mockup_num1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.addfs_ui.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "events",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "mockup_num1",
+        "addfs_ui"
+      ],
+      "animatedSlots": [
+        "slot_fscount",
+        "slot_fscount_white"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [
+        {
+          "name": "update",
+          "time": 0.3
+        }
+      ],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "increment_super",
+      "duration": 0.5667,
+      "keyframes": 12,
+      "curvedKeys": 5,
+      "channels": [
+        {
+          "path": "slots.slot_fscount.rgba",
+          "keyframes": 1
+        },
+        {
+          "path": "slots.slot_fscount_white.rgba",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.mockup_num1.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "bones.addfs_ui.scale",
+          "keyframes": 3
+        },
+        {
+          "path": "events",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "mockup_num1",
+        "addfs_ui"
+      ],
+      "animatedSlots": [
+        "addfs_ui",
+        "slot_fscount",
+        "slot_fscount_white"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [
+        {
+          "name": "update",
+          "time": 0.3
+        }
+      ],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "static",
+      "duration": 0,
+      "keyframes": 0,
+      "curvedKeys": 0,
+      "channels": [],
+      "animatedBones": [],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "static_super",
+      "duration": 0,
+      "keyframes": 0,
+      "curvedKeys": 0,
+      "channels": [],
+      "animatedBones": [],
+      "animatedSlots": [
+        "addfs_ui"
+      ],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/spin-reaper-winsafe-animations-addfs-ui-fb7d86af-8b9efa85/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "addfs_ui",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "mockup_num1",
+        "parent": "addfs_ui",
+        "x": 0,
+        "y": -96,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "addfs_ui",
+        "bone": "addfs_ui",
+        "setupAttachment": "addfs_ui",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "slot_fscount",
+        "bone": "mockup_num1",
+        "setupAttachment": "mockup_num1",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "slot_fscount_white",
+        "bone": "mockup_num1",
+        "setupAttachment": "mockup_num1",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "addfs_ui",
+        "name": "addfs_ui",
+        "region": "addfs_ui",
+        "type": "region",
+        "bone": "addfs_ui",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 881,
+          "height": 657
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "addfs_ui",
+        "name": "addfs_ui_super",
+        "region": "addfs_ui_super",
+        "type": "region",
+        "bone": "addfs_ui",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 881,
+          "height": 657
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "slot_fscount",
+        "name": "mockup_num1",
+        "region": "mockup_num1",
+        "type": "region",
+        "bone": "mockup_num1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 670,
+          "height": 169
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "slot_fscount_white",
+        "name": "mockup_num1",
+        "region": "mockup_num1",
+        "type": "region",
+        "bone": "mockup_num1",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 670,
+          "height": 169
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "increment",
+        "duration": 0.5667,
+        "keyframes": 12,
+        "curvedKeys": 5,
+        "channels": [
+          {
+            "path": "slots.slot_fscount.rgba",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.slot_fscount_white.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.mockup_num1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.addfs_ui.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "events",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "mockup_num1",
+          "addfs_ui"
+        ],
+        "animatedSlots": [
+          "slot_fscount",
+          "slot_fscount_white"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [
+          {
+            "name": "update",
+            "time": 0.3
+          }
+        ],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "increment_super",
+        "duration": 0.5667,
+        "keyframes": 12,
+        "curvedKeys": 5,
+        "channels": [
+          {
+            "path": "slots.slot_fscount.rgba",
+            "keyframes": 1
+          },
+          {
+            "path": "slots.slot_fscount_white.rgba",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.mockup_num1.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "bones.addfs_ui.scale",
+            "keyframes": 3
+          },
+          {
+            "path": "events",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "mockup_num1",
+          "addfs_ui"
+        ],
+        "animatedSlots": [
+          "addfs_ui",
+          "slot_fscount",
+          "slot_fscount_white"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [
+          {
+            "name": "update",
+            "time": 0.3
+          }
+        ],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "static",
+        "duration": 0,
+        "keyframes": 0,
+        "curvedKeys": 0,
+        "channels": [],
+        "animatedBones": [],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "static_super",
+        "duration": 0,
+        "keyframes": 0,
+        "curvedKeys": 0,
+        "channels": [],
+        "animatedBones": [],
+        "animatedSlots": [
+          "addfs_ui"
+        ],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 3,
+      "slots": 3,
+      "attachments": 4,
+      "meshAttachments": 0,
+      "meshUvPairs": 0,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "H1_backhood",
+      "file": "pieces/h1-backhood-2c215e80.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "888,144,309,286",
+        "offsets": "0,0,312,286"
+      }
+    },
+    {
+      "region": "H1_eyes",
+      "file": "pieces/h1-eyes-8ad5b7cd.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1784,279,255,130",
+        "offsets": "1,2,257,134",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "H1_eyesglow",
+      "file": "pieces/h1-eyesglow-1224ce7f.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1861,22,255,130",
+        "offsets": "1,2,257,134",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "H1_eyesglow_super",
+      "file": "pieces/h1-eyesglow-super-2ca86601.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1199,23,255,130",
+        "offsets": "1,2,257,134"
+      }
+    },
+    {
+      "region": "H1_hand",
+      "file": "pieces/h1-hand-dadb2f33.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1916,472,62,59",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "H1_hood",
+      "file": "pieces/h1-hood-f52586b6.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1199,155,329,275"
+      }
+    },
+    {
+      "region": "H1_hood_super",
+      "file": "pieces/h1-hood-super-b95feb91.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1530,2,329,275"
+      }
+    },
+    {
+      "region": "H1_skull",
+      "file": "pieces/h1-skull-27546d36.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1784,782,244,205",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "H1_skull_super",
+      "file": "pieces/h1-skull-super-b0803dfb.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1784,536,244,205",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "addfs_popupui",
+      "file": "pieces/addfs-popupui-09e384c6.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "2,432,889,594",
+        "offsets": "7,8,902,609"
+      }
+    },
+    {
+      "region": "addfs_popupui_super",
+      "file": "pieces/addfs-popupui-super-ccbc1111.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "893,432,889,594",
+        "offsets": "7,8,902,609"
+      }
+    },
+    {
+      "region": "addfs_ui",
+      "file": "pieces/addfs-ui-58afcfc5.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "2,101,441,329"
+      }
+    },
+    {
+      "region": "addfs_ui_super",
+      "file": "pieces/addfs-ui-super-9c098c7a.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "445,101,441,329"
+      }
+    },
+    {
+      "region": "mockup_addfsnum",
+      "file": "pieces/mockup-addfsnum-03823c96.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1916,433,1,1"
+      }
+    },
+    {
+      "region": "mockup_num1",
+      "file": "pieces/mockup-num1-34628f9a.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1916,433,1,1"
+      }
+    },
+    {
+      "region": "mockup_freespins",
+      "file": "pieces/mockup-freespins-cb93f707.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "2,21,564,78"
+      }
+    },
+    {
+      "region": "mockup_freespins_super",
+      "file": "pieces/mockup-freespins-super-cd70cea5.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "568,21,564,78"
+      }
+    },
+    {
+      "region": "particle_medium",
+      "file": "pieces/particle-medium-1f662fe2.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1916,461,9,9"
+      }
+    },
+    {
+      "region": "particle_medium_super",
+      "file": "pieces/particle-medium-super-6c3c1289.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1916,450,9,9"
+      }
+    },
+    {
+      "region": "particle_small",
+      "file": "pieces/particle-small-adde7f63.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1916,443,5,5"
+      }
+    },
+    {
+      "region": "particle_small_super",
+      "file": "pieces/particle-small-super-58057642.png",
+      "page": "addfs.webp",
+      "properties": {
+        "bounds": "1916,436,5,5"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

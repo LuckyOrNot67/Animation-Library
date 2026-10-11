@@ -1,0 +1,857 @@
+{
+  "id": "interrogator-animations-vs-gator-8ccb9c89-fbd24cd5",
+  "collection": "library",
+  "name": "vs-gator",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/interrogator/animations/vs-gator-8ccb9c89",
+  "skeleton": "skeleton.json",
+  "complete": false,
+  "warnings": [
+    "Texture absente : wild_emblem.png"
+  ],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 12,
+    "slots": 2,
+    "attachments": 2,
+    "meshAttachments": 1,
+    "meshUvPairs": 1369,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 393129,
+    "rgbaBytesEstimate": 1572516,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 1,
+  "actions": [
+    {
+      "name": "hit",
+      "duration": 1.2,
+      "keyframes": 75,
+      "curvedKeys": 10,
+      "channels": [
+        {
+          "path": "bones.root.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.root.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.head.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.hat.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.brow.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.fist_l.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.fist_l.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.fist_l.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.fist_r.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.fist_r.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.fist_r.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.wrist_l.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.wrist_r.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.tie.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.wild_emblem.scale",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "root",
+        "head",
+        "hat",
+        "brow",
+        "fist_l",
+        "fist_r",
+        "wrist_l",
+        "wrist_r",
+        "tie",
+        "wild_emblem"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "idle",
+      "duration": 4,
+      "keyframes": 1746,
+      "curvedKeys": 624,
+      "channels": [
+        {
+          "path": "bones.body.rotate",
+          "keyframes": 97
+        },
+        {
+          "path": "bones.body.translate",
+          "keyframes": 97
+        },
+        {
+          "path": "bones.body.scale",
+          "keyframes": 97
+        },
+        {
+          "path": "bones.head.rotate",
+          "keyframes": 97
+        },
+        {
+          "path": "bones.hat.rotate",
+          "keyframes": 97
+        },
+        {
+          "path": "bones.muzzle.rotate",
+          "keyframes": 97
+        },
+        {
+          "path": "bones.muzzle.translate",
+          "keyframes": 97
+        },
+        {
+          "path": "bones.muzzle.scale",
+          "keyframes": 97
+        },
+        {
+          "path": "bones.brow.translate",
+          "keyframes": 97
+        },
+        {
+          "path": "bones.fist_l.rotate",
+          "keyframes": 97
+        },
+        {
+          "path": "bones.fist_l.translate",
+          "keyframes": 97
+        },
+        {
+          "path": "bones.fist_l.scale",
+          "keyframes": 97
+        },
+        {
+          "path": "bones.fist_r.rotate",
+          "keyframes": 97
+        },
+        {
+          "path": "bones.fist_r.translate",
+          "keyframes": 97
+        },
+        {
+          "path": "bones.fist_r.scale",
+          "keyframes": 97
+        },
+        {
+          "path": "bones.wrist_l.rotate",
+          "keyframes": 97
+        },
+        {
+          "path": "bones.wrist_r.rotate",
+          "keyframes": 97
+        },
+        {
+          "path": "bones.tie.rotate",
+          "keyframes": 97
+        }
+      ],
+      "animatedBones": [
+        "body",
+        "head",
+        "hat",
+        "muzzle",
+        "brow",
+        "fist_l",
+        "fist_r",
+        "wrist_l",
+        "wrist_r",
+        "tie"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "idle"
+      ]
+    },
+    {
+      "name": "land",
+      "duration": 0.48,
+      "keyframes": 8,
+      "curvedKeys": 0,
+      "channels": [
+        {
+          "path": "bones.root.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.root.scale",
+          "keyframes": 4
+        }
+      ],
+      "animatedBones": [
+        "root"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "win",
+      "duration": 1.2,
+      "keyframes": 75,
+      "curvedKeys": 10,
+      "channels": [
+        {
+          "path": "bones.root.translate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.root.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.head.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.hat.rotate",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.brow.translate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.fist_l.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.fist_l.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.fist_l.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.fist_r.rotate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.fist_r.translate",
+          "keyframes": 6
+        },
+        {
+          "path": "bones.fist_r.scale",
+          "keyframes": 5
+        },
+        {
+          "path": "bones.wrist_l.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.wrist_r.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.tie.rotate",
+          "keyframes": 4
+        },
+        {
+          "path": "bones.wild_emblem.scale",
+          "keyframes": 5
+        }
+      ],
+      "animatedBones": [
+        "root",
+        "head",
+        "hat",
+        "brow",
+        "fist_l",
+        "fist_r",
+        "wrist_l",
+        "wrist_r",
+        "tie",
+        "wild_emblem"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "win"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/interrogator-animations-vs-gator-8ccb9c89-fbd24cd5/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "body",
+        "parent": "root",
+        "x": 0,
+        "y": -250,
+        "length": 45,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "head",
+        "parent": "body",
+        "x": -20,
+        "y": 340,
+        "length": 45,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "hat",
+        "parent": "head",
+        "x": 70,
+        "y": 240,
+        "length": 45,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "muzzle",
+        "parent": "head",
+        "x": -240,
+        "y": -20,
+        "length": 45,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "brow",
+        "parent": "head",
+        "x": -20,
+        "y": 70,
+        "length": 45,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "fist_l",
+        "parent": "body",
+        "x": -280,
+        "y": 50,
+        "length": 45,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "fist_r",
+        "parent": "body",
+        "x": 230,
+        "y": 40,
+        "length": 45,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "wrist_l",
+        "parent": "body",
+        "x": -340,
+        "y": -110,
+        "length": 45,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "wrist_r",
+        "parent": "body",
+        "x": 320,
+        "y": -120,
+        "length": 45,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "tie",
+        "parent": "body",
+        "x": -30,
+        "y": -90,
+        "length": 45,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "wild_emblem",
+        "parent": "root",
+        "x": -5,
+        "y": -330,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "portrait",
+        "bone": "root",
+        "setupAttachment": "portrait",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "wild_emblem",
+        "bone": "wild_emblem",
+        "setupAttachment": "wild_emblem",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "portrait",
+        "name": "portrait",
+        "region": "portrait",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 1254,
+          "height": 1254
+        },
+        "mesh": {
+          "uvPairs": 1369,
+          "vertexNumbers": 20205,
+          "triangles": 2592,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "wild_emblem",
+        "name": "wild_emblem",
+        "region": "wild_emblem",
+        "type": "region",
+        "bone": "wild_emblem",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 0.3349,
+          "scaleY": 0.3349
+        },
+        "size": {
+          "width": 1318,
+          "height": 1318
+        },
+        "mesh": null,
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "hit",
+        "duration": 1.2,
+        "keyframes": 75,
+        "curvedKeys": 10,
+        "channels": [
+          {
+            "path": "bones.root.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.root.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.head.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.hat.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.brow.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.fist_l.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.fist_l.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.fist_l.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.fist_r.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.fist_r.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.fist_r.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.wrist_l.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.wrist_r.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.tie.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.wild_emblem.scale",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "root",
+          "head",
+          "hat",
+          "brow",
+          "fist_l",
+          "fist_r",
+          "wrist_l",
+          "wrist_r",
+          "tie",
+          "wild_emblem"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "idle",
+        "duration": 4,
+        "keyframes": 1746,
+        "curvedKeys": 624,
+        "channels": [
+          {
+            "path": "bones.body.rotate",
+            "keyframes": 97
+          },
+          {
+            "path": "bones.body.translate",
+            "keyframes": 97
+          },
+          {
+            "path": "bones.body.scale",
+            "keyframes": 97
+          },
+          {
+            "path": "bones.head.rotate",
+            "keyframes": 97
+          },
+          {
+            "path": "bones.hat.rotate",
+            "keyframes": 97
+          },
+          {
+            "path": "bones.muzzle.rotate",
+            "keyframes": 97
+          },
+          {
+            "path": "bones.muzzle.translate",
+            "keyframes": 97
+          },
+          {
+            "path": "bones.muzzle.scale",
+            "keyframes": 97
+          },
+          {
+            "path": "bones.brow.translate",
+            "keyframes": 97
+          },
+          {
+            "path": "bones.fist_l.rotate",
+            "keyframes": 97
+          },
+          {
+            "path": "bones.fist_l.translate",
+            "keyframes": 97
+          },
+          {
+            "path": "bones.fist_l.scale",
+            "keyframes": 97
+          },
+          {
+            "path": "bones.fist_r.rotate",
+            "keyframes": 97
+          },
+          {
+            "path": "bones.fist_r.translate",
+            "keyframes": 97
+          },
+          {
+            "path": "bones.fist_r.scale",
+            "keyframes": 97
+          },
+          {
+            "path": "bones.wrist_l.rotate",
+            "keyframes": 97
+          },
+          {
+            "path": "bones.wrist_r.rotate",
+            "keyframes": 97
+          },
+          {
+            "path": "bones.tie.rotate",
+            "keyframes": 97
+          }
+        ],
+        "animatedBones": [
+          "body",
+          "head",
+          "hat",
+          "muzzle",
+          "brow",
+          "fist_l",
+          "fist_r",
+          "wrist_l",
+          "wrist_r",
+          "tie"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "idle"
+        ]
+      },
+      {
+        "name": "land",
+        "duration": 0.48,
+        "keyframes": 8,
+        "curvedKeys": 0,
+        "channels": [
+          {
+            "path": "bones.root.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.root.scale",
+            "keyframes": 4
+          }
+        ],
+        "animatedBones": [
+          "root"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "win",
+        "duration": 1.2,
+        "keyframes": 75,
+        "curvedKeys": 10,
+        "channels": [
+          {
+            "path": "bones.root.translate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.root.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.head.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.hat.rotate",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.brow.translate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.fist_l.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.fist_l.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.fist_l.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.fist_r.rotate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.fist_r.translate",
+            "keyframes": 6
+          },
+          {
+            "path": "bones.fist_r.scale",
+            "keyframes": 5
+          },
+          {
+            "path": "bones.wrist_l.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.wrist_r.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.tie.rotate",
+            "keyframes": 4
+          },
+          {
+            "path": "bones.wild_emblem.scale",
+            "keyframes": 5
+          }
+        ],
+        "animatedBones": [
+          "root",
+          "head",
+          "hat",
+          "brow",
+          "fist_l",
+          "fist_r",
+          "wrist_l",
+          "wrist_r",
+          "tie",
+          "wild_emblem"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "win"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 12,
+      "slots": 2,
+      "attachments": 2,
+      "meshAttachments": 1,
+      "meshUvPairs": 1369,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "portrait",
+      "file": "pieces/portrait-e810c9da.png",
+      "page": "portrait.png",
+      "properties": {
+        "bounds": "0,0,627,627"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

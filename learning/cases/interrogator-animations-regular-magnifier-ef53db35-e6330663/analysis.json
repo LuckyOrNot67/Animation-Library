@@ -1,0 +1,489 @@
+{
+  "id": "interrogator-animations-regular-magnifier-ef53db35-e6330663",
+  "collection": "library",
+  "name": "regular-magnifier",
+  "machine": "interrogator",
+  "format": "spine-json",
+  "version": "4.2.43",
+  "packagePath": "bibliotheque/interrogator/animations/regular-magnifier-ef53db35",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 6,
+    "slots": 3,
+    "attachments": 3,
+    "meshAttachments": 3,
+    "meshUvPairs": 1071,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 1415162,
+    "rgbaBytesEstimate": 5660648,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 3,
+  "actions": [
+    {
+      "name": "land",
+      "duration": 0.7,
+      "keyframes": 302,
+      "curvedKeys": 126,
+      "channels": [
+        {
+          "path": "bones.sway.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.sway.translate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.grip.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.neck.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.rim.rotate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.lens_center.translate",
+          "keyframes": 43
+        },
+        {
+          "path": "bones.lens_center.scale",
+          "keyframes": 43
+        },
+        {
+          "path": "events",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "sway",
+        "grip",
+        "neck",
+        "rim",
+        "lens_center"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [
+        {
+          "name": "land",
+          "time": 0.12
+        }
+      ],
+      "tags": [
+        "unclassified"
+      ]
+    },
+    {
+      "name": "win",
+      "duration": 0.8,
+      "keyframes": 344,
+      "curvedKeys": 96,
+      "channels": [
+        {
+          "path": "bones.sway.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.sway.translate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.grip.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.neck.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.rim.rotate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.lens_center.translate",
+          "keyframes": 49
+        },
+        {
+          "path": "bones.lens_center.scale",
+          "keyframes": 49
+        },
+        {
+          "path": "events",
+          "keyframes": 1
+        }
+      ],
+      "animatedBones": [
+        "sway",
+        "grip",
+        "neck",
+        "rim",
+        "lens_center"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [],
+      "hasDrawOrder": false,
+      "events": [
+        {
+          "name": "win_impact",
+          "time": 0.27
+        }
+      ],
+      "tags": [
+        "win"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/interrogator-animations-regular-magnifier-ef53db35-e6330663/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "sway",
+        "parent": "root",
+        "x": 0,
+        "y": 0,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "grip",
+        "parent": "sway",
+        "x": 304.09,
+        "y": -340.72,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "neck",
+        "parent": "grip",
+        "x": -215.5,
+        "y": 241.91,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "rim",
+        "parent": "neck",
+        "x": -260.65,
+        "y": 275.13,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "lens_center",
+        "parent": "rim",
+        "x": 0.85,
+        "y": 1.7,
+        "length": 60,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "handle",
+        "bone": "root",
+        "setupAttachment": "handle",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "rim",
+        "bone": "root",
+        "setupAttachment": "rim",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "glass",
+        "bone": "root",
+        "setupAttachment": "glass",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "glass",
+        "name": "glass",
+        "region": "glass",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 585,
+          "height": 567
+        },
+        "mesh": {
+          "uvPairs": 357,
+          "vertexNumbers": 2557,
+          "triangles": 640,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "handle",
+        "name": "handle",
+        "region": "handle",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 554,
+          "height": 570
+        },
+        "mesh": {
+          "uvPairs": 357,
+          "vertexNumbers": 1785,
+          "triangles": 640,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "rim",
+        "name": "rim",
+        "region": "rim",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {
+          "width": 768,
+          "height": 742
+        },
+        "mesh": {
+          "uvPairs": 357,
+          "vertexNumbers": 1785,
+          "triangles": 640,
+          "weighted": true
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "land",
+        "duration": 0.7,
+        "keyframes": 302,
+        "curvedKeys": 126,
+        "channels": [
+          {
+            "path": "bones.sway.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.sway.translate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.grip.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.neck.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.rim.rotate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.lens_center.translate",
+            "keyframes": 43
+          },
+          {
+            "path": "bones.lens_center.scale",
+            "keyframes": 43
+          },
+          {
+            "path": "events",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "sway",
+          "grip",
+          "neck",
+          "rim",
+          "lens_center"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [
+          {
+            "name": "land",
+            "time": 0.12
+          }
+        ],
+        "tags": [
+          "unclassified"
+        ]
+      },
+      {
+        "name": "win",
+        "duration": 0.8,
+        "keyframes": 344,
+        "curvedKeys": 96,
+        "channels": [
+          {
+            "path": "bones.sway.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.sway.translate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.grip.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.neck.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.rim.rotate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.lens_center.translate",
+            "keyframes": 49
+          },
+          {
+            "path": "bones.lens_center.scale",
+            "keyframes": 49
+          },
+          {
+            "path": "events",
+            "keyframes": 1
+          }
+        ],
+        "animatedBones": [
+          "sway",
+          "grip",
+          "neck",
+          "rim",
+          "lens_center"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [],
+        "hasDrawOrder": false,
+        "events": [
+          {
+            "name": "win_impact",
+            "time": 0.27
+          }
+        ],
+        "tags": [
+          "win"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 6,
+      "slots": 3,
+      "attachments": 3,
+      "meshAttachments": 3,
+      "meshUvPairs": 1071,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "glass",
+      "file": "pieces/glass-38aa1cb3.png",
+      "page": "regular-magnifier.png",
+      "properties": {
+        "bounds": "772,159,585,567",
+        "rotate": "90"
+      }
+    },
+    {
+      "region": "handle",
+      "file": "pieces/handle-703c9179.png",
+      "page": "regular-magnifier.png",
+      "properties": {
+        "bounds": "1341,174,554,570"
+      }
+    },
+    {
+      "region": "rim",
+      "file": "pieces/rim-94260640.png",
+      "page": "regular-magnifier.png",
+      "properties": {
+        "bounds": "2,2,768,742"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}

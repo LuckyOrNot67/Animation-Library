@@ -1,0 +1,330 @@
+{
+  "id": "sugar-rush-1000-animations-suru-basegame-0-dd4f899d-21f78092",
+  "collection": "library",
+  "name": "suru_basegame_0",
+  "machine": "sugar-rush-1000",
+  "format": "spine-json",
+  "version": "3.7.91",
+  "packagePath": "bibliotheque/sugar-rush-1000/animations/suru-basegame-0-dd4f899d",
+  "skeleton": "skeleton.json",
+  "complete": true,
+  "warnings": [],
+  "provenance": {
+    "rights": "user-provided-unverified"
+  },
+  "complexity": {
+    "bones": 5,
+    "slots": 3,
+    "attachments": 3,
+    "meshAttachments": 3,
+    "meshUvPairs": 12,
+    "constraints": {
+      "ik": 0,
+      "transform": 0,
+      "path": 0,
+      "physics": 0
+    }
+  },
+  "textureCount": 1,
+  "textureBudget": {
+    "pixels": 154560,
+    "rgbaBytesEstimate": 618240,
+    "unknownDimensions": 0,
+    "note": "Estimation RGBA, pas une mesure GPU ni le nombre de draw calls."
+  },
+  "pieceCount": 3,
+  "actions": [
+    {
+      "name": "suru_basegame",
+      "duration": 6,
+      "keyframes": 35,
+      "curvedKeys": 6,
+      "channels": [
+        {
+          "path": "bones.fan_left.rotate",
+          "keyframes": 13
+        },
+        {
+          "path": "bones.fan_left2.rotate",
+          "keyframes": 13
+        },
+        {
+          "path": "deform.default.cloud_1.cloud_1",
+          "keyframes": 3
+        },
+        {
+          "path": "deform.default.cloud_2.cloud_2",
+          "keyframes": 3
+        },
+        {
+          "path": "deform.default.cloud_6.cloud_6",
+          "keyframes": 3
+        }
+      ],
+      "animatedBones": [
+        "fan_left",
+        "fan_left2"
+      ],
+      "animatedSlots": [],
+      "deformationSkins": [
+        "default"
+      ],
+      "hasDrawOrder": false,
+      "events": [],
+      "tags": [
+        "unclassified"
+      ]
+    }
+  ],
+  "analysisPath": "learning/cases/sugar-rush-1000-animations-suru-basegame-0-dd4f899d-21f78092/analysis.json",
+  "exactActionVisibility": false,
+  "rig": {
+    "bones": [
+      {
+        "name": "root",
+        "parent": null,
+        "x": 0,
+        "y": 0,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "left_frame",
+        "parent": "root",
+        "x": -619.2,
+        "y": 17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "fan_left",
+        "parent": "left_frame",
+        "x": -47.49,
+        "y": -363.64,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "right_frame",
+        "parent": "root",
+        "x": 592.99,
+        "y": 17,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": -1,
+        "scaleY": 1
+      },
+      {
+        "name": "fan_left2",
+        "parent": "right_frame",
+        "x": -47.49,
+        "y": -363.64,
+        "length": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "cloud_6",
+        "bone": "root",
+        "setupAttachment": "cloud_6",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_2",
+        "bone": "root",
+        "setupAttachment": "cloud_2",
+        "blend": "normal",
+        "color": "ffffffff"
+      },
+      {
+        "name": "cloud_1",
+        "bone": "root",
+        "setupAttachment": "cloud_1",
+        "blend": "normal",
+        "color": "ffffffff"
+      }
+    ],
+    "attachments": [
+      {
+        "skin": "default",
+        "slot": "cloud_1",
+        "name": "cloud_1",
+        "region": "cloud_1",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_2",
+        "name": "cloud_2",
+        "region": "cloud_2",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      },
+      {
+        "skin": "default",
+        "slot": "cloud_6",
+        "name": "cloud_6",
+        "region": "cloud_6",
+        "type": "mesh",
+        "bone": "root",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "size": {},
+        "mesh": {
+          "uvPairs": 4,
+          "vertexNumbers": 8,
+          "triangles": 2,
+          "weighted": false
+        },
+        "parent": null,
+        "sequence": null
+      }
+    ],
+    "actions": [
+      {
+        "name": "suru_basegame",
+        "duration": 6,
+        "keyframes": 35,
+        "curvedKeys": 6,
+        "channels": [
+          {
+            "path": "bones.fan_left.rotate",
+            "keyframes": 13
+          },
+          {
+            "path": "bones.fan_left2.rotate",
+            "keyframes": 13
+          },
+          {
+            "path": "deform.default.cloud_1.cloud_1",
+            "keyframes": 3
+          },
+          {
+            "path": "deform.default.cloud_2.cloud_2",
+            "keyframes": 3
+          },
+          {
+            "path": "deform.default.cloud_6.cloud_6",
+            "keyframes": 3
+          }
+        ],
+        "animatedBones": [
+          "fan_left",
+          "fan_left2"
+        ],
+        "animatedSlots": [],
+        "deformationSkins": [
+          "default"
+        ],
+        "hasDrawOrder": false,
+        "events": [],
+        "tags": [
+          "unclassified"
+        ]
+      }
+    ],
+    "complexity": {
+      "bones": 5,
+      "slots": 3,
+      "attachments": 3,
+      "meshAttachments": 3,
+      "meshUvPairs": 12,
+      "constraints": {
+        "ik": 0,
+        "transform": 0,
+        "path": 0,
+        "physics": 0
+      }
+    }
+  },
+  "atlasRegions": [
+    {
+      "region": "cloud_1",
+      "file": "pieces/cloud-1-a2a61c80.png",
+      "page": "suru_basegame_0.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "151, 0",
+        "size": "183, 77",
+        "orig": "183, 77",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_2",
+      "file": "pieces/cloud-2-f1ce233d.png",
+      "page": "suru_basegame_0.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "0, 19",
+        "size": "532, 149",
+        "orig": "532, 149",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    },
+    {
+      "region": "cloud_6",
+      "file": "pieces/cloud-6-070989c2.png",
+      "page": "suru_basegame_0.png",
+      "properties": {
+        "rotate": "true",
+        "xy": "151, 185",
+        "size": "366, 127",
+        "orig": "366, 127",
+        "offset": "0, 0",
+        "index": "-1"
+      }
+    }
+  ],
+  "note": "Les pièces couvrent les atlas associés ; leur présence ne prouve pas leur visibilité dans une action. Une pose exacte doit être évaluée par le runtime."
+}
