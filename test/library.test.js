@@ -251,3 +251,17 @@ test("HAR invalide : erreur compréhensible et verrou libéré", async (t) => {
   await assert.rejects(buildLibrary(root), /HAR invalide/);
   await assert.rejects(fs.access(path.join(root, ".build.lock")));
 });
+
+test("HAR 304 : conserve une réponse en cache quand son contenu est inclus", async (t) => {
+  const { root, input } = await fixture(t);
+  const har = await capture(input);
+  har.log.entries[2].response.status = 304;
+  await fs.rm(input, { recursive: true });
+  await fs.writeFile(
+    path.join(root, "reception", "Demo.har"),
+    JSON.stringify(har),
+  );
+  const c = await buildLibrary(root);
+  assert.equal(c.packages[0].complete, true);
+  assert.equal(c.packages[0].pieces.length, 1);
+});

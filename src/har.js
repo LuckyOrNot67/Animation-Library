@@ -36,7 +36,11 @@ export async function readHar(file) {
       continue;
     }
     const status = entry.response?.status;
-    if (!Number.isFinite(status) || status < 200 || status >= 300) {
+    if (
+      !Number.isFinite(status) ||
+      status < 200 ||
+      (status >= 300 && status !== 304)
+    ) {
       skipped++;
       continue;
     }

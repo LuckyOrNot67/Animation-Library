@@ -472,6 +472,14 @@ export async function buildMachine(input, output, name, harFiles = []) {
         reason: "Pas de contenu visuel reconnu",
       });
   }
+  if (imports.length && !packages.length) {
+    const imageCount = unique.filter((r) =>
+      ["image", "texture"].includes(r.det.kind),
+    ).length;
+    console.warn(
+      `Aucune animation reconnue pour ${name} : ${unique.filter((r) => ["spine-json", "spine-skel"].includes(r.det.kind)).length} skeleton(s), ${atlases.length} atlas, ${imageCount} image(s). Les visuels seuls restent dans autres/. Capture le chargement complet du jeu avec le contenu des réponses HAR.`,
+    );
+  }
   const manifest = {
     name,
     packages,
