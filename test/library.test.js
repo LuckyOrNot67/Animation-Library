@@ -158,3 +158,96 @@ test("pack UHT : extrait un skeleton dont le groupe est un GUID", async (t) => {
   const c = await buildLibrary(root);
   assert.ok(c.packages.some((p) => p.name === "packed-hero"));
 });
+
+async function capture(input) {
+  const entries = [];
+  for (const [name, mime, encoding] of [
+    ["hero.json", "application/json", null],
+    ["hero.atlas", "text/plain", null],
+    ["body.png", "image/png", "base64"],
+  ]) {
+    const bytes = await fs.readFile(path.join(input, name));
+    entries.push({
+      request: {
+        url: `https://cdn.example.test/game/${name}?token=SECRET_TOKEN`,
+        headers: [{ name: "Cookie", value: "PRIVATE_COOKIE" }],
+      },
+      response: {
+        status: 200,
+        content: {
+          mimeType: mime,
+          text: bytes.toString(encoding || "utf8"),
+          ...(encoding ? { encoding } : {}),
+        },
+      },
+    });
+  }
+  return { log: { entries } };
+}
+test("HAR déposé directement : crée la machine, associe les textures, conserve le HAR et exclut les secrets", async (t) => {
+  const { root, input } = await fixture(t);
+  const har = await capture(input);
+  const file = path.join(root, "reception", "gatorhunters2.har");
+  const text = JSON.stringify(har);
+  await fs.writeFile(file, text);
+  await fs.rm(input, { recursive: true });
+  const c = await buildLibrary(root, "gatorhunters2");
+  assert.equal(c.machines[0].name, "gatorhunters2");
+  assert.equal(c.packages[0].complete, true);
+  assert.equal(c.packages[0].pieces.length, 1);
+  assert.equal(c.packages[0].animations.length, 2);
+  assert.equal(await fs.readFile(file, "utf8"), text);
+  const manifest = JSON.parse(
+    await fs.readFile(
+      path.join(root, "bibliotheque/gatorhunters2/manifest.json"),
+      "utf8",
+    ),
+  );
+  assert.equal(manifest.imports[0].extracted, 3);
+  assert.ok(!JSON.stringify(manifest).includes("SECRET_TOKEN"));
+  assert.ok(!JSON.stringify(manifest).includes("PRIVATE_COOKIE"));
+  const again = await buildLibrary(root, "gatorhunters2.har");
+  assert.equal(again.packages[0].id, c.packages[0].id);
+});
+test("HAR dans un dossier : fusionne ses réponses avec les fichiers existants", async (t) => {
+  const { root, input } = await fixture(t);
+  const har = await capture(input);
+  await fs.rm(path.join(input, "body.png"));
+  await fs.writeFile(path.join(input, "capture.har"), JSON.stringify(har));
+  const c = await buildLibrary(root);
+  assert.equal(c.packages.length, 1);
+  assert.equal(c.packages[0].complete, true);
+});
+test("HAR sans réponses intégrées : explique le problème et conserve la sortie précédente", async (t) => {
+  const { root, input } = await fixture(t);
+  const old = await buildLibrary(root);
+  await fs.rm(input, { recursive: true });
+  await fs.writeFile(
+    path.join(root, "reception", "Demo.har"),
+    JSON.stringify({
+      log: {
+        entries: [
+          {
+            request: { url: "https://cdn.example.test/hero.json" },
+            response: {
+              status: 200,
+              content: { mimeType: "application/json" },
+            },
+          },
+        ],
+      },
+    }),
+  );
+  await assert.rejects(buildLibrary(root), /Aucune réponse exploitable/);
+  const c = JSON.parse(
+    await fs.readFile(path.join(root, "bibliotheque/catalogue.json"), "utf8"),
+  );
+  assert.equal(c.packages[0].id, old.packages[0].id);
+});
+test("HAR invalide : erreur compréhensible et verrou libéré", async (t) => {
+  const { root, input } = await fixture(t);
+  await fs.rm(input, { recursive: true });
+  await fs.writeFile(path.join(root, "reception", "Broken.har"), "{}");
+  await assert.rejects(buildLibrary(root), /HAR invalide/);
+  await assert.rejects(fs.access(path.join(root, ".build.lock")));
+});

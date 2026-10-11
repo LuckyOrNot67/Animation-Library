@@ -8,7 +8,7 @@ Node.js 20 ou plus récent.
 
 ```bash
 npm ci
-# Déposer les captures dans reception/Sugar Rush/, reception/Le Bandit/, etc.
+# Déposer reception/gatorhunters2.har (ou des fichiers dans reception/Sugar Rush/)
 npm run build
 npm start
 ```
@@ -21,10 +21,42 @@ npm test                               # tests de tri et reconstruction
 npm run check                          # validation de syntaxe
 ```
 
+## Déposer un HAR (workflow principal)
+
+Dépose directement `gatorhunters2.har` dans `reception/`. Le nom sans `.har` devient celui de la machine. Lance `npm run build` : le code extrait les réponses contenues dans le HAR, reconnaît les ressources visuelles, associe les animations et écrit `bibliotheque/gatorhunters2/`. Aucun dossier intermédiaire à créer.
+
+Un HAR placé dans `reception/Nom de machine/` fonctionne aussi et se combine aux fichiers déjà présents dans ce dossier. Si un dossier et un HAR à la racine ont exactement le même nom de machine, leurs ressources sont fusionnées. Les contenus identiques sont dédupliqués.
+
+### Sur Windows / PowerShell
+
+Dans le terminal ouvert à la racine du projet :
+
+```powershell
+git pull
+npm.cmd ci
+npm.cmd run build
+npm.cmd start
+```
+
+Pour traiter uniquement le HAR ajouté :
+
+```powershell
+npm.cmd run build -- --machine "gatorhunters2"
+```
+
+Puis ouvrir http://127.0.0.1:4173. Si le serveur est déjà lancé, arrête-le avec Ctrl+C avant de le relancer.
+
+### Si le HAR manque de contenu
+
+Exporte le journal Network **avec le contenu des réponses** (HAR with content), après rechargement du jeu et déclenchement des animations voulues. L’import ne télécharge pas les réponses manquantes sur Internet : leurs URLs peuvent expirer ou nécessiter la session du navigateur. Le terminal donne le nombre de réponses extraites et celles sans contenu ; `manifest.json` contient le rapport détaillé. Un HAR entièrement vide/inexploitable ou invalide provoque une erreur sans remplacer la sortie précédente. Une capture partielle produit des avertissements ; les ressources présentes restent consultables.
+
+Le HAR original reste local dans `reception/`, exclu de Git. Seuls les corps de réponse sont analysés : cookies, en-têtes et corps de requête ne sont pas copiés. Les paramètres des URLs ne sont pas exportés dans les métadonnées.
+
 ## Organisation
 
 ```text
-reception/                            # imports originaux, un dossier par machine
+reception/                            # imports originaux
+  gatorhunters2.har                    # nom du fichier = nom de la machine
   Sugar Rush/                         # fichiers décompressés, sous-dossiers conservés
 bibliotheque/                         # sortie générée
   sugar-rush/
@@ -48,7 +80,7 @@ Un **package** représente un rig/personnage/effet. Ses actions (idle, enter, sh
 
 ## Tri et formats
 
-Détection par contenu : Spine JSON/binaire, atlas, PNG/JPEG/WebP, spritesheets JSON et bundles JSON avec ressources embarquées. Les packs Pragmatic UHT numérotés et les textures KTX2/Basis sont pris en charge par les modules repris du projet original. La complétude dépend des fichiers réellement capturés. Les liens symboliques et fichiers cachés ne sont pas suivis. Décompresse les ZIP toi-même ; les HAR et pages HTML ne sont pas importés.
+Détection par contenu : Spine JSON/binaire, atlas, PNG/JPEG/WebP, spritesheets JSON et bundles JSON avec ressources embarquées. Les packs Pragmatic UHT numérotés et les textures KTX2/Basis sont pris en charge par les modules repris du projet original. La complétude dépend des fichiers réellement capturés. Les liens symboliques et fichiers cachés ne sont pas suivis. Les HAR sont importés directement : réponses texte et binaires base64, puis le même pipeline de détection et association. Décompresse les ZIP toi-même ; les pages HTML ne sont pas importées.
 
 Les associations utilisent les régions du skeleton, les noms, les chemins et les dimensions des textures. Les associations ambiguës ou partielles sont signalées. Les textures sont conservées avec le nom attendu par l’atlas. Les images reconnues mais non associées restent dans autres/. Les fichiers inutiles sont exclus de la sortie et listés dans manifest.json ; **les imports originaux ne sont jamais supprimés**.
 

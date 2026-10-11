@@ -24,7 +24,7 @@ function render() {
   $("cards").replaceChildren();
   if (!list.length) {
     $("cards").textContent =
-      "Aucun package trouvé. Dépose tes captures dans reception/Nom de machine/, puis lance npm run build.";
+      "Aucun package trouvé. Dépose reception/Nom de machine.har, puis lance npm run build (Windows : npm.cmd run build).";
     return;
   }
   for (const p of list) {

@@ -1,3 +1,4 @@
+import { readHar } from "./har.js";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
@@ -160,33 +161,58 @@ async function pieces(atlas, image, dest, warnings, cache) {
   });
   return entries;
 }
-export async function buildMachine(input, output, name) {
+export async function buildMachine(input, output, name, harFiles = []) {
   const resources = [],
     ignored = [],
     issues = [];
-  for (const file of await walk(input)) {
+  const imports = [];
+  function addResource(buf, source, key, filename) {
+    const r = resource(buf, source, key, filename);
+    resources.push(r);
+    if (r.det.kind === "json-bundle")
+      for (const e of r.det.embedded)
+        resources.push(
+          resource(
+            e.data,
+            source + "#" + e.jsonPath,
+            new URL(e.name, r.keys[0]).href,
+            e.name,
+          ),
+        );
+  }
+  const files = input ? await walk(input) : [];
+  for (const file of files) {
+    if (/\.har$/i.test(file)) {
+      harFiles.push(file);
+      continue;
+    }
     const source = path.relative(input, file).split(path.sep).join("/");
     try {
-      const r = resource(
-        await fs.readFile(file),
-        source,
-        pathToFileURL(file).href,
-      );
-      resources.push(r);
-      if (r.det.kind === "json-bundle")
-        for (const e of r.det.embedded)
-          resources.push(
-            resource(
-              e.data,
-              source + "#" + e.jsonPath,
-              new URL(e.name, r.keys[0]).href,
-              e.name,
-            ),
-          );
+      addResource(await fs.readFile(file), source, pathToFileURL(file).href);
     } catch (e) {
       issues.push({ file: source, error: e.message });
     }
   }
+  for (const file of harFiles) {
+    console.log(`Import HAR : ${path.basename(file)}`);
+    const imported = await readHar(file);
+    imports.push(imported.report);
+    issues.push(...imported.issues);
+    for (const asset of imported.assets) {
+      try {
+        addResource(asset.buf, asset.source, asset.key, asset.filename);
+      } catch (e) {
+        issues.push({ file: asset.source, error: e.message });
+      }
+    }
+    console.log(
+      `  ${imported.report.extracted} réponses extraites, ${imported.report.missingBodies} sans contenu.`,
+    );
+  }
+  if (harFiles.length && !resources.length)
+    throw new Error(
+      "Aucune réponse exploitable dans le HAR. Réexporte avec le contenu des réponses ; la bibliothèque précédente est conservée.",
+    );
   const vendor = await extractPragmatic(
     resources,
     (r) => r.buf,
@@ -452,6 +478,7 @@ export async function buildMachine(input, output, name) {
     ignored,
     issues,
     sourceFiles: resources.length,
+    imports,
   };
   await writeJson(path.join(output, "manifest.json"), manifest);
   return manifest;
@@ -464,14 +491,24 @@ export async function buildLibrary(root, machine = null) {
   // Exclusive build lock: another process must never swap the same library.
   const lock = await fs.open(path.join(root, ".build.lock"), "wx");
   try {
-    const dirs = (await fs.readdir(reception, { withFileTypes: true })).filter(
-      (e) =>
-        e.isDirectory() &&
-        !e.name.startsWith(".") &&
-        (!machine || e.name === machine),
-    );
+    const entries = await fs.readdir(reception, { withFileTypes: true });
+    const groups = new Map();
+    for (const e of entries) {
+      if (e.name.startsWith(".")) continue;
+      const isHar = e.isFile() && /\.har$/i.test(e.name);
+      if (!e.isDirectory() && !isHar) continue;
+      const name = isHar ? e.name.slice(0, -4) : e.name;
+      if (machine && name !== machine.replace(/\.har$/i, "")) continue;
+      const group = groups.get(name) || { name, input: null, harFiles: [] };
+      if (isHar) group.harFiles.push(path.join(reception, e.name));
+      else group.input = path.join(reception, e.name);
+      groups.set(name, group);
+    }
+    const dirs = [...groups.values()];
     if (machine && !dirs.length)
-      throw new Error(`Machine introuvable : ${machine}`);
+      throw new Error(
+        `Machine introuvable : ${machine} (dossier ou fichier .har dans reception/)`,
+      );
     const ids = new Set();
     for (const d of dirs) {
       const id = slugify(d.name);
@@ -490,7 +527,7 @@ export async function buildLibrary(root, machine = null) {
       const backup = path.join(library, ".backup-" + id);
       try {
         console.log(`Tri : ${d.name}`);
-        await buildMachine(path.join(reception, d.name), stage, d.name);
+        await buildMachine(d.input, stage, d.name, d.harFiles);
         let existed = false;
         try {
           await fs.rename(target, backup);
